@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CashAsIs | We Buy Houses As-Is in Houston</title>
+<link rel="icon" type="image/png" href="/assets/f9e5c6be9348.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D1B2A;
+    --navy-soft:#142436;
+    --orange:#F26D21;
+    --orange-dark:#d95c14;
+    --teal:#1B6F7A;
+    --ink:#0D1B2A;
+    --muted:#5a6675;
+    --line:#e6e9ef;
+    --bg:#ffffff;
+    --bg-alt:#f4f6f9;
+    --radius:14px;
+    --shadow:0 18px 50px -20px rgba(13,27,42,.35);
+    --shadow-sm:0 8px 24px -14px rgba(13,27,42,.4);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+  a{text-decoration:none;color:inherit}
+  img{max-width:100%;display:block}
+  h1,h2,h3{line-height:1.1;letter-spacing:-.01em}
+  .orange{color:var(--orange)}
+
+  /* ---------- Logo ---------- */
+  .logo{display:flex;align-items:center;gap:12px}
+  .logo .markimg{width:46px;height:46px;flex:none;object-fit:contain}
+  .logo .lockup{height:62px;width:auto;display:block}
+  .logo .lock{display:flex;flex-direction:column;line-height:1}
+  .logo .name{font-weight:800;font-size:25px;letter-spacing:-.035em}
+  .logo .name .navy{color:#fff}
+  .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
+  .logo .sub::before,.logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:9px;
+    font-weight:700;font-size:15px;border:none;cursor:pointer;border-radius:10px;
+    padding:15px 26px;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
+    font-family:inherit;
+  }
+  .btn-orange{background:var(--orange);color:#fff}
+  .btn-orange:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 14px 28px -12px rgba(242,109,33,.7)}
+  .btn-phone{
+    border:1.5px solid var(--orange);color:#fff;background:transparent;
+    border-radius:40px;font-size:16px;padding:11px 22px;
+  }
+  .btn-phone:hover{background:var(--orange);transform:translateY(-2px)}
+  .btn-block{width:100%}
+
+  /* ---------- Nav ---------- */
+  header{background:var(--navy);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.06)}
+  nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+  .nav-links{display:flex;gap:30px;align-items:center}
+  .nav-links a{color:#cdd5e0;font-weight:500;font-size:15px;transition:color .15s}
+  .nav-links a:hover{color:#fff}
+  .nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:6px}
+  .nav-toggle span{display:block;width:24px;height:2px;background:#fff;margin:5px 0;border-radius:2px}
+
+  /* ---------- Hero ---------- */
+  .hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
+  .hero-video{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;filter:saturate(.85) contrast(1.02)}
+  .hero-video iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:auto;height:auto;min-width:100%;min-height:100%;aspect-ratio:16/9;border:0}
+  .hero::before{
+    content:"";position:absolute;inset:0;z-index:1;
+    background:
+      radial-gradient(66% 96% at 50% 50%, rgba(13,27,42,.10) 0%, rgba(11,22,36,.42) 40%, rgba(7,15,27,.80) 74%, rgba(5,11,20,.96) 100%);
+  }
+  
+  .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .9fr;gap:48px;align-items:center;padding:70px 0 64px}
+  .hero h1{font-size:clamp(38px,5vw,58px);font-weight:800;margin-bottom:20px}
+  .hero .lead{font-size:20px;font-weight:500;color:#dfe5ee;max-width:430px;margin-bottom:34px;line-height:1.45}
+  .hero .lead strong{color:#fff;font-weight:700}
+  .trust{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .trust .item{display:flex;align-items:center;gap:9px;font-weight:600;font-size:14px;letter-spacing:.02em}
+  .trust .dot{width:5px;height:5px;border-radius:50%;background:var(--orange)}
+  .trust svg{width:24px;height:24px;color:var(--teal)}
+
+  /* Hero form */
+  .offer-card{background:#fff;color:var(--ink);border-radius:18px;padding:30px 28px;box-shadow:0 30px 60px -25px rgba(0,0,0,.6)}
+  .offer-card h2{text-align:center;font-size:25px;font-weight:800;margin-bottom:6px}
+  .offer-card p.sub{text-align:center;color:var(--muted);font-size:14px;margin-bottom:20px}
+  .field{position:relative;margin-bottom:13px}
+  .field svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:#9aa4b2}
+  .field input{
+    width:100%;padding:14px 14px 14px 42px;border:1.5px solid var(--line);border-radius:10px;
+    font-family:inherit;font-size:15px;color:var(--ink);transition:border .15s,box-shadow .15s;
+  }
+  .field input::placeholder{color:#9aa4b2}
+  .field input:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(242,109,33,.12)}
+  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  .consent{display:flex;gap:10px;align-items:flex-start;background:#fbf4ee;border:1px solid #f3d9c7;border-radius:9px;padding:11px 13px;margin:2px 0 14px;cursor:pointer}
+  .consent input{margin-top:2px;width:15px;height:15px;flex:none;accent-color:var(--orange)}
+  .consent span{font-size:11px;line-height:1.45;color:#6a7482}
+  .consent strong{color:var(--ink);font-weight:700}
+  .consent a{color:var(--orange);font-weight:600}
+  .secure{display:flex;align-items:center;gap:8px;justify-content:center;color:#cdd5e0;font-size:13px;margin-top:18px;position:relative;z-index:2}
+  .secure svg{width:14px;height:14px}
+
+  /* ---------- Features strip ---------- */
+  .features{margin:-36px auto 0;position:relative;z-index:5}
+  .features-inner{
+    background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);
+    display:grid;grid-template-columns:repeat(4,1fr);padding:8px;
+  }
+  .feature{display:flex;gap:14px;padding:22px 20px;align-items:flex-start;border-right:1px solid var(--line)}
+  .feature:last-child{border-right:none}
+  .feature .ic{flex:none;width:48px;height:48px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center}
+  .feature .ic svg{width:24px;height:24px;color:#fff}
+  .feature h3{font-size:16px;font-weight:700;margin-bottom:4px}
+  .feature p{font-size:13.5px;color:var(--muted);line-height:1.4}
+
+  /* ---------- Section base ---------- */
+  section{padding:50px 0}
+  .eyebrow-h{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:30px}
+  .eyebrow-h::before,.eyebrow-h::after{content:"";height:3px;width:34px;background:var(--orange);border-radius:2px}
+  .eyebrow-h h2{font-size:clamp(28px,3.4vw,38px);font-weight:800;text-align:center}
+
+  /* ---------- Ugly ones ---------- */
+  .ugly{display:grid;grid-template-columns:1fr 1.05fr;gap:54px;align-items:center}
+  .ugly h2{font-size:clamp(30px,3.6vw,40px);font-weight:800;margin-bottom:18px}
+  .ugly h2 .bar{display:block;width:64px;height:4px;background:var(--orange);border-radius:3px;margin-top:14px}
+  .ugly p.intro{color:var(--muted);font-size:16px;max-width:420px;margin-bottom:24px}
+  .checks{display:grid;grid-template-columns:1fr 1fr;gap:13px 22px}
+  .check{display:flex;align-items:center;gap:10px;font-weight:600;font-size:15.5px}
+  .check svg{width:20px;height:20px;color:var(--orange);flex:none}
+  .ugly-visual{
+    position:relative;border-radius:16px;min-height:340px;overflow:hidden;
+    background:#2f2a24;box-shadow:var(--shadow);
+  }
+  .ugly-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+  .ugly-visual::before{
+    content:"";position:absolute;inset:0;z-index:1;
+    background:linear-gradient(transparent 45%, rgba(8,16,28,.55));
+  }
+  /* simple house line art */
+  .ugly-visual .house{position:absolute;right:8%;top:50%;transform:translateY(-50%);width:62%;opacity:.9;color:rgba(255,255,255,.16)}
+  .ugly-card{
+    position:absolute;left:26px;bottom:26px;z-index:2;background:var(--navy);color:#fff;
+    padding:20px 24px;border-radius:12px;font-size:21px;font-weight:800;line-height:1.25;box-shadow:var(--shadow-sm);
+  }
+
+  /* ---------- How it works ---------- */
+  .how{background:var(--bg-alt)}
+  .how-eyebrow{text-align:center;color:var(--orange);font-weight:800;font-size:13px;letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:14px}
+  .how-eyebrow::before{content:"";width:26px;height:3px;background:var(--orange);border-radius:2px}
+  .how-title{text-align:center;font-size:clamp(30px,3.8vw,44px);font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
+  .how-sub{text-align:center;color:var(--muted);font-size:16px;max-width:520px;margin:0 auto 32px;line-height:1.5}
+  .hiw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;position:relative}
+  .hiw-grid::before{content:"";position:absolute;top:66px;left:17%;right:17%;height:2px;background:linear-gradient(90deg,var(--orange),var(--teal));opacity:.35;z-index:0}
+  .hiw-card{position:relative;z-index:1;background:#fff;border:1px solid var(--line);border-radius:16px;padding:46px 30px 34px;text-align:center;box-shadow:0 10px 30px -18px rgba(13,27,42,.4);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+  .hiw-card:hover{transform:translateY(-8px);box-shadow:0 30px 52px -22px rgba(13,27,42,.55);border-color:#f3d9c7}
+  .hiw-card.featured{border-color:var(--orange)}
+  .hiw-num{width:46px;height:46px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center;margin:0 auto 22px;box-shadow:0 8px 18px -8px rgba(242,109,33,.8)}
+  .hiw-card h3{font-size:19px;font-weight:800;margin-bottom:12px}
+  .hiw-card p{font-size:14.5px;color:var(--muted);line-height:1.55;max-width:260px;margin:0 auto}
+  .hiw-tag{text-align:center;color:var(--muted);font-size:16px;margin:30px 0 22px}
+  .hiw-tag strong{color:var(--ink);font-weight:800}
+  .hiw-cta{text-align:center}
+  .hiw-cta .btn{font-size:17px;padding:17px 40px;border-radius:40px;gap:8px}
+  .hiw-micro{color:var(--muted);font-size:13px;margin-top:14px}
+  /* compare */
+  .compare{background:var(--navy);color:#fff}
+  .compare .how-title{color:#fff}
+  .compare .how-sub{color:#b9c2cf}
+  .cmp{max-width:780px;margin:46px auto 0;border:1px solid rgba(255,255,255,.12);border-radius:14px;overflow:hidden;background:rgba(255,255,255,.03)}
+  .cmp-head{display:grid;grid-template-columns:1.25fr 1fr 1fr;background:rgba(255,255,255,.05);padding:15px 22px;font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#8c99a8}
+  .cmp-head .cs{color:var(--orange);display:flex;align-items:center;gap:8px}
+  .cmp-row{display:grid;grid-template-columns:1.25fr 1fr 1fr;padding:14px 22px;align-items:center;border-top:1px solid rgba(255,255,255,.07);font-size:14px}
+  .cmp-row:nth-child(even){background:rgba(255,255,255,.025)}
+  .cmp-label{font-weight:700;color:#e2e8f0}
+  .cmp-trad{display:flex;align-items:center;gap:9px;color:#aeb8c6}
+  .cmp-cash{display:flex;align-items:center;gap:9px;color:#fff;font-weight:700}
+  .cmp-x{color:#e2574f;flex:none}.cmp-c{color:#3fbf6a;flex:none}
+  .cmp-x svg,.cmp-c svg{width:16px;height:16px;display:block}
+  /* faq redesign */
+  .faq-list{margin:30px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start}
+  .faq2{background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 18px -14px rgba(13,27,42,.4);transition:box-shadow .2s ease,transform .2s ease}
+  .faq2:hover{box-shadow:0 16px 34px -20px rgba(13,27,42,.55);transform:translateY(-2px)}
+  .faq2 summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:700;font-size:14.5px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+  .faq2 summary::-webkit-details-marker{display:none}
+  .faq2 .pl{flex:none;width:24px;height:24px;border-radius:50%;background:rgba(242,109,33,.12);color:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;line-height:1;transition:transform .2s}
+  .faq2[open] .pl{transform:rotate(45deg)}
+  .faq2[open] summary{color:var(--orange)}
+  .faq2 .ans2{padding:0 18px 18px;color:var(--muted);font-size:14.5px;line-height:1.6}
+  /* video testimonials */
+  .vid-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .vid-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(13,27,42,.4);transition:transform .25s ease,box-shadow .25s ease}
+  .vid-card:hover{transform:translateY(-8px);box-shadow:0 30px 52px -22px rgba(13,27,42,.55)}
+  .vid-thumb{position:relative;aspect-ratio:16/10;cursor:pointer;overflow:hidden}
+  .vid-thumb video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .vid-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px -6px rgba(242,109,33,.85);transition:transform .2s}
+  .vid-card:hover .vid-play{transform:translate(-50%,-50%) scale(1.09)}
+  .vid-play svg{width:22px;height:22px;color:#fff;margin-left:3px}
+  .vid-body{padding:18px 18px 20px}
+  .vid-body h3{font-size:16px;font-weight:800;margin-bottom:7px}
+  .vid-loc{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--teal);font-weight:700;margin-bottom:9px}
+  .vid-loc svg{width:13px;height:13px}
+  .vid-body p{font-size:13.5px;color:var(--muted);line-height:1.5}
+  /* google reviews */
+  .rev-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+  .rev-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 20px;box-shadow:0 10px 30px -18px rgba(13,27,42,.4);transition:transform .25s ease,box-shadow .25s ease}
+  .rev-card:hover{transform:translateY(-8px);box-shadow:0 30px 52px -22px rgba(13,27,42,.55)}
+  .rev-head{display:flex;align-items:center;gap:11px;margin-bottom:12px}
+  .rev-av{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:16px;flex:none}
+  .rev-name{font-weight:700;font-size:14.5px;line-height:1.15}
+  .rev-time{font-size:12px;color:var(--muted)}
+  .rev-g{margin-left:auto;font-size:11px;color:#9aa4b2;font-weight:700;letter-spacing:.02em}
+  .rev-stars{display:flex;gap:2px;margin-bottom:10px}
+  .rev-stars svg{width:15px;height:15px;color:var(--orange)}
+  .rev-card p{font-size:13.5px;color:#46566a;line-height:1.55}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;position:relative}
+  .step{text-align:center;padding:0 14px;position:relative}
+  .step .badge{
+    position:absolute;left:50%;top:-2px;transform:translateX(-44px);
+    width:26px;height:26px;border-radius:50%;background:var(--orange);color:#fff;
+    font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;z-index:3;
+  }
+  .step .circle{
+    width:72px;height:72px;border-radius:50%;background:var(--navy);margin:0 auto 18px;
+    display:flex;align-items:center;justify-content:center;position:relative;
+  }
+  .step .circle svg{width:34px;height:34px;color:#fff}
+  .step h3{font-size:17px;font-weight:700;margin-bottom:6px}
+  .step p{font-size:14px;color:var(--muted);max-width:200px;margin:0 auto}
+  .step .arrow{position:absolute;right:-22px;top:24px;color:#c2cad6}
+  .step:last-child .arrow{display:none}
+  .step .arrow svg{width:22px;height:22px}
+
+  /* ---------- Testimonials ---------- */
+  .tcards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .tcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 24px;box-shadow:var(--shadow-sm)}
+  .stars{display:flex;gap:3px;margin-bottom:14px}
+  .stars svg{width:18px;height:18px;color:var(--orange)}
+  .tcard .quote{font-size:15.5px;color:#2d3a4a;margin-bottom:18px;line-height:1.5}
+  .tcard .who{font-weight:700;font-size:15px}
+  .tcard .city{font-size:13px;color:var(--muted)}
+
+  /* ---------- FAQ ---------- */
+  .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .faq{border:1px solid var(--line);border-radius:10px;background:#fff;overflow:hidden}
+  .faq summary{
+    list-style:none;cursor:pointer;padding:17px 20px;font-weight:600;font-size:15.5px;
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+  }
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary .chev{transition:transform .2s;flex:none;color:var(--muted)}
+  .faq summary .chev svg{width:18px;height:18px;display:block}
+  .faq[open] summary .chev{transform:rotate(180deg)}
+  .faq[open] summary{color:var(--orange)}
+  .faq .ans{padding:0 20px 18px;color:var(--muted);font-size:14.5px;line-height:1.55}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--navy);color:#cdd5e0}
+  .foot-grid{display:grid;grid-template-columns:1.3fr 1.4fr 1.2fr 1fr;gap:36px;padding:54px 0 30px;align-items:start}
+  .foot-blurb{font-size:14px;line-height:1.6;max-width:280px;margin-top:18px}
+  .foot-col h4{color:#fff;font-size:14px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px;font-weight:700}
+  .foot-contact{display:flex;flex-direction:column;gap:12px;font-size:14.5px}
+  .foot-contact a{display:flex;align-items:center;gap:11px;transition:color .15s}
+  .foot-contact a:hover{color:#fff}
+  .foot-contact svg{width:17px;height:17px;color:var(--orange);flex:none}
+  .socials{display:flex;gap:12px}
+  .socials a{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:background .15s,transform .15s}
+  .socials a:hover{background:var(--orange);transform:translateY(-2px)}
+  .socials svg{width:18px;height:18px;color:#fff}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding:20px 0;display:flex;justify-content:space-between;align-items:center;font-size:13.5px}
+  .foot-bottom .links{display:flex;gap:26px}
+  .foot-bottom a:hover{color:#fff}
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:980px){
+    .hero-grid{grid-template-columns:1fr;gap:36px;padding:48px 0}
+    .features-inner{grid-template-columns:1fr 1fr}
+    .feature:nth-child(2){border-right:none}
+    .ugly{grid-template-columns:1fr;gap:34px}
+    .steps{grid-template-columns:1fr 1fr;gap:40px 10px}
+    .step .arrow{display:none}
+    .hiw-grid{grid-template-columns:1fr;gap:18px}
+    .hiw-grid::before{display:none}
+    .vid-grid{grid-template-columns:1fr 1fr}
+    .rev-grid{grid-template-columns:1fr 1fr}
+    .tcards{grid-template-columns:1fr}
+    .vid-grid{grid-template-columns:1fr}
+    .rev-grid{grid-template-columns:1fr}
+    .faq-list{grid-template-columns:1fr 1fr}
+    .cmp-head{display:none}
+    .cmp-row{grid-template-columns:1fr;gap:6px;padding:16px 18px}
+    .cmp-label{font-size:15px;margin-bottom:2px}
+    .faq-grid{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr 1fr;gap:32px}
+  }
+  @media(max-width:680px){
+    .logo .lockup{height:48px}
+    .nav-links{
+      display:none;position:absolute;top:100%;left:0;right:0;background:var(--navy);
+      flex-direction:column;align-items:flex-start;gap:0;padding:8px 24px 20px;border-bottom:1px solid rgba(255,255,255,.08);
+    }
+    .nav-links.open{display:flex}
+    .nav-links a{padding:11px 0;width:100%;border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav-links .btn-phone{margin-top:12px;border-bottom:none}
+    .nav-toggle{display:block}
+    .features-inner{grid-template-columns:1fr}
+    .feature{border-right:none;border-bottom:1px solid var(--line)}
+    .feature:last-child{border-bottom:none}
+    .field-row{grid-template-columns:1fr}
+    .checks{grid-template-columns:1fr}
+    .steps{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr}
+    .foot-bottom{flex-direction:column;gap:12px;text-align:center}
+  }
+
+  /* ===== cash-offer modal ===== */
+  .cao-modal{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;background:rgba(5,11,20,.72);padding:20px}
+  .cao-modal.open{display:flex}
+  .cao-box{width:100%;max-width:560px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative;animation:caoIn .25s ease}
+  @keyframes caoIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .cao-close{position:absolute;top:12px;right:16px;background:none;border:0;color:rgba(255,255,255,.7);font-size:28px;line-height:1;cursor:pointer;z-index:2}
+  .cao-close:hover{color:#fff}
+  .cao-head{background:var(--navy,#0D1B2A);padding:26px 28px 0}
+  .cao-title{color:#fff;font-size:26px;font-weight:800;margin:0;line-height:1.1}
+  .cao-step{color:rgba(255,255,255,.55);font-size:14px;font-weight:600;margin:6px 0 18px}
+  .cao-bar{height:4px;background:rgba(255,255,255,.15);margin:0 -28px}
+  .cao-bar span{display:block;height:100%;background:var(--orange,#F26D21);transition:width .3s ease}
+  .cao-body{padding:24px 28px 28px}
+  .cao-q{font-size:18px;font-weight:800;color:var(--navy,#0D1B2A);margin:0 0 16px}
+  .cao-pane{display:none}
+  .cao-pane.active{display:block;animation:caoIn .22s ease}
+  .cao-opt{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:16px 18px;margin-bottom:12px;border:1.5px solid rgba(13,27,42,.12);border-radius:12px;background:#fff;cursor:pointer;transition:all .15s;font-family:inherit}
+  .cao-opt:hover{border-color:var(--orange,#F26D21);box-shadow:0 6px 16px rgba(13,27,42,.07)}
+  .cao-opt .dia{width:16px;height:16px;flex:0 0 auto;background:var(--d);transform:rotate(45deg);border-radius:3px}
+  .cao-opt .txt b{display:block;color:var(--navy,#0D1B2A);font-size:16px;font-weight:800}
+  .cao-opt .txt small{display:block;color:#64748b;font-size:13px;margin-top:2px}
+  .cao-back{margin-top:6px;background:#eef1f5;border:0;color:#475569;font-weight:700;padding:10px 20px;border-radius:999px;cursor:pointer;font-family:inherit;font-size:14px}
+  .cao-back:hover{background:#e2e7ee}
+  .cao-done{text-align:center;padding:18px 0 6px}
+  .cao-check{width:74px;height:74px;border-radius:50%;border:3px solid var(--orange,#F26D21);color:var(--orange,#F26D21);display:flex;align-items:center;justify-content:center;margin:0 auto 18px}
+  .cao-check svg{width:36px;height:36px}
+  .cao-done h4{font-size:26px;font-weight:800;color:var(--navy,#0D1B2A);margin:0 0 12px}
+  .cao-done p{color:#475569;font-size:16px;line-height:1.6;max-width:430px;margin:0 auto}
+  @media(max-width:560px){.cao-title{font-size:22px}.cao-done h4{font-size:22px}}
+</style>
+<meta name="description" content="We buy houses as-is in your area and surrounding communities. No repairs, no fees, no pressure. Get a fair cash offer in 24 hours.">
+<link rel="canonical" href="/">
+<meta property="og:title" content="CashAsIs | We Buy Houses As-Is in Houston">
+<meta property="og:description" content="We buy houses as-is in your area and surrounding communities. No repairs, no fees, no pressure. Get a fair cash offer in 24 hours.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.cashasis.com/">
+<meta property="og:image" content="https://www.cashasis.com/og-image.jpg">
+<meta property="og:site_name" content="CashAsIs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CashAsIs | We Buy Houses As-Is in Houston">
+<meta name="twitter:description" content="We buy houses as-is in your area and surrounding communities. No repairs, no fees, no pressure. Get a fair cash offer in 24 hours.">
+<meta name="twitter:image" content="https://www.cashasis.com/og-image.jpg">
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "name": "CashAsIs", "legalName": "Mr. Wright Properties LLC", "url": "https://www.cashasis.com/", "image": "https://www.cashasis.com/og-image.jpg", "telephone": "+1-346-584-6365", "email": "info@cashasis.com", "areaServed": {"@type": "City", "name": "Houston", "addressRegion": "TX"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.cashasis.com/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How quickly can you close?", "acceptedAnswer": {"@type": "Answer", "text": "We can close in as little as 7 days. If you need more time, that's fine too. You choose the closing date that works for you."}}, {"@type": "Question", "name": "Do I need to clean or make repairs before selling?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sell completely as-is. Leave behind whatever you don't want, skip the cleanup, and never lift a hammer. We handle it from there."}}, {"@type": "Question", "name": "Is this a real offer or just an estimate?", "acceptedAnswer": {"@type": "Answer", "text": "It's a real, no-obligation cash offer based on your actual property and situation, not a vague online estimate."}}, {"@type": "Question", "name": "Are there any fees or commissions?", "acceptedAnswer": {"@type": "Answer", "text": "None. No agent commissions, no listing fees, and no hidden costs. The offer we present is what you walk away with."}}, {"@type": "Question", "name": "What if I'm behind on payments or in foreclosure?", "acceptedAnswer": {"@type": "Answer", "text": "We can still help. We've worked with sellers behind on payments and facing foreclosure, and we move quickly to beat tight deadlines."}}, {"@type": "Question", "name": "What areas do you buy in?", "acceptedAnswer": {"@type": "Answer", "text": "We buy throughout the local area and surrounding communities. Not sure if we cover yours? Reach out and we'll let you know."}}]}</script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header>
+  <div class="wrap">
+    <nav>
+      <a href="#" class="logo" aria-label="CashAsIs home"><img class="lockup" src="/assets/cff1fed50362.png" alt="CashAsIs - We Buy Houses As-Is"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#how">How It Works</a>
+        <a href="#compare">Compare</a>
+        <a href="#about">About Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="/blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+13465846365" class="btn btn-phone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          (346) 584-6365
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<div class="hero">
+  <div class="hero-video">
+    <iframe src="https://player.vimeo.com/video/1199953523?background=1&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" title="trusted_buyers"></iframe>
+  </div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>Need To Sell<br>Your House <span class="orange">Fast?</span></h1>
+        <p class="lead"><strong>We Buy Houses As-Is.</strong><br>No Repairs. No Fees.<br>Close On Your Timeline.</p>
+        <div class="trust">
+          <span class="item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"/></svg>
+            NO REPAIRS
+          </span>
+          <span class="dot"></span>
+          <span class="item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5a2.5 2 0 0 0-2.5-1.5c-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.9 2.5 2-1 2-2.5 2a2.5 2 0 0 1-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg>
+            NO FEES
+          </span>
+          <span class="dot"></span>
+          <span class="item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>
+            NO PRESSURE
+          </span>
+        </div>
+      </div>
+
+      <div class="offer-card">
+        <h2>Get Your Cash Offer Today</h2>
+        <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
+        <form id="leadForm">
+          <div class="field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <input type="text" name="address" placeholder="Property Address" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+          </div>
+          <div class="field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            <input type="email" name="email" placeholder="Email Address" required>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span>By submitting, I consent to receive calls, emails &amp; texts (SMS/MMS) from CashAsIs / Mr. Wright Properties at the info provided. Msg &amp; data rates may apply. Reply <strong>STOP</strong> to opt out. Not a condition of purchase. <a href="/privacy">Privacy Policy</a> &amp; <a href="/terms">Terms</a>.</span>
+          </label>
+          <button type="submit" class="btn btn-orange btn-block">GET MY CASH OFFER</button>
+        <input type="hidden" name="condition">
+          <input type="hidden" name="timeline">
+          <input type="hidden" name="source" value="cashasis">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="secure">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      Your information is 100% secure and never shared.
+    </p>
+  </div>
+</div>
+
+<!-- ============ FEATURES STRIP ============ -->
+<div class="wrap features">
+  <div class="features-inner">
+    <div class="feature">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <div><h3>Real Cash Offers</h3><p>Get a fair, no-obligation cash offer in 24 hours.</p></div>
+    </div>
+    <div class="feature">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg></div>
+      <div><h3>Sell As-Is</h3><p>We buy houses in any condition. No repairs.</p></div>
+    </div>
+    <div class="feature">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+      <div><h3>Close Fast</h3><p>Close on your timeline. As little as 7 days.</p></div>
+    </div>
+    <div class="feature">
+      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5a2.5 2 0 0 0-2.5-1.5c-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.9 2.5 2-1 2-2.5 2a2.5 2 0 0 1-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg></div>
+      <div><h3>No Fees</h3><p>No commissions. No hidden costs.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ UGLY ONES ============ -->
+<section id="about">
+  <div class="wrap ugly">
+    <div>
+      <h2>We Buy<br><span class="orange">Even The Ugly Ones.</span><span class="bar"></span></h2>
+      <p class="intro">No matter the condition, situation, or reason, we've got you covered.</p>
+      <div class="checks">
+        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Foundation Issues</span>
+        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Vacant Houses</span>
+        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Fire Damage</span>
+        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Problem Tenants</span>
+        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Inherited Properties</span>
+        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>And More...</span>
+      </div>
+    </div>
+    <div class="ugly-visual">
+      <img class="ugly-photo" src="/assets/ce790012ce3c.png" alt="Distressed house we buy as-is">
+      <div class="ugly-card">Any Condition.<br>Any Situation.<br><span class="orange">We Can Help.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how" id="how">
+  <div class="wrap">
+    <p class="how-eyebrow">Simple as 1-2-3</p>
+    <h2 class="how-title">Get Your Cash Offer in 3 Simple Steps</h2>
+    <p class="how-sub">No agents, no repairs, no headaches. We've made selling your house ridiculously simple.</p>
+    <div class="hiw-grid">
+      <div class="hiw-card">
+        <div class="hiw-num">1</div>
+        <h3>Tell Us About Your Property</h3>
+        <p>Fill out our quick form, it takes less than 30 seconds. No cleanup or prep needed.</p>
+      </div>
+      <div class="hiw-card">
+        <div class="hiw-num">2</div>
+        <h3>We Review &amp; Analyze</h3>
+        <p>Mr. Wright personally reviews your property details and your situation. We do the research so you don't have to.</p>
+      </div>
+      <div class="hiw-card featured">
+        <div class="hiw-num">3</div>
+        <h3>You Get a Real Cash Offer</h3>
+        <p>We present a real, no-obligation cash offer within 24 hours. You decide what works, zero pressure, ever.</p>
+      </div>
+    </div>
+    <p class="hiw-tag">No pressure. No obligations. <strong>Just options.</strong></p>
+    <div class="hiw-cta">
+      <a href="#leadForm" class="btn btn-orange">Get My Offer <span>&rarr;</span></a>
+      <p class="hiw-micro">Takes 30 seconds &nbsp;&middot;&nbsp; No obligation &nbsp;&middot;&nbsp; No pressure</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEO TESTIMONIALS ============ -->
+<section id="stories">
+  <div class="wrap">
+    <p class="how-eyebrow">Real sellers. Real closings. No games.</p>
+    <h2 class="how-title">Watch How Homeowners Sold Fast</h2>
+    <p class="how-sub">Real people. Real situations. No scripts, no actors, just homeowners who needed to move on and did.</p>
+    <div class="vid-grid">
+      <div class="vid-card">
+        <div class="vid-thumb" data-video="" style="background:linear-gradient(135deg,#24384f,#0d1b2a)"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="vid-body">
+          <h3>Sold in 7 Days, No Repairs</h3>
+          <p>Had a water-damaged home I couldn't afford to fix. Got a fair offer and we closed fast, no drama at all.</p>
+        </div>
+      </div>
+      <div class="vid-card">
+        <div class="vid-thumb" data-video="" style="background:linear-gradient(135deg,#1d3b3f,#0d1b2a)"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="vid-body">
+          <h3>Stopped Foreclosure in Time</h3>
+          <p>I was 3 months behind and running out of time. Mr. Wright stepped in, made a fair offer, and saved my credit.</p>
+        </div>
+      </div>
+      <div class="vid-card">
+        <div class="vid-thumb" data-video="" style="background:linear-gradient(135deg,#3a2c22,#0d1b2a)"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="vid-body">
+          <h3>Inherited Property, Out of State</h3>
+          <p>Inherited my mom's house and lived in another state. CashAsIs handled everything. I never even had to be there.</p>
+        </div>
+      </div>
+      <div class="vid-card">
+        <div class="vid-thumb" data-video="" style="background:linear-gradient(135deg,#2b2f48,#0d1b2a)"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="vid-body">
+          <h3>Back Taxes, Closed Clean</h3>
+          <p>Owed three years of back taxes and didn't know what to do. They handled the lien payoff at closing. I walked away stress-free.</p>
+        </div>
+      </div>
+      <div class="vid-card">
+        <div class="vid-thumb" data-video="" style="background:linear-gradient(135deg,#203a4a,#0d1b2a)"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="vid-body">
+          <h3>Tired Landlord Finally Free</h3>
+          <p>Had a tenant destroying the property and not paying. Sold it with them still inside. Mr. Wright handled everything from there.</p>
+        </div>
+      </div>
+      <div class="vid-card">
+        <div class="vid-thumb" data-video="" style="background:linear-gradient(135deg,#3a2230,#0d1b2a)"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="vid-body">
+          <h3>Foundation Issues, Sold As-Is</h3>
+          <p>Three contractors quoted me $40k in foundation work. CashAsIs bought it anyway. No repairs, fair price, done in two weeks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="hiw-cta" style="margin-top:42px">
+      <a href="#leadForm" class="btn btn-orange">Get My Offer <span>&rarr;</span></a>
+      <p class="hiw-micro">Takes 30 seconds &nbsp;&middot;&nbsp; No obligation &nbsp;&middot;&nbsp; No pressure</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="how" id="reviews">
+  <div class="wrap">
+    <p class="how-eyebrow">Verified reviews</p>
+    <h2 class="how-title">What Sellers Are Saying</h2>
+    <div class="rev-grid" style="margin-top:40px">
+      <div class="rev-card">
+        <div class="rev-head">
+          <div class="rev-av" style="background:#2f7de1">J</div>
+          <div><div class="rev-name">Josie P.</div><div class="rev-time">4 months ago</div></div>
+          <span class="rev-g">Google</span>
+        </div>
+        <div class="rev-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg></div>
+        <p>"CashAsIs made selling our house stress-free. Their team was courteous and knowledgeable, guiding us every step of the way. Highly recommend."</p>
+      </div>
+      <div class="rev-card">
+        <div class="rev-head">
+          <div class="rev-av" style="background:#e23b3b">D</div>
+          <div><div class="rev-name">Dan Portillo</div><div class="rev-time">4 months ago</div></div>
+          <span class="rev-g">Google</span>
+        </div>
+        <div class="rev-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg></div>
+        <p>"Choosing CashAsIs was the best decision we made. Incredibly responsive and helpful. Impressed by their professionalism and integrity every step."</p>
+      </div>
+      <div class="rev-card">
+        <div class="rev-head">
+          <div class="rev-av" style="background:#2fa84f">E</div>
+          <div><div class="rev-name">Eddie Gonzales</div><div class="rev-time">5 months ago</div></div>
+          <span class="rev-g">Google</span>
+        </div>
+        <div class="rev-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg></div>
+        <p>"I highly recommend CashAsIs to anyone looking to sell fast. Excellent customer service and a fair price. Selling literally couldn't have been easier!"</p>
+      </div>
+      <div class="rev-card">
+        <div class="rev-head">
+          <div class="rev-av" style="background:#8b3fd1">M</div>
+          <div><div class="rev-name">Malbec G.</div><div class="rev-time">1 year ago</div></div>
+          <span class="rev-g">Google</span>
+        </div>
+        <div class="rev-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg></div>
+        <p>"CashAsIs made selling a total breeze. Professional, transparent, and efficient. Got a fair offer and closed fast, absolutely zero hassle."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARE ============ -->
+<section class="how compare" id="compare">
+  <div class="wrap">
+    <p class="how-eyebrow">Side by side</p>
+    <h2 class="how-title">Cash Sale vs. Traditional Listing</h2>
+    <p class="how-sub">See why thousands of homeowners choose a direct cash sale over the traditional route.</p>
+    <div class="cmp">
+      <div class="cmp-head"><span></span><span>Traditional Listing</span><span class="cs"><svg viewBox="0 0 24 24" fill="#F26D21" width="11" height="11" style="transform:rotate(45deg)"><rect x="5" y="5" width="14" height="14" rx="3"/></svg> CashAsIs Cash Sale</span></div>
+      <div class="cmp-row">
+        <span class="cmp-label">Time to Close</span>
+        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>3-6 months on market</span>
+        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Close in as few as 7 days</span>
+      </div>
+      <div class="cmp-row">
+        <span class="cmp-label">Commissions & Fees</span>
+        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>5-6% agent commissions</span>
+        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Zero fees or commissions</span>
+      </div>
+      <div class="cmp-row">
+        <span class="cmp-label">Repairs Required</span>
+        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Fix up before listing</span>
+        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Sell completely as-is</span>
+      </div>
+      <div class="cmp-row">
+        <span class="cmp-label">Showings & Open Houses</span>
+        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Strangers in your home</span>
+        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>No showings, ever</span>
+      </div>
+      <div class="cmp-row">
+        <span class="cmp-label">Deal Certainty</span>
+        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Buyers fall through</span>
+        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Cash is guaranteed</span>
+      </div>
+      <div class="cmp-row">
+        <span class="cmp-label">Closing Date</span>
+        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Bank & buyer control it</span>
+        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>You pick the date</span>
+      </div>
+    </div>
+    <div class="hiw-cta" style="margin-top:38px">
+      <a href="#leadForm" class="btn btn-orange">Get My Offer <span>&rarr;</span></a>
+      <p class="hiw-micro">Takes 30 seconds &nbsp;&middot;&nbsp; No obligation &nbsp;&middot;&nbsp; No pressure</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="how" id="faq">
+  <div class="wrap">
+    <p class="how-eyebrow">Questions &amp; answers</p>
+    <h2 class="how-title">Frequently Asked Questions</h2>
+    <p class="how-sub">Everything you need to know about selling your house for cash, no fluff.</p>
+    <div class="faq-list">
+      <details class="faq2">
+        <summary>How quickly can you close?<span class="pl">+</span></summary>
+        <div class="ans2">We can close in as little as 7 days. If you need more time, that's fine too. You choose the closing date that works for you.</div>
+      </details>
+      <details class="faq2">
+        <summary>Do I need to clean or make repairs before selling?<span class="pl">+</span></summary>
+        <div class="ans2">No. Sell completely as-is. Leave behind whatever you don't want, skip the cleanup, and never lift a hammer. We handle it from there.</div>
+      </details>
+      <details class="faq2">
+        <summary>Is this a real offer or just an estimate?<span class="pl">+</span></summary>
+        <div class="ans2">It's a real, no-obligation cash offer based on your actual property and situation, not a vague online estimate.</div>
+      </details>
+      <details class="faq2">
+        <summary>Are there any fees or commissions?<span class="pl">+</span></summary>
+        <div class="ans2">None. No agent commissions, no listing fees, and no hidden costs. The offer we present is what you walk away with.</div>
+      </details>
+      <details class="faq2">
+        <summary>What if I'm behind on payments or in foreclosure?<span class="pl">+</span></summary>
+        <div class="ans2">We can still help. We've worked with sellers behind on payments and facing foreclosure, and we move quickly to beat tight deadlines.</div>
+      </details>
+      <details class="faq2">
+        <summary>What areas do you buy in?<span class="pl">+</span></summary>
+        <div class="ans2">We buy throughout the local area and surrounding communities. Not sure if we cover yours? Reach out and we'll let you know.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="/" class="logo">
+          <span class="lock">
+            <span class="name"><span class="navy">Cash</span><span class="orange">AsIs</span></span>
+            <span class="sub">We Buy Houses As-Is</span>
+          </span>
+        </a>
+        <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <div class="foot-contact">
+          <a href="tel:+13465846365">(346) 584-6365</a>
+          <a href="mailto:info@cashasis.com">info@cashasis.com</a>
+          <a href="/">www.cashasis.com</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <div class="foot-contact">
+          <a href="/#how">How It Works</a>
+          <a href="/#about">About Us</a>
+          <a href="/#reviews">Reviews</a>
+          <a href="/#faq">FAQ</a>
+          <a href="/careers">Careers</a>
+          <a href="/referrals">Referrals</a>
+          <a href="/blog">Blog</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"></a>
+          <a href="#" aria-label="Instagram"></a>
+          <a href="#" aria-label="Google"></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2016-2026 CashAsIs. All Rights Reserved.</span>
+      <div class="links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+        <a href="/sms-tcpa">SMS / TCPA</a>
+        <a href="/disclaimer">Disclaimer</a>
+        <a href="/accessibility">Accessibility</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/robots.txt">Robots</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav
+  var t=document.getElementById('navToggle'),l=document.getElementById('navLinks');
+  t.addEventListener('click',function(){l.classList.toggle('open');});
+  l.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){l.classList.remove('open');});});
+
+  // Video testimonial play-on-click (set data-video to enable)
+  document.querySelectorAll('.vid-thumb[data-video]').forEach(function(t){
+    t.addEventListener('click',function(){
+      var src=t.getAttribute('data-video');
+      if(!src){return;}
+      t.innerHTML='<video src="'+src+'" controls autoplay playsinline></video>';
+    });
+  });
+
+  // Lead form (no backend wired yet)
+  document.getElementById('leadForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var b=this.querySelector('button');
+    b.textContent='REQUEST RECEIVED';
+    b.style.background='#1B6F7A';
+    setTimeout(function(){ b.textContent='GET MY CASH OFFER'; b.style.background=''; e.target.reset(); },2200);
+  });
+</script>
+
+<div class="cao-modal" id="caoModal" aria-hidden="true">
+  <div class="cao-box" role="dialog" aria-modal="true" aria-labelledby="caoTitle">
+    <button class="cao-close" id="caoClose" aria-label="Close">&times;</button>
+    <div class="cao-head">
+      <h3 class="cao-title" id="caoTitle">One Quick Question&hellip;</h3>
+      <p class="cao-step" id="caoStep">Step 2 of 3 &middot; Almost done</p>
+      <div class="cao-bar"><span id="caoBar" style="width:66%"></span></div>
+    </div>
+    <div class="cao-body">
+      <div class="cao-pane active" data-pane="2">
+        <h4 class="cao-q">What's the condition of your property?</h4>
+        <button type="button" class="cao-opt" data-field="condition" data-val="Move-In Ready"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>Move-In Ready</b><small>Clean, no major issues</small></span></button>
+        <button type="button" class="cao-opt" data-field="condition" data-val="Needs Work"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>Needs Work</b><small>Some repairs needed</small></span></button>
+        <button type="button" class="cao-opt" data-field="condition" data-val="Heavily Distressed"><span class="dia" style="--d:#e23b3b"></span><span class="txt"><b>Heavily Distressed</b><small>Major repairs or damage</small></span></button>
+        <button type="button" class="cao-opt" data-field="condition" data-val="Vacant / Abandoned"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Vacant / Abandoned</b><small>No one living there</small></span></button>
+      </div>
+      <div class="cao-pane" data-pane="3">
+        <h4 class="cao-q">What's your ideal timeline to close?</h4>
+        <button type="button" class="cao-opt" data-field="timeline" data-val="ASAP"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>ASAP</b><small>As fast as possible</small></span></button>
+        <button type="button" class="cao-opt" data-field="timeline" data-val="30 Days"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>30 Days</b><small>Within a month</small></span></button>
+        <button type="button" class="cao-opt" data-field="timeline" data-val="60-90 Days"><span class="dia" style="--d:#16a34a"></span><span class="txt"><b>60-90 Days</b><small>I have some time</small></span></button>
+        <button type="button" class="cao-opt" data-field="timeline" data-val="Just Exploring"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Just Exploring</b><small>No rush right now</small></span></button>
+        <button type="button" class="cao-back" id="caoBack">&larr; Back</button>
+      </div>
+      <div class="cao-pane cao-done" data-pane="4">
+        <div class="cao-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg></div>
+        <h4>You're All Set!</h4>
+        <p>We will review your property and reach out within <b>24 hours</b> with your cash offer. No pressure, no obligation.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var form=document.getElementById('leadForm');
+  var modal=document.getElementById('caoModal');
+  if(!form||!modal) return;
+  // ====================================================================
+  // PASTE YOUR GHL INBOUND WEBHOOK URL BELOW (GHL workflow > Inbound Webhook
+  // trigger). Until set, the flow still shows the success screen; leads
+  // just aren't POSTed. Funnel guy can drop this in.
+  var GHL_WEBHOOK_URL="PASTE_YOUR_GHL_INBOUND_WEBHOOK_URL_HERE";
+  // ====================================================================
+  var titleEl=document.getElementById('caoTitle'),stepEl=document.getElementById('caoStep'),barEl=document.getElementById('caoBar');
+  var panes=modal.querySelectorAll('.cao-pane');
+  var META={'2':{t:'One Quick Question\u2026',s:'Step 2 of 3 \u00b7 Almost done',w:'66%'},
+            '3':{t:'One Quick Question\u2026',s:'Step 3 of 3 \u00b7 Last one',w:'100%'},
+            '4':{t:"You're All Set!",s:'Offer incoming within 24 hours',w:'100%'}};
+  function pane(n){panes.forEach(function(p){p.classList.toggle('active',p.getAttribute('data-pane')===String(n));});var m=META[String(n)];if(m){titleEl.innerHTML=m.t;stepEl.innerHTML=m.s;barEl.style.width=m.w;}}
+  function open(){modal.classList.add('open');modal.setAttribute('aria-hidden','false');pane(2);document.body.style.overflow='hidden';}
+  function close(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.style.overflow='';}
+  form.addEventListener('submit',function(e){e.preventDefault();var r=form.querySelectorAll('input[required]');for(var i=0;i<r.length;i++){if(!r[i].checkValidity()){r[i].reportValidity();return;}}open();});
+  document.getElementById('caoClose').addEventListener('click',close);
+  modal.addEventListener('click',function(e){if(e.target===modal)close();});
+  var b=document.getElementById('caoBack');if(b)b.addEventListener('click',function(){pane(2);});
+  modal.querySelectorAll('.cao-opt').forEach(function(o){o.addEventListener('click',function(){
+    var f=o.getAttribute('data-field'),v=o.getAttribute('data-val');
+    var h=form.querySelector('input[name="'+f+'"]');if(h)h.value=v;
+    if(f==='condition'){setTimeout(function(){pane(3);},150);}else if(f==='timeline'){setTimeout(submitLead,150);}
+  });});
+  function submitLead(){var d={};new FormData(form).forEach(function(v,k){d[k]=v;});var c=form.querySelector('input[name="consent"]');d.consent=(c&&c.checked)?'yes':'no';d.page='homepage';d.site='cashasis.com';pane(4);if(GHL_WEBHOOK_URL.indexOf('PASTE_')===0)return;fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});}
+})();
+</script>
+</body>
+</html>

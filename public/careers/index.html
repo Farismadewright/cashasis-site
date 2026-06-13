@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Careers | CashAsIs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D1B2A;
+    --navy-soft:#142436;
+    --orange:#F26D21;
+    --orange-dark:#d95c14;
+    --teal:#1B6F7A;
+    --ink:#0D1B2A;
+    --muted:#5a6675;
+    --line:#e6e9ef;
+    --bg:#ffffff;
+    --bg-alt:#f4f6f9;
+    --green:#2fa84f;
+    --green-bg:#eef8f0;
+    --red:#e23b3b;
+    --red-bg:#fcecec;
+    --radius:14px;
+    --shadow:0 18px 50px -20px rgba(13,27,42,.35);
+    --shadow-sm:0 8px 24px -14px rgba(13,27,42,.4);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--bg-alt);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  a{text-decoration:none;color:inherit}
+  img{max-width:100%;display:block}
+  h1,h2,h3{line-height:1.1;letter-spacing:-.01em}
+  .orange{color:var(--orange)}
+
+  /* ---------- Logo ---------- */
+  .logo{display:flex;align-items:center;gap:12px}
+  .logo .lock{display:flex;flex-direction:column;line-height:1}
+  .logo .name{font-weight:800;font-size:24px;letter-spacing:-.035em}
+  .logo .name .navy{color:#fff}
+  .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
+  .logo .sub::before,.logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:9px;
+    font-weight:700;font-size:15px;border:none;cursor:pointer;border-radius:10px;
+    padding:15px 26px;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
+    font-family:inherit;
+  }
+  .btn-orange{background:var(--orange);color:#fff}
+  .btn-orange:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 14px 28px -12px rgba(242,109,33,.7)}
+  .btn-block{width:100%}
+  .btn-ghost{background:transparent;color:var(--orange);border:1.5px solid var(--orange)}
+  .btn-ghost:hover{background:var(--orange);color:#fff}
+  .btn:disabled{opacity:.55;cursor:not-allowed;transform:none;box-shadow:none}
+
+  /* ---------- Nav ---------- */
+  header{background:var(--navy);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.06)}
+  nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+  .nav-cta{color:#cdd5e0;font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px}
+  .nav-cta svg{width:18px;height:18px;color:var(--orange)}
+
+  /* ---------- Hero ---------- */
+  .hero{background:var(--navy);color:#fff;padding:46px 0 40px;text-align:center}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--orange);font-weight:800;font-size:12px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:16px}
+  .eyebrow::before,.eyebrow::after{content:"";width:22px;height:2px;background:var(--orange);border-radius:2px}
+  .hero h1{font-size:clamp(30px,5vw,44px);font-weight:800;margin-bottom:14px}
+  .hero p{font-size:17px;color:#dfe5ee;max-width:500px;margin:0 auto;line-height:1.5}
+  .hero p strong{color:#fff}
+  .hero-perks{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-top:22px}
+  .hero-perks span{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#dfe5ee;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px}
+  .hero-perks span svg{width:14px;height:14px;color:var(--orange);flex:none}
+
+  /* ---------- Card / form ---------- */
+  .card{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:30px 30px 34px;position:relative;z-index:5}
+  .card.lift{margin:-28px auto 22px}
+  .card.next-card{margin:0 auto 40px}
+
+  .card-intro{font-size:15px;color:var(--muted);margin:-2px 0 4px;line-height:1.5}
+
+  .section-head{display:flex;align-items:center;gap:12px;margin:26px 0 16px}
+  .section-head:first-of-type{margin-top:4px}
+  .section-head .diamond{width:14px;height:14px;flex:none;background:var(--orange);transform:rotate(45deg);border-radius:3px}
+  .section-head h3{font-size:16px;font-weight:800;letter-spacing:.01em}
+  .section-head .step{margin-left:auto;font-size:12px;font-weight:700;color:var(--muted)}
+
+  /* ---------- Roles info grid ---------- */
+  .role-info{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:4px}
+  .ri{border:1px solid var(--line);border-radius:12px;padding:16px 17px;background:var(--bg-alt)}
+  .ri h4{font-size:15px;font-weight:800;margin-bottom:5px;display:flex;align-items:center;gap:9px}
+  .ri h4 .dot{width:9px;height:9px;background:var(--orange);border-radius:50%;flex:none}
+  .ri p{font-size:13px;color:var(--muted);line-height:1.45}
+  .ri.wide{grid-column:1 / -1}
+
+  /* ---------- Fields ---------- */
+  .field{position:relative;margin-bottom:13px}
+  .field > svg{position:absolute;left:14px;top:50px;transform:translateY(-50%);width:18px;height:18px;color:#9aa4b2;pointer-events:none}
+  .field label{display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-bottom:6px}
+  .field input,.field textarea,.field select{
+    width:100%;padding:14px 14px 14px 42px;border:1.5px solid var(--line);border-radius:10px;
+    font-family:inherit;font-size:15px;color:var(--ink);transition:border .15s,box-shadow .15s;background:#fff;
+  }
+  .field textarea{padding-left:14px;min-height:120px;resize:vertical}
+  .field.no-icon input,.field.no-icon textarea,.field.no-icon select{padding-left:14px}
+  .field input::placeholder,.field textarea::placeholder{color:#9aa4b2}
+  .field input:focus,.field textarea:focus,.field select:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(242,109,33,.12)}
+  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+
+  /* select caret + placeholder state */
+  .field select{
+    cursor:pointer;appearance:none;-webkit-appearance:none;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239aa4b2' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;background-position:right 14px center;background-size:18px;padding-right:42px;
+  }
+  .field select.empty{color:#9aa4b2}
+
+  /* ---------- Role selector cards (availability / experience) ---------- */
+  .role-group{margin-bottom:13px}
+  .role-group > label{display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-bottom:6px}
+  .roles{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+  .role{position:relative}
+  .role input{position:absolute;opacity:0;pointer-events:none}
+  .role span{display:flex;align-items:center;justify-content:center;text-align:center;min-height:54px;padding:8px 6px;border:1.5px solid var(--line);border-radius:10px;font-size:13.5px;font-weight:600;color:var(--ink);cursor:pointer;transition:border .15s,background .15s,color .15s;background:#fff}
+  .role input:checked + span{border-color:var(--orange);background:rgba(242,109,33,.07);color:var(--orange-dark)}
+
+  /* ---------- Toggle ---------- */
+  .toggle{display:flex;align-items:center;gap:11px;background:var(--bg-alt);border:1px solid var(--line);border-radius:10px;padding:13px 15px;cursor:pointer;margin-bottom:13px}
+  .toggle input{width:17px;height:17px;flex:none;accent-color:var(--orange)}
+  .toggle span{font-size:14px;font-weight:600}
+  .toggle small{display:block;font-weight:500;color:var(--muted);font-size:12px;margin-top:1px}
+
+  /* ---------- Resume upload ---------- */
+  .drop{border:2px dashed var(--line);border-radius:12px;padding:26px 18px;text-align:center;cursor:pointer;transition:border .15s,background .15s;background:var(--bg-alt)}
+  .drop.drag{border-color:var(--orange);background:rgba(242,109,33,.06)}
+  .drop svg{width:30px;height:30px;color:var(--orange);margin:0 auto 8px}
+  .drop p{font-size:14px;font-weight:600}
+  .drop small{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+  .file-chip{display:flex;align-items:center;gap:11px;background:var(--bg-alt);border:1px solid var(--line);border-radius:10px;padding:12px 13px;margin-top:13px;font-size:14px;font-weight:600}
+  .file-chip > svg{width:20px;height:20px;color:var(--orange);flex:none}
+  .file-chip .meta{flex:1;min-width:0;overflow:hidden}
+  .file-chip .meta span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .file-chip .meta small{display:block;color:var(--muted);font-weight:500;font-size:12px}
+  .file-chip button{width:24px;height:24px;border:none;border-radius:50%;background:rgba(13,27,42,.8);color:#fff;cursor:pointer;font-size:14px;line-height:1;flex:none;display:flex;align-items:center;justify-content:center}
+  .or-link{margin-top:13px}
+  .or-link .field{margin-bottom:0}
+
+  /* ---------- Consent / secure ---------- */
+  .consent{display:flex;gap:10px;align-items:flex-start;background:#fbf4ee;border:1px solid #f3d9c7;border-radius:9px;padding:12px 14px;margin:20px 0 16px;cursor:pointer}
+  .consent input{margin-top:2px;width:16px;height:16px;flex:none;accent-color:var(--orange)}
+  .consent span{font-size:11.5px;line-height:1.45;color:#6a7482}
+  .consent strong{color:var(--ink);font-weight:700}
+  .consent a{color:var(--orange);font-weight:600}
+  .secure{display:flex;align-items:center;gap:8px;justify-content:center;color:var(--muted);font-size:13px;margin-top:16px}
+  .secure svg{width:14px;height:14px}
+
+  /* ---------- Result screen ---------- */
+  .screen{display:none}
+  .screen.active{display:block}
+  .result{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);margin:-28px auto 40px;padding:40px 30px;text-align:center;position:relative;z-index:5}
+  .result .badge{width:74px;height:74px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;background:var(--green-bg)}
+  .result .badge svg{width:38px;height:38px;color:var(--green)}
+  .result h2{font-size:26px;font-weight:800;margin-bottom:8px}
+  .result .reason{font-size:15px;color:var(--muted);max-width:440px;margin:0 auto 22px;line-height:1.5}
+  .next{background:var(--bg-alt);border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-align:left;display:flex;gap:12px;align-items:flex-start;margin-bottom:22px}
+  .next svg{width:20px;height:20px;color:var(--teal);flex:none;margin-top:2px}
+  .next p{font-size:14px;color:var(--ink)}
+  .next strong{font-weight:700}
+
+  /* ---------- Loading ---------- */
+  .loading{display:none;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;text-align:center}
+  .loading.active{display:flex}
+  .spinner{width:46px;height:46px;border:4px solid var(--line);border-top-color:var(--orange);border-radius:50%;animation:spin .8s linear infinite;margin-bottom:18px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .loading p{font-size:15px;font-weight:600}
+  .loading small{color:var(--muted);font-size:13px;margin-top:4px}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--navy);color:#cdd5e0;padding:30px 0;text-align:center;font-size:13px}
+  footer .logo{justify-content:center;margin-bottom:12px}
+  footer a{color:#cdd5e0}
+  footer a:hover{color:#fff}
+  .foot-links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+  .foot-contact{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;color:#aeb8c6}
+
+  @media(max-width:560px){
+    .field-row{grid-template-columns:1fr}
+    .role-info{grid-template-columns:1fr}
+    .card,.result{padding-left:20px;padding-right:20px}
+  }
+</style>
+<meta name="description" content="Join CashAsIs — acquisitions, dispositions, and field roles with a fast-growing Houston home-buying team.">
+<link rel="canonical" href="https://www.cashasis.com/careers">
+<meta property="og:title" content="Careers | CashAsIs">
+<meta property="og:description" content="Join CashAsIs — acquisitions, dispositions, and field roles with a fast-growing Houston home-buying team.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.cashasis.com/careers">
+<meta property="og:image" content="https://www.cashasis.com/og-image.jpg">
+<meta property="og:site_name" content="CashAsIs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Careers | CashAsIs">
+<meta name="twitter:description" content="Join CashAsIs — acquisitions, dispositions, and field roles with a fast-growing Houston home-buying team.">
+<meta name="twitter:image" content="https://www.cashasis.com/og-image.jpg">
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "name": "CashAsIs", "legalName": "Mr. Wright Properties LLC", "url": "https://www.cashasis.com/", "image": "https://www.cashasis.com/og-image.jpg", "telephone": "+1-346-584-6365", "email": "info@cashasis.com", "areaServed": {"@type": "City", "name": "Houston", "addressRegion": "TX"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.cashasis.com/"}, {"@type": "ListItem", "position": 2, "name": "Careers", "item": "https://www.cashasis.com/careers"}]}</script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="/" class="logo">
+      <span class="lock">
+        <span class="name"><span class="navy">Cash</span><span class="orange">AsIs</span></span>
+        <span class="sub">Careers</span>
+      </span>
+    </a>
+    <a href="tel:+13465846365" class="nav-cta">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+      (346) 584-6365
+    </a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Now Hiring</span>
+    <h1>Build a real estate career <br><span class="orange">that pays for performance.</span></h1>
+    <p>We buy houses as-is nationwide and we move fast. If you are hungry, coachable, and good with people, there is a seat for you on this team.</p>
+    <div class="hero-perks">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>Uncapped commission</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Hands-on mentorship</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>Room to grow</span>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <!-- ========== SCREEN 1: FORM ========== -->
+  <div id="screen-form" class="screen active">
+
+    <!-- ---- Roles overview ---- -->
+    <div class="card lift">
+      <div class="section-head" style="margin-top:0">
+        <span class="diamond"></span>
+        <h3>The Roles</h3>
+      </div>
+      <p class="card-intro">Pick the seat that fits how you work best. Not sure? Apply for the one closest and tell us in your note.</p>
+      <div class="role-info">
+        <div class="ri">
+          <h4><span class="dot"></span>Acquisitions</h4>
+          <p>Talk to motivated sellers, build trust fast, and negotiate agreements that work for both sides.</p>
+        </div>
+        <div class="ri">
+          <h4><span class="dot"></span>Dispositions</h4>
+          <p>Manage our buyer network and get every signed deal in front of the right buyer, quickly.</p>
+        </div>
+        <div class="ri">
+          <h4><span class="dot"></span>Lead Manager</h4>
+          <p>Work inbound and outbound leads, qualify them, and route the best ones to the closers.</p>
+        </div>
+        <div class="ri">
+          <h4><span class="dot"></span>Field Agent</h4>
+          <p>Hit targeted neighborhoods in person, start conversations, and set quality appointments.</p>
+        </div>
+        <div class="ri wide">
+          <h4><span class="dot"></span>Marketing</h4>
+          <p>Run the campaigns, content, and ads that keep the pipeline full and the brand sharp.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Application form ---- -->
+    <div class="card next-card">
+
+      <div class="section-head" style="margin-top:0">
+        <span class="diamond"></span>
+        <h3>About You</h3>
+        <span class="step">Step 1 of 3</span>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <label>Full Name</label>
+          <input id="app-name" type="text" placeholder="First and last name">
+        </div>
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <label>Phone</label>
+          <input id="app-phone" type="tel" placeholder="(___) ___-____">
+        </div>
+      </div>
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        <label>Email</label>
+        <input id="app-email" type="email" placeholder="you@email.com">
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <label>City You're Located In</label>
+          <input id="app-city" type="text" placeholder="e.g. Houston">
+        </div>
+        <div class="field no-icon">
+          <label>State</label>
+          <input id="app-state" type="text" placeholder="e.g. TX">
+        </div>
+      </div>
+
+      <div class="section-head">
+        <span class="diamond"></span>
+        <h3>The Role</h3>
+        <span class="step">Step 2 of 3</span>
+      </div>
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        <label>Position You're Applying For</label>
+        <select id="app-position" class="empty">
+          <option value="" disabled selected hidden>Select a position...</option>
+          <option value="Acquisitions">Acquisitions</option>
+          <option value="Dispositions">Dispositions</option>
+          <option value="Lead Manager">Lead Manager</option>
+          <option value="Field Agent">Field Agent</option>
+          <option value="Marketing">Marketing</option>
+        </select>
+      </div>
+
+      <div class="role-group">
+        <label>Availability</label>
+        <div class="roles">
+          <label class="role"><input type="radio" name="availability" value="Full-time"><span>Full-time</span></label>
+          <label class="role"><input type="radio" name="availability" value="Part-time"><span>Part-time</span></label>
+          <label class="role"><input type="radio" name="availability" value="Either"><span>Open to either</span></label>
+        </div>
+      </div>
+
+      <div class="role-group">
+        <label>Experience in sales or real estate</label>
+        <div class="roles">
+          <label class="role"><input type="radio" name="experience" value="New"><span>Just starting</span></label>
+          <label class="role"><input type="radio" name="experience" value="1-3 years"><span>1–3 years</span></label>
+          <label class="role"><input type="radio" name="experience" value="3+ years"><span>3+ years</span></label>
+        </div>
+      </div>
+
+      <label class="toggle">
+        <input id="app-transport" type="checkbox">
+        <span>I have reliable transportation
+          <small>Helpful for field roles like Field Agent and Acquisitions.</small>
+        </span>
+      </label>
+
+      <div class="section-head">
+        <span class="diamond"></span>
+        <h3>Your Story</h3>
+        <span class="step">Step 3 of 3</span>
+      </div>
+
+      <label style="display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-bottom:6px">Resume</label>
+      <div id="drop" class="drop">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        <p>Tap to upload your resume or drag it here</p>
+        <small>PDF, DOC, or DOCX</small>
+        <input id="file-input" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
+      </div>
+      <div id="resume-chip"></div>
+      <div class="or-link">
+        <div class="field no-icon">
+          <label>Or paste a link to your resume (Drive, Dropbox)</label>
+          <input id="resume-link" type="url" placeholder="https://...">
+        </div>
+      </div>
+
+      <div class="field no-icon" style="margin-top:13px">
+        <label>Tell us about you</label>
+        <textarea id="app-cover" placeholder="Why do you want to join CashAsIs, what are you great at, and what are you looking for? A short note in your own words goes a long way."></textarea>
+      </div>
+
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        <label>LinkedIn, portfolio, or social link (optional)</label>
+        <input id="app-link" type="url" placeholder="https://...">
+      </div>
+
+      <div class="field no-icon">
+        <label>How did you hear about us? (optional)</label>
+        <input id="app-source" type="text" placeholder="Instagram, a friend, Indeed, etc.">
+      </div>
+
+      <label class="consent">
+        <input id="consent" type="checkbox">
+        <span>I confirm the information above is accurate and agree to be contacted by phone, text, and email about my application. See our <a href="/terms" target="_blank">Terms</a> and <a href="/privacy" target="_blank">Privacy Policy</a>. <strong>Msg rates may apply.</strong></span>
+      </label>
+
+      <button id="submit-btn" class="btn btn-orange btn-block">
+        Submit Application
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px;height:18px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+
+      <div class="secure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        Your info is private and only used for hiring.
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== LOADING ========== -->
+  <div id="screen-loading" class="screen">
+    <div class="card lift">
+      <div class="loading active">
+        <div class="spinner"></div>
+        <p>Sending your application...</p>
+        <small>Hang tight, this only takes a second</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SUCCESS ========== -->
+  <div id="screen-success" class="screen">
+    <div class="result">
+      <div class="badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+      </div>
+      <h2>Application Received</h2>
+      <p class="reason" id="success-reason">Thanks for applying. We review every application that comes in.</p>
+      <div class="next">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        <p><strong>What happens now:</strong> If you look like a fit, someone from our team will reach out by phone or email to set up a quick conversation. Keep an eye on your messages.</p>
+      </div>
+      <button class="btn btn-ghost btn-block" onclick="resetForm()">Submit Another Application</button>
+    </div>
+  </div>
+
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="/" class="logo">
+          <span class="lock">
+            <span class="name"><span class="navy">Cash</span><span class="orange">AsIs</span></span>
+            <span class="sub">We Buy Houses As-Is</span>
+          </span>
+        </a>
+        <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <div class="foot-contact">
+          <a href="tel:+13465846365">(346) 584-6365</a>
+          <a href="mailto:info@cashasis.com">info@cashasis.com</a>
+          <a href="/">www.cashasis.com</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <div class="foot-contact">
+          <a href="/#how">How It Works</a>
+          <a href="/#about">About Us</a>
+          <a href="/#reviews">Reviews</a>
+          <a href="/#faq">FAQ</a>
+          <a href="/careers">Careers</a>
+          <a href="/referrals">Referrals</a>
+          <a href="/blog">Blog</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"></a>
+          <a href="#" aria-label="Instagram"></a>
+          <a href="#" aria-label="Google"></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2016-2026 CashAsIs. All Rights Reserved.</span>
+      <div class="links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+        <a href="/sms-tcpa">SMS / TCPA</a>
+        <a href="/disclaimer">Disclaimer</a>
+        <a href="/accessibility">Accessibility</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/robots.txt">Robots</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   WIRING NOTES  ->  hand this section to Claude Code / Railway
+   ------------------------------------------------------------
+   This page only collects + displays. POST the payload below to
+   your intake endpoint, which creates the applicant in the CRM,
+   uploads the resume to storage, tags it, and notifies the team.
+
+   FLOW:
+   1. Page POSTs the payload to CAREERS_ENDPOINT.
+   2. Endpoint stores resume (base64), creates applicant contact,
+      tags by position, and pings the hiring channel.
+   3. Endpoint returns { ok: true }.  Page shows the success screen.
+
+   TO GO LIVE: set DEMO = false and fill in the endpoint URL.
+   ============================================================ */
+const CAREERS_ENDPOINT = "https://YOUR-ENDPOINT-URL/careers"; // <-- fill in
+const DEMO = true; // <-- set to false once the endpoint is live
+
+/* ---- select placeholder color state ---- */
+const positionSel = document.getElementById('app-position');
+positionSel.addEventListener('change', () => {
+  positionSel.classList.toggle('empty', positionSel.value === '');
+});
+
+/* ---- resume upload (single file, base64) ---- */
+let resume = null; // {name, size, dataUrl}
+const fileInput = document.getElementById('file-input');
+const drop = document.getElementById('drop');
+const chip = document.getElementById('resume-chip');
+
+drop.addEventListener('click', () => fileInput.click());
+['dragenter','dragover'].forEach(e => drop.addEventListener(e, ev => { ev.preventDefault(); drop.classList.add('drag'); }));
+['dragleave','drop'].forEach(e => drop.addEventListener(e, ev => { ev.preventDefault(); drop.classList.remove('drag'); }));
+drop.addEventListener('drop', ev => handleResume(ev.dataTransfer.files));
+fileInput.addEventListener('change', () => handleResume(fileInput.files));
+
+function handleResume(files){
+  const file = files && files[0];
+  if(!file) return;
+  const reader = new FileReader();
+  reader.onload = e => { resume = { name:file.name, size:file.size, dataUrl:e.target.result }; renderChip(); };
+  reader.readAsDataURL(file);
+}
+function fmtSize(b){
+  if(b < 1024) return b + ' B';
+  if(b < 1048576) return (b/1024).toFixed(0) + ' KB';
+  return (b/1048576).toFixed(1) + ' MB';
+}
+function renderChip(){
+  chip.innerHTML = '';
+  if(!resume) return;
+  const div = document.createElement('div');
+  div.className = 'file-chip';
+  div.innerHTML = `
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+    <div class="meta"><span>${resume.name}</span><small>${fmtSize(resume.size)}</small></div>
+    <button type="button" aria-label="Remove resume">&times;</button>`;
+  div.querySelector('button').onclick = () => { resume = null; fileInput.value = ''; renderChip(); };
+  chip.appendChild(div);
+}
+
+/* ---- screen switching ---- */
+function show(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+/* ---- payload ---- */
+function buildPayload(){
+  return {
+    source: 'cashasis-careers',
+    tags: ['careers', 'applicant', 'needs-review'],
+    applicant: {
+      name:  document.getElementById('app-name').value.trim(),
+      phone: document.getElementById('app-phone').value.trim(),
+      email: document.getElementById('app-email').value.trim(),
+      city:  document.getElementById('app-city').value.trim(),
+      state: document.getElementById('app-state').value.trim()
+    },
+    role: {
+      position:       positionSel.value,
+      availability:   (document.querySelector('input[name="availability"]:checked') || {}).value || '',
+      experience:     (document.querySelector('input[name="experience"]:checked') || {}).value || '',
+      transportation: document.getElementById('app-transport').checked
+    },
+    story: {
+      coverLetter: document.getElementById('app-cover').value.trim(),
+      link:        document.getElementById('app-link').value.trim(),
+      heardFrom:   document.getElementById('app-source').value.trim()
+    },
+    resume: resume ? { name: resume.name, dataUrl: resume.dataUrl } : null, // base64
+    resumeLink: document.getElementById('resume-link').value.trim()
+  };
+}
+
+/* ---- submit ---- */
+document.getElementById('submit-btn').addEventListener('click', submitApplication);
+
+async function submitApplication(){
+  const p = buildPayload();
+  if(!p.applicant.name || !p.applicant.phone || !p.applicant.email){
+    alert('Please add your name, phone, and email.'); return;
+  }
+  if(!p.role.position){ alert('Please choose the position you are applying for.'); return; }
+  if(!p.resume && !p.resumeLink){ alert('Please upload your resume or paste a link to it.'); return; }
+  if(!p.story.coverLetter){ alert('Please add a short note in the "Tell us about you" box.'); return; }
+  if(!document.getElementById('consent').checked){ alert('Please agree to be contacted before submitting.'); return; }
+
+  show('screen-loading');
+
+  if(DEMO){
+    // ---- DEMO STUB: remove when the endpoint is live ----
+    setTimeout(() => {
+      document.getElementById('success-reason').textContent =
+        `Thanks for applying for the ${p.role.position} role. We review every application that comes in.`;
+      show('screen-success');
+    }, 1600);
+    return;
+  }
+
+  /* ---- LIVE CALL (uncomment when endpoint exists) ----
+  try{
+    const res = await fetch(CAREERS_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(p)
+    });
+    if(!res.ok) throw new Error('bad status');
+    document.getElementById('success-reason').textContent =
+      `Thanks for applying for the ${p.role.position} role. We review every application that comes in.`;
+    show('screen-success');
+  }catch(err){
+    alert('Something went wrong submitting your application. Please try again or call us.');
+    show('screen-form');
+  }
+  ------------------------------------------------------ */
+}
+
+/* ---- reset ---- */
+function resetForm(){
+  document.querySelectorAll('#screen-form input, #screen-form textarea').forEach(el => {
+    if(el.type === 'checkbox' || el.type === 'radio') el.checked = false; else el.value = '';
+  });
+  positionSel.value = '';
+  positionSel.classList.add('empty');
+  resume = null; fileInput.value = ''; renderChip();
+  show('screen-form');
+}
+</script>
+</body>
+</html>

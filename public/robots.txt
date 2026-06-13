@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /agent-portal
+
+Sitemap: https://www.cashasis.com/sitemap.xml

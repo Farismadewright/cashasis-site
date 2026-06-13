@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Referral Program | CashAsIs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0D1B2A;
+    --navy-soft:#142436;
+    --orange:#F26D21;
+    --orange-dark:#d95c14;
+    --teal:#1B6F7A;
+    --ink:#0D1B2A;
+    --muted:#5a6675;
+    --line:#e6e9ef;
+    --bg:#ffffff;
+    --bg-alt:#f4f6f9;
+    --green:#2fa84f;
+    --green-bg:#eef8f0;
+    --red:#e23b3b;
+    --red-bg:#fcecec;
+    --radius:14px;
+    --shadow:0 18px 50px -20px rgba(13,27,42,.35);
+    --shadow-sm:0 8px 24px -14px rgba(13,27,42,.4);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--bg-alt);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px}
+  a{text-decoration:none;color:inherit}
+  img{max-width:100%;display:block}
+  h1,h2,h3{line-height:1.1;letter-spacing:-.01em}
+  .orange{color:var(--orange)}
+
+  /* ---------- Logo ---------- */
+  .logo{display:flex;align-items:center;gap:12px}
+  .logo .lock{display:flex;flex-direction:column;line-height:1}
+  .logo .name{font-weight:800;font-size:24px;letter-spacing:-.035em}
+  .logo .name .navy{color:#fff}
+  .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
+  .logo .sub::before,.logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:9px;
+    font-weight:700;font-size:15px;border:none;cursor:pointer;border-radius:10px;
+    padding:15px 26px;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
+    font-family:inherit;
+  }
+  .btn-orange{background:var(--orange);color:#fff}
+  .btn-orange:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 14px 28px -12px rgba(242,109,33,.7)}
+  .btn-block{width:100%}
+  .btn-ghost{background:transparent;color:var(--orange);border:1.5px solid var(--orange)}
+  .btn-ghost:hover{background:var(--orange);color:#fff}
+  .btn:disabled{opacity:.55;cursor:not-allowed;transform:none;box-shadow:none}
+
+  /* ---------- Nav ---------- */
+  header{background:var(--navy);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.06)}
+  nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
+  .nav-cta{color:#cdd5e0;font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px}
+  .nav-cta svg{width:18px;height:18px;color:var(--orange)}
+
+  /* ---------- Hero ---------- */
+  .hero{background:var(--navy);color:#fff;padding:46px 0 40px;text-align:center}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--orange);font-weight:800;font-size:12px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:16px}
+  .eyebrow::before,.eyebrow::after{content:"";width:22px;height:2px;background:var(--orange);border-radius:2px}
+  .hero h1{font-size:clamp(30px,5vw,44px);font-weight:800;margin-bottom:14px}
+  .hero p{font-size:17px;color:#dfe5ee;max-width:480px;margin:0 auto;line-height:1.5}
+  .hero p strong{color:#fff}
+
+  /* ---------- Card / form ---------- */
+  .card{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);margin:-28px auto 40px;padding:30px 30px 34px;position:relative;z-index:5}
+
+  .section-head{display:flex;align-items:center;gap:12px;margin:26px 0 16px}
+  .section-head:first-of-type{margin-top:4px}
+  .section-head .diamond{width:14px;height:14px;flex:none;background:var(--orange);transform:rotate(45deg);border-radius:3px}
+  .section-head h3{font-size:16px;font-weight:800;letter-spacing:.01em}
+  .section-head .step{margin-left:auto;font-size:12px;font-weight:700;color:var(--muted)}
+
+  .field{position:relative;margin-bottom:13px}
+  .field > svg{position:absolute;left:14px;top:50px;transform:translateY(-50%);width:18px;height:18px;color:#9aa4b2;pointer-events:none}
+  .field label{display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-bottom:6px}
+  .field input,.field textarea{
+    width:100%;padding:14px 14px 14px 42px;border:1.5px solid var(--line);border-radius:10px;
+    font-family:inherit;font-size:15px;color:var(--ink);transition:border .15s,box-shadow .15s;background:#fff;
+  }
+  .field textarea{padding-left:14px;min-height:92px;resize:vertical}
+  .field.no-icon input,.field.no-icon textarea{padding-left:14px}
+  .field input::placeholder,.field textarea::placeholder{color:#9aa4b2}
+  .field input:focus,.field textarea:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(242,109,33,.12)}
+  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+
+  /* autocomplete dropdown */
+  .ac-list{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow-sm);z-index:20;overflow:hidden;display:none}
+  .ac-list.show{display:block}
+  .ac-item{padding:11px 14px;font-size:14px;cursor:pointer;border-bottom:1px solid var(--line)}
+  .ac-item:last-child{border-bottom:none}
+  .ac-item:hover,.ac-item.active{background:var(--bg-alt)}
+
+  /* role selector */
+  .role-group{margin-bottom:13px}
+  .role-group > label{display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-bottom:6px}
+  .roles{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+  .role{position:relative}
+  .role input{position:absolute;opacity:0;pointer-events:none}
+  .role span{display:flex;align-items:center;justify-content:center;text-align:center;min-height:54px;padding:8px 6px;border:1.5px solid var(--line);border-radius:10px;font-size:13.5px;font-weight:600;color:var(--ink);cursor:pointer;transition:border .15s,background .15s,color .15s;background:#fff}
+  .role input:checked + span{border-color:var(--orange);background:rgba(242,109,33,.07);color:var(--orange-dark)}
+
+  /* under contract toggle */
+  .toggle{display:flex;align-items:center;gap:11px;background:var(--bg-alt);border:1px solid var(--line);border-radius:10px;padding:13px 15px;cursor:pointer;margin-bottom:13px}
+  .toggle input{width:17px;height:17px;flex:none;accent-color:var(--orange)}
+  .toggle span{font-size:14px;font-weight:600}
+  .toggle small{display:block;font-weight:500;color:var(--muted);font-size:12px;margin-top:1px}
+  .reveal{max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .reveal.open{max-height:120px}
+
+  /* photos */
+  .drop{border:2px dashed var(--line);border-radius:12px;padding:26px 18px;text-align:center;cursor:pointer;transition:border .15s,background .15s;background:var(--bg-alt)}
+  .drop.drag{border-color:var(--orange);background:rgba(242,109,33,.06)}
+  .drop svg{width:30px;height:30px;color:var(--orange);margin:0 auto 8px}
+  .drop p{font-size:14px;font-weight:600}
+  .drop small{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+  .previews{display:grid;grid-template-columns:repeat(auto-fill,minmax(74px,1fr));gap:9px;margin-top:13px}
+  .thumb{position:relative;border-radius:9px;overflow:hidden;aspect-ratio:1;border:1px solid var(--line)}
+  .thumb img{width:100%;height:100%;object-fit:cover}
+  .thumb button{position:absolute;top:3px;right:3px;width:20px;height:20px;border:none;border-radius:50%;background:rgba(13,27,42,.8);color:#fff;cursor:pointer;font-size:13px;line-height:1;display:flex;align-items:center;justify-content:center}
+  .or-link{margin-top:13px}
+  .or-link .field{margin-bottom:0}
+
+  /* consent */
+  .consent{display:flex;gap:10px;align-items:flex-start;background:#fbf4ee;border:1px solid #f3d9c7;border-radius:9px;padding:12px 14px;margin:20px 0 16px;cursor:pointer}
+  .consent input{margin-top:2px;width:16px;height:16px;flex:none;accent-color:var(--orange)}
+  .consent span{font-size:11.5px;line-height:1.45;color:#6a7482}
+  .consent strong{color:var(--ink);font-weight:700}
+  .consent a{color:var(--orange);font-weight:600}
+
+  .secure{display:flex;align-items:center;gap:8px;justify-content:center;color:var(--muted);font-size:13px;margin-top:16px}
+  .secure svg{width:14px;height:14px}
+
+  /* ---------- Screen 2: result ---------- */
+  .screen{display:none}
+  .screen.active{display:block}
+  .result{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);margin:-28px auto 40px;padding:38px 30px;text-align:center;position:relative;z-index:5}
+  .result .badge{width:74px;height:74px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px}
+  .result .badge svg{width:38px;height:38px}
+  .result.ok .badge{background:var(--green-bg)}
+  .result.ok .badge svg{color:var(--green)}
+  .result.no .badge{background:var(--red-bg)}
+  .result.no .badge svg{color:var(--red)}
+  .result h2{font-size:26px;font-weight:800;margin-bottom:8px}
+  .result .reason{font-size:15px;color:var(--muted);max-width:430px;margin:0 auto 22px;line-height:1.5}
+  .nums{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 24px;text-align:left}
+  .num{background:var(--bg-alt);border:1px solid var(--line);border-radius:12px;padding:15px 16px}
+  .num .k{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+  .num .v{font-size:21px;font-weight:800}
+  .next{background:var(--bg-alt);border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-align:left;display:flex;gap:12px;align-items:flex-start;margin-bottom:22px}
+  .next svg{width:20px;height:20px;color:var(--teal);flex:none;margin-top:2px}
+  .next p{font-size:14px;color:var(--ink)}
+  .next strong{font-weight:700}
+
+  /* loading overlay */
+  .loading{display:none;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;text-align:center}
+  .loading.active{display:flex}
+  .spinner{width:46px;height:46px;border:4px solid var(--line);border-top-color:var(--orange);border-radius:50%;animation:spin .8s linear infinite;margin-bottom:18px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .loading p{font-size:15px;font-weight:600}
+  .loading small{color:var(--muted);font-size:13px;margin-top:4px}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--navy);color:#cdd5e0;padding:30px 0;text-align:center;font-size:13px}
+  footer .logo{justify-content:center;margin-bottom:12px}
+  footer a{color:#cdd5e0}
+  footer a:hover{color:#fff}
+  .foot-links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+  .foot-contact{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;color:#aeb8c6}
+
+  @media(max-width:560px){
+    .field-row{grid-template-columns:1fr}
+    .nums{grid-template-columns:1fr}
+    .card,.result{padding-left:20px;padding-right:20px}
+  }
+</style>
+<meta name="description" content="Refer a distressed property to CashAsIs and earn a referral fee when we close. Simple, fast, paid.">
+<link rel="canonical" href="https://www.cashasis.com/referrals">
+<meta property="og:title" content="Referral Program | CashAsIs">
+<meta property="og:description" content="Refer a distressed property to CashAsIs and earn a referral fee when we close. Simple, fast, paid.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.cashasis.com/referrals">
+<meta property="og:image" content="https://www.cashasis.com/og-image.jpg">
+<meta property="og:site_name" content="CashAsIs">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Referral Program | CashAsIs">
+<meta name="twitter:description" content="Refer a distressed property to CashAsIs and earn a referral fee when we close. Simple, fast, paid.">
+<meta name="twitter:image" content="https://www.cashasis.com/og-image.jpg">
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "name": "CashAsIs", "legalName": "Mr. Wright Properties LLC", "url": "https://www.cashasis.com/", "image": "https://www.cashasis.com/og-image.jpg", "telephone": "+1-346-584-6365", "email": "info@cashasis.com", "areaServed": {"@type": "City", "name": "Houston", "addressRegion": "TX"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.cashasis.com/"}, {"@type": "ListItem", "position": 2, "name": "Referral Program", "item": "https://www.cashasis.com/referrals"}]}</script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#" class="logo">
+      <span class="lock">
+        <span class="name"><span class="navy">Cash</span><span class="orange">AsIs</span></span>
+        <span class="sub">Refer &amp; Earn</span>
+      </span>
+    </a>
+    <a href="tel:+13465846365" class="nav-cta">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+      (346) 584-6365
+    </a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Referral Program</span>
+    <h1>Know a house we should buy?<br><span class="orange">Send it. Get paid.</span></h1>
+    <p>Drop the property details below. Our team reviews every deal fast and texts you the moment it is <strong>approved</strong>.</p>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <!-- ========== SCREEN 1: FORM ========== -->
+  <div id="screen-form" class="screen active">
+    <div class="card">
+
+      <div class="section-head">
+        <span class="diamond"></span>
+        <h3>Your Info</h3>
+        <span class="step">Step 1 of 4</span>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <label>Your Name</label>
+          <input id="ref-name" type="text" placeholder="First and last name">
+        </div>
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <label>Your Phone</label>
+          <input id="ref-phone" type="tel" placeholder="(___) ___-____">
+        </div>
+      </div>
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        <label>Your Email</label>
+        <input id="ref-email" type="email" placeholder="you@email.com">
+      </div>
+      <div class="role-group">
+        <label>Which best describes you?</label>
+        <div class="roles">
+          <label class="role"><input type="radio" name="role" value="wholesaler"><span>Wholesaler</span></label>
+          <label class="role"><input type="radio" name="role" value="investor"><span>Investor</span></label>
+          <label class="role"><input type="radio" name="role" value="referrer"><span>Just referring a property</span></label>
+        </div>
+      </div>
+
+      <div class="section-head">
+        <span class="diamond"></span>
+        <h3>Property</h3>
+        <span class="step">Step 2 of 4</span>
+      </div>
+      <div class="field no-icon" style="margin-bottom:13px">
+        <label>Property Address</label>
+        <input id="prop-address" type="text" placeholder="Start typing the address..." autocomplete="off">
+        <div id="ac-list" class="ac-list"></div>
+      </div>
+
+      <label class="toggle">
+        <input id="under-contract" type="checkbox">
+        <span>I already have it under contract
+          <small>Check this if you control the deal with a signed agreement.</small>
+        </span>
+      </label>
+      <div id="contract-reveal" class="reveal">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <label>Your Contract Amount</label>
+          <input id="contract-amount" type="text" inputmode="numeric" placeholder="$ Amount you have it under contract for">
+        </div>
+      </div>
+
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <label>Seller's Asking Price</label>
+        <input id="asking" type="text" inputmode="numeric" placeholder="$ What the seller wants">
+      </div>
+
+      <div class="section-head">
+        <span class="diamond"></span>
+        <h3>Owner / Seller</h3>
+        <span class="step">Step 3 of 4</span>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <label>Owner Name</label>
+          <input id="owner-name" type="text" placeholder="Seller's name">
+        </div>
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          <label>Owner Phone</label>
+          <input id="owner-phone" type="tel" placeholder="(___) ___-____">
+        </div>
+      </div>
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        <label>Owner Email</label>
+        <input id="owner-email" type="email" placeholder="seller@email.com">
+      </div>
+      <div class="field no-icon">
+        <label>Notes</label>
+        <textarea id="notes" placeholder="Condition, why they are selling, timeline, any repairs you know about..."></textarea>
+      </div>
+
+      <div class="section-head">
+        <span class="diamond"></span>
+        <h3>Photos</h3>
+        <span class="step">Step 4 of 4</span>
+      </div>
+      <div id="drop" class="drop">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        <p>Tap to add photos or drag them here</p>
+        <small>Inside, outside, anything that shows condition</small>
+        <input id="file-input" type="file" accept="image/*" multiple hidden>
+      </div>
+      <div id="previews" class="previews"></div>
+      <div class="or-link">
+        <div class="field no-icon">
+          <label>Or paste a photo link (Drive, Dropbox, photos folder)</label>
+          <input id="photo-link" type="url" placeholder="https://...">
+        </div>
+      </div>
+
+      <label class="consent">
+        <input id="consent" type="checkbox">
+        <span>By submitting, I confirm the details are accurate and agree to be contacted by phone, text, and email about this deal. See our <a href="/terms" target="_blank">Terms</a> and <a href="/privacy" target="_blank">Privacy Policy</a>. <strong>Msg rates may apply.</strong></span>
+      </label>
+
+      <button id="submit-btn" class="btn btn-orange btn-block">
+        Submit Deal
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px;height:18px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+
+      <div class="secure">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        Your info is private and never shared.
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== LOADING ========== -->
+  <div id="screen-loading" class="screen">
+    <div class="card">
+      <div class="loading active">
+        <div class="spinner"></div>
+        <p>Reviewing your deal...</p>
+        <small>Pulling property data and running the numbers</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SCREEN 2: APPROVED ========== -->
+  <div id="screen-approved" class="screen">
+    <div class="result ok">
+      <div class="badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+      </div>
+      <h2>Deal Approved</h2>
+      <p class="reason" id="ok-reason">The numbers work. We are moving on this one.</p>
+      <div class="nums">
+        <div class="num"><div class="k">Our Offer</div><div class="v" id="ok-offer">$0</div></div>
+        <div class="num"><div class="k">Est. ARV</div><div class="v" id="ok-arv">$0</div></div>
+        <div class="num"><div class="k">Max Offer</div><div class="v" id="ok-mao">$0</div></div>
+      </div>
+      <div class="next">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        <p><strong>What happens now:</strong> Look out for an email and text to sign your JV / referral agreement. Once that is signed, our team reaches out to the seller and keeps you posted on the deal.</p>
+      </div>
+      <button class="btn btn-ghost btn-block" onclick="resetForm()">Submit Another Deal</button>
+    </div>
+  </div>
+
+  <!-- ========== SCREEN 2: DENIED ========== -->
+  <div id="screen-denied" class="screen">
+    <div class="result no">
+      <div class="badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </div>
+      <h2>Not a Fit Right Now</h2>
+      <p class="reason" id="no-reason">The numbers on this one do not work for us at this time.</p>
+      <div class="next">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        <p><strong>Keep them coming.</strong> One pass does not mean the next is. If anything changes on price or condition, send it back through.</p>
+      </div>
+      <button class="btn btn-ghost btn-block" onclick="resetForm()">Submit Another Deal</button>
+    </div>
+  </div>
+
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="/" class="logo">
+          <span class="lock">
+            <span class="name"><span class="navy">Cash</span><span class="orange">AsIs</span></span>
+            <span class="sub">We Buy Houses As-Is</span>
+          </span>
+        </a>
+        <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <div class="foot-contact">
+          <a href="tel:+13465846365">(346) 584-6365</a>
+          <a href="mailto:info@cashasis.com">info@cashasis.com</a>
+          <a href="/">www.cashasis.com</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <div class="foot-contact">
+          <a href="/#how">How It Works</a>
+          <a href="/#about">About Us</a>
+          <a href="/#reviews">Reviews</a>
+          <a href="/#faq">FAQ</a>
+          <a href="/careers">Careers</a>
+          <a href="/referrals">Referrals</a>
+          <a href="/blog">Blog</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"></a>
+          <a href="#" aria-label="Instagram"></a>
+          <a href="#" aria-label="Google"></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2016-2026 CashAsIs. All Rights Reserved.</span>
+      <div class="links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+        <a href="/sms-tcpa">SMS / TCPA</a>
+        <a href="/disclaimer">Disclaimer</a>
+        <a href="/accessibility">Accessibility</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/robots.txt">Robots</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   WIRING NOTES  ->  hand this section to Claude Code / Railway
+   ------------------------------------------------------------
+   The Wright agent on Railway already holds GHL_API_KEY,
+   GHL_LOCATION_ID, Zillow / RentCast, and the MAO logic.
+   This page only collects + displays. The agent decides.
+
+   FLOW:
+   1. Page POSTs the payload below to RAILWAY_REFERRAL_ENDPOINT.
+   2. Agent pulls property data, calculates MAO, decides.
+   3. Agent uploads photos (base64) to storage + CRM media.
+   4. Agent returns: { decision:'approved'|'denied',
+                       reason:'...',
+                       details:{ offer, arv, mao } }
+   5. On approved -> agent creates referrer lead + seller lead
+      (referred_by = referrer), texts referrer, tags seller
+      for callback. Page shows the green screen below.
+
+   TO GO LIVE: set DEMO = false and fill in the endpoint URL.
+   ============================================================ */
+const RAILWAY_REFERRAL_ENDPOINT = "https://YOUR-RAILWAY-AGENT-URL/referral"; // <-- fill in
+const DEMO = true; // <-- set to false once the endpoint is live
+
+/* ---- photo storage (in-memory, base64) ---- */
+let photos = []; // {name, dataUrl}
+
+const fileInput = document.getElementById('file-input');
+const drop = document.getElementById('drop');
+const previews = document.getElementById('previews');
+
+drop.addEventListener('click', () => fileInput.click());
+['dragenter','dragover'].forEach(e => drop.addEventListener(e, ev => { ev.preventDefault(); drop.classList.add('drag'); }));
+['dragleave','drop'].forEach(e => drop.addEventListener(e, ev => { ev.preventDefault(); drop.classList.remove('drag'); }));
+drop.addEventListener('drop', ev => handleFiles(ev.dataTransfer.files));
+fileInput.addEventListener('change', () => handleFiles(fileInput.files));
+
+function handleFiles(files){
+  [...files].forEach(file => {
+    if(!file.type.startsWith('image/')) return;
+    const reader = new FileReader();
+    reader.onload = e => { photos.push({name:file.name, dataUrl:e.target.result}); renderPreviews(); };
+    reader.readAsDataURL(file);
+  });
+}
+function renderPreviews(){
+  previews.innerHTML = '';
+  photos.forEach((p, i) => {
+    const div = document.createElement('div');
+    div.className = 'thumb';
+    div.innerHTML = `<img src="${p.dataUrl}" alt=""><button type="button" aria-label="Remove">&times;</button>`;
+    div.querySelector('button').onclick = () => { photos.splice(i,1); renderPreviews(); };
+    previews.appendChild(div);
+  });
+}
+
+/* ---- under-contract reveal ---- */
+const ucBox = document.getElementById('under-contract');
+const reveal = document.getElementById('contract-reveal');
+ucBox.addEventListener('change', () => reveal.classList.toggle('open', ucBox.checked));
+
+/* ---- address autocomplete (US Census, free, no key; degrades gracefully) ---- */
+const addrInput = document.getElementById('prop-address');
+const acList = document.getElementById('ac-list');
+let acTimer;
+addrInput.addEventListener('input', () => {
+  clearTimeout(acTimer);
+  const q = addrInput.value.trim();
+  if(q.length < 4){ acList.classList.remove('show'); return; }
+  acTimer = setTimeout(() => fetchAddresses(q), 350);
+});
+async function fetchAddresses(q){
+  try{
+    const url = `https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=${encodeURIComponent(q)}&benchmark=Public_AR_Current&format=json`;
+    const res = await fetch(url);
+    const data = await res.json();
+    const matches = (data.result && data.result.addressMatches) || [];
+    if(!matches.length){ acList.classList.remove('show'); return; }
+    acList.innerHTML = '';
+    matches.slice(0,5).forEach(m => {
+      const item = document.createElement('div');
+      item.className = 'ac-item';
+      item.textContent = m.matchedAddress;
+      item.onclick = () => { addrInput.value = m.matchedAddress; acList.classList.remove('show'); };
+      acList.appendChild(item);
+    });
+    acList.classList.add('show');
+  }catch(err){ acList.classList.remove('show'); } // plain text input still works
+}
+document.addEventListener('click', e => { if(!acList.contains(e.target) && e.target !== addrInput) acList.classList.remove('show'); });
+
+/* ---- submit ---- */
+const submitBtn = document.getElementById('submit-btn');
+submitBtn.addEventListener('click', submitDeal);
+
+function show(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function buildPayload(){
+  return {
+    source: 'cashasis-referral',
+    tags: ['referral', 'needs-review'],
+    referrer: {
+      name:  document.getElementById('ref-name').value.trim(),
+      phone: document.getElementById('ref-phone').value.trim(),
+      email: document.getElementById('ref-email').value.trim(),
+      role:  (document.querySelector('input[name="role"]:checked') || {}).value || ''
+    },
+    property: {
+      address:        document.getElementById('prop-address').value.trim(),
+      underContract:  ucBox.checked,
+      contractAmount: document.getElementById('contract-amount').value.trim(),
+      asking:         document.getElementById('asking').value.trim()
+    },
+    seller: {
+      name:  document.getElementById('owner-name').value.trim(),
+      phone: document.getElementById('owner-phone').value.trim(),
+      email: document.getElementById('owner-email').value.trim(),
+      notes: document.getElementById('notes').value.trim()
+    },
+    referred_by: document.getElementById('ref-name').value.trim(),
+    photos: photos.map(p => p.dataUrl),   // base64; Railway uploads to storage + CRM
+    photoLink: document.getElementById('photo-link').value.trim()
+  };
+}
+
+async function submitDeal(){
+  // light validation
+  const name = document.getElementById('ref-name').value.trim();
+  const phone = document.getElementById('ref-phone').value.trim();
+  const addr = document.getElementById('prop-address').value.trim();
+  if(!name || !phone || !addr){ alert('Please add your name, phone, and the property address.'); return; }
+  if(!document.getElementById('consent').checked){ alert('Please agree to be contacted before submitting.'); return; }
+
+  const payload = buildPayload();
+  show('screen-loading');
+
+  if(DEMO){
+    // ---- DEMO STUB: remove when the Railway endpoint is live ----
+    setTimeout(() => {
+      const result = {
+        decision: 'approved',  // change to 'denied' to preview the other screen
+        reason: 'ARV supports the spread and the asking price leaves room. We are moving on this.',
+        details: { offer: 132000, arv: 215000, mao: 138000 }
+      };
+      renderResult(result);
+    }, 1800);
+    return;
+  }
+
+  /* ---- LIVE CALL (uncomment when endpoint exists) ----
+  try{
+    const res = await fetch(RAILWAY_REFERRAL_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    const result = await res.json();
+    renderResult(result);
+  }catch(err){
+    alert('Something went wrong submitting the deal. Please try again or call us.');
+    show('screen-form');
+  }
+  ------------------------------------------------------ */
+}
+
+function fmt(n){ return '$' + Number(n||0).toLocaleString('en-US'); }
+
+function renderResult(result){
+  if(result.decision === 'approved'){
+    document.getElementById('ok-reason').textContent = result.reason || 'The numbers work. We are moving on this one.';
+    const d = result.details || {};
+    document.getElementById('ok-offer').textContent = fmt(d.offer);
+    document.getElementById('ok-arv').textContent = fmt(d.arv);
+    document.getElementById('ok-mao').textContent = fmt(d.mao);
+    show('screen-approved');
+  }else{
+    document.getElementById('no-reason').textContent = result.reason || 'The numbers on this one do not work for us at this time.';
+    show('screen-denied');
+  }
+}
+
+function resetForm(){
+  document.querySelectorAll('#screen-form input, #screen-form textarea').forEach(el => {
+    if(el.type === 'checkbox') el.checked = false; else el.value = '';
+  });
+  photos = []; renderPreviews();
+  reveal.classList.remove('open');
+  show('screen-form');
+}
+</script>
+</body>
+</html>
