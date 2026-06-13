@@ -1,0 +1,16 @@
+---
+const SITE_URL = 'https://cashasis.com';
+const year = new Date().getFullYear();
+---
+<footer class="legal-foot">
+  <div>&copy; {year} Cashasis.com &middot; Mr. Wright Properties LLC &middot; All Rights Reserved</div>
+  <div class="links">
+    <a href={`${SITE_URL}/privacy.html`}>Privacy Policy</a>
+    <a href={`${SITE_URL}/terms.html`}>Terms of Use</a>
+    <a href={`${SITE_URL}/sms-tcpa.html`}>SMS / TCPA</a>
+    <a href={`${SITE_URL}/disclaimer.html`}>Disclaimer</a>
+    <a href="/blog/" class="active">Blog</a>
+    <a href={SITE_URL}>&larr; Back to Cashasis</a>
+  </div>
+  <p style="margin-top:10px;font-size:11.5px;color:#6b7480">For informational purposes only — not legal, tax, or financial advice.</p>
+</footer>

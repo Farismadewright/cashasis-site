@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import { ctaLink } from '../../config.ts';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
+const [featured, ...rest] = posts;
+const thumb = (p) => p.data.image ? `background-image:url('${p.data.image}')` : 'background:linear-gradient(135deg,#24384f,#0d1b2a)';
+const indexCta = ctaLink('blog-index', 'index');
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <BaseHead
+    title="Houston Home Selling Guide | CashAsIs Blog"
+    description="Straight-talk guides on selling your Houston house fast: inherited homes, foreclosure, flood damage, probate, tired landlords and more. Real answers, no fluff."
+  />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <Nav ctaHref={indexCta} />
+  <section class="legal-hero">
+    <div class="in">
+      <span class="badge">Blog &amp; Resources</span>
+      <h1>Straight Talk for Home Sellers</h1>
+      <p class="meta">Real answers for homeowners who need to sell. No jargon, no fluff, no pressure.</p>
+    </div>
+  </section>
+
+  <main class="legal-wrap wide">
+    {featured && (
+      <a class="featured" href={`/blog/${featured.slug}/`}>
+        <div class="featured-thumb" style={thumb(featured)}></div>
+        <div class="featured-body">
+          <span class="fcat">{featured.data.category || 'Featured'}</span>
+          <h2>{featured.data.title}</h2>
+          <p>{featured.data.description}</p>
+          <span class="read">Read &rarr;</span>
+        </div>
+      </a>
+    )}
+
+    <div class="post-grid">
+      {rest.map((post) => (
+        <a class="post-card" href={`/blog/${post.slug}/`}>
+          <div class="post-thumb" style={thumb(post)}>
+            <span class="post-cat">{post.data.category || 'Seller Guide'}</span>
+          </div>
+          <div class="post-body">
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+            <div class="post-foot">
+              <span>{post.data.readTime || fmt(post.data.pubDate)}</span>
+              <span class="read">Read &rarr;</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="callout" style="margin-top:38px">
+      <p><b>Ready for a real number?</b> Get a no-obligation cash offer on your Houston house &mdash; any condition, any situation. No repairs, no fees, no pressure.</p>
+      <a href={indexCta} class="cbtn">Get My Cash Offer <span>&rarr;</span></a>
+    </div>
+  </main>
+
+  <Footer />
+</body>
+</html>

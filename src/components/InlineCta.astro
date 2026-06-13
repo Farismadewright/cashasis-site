@@ -1,0 +1,11 @@
+---
+// Drop <InlineCta /> anywhere inside a post's markdown body for a mid-article nudge.
+// (Markdown supports components if the post is .mdx; for .md, the bottom CTA is automatic.)
+import { ctaLink } from '../config.ts';
+const { slug, text } = Astro.props;
+const href = ctaLink(slug, 'inline');
+---
+<div class="callout" style="margin:26px 0">
+  <p><b>{text || 'Curious what your house is actually worth as-is?'}</b> Get a free, no-obligation cash offer in about 2 minutes.</p>
+  <a href={href} class="cbtn">Get My Cash Offer <span>&rarr;</span></a>
+</div>

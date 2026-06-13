@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# When you wire cashasis.com/blog later, the main site proxies /blog/* here.
+# That redirect rule lives on the MAIN site's config, not this one.

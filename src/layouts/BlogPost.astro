@@ -1,0 +1,53 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { ctaLink } from '../config.ts';
+const { title, description, pubDate, updatedDate, image, imageAlt, author, faq, category, readTime, slug } = Astro.props;
+const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
+const cta = ctaLink(slug, 'post');
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} updatedDate={updatedDate} author={author} faq={faq} />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <Nav ctaHref={cta} />
+  <section class="legal-hero">
+    <div class="in">
+      <span class="badge">{category || 'Seller Guide'}</span>
+      <h1>{title}</h1>
+      <p class="meta">By <b>{author}</b> &middot; {fmt(pubDate)}{readTime ? ` \u00b7 ${readTime}` : ''}</p>
+    </div>
+  </section>
+
+  <main class="legal-wrap">
+    <article class="legal-card article">
+      <p class="eyebrow"><a href="/blog/">&larr; All Articles</a></p>
+      {image && <img class="article-hero" src={image} alt={imageAlt || title} />}
+      <div class="article-body">
+        <slot />
+      </div>
+
+      {faq && faq.length > 0 && (
+        <section class="faq">
+          <h2>Frequently Asked Questions</h2>
+          {faq.map((f) => (
+            <details><summary>{f.q}</summary><p>{f.a}</p></details>
+          ))}
+        </section>
+      )}
+
+      <div class="callout">
+        <p><b>Done reading? Ready for a real number.</b> Get a no-obligation cash offer with no repairs, no fees, and no pressure.</p>
+        <a href={cta} class="cbtn">Get My Cash Offer <span>&rarr;</span></a>
+      </div>
+    </article>
+    <p style="text-align:center;margin-top:24px"><a href="/blog/" style="color:var(--teal);font-weight:700">&larr; Back to all posts</a></p>
+  </main>
+
+  <Footer />
+</body>
+</html>
