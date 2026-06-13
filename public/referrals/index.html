@@ -277,7 +277,6 @@
       <div class="field no-icon" style="margin-bottom:13px">
         <label>Property Address</label>
         <input id="prop-address" type="text" placeholder="Start typing the address..." autocomplete="off">
-        <div id="ac-list" class="ac-list"></div>
       </div>
 
       <label class="toggle">
@@ -529,35 +528,7 @@ const ucBox = document.getElementById('under-contract');
 const reveal = document.getElementById('contract-reveal');
 ucBox.addEventListener('change', () => reveal.classList.toggle('open', ucBox.checked));
 
-/* ---- address autocomplete (US Census, free, no key; degrades gracefully) ---- */
-const addrInput = document.getElementById('prop-address');
-const acList = document.getElementById('ac-list');
-let acTimer;
-addrInput.addEventListener('input', () => {
-  clearTimeout(acTimer);
-  const q = addrInput.value.trim();
-  if(q.length < 4){ acList.classList.remove('show'); return; }
-  acTimer = setTimeout(() => fetchAddresses(q), 350);
-});
-async function fetchAddresses(q){
-  try{
-    const url = `https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=${encodeURIComponent(q)}&benchmark=Public_AR_Current&format=json`;
-    const res = await fetch(url);
-    const data = await res.json();
-    const matches = (data.result && data.result.addressMatches) || [];
-    if(!matches.length){ acList.classList.remove('show'); return; }
-    acList.innerHTML = '';
-    matches.slice(0,5).forEach(m => {
-      const item = document.createElement('div');
-      item.className = 'ac-item';
-      item.textContent = m.matchedAddress;
-      item.onclick = () => { addrInput.value = m.matchedAddress; acList.classList.remove('show'); };
-      acList.appendChild(item);
-    });
-    acList.classList.add('show');
-  }catch(err){ acList.classList.remove('show'); } // plain text input still works
-}
-document.addEventListener('click', e => { if(!acList.contains(e.target) && e.target !== addrInput) acList.classList.remove('show'); });
+/* address autocomplete: handled by Google Places (script at end of page) */
 
 /* ---- submit ---- */
 const submitBtn = document.getElementById('submit-btn');
@@ -661,6 +632,54 @@ function resetForm(){
   reveal.classList.remove('open');
   show('screen-form');
 }
+</script>
+<script>
+(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({key:"AIzaSyASelo7CuCfmWpoUoCWsy_cWDOPXOd5T00",v:"weekly"});
+(function(){
+  var placesPromise=null;
+  function places(){ if(!placesPromise) placesPromise=google.maps.importLibrary('places'); return placesPromise; }
+  function attach(input){
+    if(!input) return;
+    input.setAttribute('autocomplete','off');
+    var wrap=input.parentNode;
+    var list=document.createElement('div'); list.className='ac-list'; wrap.appendChild(list);
+    var token=null, timer;
+    input.addEventListener('input',function(){
+      clearTimeout(timer);
+      var q=input.value.trim();
+      if(q.length<3){ list.classList.remove('show'); return; }
+      timer=setTimeout(function(){ suggest(q); },250);
+    });
+    async function suggest(q){
+      try{
+        var lib=await places();
+        if(!token) token=new lib.AutocompleteSessionToken();
+        var resp=await lib.AutocompleteSuggestion.fetchAutocompleteSuggestions({input:q,sessionToken:token,includedRegionCodes:['us']});
+        var sg=(resp&&resp.suggestions)||[];
+        if(!sg.length){ list.classList.remove('show'); return; }
+        list.innerHTML='';
+        sg.slice(0,5).forEach(function(s){
+          var pred=s.placePrediction; if(!pred) return;
+          var item=document.createElement('div'); item.className='ac-item';
+          item.textContent=(pred.text&&pred.text.text)?pred.text.text:String(pred.text||'');
+          item.addEventListener('mousedown',function(e){ e.preventDefault(); });
+          item.addEventListener('click',function(){
+            list.classList.remove('show');
+            Promise.resolve().then(function(){
+              var place=pred.toPlace();
+              return place.fetchFields({fields:['formattedAddress']}).then(function(){ input.value=place.formattedAddress||item.textContent; });
+            }).catch(function(){ input.value=item.textContent; });
+            token=null;
+          });
+          list.appendChild(item);
+        });
+        list.classList.add('show');
+      }catch(err){ list.classList.remove('show'); }
+    }
+    document.addEventListener('click',function(e){ if(!list.contains(e.target)&&e.target!==input) list.classList.remove('show'); });
+  }
+  ['#leadForm input[name="address"]','#caoModalForm input[name="address"]','#prop-address'].forEach(function(sel){ attach(document.querySelector(sel)); });
+})();
 </script>
 </body>
 </html>

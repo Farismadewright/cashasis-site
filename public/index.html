@@ -100,6 +100,12 @@
   .offer-card p.sub{text-align:center;color:var(--muted);font-size:14px;margin-bottom:20px}
   .field{position:relative;margin-bottom:13px}
   .field svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:#9aa4b2}
+  /* autocomplete dropdown */
+  .ac-list{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow-sm);z-index:20;overflow:hidden;display:none}
+  .ac-list.show{display:block}
+  .ac-item{padding:11px 14px;font-size:14px;cursor:pointer;border-bottom:1px solid var(--line)}
+  .ac-item:last-child{border-bottom:none}
+  .ac-item:hover,.ac-item.active{background:var(--bg-alt)}
   .field input{
     width:100%;padding:14px 14px 14px 42px;border:1.5px solid var(--line);border-radius:10px;
     font-family:inherit;font-size:15px;color:var(--ink);transition:border .15s,box-shadow .15s;
@@ -359,7 +365,7 @@
   .cao-check svg{width:36px;height:36px}
   .cao-done h4{font-size:26px;font-weight:800;color:var(--navy,#0D1B2A);margin:0 0 12px}
   .cao-done p{color:#475569;font-size:16px;line-height:1.6;max-width:430px;margin:0 auto}
-  .cao-f{margin-bottom:14px}
+  .cao-f{margin-bottom:14px;position:relative}
   .cao-f label{display:block;font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#64748b;margin-bottom:6px}
   .cao-f input{width:100%;border:1.5px solid rgba(13,27,42,.14);border-radius:10px;padding:13px 14px;font-size:15px;font-family:inherit;color:var(--navy,#0D1B2A);background:#fff;box-sizing:border-box}
   .cao-f input:focus{outline:none;border-color:var(--orange,#F26D21)}
@@ -966,6 +972,54 @@
   form.addEventListener('submit',function(e){e.preventDefault();var r=form.querySelectorAll('input[required]');for(var i=0;i<r.length;i++){if(!r[i].checkValidity()){r[i].reportValidity();return;}}post({page:'modal-step1-contact',stage:'contact'});pane(2);});
   modal.querySelectorAll('.cao-opt').forEach(function(o){o.addEventListener('click',function(){var f=o.getAttribute('data-field'),v=o.getAttribute('data-val');var hid=form.querySelector('input[name="'+f+'"]');if(hid)hid.value=v;if(f==='condition'){pane(3);}else if(f==='timeline'){post({property_condition:g('condition'),selling_timeline:g('timeline'),page:'modal-step3-complete',stage:'qualified'});pane(4);}});});
   var bk=modal.querySelector('.cao-back');if(bk){bk.addEventListener('click',function(){pane(2);});}
+})();
+</script>
+<script>
+(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({key:"AIzaSyASelo7CuCfmWpoUoCWsy_cWDOPXOd5T00",v:"weekly"});
+(function(){
+  var placesPromise=null;
+  function places(){ if(!placesPromise) placesPromise=google.maps.importLibrary('places'); return placesPromise; }
+  function attach(input){
+    if(!input) return;
+    input.setAttribute('autocomplete','off');
+    var wrap=input.parentNode;
+    var list=document.createElement('div'); list.className='ac-list'; wrap.appendChild(list);
+    var token=null, timer;
+    input.addEventListener('input',function(){
+      clearTimeout(timer);
+      var q=input.value.trim();
+      if(q.length<3){ list.classList.remove('show'); return; }
+      timer=setTimeout(function(){ suggest(q); },250);
+    });
+    async function suggest(q){
+      try{
+        var lib=await places();
+        if(!token) token=new lib.AutocompleteSessionToken();
+        var resp=await lib.AutocompleteSuggestion.fetchAutocompleteSuggestions({input:q,sessionToken:token,includedRegionCodes:['us']});
+        var sg=(resp&&resp.suggestions)||[];
+        if(!sg.length){ list.classList.remove('show'); return; }
+        list.innerHTML='';
+        sg.slice(0,5).forEach(function(s){
+          var pred=s.placePrediction; if(!pred) return;
+          var item=document.createElement('div'); item.className='ac-item';
+          item.textContent=(pred.text&&pred.text.text)?pred.text.text:String(pred.text||'');
+          item.addEventListener('mousedown',function(e){ e.preventDefault(); });
+          item.addEventListener('click',function(){
+            list.classList.remove('show');
+            Promise.resolve().then(function(){
+              var place=pred.toPlace();
+              return place.fetchFields({fields:['formattedAddress']}).then(function(){ input.value=place.formattedAddress||item.textContent; });
+            }).catch(function(){ input.value=item.textContent; });
+            token=null;
+          });
+          list.appendChild(item);
+        });
+        list.classList.add('show');
+      }catch(err){ list.classList.remove('show'); }
+    }
+    document.addEventListener('click',function(e){ if(!list.contains(e.target)&&e.target!==input) list.classList.remove('show'); });
+  }
+  ['#leadForm input[name="address"]','#caoModalForm input[name="address"]','#prop-address'].forEach(function(sel){ attach(document.querySelector(sel)); });
 })();
 </script>
 </body>
