@@ -330,6 +330,10 @@
   /* ===== cash-offer modal ===== */
   .cao-modal{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;background:rgba(5,11,20,.72);padding:20px}
   .cao-modal.open{display:flex}
+  .cao-prog{height:5px;background:rgba(13,27,42,.10);border-radius:999px;overflow:hidden;margin:0 0 20px;visibility:hidden}
+  .cao-prog span{display:block;height:100%;width:0;background:var(--orange,#F26D21);transition:width .35s ease}
+  .offer-card .cao-done{padding:8px 0 4px}
+  .offer-card .cao-q{margin-top:2px}
   .cao-box{width:100%;max-width:560px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative;animation:caoIn .25s ease}
   @keyframes caoIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   .cao-close{position:absolute;top:12px;right:16px;background:none;border:0;color:rgba(255,255,255,.7);font-size:28px;line-height:1;cursor:pointer;z-index:2}
@@ -428,10 +432,12 @@
         </div>
       </div>
 
-      <div class="offer-card">
-        <h2>Get Your Cash Offer Today</h2>
-        <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
-        <form id="leadForm">
+      <div class="offer-card" id="caoCard">
+        <div class="cao-prog" id="caoProg"><span id="caoBar"></span></div>
+        <div class="cao-pane active" data-pane="1">
+          <h2>Get Your Cash Offer Today</h2>
+          <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
+          <form id="leadForm">
           <div class="field">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
             <input type="text" name="address" placeholder="Property Address" required>
@@ -459,6 +465,27 @@
           <input type="hidden" name="timeline">
           <input type="hidden" name="source" value="cashasis">
         </form>
+        </div>
+        <div class="cao-pane" data-pane="2">
+          <h4 class="cao-q">What's the condition of your property?</h4>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Move-In Ready"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>Move-In Ready</b><small>Clean, no major issues</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Needs Work"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>Needs Work</b><small>Some repairs needed</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Heavily Distressed"><span class="dia" style="--d:#e23b3b"></span><span class="txt"><b>Heavily Distressed</b><small>Major repairs or damage</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Vacant / Abandoned"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Vacant / Abandoned</b><small>No one living there</small></span></button>
+        </div>
+        <div class="cao-pane" data-pane="3">
+          <h4 class="cao-q">What's your ideal timeline to close?</h4>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="ASAP"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>ASAP</b><small>As fast as possible</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="30 Days"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>30 Days</b><small>Within a month</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="60-90 Days"><span class="dia" style="--d:#16a34a"></span><span class="txt"><b>60-90 Days</b><small>I have some time</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="Just Exploring"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Just Exploring</b><small>No rush right now</small></span></button>
+          <button type="button" class="cao-back" id="caoBack">&larr; Back</button>
+        </div>
+        <div class="cao-pane cao-done" data-pane="4">
+          <div class="cao-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg></div>
+        <h4>You're All Set!</h4>
+        <p>We will review your property and reach out within <b>24 hours</b> with your cash offer. No pressure, no obligation.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -810,67 +837,49 @@
   });
 </script>
 
-<div class="cao-modal" id="caoModal" aria-hidden="true">
-  <div class="cao-box" role="dialog" aria-modal="true" aria-labelledby="caoTitle">
-    <button class="cao-close" id="caoClose" aria-label="Close">&times;</button>
-    <div class="cao-head">
-      <h3 class="cao-title" id="caoTitle">One Quick Question&hellip;</h3>
-      <p class="cao-step" id="caoStep">Step 2 of 3 &middot; Almost done</p>
-      <div class="cao-bar"><span id="caoBar" style="width:66%"></span></div>
-    </div>
-    <div class="cao-body">
-      <div class="cao-pane active" data-pane="2">
-        <h4 class="cao-q">What's the condition of your property?</h4>
-        <button type="button" class="cao-opt" data-field="condition" data-val="Move-In Ready"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>Move-In Ready</b><small>Clean, no major issues</small></span></button>
-        <button type="button" class="cao-opt" data-field="condition" data-val="Needs Work"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>Needs Work</b><small>Some repairs needed</small></span></button>
-        <button type="button" class="cao-opt" data-field="condition" data-val="Heavily Distressed"><span class="dia" style="--d:#e23b3b"></span><span class="txt"><b>Heavily Distressed</b><small>Major repairs or damage</small></span></button>
-        <button type="button" class="cao-opt" data-field="condition" data-val="Vacant / Abandoned"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Vacant / Abandoned</b><small>No one living there</small></span></button>
-      </div>
-      <div class="cao-pane" data-pane="3">
-        <h4 class="cao-q">What's your ideal timeline to close?</h4>
-        <button type="button" class="cao-opt" data-field="timeline" data-val="ASAP"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>ASAP</b><small>As fast as possible</small></span></button>
-        <button type="button" class="cao-opt" data-field="timeline" data-val="30 Days"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>30 Days</b><small>Within a month</small></span></button>
-        <button type="button" class="cao-opt" data-field="timeline" data-val="60-90 Days"><span class="dia" style="--d:#16a34a"></span><span class="txt"><b>60-90 Days</b><small>I have some time</small></span></button>
-        <button type="button" class="cao-opt" data-field="timeline" data-val="Just Exploring"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Just Exploring</b><small>No rush right now</small></span></button>
-        <button type="button" class="cao-back" id="caoBack">&larr; Back</button>
-      </div>
-      <div class="cao-pane cao-done" data-pane="4">
-        <div class="cao-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg></div>
-        <h4>You're All Set!</h4>
-        <p>We will review your property and reach out within <b>24 hours</b> with your cash offer. No pressure, no obligation.</p>
-      </div>
-    </div>
-  </div>
-</div>
 <script>
 (function(){
+  var card=document.getElementById('caoCard');
   var form=document.getElementById('leadForm');
-  var modal=document.getElementById('caoModal');
-  if(!form||!modal) return;
-  // ====================================================================
-  // PASTE YOUR GHL INBOUND WEBHOOK URL BELOW (GHL workflow > Inbound Webhook
-  // trigger). Until set, the flow still shows the success screen; leads
-  // just aren't POSTed. Funnel guy can drop this in.
+  if(!card||!form) return;
   var GHL_WEBHOOK_URL="https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d";
-  // ====================================================================
-  var titleEl=document.getElementById('caoTitle'),stepEl=document.getElementById('caoStep'),barEl=document.getElementById('caoBar');
-  var panes=modal.querySelectorAll('.cao-pane');
-  var META={'2':{t:'One Quick Question\u2026',s:'Step 2 of 3 \u00b7 Almost done',w:'66%'},
-            '3':{t:'One Quick Question\u2026',s:'Step 3 of 3 \u00b7 Last one',w:'100%'},
-            '4':{t:"You're All Set!",s:'Offer incoming within 24 hours',w:'100%'}};
-  function pane(n){panes.forEach(function(p){p.classList.toggle('active',p.getAttribute('data-pane')===String(n));});var m=META[String(n)];if(m){titleEl.innerHTML=m.t;stepEl.innerHTML=m.s;barEl.style.width=m.w;}}
-  function open(){modal.classList.add('open');modal.setAttribute('aria-hidden','false');pane(2);document.body.style.overflow='hidden';}
-  function close(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.style.overflow='';}
-  form.addEventListener('submit',function(e){e.preventDefault();var r=form.querySelectorAll('input[required]');for(var i=0;i<r.length;i++){if(!r[i].checkValidity()){r[i].reportValidity();return;}}open();});
-  document.getElementById('caoClose').addEventListener('click',close);
-  modal.addEventListener('click',function(e){if(e.target===modal)close();});
-  var b=document.getElementById('caoBack');if(b)b.addEventListener('click',function(){pane(2);});
-  modal.querySelectorAll('.cao-opt').forEach(function(o){o.addEventListener('click',function(){
-    var f=o.getAttribute('data-field'),v=o.getAttribute('data-val');
-    var h=form.querySelector('input[name="'+f+'"]');if(h)h.value=v;
-    if(f==='condition'){setTimeout(function(){pane(3);},150);}else if(f==='timeline'){setTimeout(submitLead,150);}
-  });});
-  function submitLead(){var g=function(n){var el=form.querySelector('[name="'+n+'"]');return el?el.value.trim():'';};var c=form.querySelector('input[name="consent"]');var d={full_name:g('name'),phone:g('phone'),email:g('email'),address1:g('address'),property_condition:g('condition'),selling_timeline:g('timeline'),tcpa_consent:!!(c&&c.checked),source:'cashasis-hero',lead_source:'cashasis-hero',page:'hero-modal',page_number:3,submitted_at:new Date().toISOString()};pane(4);if(GHL_WEBHOOK_URL.indexOf('http')!==0)return;fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});}
+  var panes=card.querySelectorAll('.cao-pane');
+  var prog=document.getElementById('caoProg'), bar=document.getElementById('caoBar');
+  var WIDTHS={'1':'0%','2':'33%','3':'66%','4':'100%'};
+  function pane(n){
+    n=String(n);
+    panes.forEach(function(p){p.classList.toggle('active',p.getAttribute('data-pane')===n);});
+    if(bar) bar.style.width=WIDTHS[n]||'0%';
+    if(prog) prog.style.visibility=(n==='1')?'hidden':'visible';
+    try{card.scrollIntoView({block:'nearest',behavior:'smooth'});}catch(e){}
+  }
+  function g(nm){var el=form.querySelector('[name="'+nm+'"]');return el?el.value.trim():'';}
+  function consent(){var c=form.querySelector('input[name="consent"]');return !!(c&&c.checked);}
+  function post(extra){
+    var d={full_name:g('name'),phone:g('phone'),email:g('email'),address1:g('address'),tcpa_consent:consent(),source:'cashasis-hero',lead_source:'cashasis-hero',submitted_at:new Date().toISOString()};
+    for(var k in extra){d[k]=extra[k];}
+    if(GHL_WEBHOOK_URL.indexOf('http')!==0)return;
+    fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});
+  }
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var r=form.querySelectorAll('input[required]');
+    for(var i=0;i<r.length;i++){if(!r[i].checkValidity()){r[i].reportValidity();return;}}
+    post({page:'step1-contact',stage:'contact'});
+    pane(2);
+  });
+  card.querySelectorAll('.cao-opt').forEach(function(o){
+    o.addEventListener('click',function(){
+      var f=o.getAttribute('data-field'),v=o.getAttribute('data-val');
+      var hid=form.querySelector('input[name="'+f+'"]');if(hid)hid.value=v;
+      if(f==='condition'){pane(3);}
+      else if(f==='timeline'){
+        post({property_condition:g('condition'),selling_timeline:g('timeline'),page:'step3-complete',stage:'qualified'});
+        pane(4);
+      }
+    });
+  });
+  var bk=document.getElementById('caoBack');if(bk){bk.addEventListener('click',function(){pane(2);});}
 })();
 </script>
 </body>
