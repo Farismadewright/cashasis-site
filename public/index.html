@@ -851,7 +851,7 @@
   // PASTE YOUR GHL INBOUND WEBHOOK URL BELOW (GHL workflow > Inbound Webhook
   // trigger). Until set, the flow still shows the success screen; leads
   // just aren't POSTed. Funnel guy can drop this in.
-  var GHL_WEBHOOK_URL="PASTE_YOUR_GHL_INBOUND_WEBHOOK_URL_HERE";
+  var GHL_WEBHOOK_URL="https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d";
   // ====================================================================
   var titleEl=document.getElementById('caoTitle'),stepEl=document.getElementById('caoStep'),barEl=document.getElementById('caoBar');
   var panes=modal.querySelectorAll('.cao-pane');
@@ -870,7 +870,7 @@
     var h=form.querySelector('input[name="'+f+'"]');if(h)h.value=v;
     if(f==='condition'){setTimeout(function(){pane(3);},150);}else if(f==='timeline'){setTimeout(submitLead,150);}
   });});
-  function submitLead(){var d={};new FormData(form).forEach(function(v,k){d[k]=v;});var c=form.querySelector('input[name="consent"]');d.consent=(c&&c.checked)?'yes':'no';d.page='homepage';d.site='cashasis.com';pane(4);if(GHL_WEBHOOK_URL.indexOf('PASTE_')===0)return;fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});}
+  function submitLead(){var g=function(n){var el=form.querySelector('[name="'+n+'"]');return el?el.value.trim():'';};var c=form.querySelector('input[name="consent"]');var d={full_name:g('name'),phone:g('phone'),email:g('email'),address1:g('address'),property_condition:g('condition'),selling_timeline:g('timeline'),tcpa_consent:!!(c&&c.checked),source:'cashasis-hero',lead_source:'cashasis-hero',page:'hero-modal',page_number:3,submitted_at:new Date().toISOString()};pane(4);if(GHL_WEBHOOK_URL.indexOf('http')!==0)return;fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});}
 })();
 </script>
 </body>

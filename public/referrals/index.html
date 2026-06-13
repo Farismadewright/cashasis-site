@@ -489,8 +489,8 @@
 
    TO GO LIVE: set DEMO = false and fill in the endpoint URL.
    ============================================================ */
-const RAILWAY_REFERRAL_ENDPOINT = "https://YOUR-RAILWAY-AGENT-URL/referral"; // <-- fill in
-const DEMO = true; // <-- set to false once the endpoint is live
+const RAILWAY_REFERRAL_ENDPOINT = "https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/071feb27-21ed-4d9f-9a42-f37434b63391"; // GHL referrals webhook
+const DEMO = false; // live -> posts to GHL
 
 /* ---- photo storage (in-memory, base64) ---- */
 let photos = []; // {name, dataUrl}
@@ -592,7 +592,7 @@ function buildPayload(){
       notes: document.getElementById('notes').value.trim()
     },
     referred_by: document.getElementById('ref-name').value.trim(),
-    photos: photos.map(p => p.dataUrl),   // base64; Railway uploads to storage + CRM
+    photos: [],   // base64 omitted on direct-to-GHL (1MB webhook limit) — use photoLink
     photoLink: document.getElementById('photo-link').value.trim()
   };
 }

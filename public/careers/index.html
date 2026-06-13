@@ -515,8 +515,8 @@
 
    TO GO LIVE: set DEMO = false and fill in the endpoint URL.
    ============================================================ */
-const CAREERS_ENDPOINT = "https://YOUR-ENDPOINT-URL/careers"; // <-- fill in
-const DEMO = true; // <-- set to false once the endpoint is live
+const CAREERS_ENDPOINT = "https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/c8b6ae21-59e6-494d-b8db-01952bd41bd0"; // GHL careers webhook
+const DEMO = false; // live -> posts to GHL
 
 /* ---- select placeholder color state ---- */
 const positionSel = document.getElementById('app-position');
@@ -570,29 +570,27 @@ function show(id){
 
 /* ---- payload ---- */
 function buildPayload(){
+  var _n = document.getElementById('app-name').value.trim();
+  var _sp = _n.indexOf(' ');
   return {
+    full_name: _n,
+    first_name: _sp>0 ? _n.slice(0,_sp) : _n,
+    last_name:  _sp>0 ? _n.slice(_sp+1) : '',
+    phone: document.getElementById('app-phone').value.trim(),
+    email: document.getElementById('app-email').value.trim(),
+    city:  document.getElementById('app-city').value.trim(),
+    state: document.getElementById('app-state').value.trim(),
+    position: positionSel.value,
+    availability: (document.querySelector('input[name="availability"]:checked') || {}).value || '',
+    experience:   (document.querySelector('input[name="experience"]:checked') || {}).value || '',
+    has_transportation: document.getElementById('app-transport').checked ? 'Yes' : 'No',
+    cover_letter:   document.getElementById('app-cover').value.trim(),
+    portfolio_link: document.getElementById('app-link').value.trim(),
+    heard_from:     document.getElementById('app-source').value.trim(),
+    resume_link:    document.getElementById('resume-link').value.trim(),
+    resume_filename: resume ? resume.name : '',
     source: 'cashasis-careers',
-    tags: ['careers', 'applicant', 'needs-review'],
-    applicant: {
-      name:  document.getElementById('app-name').value.trim(),
-      phone: document.getElementById('app-phone').value.trim(),
-      email: document.getElementById('app-email').value.trim(),
-      city:  document.getElementById('app-city').value.trim(),
-      state: document.getElementById('app-state').value.trim()
-    },
-    role: {
-      position:       positionSel.value,
-      availability:   (document.querySelector('input[name="availability"]:checked') || {}).value || '',
-      experience:     (document.querySelector('input[name="experience"]:checked') || {}).value || '',
-      transportation: document.getElementById('app-transport').checked
-    },
-    story: {
-      coverLetter: document.getElementById('app-cover').value.trim(),
-      link:        document.getElementById('app-link').value.trim(),
-      heardFrom:   document.getElementById('app-source').value.trim()
-    },
-    resume: resume ? { name: resume.name, dataUrl: resume.dataUrl } : null, // base64
-    resumeLink: document.getElementById('resume-link').value.trim()
+    tags: 'careers, applicant, needs-review'
   };
 }
 
