@@ -3,3 +3,4 @@ Allow: /
 Disallow: /agent-portal
 
 Sitemap: https://www.cashasis.com/sitemap.xml
+Sitemap: https://www.cashasis.com/sitemap-index.xml

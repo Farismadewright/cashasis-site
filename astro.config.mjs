@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 // For the first Netlify deploy you can leave it as the Netlify URL Netlify gives you,
 // then update it to https://cashasis.com once the domain is connected.
 export default defineConfig({
-  site: 'https://cashasis.com',
+  site: 'https://www.cashasis.com',
   integrations: [sitemap()],
   build: { format: 'directory' },
 });
