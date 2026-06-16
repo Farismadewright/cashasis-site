@@ -42,7 +42,7 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 .post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .post-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(13,27,42,.4);transition:transform .25s ease,box-shadow .25s ease}
 .post-card:hover{transform:translateY(-8px);box-shadow:0 30px 52px -22px rgba(13,27,42,.55)}
-.post-thumb{aspect-ratio:16/9;position:relative;display:flex;align-items:flex-end;padding:14px;overflow:hidden;background:linear-gradient(135deg,#24384f,#0d1b2a)}
+.post-thumb{aspect-ratio:1200/630;position:relative;display:flex;align-items:flex-end;padding:14px;overflow:hidden;background:linear-gradient(135deg,#24384f,#0d1b2a)}
 .thumb-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
 .post-cat{position:relative;z-index:1;background:rgba(255,255,255,.92);color:var(--navy);font-weight:800;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:5px 11px;border-radius:30px}
 .post-body{padding:20px 20px 22px;display:flex;flex-direction:column;flex:1}
@@ -54,7 +54,7 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 /* Featured (first post, full-width) */
 .featured{display:grid;grid-template-columns:1.15fr 1fr;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 20px 50px -28px rgba(13,27,42,.5);margin-bottom:34px;transition:transform .25s ease,box-shadow .25s ease}
 .featured:hover{transform:translateY(-5px);box-shadow:0 36px 64px -26px rgba(13,27,42,.6)}
-.featured-thumb{min-height:280px;position:relative;display:flex;align-items:flex-start;padding:18px;overflow:hidden;background:linear-gradient(135deg,#24384f,#0d1b2a)}
+.featured-thumb{aspect-ratio:1200/630;align-self:start;position:relative;display:flex;align-items:flex-start;padding:18px;overflow:hidden;background:linear-gradient(135deg,#24384f,#0d1b2a)}
 .featured-body{padding:34px 36px;display:flex;flex-direction:column;justify-content:center}
 .featured-body .fcat{display:inline-block;background:var(--navy);color:#fff;font-weight:800;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:30px;margin-bottom:14px;width:fit-content}
 .featured-body h2{font-size:26px;font-weight:800;line-height:1.2;letter-spacing:-.02em;margin-bottom:12px}
@@ -85,7 +85,7 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 .faq summary{font-weight:800;color:var(--navy);cursor:pointer;font-size:15.5px}
 .faq details p{margin-top:11px;color:#4a5563;font-size:14.5px}
 
-@media(max-width:980px){.post-grid{grid-template-columns:1fr 1fr}.featured{grid-template-columns:1fr}.featured-thumb{min-height:200px}}
+@media(max-width:980px){.post-grid{grid-template-columns:1fr 1fr}.featured{grid-template-columns:1fr}}
 @media(max-width:640px){.post-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.legal-card{padding:20px 22px 24px}.legal-nav{padding:12px 16px}.brand .wm{font-size:19px}.legal-nav .back{display:none}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
