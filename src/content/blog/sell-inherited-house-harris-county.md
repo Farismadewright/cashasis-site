@@ -25,7 +25,7 @@ When someone passes and leaves real estate, the property typically can't be sold
 
 If there's a will, it names an executor. If there's no will, the court determines the heirs. Either way, the person selling needs **letters testamentary** or **letters of administration** — the document proving they can sign on behalf of the estate. A title company won't close without it.
 
-The good news: Texas has one of the faster, cheaper probate processes in the country, especially **independent administration**, which is common when there's a clear will.
+The good news: Texas has one of the faster, cheaper probate processes in the country, especially **independent administration**, which is common when there's a clear will. And in some cases — no will, the heirs in agreement, and a clean estate — you may be able to [skip full probate with an affidavit of heirship](/blog/skip-probate-affidavit-heirship-texas/) and sell even sooner.
 
 ## What selling as-is actually saves you
 
