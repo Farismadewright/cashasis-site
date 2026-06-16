@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Tax Delinquency"
 readTime: "6 min read"
 tags: ["tax delinquent", "property taxes", "harris county", "houston"]
-image: "/images/tax-delinquent.jpg"
-imageAlt: "Houston homeowner reviewing a property tax notice"
+image: "/images/sell-house-behind-on-taxes-houston.jpg"
+imageAlt: "Selling a Houston house when you're behind on property taxes, before a tax foreclosure sale"
 faq:
   - q: "Can I sell my house if I owe back property taxes in Texas?"
     a: "Yes. Unpaid property taxes are a lien on the home, but they don't stop a sale. The back taxes simply get paid out of the sale proceeds at closing through the title company. You can sell right up until a tax foreclosure sale actually happens."

@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Tired Landlord"
 readTime: "6 min read"
 tags: ["tired landlord", "rental property", "sell rental", "houston"]
-image: "/images/tired-landlord.jpg"
-imageAlt: "Houston rental property for sale"
+image: "/images/sell-rental-property-tired-landlord-houston.jpg"
+imageAlt: "Tired landlord selling a Houston rental property fast and as-is — tenants and all"
 faq:
   - q: "Can I sell my rental property with tenants still in it?"
     a: "Yes. A cash buyer who works with investors can buy an occupied rental as-is, with the lease in place. You don't have to evict anyone or wait for tenants to leave. The buyer takes the property with the existing tenancy."

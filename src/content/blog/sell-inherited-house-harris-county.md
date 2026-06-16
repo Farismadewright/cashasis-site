@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Probate & Inherited"
 readTime: "5 min read"
 tags: ["inherited house", "probate", "harris county", "houston"]
-image: "/images/inherited-house.jpg"
-imageAlt: "Inherited home in a Houston neighborhood"
+image: "/images/sell-inherited-house-harris-county.jpg"
+imageAlt: "Selling an inherited house in Harris County, Houston — a plain guide to probate and an as-is cash sale"
 faq:
   - q: "Can I sell an inherited house in Harris County before probate is finished?"
     a: "Usually not a full sale. The estate generally needs to clear probate so the executor or heirs have legal authority to transfer title. You can often get a property under contract while probate finishes, then close once the court grants authority. A title company will confirm what's needed for your specific situation."

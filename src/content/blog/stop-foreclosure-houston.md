@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Foreclosure"
 readTime: "6 min read"
 tags: ["foreclosure", "pre-foreclosure", "houston", "sell fast"]
-image: "/images/stop-foreclosure.jpg"
-imageAlt: "Houston home owner reviewing foreclosure options"
+image: "/images/stop-foreclosure-houston.jpg"
+imageAlt: "How to stop foreclosure in Houston — ways to sell your house fast before the auction"
 faq:
   - q: "How long does the foreclosure process take in Texas?"
     a: "Texas is one of the fastest foreclosure states. It's typically non-judicial, and a lender must give at least 21 days' notice before the sale, which happens on the first Tuesday of the month. From your first missed payment, the whole process can move in a few months, so acting early matters."

@@ -9,7 +9,6 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
 const [featured, ...rest] = posts;
-const thumb = (p) => p.data.image ? `background-image:url('${p.data.image}')` : 'background:linear-gradient(135deg,#24384f,#0d1b2a)';
 const indexCta = ctaLink('blog-index', 'index');
 ---
 <!doctype html>
@@ -34,7 +33,9 @@ const indexCta = ctaLink('blog-index', 'index');
   <main class="legal-wrap wide">
     {featured && (
       <a class="featured" href={`/blog/${featured.slug}/`}>
-        <div class="featured-thumb" style={thumb(featured)}></div>
+        <div class="featured-thumb">
+          {featured.data.image && <img class="thumb-img" src={featured.data.image} alt={featured.data.imageAlt || featured.data.title} width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />}
+        </div>
         <div class="featured-body">
           <span class="fcat">{featured.data.category || 'Featured'}</span>
           <h2>{featured.data.title}</h2>
@@ -47,7 +48,8 @@ const indexCta = ctaLink('blog-index', 'index');
     <div class="post-grid">
       {rest.map((post) => (
         <a class="post-card" href={`/blog/${post.slug}/`}>
-          <div class="post-thumb" style={thumb(post)}>
+          <div class="post-thumb">
+            {post.data.image && <img class="thumb-img" src={post.data.image} alt={post.data.imageAlt || post.data.title} width="1200" height="630" loading="lazy" decoding="async" />}
             <span class="post-cat">{post.data.category || 'Seller Guide'}</span>
           </div>
           <div class="post-body">

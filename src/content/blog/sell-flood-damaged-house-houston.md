@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Selling As-Is"
 readTime: "5 min read"
 tags: ["flood damage", "as-is", "houston", "disclosure"]
-image: "/images/flood-damage.jpg"
-imageAlt: "Houston home affected by flooding"
+image: "/images/sell-flood-damaged-house-houston.jpg"
+imageAlt: "Selling a flood-damaged house in Houston as-is for cash, with the required Texas flood disclosure"
 faq:
   - q: "Do I have to disclose flood damage when selling a house in Texas?"
     a: "Yes. Texas requires sellers to disclose known flood history and damage on the Seller's Disclosure Notice, including past flooding, location in a flood zone, and any prior flood-insurance claims. Hiding it creates serious legal exposure. A cash as-is buyer expects flood history, so disclosure isn't a deal-killer with them."

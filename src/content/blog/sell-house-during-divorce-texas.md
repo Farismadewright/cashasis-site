@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Divorce"
 readTime: "5 min read"
 tags: ["divorce", "community property", "sell house", "texas"]
-image: "/images/divorce-sale.jpg"
-imageAlt: "Couple selling a house during a Texas divorce"
+image: "/images/sell-house-during-divorce-texas.jpg"
+imageAlt: "Selling a house during a divorce in Texas — splitting equity with a fast, neutral cash sale"
 faq:
   - q: "How is a house divided in a Texas divorce?"
     a: "Texas is a community property state, so a home bought during the marriage is generally owned by both spouses and divided in the divorce. Many couples sell the house and split the proceeds, which is often the cleanest way to separate the asset fairly."

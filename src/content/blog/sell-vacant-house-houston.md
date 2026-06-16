@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Vacant Property"
 readTime: "5 min read"
 tags: ["vacant house", "abandoned property", "sell as-is", "houston"]
-image: "/images/vacant-house.jpg"
-imageAlt: "Vacant house in Houston ready to sell"
+image: "/images/sell-vacant-house-houston.jpg"
+imageAlt: "Selling a vacant or abandoned house in Houston as-is for cash"
 faq:
   - q: "Why should I sell a vacant house instead of holding it?"
     a: "A vacant house keeps costing you — property taxes, insurance (often higher for vacant homes), utilities, and maintenance — while it slowly deteriorates and risks vandalism or squatters. Selling stops the bleed and converts a liability into cash."

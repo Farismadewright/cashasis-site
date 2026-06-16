@@ -26,7 +26,7 @@ const cta = ctaLink(slug, 'post');
   <main class="legal-wrap">
     <article class="legal-card article">
       <p class="eyebrow"><a href="/blog/">&larr; All Articles</a></p>
-      {image && <img class="article-hero" src={image} alt={imageAlt || title} />}
+      {image && <img class="article-hero" src={image} alt={imageAlt || title} width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />}
       <div class="article-body">
         <slot />
       </div>

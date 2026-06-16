@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Cash vs. Listing"
 readTime: "7 min read"
 tags: ["cash offer", "listing", "sell house", "houston"]
-image: "/images/cash-vs-listing.jpg"
-imageAlt: "Comparing a cash offer to a traditional listing"
+image: "/images/cash-offer-vs-listing-house-houston.jpg"
+imageAlt: "Cash offer vs. listing your Houston house — comparing speed, cost, and net proceeds"
 faq:
   - q: "Is a cash offer always lower than listing my house?"
     a: "The headline number is usually lower, but the net can be closer than it looks. Listing means agent commissions (often 5-6%), repairs, closing costs, and months of carrying costs. A cash sale removes those, so the gap between gross and net narrows."
