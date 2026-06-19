@@ -174,12 +174,16 @@ fbq('track','PageView');
   .disclaimer p{font-size:12px;color:#8593a2;line-height:1.6;max-width:920px}
 
   /* footer */
-  footer{background:var(--navy);color:#aebccb}
+  footer{background:var(--navy);color:#cdd5e0}
+  footer .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
   .foot-grid{display:grid;grid-template-columns:1.3fr 1.4fr 1.2fr 1fr;gap:36px;padding:54px 0 30px;align-items:start}
+  footer .logo{display:flex;align-items:center;gap:12px}
   footer .logo .lock{display:flex;flex-direction:column;line-height:1}
-  footer .logo .name{font-weight:900;font-size:22px;color:#fff}
+  footer .logo .name{font-weight:800;font-size:25px;letter-spacing:-.035em}
   footer .logo .name .navy{color:#fff}
-  footer .logo .sub{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-top:5px}
+  footer .logo .name .orange{color:var(--orange)}
+  footer .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
+  footer .logo .sub::before,footer .logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
   .foot-blurb{font-size:14px;color:#8ea0b2;margin-top:16px;max-width:280px;line-height:1.6}
   .foot-col h4{color:#fff;font-size:14px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px;font-weight:700}
   .foot-contact{display:flex;flex-direction:column;gap:12px;font-size:14.5px}
@@ -511,8 +515,8 @@ fbq('track','PageView');
       <div>
         <a href="/" class="logo">
           <span class="lock">
-            <span class="name"><span class="navy">Cash</span><span class="orange">AsIs</span></span>
-            <span class="sub">We Buy Houses As-Is</span>
+            <span class="name"><span class="navy">cash</span><span class="orange">asis</span></span>
+            <span class="sub">WE BUY HOUSES AS-IS</span>
           </span>
         </a>
         <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
