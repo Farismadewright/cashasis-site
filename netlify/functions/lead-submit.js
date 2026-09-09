@@ -5,8 +5,7 @@ const json = (statusCode, body) => ({
   headers: {
     'content-type': 'application/json; charset=utf-8',
     'cache-control': 'no-store',
-    'access-control-allow-origin': 'https://cashasis.com',
-    'vary': 'Origin',
+    'access-control-allow-origin': '*',
   },
   body: JSON.stringify(body),
 });
@@ -23,22 +22,27 @@ function validOrigin(headers = {}) {
       return false;
     }
   };
+  // Netlify/internal same-origin requests can occasionally arrive without Origin.
+  // Referer is accepted as the fallback, and production requests are still
+  // protected by honeypot + timing + field-shape checks below.
   return ok(origin) || ok(referer);
 }
 
 function looksHumanAddress(value) {
   const s = String(value || '').trim();
-  if (s.length < 8 || s.length > 180) return false;
-  if (!/[a-z]/i.test(s) || !/\d/.test(s)) return false;
-  // Blocks obvious random-token submissions while allowing normal US addresses.
-  const compact = s.replace(/[^a-z0-9]/gi, '');
-  if (compact.length >= 8 && !/\s/.test(s)) return false;
+  if (s.length < 5 || s.length > 180) return false;
+  if (!/[a-z]/i.test(s)) return false;
+  // The spam we are seeing is a single random token (e.g. QF43wMoClE).
+  // A real address normally contains a number OR multiple words.
+  if (!/\d/.test(s) && !/\s/.test(s)) return false;
   return true;
 }
 
 function validPhone(value) {
   const digits = String(value || '').replace(/\D/g, '');
-  return digits.length >= 10 && digits.length <= 15;
+  // Keep this permissive enough for legitimate form tests / international users;
+  // the bot filter does not depend on phone alone.
+  return digits.length >= 7 && digits.length <= 15;
 }
 
 function validEmail(value) {
@@ -49,29 +53,50 @@ function validEmail(value) {
 exports.handler = async function handler(event) {
   if (event.httpMethod === 'OPTIONS') return json(204, {});
   if (event.httpMethod !== 'POST') return json(405, { ok: false, error: 'method_not_allowed' });
-  if (!validOrigin(event.headers)) return json(403, { ok: false, error: 'invalid_origin' });
 
   let body;
   try { body = JSON.parse(event.body || '{}'); }
   catch (_) { return json(400, { ok: false, error: 'invalid_json' }); }
 
-  // Honeypot: real users never see/fill this field.
-  if (String(body._website || '').trim()) return json(200, { ok: true, filtered: true });
+  if (!validOrigin(event.headers)) {
+    console.warn('[lead-submit] filtered invalid_origin');
+    return json(403, { ok: false, error: 'invalid_origin' });
+  }
 
-  // Human timing: reject instant form posts and stale/replayed page sessions.
+  // Honeypot: real users never see/fill this field.
+  if (String(body._website || '').trim()) {
+    console.warn('[lead-submit] filtered honeypot');
+    return json(200, { ok: true, filtered: true, reason: 'honeypot' });
+  }
+
+  // Reject machine-speed submissions and stale/replayed sessions, but keep the
+  // threshold low enough that quick real users are never blocked.
   const startedAt = Number(body._started_at || 0);
   const elapsed = Date.now() - startedAt;
-  if (!startedAt || elapsed < 1500 || elapsed > 2 * 60 * 60 * 1000) {
-    return json(200, { ok: true, filtered: true });
+  if (!startedAt || elapsed < 500 || elapsed > 2 * 60 * 60 * 1000) {
+    console.warn('[lead-submit] filtered timing', { startedAt: !!startedAt, elapsed });
+    return json(200, { ok: true, filtered: true, reason: 'timing' });
   }
 
   const name = String(body.full_name || '').trim();
   const address = String(body.address1 || '').trim();
-  if (name.length < 2 || name.length > 100 || !looksHumanAddress(address) || !validPhone(body.phone) || !validEmail(body.email)) {
-    return json(200, { ok: true, filtered: true });
+  if (name.length < 2 || name.length > 100) {
+    console.warn('[lead-submit] filtered name');
+    return json(200, { ok: true, filtered: true, reason: 'name' });
+  }
+  if (!looksHumanAddress(address)) {
+    console.warn('[lead-submit] filtered address', address);
+    return json(200, { ok: true, filtered: true, reason: 'address' });
+  }
+  if (!validPhone(body.phone)) {
+    console.warn('[lead-submit] filtered phone');
+    return json(200, { ok: true, filtered: true, reason: 'phone' });
+  }
+  if (!validEmail(body.email)) {
+    console.warn('[lead-submit] filtered email');
+    return json(200, { ok: true, filtered: true, reason: 'email' });
   }
 
-  // Never pass anti-bot metadata into GHL.
   const outbound = { ...body };
   delete outbound._website;
   delete outbound._started_at;
@@ -83,10 +108,12 @@ exports.handler = async function handler(event) {
       body: JSON.stringify(outbound),
     });
     if (!response.ok) {
-      console.error('[lead-submit] GHL rejected request', response.status, await response.text());
+      const text = await response.text();
+      console.error('[lead-submit] GHL rejected request', response.status, text);
       return json(502, { ok: false, error: 'upstream_error' });
     }
-    return json(200, { ok: true });
+    console.log('[lead-submit] forwarded lead', { email: outbound.email, address: outbound.address1, stage: outbound.stage });
+    return json(200, { ok: true, forwarded: true });
   } catch (err) {
     console.error('[lead-submit] GHL request failed', err && err.message);
     return json(502, { ok: false, error: 'upstream_unavailable' });
