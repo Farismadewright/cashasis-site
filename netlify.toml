@@ -5,5 +5,9 @@
 [build.environment]
   NODE_VERSION = "22"
 
+[[edge_functions]]
+  function = "form-protection"
+  path = "/*"
+
 # When you wire cashasis.com/blog later, the main site proxies /blog/* here.
 # That redirect rule lives on the MAIN site's config, not this one.
