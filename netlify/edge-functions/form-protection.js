@@ -1,6 +1,8 @@
 const GHL_WEBHOOK = 'https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d';
 const PROTECTED_ENDPOINT = '/.netlify/functions/lead-submit';
 
+// Production form protection. The protected endpoint has been verified end-to-end
+// against the live GHL workflow before enabling this rewrite.
 const protectionScript = `
 <script>
 (function(){
@@ -23,8 +25,9 @@ const protectionScript = `
       var url=typeof input==='string'?input:(input&&input.url)||'';
       if(url==='${PROTECTED_ENDPOINT}' && init && init.body){
         var d=JSON.parse(init.body);
-        var visible=document.querySelector('input[name="_website"]');
-        d._website=visible?visible.value:'';
+        var form=(d.page||'').indexOf('modal-')===0?document.getElementById('caoModalForm'):document.getElementById('leadForm');
+        var hp=form&&form.querySelector('input[name="_website"]');
+        d._website=hp?hp.value:'';
         d._started_at=startedAt;
         init=Object.assign({},init,{body:JSON.stringify(d)});
       }
