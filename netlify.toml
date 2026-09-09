@@ -5,9 +5,9 @@
 [build.environment]
   NODE_VERSION = "22"
 
-[[edge_functions]]
-  function = "form-protection"
-  path = "/*"
+# Bot-protection edge function temporarily disabled while validating the protected
+# submission path. Lead forms continue posting directly to the existing GHL webhook
+# so legitimate seller leads are not lost.
 
 # When you wire cashasis.com/blog later, the main site proxies /blog/* here.
 # That redirect rule lives on the MAIN site's config, not this one.
