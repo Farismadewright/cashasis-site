@@ -10,44 +10,24 @@ const json = (statusCode, body) => ({
   body: JSON.stringify(body),
 });
 
-function validOrigin(headers = {}) {
-  const origin = String(headers.origin || headers.Origin || '').toLowerCase();
-  const referer = String(headers.referer || headers.Referer || '').toLowerCase();
-  const ok = (v) => {
-    if (!v) return false;
-    try {
-      const host = new URL(v).hostname;
-      return host === 'cashasis.com' || host === 'www.cashasis.com' || host.endsWith('.netlify.app');
-    } catch (_) {
-      return false;
-    }
-  };
-  // Netlify/internal same-origin requests can occasionally arrive without Origin.
-  // Referer is accepted as the fallback, and production requests are still
-  // protected by honeypot + timing + field-shape checks below.
-  return ok(origin) || ok(referer);
-}
-
-function looksHumanAddress(value) {
+function realStreetAddress(value) {
   const s = String(value || '').trim();
-  if (s.length < 5 || s.length > 180) return false;
-  if (!/[a-z]/i.test(s)) return false;
-  // The spam we are seeing is a single random token (e.g. QF43wMoClE).
-  // A real address normally contains a number OR multiple words.
-  if (!/\d/.test(s) && !/\s/.test(s)) return false;
+  if (s.length < 6 || s.length > 180) return false;
+  // For the seller form we require a normal street-number address. This blocks
+  // the exact bot pattern we have seen: one random token such as QF43wMoClE.
+  if (!/^\s*\d+[a-zA-Z]?\s+.+/.test(s)) return false;
+  if (!/[a-zA-Z]/.test(s)) return false;
   return true;
 }
 
 function validPhone(value) {
   const digits = String(value || '').replace(/\D/g, '');
-  // Keep this permissive enough for legitimate form tests / international users;
-  // the bot filter does not depend on phone alone.
-  return digits.length >= 7 && digits.length <= 15;
+  return digits.length >= 10 && digits.length <= 15;
 }
 
 function validEmail(value) {
   const s = String(value || '').trim();
-  return s.length <= 160 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
+  return s.length >= 5 && s.length <= 160 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
 }
 
 exports.handler = async function handler(event) {
@@ -58,24 +38,10 @@ exports.handler = async function handler(event) {
   try { body = JSON.parse(event.body || '{}'); }
   catch (_) { return json(400, { ok: false, error: 'invalid_json' }); }
 
-  if (!validOrigin(event.headers)) {
-    console.warn('[lead-submit] filtered invalid_origin');
-    return json(403, { ok: false, error: 'invalid_origin' });
-  }
-
-  // Honeypot: real users never see/fill this field.
+  // Honeypot is the first line of defense. Do not reveal a rejection to bots.
   if (String(body._website || '').trim()) {
     console.warn('[lead-submit] filtered honeypot');
     return json(200, { ok: true, filtered: true, reason: 'honeypot' });
-  }
-
-  // Reject machine-speed submissions and stale/replayed sessions, but keep the
-  // threshold low enough that quick real users are never blocked.
-  const startedAt = Number(body._started_at || 0);
-  const elapsed = Date.now() - startedAt;
-  if (!startedAt || elapsed < 500 || elapsed > 2 * 60 * 60 * 1000) {
-    console.warn('[lead-submit] filtered timing', { startedAt: !!startedAt, elapsed });
-    return json(200, { ok: true, filtered: true, reason: 'timing' });
   }
 
   const name = String(body.full_name || '').trim();
@@ -84,7 +50,7 @@ exports.handler = async function handler(event) {
     console.warn('[lead-submit] filtered name');
     return json(200, { ok: true, filtered: true, reason: 'name' });
   }
-  if (!looksHumanAddress(address)) {
+  if (!realStreetAddress(address)) {
     console.warn('[lead-submit] filtered address', address);
     return json(200, { ok: true, filtered: true, reason: 'address' });
   }
@@ -107,13 +73,13 @@ exports.handler = async function handler(event) {
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(outbound),
     });
+    const upstreamText = await response.text();
     if (!response.ok) {
-      const text = await response.text();
-      console.error('[lead-submit] GHL rejected request', response.status, text);
-      return json(502, { ok: false, error: 'upstream_error' });
+      console.error('[lead-submit] GHL rejected request', response.status, upstreamText);
+      return json(502, { ok: false, error: 'upstream_error', status: response.status });
     }
     console.log('[lead-submit] forwarded lead', { email: outbound.email, address: outbound.address1, stage: outbound.stage });
-    return json(200, { ok: true, forwarded: true });
+    return json(200, { ok: true, forwarded: true, upstream_status: response.status });
   } catch (err) {
     console.error('[lead-submit] GHL request failed', err && err.message);
     return json(502, { ok: false, error: 'upstream_unavailable' });
