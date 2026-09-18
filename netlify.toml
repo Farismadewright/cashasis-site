@@ -5,11 +5,8 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# Verified end-to-end: live form requests are rewritten through the protected
-# Netlify function before being forwarded to the existing GHL webhook.
-[[edge_functions]]
-  function = "form-protection"
-  path = "/*"
+# Seller forms post directly to /.netlify/functions/lead-submit.
+# No global HTML-rewrite edge function is needed; this keeps form routing deterministic.
 
 # When you wire cashasis.com/blog later, the main site proxies /blog/* here.
 # That redirect rule lives on the MAIN site's config, not this one.
