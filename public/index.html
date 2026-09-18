@@ -469,6 +469,7 @@ fbq('track','PageView');
           <h2>Get Your Cash Offer Today</h2>
           <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
           <form id="leadForm">
+          <input type="text" name="_website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">
           <div class="field">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
             <input type="text" name="address" placeholder="Property Address" required>
@@ -865,7 +866,7 @@ fbq('track','PageView');
   var card=document.getElementById('caoCard');
   var form=document.getElementById('leadForm');
   if(!card||!form) return;
-  var GHL_WEBHOOK_URL="https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d";
+  var GHL_WEBHOOK_URL="/.netlify/functions/lead-submit";
   var panes=card.querySelectorAll('.cao-pane');
   var prog=document.getElementById('caoProg'), bar=document.getElementById('caoBar');
   var WIDTHS={'1':'0%','2':'33%','3':'66%','4':'100%'};
@@ -879,7 +880,7 @@ fbq('track','PageView');
   function g(nm){var el=form.querySelector('[name="'+nm+'"]');return el?el.value.trim():'';}
   function consent(){var c=form.querySelector('input[name="consent"]');return !!(c&&c.checked);}
   function post(extra){
-    var d={full_name:g('name'),phone:g('phone'),email:g('email'),address1:g('address'),tcpa_consent:consent(),source:'cashasis-hero',lead_source:'cashasis-hero',submitted_at:new Date().toISOString()};
+    var d={full_name:g('name'),phone:g('phone'),email:g('email'),address1:g('address'),tcpa_consent:consent(),_website:g('_website'),source:'cashasis-hero',lead_source:'cashasis-hero',submitted_at:new Date().toISOString()};
     for(var k in extra){d[k]=extra[k];}
     if(GHL_WEBHOOK_URL.indexOf('http')!==0)return;
     fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});
@@ -916,6 +917,7 @@ fbq('track','PageView');
     <div class="cao-body">
       <div class="cao-pane active" data-mpane="1">
         <form id="caoModalForm">
+          <input type="text" name="_website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0">
           <div class="cao-f"><label>Full Name *</label><input type="text" name="name" placeholder="First &amp; last name" required></div>
           <div class="cao-frow">
             <div class="cao-f"><label>Phone *</label><input type="tel" name="phone" placeholder="(713) 000-0000" required></div>
@@ -957,7 +959,7 @@ fbq('track','PageView');
   var modal=document.getElementById('caoModal');
   if(!modal) return;
   var form=document.getElementById('caoModalForm');
-  var GHL_WEBHOOK_URL="https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d";
+  var GHL_WEBHOOK_URL="/.netlify/functions/lead-submit";
   var panes=modal.querySelectorAll('.cao-pane');
   var titleEl=modal.querySelector('.cao-title'), stepEl=modal.querySelector('.cao-step'), barEl=modal.querySelector('.cao-bar span');
   var META={'1':{t:'Get Your Free Cash Offer',s:'Step 1 of 3 \u00b7 Takes 30 seconds',w:'33%'},
@@ -969,7 +971,7 @@ fbq('track','PageView');
   function closeM(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.style.overflow='';}
   function g(nm){var el=form.querySelector('[name="'+nm+'"]');return el?el.value.trim():'';}
   function consent(){var c=form.querySelector('input[name="consent"]');return !!(c&&c.checked);}
-  function post(extra){var d={full_name:g('name'),phone:g('phone'),email:g('email'),address1:g('address'),tcpa_consent:consent(),source:'cashasis-hero',lead_source:'cashasis-hero',submitted_at:new Date().toISOString()};for(var k in extra){d[k]=extra[k];}if(GHL_WEBHOOK_URL.indexOf('http')!==0)return;fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});}
+  function post(extra){var d={full_name:g('name'),phone:g('phone'),email:g('email'),address1:g('address'),tcpa_consent:consent(),_website:g('_website'),source:'cashasis-hero',lead_source:'cashasis-hero',submitted_at:new Date().toISOString()};for(var k in extra){d[k]=extra[k];}if(GHL_WEBHOOK_URL.indexOf('http')!==0)return;fetch(GHL_WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)}).catch(function(){});}
   document.querySelectorAll('[data-cao-open]').forEach(function(b){b.addEventListener('click',function(e){e.preventDefault();openM();});});
   modal.querySelector('.cao-close').addEventListener('click',closeM);
   modal.addEventListener('click',function(e){if(e.target===modal)closeM();});
