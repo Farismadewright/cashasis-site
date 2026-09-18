@@ -858,14 +858,6 @@ fbq('track','PageView');
     });
   });
 
-  // Lead form (no backend wired yet)
-  document.getElementById('leadForm').addEventListener('submit',function(e){
-    e.preventDefault();
-    var b=this.querySelector('button');
-    b.textContent='REQUEST RECEIVED';
-    b.style.background='#1B6F7A';
-    setTimeout(function(){ b.textContent='GET MY CASH OFFER'; b.style.background=''; e.target.reset(); },2200);
-  });
 </script>
 
 <script>
