@@ -29,7 +29,8 @@ const protectionScript = `
         var hp=form&&form.querySelector('input[name="_website"]');
         d._website=hp?hp.value:'';
         d._started_at=startedAt;
-        init=Object.assign({},init,{body:JSON.stringify(d)});\n        input='${PROTECTED_ENDPOINT}';
+        init=Object.assign({},init,{body:JSON.stringify(d)});
+        input='${PROTECTED_ENDPOINT}';
       }
     }catch(e){}
     return nativeFetch(input,init);
