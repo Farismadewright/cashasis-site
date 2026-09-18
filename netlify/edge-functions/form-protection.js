@@ -23,13 +23,13 @@ const protectionScript = `
   window.fetch=function(input,init){
     try{
       var url=typeof input==='string'?input:(input&&input.url)||'';
-      if(url==='${PROTECTED_ENDPOINT}' && init && init.body){
+      if((url==='${PROTECTED_ENDPOINT}' || url==='${GHL_WEBHOOK}') && init && init.body){
         var d=JSON.parse(init.body);
         var form=(d.page||'').indexOf('modal-')===0?document.getElementById('caoModalForm'):document.getElementById('leadForm');
         var hp=form&&form.querySelector('input[name="_website"]');
         d._website=hp?hp.value:'';
         d._started_at=startedAt;
-        init=Object.assign({},init,{body:JSON.stringify(d)});
+        init=Object.assign({},init,{body:JSON.stringify(d)});\n        input='${PROTECTED_ENDPOINT}';
       }
     }catch(e){}
     return nativeFetch(input,init);
