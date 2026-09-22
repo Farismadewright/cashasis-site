@@ -1,0 +1,63 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title='Cash Home Buyer FAQ: Answers for Property Sellers';
+const description='Answers to common seller questions about CashAsIs cash offers, as-is property sales, repairs, fees, title, closing timelines, belongings, houses, land, and agreements.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'What does CashAsIs buy?',a:'CashAsIs works with multiple property types, including houses and land. Each property and offer is reviewed individually.'},
+ {q:'Do I have to make repairs before selling?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate or make the property retail-ready before selling.'},
+ {q:'Do I need to clean out the property?',a:'An as-is sale is designed to reduce seller preparation. Ask your CashAsIs representative what can remain at the property because belongings, debris, and cleanout details can vary by transaction.'},
+ {q:'Are there Realtor commissions?',a:'When you sell directly to CashAsIs rather than through a traditional listing, there is no listing-agent commission charged by CashAsIs. Review your agreement and closing statement for the costs that apply to your specific transaction.'},
+ {q:'Are there closing costs or other fees?',a:'Transaction costs depend on the purchase agreement and closing documents. Review your agreement and final closing statement rather than assuming every transaction has identical costs.'},
+ {q:'How is my cash offer determined?',a:'An offer can reflect factors such as property condition, location, property type, market information, title circumstances, repairs or cleanup that may be needed, and the terms of the proposed transaction.'},
+ {q:'How quickly can a cash property sale close?',a:'There is no universal closing time. Timing depends on the purchase agreement, title work, required documents, and whether any property-specific matters must be resolved before closing.'},
+ {q:'What happens after I sign the purchase agreement?',a:'The transaction generally moves into title and closing preparation. Ownership and title matters are reviewed, required documents are coordinated, and the parties work toward the closing date under the agreement.'},
+ {q:'What can delay closing?',a:'Potential delays can include title issues, liens, ownership or heirship questions, missing documents, signatures, judgments, access issues, or other matters that need to be addressed before closing.'},
+ {q:'When do I get paid?',a:'Seller proceeds are handled by the title company at closing and disbursed according to the transaction documents and the title company’s process.'},
+ {q:'Can I sell inherited or probate property?',a:'Potentially. Inherited property can require additional ownership, estate, probate, or heirship documentation. The exact requirements depend on the property and title circumstances.'},
+ {q:'Can I sell if there are back taxes or liens?',a:'Potentially. Taxes, liens, and other title matters are reviewed as part of the title process. Whether and how they can be resolved depends on the specific amounts, claims, available proceeds, and transaction documents.'},
+ {q:'Can CashAsIs buy vacant land?',a:'Yes, CashAsIs works with land as well as houses. Land transactions still require ownership and title review before closing.'},
+ {q:'Do I have to accept the offer because I received an agreement?',a:'Receiving an agreement does not itself mean you have signed it. Review the document carefully and ask questions before signing if any term is unclear.'},
+ {q:'What if I have questions about my agreement?',a:'Reply to your CashAsIs representative before signing. Ask about any purchase price, closing term, property condition, title, belongings, timing, or other provision you do not understand.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>.faq-jump{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 28px}.faq-jump a{font-size:12px;font-weight:800;padding:8px 11px;border-radius:999px;background:#f2f5f8;color:var(--navy);text-decoration:none;border:1px solid var(--line)}.faq-intro{font-size:18px;line-height:1.65}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Seller FAQ</span><h1>Questions About Selling Your Property? Start Here.</h1><p class="meta">Clear answers about cash offers, as-is sales, repairs, title, closing, fees, houses, land, and your purchase agreement.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+<p class="faq-intro"><strong>Every property and transaction is different.</strong> These answers explain the CashAsIs process in plain language, but your signed purchase agreement, title work, and closing documents control the details of your specific sale.</p>
+<div class="faq-jump"><a href="#condition">Repairs &amp; Condition</a><a href="#money">Offers &amp; Costs</a><a href="#closing">Title &amp; Closing</a><a href="#situations">Property Situations</a><a href="#agreement">Your Agreement</a></div>
+<h2 id="condition">Repairs, cleanup &amp; property condition</h2>
+<details open><summary>{faq[1].q}</summary><p>{faq[1].a} See our <a href="/no-repairs-no-cleanup/">no repairs or cleanup guide</a>.</p></details>
+<details><summary>{faq[2].q}</summary><p>{faq[2].a}</p></details>
+<details><summary>{faq[0].q}</summary><p>{faq[0].a} Learn more about <a href="/why-sell-as-is/">what selling as-is really means</a>.</p></details>
+<h2 id="money">Offers, commissions &amp; costs</h2>
+<details><summary>{faq[5].q}</summary><p>{faq[5].a}</p></details>
+<details><summary>{faq[3].q}</summary><p>{faq[3].a}</p></details>
+<details><summary>{faq[4].q}</summary><p>{faq[4].a} You can also compare a <a href="/blog/cash-offer-vs-listing-house-houston/">cash sale with a traditional listing</a>.</p></details>
+<h2 id="closing">Title, closing &amp; getting paid</h2>
+<details><summary>{faq[6].q}</summary><p>{faq[6].a} See the full <a href="/closing-timeline/">cash closing timeline</a>.</p></details>
+<details><summary>{faq[7].q}</summary><p>{faq[7].a} Our <a href="/after-you-sign/">after-you-sign guide</a> walks through the process.</p></details>
+<details><summary>{faq[8].q}</summary><p>{faq[8].a}</p></details>
+<details><summary>{faq[9].q}</summary><p>{faq[9].a}</p></details>
+<h2 id="situations">Inherited property, taxes, liens &amp; land</h2>
+<details><summary>{faq[10].q}</summary><p>{faq[10].a}</p></details>
+<details><summary>{faq[11].q}</summary><p>{faq[11].a}</p></details>
+<details><summary>{faq[12].q}</summary><p>{faq[12].a}</p></details>
+<h2 id="agreement">Your CashAsIs agreement</h2>
+<details><summary>{faq[13].q}</summary><p>{faq[13].a}</p></details>
+<details><summary>{faq[14].q}</summary><p>{faq[14].a}</p></details>
+<div class="callout"><p><b>Still have a question?</b><br/>If you already received a CashAsIs offer or agreement, reply directly to your representative. Ask before signing if any part of the transaction is unclear.</p></div>
+</div>
+</article></main>
+<Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
