@@ -6,6 +6,7 @@ import Footer from '../../components/Footer.astro';
 const title = 'Seller Story: Sold Fast and Closed in Record Time';
 const description = 'Watch a real CashAsIs seller describe her experience selling a property and reaching closing, then learn what sellers can expect from an as-is sale.';
 const pubDate = new Date('2026-09-22');
+const image = '/images/Fast%20Closing%20Testimonial.png';
 const videoId = '1201084643';
 const videoUrl = 'https://player.vimeo.com/video/1201084643?h=11bc3640d6';
 const faq = [
@@ -17,7 +18,7 @@ const videoSchema = {
  '@context':'https://schema.org','@type':'VideoObject',
  name:'CashAsIs Seller Story: Sold Fast and Closed in Record Time',
  description:'A CashAsIs seller shares her experience selling a property and reaching closing.',
- thumbnailUrl:['https://cashasis.com/images/cashasis-og-default.jpg'],
+ thumbnailUrl:['https://cashasis.com/images/Fast%20Closing%20Testimonial.png'],
  uploadDate:'2026-09-22',
  embedUrl:videoUrl
 };
@@ -25,7 +26,7 @@ const videoSchema = {
 <!doctype html>
 <html lang="en">
 <head>
- <BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq} />
+ <BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq} />
  <link rel="stylesheet" href="/styles.css" />
  <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
  <style>
