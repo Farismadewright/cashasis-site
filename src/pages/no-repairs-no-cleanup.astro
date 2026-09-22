@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='Sell As-Is With No Repairs or Cleanup: What Can You Leave Behind?';
 const description='Learn how selling property as-is can help you avoid repairs, cleanup, maintenance, showings, and preparing a house or land for a traditional sale.';
 const pubDate=new Date('2026-09-22');
+const image='/images/No%20Repairs%20or%20Cleanup.png';
 const faq=[
  {q:'Do I have to make repairs before selling to CashAsIs?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate or make the property retail-ready before selling.'},
  {q:'Do I have to clean the property before selling?',a:'An as-is transaction is designed to reduce the preparation required from the seller. Ask your CashAsIs representative about property-specific belongings, debris, or cleanout details before closing.'},
@@ -14,13 +15,13 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">As-Is Seller Guide</span><h1>Take What You Want. Leave What You Don't.</h1><p class="meta">Selling as-is can mean less fixing, cleaning, maintaining, and preparing before you move forward.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="Take what you want and leave what you do not — sell property as-is with no repairs or cleanup" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 <p><strong>Quick answer:</strong> you do not have to turn your property into a show-ready listing before selling it to CashAsIs. The goal of an as-is sale is to reduce the work and expense that often comes before a traditional sale.</p>
 <div class="callout"><p><b>LESS TO FIX. LESS TO CLEAN. LESS TO MAINTAIN.</b><br/>No repairs &bull; No traditional showings &bull; No staging &bull; No retail-ready renovation</p></div>
