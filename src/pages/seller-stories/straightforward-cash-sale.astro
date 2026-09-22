@@ -5,16 +5,17 @@ import Footer from '../../components/Footer.astro';
 const title='Seller Story: A Straightforward Cash Sale When Time Mattered';
 const description='Watch a real CashAsIs seller describe a straightforward, transparent cash sale and how the paperwork came together quickly when time mattered.';
 const pubDate=new Date('2026-09-22');
+const image='/images/straightforward-cash-sale%20testimony.png';
 const videoUrl='https://player.vimeo.com/video/1201084786?h=5921c0723f';
 const faq=[
  {q:'Can CashAsIs help make the paperwork easier to understand?',a:'CashAsIs works with sellers through the transaction and communicates what is needed as the file moves toward title and closing. Property and title circumstances vary, so required documents depend on the transaction.'},
  {q:'Can a cash property sale move quickly when there is a deadline?',a:'Cash transactions can remove some financing-related steps, but timing still depends on the purchase agreement, title work, required documents, and the circumstances of the property.'},
  {q:'Does CashAsIs buy properties as-is?',a:'Yes. CashAsIs works with sellers of houses and land and purchases properties as-is, so sellers are not expected to prepare the property for a traditional retail listing.'}
 ];
-const videoSchema={'@context':'https://schema.org','@type':'VideoObject',name:'CashAsIs Seller Story: A Straightforward Cash Sale When Time Mattered',description:'A real CashAsIs seller discusses a straightforward and transparent cash sale and getting paperwork completed quickly.',thumbnailUrl:['https://cashasis.com/images/cashasis-og-default.jpg'],uploadDate:'2026-09-22',embedUrl:videoUrl};
+const videoSchema={'@context':'https://schema.org','@type':'VideoObject',name:'CashAsIs Seller Story: A Straightforward Cash Sale When Time Mattered',description:'A real CashAsIs seller discusses a straightforward and transparent cash sale and getting paperwork completed quickly.',thumbnailUrl:['https://cashasis.com/images/straightforward-cash-sale%20testimony.png'],uploadDate:'2026-09-22',embedUrl:videoUrl};
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <script type="application/ld+json" set:html={JSON.stringify(videoSchema)}/>
 <style>.video-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#0D1B2A;margin:0 auto 28px;box-shadow:0 18px 42px -26px rgba(13,27,42,.6)}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.story-points{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.story-point{border:1px solid var(--line);border-radius:12px;padding:17px;text-align:center;background:#fbfcfd;font-weight:800;color:var(--navy)}@media(max-width:640px){.story-points{grid-template-columns:1fr}}</style>
@@ -22,7 +23,7 @@ const videoSchema={'@context':'https://schema.org','@type':'VideoObject',name:'C
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Real Seller Story</span><h1>A Straightforward Cash Sale When Time Mattered</h1><p class="meta">Hear how one seller describes the CashAsIs process, communication, and getting paperwork handled quickly.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="Real CashAsIs seller story — straightforward cash sale, paperwork guidance and clear communication" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="video-wrap"><iframe src="https://player.vimeo.com/video/1201084786?h=5921c0723f&badge=0&autopause=0&player_id=0&app_id=58479" title="CashAsIs seller story — straightforward cash sale when time mattered" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="eager"></iframe></div>
 <div class="article-body">
 <p><strong>Property sales can feel overwhelming when documents and deadlines pile up.</strong> In this seller story, a homeowner talks about her experience with an all-cash transaction, a straightforward and transparent process, and getting the paperwork completed quickly when timing mattered.</p>
