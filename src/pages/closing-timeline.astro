@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='How Long Does a Cash Property Sale Take? Closing Timeline Explained';
 const description='Learn what happens from signing to title to closing in a cash property sale, what can affect timing, and when seller proceeds are typically disbursed.';
 const pubDate=new Date('2026-09-22');
+const image='/images/Closing%20Timeline.png';
 const faq=[
  {q:'How long does a cash property sale take?',a:'There is no single timeline for every cash sale. Timing depends on the purchase agreement, title work, required documents, and whether any property-specific issues need to be resolved before closing.'},
  {q:'What happens after I sign a cash purchase agreement?',a:'The transaction generally moves into title and closing preparation. The title company reviews ownership and title matters, required documents are coordinated, and the parties work toward the closing date in the agreement.'},
@@ -15,14 +16,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:24px 0}.step{border:1px solid var(--line);border-radius:12px;padding:18px 10px;text-align:center;background:#fbfcfd}.step b{display:block;color:var(--orange);font-size:12px;letter-spacing:.08em;margin-bottom:6px}.step span{font-weight:800;color:var(--navy)}@media(max-width:640px){.timeline{grid-template-columns:1fr 1fr}}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Closing Guide</span><h1>How Long Does a Cash Property Sale Take?</h1><p class="meta">A straightforward look at the path from signed agreement to title, closing, and seller proceeds.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="Cash property closing timeline — sign, title, choose closing, get paid" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 <p><strong>Quick answer:</strong> a cash property sale does not have one universal closing time. The timeline is controlled by the purchase agreement and depends on title work, required documents, and whether anything needs to be resolved before closing. Because there is no buyer mortgage to approve, a cash transaction can remove financing-related steps from the process.</p>
 <div class="timeline"><div class="step"><b>STEP 1</b><span>SIGN</span></div><div class="step"><b>STEP 2</b><span>TITLE</span></div><div class="step"><b>STEP 3</b><span>CLOSE</span></div><div class="step"><b>STEP 4</b><span>GET PAID</span></div></div>
