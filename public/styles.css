@@ -29,7 +29,7 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 
 /* CTA callout */
 .callout{background:linear-gradient(160deg,#13263c,#0a1521);border-radius:14px;padding:24px 26px;margin-top:22px;color:#fff;text-align:center}
-.callout p{font-size:14.5px;color:#cdd5e0;margin-bottom:16px}.callout p b{color:#fff}
+.callout p{font-size:14.5px;color:#f1f5f9;margin-bottom:16px}.callout p b{color:#fff}.article .callout p{color:#f1f5f9}.article .callout strong,.article .callout b{color:#fff}
 .cbtn{display:inline-flex;align-items:center;gap:8px;background:var(--orange);color:#fff;font-weight:800;font-size:15px;padding:14px 28px;border-radius:30px;transition:.15s}
 .cbtn:hover{background:#d95c14}
 
