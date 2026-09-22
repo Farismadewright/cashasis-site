@@ -1,0 +1,42 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+const title='Seller Story: A Straightforward Cash Sale When Time Mattered';
+const description='Watch a real CashAsIs seller describe a straightforward, transparent cash sale and how the paperwork came together quickly when time mattered.';
+const pubDate=new Date('2026-09-22');
+const videoUrl='https://player.vimeo.com/video/1201084786?h=5921c0723f';
+const faq=[
+ {q:'Can CashAsIs help make the paperwork easier to understand?',a:'CashAsIs works with sellers through the transaction and communicates what is needed as the file moves toward title and closing. Property and title circumstances vary, so required documents depend on the transaction.'},
+ {q:'Can a cash property sale move quickly when there is a deadline?',a:'Cash transactions can remove some financing-related steps, but timing still depends on the purchase agreement, title work, required documents, and the circumstances of the property.'},
+ {q:'Does CashAsIs buy properties as-is?',a:'Yes. CashAsIs works with sellers of houses and land and purchases properties as-is, so sellers are not expected to prepare the property for a traditional retail listing.'}
+];
+const videoSchema={'@context':'https://schema.org','@type':'VideoObject',name:'CashAsIs Seller Story: A Straightforward Cash Sale When Time Mattered',description:'A real CashAsIs seller discusses a straightforward and transparent cash sale and getting paperwork completed quickly.',thumbnailUrl:['https://cashasis.com/images/cashasis-og-default.jpg'],uploadDate:'2026-09-22',embedUrl:videoUrl};
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<script type="application/ld+json" set:html={JSON.stringify(videoSchema)}/>
+<style>.video-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#0D1B2A;margin:0 auto 28px;box-shadow:0 18px 42px -26px rgba(13,27,42,.6)}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.story-points{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.story-point{border:1px solid var(--line);border-radius:12px;padding:17px;text-align:center;background:#fbfcfd;font-weight:800;color:var(--navy)}@media(max-width:640px){.story-points{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Real Seller Story</span><h1>A Straightforward Cash Sale When Time Mattered</h1><p class="meta">Hear how one seller describes the CashAsIs process, communication, and getting paperwork handled quickly.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="video-wrap"><iframe src="https://player.vimeo.com/video/1201084786?h=5921c0723f&badge=0&autopause=0&player_id=0&app_id=58479" title="CashAsIs seller story — straightforward cash sale when time mattered" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="eager"></iframe></div>
+<div class="article-body">
+<p><strong>Property sales can feel overwhelming when documents and deadlines pile up.</strong> In this seller story, a homeowner talks about her experience with an all-cash transaction, a straightforward and transparent process, and getting the paperwork completed quickly when timing mattered.</p>
+<div class="story-points"><div class="story-point">STRAIGHTFORWARD CASH SALE</div><div class="story-point">CLEAR COMMUNICATION</div><div class="story-point">PAPERWORK GUIDANCE</div><div class="story-point">HELP WHEN TIME MATTERS</div></div>
+<h2>You don't have to figure out every step alone</h2>
+<p>Once a seller decides to move forward, there can still be documents, title requirements, signatures, and deadlines to coordinate. CashAsIs works with sellers through the transaction and communicates what is needed as the file progresses toward closing.</p>
+<h2>Why an all-cash transaction can feel simpler</h2>
+<p>A cash transaction can avoid some of the financing-related uncertainty associated with a traditional retail buyer. The transaction still follows the purchase agreement and title process, but the goal is a clear path from agreement to closing.</p>
+<h2>What if your situation is time-sensitive?</h2>
+<p>Every transaction is different, and no specific closing time can be guaranteed. When a deadline matters, getting requested documents completed promptly and keeping communication clear can help the transaction move forward efficiently.</p>
+<p>If you are currently reviewing your agreement, see <a href="/after-you-sign/">what happens after you sign</a> or learn <a href="/why-sell-as-is/">what selling a property as-is really means</a>.</p>
+<div class="callout"><p><b>Already have your CashAsIs agreement?</b><br/>Review it when you're ready. If you have a question about paperwork, title, or the next step, reply to your CashAsIs representative before signing.</p></div>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
