@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='Cash Home Buyer FAQ: Answers for Property Sellers';
 const description='Answers to common seller questions about CashAsIs cash offers, as-is property sales, repairs, fees, title, closing timelines, belongings, houses, land, and agreements.';
 const pubDate=new Date('2026-09-22');
+const image='/images/seller-faq.png';
 const faq=[
  {q:'What does CashAsIs buy?',a:'CashAsIs works with multiple property types, including houses and land. Each property and offer is reviewed individually.'},
  {q:'Do I have to make repairs before selling?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate or make the property retail-ready before selling.'},
@@ -24,14 +25,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.faq-jump{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 28px}.faq-jump a{font-size:12px;font-weight:800;padding:8px 11px;border-radius:999px;background:#f2f5f8;color:var(--navy);text-decoration:none;border:1px solid var(--line)}.faq-intro{font-size:18px;line-height:1.65}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Seller FAQ</span><h1>Questions About Selling Your Property? Start Here.</h1><p class="meta">Clear answers about cash offers, as-is sales, repairs, title, closing, fees, houses, land, and your purchase agreement.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="CashAsIs seller FAQ — questions and answers about repairs, fees, title, closing, houses and land" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 <p class="faq-intro"><strong>Every property and transaction is different.</strong> These answers explain the CashAsIs process in plain language, but your signed purchase agreement, title work, and closing documents control the details of your specific sale.</p>
 <div class="faq-jump"><a href="#condition">Repairs &amp; Condition</a><a href="#money">Offers &amp; Costs</a><a href="#closing">Title &amp; Closing</a><a href="#situations">Property Situations</a><a href="#agreement">Your Agreement</a></div>
