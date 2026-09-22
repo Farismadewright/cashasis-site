@@ -1,0 +1,41 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+const title='Seller Story: No Pressure, Just Understanding';
+const description='Watch a real CashAsIs seller share how she felt heard, respected, and never pressured while selling her late mother’s property.';
+const pubDate=new Date('2026-09-22');
+const videoUrl='https://player.vimeo.com/video/1201084795?h=f116166581';
+const faq=[
+ {q:'Does CashAsIs pressure sellers to sign an agreement?',a:'Sellers should review their agreement and ask questions before signing. The goal is to explain the process and let the seller decide whether the terms work for their situation.'},
+ {q:'Can CashAsIs work with inherited property?',a:'Potentially. Inherited property can involve additional ownership, estate, probate, or heirship documentation, and the requirements depend on the property and title circumstances.'},
+ {q:'What if I need time to review my agreement?',a:'Review the agreement carefully and ask your CashAsIs representative about anything that is unclear before signing.'}
+];
+const videoSchema={'@context':'https://schema.org','@type':'VideoObject',name:'CashAsIs Seller Story: No Pressure, Just Understanding',description:'A real seller shares her experience selling her late mother’s property and describes the CashAsIs process as personable, professional, understanding, and not pushy.',thumbnailUrl:['https://cashasis.com/images/cashasis-og-default.jpg'],uploadDate:'2026-09-22',embedUrl:videoUrl};
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<script type="application/ld+json" set:html={JSON.stringify(videoSchema)}/>
+<style>.video-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#0D1B2A;margin:0 auto 28px;box-shadow:0 18px 42px -26px rgba(13,27,42,.6)}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.story-points{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.story-point{border:1px solid var(--line);border-radius:12px;padding:17px;text-align:center;background:#fbfcfd;font-weight:800;color:var(--navy)}@media(max-width:640px){.story-points{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Real Seller Story</span><h1>No Pressure. Just Understanding.</h1><p class="meta">Hear from a seller who was handling her late mother's property and wanted to feel heard throughout the process.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="video-wrap"><iframe src="https://player.vimeo.com/video/1201084795?h=f116166581&badge=0&autopause=0&player_id=0&app_id=58479" title="CashAsIs seller story — no pressure, just understanding" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="eager"></iframe></div>
+<div class="article-body">
+<p><strong>Selling a property is not always just a transaction.</strong> Sometimes there is a personal story behind it. In this testimonial, a seller discusses selling her mother's property after her mom passed and why she valued feeling heard and understood throughout the process.</p>
+<div class="story-points"><div class="story-point">PERSONABLE</div><div class="story-point">PROFESSIONAL</div><div class="story-point">UNDERSTANDING</div><div class="story-point">NO PRESSURE</div></div>
+<h2>A seller should understand the decision before signing</h2>
+<p>A purchase agreement is an important document. Sellers should have room to review the terms, ask questions, and decide whether the transaction works for their situation. Clear communication matters just as much as speed.</p>
+<h2>Inherited property can come with more than paperwork</h2>
+<p>When a property belonged to a parent or another loved one, the sale can involve both practical and personal considerations. There may also be estate, probate, heirship, or title documents that need to be addressed depending on the circumstances.</p>
+<h2>What if you're still reviewing your agreement?</h2>
+<p>Take the time to understand the terms. If you have a question about the property, title, timing, belongings, or another part of the transaction, ask before signing. You can also read <a href="/after-you-sign/">what happens after you sign</a> and visit our <a href="/seller-faq/">Seller FAQ</a>.</p>
+<div class="callout"><p><b>Your situation matters.</b><br/>Our goal is a straightforward conversation, clear answers, and a process you understand before you decide to move forward.</p></div>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
