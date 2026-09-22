@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title='How Long Does a Cash Property Sale Take? Closing Timeline Explained';
+const description='Learn what happens from signing to title to closing in a cash property sale, what can affect timing, and when seller proceeds are typically disbursed.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'How long does a cash property sale take?',a:'There is no single timeline for every cash sale. Timing depends on the purchase agreement, title work, required documents, and whether any property-specific issues need to be resolved before closing.'},
+ {q:'What happens after I sign a cash purchase agreement?',a:'The transaction generally moves into title and closing preparation. The title company reviews ownership and title matters, required documents are coordinated, and the parties work toward the closing date in the agreement.'},
+ {q:'Can a cash sale close faster than a financed sale?',a:'A cash transaction does not require a buyer mortgage approval process, which can remove financing-related steps. Actual closing timing still depends on the agreement, title work, documents, and property circumstances.'},
+ {q:'What can delay a cash property closing?',a:'Potential delays can include title issues, ownership or heirship questions, liens, missing documents, access issues, or other matters that must be addressed before the title company can complete closing.'},
+ {q:'When does the seller get paid?',a:'Seller proceeds are handled by the title company at closing and disbursed according to the transaction documents and the title company’s closing process.'},
+ {q:'Does the same closing process apply to land?',a:'CashAsIs works with houses and land. The title and closing process applies to both, although the documents and property-specific issues can differ.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:24px 0}.step{border:1px solid var(--line);border-radius:12px;padding:18px 10px;text-align:center;background:#fbfcfd}.step b{display:block;color:var(--orange);font-size:12px;letter-spacing:.08em;margin-bottom:6px}.step span{font-weight:800;color:var(--navy)}@media(max-width:640px){.timeline{grid-template-columns:1fr 1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Closing Guide</span><h1>How Long Does a Cash Property Sale Take?</h1><p class="meta">A straightforward look at the path from signed agreement to title, closing, and seller proceeds.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+<p><strong>Quick answer:</strong> a cash property sale does not have one universal closing time. The timeline is controlled by the purchase agreement and depends on title work, required documents, and whether anything needs to be resolved before closing. Because there is no buyer mortgage to approve, a cash transaction can remove financing-related steps from the process.</p>
+<div class="timeline"><div class="step"><b>STEP 1</b><span>SIGN</span></div><div class="step"><b>STEP 2</b><span>TITLE</span></div><div class="step"><b>STEP 3</b><span>CLOSE</span></div><div class="step"><b>STEP 4</b><span>GET PAID</span></div></div>
+<h2>Step 1: Sign the purchase agreement</h2>
+<p>The agreement establishes the terms of the transaction, including the purchase price and closing terms. Review it carefully and ask questions before signing if anything is unclear.</p>
+<h2>Step 2: The transaction moves into title</h2>
+<p>The title company reviews ownership and title matters and prepares the file for closing. Depending on the property, this may involve confirming ownership, reviewing liens, obtaining documents, or resolving another title requirement.</p>
+<h2>Step 3: Complete the closing requirements</h2>
+<p>Once the necessary title work and documents are ready, the parties work toward the closing date under the agreement. Cash transactions avoid the buyer mortgage approval process, but title and transaction requirements still need to be completed.</p>
+<h2>Step 4: Close and receive the proceeds due to you</h2>
+<p>At closing, the required documents are completed through the title company. Seller proceeds are then handled and disbursed according to the transaction documents and the title company's process.</p>
+<div class="callout"><p><b>SIGN &rarr; TITLE &rarr; CLOSE &rarr; GET PAID</b><br/>A cash sale removes the traditional buyer-financing process, but every property still follows its agreement and title requirements.</p></div>
+<h2>What can affect the closing timeline?</h2>
+<p>Timing can change if the title company discovers an issue that must be addressed. Examples can include liens, ownership questions, heirship or estate documents, missing signatures, judgments, access matters, or other property-specific requirements. Not every transaction has these issues, and the time required to resolve them varies.</p>
+<h2>What if I need more time?</h2>
+<p>Your purchase agreement controls the closing terms. If your circumstances change or you have a timing question, communicate with your CashAsIs representative rather than assuming the closing date can automatically be moved.</p>
+<h2>Does this apply to land too?</h2>
+<p>Yes. CashAsIs works with houses and land. Vacant land does not have repairs or household cleanout, but the title company still reviews ownership and title matters before closing.</p>
+<h2>What should I do if I already have an agreement?</h2>
+<p>If you are currently reviewing a CashAsIs agreement, start with our <a href="/after-you-sign/">What Happens After You Sign?</a> guide. You can also read <a href="/why-sell-as-is/">what selling property as-is means</a> and our guide to <a href="/no-repairs-no-cleanup/">selling without repairs or cleanup</a>.</p>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main>
+<Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
