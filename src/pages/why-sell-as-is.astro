@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='What Does Selling a Property As-Is Really Mean?';
 const description='Learn what selling property as-is means for repairs, cleanup, maintenance, showings, land, carrying costs, and closing with CashAsIs.';
 const pubDate=new Date('2026-09-22');
+const image='/images/Selling%20a%20Property%20As-Is.png';
 const faq=[
  {q:'What does selling a property as-is mean?',a:'Selling as-is generally means selling the property in its current condition without preparing it for a traditional retail listing through repairs, renovations, staging, or similar improvements.'},
  {q:'Do I have to make repairs before selling to CashAsIs?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate or make the property retail-ready before the sale.'},
@@ -14,13 +15,13 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">As-Is Seller Guide</span><h1>What Does Selling a Property As-Is Really Mean?</h1><p class="meta">No fixing it up first. No preparing it for showings. Understand what an as-is sale can remove from your to-do list.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="What selling a property as-is means — houses, land, no repairs, cleanup, maintenance or showings" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 <p><strong>Quick answer:</strong> selling a property as-is means selling it in its current condition rather than spending additional time and money preparing it for a traditional retail listing. For CashAsIs sellers, that can mean avoiding repairs, renovations, cleanup, staging, showings, and continued maintenance while trying to get the property sold.</p>
 <div class="callout"><p><b>AS-IS = LESS TO DO BEFORE YOU SELL</b><br/>No repairs &bull; No cleanup &bull; No maintenance &bull; No showings</p></div>
