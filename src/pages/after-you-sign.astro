@@ -2,54 +2,72 @@
 import BaseHead from '../components/BaseHead.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+const title = 'What Happens After You Sign a Cash Home Sale Agreement?';
+const description = 'Signed a cash home sale agreement? Learn what happens next with title, closing, repairs, timing, and seller proceeds in four simple steps.';
+const image = '/images/cashasis-og-default.jpg';
+const pubDate = new Date('2026-09-22');
+const faq = [
+ {q:'What happens after I sign a cash offer on my house?',a:'The transaction generally moves into title review and closing preparation. The title company reviews ownership and closing requirements, the parties coordinate the agreed closing timeline, and final documents and seller proceeds are handled at closing.'},
+ {q:'How long after signing a home purchase agreement do you close?',a:'The closing date depends on the purchase agreement, title work, and any issues that need to be resolved. CashAsIs coordinates around the agreed timeline rather than requiring a traditional listing schedule.'},
+ {q:'Do I need to make repairs after signing with CashAsIs?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate the property for a traditional retail sale.'},
+ {q:'Do I need to clean out the house before closing?',a:'A CashAsIs sale is designed to avoid the traditional preparation process. Confirm any property-specific questions about belongings or cleanout with your CashAsIs representative before closing.'},
+ {q:'What does the title company do after I sign?',a:'The title company reviews ownership and title matters, prepares for closing, and handles the closing process and disbursement according to the transaction documents.'}
+];
 ---
 <!doctype html>
 <html lang="en">
 <head>
-  <BaseHead title="What Happens After You Sign? | CashAsIs" description="Signed your CashAsIs agreement? See the simple next steps from title work to choosing your closing date and receiving your proceeds." />
+  <BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq} />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
   <Nav />
-  <section class="legal-hero">
-    <div class="in">
-      <span class="badge">Your Next Steps</span>
-      <h1>What Happens After You Sign?</h1>
-      <p class="meta">You sign. We handle the rest.</p>
-    </div>
-  </section>
-
+  <section class="legal-hero"><div class="in">
+    <span class="badge">Seller Guide</span>
+    <h1>What Happens After You Sign?</h1>
+    <p class="meta">A simple look at what happens between signing your cash home sale agreement and closing.</p>
+  </div></section>
   <main class="legal-wrap">
     <article class="legal-card article">
+      <p class="eyebrow"><a href="/blog/">&larr; All Seller Guides</a></p>
       <div class="article-body">
-        <p>Once your agreement is signed, the process is designed to stay simple. You don't need to start fixing the house, schedule showings, or prepare it for a traditional listing. CashAsIs moves the sale toward closing while keeping you informed along the way.</p>
+        <p><strong>Quick answer:</strong> after you sign your purchase agreement, the transaction moves toward title and closing. The title company reviews the property and ownership, the closing timeline is coordinated, and you complete the final closing documents before receiving the proceeds due to you.</p>
+        <p>If you are selling to CashAsIs, you do not need to turn the property into a retail-ready house first. The goal is a straightforward as-is sale without the repairs, cleaning, showings, and preparation that commonly come with listing a home.</p>
 
-        <h2>1. Sign Your Agreement</h2>
-        <p>Review and sign your purchase agreement. If you have a question about anything in it, ask us before signing—we want you to understand the process.</p>
+        <h2>What happens after signing a cash home sale agreement?</h2>
+        <h3>1. You sign the purchase agreement</h3>
+        <p>Start by reviewing and signing your agreement. The contract sets out the terms of the transaction, including the agreed price and closing terms. If something is unclear, ask before signing so you understand what you are agreeing to.</p>
 
-        <h2>2. We Work With the Title Company</h2>
-        <p>After signing, the transaction moves into title. The title company reviews ownership and works through the normal title and closing requirements. If something needs your attention, we'll let you know what is needed.</p>
+        <h3>2. The transaction moves to title</h3>
+        <p>The title company reviews ownership and title matters and prepares the file for closing. If a title issue or additional document needs attention, the parties can work through what is required before closing.</p>
 
-        <h2>3. Choose Your Closing Timeline</h2>
-        <p>We coordinate the closing around the agreed timeline. CashAsIs is built for sellers who want a straightforward sale without the traditional listing process.</p>
+        <h3>3. Your closing timeline is coordinated</h3>
+        <p>The closing date follows the agreement and completion of the necessary title work. Unlike a traditional listing, there is no need to wait for showings, buyer financing approval, or a retail marketing period simply to begin the sale process.</p>
 
-        <h2>4. Close & Receive Your Proceeds</h2>
-        <p>At closing, the final documents are completed through the title company and the seller receives the proceeds due from the transaction.</p>
+        <h3>4. You close and receive your proceeds</h3>
+        <p>At closing, the required documents are completed through the title company. The title company then handles disbursement according to the transaction documents.</p>
 
-        <div class="callout">
-          <p><b>No repairs. No cleaning. No commissions.</b><br />Sell the house as-is and move forward on your timeline.</p>
-        </div>
+        <div class="callout"><p><b>The simple version:</b><br/>SIGN &rarr; TITLE &rarr; CLOSE &rarr; GET PAID</p></div>
 
-        <h2>What do you need to do right now?</h2>
-        <p>If your agreement is still waiting for your signature, review it when you're ready. Have a question before signing? Call or text us at <b>(346) 584-6365</b> and we'll walk through it with you.</p>
+        <h2>Do I have to make repairs after I sign?</h2>
+        <p>With an as-is sale to CashAsIs, you are not preparing the property for a traditional retail buyer. That means you are not expected to remodel the kitchen, replace flooring, repaint the house, or complete cosmetic upgrades just to make the property market-ready.</p>
 
-        <div class="callout">
-          <p><b>Ready to move forward?</b> Review and sign the agreement we sent you. Once it's signed, we'll begin the next steps toward closing.</p>
-        </div>
+        <h2>Do I need to clean the house out?</h2>
+        <p>An as-is sale is designed to reduce the preparation normally associated with selling. If you have furniture, belongings, debris, or another property-specific concern, confirm the details with your CashAsIs representative so you know exactly what can remain at the property.</p>
+
+        <h2>How long does it take to close after signing?</h2>
+        <p>There is no single closing time that applies to every property. Timing depends on the purchase agreement, title work, and whether anything must be resolved before closing. Your agreement controls the transaction, and the closing is coordinated around its terms.</p>
+
+        <h2>What should I do if my agreement is still unsigned?</h2>
+        <p>Review the agreement carefully. If you are comfortable with the terms, you can sign electronically using the agreement that was sent to you. If you have a question first, call or text CashAsIs at <b>(346) 584-6365</b>.</p>
+
+        <h2>More seller resources</h2>
+        <p>If you are still comparing your options, read our <a href="/blog/cash-offer-vs-listing-house-houston/">cash offer vs. traditional listing guide</a>. Sellers dealing with property taxes can also read <a href="/blog/sell-house-behind-on-taxes-houston/">how selling a house with delinquent property taxes works</a>, and homeowners facing a time-sensitive mortgage situation can review our <a href="/blog/stop-foreclosure-houston/">foreclosure options guide</a>.</p>
       </div>
+      <section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+      <div class="callout"><p><b>Already received your CashAsIs agreement?</b> Review it when you're ready. If you have a question about the terms or the closing process, call or text us before signing.</p></div>
     </article>
   </main>
   <Footer />
   <script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
-</body>
-</html>
+</body></html>
