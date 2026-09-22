@@ -1,0 +1,46 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title='Sell As-Is With No Repairs or Cleanup: What Can You Leave Behind?';
+const description='Learn how selling property as-is can help you avoid repairs, cleanup, maintenance, showings, and preparing a house or land for a traditional sale.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'Do I have to make repairs before selling to CashAsIs?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate or make the property retail-ready before selling.'},
+ {q:'Do I have to clean the property before selling?',a:'An as-is transaction is designed to reduce the preparation required from the seller. Ask your CashAsIs representative about property-specific belongings, debris, or cleanout details before closing.'},
+ {q:'Can I leave furniture or unwanted belongings behind?',a:'Depending on the property and transaction, some belongings may be able to remain. Confirm what can be left with your CashAsIs representative so the agreement and closing expectations are clear.'},
+ {q:'What if the property needs a lot of work?',a:'CashAsIs evaluates properties in their current condition. Properties do not need to be renovated or show-ready before an offer can be considered.'},
+ {q:'Does this apply to vacant land too?',a:'CashAsIs works with houses and land. Vacant land may not require household cleanout, but owners can still benefit from avoiding ongoing maintenance, mowing, dumping issues, or other holding responsibilities.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">As-Is Seller Guide</span><h1>Take What You Want. Leave What You Don't.</h1><p class="meta">Selling as-is can mean less fixing, cleaning, maintaining, and preparing before you move forward.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+<p><strong>Quick answer:</strong> you do not have to turn your property into a show-ready listing before selling it to CashAsIs. The goal of an as-is sale is to reduce the work and expense that often comes before a traditional sale.</p>
+<div class="callout"><p><b>LESS TO FIX. LESS TO CLEAN. LESS TO MAINTAIN.</b><br/>No repairs &bull; No traditional showings &bull; No staging &bull; No retail-ready renovation</p></div>
+<h2>No repairs before you sell</h2>
+<p>If the property has dated finishes, damaged flooring, an old roof, cosmetic issues, deferred maintenance, or other repairs, an as-is sale lets those conditions be considered as part of the transaction rather than requiring you to renovate first.</p>
+<h2>No need to make it show-ready</h2>
+<p>A traditional listing may involve deep cleaning, landscaping, staging, photography, open houses, and repeated buyer appointments. Selling directly as-is removes the need to prepare the property for a retail marketing campaign.</p>
+<h2>What about furniture and belongings?</h2>
+<p>If you're dealing with furniture, boxes, unwanted belongings, or debris, ask your CashAsIs representative what can remain. The exact answer depends on the property and transaction, so confirm the details before closing rather than assuming everything can be left behind.</p>
+<h2>Stop spending money just to keep the property going</h2>
+<p>Maintenance does not stop because you plan to sell. Lawn care, utilities, insurance, taxes, security, cleanup, and unexpected repairs can continue while you own the property. An as-is sale can help you move toward closing without first taking on another round of upkeep.</p>
+<h2>What if it's land instead of a house?</h2>
+<p>CashAsIs also works with land. A vacant parcel may not need interior repairs or household cleanout, but owners can still be dealing with mowing, dumping, taxes, access concerns, or simply maintaining property they no longer want.</p>
+<h2>Does as-is mean anything goes?</h2>
+<p>No. “As-is” describes the condition in which the property is being sold; the purchase agreement, title work, closing requirements, and any property-specific terms still control the transaction. Ask questions before signing if you are unsure about belongings, cleanup, access, or another condition of the sale.</p>
+<h2>Already received your CashAsIs agreement?</h2>
+<p>If you are reviewing an agreement now, see <a href="/after-you-sign/">what happens after you sign</a> and our guide to <a href="/why-sell-as-is/">what selling a property as-is really means</a>. If anything about the property's condition or cleanup is unclear, reply to your CashAsIs representative before signing.</p>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main>
+<Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
