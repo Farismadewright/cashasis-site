@@ -7,7 +7,7 @@ const title = 'Seller Story: Sold Fast and Closed in Record Time';
 const description = 'Watch a real CashAsIs seller describe her experience selling a property and reaching closing, then learn what sellers can expect from an as-is sale.';
 const pubDate = new Date('2026-09-22');
 const videoId = '1201084643';
-const videoUrl = 'https://player.vimeo.com/video/1201084643';
+const videoUrl = 'https://player.vimeo.com/progressive_redirect/playback/1201084643/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=8674954c9195028f385a65ce98a58d26e4464f749c7a10fab20aa60db907ce5c';
 const faq = [
  {q:'Can I watch a real CashAsIs seller testimonial?',a:'Yes. The video on this page features a real seller discussing her experience with the property sale and closing process.'},
  {q:'What happens after I sign with CashAsIs?',a:'After signing, the transaction generally moves into title review and closing preparation. The title company handles the closing process according to the transaction documents.'},
@@ -19,8 +19,7 @@ const videoSchema = {
  description:'A CashAsIs seller shares her experience selling a property and reaching closing.',
  thumbnailUrl:['https://cashasis.com/images/cashasis-og-default.jpg'],
  uploadDate:'2026-09-22',
- embedUrl:videoUrl,
- contentUrl:'https://vimeo.com/1201084643'
+ contentUrl:videoUrl
 };
 ---
 <!doctype html>
@@ -31,7 +30,7 @@ const videoSchema = {
  <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
  <style>
   .video-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#0D1B2A;margin:0 auto 28px;box-shadow:0 18px 42px -26px rgba(13,27,42,.6)}
-  .video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .video-wrap video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#111}
   .story-points{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}
   .story-point{border:1px solid var(--line);border-radius:12px;padding:18px;text-align:center;background:#fbfcfd;font-weight:800;color:var(--navy)}
   @media(max-width:640px){.story-points{grid-template-columns:1fr}}
@@ -48,7 +47,7 @@ const videoSchema = {
   <article class="legal-card article">
    <p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
    <div class="video-wrap">
-    <iframe src="https://player.vimeo.com/video/1201084643?title=0&byline=0&portrait=0" title="CashAsIs seller testimonial — sold fast and closed in record time" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="eager"></iframe>
+    <video controls playsinline preload="metadata" title="CashAsIs seller testimonial — sold fast and closed in record time"><source src={videoUrl} type="video/mp4" />Your browser does not support embedded video.</video>
    </div>
    <div class="article-body">
     <p><strong>Sometimes the best way to understand a home sale is to hear from someone who has already been through it.</strong> In this short seller story, a homeowner shares her experience with the sale and the importance of everyone involved doing their part to reach closing.</p>
