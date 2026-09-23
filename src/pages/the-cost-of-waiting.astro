@@ -1,0 +1,75 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title='The Cost of Waiting to Sell Your Property';
+const description='Waiting to sell can keep costing you. See how taxes, insurance, utilities, mortgage payments, maintenance, and a longer time on market can affect your bottom line.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'What can it cost to keep a property while waiting to sell?',a:'Depending on your situation, costs can include property taxes, insurance, utilities, mortgage payments or interest, HOA charges, lawn care, maintenance, security, and repairs.'},
+ {q:'Can a longer time on market affect buyer interest?',a:'It can. Some buyers may question why a property has been available for a long time, and that can sometimes lead to lower offers or additional negotiation.'},
+ {q:'Do ownership expenses stop when I list my property?',a:'No. The expenses connected with owning a property generally continue until ownership transfers or the underlying obligation ends.'},
+ {q:'Can I sell directly to CashAsIs instead of waiting for a traditional buyer?',a:'Yes. CashAsIs makes direct as-is offers on houses and land. The closing timeline is governed by your purchase agreement and title requirements.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>.cost-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.cost-card{border:1px solid var(--line);border-radius:13px;padding:19px;background:#fbfcfd}.cost-card b{display:block;color:#0D1B2A;margin-bottom:6px}.cost-card span{font-size:14px;color:#566273;line-height:1.5}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}.month{border-radius:14px;padding:22px;text-align:center;background:#f4f7fa}.month strong{display:block;font-size:28px;color:#F26D21;margin-bottom:7px}.stop-box{background:#0D1B2A;color:white;border-radius:14px;padding:26px;margin:26px 0;text-align:center}.stop-box h2{color:white;margin:0 0 8px}.stop-box p{color:#e5ebf2;margin:0}@media(max-width:640px){.cost-grid,.timeline{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Seller Guide</span><h1>Every Month You Wait, the Property Can Keep Costing You</h1><p class="meta">Listing the property does not stop the bills.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+
+<p style="font-size:20px;line-height:1.6;"><strong>Waiting to sell can cost more than most property owners realize.</strong></p>
+<p>You can put a property on the market today, but the expenses of owning it do not automatically stop. Until the property actually closes, you may still be paying to keep it.</p>
+
+<div class="callout"><p><b>THE PROPERTY IS FOR SALE. THE BILLS CAN STILL KEEP COMING.</b></p></div>
+
+<h2>What can keep costing you while you wait?</h2>
+<div class="cost-grid">
+<div class="cost-card"><b>PROPERTY TAXES</b><span>Taxes continue to accrue while you own the property.</span></div>
+<div class="cost-card"><b>INSURANCE</b><span>Insurance expenses may continue until ownership changes.</span></div>
+<div class="cost-card"><b>MORTGAGE PAYMENTS</b><span>If the property has a loan, payments or interest do not stop because it is listed.</span></div>
+<div class="cost-card"><b>UTILITIES</b><span>Electricity, water, gas, and other services may still need to be maintained.</span></div>
+<div class="cost-card"><b>MAINTENANCE</b><span>Lawn care, cleaning, upkeep, security, and unexpected repairs can continue.</span></div>
+<div class="cost-card"><b>HOA &amp; OTHER COSTS</b><span>HOA charges and other property-specific expenses may continue where applicable.</span></div>
+</div>
+
+<h2>30 days becomes 60. Then 90.</h2>
+<p>A property does not always sell immediately. Every additional month can mean another month of the costs that apply to your property.</p>
+
+<div class="timeline">
+<div class="month"><strong>30 DAYS</strong><span>Another month of applicable ownership costs.</span></div>
+<div class="month"><strong>60 DAYS</strong><span>More time, more carrying expenses, and more waiting.</span></div>
+<div class="month"><strong>90+ DAYS</strong><span>The property may still be costing you while you wait for the right buyer and closing.</span></div>
+</div>
+
+<h2>And buyers can notice how long a property has been sitting</h2>
+<p>When a property has been on the market for a while, some buyers may start asking questions:</p>
+<div class="callout"><p><strong>“Why hasn't it sold?”</strong><br/>“Is something wrong with it?”<br/>“Would the seller take less?”</p></div>
+<p>That does not mean every property that takes longer to sell will receive a low offer. But a longer time on market can sometimes lead buyers to negotiate harder or submit lower offers.</p>
+
+<h2>So waiting can affect you in two directions</h2>
+<p><strong>First:</strong> you can continue paying the costs of owning the property.</p>
+<p><strong>Second:</strong> after waiting, you may still have to negotiate the eventual sale price, repairs, concessions, or other terms with a buyer.</p>
+
+<div class="stop-box">
+<h2>SKIP THE WAITING. STOP CARRYING THE PROPERTY.</h2>
+<p>CashAsIs buys houses and land directly, as-is. No traditional listing. No traditional buyer mortgage approval. No repairs or cleanup for us.</p>
+</div>
+
+<h2>Compare the cost of waiting with the offer you already have</h2>
+<p>If CashAsIs has already made you an offer, do not compare only today's offer with a hoped-for future sale price. Consider what it may cost you to own, maintain, and carry the property until that future sale actually closes.</p>
+<p>Your specific purchase agreement and title requirements determine your CashAsIs closing timeline, but the goal of a direct sale is simple: remove many of the steps that can make a traditional sale take longer.</p>
+
+<div class="callout"><p><b>ASK YOURSELF:</b><br/><strong>“If I wait another 30, 60, or 90 days, what will this property cost me before I ever get paid?”</strong></p></div>
+
+<p>Next, read <a href="/your-price-isnt-your-take-home/">why your sale price isn't always your take-home</a>, review <a href="/understanding-your-cash-offer/">what your CashAsIs offer means</a>, or visit our <a href="/seller-faq/">Seller FAQ</a>.</p>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
