@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='What Does a Traditional Property Sale Actually Require?';
 const description='Listing a property can involve preparation, showings, inspections, price reductions, buyer financing, appraisal, negotiations, carrying costs, and closing expenses before you get paid.';
 const pubDate=new Date('2026-09-22');
+const image='/images/CashAsIs%20Simplicity.png';
 const faq=[
  {q:'What might I need to do before listing a property?',a:'Depending on the property and your selling plan, preparation can include cleaning, decluttering, repairs, updates, landscaping, photography, and getting the property ready for showings.'},
  {q:'Can a listing price be reduced while a property is on the market?',a:'Yes. A seller and listing agent may decide to reduce the asking price based on market response, time on market, condition, competing listings, or the seller’s goals.'},
@@ -13,14 +14,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.steps{display:grid;gap:13px;margin:24px 0}.step{display:grid;grid-template-columns:58px 1fr;gap:15px;align-items:start;border:1px solid var(--line);border-radius:14px;padding:18px;background:#fbfcfd}.step-num{width:48px;height:48px;border-radius:50%;background:#F26D21;color:white;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900}.step h2{margin:0 0 5px;font-size:20px}.step p{margin:0;color:#566273;line-height:1.6}.direct{background:#0D1B2A;color:white;border-radius:14px;padding:26px;margin:28px 0}.direct h2{color:white;margin-top:0}.direct p,.direct li{color:#e5ebf2}.simple-flow{font-size:22px;font-weight:900;text-align:center;color:#F26D21;margin:20px 0}@media(max-width:640px){.step{grid-template-columns:45px 1fr}.step-num{width:40px;height:40px}}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Seller Guide</span><h1>Selling the Traditional Way? Here's What Can Happen Before You Get Paid.</h1><p class="meta">Selling can involve a lot more than putting a sign in the yard.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="Traditional property sale requirements compared with the simpler CashAsIs direct-sale process" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 
 <p style="font-size:20px;line-height:1.6;"><strong>Listing a property is not always as simple as putting it on the market and waiting for a check.</strong></p>
