@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='3 Things About Listing Your Property Sellers Often Overlook';
 const description='Before listing your property, understand three things sellers can overlook: agent compensation, negotiated buyer-side costs and concessions, and the ongoing cost of owning a property while it sits.';
 const pubDate=new Date('2026-09-22');
+const image="/images/3%20Things%20Sellers%20Don't%20Think%20About.png";
 const faq=[
  {q:'Do real estate agents still get paid if a home sells below the original list price?',a:'Agent compensation depends on the listing agreement. If compensation is percentage-based, it is generally calculated from the actual sale price rather than whether the seller achieved the original asking price. Broker compensation is negotiable and not set by law.'},
  {q:'Can a seller pay costs connected with the buyer?',a:'Yes, depending on the negotiated transaction. A seller may agree to concessions for certain buyer costs and may also authorize compensation to a buyer agent. These are negotiable, not mandatory.'},
@@ -13,14 +14,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.secret{border:1px solid var(--line);border-radius:14px;padding:22px;margin:18px 0;background:#fbfcfd}.secret-num{font-size:13px;font-weight:900;letter-spacing:1.3px;text-transform:uppercase;color:#f26d21;margin-bottom:7px}.secret h2{margin:0 0 9px}.net-box{border-radius:14px;padding:24px;margin:25px 0;background:#0D1B2A;color:white}.net-box h2{color:white;margin-top:0}.net-box p{color:#e5ebf2}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Seller Guide</span><h1>3 Things About Listing Your Property Most Sellers Don't Think About</h1><p class="meta">The sale price gets the attention. What you actually walk away with matters more.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="3 things about listing most sellers do not think about" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 <p>If you are comparing a direct cash offer with listing your property, it is easy to focus on one number: <strong>“What could I sell it for?”</strong></p>
 <p>But a possible list price is not the same thing as the amount you ultimately receive. A traditional sale can involve negotiated compensation, concessions, transaction expenses, and months of continued ownership costs.</p>
