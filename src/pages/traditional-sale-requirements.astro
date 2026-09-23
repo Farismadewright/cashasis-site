@@ -1,0 +1,77 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title='What Does a Traditional Property Sale Actually Require?';
+const description='Listing a property can involve preparation, showings, inspections, price reductions, buyer financing, appraisal, negotiations, carrying costs, and closing expenses before you get paid.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'What might I need to do before listing a property?',a:'Depending on the property and your selling plan, preparation can include cleaning, decluttering, repairs, updates, landscaping, photography, and getting the property ready for showings.'},
+ {q:'Can a listing price be reduced while a property is on the market?',a:'Yes. A seller and listing agent may decide to reduce the asking price based on market response, time on market, condition, competing listings, or the seller’s goals.'},
+ {q:'What can happen after I accept a traditional buyer offer?',a:'The transaction may still involve inspections, repair or credit negotiations, appraisal, buyer financing, title work, and other contract requirements before closing.'},
+ {q:'How is selling directly to CashAsIs different?',a:'CashAsIs buys directly and as-is. CashAsIs charges $0 fees to purchase your property, pays the closing costs agreed to in the offer, and does not require you to repair, clean, stage, or traditionally market the property for us.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>.steps{display:grid;gap:13px;margin:24px 0}.step{display:grid;grid-template-columns:58px 1fr;gap:15px;align-items:start;border:1px solid var(--line);border-radius:14px;padding:18px;background:#fbfcfd}.step-num{width:48px;height:48px;border-radius:50%;background:#F26D21;color:white;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:900}.step h2{margin:0 0 5px;font-size:20px}.step p{margin:0;color:#566273;line-height:1.6}.direct{background:#0D1B2A;color:white;border-radius:14px;padding:26px;margin:28px 0}.direct h2{color:white;margin-top:0}.direct p,.direct li{color:#e5ebf2}.simple-flow{font-size:22px;font-weight:900;text-align:center;color:#F26D21;margin:20px 0}@media(max-width:640px){.step{grid-template-columns:45px 1fr}.step-num{width:40px;height:40px}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Seller Guide</span><h1>Selling the Traditional Way? Here's What Can Happen Before You Get Paid.</h1><p class="meta">Selling can involve a lot more than putting a sign in the yard.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+
+<p style="font-size:20px;line-height:1.6;"><strong>Listing a property is not always as simple as putting it on the market and waiting for a check.</strong></p>
+<p>Before you actually get paid, there can be preparation, showings, negotiations, inspections, price changes, buyer financing, appraisal, and closing steps in between.</p>
+
+<div class="callout"><p><b>THE LISTING IS ONLY THE BEGINNING.</b><br/>Here is what the traditional process can look like before money reaches the seller.</p></div>
+
+<div class="steps">
+<div class="step"><div class="step-num">1</div><div><h2>Get the property ready</h2><p>Depending on the property, that can mean cleaning, decluttering, repairs, updates, landscaping, removing belongings, staging, and getting everything ready for photos and buyers.</p></div></div>
+
+<div class="step"><div class="step-num">2</div><div><h2>Put it on the market</h2><p>The property gets photographed and marketed. Then come buyer appointments, showings, open houses where applicable, questions, feedback, and waiting for an offer you are willing to accept.</p></div></div>
+
+<div class="step"><div class="step-num">3</div><div><h2>Possibly reduce the price</h2><p>If the property is not getting the response you expected, you may decide to reduce the asking price. Time on market, competing properties, condition, buyer feedback, and your own timeline can all affect that decision.</p></div></div>
+
+<div class="step"><div class="step-num">4</div><div><h2>Accept an offer — but you're not done yet</h2><p>An accepted offer is an important step, but the transaction still has to make it through the requirements in the contract before you actually get paid.</p></div></div>
+
+<div class="step"><div class="step-num">5</div><div><h2>Buyer inspections</h2><p>A traditional buyer may inspect the property. Depending on the contract, that can lead to requests for repairs, credits, concessions, or additional negotiating.</p></div></div>
+
+<div class="step"><div class="step-num">6</div><div><h2>Appraisal and buyer financing</h2><p>If the buyer is using a mortgage, the lender process can include underwriting, approval, appraisal, and other requirements before the buyer is ready to close.</p></div></div>
+
+<div class="step"><div class="step-num">7</div><div><h2>Keep paying for the property while you wait</h2><p>Until the property closes, expenses such as taxes, insurance, mortgage payments or interest, utilities, HOA charges, lawn care, maintenance, and repairs may continue where applicable.</p></div></div>
+
+<div class="step"><div class="step-num">8</div><div><h2>Get to closing</h2><p>At closing, the costs and negotiated amounts that apply to the transaction can affect what the seller actually receives. Depending on the deal, that can include agent compensation, seller closing expenses, buyer concessions, credits, taxes, liens, mortgage payoff, and other property-specific obligations.</p></div></div>
+</div>
+
+<h2>And what if the first deal doesn't make it to closing?</h2>
+<p>If a buyer cannot complete the transaction under the contract, the property may need to go back on the market. That can mean more time, more showings, more carrying costs, and another round of negotiations.</p>
+
+<div class="direct">
+<h2>OR SELL DIRECTLY TO CASHASIS.</h2>
+<div class="simple-flow">AS-IS &nbsp;→&nbsp; TITLE &nbsp;→&nbsp; CLOSE &nbsp;→&nbsp; GET PAID</div>
+<ul>
+<li><strong>$0 fees charged by CashAsIs</strong></li>
+<li><strong>We pay the closing costs agreed to in our offer</strong></li>
+<li>No repairs for us</li>
+<li>No cleanup or staging for us</li>
+<li>No traditional showings for us</li>
+<li>No waiting on a traditional buyer's mortgage approval</li>
+<li>We buy houses and land as-is</li>
+</ul>
+</div>
+
+<div class="callout"><p><b>SELLING YOUR PROPERTY DOESN'T HAVE TO BECOME ANOTHER JOB.</b></p></div>
+
+<h2>Compare the process, not just the possible price</h2>
+<p>A traditional listing can be a good fit for some sellers. But if you already have a CashAsIs offer, compare what each option actually asks you to do before you get paid.</p>
+<p>How much preparation is required? How many steps are between you and closing? Could the asking price need to change? What expenses continue while you wait? And how much uncertainty are you comfortable with?</p>
+
+<p>Also read <a href="/compare-the-net/">why a bigger listing price does not always mean a bigger check</a>, see <a href="/the-cost-of-waiting/">what waiting can cost</a>, or review <a href="/understanding-your-cash-offer/">what your CashAsIs offer means</a>.</p>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
