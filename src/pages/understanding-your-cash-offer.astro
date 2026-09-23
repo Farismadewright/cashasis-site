@@ -1,0 +1,50 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title='Understanding Your Cash Offer: What Should You Compare?';
+const description='Received a cash offer for your property? Learn what the offer means and how to compare price, repairs, fees, financing, timing, cleanup, and convenience before deciding.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'Is a cash offer the same as a traditional financed offer?',a:'Not necessarily. The price is only one part of an offer. Compare the purchase terms, property-condition requirements, financing, closing timeline, costs, contingencies, and work expected from you.'},
+ {q:'Do I have to make repairs before selling to CashAsIs?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate or make the property retail-ready before selling.'},
+ {q:'Should I compare a cash offer directly with a possible list price?',a:'A possible list price and an actual purchase offer are different things. When comparing options, consider the potential sale price together with commissions or compensation, closing costs, repairs, concessions, holding costs, financing risk, and time.'},
+ {q:'Does receiving a CashAsIs offer obligate me to sell?',a:'No. Review the proposed terms and ask questions. A seller should understand the agreement before deciding whether to sign.'},
+ {q:'Does CashAsIs buy land too?',a:'Yes. CashAsIs works with houses and land, and each property and offer is evaluated individually.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>.offer-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.offer-item{border:1px solid var(--line);border-radius:12px;padding:18px;background:#fbfcfd}.offer-item b{display:block;color:var(--navy);margin-bottom:5px}.offer-item span{font-size:14px;color:#566273;line-height:1.5}@media(max-width:640px){.offer-grid{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Cash Offer Guide</span><h1>You Received a Cash Offer. What Does It Actually Mean?</h1><p class="meta">Don't compare one number in isolation. Compare the complete transaction.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+<p><strong>If CashAsIs has made you an offer, the purchase price matters—but it isn't the only term worth comparing.</strong> A property sale can also involve repairs, preparation, commissions or compensation, closing expenses, buyer financing, concessions, holding time, and uncertainty. Understanding those differences helps you decide which option fits your situation.</p>
+<div class="callout"><p><b>COMPARE THE COMPLETE TRANSACTION.</b><br/>Price &bull; Condition &bull; Costs &bull; Time &bull; Financing &bull; Convenience</p></div>
+<h2>1. Start with the actual offer—not a hypothetical number</h2>
+<p>A written cash offer is a proposed transaction with specific terms. A possible future list price is not the same as a guaranteed sale price or net proceeds. If you are considering listing instead, compare the cash offer with a realistic range of potential outcomes after the costs and requirements of that route.</p>
+<h2>2. Look at what you are expected to do to the property</h2>
+<p>CashAsIs purchases properties as-is. That means the offer is being considered with the property's current condition in mind rather than requiring you to make it retail-ready first. If another option requires repairs, cleaning, staging, landscaping, inspections, or buyer-requested work, include those requirements in your comparison.</p>
+<div class="offer-grid">
+<div class="offer-item"><b>PROPERTY CONDITION</b><span>Will you need to repair, renovate, clean, stage, or prepare it?</span></div>
+<div class="offer-item"><b>TRANSACTION COSTS</b><span>What commissions, compensation, closing expenses, concessions, or other costs may apply?</span></div>
+<div class="offer-item"><b>BUYER FINANCING</b><span>Does the transaction depend on mortgage approval, appraisal, or lender requirements?</span></div>
+<div class="offer-item"><b>TIME &amp; HOLDING</b><span>How long might you continue paying taxes, insurance, utilities, maintenance, or other ownership costs?</span></div>
+</div>
+<h2>3. Compare gross price with what you may actually net</h2>
+<p>A higher sale price does not automatically mean the same amount reaches the seller. Depending on the transaction, expenses can reduce the amount ultimately received. That's why it is useful to compare estimated net proceeds—not only headline prices.</p>
+<h2>4. Consider certainty and financing</h2>
+<p>A traditional buyer may use mortgage financing, which can introduce lender underwriting, appraisal, property-condition requirements, and other financing steps. A cash transaction removes the buyer mortgage approval process, although title work and the terms of the purchase agreement still apply.</p>
+<h2>5. Put a value on your time and effort</h2>
+<p>Some sellers are willing to do more work or wait longer in pursuit of a different outcome. Others value a simpler as-is transaction. Neither choice is automatically right for every seller. The useful comparison is what you receive versus what the transaction requires from you.</p>
+<h2>Questions about the offer you received?</h2>
+<p>If CashAsIs has already made you an offer, ask about any term you do not understand. You can also read <a href="/why-sell-as-is/">what selling as-is means</a>, compare a <a href="/blog/cash-offer-vs-listing-house-houston/">cash offer with a traditional listing</a>, or browse our <a href="/seller-faq/">Seller FAQ</a>.</p>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
