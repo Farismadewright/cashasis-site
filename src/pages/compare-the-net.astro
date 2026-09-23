@@ -1,0 +1,100 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title="A Bigger Offer Doesn't Always Mean a Bigger Check";
+const description='Compare more than the headline price. Fees, repairs, closing costs, concessions, carrying costs, and uncertainty can affect what you keep and your peace of mind.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'Does a higher offer always mean I will take home more money?',a:'No. The amount a seller ultimately receives can be affected by the costs and negotiated terms that apply to that transaction.'},
+ {q:'What can reduce what I receive from another sale?',a:'Depending on the transaction, commissions or agent compensation, seller closing costs, buyer concessions, repairs, preparation, and continued ownership costs can affect the final amount.'},
+ {q:'What does CashAsIs charge in fees?',a:'CashAsIs charges $0 fees to purchase your property directly and pays the closing costs it agrees to pay under the purchase agreement.'},
+ {q:'Why does certainty matter when comparing offers?',a:'A possible future sale can involve time and uncertainty. A direct cash offer gives you an actual buyer and defined transaction terms, subject to the purchase agreement, title work, and closing requirements.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.compare-card{border:1px solid var(--line);border-radius:14px;padding:22px;background:#fbfcfd}.compare-card.cash{border-top:5px solid #F26D21}.compare-card h2{margin-top:0}.compare-card ul{padding-left:20px;line-height:1.8}.peace{background:#0D1B2A;color:white;border-radius:14px;padding:26px;margin:26px 0;text-align:center}.peace h2{color:white;margin:0 0 8px}.peace p{color:#e5ebf2;margin:0;line-height:1.6}.equation{text-align:center;border:1px solid var(--line);border-radius:14px;padding:24px;margin:24px 0;background:#f4f7fa;font-weight:800;font-size:19px;line-height:1.7}@media(max-width:640px){.compare-grid{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Offer Comparison Guide</span><h1>A Bigger Offer Doesn't Always Mean a Bigger Check</h1><p class="meta">The number that matters is what you walk away with — and the peace of mind that comes with knowing you have a buyer.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+
+<p style="font-size:20px;line-height:1.6;"><strong>Seeing a bigger number can feel like the obvious better deal. But the biggest offer is not always the biggest check.</strong></p>
+<p>What matters is what is left after the costs that apply to the sale—and what you have to spend, do, and wait through before the property actually closes.</p>
+
+<div class="equation">
+BIGGER PRICE<br/>
+− COSTS THAT APPLY<br/>
+− TIME &amp; CARRYING COSTS<br/>
+− REPAIRS / CONCESSIONS<br/>
+− UNCERTAINTY<br/>
+= <span style="color:#F26D21;">WHAT THE DEAL REALLY LOOKS LIKE</span>
+</div>
+
+<h2>A higher number can still come with expenses</h2>
+<p>When selling to someone else or listing traditionally, the transaction may involve costs such as:</p>
+<ul>
+<li>Realtor commissions or agent compensation</li>
+<li>Seller closing costs</li>
+<li>Buyer concessions or credits</li>
+<li>Repairs or repair credits</li>
+<li>Cleaning, staging, and preparation</li>
+<li>Taxes and other ownership costs while you wait</li>
+</ul>
+<p>Not every sale has every cost above. The point is to compare what actually applies to the other deal—not just the number at the top.</p>
+
+<h2>Then there is the question sellers cannot see in the price: When will it actually sell?</h2>
+<p>A possible list price is not a closing date. You may still need to market the property, find a buyer, negotiate terms, complete inspections, work through financing, and make it to closing.</p>
+<p>While that happens, the property may continue costing you money. And until the transaction closes, there can still be uncertainty about timing and what the final deal will look like.</p>
+
+<div class="compare-grid">
+<div class="compare-card">
+<h2>Another Sale May Mean</h2>
+<ul>
+<li>A higher headline price</li>
+<li>Costs that come out of the transaction</li>
+<li>Repairs or concessions</li>
+<li>Waiting for a buyer</li>
+<li>Buyer financing and appraisal</li>
+<li>Continued property expenses</li>
+<li>Uncertainty about when it will close</li>
+</ul>
+</div>
+<div class="compare-card cash">
+<h2>With CashAsIs</h2>
+<ul>
+<li><strong>$0 fees charged by CashAsIs</strong></li>
+<li><strong>We pay the closing costs agreed to in our offer</strong></li>
+<li>We buy the property as-is</li>
+<li>No repairs for us</li>
+<li>No cleanup or staging for us</li>
+<li>No traditional buyer mortgage approval</li>
+<li>You already know who the buyer is</li>
+</ul>
+</div>
+</div>
+
+<h2>Knowing you have a buyer has value too</h2>
+<p>Money matters. So does knowing what happens next.</p>
+<p>With a direct CashAsIs offer, you are not putting the property on the market and hoping the right buyer eventually comes along. You already have an interested buyer and an offer to consider. If you decide to move forward, the transaction follows the purchase agreement, title process, and closing requirements.</p>
+
+<div class="peace">
+<h2>WHAT YOU KEEP + PEACE OF MIND</h2>
+<p><strong>That's the comparison.</strong><br/>Not just the biggest number someone puts in front of you, but what you expect to walk away with and how much uncertainty you want between today and closing.</p>
+</div>
+
+<h2>Compare the whole deal</h2>
+<p>If another buyer or listing option appears to offer more, ask:</p>
+<div class="callout"><p><strong>What will I actually keep?</strong><br/>What will I have to spend first?<br/>What work will I have to do?<br/>How long could I keep paying for the property?<br/>When will I actually know it's sold?</p></div>
+<p>Then compare those answers with the CashAsIs offer already in front of you.</p>
+
+<p>Also see <a href="/your-price-isnt-your-take-home/">why your sale price isn't always your take-home</a>, learn about <a href="/the-cost-of-waiting/">the cost of waiting to sell</a>, or review <a href="/understanding-your-cash-offer/">what your CashAsIs offer means</a>.</p>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
