@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title="Your Sale Price Isn't Always What You Keep";
 const description='Selling directly to CashAsIs means $0 fees charged by CashAsIs. See how commissions, closing costs, concessions, repairs, and waiting can affect what a seller keeps in other types of sales.';
 const pubDate=new Date('2026-09-22');
+const image='/images/your-price-isnt-your-take-home.png';
 const faq=[
  {q:'Does CashAsIs charge me a fee to buy my property?',a:'CashAsIs charges $0 fees to purchase your property directly.'},
  {q:'Does CashAsIs charge a Realtor commission?',a:'No. CashAsIs is buying the property directly and does not charge you a listing-agent commission.'},
@@ -13,14 +14,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.compare-simple{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.compare-side{border:1px solid var(--line);border-radius:14px;padding:22px}.compare-side.cash{border-top:5px solid #F26D21}.compare-side h2{margin-top:0}.compare-side ul{padding-left:20px;line-height:1.8}.big-zero{font-size:48px;font-weight:900;color:#F26D21;line-height:1;margin:8px 0}.keep-box{background:#0D1B2A;color:#fff;border-radius:14px;padding:26px;text-align:center;margin:28px 0}.keep-box h2{color:#fff;font-size:30px;margin:0 0 8px}.keep-box p{color:#e6edf5;margin:0}@media(max-width:640px){.compare-simple{grid-template-columns:1fr}}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Cash Offer Guide</span><h1>Your Sale Price Isn't Always What You Keep</h1><p class="meta">Don't just compare the price. Compare what you actually walk away with.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="Your price is not your take-home — compare traditional selling costs with a direct CashAsIs offer" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 
 <p style="font-size:20px;line-height:1.6;"><strong>With a direct CashAsIs offer, you pay $0 fees to CashAsIs.</strong></p>
