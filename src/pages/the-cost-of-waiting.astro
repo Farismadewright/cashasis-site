@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='The Cost of Waiting to Sell Your Property';
 const description='Waiting to sell can keep costing you. See how taxes, insurance, utilities, mortgage payments, maintenance, and a longer time on market can affect your bottom line.';
 const pubDate=new Date('2026-09-22');
+const image='/images/Cost%20of%20Waiting%20to%20Sell.png';
 const faq=[
  {q:'What can it cost to keep a property while waiting to sell?',a:'Depending on your situation, costs can include property taxes, insurance, utilities, mortgage payments or interest, HOA charges, lawn care, maintenance, security, and repairs.'},
  {q:'Can a longer time on market affect buyer interest?',a:'It can. Some buyers may question why a property has been available for a long time, and that can sometimes lead to lower offers or additional negotiation.'},
@@ -13,14 +14,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.cost-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.cost-card{border:1px solid var(--line);border-radius:13px;padding:19px;background:#fbfcfd}.cost-card b{display:block;color:#0D1B2A;margin-bottom:6px}.cost-card span{font-size:14px;color:#566273;line-height:1.5}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}.month{border-radius:14px;padding:22px;text-align:center;background:#f4f7fa}.month strong{display:block;font-size:28px;color:#F26D21;margin-bottom:7px}.stop-box{background:#0D1B2A;color:white;border-radius:14px;padding:26px;margin:26px 0;text-align:center}.stop-box h2{color:white;margin:0 0 8px}.stop-box p{color:#e5ebf2;margin:0}@media(max-width:640px){.cost-grid,.timeline{grid-template-columns:1fr}}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Seller Guide</span><h1>Every Month You Wait, the Property Can Keep Costing You</h1><p class="meta">Listing the property does not stop the bills.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="The cost of waiting to sell — 30, 60 and 90 plus days of continued property costs" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 
 <p style="font-size:20px;line-height:1.6;"><strong>Waiting to sell can cost more than most property owners realize.</strong></p>
