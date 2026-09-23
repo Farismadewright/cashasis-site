@@ -1,0 +1,87 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title="Your Sale Price Isn't Always What You Keep";
+const description='Selling directly to CashAsIs means $0 fees charged by CashAsIs. See how commissions, closing costs, concessions, repairs, and waiting can affect what a seller keeps in other types of sales.';
+const pubDate=new Date('2026-09-22');
+const faq=[
+ {q:'Does CashAsIs charge me a fee to buy my property?',a:'CashAsIs charges $0 fees to purchase your property directly.'},
+ {q:'Does CashAsIs charge a Realtor commission?',a:'No. CashAsIs is buying the property directly and does not charge you a listing-agent commission.'},
+ {q:'Why can a traditional sale price be different from what I keep?',a:'Depending on the transaction, commissions, closing costs, buyer concessions, repairs, preparation, and ownership costs while waiting to close can reduce the amount a seller ultimately receives.'},
+ {q:'Do I need to repair or clean the property for CashAsIs?',a:'No. CashAsIs buys properties as-is, so you do not need to repair, renovate, clean, or stage the property for us.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>.compare-simple{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.compare-side{border:1px solid var(--line);border-radius:14px;padding:22px}.compare-side.cash{border-top:5px solid #F26D21}.compare-side h2{margin-top:0}.compare-side ul{padding-left:20px;line-height:1.8}.big-zero{font-size:48px;font-weight:900;color:#F26D21;line-height:1;margin:8px 0}.keep-box{background:#0D1B2A;color:#fff;border-radius:14px;padding:26px;text-align:center;margin:28px 0}.keep-box h2{color:#fff;font-size:30px;margin:0 0 8px}.keep-box p{color:#e6edf5;margin:0}@media(max-width:640px){.compare-simple{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Cash Offer Guide</span><h1>Your Sale Price Isn't Always What You Keep</h1><p class="meta">Don't just compare the price. Compare what you actually walk away with.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="article-body">
+
+<p style="font-size:20px;line-height:1.6;"><strong>With a direct CashAsIs offer, you pay $0 fees to CashAsIs.</strong></p>
+<p>That is important when you compare our offer with selling to someone else or listing the property traditionally. A property may have a higher advertised or sale price somewhere else, but that does not automatically mean the seller keeps that entire amount.</p>
+
+<div class="compare-simple">
+<div class="compare-side cash">
+<h2>Selling Directly to CashAsIs</h2>
+<div class="big-zero">$0 FEES</div>
+<p><strong>charged by CashAsIs to buy your property.</strong></p>
+<ul>
+<li>No listing-agent commission charged by us</li>
+<li>No repairs for us</li>
+<li>No cleanup or staging for us</li>
+<li>No traditional showings for us</li>
+<li>No waiting on a traditional buyer mortgage approval</li>
+<li>Sell the property as-is</li>
+</ul>
+</div>
+
+<div class="compare-side">
+<h2>Selling to Someone Else or Listing</h2>
+<p>The property may sell for more, but depending on the transaction, money can also come out of the sale for things such as:</p>
+<ul>
+<li>Realtor commissions or agent compensation</li>
+<li>Seller closing costs</li>
+<li>Buyer concessions or credits</li>
+<li>Repairs or repair credits</li>
+<li>Cleaning, staging, and preparation</li>
+<li>Taxes and other ownership costs while you wait</li>
+</ul>
+</div>
+</div>
+
+<h2>Here's the simple difference</h2>
+<p>Imagine someone tells you a property could sell for a certain price. That number sounds great—but before you compare it with the CashAsIs offer already in front of you, ask what expenses still have to come out of that other sale.</p>
+<p>If commissions, closing expenses, concessions, repairs, or other costs apply, those amounts can affect what is left for the seller at closing.</p>
+
+<div class="callout"><p><b>SALE PRICE</b><br/>minus the costs that actually apply to that sale<br/><br/><b>= WHAT YOU ACTUALLY KEEP</b></p></div>
+
+<h2>Waiting can cost money too</h2>
+<p>If another selling option takes longer, you may continue paying expenses connected with owning the property. Depending on your situation, that can include taxes, insurance, utilities, mortgage interest, HOA charges, lawn care, maintenance, security, or repairs.</p>
+<p>Those expenses do not disappear just because the property is for sale.</p>
+
+<h2>With CashAsIs, keep the comparison simple</h2>
+<p>Your CashAsIs offer is an actual offer to buy the property directly and as-is. You are not paying CashAsIs a fee to purchase it, you are not paying us a listing-agent commission, and you do not need to repair, clean, or stage the property for us.</p>
+<p>Your specific purchase agreement and closing documents control your transaction, including any property-specific amounts that may need to be handled at closing, such as existing liens, taxes, mortgages, or other obligations tied to the property.</p>
+
+<div class="keep-box">
+<h2>DON'T JUST COMPARE THE PRICE.</h2>
+<p><strong>COMPARE WHAT YOU KEEP.</strong></p>
+</div>
+
+<h2>Before you compare our offer to a possible list price...</h2>
+<p>Ask one simple question:</p>
+<div class="callout"><p><strong>“After everything that applies to the other sale is paid, what would I actually walk away with?”</strong></p></div>
+<p>Then compare that number with the CashAsIs offer you already have.</p>
+
+<p>Want to understand more? Read <a href="/understanding-your-cash-offer/">what your CashAsIs offer means</a>, see <a href="/3-things-sellers-dont-think-about/">3 things sellers often overlook when listing</a>, or browse our <a href="/seller-faq/">Seller FAQ</a>.</p>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
