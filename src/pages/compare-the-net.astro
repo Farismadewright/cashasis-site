@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title="A Bigger Offer Doesn't Always Mean a Bigger Check";
 const description='Compare more than the headline price. Fees, repairs, closing costs, concessions, carrying costs, and uncertainty can affect what you keep and your peace of mind.';
 const pubDate=new Date('2026-09-22');
+const image='/images/Bigger%20Price%2C%20Smaller%20Take-Home.png';
 const faq=[
  {q:'Does a higher offer always mean I will take home more money?',a:'No. The amount a seller ultimately receives can be affected by the costs and negotiated terms that apply to that transaction.'},
  {q:'What can reduce what I receive from another sale?',a:'Depending on the transaction, commissions or agent compensation, seller closing costs, buyer concessions, repairs, preparation, and continued ownership costs can affect the final amount.'},
@@ -13,14 +14,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.compare-card{border:1px solid var(--line);border-radius:14px;padding:22px;background:#fbfcfd}.compare-card.cash{border-top:5px solid #F26D21}.compare-card h2{margin-top:0}.compare-card ul{padding-left:20px;line-height:1.8}.peace{background:#0D1B2A;color:white;border-radius:14px;padding:26px;margin:26px 0;text-align:center}.peace h2{color:white;margin:0 0 8px}.peace p{color:#e5ebf2;margin:0;line-height:1.6}.equation{text-align:center;border:1px solid var(--line);border-radius:14px;padding:24px;margin:24px 0;background:#f4f7fa;font-weight:800;font-size:19px;line-height:1.7}@media(max-width:640px){.compare-grid{grid-template-columns:1fr}}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Offer Comparison Guide</span><h1>A Bigger Offer Doesn't Always Mean a Bigger Check</h1><p class="meta">The number that matters is what you walk away with — and the peace of mind that comes with knowing you have a buyer.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="A bigger listing price does not equal a bigger check — compare take-home and certainty" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 
 <p style="font-size:20px;line-height:1.6;"><strong>Seeing a bigger number can feel like the obvious better deal. But the biggest offer is not always the biggest check.</strong></p>
