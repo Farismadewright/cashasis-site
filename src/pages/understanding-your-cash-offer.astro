@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 const title='Your Cash Offer Is What You Get: What You Avoid Selling Direct';
 const description='Your CashAsIs offer is a direct as-is purchase. See the commissions, closing expenses, repairs, prep, showings, inspections, financing steps, and holding costs that can arise in a traditional sale.';
 const pubDate=new Date('2026-09-22');
+const image='/images/Your%20Offer%20Is%20What%20You%20Get.png';
 const faq=[
  {q:'Is a cash offer the same as a traditional financed offer?',a:'Not necessarily. The price is only one part of an offer. Compare the purchase terms, property-condition requirements, financing, closing timeline, costs, contingencies, and work expected from you.'},
  {q:'Do I have to make repairs before selling to CashAsIs?',a:'CashAsIs purchases properties as-is, so sellers are not expected to renovate or make the property retail-ready before selling.'},
@@ -14,14 +15,14 @@ const faq=[
 ];
 ---
 <!doctype html><html lang="en"><head>
-<BaseHead title={title} description={description} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>.offer-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.offer-item{border:1px solid var(--line);border-radius:12px;padding:18px;background:#fbfcfd}.offer-item b{display:block;color:var(--navy);margin-bottom:5px}.offer-item span{font-size:14px;color:#566273;line-height:1.5}@media(max-width:640px){.offer-grid{grid-template-columns:1fr}}</style>
 </head><body>
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Cash Offer Guide</span><h1>Your Offer Is What You Get</h1><p class="meta">See what can come out of a traditional real estate sale — and what you avoid by selling directly to CashAsIs.</p></div></section>
 <main class="legal-wrap"><article class="legal-card article">
-<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>\n<img class="article-hero" src={image} alt="Your CashAsIs offer is what you get — costs and hassles avoided by selling directly" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
 <div class="article-body">
 <p style="font-size:20px;line-height:1.6;"><strong>Your CashAsIs offer is what you get for the property under the terms of your agreement.</strong></p>
 <p>We're buying directly from you as-is. That means you are not listing the property with us and then getting charged for a long list of traditional selling expenses. With a traditional real estate transaction, the number a property sells for is not necessarily the same amount the seller walks away with.</p>
