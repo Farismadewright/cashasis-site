@@ -18,7 +18,7 @@ body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:#f7f9f
 a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 .legal-nav{display:flex;align-items:center;justify-content:space-between;padding:14px 30px;background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
 .brand{display:flex;align-items:center;gap:11px}
-.brand img{height:52px;width:auto;max-width:min(190px,52vw);object-fit:contain;display:block}
+.brand img{width:40px;height:40px}
 .brand .wm{font-weight:800;font-size:22px;letter-spacing:-.03em;line-height:1}
 .brand .wm .n{color:var(--navy)}.brand .wm .o{color:var(--orange)}
 .brand .sub{font-size:9px;letter-spacing:.18em;color:#8a93a1;font-weight:700;margin-top:3px;text-transform:uppercase}
@@ -55,7 +55,6 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
   footer{background:var(--navy);color:#cdd5e0}
   footer .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
   footer .logo{display:flex;align-items:center;gap:12px}
-  footer .footer-logo-img{height:64px;width:auto;max-width:220px;display:block;background:#fff;border-radius:8px;padding:5px 8px}
   footer .logo .lock{display:flex;flex-direction:column;line-height:1}
   footer .logo .name{font-weight:800;font-size:25px;letter-spacing:-.035em}
   footer .logo .name .navy{color:#fff}
@@ -111,7 +110,9 @@ fbq('track','PageView');
 </head>
 <body>
 <header class="legal-nav">
-  <a href="/" class="brand" aria-label="CashAsIs.com home"><img class="brand-logo" src="/images/Cashasis_logo.png" alt="CashAsIs.com — We Buy Houses As-Is"></a>
+  <a href="/" class="brand">
+    <span><span class="wm"><span class="n">cash</span><span class="o">asis</span></span><span class="sub" style="display:block">WE BUY HOUSES AS-IS</span></span>
+  </a>
   <a href="/" class="back">&lsaquo; Back to Cashasis</a>
 </header>
 <section class="legal-hero">
@@ -146,7 +147,12 @@ fbq('track','PageView');
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="/" class="logo" aria-label="CashAsIs.com home"><img class="footer-logo-img" src="/images/Cashasis_logo.png" alt="CashAsIs.com — We Buy Houses As-Is"></a>
+        <a href="/" class="logo">
+          <span class="lock">
+            <span class="name"><span class="navy">cash</span><span class="orange">asis</span></span>
+            <span class="sub">WE BUY HOUSES AS-IS</span>
+          </span>
+        </a>
         <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
       </div>
       <div class="foot-col">

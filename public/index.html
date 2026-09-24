@@ -46,13 +46,12 @@
   /* ---------- Logo ---------- */
   .logo{display:flex;align-items:center;gap:12px}
   .logo .markimg{width:46px;height:46px;flex:none;object-fit:contain}
-  .logo .lockup{height:58px;width:auto;max-width:min(220px,52vw);object-fit:contain;display:block;background:#fff;border-radius:8px;padding:5px 8px}
+  .logo .lockup{height:62px;width:auto;display:block}
   .logo .lock{display:flex;flex-direction:column;line-height:1}
   .logo .name{font-weight:800;font-size:25px;letter-spacing:-.035em}
   .logo .name .navy{color:#fff}
   .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
   .logo .sub::before,.logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
-  footer .footer-logo-img{height:64px;width:auto;max-width:220px;display:block;background:#fff;border-radius:8px;padding:5px 8px}
 
   /* ---------- Buttons ---------- */
   .btn{
@@ -417,7 +416,7 @@ fbq('track','PageView');
 <header>
   <div class="wrap">
     <nav>
-      <a href="/" class="logo" aria-label="CashAsIs.com home"><img class="lockup" src="/images/Cashasis_logo.png" alt="CashAsIs.com — We Buy Houses As-Is"></a>
+      <a href="#" class="logo" aria-label="CashAsIs home"><img class="lockup" src="/images/cashasis-logo-white.png" alt="CashAsIs - We Buy Houses As-Is"></a>
       <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
       <div class="nav-links" id="navLinks">
         <a href="#how">How It Works</a>
@@ -793,7 +792,12 @@ fbq('track','PageView');
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="/" class="logo" aria-label="CashAsIs.com home"><img class="footer-logo-img" src="/images/Cashasis_logo.png" alt="CashAsIs.com — We Buy Houses As-Is"></a>
+        <a href="/" class="logo">
+          <span class="lock">
+            <span class="name"><span class="navy">cash</span><span class="orange">asis</span></span>
+            <span class="sub">WE BUY HOUSES AS-IS</span>
+          </span>
+        </a>
         <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
       </div>
       <div class="foot-col">
