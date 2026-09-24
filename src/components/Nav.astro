@@ -4,11 +4,8 @@ const { ctaHref } = Astro.props;
 const href = ctaHref || ctaLink('index', 'nav');
 ---
 <header class="legal-nav">
-  <a href="/blog/" class="brand">
-    <span>
-      <span class="wm"><span class="n">cash</span><span class="o">asis</span></span>
-      <span class="sub" style="display:block">WE BUY HOUSES AS-IS</span>
-    </span>
+  <a href="/" class="brand" aria-label="CashAsIs.com home">
+    <img class="brand-logo" src="/images/Cashasis_logo.png" alt="CashAsIs.com — We Buy Houses As-Is" />
   </a>
   <a href={href} class="back">Get a Cash Offer &rarr;</a>
 </header>
