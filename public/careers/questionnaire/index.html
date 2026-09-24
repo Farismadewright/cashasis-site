@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Candidate Questionnaire | CashAsIs</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0D1B2A;--orange:#F26D21;--muted:#5a6675;--line:#e6e9ef;--bg:#f4f6f9}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--navy)}
+header{background:var(--navy);color:white;padding:18px 24px}.brand{max-width:760px;margin:auto;font-weight:800;font-size:22px}.brand span{color:var(--orange)}
+.hero{background:var(--navy);color:white;text-align:center;padding:42px 24px 70px}.hero small{color:var(--orange);font-weight:800;letter-spacing:.14em;text-transform:uppercase}.hero h1{font-size:36px;margin:12px 0 10px}.hero p{max-width:570px;margin:auto;color:#dfe5ee;line-height:1.55}
+.wrap{max-width:760px;margin:-34px auto 50px;padding:0 24px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 18px 50px -20px rgba(13,27,42,.35)}
+.progress{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:24px}.q{margin-bottom:24px}.q label{display:block;font-weight:700;font-size:14px;margin-bottom:8px}.q small{display:block;color:var(--muted);font-weight:500;margin-top:4px}
+textarea,input,select{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:13px 14px;font:inherit}textarea{min-height:105px;resize:vertical}textarea:focus,input:focus,select:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(242,109,33,.12)}
+.btn{width:100%;border:0;border-radius:10px;background:var(--orange);color:white;font-weight:800;font-size:15px;padding:15px;cursor:pointer}.btn:disabled{opacity:.55}
+.note{background:#fbf4ee;border:1px solid #f3d9c7;border-radius:10px;padding:13px 15px;color:#6a7482;font-size:12.5px;line-height:1.5;margin-bottom:22px}
+.done{text-align:center;padding:28px 5px}.done h2{margin:0 0 10px}.done p{color:var(--muted);line-height:1.55}
+@media(max-width:560px){.hero h1{font-size:29px}.card{padding:22px}}
+</style>
+</head>
+<body>
+<header><div class="brand">cash<span>asis</span></div></header>
+<section class="hero"><small>Application Step 2</small><h1>Tell us how you work.</h1><p>This short questionnaire helps us understand your experience, communication style, and how you approach the role. Most applicants finish in about 5 minutes.</p></section>
+<div class="wrap"><div class="card" id="card">
+<div class="progress">Questionnaire • Step 2 of 3</div>
+<div class="note">Answer in your own words. There are no trick questions. We use your answers together with your experience, interview, and other job-related information.</div>
+<form id="form">
+<div class="q"><label>What interests you most about this role?</label><textarea data-key="interest" required></textarea></div>
+<div class="q"><label>Tell us about your most relevant sales, customer service, real estate, marketing, or operations experience.</label><textarea data-key="relevant_experience" required></textarea></div>
+<div class="q"><label>When someone tells you “no” or pushes back, how do you normally respond?</label><textarea data-key="objection_response" required></textarea></div>
+<div class="q"><label>How do you keep yourself organized when several people need follow-up?</label><textarea data-key="followup_process" required></textarea></div>
+<div class="q"><label>What type of manager or coaching helps you perform at your best?</label><textarea data-key="coaching_style" required></textarea></div>
+<div id="role-questions"></div>
+<div class="q"><label>What are you looking to earn over the next 12 months?</label><input data-key="income_goal" required placeholder="Your realistic target"></div>
+<div class="q"><label>Why should we take the next step with you?</label><textarea data-key="why_you" required></textarea></div>
+<button class="btn" id="submit" type="submit">Complete Questionnaire</button>
+</form></div></div>
+<script>
+const ENDPOINT='https://mzqzmnrmjdjzuxgrdzcd.supabase.co/functions/v1/careers-questionnaire';
+const candidateId=sessionStorage.getItem('cashasis_candidate_id');
+const position=sessionStorage.getItem('cashasis_candidate_position')||'the role';
+if(!candidateId){document.getElementById('card').innerHTML='<div class="done"><h2>Application session not found</h2><p>Please start from the CashAsIs careers application so we can connect your questionnaire to your application.</p><a href="/careers/">Return to Careers</a></div>';}
+const roleMap={
+'Acquisitions':[
+['seller_scenario','A homeowner says, “Your offer is too low. I can get more if I list it.” What would you say next?'],
+['phone_comfort','How comfortable are you spending a large part of your day talking with sellers by phone and following up repeatedly?']
+],
+'Dispositions':[
+['buyer_scenario','A buyer likes a deal but keeps delaying a decision. How would you move the conversation forward?'],
+['networking','How would you build and maintain relationships with active real estate buyers?']
+],
+'Lead Manager':[
+['qualification','How would you decide whether a new seller lead is ready for an acquisitions rep versus needing more follow-up?'],
+['volume','Describe how you would manage a high volume of calls, texts, and follow-up tasks without letting leads fall through.']
+],
+'Field Agent':[
+['door_scenario','A homeowner is skeptical when you introduce yourself in person. How would you handle the first 30 seconds?'],
+['field_discipline','How would you stay productive and accountable while working independently in the field?']
+],
+'Marketing':[
+['campaign','Tell us about a campaign, piece of content, or marketing idea you created or would be excited to build.'],
+['measurement','Which numbers would you watch to decide whether a marketing campaign is working?']
+]};
+const holder=document.getElementById('role-questions');
+(roleMap[position]||[
+['role_strength','What skill would make you especially effective in '+position+'?'],
+['role_challenge','What part of '+position+' would challenge you most, and how would you improve at it?']
+]).forEach(([key,q])=>{const d=document.createElement('div');d.className='q';d.innerHTML='<label>'+q+'</label><textarea data-key="'+key+'" required></textarea>';holder.appendChild(d)});
+document.getElementById('form')?.addEventListener('submit',async e=>{
+e.preventDefault();const btn=document.getElementById('submit');btn.disabled=true;btn.textContent='Saving...';
+const els=[...document.querySelectorAll('[data-key]')];const answers=els.map(el=>({key:el.dataset.key,question:el.closest('.q').querySelector('label').textContent,answer:el.value.trim()}));
+if(answers.some(a=>!a.answer)){alert('Please answer each question.');btn.disabled=false;btn.textContent='Complete Questionnaire';return;}
+try{const res=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({candidate_id:candidateId,answers})});const data=await res.json();if(!res.ok||!data.ok)throw new Error(data.error||'Unable to save');
+sessionStorage.setItem('cashasis_questionnaire_complete','1');
+document.getElementById('card').innerHTML='<div class="done"><div class="progress">Questionnaire complete • Step 2 of 3</div><h2>Nice work — one final step.</h2><p>Your application and questionnaire are saved. The final step will be the short Predictive Index behavioral assessment. We will add your assessment link here as soon as the hiring assessment account is connected.</p></div>';
+}catch(err){console.error(err);alert('We could not save your questionnaire. Please try again.');btn.disabled=false;btn.textContent='Complete Questionnaire';}
+});
+</script>
+</body></html>
