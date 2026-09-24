@@ -473,7 +473,7 @@ fbq('track','PageView');
       <p class="reason" id="success-reason">Thanks for applying. We review every application that comes in.</p>
       <div class="next">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
-        <p><strong>What happens now:</strong> If you look like a fit, someone from our team will reach out by phone or email to set up a quick conversation. Keep an eye on your messages.</p>
+        <p><strong>Next step:</strong> Complete the short candidate questionnaire so we can learn how you think and work. After that, qualified applicants will be directed to the behavioral assessment.</p>
       </div>
       <button class="btn btn-ghost btn-block" onclick="resetForm()">Submit Another Application</button>
     </div>
@@ -552,7 +552,7 @@ fbq('track','PageView');
 
    TO GO LIVE: set DEMO = false and fill in the endpoint URL.
    ============================================================ */
-const CAREERS_ENDPOINT = "https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/c8b6ae21-59e6-494d-b8db-01952bd41bd0"; // GHL careers webhook
+const CAREERS_ENDPOINT = "https://mzqzmnrmjdjzuxgrdzcd.supabase.co/functions/v1/careers-intake"; // Supabase hiring intake
 const DEMO = false; // live -> posts to GHL
 
 /* ---- select placeholder color state ---- */
@@ -626,6 +626,8 @@ function buildPayload(){
     heard_from:     document.getElementById('app-source').value.trim(),
     resume_link:    document.getElementById('resume-link').value.trim(),
     resume_filename: resume ? resume.name : '',
+    resume_data_url: resume ? resume.dataUrl : '',
+    brand: 'Cash As-Is',
     source: 'cashasis-careers',
     tags: 'careers, applicant, needs-review'
   };
@@ -636,12 +638,12 @@ document.getElementById('submit-btn').addEventListener('click', submitApplicatio
 
 async function submitApplication(){
   const p = buildPayload();
-  if(!p.applicant.name || !p.applicant.phone || !p.applicant.email){
+  if(!p.full_name || !p.phone || !p.email){
     alert('Please add your name, phone, and email.'); return;
   }
-  if(!p.role.position){ alert('Please choose the position you are applying for.'); return; }
-  if(!p.resume && !p.resumeLink){ alert('Please upload your resume or paste a link to it.'); return; }
-  if(!p.story.coverLetter){ alert('Please add a short note in the "Tell us about you" box.'); return; }
+  if(!p.position){ alert('Please choose the position you are applying for.'); return; }
+  if(!p.resume_filename && !p.resume_link){ alert('Please upload your resume or paste a link to it.'); return; }
+  if(!p.cover_letter){ alert('Please add a short note in the "Tell us about you" box.'); return; }
   if(!document.getElementById('consent').checked){ alert('Please agree to be contacted before submitting.'); return; }
 
   show('screen-loading');
@@ -656,22 +658,24 @@ async function submitApplication(){
     return;
   }
 
-  /* ---- LIVE CALL (uncomment when endpoint exists) ----
   try{
     const res = await fetch(CAREERS_ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(p)
     });
-    if(!res.ok) throw new Error('bad status');
+    const data = await res.json().catch(() => ({}));
+    if(!res.ok || !data.ok) throw new Error(data.error || 'bad status');
+    sessionStorage.setItem('cashasis_candidate_id', data.candidate_id);
+    sessionStorage.setItem('cashasis_candidate_position', p.position);
     document.getElementById('success-reason').textContent =
-      `Thanks for applying for the ${p.role.position} role. We review every application that comes in.`;
+      `Thanks for applying for the ${p.position} role. Your application is saved. Next, complete the short candidate questionnaire.`;
     show('screen-success');
   }catch(err){
+    console.error(err);
     alert('Something went wrong submitting your application. Please try again or call us.');
     show('screen-form');
   }
-  ------------------------------------------------------ */
 }
 
 /* ---- reset ---- */
