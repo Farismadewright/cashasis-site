@@ -111,6 +111,10 @@
   .ri h4 .dot{width:9px;height:9px;background:var(--orange);border-radius:50%;flex:none}
   .ri p{font-size:13px;color:var(--muted);line-height:1.45}
   .ri.wide{grid-column:1 / -1}
+  .ri.unavailable{opacity:.48;filter:saturate(.55);background:#f7f8fa}
+  .ri.unavailable h4{justify-content:space-between}
+  .ri.unavailable h4 .role-title{display:flex;align-items:center;gap:9px}
+  .role-status{font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:#e8ebef;border-radius:999px;padding:4px 8px;white-space:nowrap}
 
   /* ---------- Fields ---------- */
   .field{position:relative;margin-bottom:13px}
@@ -306,6 +310,18 @@ fbq('track','PageView');
         <div class="ri wide">
           <h4><span class="dot"></span>Virtual Closer <small style="color:var(--orange);font-size:11px;margin-left:4px">EXPERIENCE REQUIRED</small></h4>
           <p>Work remotely with sellers after offers are sent. Follow up by phone and text, handle objections, negotiate within approved terms, set property appointments when needed, and close signed agreements.</p>
+        </div>
+        <div class="ri unavailable">
+          <h4><span class="role-title"><span class="dot"></span>Dispositions</span><span class="role-status">Not Hiring</span></h4>
+          <p>Manage our buyer network and get signed deals in front of the right buyers quickly.</p>
+        </div>
+        <div class="ri unavailable">
+          <h4><span class="role-title"><span class="dot"></span>Lead Manager</span><span class="role-status">Not Hiring</span></h4>
+          <p>Work inbound and outbound leads, qualify opportunities, maintain follow-up, and route the right sellers to acquisitions.</p>
+        </div>
+        <div class="ri wide unavailable">
+          <h4><span class="role-title"><span class="dot"></span>Marketing</span><span class="role-status">Not Hiring</span></h4>
+          <p>Run campaigns, content, advertising, and lead-generation initiatives that keep the pipeline full and the brand growing.</p>
         </div>
       </div>
     </div>
