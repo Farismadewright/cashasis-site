@@ -74,7 +74,7 @@ const els=[...document.querySelectorAll('[data-key]')];const answers=els.map(el=
 if(answers.some(a=>!a.answer)){alert('Please answer each question.');btn.disabled=false;btn.textContent='Complete Questionnaire';return;}
 try{const res=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({candidate_id:candidateId,answers})});const data=await res.json();if(!res.ok||!data.ok)throw new Error(data.error||'Unable to save');
 sessionStorage.setItem('cashasis_questionnaire_complete','1');
-document.getElementById('card').innerHTML='<div class="done"><div class="progress">Questionnaire complete • Step 2 of 3</div><h2>Nice work — one final step.</h2><p>Your application and questionnaire are saved. The final step will be the short Predictive Index behavioral assessment. We will add your assessment link here as soon as the hiring assessment account is connected.</p></div>';
+window.location.href='/careers/team-assessment/';
 }catch(err){console.error(err);alert('We could not save your questionnaire. Please try again.');btn.disabled=false;btn.textContent='Complete Questionnaire';}
 });
 </script>
