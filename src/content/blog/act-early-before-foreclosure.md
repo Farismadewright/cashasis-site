@@ -6,7 +6,7 @@ author: "CashAsIs"
 category: "Pre-Foreclosure"
 readTime: "3 min read"
 tags: ["pre-foreclosure", "foreclosure", "texas", "sell before foreclosure"]
-image: "/images/stop-foreclosure-houston.jpg"
+image: "/images/act-early-before-foreclosure-cashasis.png.png"
 imageAlt: "Act early before foreclosure to leave more time for an offer, title, payoff, and closing"
 ---
 
