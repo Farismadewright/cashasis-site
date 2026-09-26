@@ -8,7 +8,8 @@ import { ctaLink } from '../../config.ts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
-const rest = posts;
+const legacyAstroSlugs = new Set(['act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
+const rest = posts.filter((post) => !legacyAstroSlugs.has(post.slug));
 const indexCta = ctaLink('blog-index', 'index');
 ---
 <!doctype html>
@@ -44,6 +45,18 @@ const indexCta = ctaLink('blog-index', 'index');
     </a>
 
     <div class="post-grid">
+      <a class="post-card" href="/blog/sell-before-foreclosure-sale/">
+        <div class="post-thumb"><span class="post-cat">Pre-Foreclosure</span></div>
+        <div class="post-body"><h3>Can You Sell Your Property Before a Foreclosure Sale?</h3><p>Yes, you may be able to sell before foreclosure. Learn why enough time for an offer, title, mortgage payoff, and closing matters.</p><div class="post-foot"><span>4 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
+      <a class="post-card" href="/blog/act-early-before-foreclosure/">
+        <div class="post-thumb"><img class="thumb-img" src="/images/act-early-before-foreclosure-cashasis.png.png" alt="Act early before foreclosure — more time means more options" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Pre-Foreclosure</span></div>
+        <div class="post-body"><h3>Act Early: More Time Means More Options Before Foreclosure</h3><p>Why starting earlier leaves more room to review an offer, handle title and payoff, and complete a sale before the deadline.</p><div class="post-foot"><span>3 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
+      <a class="post-card" href="/blog/understanding-your-pre-foreclosure-timeline/">
+        <div class="post-thumb"><img class="thumb-img" src="/images/pre-foreclosure-timeline-cashasis.png.png" alt="Pre-foreclosure timeline — know your date and options before the sale" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Pre-Foreclosure</span></div>
+        <div class="post-body"><h3>Understanding Your Pre-Foreclosure Timeline</h3><p>If you are considering selling before foreclosure, confirm your sale date early so there is time to review an offer, title, payoff, and closing.</p><div class="post-foot"><span>3 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
       {rest.map((post) => (
         <a class="post-card" href={`/blog/${post.slug}/`}>
           <div class="post-thumb">
