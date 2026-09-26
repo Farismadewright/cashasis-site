@@ -30,19 +30,23 @@ Contact your mortgage servicer and confirm:
 
 Availability and eligibility vary. Do not assume a sale has been postponed or canceled unless the appropriate party confirms it.
 
-## Consider whether keeping the property is realistic
+## If nothing has been approved, plan around the deadline
 
-Depending on your circumstances and loan, you may want to ask your servicer about options that could allow you to keep the property.
+If your mortgage company has already approved a modification, repayment plan, postponement, or another solution, follow the terms they provided.
 
-The important part is getting accurate information early enough to evaluate those options before the scheduled sale.
+But if nothing has been approved and the foreclosure sale is still scheduled, **do not assume more time is coming.**
 
-## Selling may also be an option
+A request, application, phone call, or conversation is not the same as confirmation that the sale has been postponed or canceled. Plan around the date that is actually scheduled unless the appropriate party confirms otherwise.
 
-If keeping the property is not the route you want—or you simply want to know what a sale could look like—you can explore selling before foreclosure.
+## Selling may be the option you can still control
 
-You do not have to commit to a sale just to find out what CashAsIs can offer.
+If you do not have a workable lender solution in place, it may be time to seriously consider selling before the foreclosure sale.
 
-A real purchase offer can give you another number to evaluate alongside your mortgage payoff and other available options.
+You do not have to commit to selling just to find out what CashAsIs can offer.
+
+A real purchase offer gives you a number to compare with your mortgage payoff while there may still be enough time to complete title and closing.
+
+**The goal is not to wait until selling becomes the only idea left but there is no longer enough time to finish the transaction.**
 
 ## Don't confuse an offer with a completed sale
 
@@ -59,7 +63,13 @@ A completed sale can still require:
 
 That is why waiting until the final days can make a sale more difficult to complete.
 
-## Get a CashAsIs offer while you review your options
+## Don't wait on a solution that hasn't been approved
+
+If the scheduled foreclosure date is still active, treat it like a real deadline.
+
+Waiting for an unconfirmed extension can use up time that could have been available for title, payoff, signatures, and closing.
+
+## Get a CashAsIs offer while there is still time
 
 CashAsIs can review the property **as-is** without requiring repairs, cleanup, staging, or showings before we make an offer.
 
