@@ -6,7 +6,8 @@ author: "CashAsIs"
 category: "Pre-Foreclosure"
 readTime: "3 min read"
 tags: ["pre-foreclosure", "foreclosure deadline", "sell before foreclosure", "texas foreclosure"]
-imageAlt: "Do not wait until the last minute to sell before a foreclosure sale"
+image: "/images/dont-wait-before-foreclosure-cashasis.png.png"
+imageAlt: "Don’t wait before foreclosure — the deadline won’t wait for you"
 faq:
   - q: "How late can I sell before a foreclosure sale?"
     a: "Timing depends on the property, title work, payoff information, required signatures, and the scheduled sale date. A purchase agreement alone does not complete the sale, so starting earlier leaves more time to close."
