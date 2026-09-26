@@ -6,7 +6,8 @@ author: "CashAsIs"
 category: "Pre-Foreclosure"
 readTime: "4 min read"
 tags: ["pre-foreclosure", "foreclosure options", "texas foreclosure", "sell before foreclosure"]
-imageAlt: "Options to consider before a scheduled foreclosure sale"
+image: "/images/still-have-options-before-foreclosure-cashasis.png.png"
+imageAlt: "Still have options before the foreclosure sale — know your timeline and consider selling"
 faq:
   - q: "Can I still sell my property before a foreclosure sale?"
     a: "A sale may still be possible before the scheduled foreclosure sale, but there must be enough time to complete title, payoff, closing, funding, and other transaction requirements."
