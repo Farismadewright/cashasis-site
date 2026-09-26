@@ -8,7 +8,7 @@ import { ctaLink } from '../../config.ts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
-const curatedSlugs = new Set(['act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
+const curatedSlugs = new Set(['options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
 const rest = posts.filter((post) => !curatedSlugs.has(post.slug));
 const indexCta = ctaLink('blog-index', 'index');
 ---
@@ -45,6 +45,10 @@ const indexCta = ctaLink('blog-index', 'index');
     </a>
 
     <div class="post-grid">
+      <a class="post-card" href="/blog/options-before-foreclosure-sale/">
+        <div class="post-thumb"><span class="post-cat">Pre-Foreclosure</span></div>
+        <div class="post-body"><h3>What Options Do You Have Before a Foreclosure Sale?</h3><p>A foreclosure sale is approaching? Review common options, confirm your deadline, and see why acting early can leave more time to sell.</p><div class="post-foot"><span>4 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
       <a class="post-card" href="/blog/sell-before-foreclosure-sale/">
         <div class="post-thumb"><img class="thumb-img" src="/images/sell-before-foreclosure-sale-cashasis.png.png" alt="Sell before the foreclosure sale — beat the foreclosure deadline" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Pre-Foreclosure</span></div>
         <div class="post-body">
