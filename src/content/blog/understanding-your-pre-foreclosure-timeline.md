@@ -6,8 +6,8 @@ author: "CashAsIs"
 category: "Pre-Foreclosure"
 readTime: "3 min read"
 tags: ["pre-foreclosure", "foreclosure", "texas", "sell before foreclosure"]
-image: "/images/stop-foreclosure-houston.jpg"
-imageAlt: "Understanding your pre-foreclosure timeline in Texas"
+image: "/images/pre-foreclosure-timeline-cashasis.png.png"
+imageAlt: "Pre-foreclosure timeline — know your date and options before the sale"
 ---
 
 If your property is in pre-foreclosure, one date matters most: **the scheduled foreclosure sale date.**
