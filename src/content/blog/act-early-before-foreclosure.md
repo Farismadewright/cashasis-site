@@ -1,6 +1,6 @@
 ---
 title: "Act Early: More Time Means More Options Before Foreclosure"
-description: "If a Texas foreclosure sale is approaching, acting earlier gives you more time to review an offer, handle title and payoff, and complete a sale before the deadline."
+description: "Act early before foreclosure: more time to review an offer, handle title and payoff, and complete a sale before the deadline."
 pubDate: 2026-09-26
 author: "CashAsIs"
 category: "Pre-Foreclosure"
