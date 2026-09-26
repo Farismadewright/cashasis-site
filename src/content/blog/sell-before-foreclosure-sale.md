@@ -6,7 +6,8 @@ author: "CashAsIs"
 category: "Pre-Foreclosure"
 readTime: "4 min read"
 tags: ["pre-foreclosure", "foreclosure sale", "texas", "sell before foreclosure"]
-imageAlt: "Selling a property before a foreclosure sale in Texas"
+image: "/images/sell-before-foreclosure-sale-cashasis.png.png"
+imageAlt: "Sell before the foreclosure sale — beat the foreclosure deadline"
 ---
 
 ## Yes — but the transaction needs enough time to actually close
