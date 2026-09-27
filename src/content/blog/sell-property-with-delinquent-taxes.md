@@ -6,7 +6,8 @@ author: "CashAsIs"
 category: "Tax Delinquent"
 readTime: "4 min read"
 tags: ["property taxes", "tax delinquent", "back taxes", "sell with back taxes", "texas"]
-imageAlt: "Selling a property with delinquent property taxes"
+image: "/images/behind-on-property-taxes-cashasis.png.png"
+imageAlt: "Behind on property taxes — selling may be a way out"
 faq:
   - q: "Can I sell a property if I owe back property taxes?"
     a: "A property may still be sold with delinquent property taxes. The title company reviews the amounts that must be addressed for closing and applicable taxes can generally be paid from the transaction proceeds."
