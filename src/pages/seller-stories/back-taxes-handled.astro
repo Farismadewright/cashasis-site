@@ -1,0 +1,41 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+const title='Seller Story: Had Back Taxes — Got It Handled';
+const description='Watch a real CashAsIs seller who was dealing with back property taxes share his experience selling the property and moving forward.';
+const pubDate=new Date('2026-09-26');
+const image='/images/cashasis-og-default.jpg';
+const videoUrl='https://player.vimeo.com/video/1201084770?h=c0b694d618';
+const faq=[
+ {q:'Can a property be sold with back property taxes?',a:'A property may still be sold with delinquent property taxes. The title company reviews the tax balance and other title requirements, and applicable amounts can be handled through the closing proceeds.'},
+ {q:'Do back taxes have to be paid before getting a CashAsIs offer?',a:'No. CashAsIs can review the property and make an offer before the delinquent taxes are paid. Title and closing determine the amounts that must be addressed to complete the transaction.'},
+ {q:'Does CashAsIs buy properties as-is?',a:'Yes. CashAsIs purchases properties as-is, so sellers do not need to repair, clean, stage, or prepare the property for a traditional listing before receiving an offer.'}
+];
+const videoSchema={'@context':'https://schema.org','@type':'VideoObject',name:'CashAsIs Seller Story: Had Back Taxes — Got It Handled',description:'A real CashAsIs seller discusses dealing with back property taxes and his experience selling the property.',thumbnailUrl:['https://www.cashasis.com/images/cashasis-og-default.jpg'],uploadDate:'2026-09-26',embedUrl:videoUrl};
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<script type="application/ld+json" set:html={JSON.stringify(videoSchema)}/>
+<style>.video-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#0D1B2A;margin:0 auto 28px;box-shadow:0 18px 42px -26px rgba(13,27,42,.6)}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.story-points{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:22px 0}.story-point{border:1px solid var(--line);border-radius:12px;padding:17px;text-align:center;background:#fbfcfd;font-weight:800;color:var(--navy)}@media(max-width:640px){.story-points{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Real Seller Story</span><h1>Had Back Taxes — Got It Handled</h1><p class="meta">Hear from a real seller who was dealing with back property taxes and chose to sell with CashAsIs.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="video-wrap"><iframe src="https://player.vimeo.com/video/1201084770?h=c0b694d618&badge=0&autopause=0&player_id=0&app_id=58479" title="CashAsIs seller story — had back taxes and got it handled" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="eager"></iframe></div>
+<div class="article-body">
+<p><strong>Back property taxes can make it feel like a property problem is getting harder every month.</strong> In this seller story, a homeowner who was dealing with back taxes shares his experience working with CashAsIs and getting the property sold.</p>
+<div class="story-points"><div class="story-point">BACK TAXES</div><div class="story-point">AS-IS SALE</div><div class="story-point">CASH PURCHASE</div><div class="story-point">STRAIGHTFORWARD PROCESS</div></div>
+<h2>You can explore a sale before paying the taxes out of pocket</h2>
+<p>Owing delinquent property taxes does not automatically prevent you from getting an offer. CashAsIs can review the property as-is, and if you decide to sell, the title company determines the tax balance and other amounts that must be addressed through closing.</p>
+<h2>Find out whether the numbers work</h2>
+<p>Getting an offer gives you a real number to compare against the delinquent taxes, mortgage payoff if applicable, and other title requirements. You decide whether selling makes sense.</p>
+<p>For a deeper explanation, read <a href="/blog/sell-property-with-back-taxes/">how selling a property with back taxes works</a>.</p>
+<div class="callout"><p><b>Dealing with back property taxes?</b><br/>Get a no-obligation CashAsIs offer and see whether selling the property could help resolve the situation.</p></div>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
