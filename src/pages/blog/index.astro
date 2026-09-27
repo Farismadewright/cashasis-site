@@ -8,7 +8,7 @@ import { ctaLink } from '../../config.ts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
-const curatedSlugs = new Set(['sell-vacant-property-as-is-no-repairs','dont-live-in-area-vacant-property-risk','empty-house-problems-dont-wait','still-paying-unused-property','inherited-property-not-the-problems','inherited-property-leave-belongings-as-is','multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
+const curatedSlugs = new Set(['stop-paying-unused-property','sell-vacant-property-as-is-no-repairs','dont-live-in-area-vacant-property-risk','empty-house-problems-dont-wait','still-paying-unused-property','inherited-property-not-the-problems','inherited-property-leave-belongings-as-is','multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
 const rest = posts.filter((post) => !curatedSlugs.has(post.slug));
 const indexCta = ctaLink('blog-index', 'index');
 ---
@@ -45,6 +45,10 @@ const indexCta = ctaLink('blog-index', 'index');
     </a>
 
     <div class="post-grid">
+      <a class="post-card" href="/blog/stop-paying-unused-property/">
+        <div class="post-thumb"><img class="thumb-img" src="/images/stop-paying-unused-property-cashasis.png.png" alt="Not using it? Stop paying for it — CashAsIs" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Vacant &amp; Absentee</span></div>
+        <div class="post-body"><h3>Stop Paying for a Property You Don't Need</h3><p>Taxes, insurance, utilities, repairs, and your time keep adding up. See how to turn an unused property's expense into a closing.</p><div class="post-foot"><span>4 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
       <a class="post-card" href="/blog/sell-vacant-property-as-is-no-repairs/">
         <div class="post-thumb"><img class="thumb-img" src="/images/sell-vacant-property-as-is-no-repairs-cashasis.png.png" alt="Don't fix it, don't clean it, sell it as-is — CashAsIs" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Vacant &amp; Absentee</span></div>
         <div class="post-body"><h3>Don't Fix It. Don't Clean It. Sell It As-Is.</h3><p>No repairs, full cleanout, staging, or market preparation required before finding out what CashAsIs will pay.</p><div class="post-foot"><span>4 min read</span><span class="read">Read &rarr;</span></div></div>
