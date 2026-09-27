@@ -1,6 +1,6 @@
 ---
 title: "Don't Let Back Taxes Take Your Property"
-description: "Delinquent property taxes can become more serious over time. If selling is an option, learn why acting before a tax suit, judgment, or sale can preserve more control."
+description: "Delinquent property taxes can escalate. Learn why acting before a tax suit, judgment, or sale can preserve more control."
 pubDate: 2026-09-26
 author: "CashAsIs"
 category: "Tax Delinquent"
