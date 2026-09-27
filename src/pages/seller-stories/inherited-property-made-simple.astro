@@ -1,0 +1,43 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+const title='Seller Story: We Made an Inherited Property Simple';
+const description='Watch a real CashAsIs seller share how we simplified an inherited-property sale and handled the details during a difficult time.';
+const pubDate=new Date('2026-09-26');
+const image='/images/inherited-property-real-seller-story-cashasis.png.png';
+const videoUrl='https://player.vimeo.com/video/1201084692?h=13bf8e7a0d';
+const faq=[
+ {q:'Can CashAsIs help with an inherited property?',a:'Yes. CashAsIs buys inherited properties as-is and works with the title company to determine the ownership, heirship, and closing requirements for the transaction.'},
+ {q:'Do I have to repair or clean out an inherited property first?',a:'No. CashAsIs purchases properties as-is, so you do not need to renovate, stage, or fully clean out the property before receiving an offer.'},
+ {q:'What if the inherited property has title or heirship issues?',a:'CashAsIs coordinates with the title company to review the file and determine what documentation is required. Some qualifying estates may have a simpler heirship path, while others require probate or legal counsel.'}
+];
+const videoSchema={'@context':'https://schema.org','@type':'VideoObject',name:'CashAsIs Seller Story: We Made an Inherited Property Simple',description:'A real CashAsIs seller shares his experience working with us on an inherited-property sale.',thumbnailUrl:['https://www.cashasis.com/images/inherited-property-real-seller-story-cashasis.png.png'],uploadDate:'2026-09-26',embedUrl:videoUrl};
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} image={image} type="article" pubDate={pubDate} author="CashAsIs" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<script type="application/ld+json" set:html={JSON.stringify(videoSchema)}/>
+<style>.video-wrap{position:relative;width:100%;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#0D1B2A;margin:0 auto 28px;box-shadow:0 18px 42px -26px rgba(13,27,42,.6)}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.story-points{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.story-point{border:1px solid var(--line);border-radius:12px;padding:17px;text-align:center;background:#fbfcfd;font-weight:800;color:var(--navy)}@media(max-width:640px){.story-points{grid-template-columns:1fr}}</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Real Seller Story</span><h1>Inherited Property? We Made It Simple.</h1><p class="meta">A real seller shares what it was like working with CashAsIs when an inherited property needed to be handled.</p></div></section>
+<main class="legal-wrap"><article class="legal-card article">
+<p class="eyebrow"><a href="/blog/">&larr; More Seller Resources</a></p>
+<div class="video-wrap"><iframe src="https://player.vimeo.com/video/1201084692?h=13bf8e7a0d&badge=0&autopause=0&player_id=0&app_id=58479" title="Inherited property CashAsIs seller story" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="eager"></iframe></div>
+<div class="article-body">
+<p>Inherited properties can bring a lot to sort through—especially when family, belongings, title questions, and property decisions are all happening at the same time.</p>
+<p><strong>You don't need more stress during an already difficult time.</strong> In this seller story, hear directly from a real CashAsIs seller about his experience working with us and simplifying the property sale while we handled the details.</p>
+<div class="story-points"><div class="story-point">ESTATE SITUATION</div><div class="story-point">SOLD AS-IS</div><div class="story-point">WE HANDLED THE DETAILS</div></div>
+<h2>A simpler way to handle the property</h2>
+<p>CashAsIs buys inherited properties as-is. You do not need to renovate, stage, or make the property market-ready before we make an offer.</p>
+<p>If you decide to sell, we work with the title company to identify the ownership, heirship, payoff, and documentation requirements for closing. That means you can focus on your family while the property transaction moves forward.</p>
+<h2>Start with an offer—not more work</h2>
+<p>You can find out what CashAsIs will pay before spending money preparing the property for sale. If the offer works for you, we'll coordinate the closing process with title and help determine what is required for the estate.</p>
+<p>For more information, read <a href="/blog/inherited-property-cashasis-options/">how CashAsIs helps with inherited properties</a> or see whether <a href="/blog/skip-full-probate-affidavit-heirship-cashasis/">a simpler heirship path may be available</a>.</p>
+<div class="callout"><p><b>Inherited a property?</b><br/>Tell us the address and what you know about the estate. We'll review the property and give you a no-obligation CashAsIs offer.</p></div>
+</div>
+<section class="faq"><h2>Frequently Asked Questions</h2>{faq.map((f)=><details><summary>{f.q}</summary><p>{f.a}</p></details>)}</section>
+</article></main><Footer/>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
