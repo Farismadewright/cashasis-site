@@ -1,6 +1,6 @@
 ---
 title: "Inherited a Property? Here's How CashAsIs Can Help"
-description: "Inherited a Texas property? See how CashAsIs can simplify the sale, coordinate title, and potentially avoid unnecessary probate delays when the estate qualifies."
+description: "Inherited a Texas property? See how CashAsIs can simplify the sale, coordinate title, and potentially reduce probate delays when the estate qualifies."
 pubDate: 2026-09-26
 author: "CashAsIs"
 category: "Probate & Inherited"
