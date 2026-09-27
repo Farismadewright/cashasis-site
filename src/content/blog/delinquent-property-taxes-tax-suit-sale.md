@@ -6,7 +6,8 @@ author: "CashAsIs"
 category: "Tax Delinquent"
 readTime: "4 min read"
 tags: ["property tax delinquency", "tax suit", "tax judgment", "tax sale", "texas property taxes"]
-imageAlt: "Property tax delinquency escalation from past due taxes to tax suit, judgment, and potential tax sale"
+image: "/images/back-taxes-can-escalate-cashasis.png.png"
+imageAlt: "Back taxes can escalate from tax suit to judgment and potential tax sale"
 faq:
   - q: "Can unpaid property taxes lead to a tax sale?"
     a: "Depending on the circumstances and applicable process, delinquent property taxes can lead to collection action, a tax suit, judgment, and potentially a tax foreclosure sale. The timing and steps vary."
