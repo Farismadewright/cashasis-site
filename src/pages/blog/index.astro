@@ -8,7 +8,7 @@ import { ctaLink } from '../../config.ts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
-const curatedSlugs = new Set(['still-paying-unused-property','inherited-property-not-the-problems','inherited-property-leave-belongings-as-is','multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
+const curatedSlugs = new Set(['empty-house-problems-dont-wait','still-paying-unused-property','inherited-property-not-the-problems','inherited-property-leave-belongings-as-is','multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
 const rest = posts.filter((post) => !curatedSlugs.has(post.slug));
 const indexCta = ctaLink('blog-index', 'index');
 ---
@@ -45,6 +45,10 @@ const indexCta = ctaLink('blog-index', 'index');
     </a>
 
     <div class="post-grid">
+      <a class="post-card" href="/blog/empty-house-problems-dont-wait/">
+        <div class="post-thumb"><img class="thumb-img" src="/images/empty-house-problems-dont-wait-cashasis.png.png" alt="Empty house? Problems don't wait — damage, vandalism, and code issues" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Vacant &amp; Absentee</span></div>
+        <div class="post-body"><h3>Empty House? Problems Don't Wait</h3><p>Leaks, vandalism, maintenance, and code issues can grow while nobody is there. See why waiting can make a vacant property harder to deal with.</p><div class="post-foot"><span>4 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
       <a class="post-card" href="/blog/still-paying-unused-property/">
         <div class="post-thumb"><img class="thumb-img" src="/images/still-paying-unused-property-cashasis.png.png" alt="Still paying for a property you're not using? Every month adds up" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Vacant &amp; Absentee</span></div>
         <div class="post-body"><h3>Still Paying for a Property You're Not Using?</h3><p>Taxes, insurance, maintenance, and utilities keep adding up. See what holding an unused property may really be costing you.</p><div class="post-foot"><span>4 min read</span><span class="read">Read &rarr;</span></div></div>
