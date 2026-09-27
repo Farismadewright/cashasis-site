@@ -8,7 +8,7 @@ import { ctaLink } from '../../config.ts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
-const curatedSlugs = new Set(['multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
+const curatedSlugs = new Set(['inherited-property-leave-belongings-as-is','multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
 const rest = posts.filter((post) => !curatedSlugs.has(post.slug));
 const indexCta = ctaLink('blog-index', 'index');
 ---
@@ -45,6 +45,10 @@ const indexCta = ctaLink('blog-index', 'index');
     </a>
 
     <div class="post-grid">
+      <a class="post-card" href="/blog/inherited-property-leave-belongings-as-is/">
+        <div class="post-thumb"><img class="thumb-img" src="/images/take-what-you-want-leave-the-rest-inherited-cashasis.png.png" alt="Take what you want and leave the rest — CashAsIs buys inherited properties as-is" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Probate &amp; Inherited</span></div>
+        <div class="post-body"><h3>Inherited a Property Full of Stuff? Leave What You Don't Want</h3><p>Take the belongings that matter. CashAsIs buys inherited properties as-is, with no repairs, full cleanout, or market preparation required first.</p><div class="post-foot"><span>4 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
       <a class="post-card" href="/blog/multiple-heirs-inherited-property-cashasis/">
         <div class="post-thumb"><img class="thumb-img" src="/images/too-many-heirs-we-help-simplify-cashasis.png.png" alt="Too many heirs? CashAsIs helps simplify identifying heirs, signatures, and closing" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">Probate &amp; Inherited</span></div>
         <div class="post-body"><h3>Multiple Heirs? CashAsIs Helps Get Everyone to Closing</h3><p>CashAsIs works with title to identify the required heirs, signatures, and documents so an inherited-property sale can move toward closing.</p><div class="post-foot"><span>5 min read</span><span class="read">Read &rarr;</span></div></div>
