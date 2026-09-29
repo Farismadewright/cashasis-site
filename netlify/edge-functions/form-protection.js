@@ -33,7 +33,31 @@ const protectionScript = `
         input='${PROTECTED_ENDPOINT}';
       }
     }catch(e){}
-    return nativeFetch(input,init);
+    var result=nativeFetch(input,init);
+    try{
+      var trackedUrl=typeof input==='string'?input:(input&&input.url)||'';
+      if(trackedUrl==='${PROTECTED_ENDPOINT}' && init && init.body){
+        var payload=JSON.parse(init.body);
+        result.then(function(resp){
+          if(!resp || !resp.ok) return;
+          resp.clone().json().then(function(data){
+            if(!data || !data.forwarded) return;
+            var stage=String(payload.stage||'');
+            var page=String(payload.page||'');
+            if(stage==='qualified' || page.indexOf('step3-complete')>=0){
+              var params={content_name:'Seller Lead',content_category:'seller_lead',form_location:page||'unknown'};
+              if(typeof window.fbq==='function') window.fbq('track','Lead',params);
+              if(typeof window.gtag==='function') window.gtag('event','generate_lead',{lead_source:payload.lead_source||payload.source||'cashasis',form_location:page||'unknown'});
+              window.dispatchEvent(new CustomEvent('cashasis:lead',{detail:{stage:stage,page:page}}));
+            } else if(stage==='contact'){
+              if(typeof window.fbq==='function') window.fbq('trackCustom','FormStart',{form_location:page||'unknown'});
+              if(typeof window.gtag==='function') window.gtag('event','form_start',{form_location:page||'unknown'});
+            }
+          }).catch(function(){});
+        }).catch(function(){});
+      }
+    }catch(e){}
+    return result;
   };
 })();
 </script>`;
