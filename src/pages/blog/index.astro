@@ -8,7 +8,7 @@ import { ctaLink } from '../../config.ts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
-const curatedSlugs = new Set(['selling-as-is-what-it-actually-means','fix-it-first-or-sell-as-is','stop-paying-unused-property','sell-vacant-property-as-is-no-repairs','dont-live-in-area-vacant-property-risk','empty-house-problems-dont-wait','still-paying-unused-property','inherited-property-not-the-problems','inherited-property-leave-belongings-as-is','multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
+const curatedSlugs = new Set(['what-can-you-skip-selling-cash-as-is','selling-as-is-what-it-actually-means','fix-it-first-or-sell-as-is','stop-paying-unused-property','sell-vacant-property-as-is-no-repairs','dont-live-in-area-vacant-property-risk','empty-house-problems-dont-wait','still-paying-unused-property','inherited-property-not-the-problems','inherited-property-leave-belongings-as-is','multiple-heirs-inherited-property-cashasis','skip-full-probate-affidavit-heirship-cashasis','inherited-property-cashasis-options','dont-let-back-taxes-take-property','what-happens-back-taxes-when-you-sell','sell-property-with-back-taxes','delinquent-property-taxes-tax-suit-sale','sell-property-with-delinquent-taxes','dont-wait-to-sell-before-foreclosure','options-before-foreclosure-sale','act-early-before-foreclosure','understanding-your-pre-foreclosure-timeline','sell-before-foreclosure-sale']);
 const rest = posts.filter((post) => !curatedSlugs.has(post.slug));
 const indexCta = ctaLink('blog-index', 'index');
 ---
@@ -45,6 +45,10 @@ const indexCta = ctaLink('blog-index', 'index');
     </a>
 
     <div class="post-grid">
+      <a class="post-card" href="/blog/what-can-you-skip-selling-cash-as-is/">
+        <div class="post-thumb"><img class="thumb-img" src="/images/skip-the-hassle-whatever-the-situation-cashasis.png.png" alt="Skip the hassle whatever the situation — CashAsIs" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">As-Is Selling</span></div>
+        <div class="post-body"><h3>What Can You Skip When You Sell Cash As-Is?</h3><p>Compare commissions, repairs, negotiations, financing delays and traditional selling costs with the simpler CashAsIs process.</p><div class="post-foot"><span>6 min read</span><span class="read">Read &rarr;</span></div></div>
+      </a>
       <a class="post-card" href="/blog/fix-it-first-or-sell-as-is/">
         <div class="post-thumb"><img class="thumb-img" src="/images/fix-it-first-or-sell-as-is-cashasis.png.png" alt="Fix it first or sell as-is — compare repairs, time, and selling as-is with CashAsIs" width="1200" height="630" loading="eager" decoding="async" /><span class="post-cat">As-Is Selling</span></div>
         <div class="post-body"><h3>Fix It First or Sell As-Is?</h3><p>Before spending another dollar on repairs, compare the cost, time, and uncertainty with selling the property exactly as it sits.</p><div class="post-foot"><span>5 min read</span><span class="read">Read &rarr;</span></div></div>
