@@ -406,6 +406,21 @@ fbq('track','PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=992265673072496&ev=PageView&noscript=1"/></noscript>
 <!-- End Meta Pixel Code -->
+<script>
+(function(){
+  var category='general_seller';
+  function track(name,params){
+    try{if(typeof fbq==='function')fbq('trackCustom',name,params||{});}catch(e){}
+    try{if(typeof gtag==='function')gtag('event',name.replace(/([A-Z])/g,'_$1').toLowerCase().replace(/^_/,''),params||{});}catch(e){}
+  }
+  document.addEventListener('click',function(e){
+    var el=e.target&&e.target.closest?e.target.closest('[data-cao-open],a,button'):null;
+    if(!el)return;
+    var txt=(el.textContent||'').toLowerCase();
+    if(el.hasAttribute('data-cao-open')||/cash offer|get.*offer/.test(txt))track('OfferCTA',{content_category:category,page_path:location.pathname});
+  },true);
+})();
+</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "name": "CashAsIs", "legalName": "Mr. Wright Properties LLC", "url": "https://www.cashasis.com/", "image": "https://www.cashasis.com/og-image.jpg", "telephone": "+1-346-584-6365", "email": "info@cashasis.com", "areaServed": {"@type": "City", "name": "Houston", "addressRegion": "TX"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.cashasis.com/"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How quickly can you close?", "acceptedAnswer": {"@type": "Answer", "text": "We can close in as little as 7 days. If you need more time, that's fine too. You choose the closing date that works for you."}}, {"@type": "Question", "name": "Do I need to clean or make repairs before selling?", "acceptedAnswer": {"@type": "Answer", "text": "No. Sell completely as-is. Leave behind whatever you don't want, skip the cleanup, and never lift a hammer. We handle it from there."}}, {"@type": "Question", "name": "Is this a real offer or just an estimate?", "acceptedAnswer": {"@type": "Answer", "text": "It's a real, no-obligation cash offer based on your actual property and situation, not a vague online estimate."}}, {"@type": "Question", "name": "Are there any fees or commissions?", "acceptedAnswer": {"@type": "Answer", "text": "None. No agent commissions, no listing fees, and no hidden costs. The offer we present is what you walk away with."}}, {"@type": "Question", "name": "What if I'm behind on payments or in foreclosure?", "acceptedAnswer": {"@type": "Answer", "text": "We can still help. We've worked with sellers behind on payments and facing foreclosure, and we move quickly to beat tight deadlines."}}, {"@type": "Question", "name": "What areas do you buy in?", "acceptedAnswer": {"@type": "Answer", "text": "We buy throughout the local area and surrounding communities. Not sure if we cover yours? Reach out and we'll let you know."}}]}</script>
