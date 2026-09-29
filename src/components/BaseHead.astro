@@ -76,3 +76,30 @@ const faqSchema = (faq && faq.length) ? {
     <noscript><img height="1" width="1" style="display:none" src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`} /></noscript>
   </>
 )}
+<script is:inline>
+  (function(){
+    var p=location.pathname.toLowerCase();
+    var category =
+      /foreclosure/.test(p) ? 'foreclosure' :
+      /(tax|back-taxes|delinquent)/.test(p) ? 'tax_delinquency' :
+      /(inherit|probate|heir)/.test(p) ? 'inherited_probate' :
+      /vacant|unused|empty-house/.test(p) ? 'vacant_property' :
+      /landlord|rental-property/.test(p) ? 'tired_landlord' :
+      /divorce/.test(p) ? 'divorce' :
+      /(fire|flood|damage)/.test(p) ? 'property_damage' :
+      'general_seller';
+    window.cashasisContentCategory=category;
+    if(typeof window.fbq==='function') window.fbq('track','ViewContent',{content_name:document.title,content_category:category});
+    if(typeof window.gtag==='function') window.gtag('event','view_seller_content',{content_category:category,page_path:location.pathname});
+    document.addEventListener('click',function(e){
+      var a=e.target && e.target.closest ? e.target.closest('a') : null;
+      if(!a) return;
+      var txt=(a.textContent||'').toLowerCase();
+      var href=a.getAttribute('href')||'';
+      if(/cash offer|get.*offer|offer/.test(txt) && (href.indexOf('cashasis.com')>=0 || href.indexOf('utm_campaign=blog_cta')>=0 || href==='/' || href==='#offer')){
+        if(typeof window.fbq==='function') window.fbq('trackCustom','OfferCTA',{content_category:category,page_path:location.pathname});
+        if(typeof window.gtag==='function') window.gtag('event','offer_cta_click',{content_category:category,page_path:location.pathname});
+      }
+    },true);
+  })();
+</script>
