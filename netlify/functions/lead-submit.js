@@ -30,7 +30,7 @@ function validEmail(value) {
   return s.length >= 5 && s.length <= 160 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
 }
 
-exports.handler = async function handler(event) {
+export async function handler(event) {
   if (event.httpMethod === 'OPTIONS') return json(204, {});
   if (event.httpMethod !== 'POST') return json(405, { ok: false, error: 'method_not_allowed' });
 
