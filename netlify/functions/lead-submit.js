@@ -2,6 +2,7 @@ import crypto from 'node:crypto';
 
 const META_DATASET_ID = '992265673072496';
 const META_CAPI_ACCESS_TOKEN = process.env.META_CAPI_ACCESS_TOKEN || '';
+const META_TEST_EVENT_CODE = process.env.META_TEST_EVENT_CODE || '';
 const GHL_WEBHOOK_URL = process.env.GHL_WEBHOOK_URL || 'https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d';
 
 const json = (statusCode, body) => ({
@@ -79,6 +80,7 @@ async function sendMetaLead(body, event) {
       custom_data: { content_name: 'Seller Lead', content_category: 'seller_lead', form_location: page || 'unknown' },
       ...(eventId ? { event_id: eventId } : {}),
     }],
+    ...(META_TEST_EVENT_CODE ? { test_event_code: META_TEST_EVENT_CODE } : {}),
   };
 
   const response = await fetch(`https://graph.facebook.com/v23.0/${META_DATASET_ID}/events?access_token=${encodeURIComponent(META_CAPI_ACCESS_TOKEN)}`, {
