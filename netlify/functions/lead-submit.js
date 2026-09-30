@@ -1,3 +1,7 @@
+import crypto from 'node:crypto';
+
+const META_DATASET_ID = '992265673072496';
+const META_CAPI_ACCESS_TOKEN = process.env.META_CAPI_ACCESS_TOKEN || '';
 const GHL_WEBHOOK_URL = process.env.GHL_WEBHOOK_URL || 'https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d';
 
 const json = (statusCode, body) => ({
@@ -28,6 +32,67 @@ function validPhone(value) {
 function validEmail(value) {
   const s = String(value || '').trim();
   return s.length >= 5 && s.length <= 160 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
+}
+
+
+function sha256(value) {
+  return crypto.createHash('sha256').update(String(value || '').trim().toLowerCase()).digest('hex');
+}
+
+function normalizePhone(value) {
+  return String(value || '').replace(/\D/g, '');
+}
+
+async function sendMetaLead(body, event) {
+  if (!META_CAPI_ACCESS_TOKEN) {
+    console.warn('[lead-submit] META_CAPI_ACCESS_TOKEN missing; CAPI skipped');
+    return { ok: false, skipped: true };
+  }
+  const page = String(body.page || '');
+  const stage = String(body.stage || '');
+  if (!(stage === 'qualified' || page.includes('step3-complete'))) return { ok: true, skipped: true };
+
+  const eventId = String(body.meta_event_id || '').trim();
+  const headers = event.headers || {};
+  const forwardedFor = headers['x-forwarded-for'] || headers['X-Forwarded-For'] || '';
+  const clientIp = String(forwardedFor).split(',')[0].trim();
+  const userAgent = headers['user-agent'] || headers['User-Agent'] || '';
+  const userData = {
+    em: [sha256(body.email)],
+    ph: [sha256(normalizePhone(body.phone))],
+  };
+  const parts = String(body.full_name || '').trim().split(/\s+/);
+  if (parts[0]) userData.fn = [sha256(parts[0])];
+  if (parts.length > 1) userData.ln = [sha256(parts.slice(1).join(' '))];
+  if (clientIp) userData.client_ip_address = clientIp;
+  if (userAgent) userData.client_user_agent = userAgent;
+  if (body.fbp) userData.fbp = String(body.fbp);
+  if (body.fbc) userData.fbc = String(body.fbc);
+
+  const payload = {
+    data: [{
+      event_name: 'Lead',
+      event_time: Math.floor(Date.now() / 1000),
+      action_source: 'website',
+      event_source_url: String(body.event_source_url || 'https://www.cashasis.com/'),
+      user_data: userData,
+      custom_data: { content_name: 'Seller Lead', content_category: 'seller_lead', form_location: page || 'unknown' },
+      ...(eventId ? { event_id: eventId } : {}),
+    }],
+  };
+
+  const response = await fetch(`https://graph.facebook.com/v23.0/${META_DATASET_ID}/events?access_token=${encodeURIComponent(META_CAPI_ACCESS_TOKEN)}`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  const responseText = await response.text();
+  if (!response.ok) {
+    console.error('[lead-submit] Meta CAPI rejected event', response.status, responseText);
+    return { ok: false, status: response.status };
+  }
+  console.log('[lead-submit] Meta CAPI Lead sent', { event_id: eventId || null });
+  return { ok: true };
 }
 
 export async function handler(event) {
@@ -79,7 +144,10 @@ export async function handler(event) {
       return json(502, { ok: false, error: 'upstream_error', status: response.status });
     }
     console.log('[lead-submit] forwarded lead', { email: outbound.email, address: outbound.address1, stage: outbound.stage });
-    return json(200, { ok: true, forwarded: true, upstream_status: response.status });
+    let capi = { ok: true, skipped: true };
+    try { capi = await sendMetaLead(body, event); }
+    catch (metaErr) { console.error('[lead-submit] Meta CAPI request failed', metaErr && metaErr.message); capi = { ok: false }; }
+    return json(200, { ok: true, forwarded: true, upstream_status: response.status, capi_ok: !!capi.ok, meta_event_id: body.meta_event_id || null });
   } catch (err) {
     console.error('[lead-submit] GHL request failed', err && err.message);
     return json(502, { ok: false, error: 'upstream_unavailable' });
