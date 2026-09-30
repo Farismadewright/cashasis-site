@@ -36,10 +36,9 @@ export async function handler(event){
   let b;try{b=JSON.parse(event.body||'{}')}catch{return json(400,{ok:false,error:'invalid_json'})}
   if(!b.email&&!b.phone)return json(400,{ok:false,error:'identity_required'});
   try{
-    const q=b.email?'email='+encodeURIComponent(b.email):'phone='+encodeURIComponent(b.phone);
-    const found=await ghl('/contacts/lookup?locationId='+LOCATION_ID+'&'+q+'&limit=5');
-    const contacts=found.contacts||[]; if(!contacts.length)return json(404,{ok:false,error:'contact_not_found'});
-    const contact=contacts[0];
+    const q=b.email?'email='+encodeURIComponent(b.email):'number='+encodeURIComponent(b.phone);
+    const found=await ghl('/contacts/search/duplicate?locationId='+LOCATION_ID+'&'+q);
+    const contact=found.contact || (found.contacts && found.contacts[0]); if(!contact)return json(404,{ok:false,error:'contact_not_found'});
     await ghl('/contacts/'+contact.id,{method:'PUT',body:JSON.stringify({customFields:[
       {id:PROPERTY_CONDITION_FIELD,fieldValue:String(b.property_condition||'')},
       {id:TIMELINE_FIELD,fieldValue:String(b.selling_timeline||'')}
