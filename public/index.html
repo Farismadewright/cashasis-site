@@ -905,7 +905,7 @@ fbq('track','PageView');
     e.preventDefault();
     var r=form.querySelectorAll('input[required]');
     for(var i=0;i<r.length;i++){if(!r[i].checkValidity()){r[i].reportValidity();return;}}
-    post({page:'step1-contact',stage:'contact'}).then(function(){pane(2);}).catch(function(){alert('We could not submit your information. Please try again or call (346) 584-6365.');});
+    pane(2);
   });
   card.querySelectorAll('.cao-opt').forEach(function(o){
     o.addEventListener('click',function(){
@@ -988,7 +988,7 @@ fbq('track','PageView');
   document.querySelectorAll('[data-cao-open]').forEach(function(b){b.addEventListener('click',function(e){e.preventDefault();openM();});});
   modal.querySelector('.cao-close').addEventListener('click',closeM);
   modal.addEventListener('click',function(e){if(e.target===modal)closeM();});
-  form.addEventListener('submit',function(e){e.preventDefault();var r=form.querySelectorAll('input[required]');for(var i=0;i<r.length;i++){if(!r[i].checkValidity()){r[i].reportValidity();return;}}post({page:'modal-step1-contact',stage:'contact'}).then(function(){pane(2);}).catch(function(){alert('We could not submit your information. Please try again or call (346) 584-6365.');});});
+  form.addEventListener('submit',function(e){e.preventDefault();var r=form.querySelectorAll('input[required]');for(var i=0;i<r.length;i++){if(!r[i].checkValidity()){r[i].reportValidity();return;}}pane(2);});
   modal.querySelectorAll('.cao-opt').forEach(function(o){o.addEventListener('click',function(){var f=o.getAttribute('data-field'),v=o.getAttribute('data-val');var hid=form.querySelector('input[name="'+f+'"]');if(hid)hid.value=v;if(f==='condition'){pane(3);}else if(f==='timeline'){post({property_condition:g('condition'),selling_timeline:g('timeline'),page:'modal-step3-complete',stage:'qualified'}).then(function(){pane(4);}).catch(function(){alert('We could not finish your request. Please try again or call (346) 584-6365.');});}});});
   var bk=modal.querySelector('.cao-back');if(bk){bk.addEventListener('click',function(){pane(2);});}
 })();
