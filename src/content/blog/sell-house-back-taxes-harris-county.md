@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Harris County Taxes"
 readTime: "5 min read"
+image: "/images/Selling a Harris County Home with Back Taxes.png"
+imageAlt: "Selling a house with back taxes in Harris County"
 tags: ["sell house back taxes Harris County", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell a House With Back Taxes in Harris County?"
