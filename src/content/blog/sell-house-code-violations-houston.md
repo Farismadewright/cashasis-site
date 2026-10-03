@@ -56,3 +56,7 @@ You do not have to make the property perfect before asking for a number.
 Start with the address and the situation. We will review whether the property fits what we buy and, if it does, determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer) and tell us what is happening with the Houston property.**
+
+## Related code and condition guides
+
+See [Can I sell a Houston house with code violations?](/blog/sell-house-code-violations-houston-question/), [Harris County code-violation properties](/blog/sell-code-violation-house-harris-county/), and [major repair properties](/blog/sell-house-needs-major-repairs-houston/).
