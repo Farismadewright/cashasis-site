@@ -6,6 +6,8 @@ updatedDate: 2026-10-03
 author: "CashAsIs"
 category: "Cleanout"
 readTime: "6 min read"
+image: "/images/Sell a Cluttered House in Houston.png"
+imageAlt: "Sell a hoarder or cluttered house in Houston with CashAsIs"
 tags: ["sell hoarder house Houston", "Houston", "Cleanout", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
