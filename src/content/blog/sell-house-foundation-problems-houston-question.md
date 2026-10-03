@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell a Houston House With Foundation Problems?"
+title: "Can I Sell a House With Foundation Problems in Houston?"
 description: "Yes. CashAsIs can evaluate a Houston property with foundation problems before you take on foundation repairs for our purchase."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Houston Foundation Inspection Homesales.png"
 imageAlt: "Selling a house with foundation problems in Houston"
 tags: ["sell Houston house foundation problems", "Houston", "CashAsIs"]
 faq:
-  - q: "Can I Sell a Houston House With Foundation Problems?"
+  - q: "Can I Sell a House With Foundation Problems in Houston?"
     a: "Yes. CashAsIs can evaluate a Houston property with foundation problems before you take on foundation repairs for our purchase."
 ---
 ## The short answer
