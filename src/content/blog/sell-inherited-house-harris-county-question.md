@@ -4,7 +4,7 @@ description: "Start by identifying who has authority to sell and what title requ
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Harris County Inherited"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Sell Your Inherited Harris County Home.png"
 imageAlt: "Selling an inherited house in Harris County"
 tags: ["sell inherited house Harris County", "Houston area", "CashAsIs"]
