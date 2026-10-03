@@ -6,6 +6,8 @@ updatedDate: 2026-10-03
 author: "CashAsIs"
 category: "Major Repairs"
 readTime: "6 min read"
+image: "/images/Sell Houston Houses As-Is.png"
+imageAlt: "Sell a Houston house that needs major repairs as-is to CashAsIs"
 tags: ["sell house needs major repairs Houston", "Houston", "Major Repairs", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
