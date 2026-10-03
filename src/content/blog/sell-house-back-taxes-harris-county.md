@@ -33,3 +33,9 @@ See [Sell House As-Is Houston](/blog/sell-house-as-is-houston/) and [Sell My Hou
 Start with the address and the facts you know today.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Harris County back taxes should be part of the closing review early
+
+If taxes are delinquent, the balance and any related lien or legal action can affect title and proceeds. CashAsIs can evaluate the property as-is while those amounts are being identified. You do not need to renovate the house simply to find out whether a direct purchase may work.
+
+Tell us about any tax notice, suit, payment arrangement, or deadline you already know about. For the broader issue, see [Houston property-tax selling guide](/blog/sell-house-behind-on-taxes-houston/) and [Harris County cash-sale hub](/blog/sell-house-fast-harris-county-tx/).
