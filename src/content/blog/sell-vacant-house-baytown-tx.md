@@ -32,3 +32,15 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## What matters with a vacant Baytown property
+
+Vacancy can amplify ordinary Gulf Coast property issues because nobody is present every day to notice roof leaks, moisture, HVAC failure, vegetation, vandalism, or other changes. That does not mean every vacant Baytown house is distressed; it means the current condition matters more than assumptions based on when someone last lived there.
+
+CashAsIs can evaluate the house before you complete a cleanout or retail make-ready. Tell us how long it has been vacant, whether utilities are active, who has access, and what maintenance has continued.
+
+## A direct sale should fit the actual house
+
+We consider the property itself, location, condition, occupancy, and expected work. If it fits what we buy, our offer reflects those facts rather than requiring you to repair first.
+
+See [our Baytown cash-sale hub](/blog/sell-house-fast-baytown-tx/) and [Houston-area vacant-property guide](/blog/sell-vacant-house-houston/).
