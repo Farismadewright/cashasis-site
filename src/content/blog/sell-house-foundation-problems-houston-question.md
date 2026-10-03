@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Foundation"
 readTime: "5 min read"
+image: "/images/Houston Foundation Inspection Homesales.png"
+imageAlt: "Selling a house with foundation problems in Houston"
 tags: ["sell Houston house foundation problems", "Houston", "CashAsIs"]
 faq:
   - q: "Can I Sell a Houston House With Foundation Problems?"
