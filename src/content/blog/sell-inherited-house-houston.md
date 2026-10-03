@@ -56,3 +56,7 @@ You do not have to make the property perfect before asking for a number.
 Start with the address and the situation. We will review whether the property fits what we buy and, if it does, determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer) and tell us what is happening with the Houston property.**
+
+## Related inherited-property guides
+
+For more specific situations, see [selling before probate is finished in Texas](/blog/sell-inherited-house-before-probate-texas/), [what happens when one heir will not sell](/blog/one-heir-refuses-sell-house-texas/), [Harris County inherited property](/blog/sell-inherited-house-harris-county/), [Fort Bend County](/blog/sell-inherited-house-fort-bend-county/), and [Montgomery County](/blog/sell-inherited-house-montgomery-county/).
