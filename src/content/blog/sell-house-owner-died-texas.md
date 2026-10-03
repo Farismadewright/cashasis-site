@@ -44,3 +44,15 @@ We are a direct potential buyer, not another repair project.
 Give us the property address, condition, and the situation you are dealing with. We can determine whether it fits what CashAsIs buys.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## The house and the authority to sell are separate questions
+
+After an owner dies, CashAsIs can evaluate the property's condition and purchase potential while the family determines who has authority to complete a sale. The deed, estate documents, probate status, and family circumstances can affect what title work is required.
+
+You do not necessarily need to clean out, repair, or renovate the property just to get an initial evaluation from us.
+
+## Information that helps
+
+Start with the property address, the deceased owner's name, who is currently handling the property, occupancy, and any probate or estate information you already have. If the ownership picture is unclear, tell us that too.
+
+See [our inherited-house Houston guide](/blog/sell-inherited-house-houston/), [probate-property guide](/blog/sell-probate-house-houston/), and [multiple owners/heirs guide](/blog/sell-house-multiple-owners-heirs-houston/).
