@@ -32,3 +32,11 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A Humble property can be evaluated while tax balances are identified
+
+Delinquent taxes may affect title, payoff, and available proceeds, but they do not automatically mean you should stop exploring a sale. CashAsIs can evaluate the property as-is while the transaction requirements are clarified.
+
+Tell us about any notices, suits, deadlines, or amounts you already know about. Starting earlier generally gives everyone more time to understand what a closing would require.
+
+See [Humble cash-sale guide](/blog/sell-house-fast-humble-tx/) and [Houston back-tax guide](/blog/sell-house-behind-on-taxes-houston/).
