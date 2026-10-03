@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
 readTime: "6 min read"
+image: "/images/Baytown House Sale by the Bridge.png"
+imageAlt: "Sell your house fast in Baytown, Texas with CashAsIs"
 tags: ["sell my house fast Baytown", "cash home buyers Baytown", "we buy houses Baytown", "sell house as is Baytown", "sell house for cash Baytown"]
 faq:
   - q: "Does CashAsIs buy properties in Baytown?"
