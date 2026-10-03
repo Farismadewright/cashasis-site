@@ -4,7 +4,7 @@ description: "A Harris County property with delinquent taxes may still be sold i
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Harris County Taxes"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a Harris County Home with Back Taxes.png"
 imageAlt: "Selling a house with back taxes in Harris County"
 tags: ["sell house back taxes Harris County", "Houston area", "CashAsIs"]
