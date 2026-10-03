@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Harris County Liens"
 readTime: "5 min read"
+image: "/images/Selling a House With Liens.png"
+imageAlt: "Selling a house with liens in Harris County"
 tags: ["sell house liens Harris County", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell a House With Liens in Harris County?"
