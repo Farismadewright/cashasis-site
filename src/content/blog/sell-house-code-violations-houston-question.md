@@ -35,3 +35,13 @@ Read [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash H
 Tell us the address, condition, occupancy, and any known issue. We can review whether the property fits what we buy and determine an offer if it does.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Code violations do not automatically prevent a sale
+
+The important questions are what the violations involve, whether there are active orders or liens, what the property's current condition is, and what must be addressed for a valid closing. CashAsIs can evaluate a property with known code issues without requiring you to first turn it into a retail-ready house for our purchase.
+
+## Tell us what the city has identified
+
+If you have notices, case numbers, photos, or a list of cited conditions, share what you have. If you only know that violations exist, we can still begin with the property address and condition.
+
+This page answers the seller's immediate question. For the full transaction-focused resource, see [Sell a House With Code Violations in Houston](/blog/sell-house-code-violations-houston/).
