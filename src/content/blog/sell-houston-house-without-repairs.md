@@ -4,7 +4,7 @@ description: "Yes. CashAsIs evaluates Houston properties in their current condit
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Repairs"
-readTime: "5 min read"
+readTime: "6 min read"
 image: "/images/Without Making Repairs.png"
 imageAlt: "Selling a Houston house without making repairs"
 tags: ["sell Houston house without repairs", "Houston", "CashAsIs"]
@@ -49,3 +49,11 @@ For our direct purchase, the useful question is not “How do I make this house 
 Share what you know, even if you do not have contractor estimates. Photos, known system ages, visible damage, occupancy, and the general condition help us understand the property. You do not need to diagnose every problem yourself.
 
 See [our major-repairs Houston guide](/blog/sell-house-needs-major-repairs-houston/) and [Sell House As-Is Houston](/blog/sell-house-as-is-houston/).
+
+## Which repairs can you leave alone before requesting an offer?
+
+For an initial CashAsIs evaluation, you can tell us about the property before replacing worn flooring, repainting rooms, updating cabinets, modernizing bathrooms, replacing old fixtures, or completing other retail-oriented improvements. Larger concerns such as roof age, HVAC problems, plumbing leaks, electrical issues, foundation movement, water damage, or deferred exterior maintenance should be disclosed too. The point is not to hide repairs; it is to price the house with those repairs in view.
+
+## Compare the repair cost with the reason you are selling
+
+A renovation can make sense when an owner has the money, time, contractor access, and desire to pursue a retail sale. It can make less sense when the goal is speed, simplicity, an estate settlement, landlord exit, relocation, or avoiding another project. Before authorizing work, compare the likely cost, time, and disruption against an as-is offer. That gives you a real choice instead of assuming construction is mandatory.
