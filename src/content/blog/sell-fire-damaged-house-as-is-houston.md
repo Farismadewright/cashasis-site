@@ -35,3 +35,13 @@ Read [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash H
 Tell us the address, condition, occupancy, and any known issue. We can review whether the property fits what we buy and determine an offer if it does.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Fire damage can be evaluated before restoration
+
+A fire-damaged property may involve structural work, smoke or water damage, electrical systems, cleanup, insurance questions, or areas that are not safely usable. CashAsIs can evaluate the property as it currently exists instead of requiring the owner to complete a restoration project for our purchase.
+
+## What helps us understand the property
+
+Tell us which areas were affected, whether the property is currently occupied, and what cleanup or repair work has already happened. Photos and available reports can help, but you do not need to finish repairs before starting.
+
+This page answers the specific **as-is** question. For the broader transactional guide, see [Sell a Fire-Damaged House in Houston](/blog/sell-fire-damaged-house-houston/).
