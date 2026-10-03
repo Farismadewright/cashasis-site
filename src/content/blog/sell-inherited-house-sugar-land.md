@@ -33,3 +33,11 @@ See our [Houston-area cash buyer guide](/blog/cash-home-buyers-houston/) and [as
 Tell us what you know. If the property fits what we buy, CashAsIs can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Sugar Land house does not need to be updated for us first
+
+Even when an inherited property is in a strong residential area, it may be dated, contain belongings, or need repairs the family does not want to manage. CashAsIs can evaluate it in its current condition.
+
+The family should also tell us about occupancy and any known estate or title issue. A property evaluation can begin while legitimate authority-to-sell requirements are being clarified.
+
+For related resources, see [Sell Your House Fast in Sugar Land](/blog/sell-house-fast-sugar-land-tx/) and [Sell an Inherited House in Houston](/blog/sell-inherited-house-houston/).
