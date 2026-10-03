@@ -33,3 +33,11 @@ See our [Houston-area cash buyer guide](/blog/cash-home-buyers-houston/) and [as
 Tell us what you know. If the property fits what we buy, CashAsIs can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## You do not have to empty the property for us first
+
+A Humble property may still contain furniture, boxes, appliances, personal items, or accumulated belongings when you contact CashAsIs. Tell us about the house in its current condition instead of assuming a complete cleanout is required before an evaluation.
+
+What can remain ultimately depends on the transaction and what is agreed upon, but the initial offer process does not require you to make the house presentation-ready for us.
+
+For the broader local resource, see [Sell Your House Fast in Humble](/blog/sell-house-fast-humble-tx/) and [our Houston cluttered-house guide](/blog/sell-hoarder-house-houston/).
