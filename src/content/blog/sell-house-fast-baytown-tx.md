@@ -63,3 +63,8 @@ You do not need to make the house perfect before starting.
 Tell us about the Baytown property as it sits today and what you are trying to accomplish.
 
 **[Request your CashAsIs offer](/#offer).**
+
+
+## More Baytown property guides
+
+Have a specific property situation? These CashAsIs resources go deeper: [sell vacant house baytown tx](/blog/sell-vacant-house-baytown-tx/) · [sell inherited house baytown tx](/blog/sell-inherited-house-baytown-tx/) · [sell house needs repairs baytown tx](/blog/sell-house-needs-repairs-baytown-tx/) · [sell house back taxes baytown tx](/blog/sell-house-back-taxes-baytown-tx/).
