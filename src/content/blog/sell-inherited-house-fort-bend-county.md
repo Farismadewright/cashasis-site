@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Fort Bend Inherited"
 readTime: "5 min read"
+image: "/images/Inherited Home Decisions in Fort Bend County.png"
+imageAlt: "Selling an inherited house in Fort Bend County"
 tags: ["sell inherited house Fort Bend County", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell an Inherited House in Fort Bend County As-Is?"
