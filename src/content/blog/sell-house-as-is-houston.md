@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Seller Guide"
 readTime: "6 min read"
+image: "/images/Sell House As-Is in Houston.png"
+imageAlt: "Sell a Houston house as-is with CashAsIs"
 tags: ["sell house as is Houston", "Houston cash buyer", "sell property Houston", "CashAsIs"]
 faq:
   - q: "Do I need to repair the property before contacting CashAsIs?"
