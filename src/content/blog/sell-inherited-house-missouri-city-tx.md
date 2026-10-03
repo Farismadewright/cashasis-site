@@ -24,3 +24,11 @@ Read [the related Houston guide](/blog/sell-inherited-house-houston/) and [our M
 You do not need to make the property perfect before finding out whether CashAsIs can buy it.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Missouri City house may need decisions more than construction
+
+The property might be well kept, dated, vacant, occupied, or full of belongings. CashAsIs can evaluate it as-is so the family can understand one potential sale path before committing to repairs or a retail listing.
+
+Tell us who is handling the property and what you know about the estate. Authority to sell and title requirements still have to be completed as applicable.
+
+See [Missouri City cash-sale guide](/blog/sell-house-fast-missouri-city-tx/) and [Houston inherited-property guide](/blog/sell-inherited-house-houston/).
