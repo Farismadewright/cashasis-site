@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Montgomery County Vacant"
 readTime: "5 min read"
+image: "/images/Selling a Vacant House in Montgomery County.png"
+imageAlt: "Selling a vacant house in Montgomery County"
 tags: ["sell vacant house Montgomery County", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell a Vacant House in Montgomery County As-Is?"
