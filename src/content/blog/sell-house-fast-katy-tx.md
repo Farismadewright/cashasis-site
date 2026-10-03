@@ -63,3 +63,8 @@ You do not need to make the house perfect before starting.
 Tell us about the Katy property as it sits today and what you are trying to accomplish.
 
 **[Request your CashAsIs offer](/#offer).**
+
+
+## More Katy property guides
+
+Have a specific property situation? These CashAsIs resources go deeper: [sell inherited house katy tx](/blog/sell-inherited-house-katy-tx/) · [sell house needs repairs katy tx](/blog/sell-house-needs-repairs-katy-tx/) · [sell rental with tenants katy tx](/blog/sell-rental-with-tenants-katy-tx/) · [sell house fast katy question](/blog/sell-house-fast-katy-question/).
