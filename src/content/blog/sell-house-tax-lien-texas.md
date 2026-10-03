@@ -44,3 +44,13 @@ We are a direct potential buyer, not another repair project.
 Give us the property address, condition, and the situation you are dealing with. We can determine whether it fits what CashAsIs buys.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A tax lien does not automatically make a property unsellable
+
+A tax lien can affect title and the money needed to complete a sale. The lien amount, other title items, available proceeds, and required payoff all matter. CashAsIs can evaluate the property before you renovate it or prepare it for a traditional listing.
+
+## Start with the property and what you know
+
+Send us the address and tell us about any tax notice, lien, suit, or amount you already know about. You do not need perfect records just to begin the conversation. If a direct purchase works, legitimate lien and title requirements still have to be handled through closing.
+
+For related Houston information, see [selling with liens in Houston](/blog/sell-house-with-liens-houston/) and [selling while behind on property taxes](/blog/sell-house-behind-on-taxes-houston/).
