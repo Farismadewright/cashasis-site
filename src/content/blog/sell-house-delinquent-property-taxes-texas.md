@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Taxes"
 readTime: "5 min read"
+image: "/images/Selling a Home with Delinquent Taxes.png"
+imageAlt: "Selling a house with delinquent property taxes in Texas"
 tags: ["sell house delinquent taxes Texas", "Texas", "CashAsIs"]
 faq:
   - q: "Can I Sell a House With Delinquent Property Taxes in Texas?"
