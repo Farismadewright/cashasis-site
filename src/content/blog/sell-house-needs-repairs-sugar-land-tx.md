@@ -24,3 +24,11 @@ Read [the related Houston guide](/blog/sell-house-needs-major-repairs-houston/) 
 You do not need to make the property perfect before finding out whether CashAsIs can buy it.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A Sugar Land house can be dated without being a teardown
+
+Some owners are deciding whether to update an older interior, replace aging systems, address foundation or roof concerns, or sell without taking on a major project. CashAsIs can evaluate the current condition before you choose to renovate for our purchase.
+
+Tell us what has been updated and what remains original or needs attention. We evaluate the whole property rather than assuming every repair issue has the same cost or importance.
+
+See [Sugar Land cash-sale guide](/blog/sell-house-fast-sugar-land-tx/) and [Houston major-repairs guide](/blog/sell-house-needs-major-repairs-houston/).
