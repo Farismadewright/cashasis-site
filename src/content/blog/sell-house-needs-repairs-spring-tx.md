@@ -24,3 +24,11 @@ Read [the related Houston guide](/blog/sell-house-needs-major-repairs-houston/) 
 You do not need to make the property perfect before finding out whether CashAsIs can buy it.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Spring repair needs can range from ordinary updating to larger systems
+
+An established house may have an older roof or HVAC, dated finishes, plumbing or electrical concerns, foundation movement, or exterior maintenance. CashAsIs can evaluate those conditions before you hire contractors for our purchase.
+
+Share what you know about prior updates and current problems. You do not need to turn the house into a renovated retail product just to request an offer.
+
+See [Spring cash-sale guide](/blog/sell-house-fast-spring-tx/) and [Houston major-repairs guide](/blog/sell-house-needs-major-repairs-houston/).
