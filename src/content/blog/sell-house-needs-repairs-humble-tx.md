@@ -32,3 +32,11 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Repair needs do not have to become your project
+
+An older Humble house may need flooring, paint, roofing, HVAC, plumbing, electrical, foundation work, or general updating. CashAsIs can evaluate those needs as part of our purchase instead of requiring you to complete them first.
+
+Share what you know about the condition and any prior work. If you do not have contractor estimates, that does not prevent an initial review.
+
+See [Humble cash-sale guide](/blog/sell-house-fast-humble-tx/) and [Houston major-repairs guide](/blog/sell-house-needs-major-repairs-houston/).
