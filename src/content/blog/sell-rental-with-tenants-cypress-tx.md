@@ -26,3 +26,9 @@ Read [the related guide](/blog/sell-house-with-tenants-houston/) and [our Cypres
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An occupied Cypress rental is both a property and a tenancy
+
+The house may be physically fine while the owner is ready to exit management. Lease status, access, deposits, maintenance, and tenant timing can matter as much as cosmetic condition.
+
+CashAsIs can evaluate the rental without requiring a vacant retail make-ready first. See [Cypress cash-sale guide](/blog/sell-house-fast-cypress-tx/) and [Houston tenant-occupied guide](/blog/sell-house-with-tenants-houston/).
