@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Sugar Land Inherited"
 readTime: "5 min read"
+image: "/images/Selling an Inherited House in Sugar Land.png"
+imageAlt: "Selling an inherited house in Sugar Land"
 tags: ["sell inherited house Sugar Land", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell an Inherited House in Sugar Land As-Is?"
