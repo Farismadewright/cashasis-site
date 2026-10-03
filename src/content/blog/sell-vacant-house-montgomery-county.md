@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell a Vacant House in Montgomery County As-Is?"
+title: "Can I Sell a Vacant House in Montgomery County?"
 description: "Yes. CashAsIs evaluates vacant Montgomery County properties in their current condition, including houses needing repairs or cleanup."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Selling a Vacant House in Montgomery County.png"
 imageAlt: "Selling a vacant house in Montgomery County"
 tags: ["sell vacant house Montgomery County", "Houston area", "CashAsIs"]
 faq:
-  - q: "Can I Sell a Vacant House in Montgomery County As-Is?"
+  - q: "Can I Sell a Vacant House in Montgomery County?"
     a: "Yes. CashAsIs evaluates vacant Montgomery County properties in their current condition, including houses needing repairs or cleanup."
 ---
 ## The short answer
