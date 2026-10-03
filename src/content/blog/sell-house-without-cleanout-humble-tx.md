@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Humble As-Is"
 readTime: "5 min read"
+image: "/images/Humble House Sale Consultation.png"
+imageAlt: "Selling a house in Humble without cleaning it out"
 tags: ["sell house without cleanout Humble TX", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell a Humble House Without Cleaning It Out First?"
