@@ -6,6 +6,8 @@ updatedDate: 2026-10-03
 author: "CashAsIs"
 category: "Code Violations"
 readTime: "6 min read"
+image: "/images/Selling a Houston Code-Violation House.png"
+imageAlt: "Sell a Houston house with code violations to CashAsIs"
 tags: ["sell house code violations Houston", "Houston", "Code Violations", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
