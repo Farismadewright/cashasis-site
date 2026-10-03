@@ -4,7 +4,7 @@ description: "Yes. CashAsIs can evaluate a Houston property with foundation prob
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Foundation"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Houston Foundation Inspection Homesales.png"
 imageAlt: "Selling a house with foundation problems in Houston"
 tags: ["sell Houston house foundation problems", "Houston", "CashAsIs"]
