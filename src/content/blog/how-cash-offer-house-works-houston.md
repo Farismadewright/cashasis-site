@@ -35,3 +35,15 @@ Read [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash H
 Tell us the address, condition, occupancy, and any known issue. We can review whether the property fits what we buy and determine an offer if it does.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## How a CashAsIs offer starts
+
+A CashAsIs offer is based on the actual property, not a generic Houston price-per-square-foot promise. We review the address, property characteristics, current condition, likely work needed, occupancy, and circumstances that could affect a closing.
+
+You can start before repairing, staging, or cleaning out the property. If additional information is needed, we focus on what matters to our evaluation rather than asking you to prepare the house for public showings.
+
+## What happens after you request an offer?
+
+We review the property and situation, determine whether it fits what we buy, and, when it does, work toward a direct purchase proposal. Requesting an offer does not obligate you to accept it. Legitimate title, payoff, ownership, and closing requirements still have to be completed.
+
+For a broader overview, see [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash Offer for House Houston](/blog/cash-offer-house-houston/).
