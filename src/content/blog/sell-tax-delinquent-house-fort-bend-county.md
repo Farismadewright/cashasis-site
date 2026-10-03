@@ -26,3 +26,9 @@ Read [the related Houston-area guide](/blog/sell-house-behind-on-taxes-houston/)
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Fort Bend County delinquent taxes belong in the closing analysis early
+
+A tax balance can affect title and proceeds, but CashAsIs can still evaluate the property's current condition while those numbers are identified. You do not need to renovate simply to ask whether a direct purchase may work.
+
+Share any notice, suit, deadline, or amount you know about. See [Fort Bend County cash-sale guide](/blog/sell-house-fast-fort-bend-county-tx/) and [Houston-area property-tax guide](/blog/sell-house-behind-on-taxes-houston/).
