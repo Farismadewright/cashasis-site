@@ -1,6 +1,6 @@
 ---
 title: "Sell a Houston House That Needs Major Repairs | CashAsIs"
-description: "Roof, HVAC, plumbing, electrical, foundation or major updating? CashAsIs evaluates Houston properties as-is before owners take on expensive repair projects."
+description: "Sell a Houston house needing major repairs. CashAsIs evaluates properties as-is before owners take on expensive renovation projects."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"

@@ -1,6 +1,6 @@
 ---
 title: "Sell a House With Tenants in Houston | CashAsIs"
-description: "Selling an occupied Houston rental is different from selling an empty house. CashAsIs evaluates tenant-occupied and landlord-owned properties for direct purchase."
+description: "Sell a Houston rental with tenants. CashAsIs evaluates occupied and landlord-owned properties for a direct as-is cash purchase."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"

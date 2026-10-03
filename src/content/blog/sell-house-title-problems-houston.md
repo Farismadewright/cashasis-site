@@ -1,6 +1,6 @@
 ---
 title: "Sell a House With Title Problems in Houston | CashAsIs"
-description: "Title complications can slow a Houston property sale. CashAsIs can evaluate the property while ownership and closing requirements are identified."
+description: "Sell a Houston property with title complications. CashAsIs can evaluate the house while ownership and closing requirements are identified."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"

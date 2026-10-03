@@ -1,6 +1,6 @@
 ---
 title: "Sell a House With Code Violations in Houston | CashAsIs"
-description: "Own a Houston property with code issues? CashAsIs evaluates distressed properties as-is, including houses needing significant repairs, cleanup, or deferred maintenance."
+description: "Sell a Houston property with code issues. CashAsIs evaluates distressed houses as-is, including properties needing repairs or cleanup."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"

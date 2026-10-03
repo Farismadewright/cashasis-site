@@ -1,6 +1,6 @@
 ---
 title: "Sell a Probate House in Houston | CashAsIs"
-description: "Selling a Houston property through probate can feel complicated. CashAsIs buys properties as-is and can evaluate the property while the authorized seller and title requirements are confirmed."
+description: "Sell a Houston probate property as-is with CashAsIs. We can evaluate the house while authorized sellers and title requirements are confirmed."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"

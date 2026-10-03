@@ -1,6 +1,6 @@
 ---
 title: "Sell a House With Foundation Problems in Houston | CashAsIs"
-description: "Foundation concerns are common enough in the Houston area to change how buyers view a property. CashAsIs can evaluate the house before you repair the foundation."
+description: "Sell a Houston house with foundation concerns. CashAsIs can evaluate the property as-is before you take on foundation repairs."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"

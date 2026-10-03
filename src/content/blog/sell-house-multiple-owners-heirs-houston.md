@@ -1,6 +1,6 @@
 ---
 title: "Sell a Houston House With Multiple Owners or Heirs | CashAsIs"
-description: "Multiple owners or heirs can complicate a Houston sale. CashAsIs can evaluate the property while the people who must authorize a sale and title requirements are identified."
+description: "Sell a Houston property with multiple owners or heirs. CashAsIs can evaluate it while title and signing requirements are identified."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"
