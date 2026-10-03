@@ -26,3 +26,11 @@ Read [the related Houston-area guide](/blog/sell-inherited-house-houston/).
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Montgomery County inherited property can mean house, land, or both
+
+An inherited property may be a subdivision house, rural home, wooded lot, or acreage property with improvements. CashAsIs evaluates the actual address and property characteristics rather than treating every inheritance the same.
+
+Tell us about the house, lot, occupancy, condition, and who is handling the estate. You can begin before renovation or cleanout, while legitimate estate and title authority still must be established for closing.
+
+See [Montgomery County cash-sale guide](/blog/sell-house-fast-montgomery-county-tx/) and [Houston inherited-property guide](/blog/sell-inherited-house-houston/).
