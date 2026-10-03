@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
 readTime: "6 min read"
+image: "/images/Katy Home Sale Billboard Ad.png"
+imageAlt: "Sell your house fast in Katy, Texas with CashAsIs"
 tags: ["sell my house fast Katy", "cash home buyers Katy", "we buy houses Katy", "sell house as is Katy", "sell house for cash Katy"]
 faq:
   - q: "Does CashAsIs buy properties in Katy?"
