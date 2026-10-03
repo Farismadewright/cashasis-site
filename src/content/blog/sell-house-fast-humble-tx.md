@@ -63,3 +63,8 @@ You do not need to make the house perfect before starting.
 Tell us about the Humble property as it sits today and what you are trying to accomplish.
 
 **[Request your CashAsIs offer](/#offer).**
+
+
+## More Humble property guides
+
+Have a specific property situation? These CashAsIs resources go deeper: [sell vacant house humble tx](/blog/sell-vacant-house-humble-tx/) · [sell inherited house humble tx](/blog/sell-inherited-house-humble-tx/) · [sell house needs repairs humble tx](/blog/sell-house-needs-repairs-humble-tx/) · [sell house back taxes humble tx](/blog/sell-house-back-taxes-humble-tx/) · [sell house without cleanout humble tx](/blog/sell-house-without-cleanout-humble-tx/).
