@@ -26,3 +26,11 @@ Read [the related Houston-area guide](/blog/stop-foreclosure-houston/).
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A Montgomery County foreclosure deadline changes the sale timeline
+
+If a foreclosure sale is scheduled, a potential sale needs enough time for property evaluation, title, lender payoff, required signatures, and funding. An offer alone does not stop the foreclosure process.
+
+Tell CashAsIs the known deadline immediately. We can evaluate the house and land as-is rather than requiring repair preparation, while the transaction still has to meet all closing requirements.
+
+See [Montgomery County cash-sale guide](/blog/sell-house-fast-montgomery-county-tx/) and [Texas pre-foreclosure guide](/blog/sell-before-foreclosure-texas/).
