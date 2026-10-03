@@ -33,3 +33,11 @@ See [Sell House As-Is Houston](/blog/sell-house-as-is-houston/) and [Sell My Hou
 Start with the address and the facts you know today.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Vacant Montgomery County properties can vary widely
+
+A vacant property may be a subdivision house, an older rural home, or a property on a larger lot. Vacancy also means condition can change while the owner is away. CashAsIs evaluates the actual address and property rather than assuming every vacant house has the same repair profile.
+
+Tell us how long it has been vacant, whether utilities are on, what you know about access and condition, and whether anyone is maintaining the property.
+
+See [Montgomery County cash-sale guide](/blog/sell-house-fast-montgomery-county-tx/) and [our Houston-area vacant-house guide](/blog/sell-vacant-house-houston/).
