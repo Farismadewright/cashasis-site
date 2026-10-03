@@ -24,3 +24,11 @@ Read [the related Houston guide](/blog/sell-inherited-house-houston/) and [our S
 You do not need to make the property perfect before finding out whether CashAsIs can buy it.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Spring house may be older, wooded, vacant, or simply unwanted
+
+Condition varies widely. Some inherited properties only need ordinary updating; others have been vacant or have deferred maintenance. CashAsIs evaluates the actual property rather than assuming inheritance means severe distress.
+
+Tell us occupancy, condition, who is handling the property, and what you know about the estate. You can start before cleanout or renovation.
+
+See [Spring cash-sale guide](/blog/sell-house-fast-spring-tx/) and [Houston inherited-property guide](/blog/sell-inherited-house-houston/).
