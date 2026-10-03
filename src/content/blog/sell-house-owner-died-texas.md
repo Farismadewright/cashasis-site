@@ -1,5 +1,5 @@
 ---
-title: "Can You Sell a House After the Owner Dies in Texas?"
+title: "Can I Sell a House After the Owner Dies in Texas?"
 description: "Potentially, but the people with legal authority to sell must be identified. Estate, heirship, probate, and title facts can affect the process."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Selling a House After Loss.png"
 imageAlt: "Selling a house after the owner dies in Texas"
 tags: ["sell house after owner dies Texas", "Texas", "CashAsIs"]
 faq:
-  - q: "Can You Sell a House After the Owner Dies in Texas?"
+  - q: "Can I Sell a House After the Owner Dies in Texas?"
     a: "Potentially, but the people with legal authority to sell must be identified. Estate, heirship, probate, and title facts can affect the process."
 ---
 ## The short answer
