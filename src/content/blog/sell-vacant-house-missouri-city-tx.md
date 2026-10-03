@@ -24,3 +24,11 @@ Read [the related Houston guide](/blog/sell-vacant-house-houston/) and [our Miss
 You do not need to make the property perfect before finding out whether CashAsIs can buy it.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Vacancy creates carrying costs even when the house looks fine
+
+A vacant Missouri City property may still need lawn care, utilities, insurance, security, inspections, and routine maintenance. If it is dated or has deferred repairs, those costs can stack on top of the cost of simply holding it.
+
+CashAsIs can evaluate the property before you complete a make-ready. Tell us how long it has been empty, who has access, and what condition you expect inside.
+
+See [Missouri City cash-sale guide](/blog/sell-house-fast-missouri-city-tx/) and [Houston vacant-property guide](/blog/sell-vacant-house-houston/).
