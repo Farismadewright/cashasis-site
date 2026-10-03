@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell a Rental Property in Spring, TX With Tenants?"
+title: "Can I Sell a Rental Property in Spring, TX?"
 description: "CashAsIs evaluates Spring-area rentals, including occupied properties. Tell us the lease, rent, occupancy, and known condition details."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Can I Sell a Rental Property in Spring, TX_.png"
 imageAlt: "Selling a rental property in Spring, Texas"
 tags: ["sell rental property Spring TX tenants", "Houston area", "CashAsIs"]
 faq:
-  - q: "Can I Sell a Rental Property in Spring, TX With Tenants?"
+  - q: "Can I Sell a Rental Property in Spring, TX?"
     a: "CashAsIs evaluates Spring-area rentals, including occupied properties. Tell us the lease, rent, occupancy, and known condition details."
 ---
 ## The short answer
