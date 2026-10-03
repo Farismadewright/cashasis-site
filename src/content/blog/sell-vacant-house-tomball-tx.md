@@ -26,3 +26,9 @@ Read [the related guide](/blog/sell-vacant-house-houston/) and [our Tomball cash
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Vacancy on a larger or wooded Tomball property can mean more upkeep
+
+Beyond the house itself, owners may be managing grass, trees, access, outbuildings, security, utilities, and weather exposure. CashAsIs can evaluate the property before you complete a full cleanout or make-ready.
+
+Tell us how long it has been vacant and what you know about the house and lot. See [Tomball cash-sale guide](/blog/sell-house-fast-tomball-tx/) and [Houston vacant-house guide](/blog/sell-vacant-house-houston/).
