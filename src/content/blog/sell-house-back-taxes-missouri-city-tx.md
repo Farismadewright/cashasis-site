@@ -24,3 +24,11 @@ Read [the related Houston guide](/blog/sell-house-behind-on-taxes-houston/) and 
 You do not need to make the property perfect before finding out whether CashAsIs can buy it.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Back taxes should be evaluated with the actual property
+
+A delinquent-tax balance can affect title and closing proceeds, but it does not tell us the property's condition or purchase fit. CashAsIs can evaluate both parts of the situation without asking you to renovate first.
+
+Share any notice, balance, suit, or deadline you know about. If the exact amount is unclear, the property address is still enough to begin the conversation.
+
+See [Missouri City cash-sale guide](/blog/sell-house-fast-missouri-city-tx/) and [Houston back-tax guide](/blog/sell-house-behind-on-taxes-houston/).
