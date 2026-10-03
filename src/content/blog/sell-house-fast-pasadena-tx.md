@@ -63,3 +63,8 @@ You do not need to make the house perfect before starting.
 Tell us about the Pasadena property as it sits today and what you are trying to accomplish.
 
 **[Request your CashAsIs offer](/#offer).**
+
+
+## More Pasadena property guides
+
+Have a specific property situation? These CashAsIs resources go deeper: [sell vacant house pasadena tx](/blog/sell-vacant-house-pasadena-tx/) · [sell inherited house pasadena tx](/blog/sell-inherited-house-pasadena-tx/) · [sell house needs repairs pasadena tx](/blog/sell-house-needs-repairs-pasadena-tx/) · [sell house back taxes pasadena tx](/blog/sell-house-back-taxes-pasadena-tx/).
