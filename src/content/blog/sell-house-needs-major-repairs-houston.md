@@ -56,3 +56,7 @@ You do not have to make the property perfect before asking for a number.
 Start with the address and the situation. We will review whether the property fits what we buy and, if it does, determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer) and tell us what is happening with the Houston property.**
+
+## Related repair guides
+
+See [Houston foundation problems](/blog/sell-house-foundation-problems-houston/), [selling without repairs](/blog/sell-house-without-repairs-houston/), [Katy repair properties](/blog/sell-house-needs-repairs-katy-tx/), [Pasadena](/blog/sell-house-needs-repairs-pasadena-tx/), [Spring](/blog/sell-house-needs-repairs-spring-tx/), and [Pearland](/blog/sell-house-needs-repairs-pearland-tx/).
