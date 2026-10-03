@@ -4,7 +4,7 @@ description: "A property with delinquent taxes may still be sellable. The amount
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Taxes"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a Home with Delinquent Taxes.png"
 imageAlt: "Selling a house with delinquent property taxes in Texas"
 tags: ["sell house delinquent taxes Texas", "Texas", "CashAsIs"]
