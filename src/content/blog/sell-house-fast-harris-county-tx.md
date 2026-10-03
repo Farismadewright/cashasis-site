@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
 readTime: "6 min read"
+image: "/images/Sell Your Harris County House Fast.png"
+imageAlt: "Sell your house fast in Harris County, Texas with CashAsIs"
 tags: ["sell my house fast Harris County", "cash home buyers Harris County", "we buy houses Harris County", "sell house as is Harris County", "sell house for cash Harris County"]
 faq:
   - q: "Does CashAsIs buy properties in Harris County?"
