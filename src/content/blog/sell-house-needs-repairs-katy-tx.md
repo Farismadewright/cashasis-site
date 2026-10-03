@@ -28,3 +28,11 @@ Read [the related Houston distress guide](/blog/sell-house-needs-major-repairs-h
 Location and condition matter, so we evaluate the actual address rather than using one generic citywide number.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Dated does not have to mean demolished
+
+Many Katy sellers are dealing with houses that are simply behind current finishes or have accumulated maintenance—not properties that are uninhabitable. CashAsIs can evaluate an older kitchen, worn flooring, aging systems, roof concerns, or broader deferred maintenance as part of the property.
+
+Before committing to a renovation, tell us what you know and let us evaluate the house as it sits.
+
+See [Katy cash-sale guide](/blog/sell-house-fast-katy-tx/) and [Houston major-repairs guide](/blog/sell-house-needs-major-repairs-houston/).
