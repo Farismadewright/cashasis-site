@@ -1,6 +1,6 @@
 ---
 title: "Sell My House Fast in Pasadena, TX | CashAsIs"
-description: "CashAsIs buys Pasadena properties directly for cash. Sell as-is without renovating for us, repeated public showings, or an agent commission on our direct purchase."
+description: "Sell your Pasadena property directly to CashAsIs. Request a cash offer before repairs, renovations, or public showings."
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
