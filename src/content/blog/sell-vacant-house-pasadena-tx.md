@@ -33,3 +33,11 @@ See our [Houston-area cash buyer guide](/blog/cash-home-buyers-houston/) and [as
 Tell us what you know. If the property fits what we buy, CashAsIs can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Vacancy can turn ordinary maintenance into a bigger problem
+
+A vacant Pasadena property can continue accumulating taxes, insurance, lawn care, security concerns, weather exposure, and deferred maintenance even when nobody is living there. CashAsIs can evaluate the house before the owner invests in a retail make-ready.
+
+Tell us how long the property has been empty, whether utilities are active, its known condition, and who currently has access.
+
+See [Sell Your House Fast in Pasadena](/blog/sell-house-fast-pasadena-tx/) and [our Houston vacant-property guide](/blog/sell-vacant-house-houston/).
