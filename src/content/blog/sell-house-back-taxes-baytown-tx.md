@@ -32,3 +32,15 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Back taxes add a title-and-timing issue to the property decision
+
+A Baytown owner may still be able to explore a sale while taxes are delinquent. The actual balance, any lien or suit, available proceeds, and closing requirements determine what can be completed.
+
+CashAsIs can evaluate the house as-is while those items are identified. If you have notices or payoff information, share them early; if not, start with the address and what you know.
+
+## Do not renovate just to ask for an offer
+
+Tax delinquency does not make cosmetic preparation more important to us. We evaluate the current property and transaction together.
+
+See [Baytown cash-sale guide](/blog/sell-house-fast-baytown-tx/) and [Houston property-tax guide](/blog/sell-house-behind-on-taxes-houston/).
