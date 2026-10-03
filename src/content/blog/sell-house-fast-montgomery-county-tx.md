@@ -63,3 +63,10 @@ You do not need to make the house perfect before starting.
 Tell us about the Montgomery County property as it sits today and what you are trying to accomplish.
 
 **[Request your CashAsIs offer](/#offer).**
+
+
+## Montgomery County situation-specific guides
+
+Use the guide that matches the property: [sell inherited house montgomery county](/blog/sell-inherited-house-montgomery-county/) · [sell vacant house montgomery county](/blog/sell-vacant-house-montgomery-county/) · [sell preforeclosure house montgomery county](/blog/sell-preforeclosure-house-montgomery-county/).
+
+You can also return to our [Houston seller hub](/blog/sell-my-house-fast-houston/) for broader CashAsIs resources.
