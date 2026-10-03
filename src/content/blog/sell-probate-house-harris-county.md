@@ -26,3 +26,9 @@ Read [the related Houston-area guide](/blog/sell-probate-house-houston/).
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Probate and property condition can move on separate tracks
+
+CashAsIs can evaluate a Harris County property while the estate determines who has authority to sell. That lets the family understand the as-is property option without first completing repairs, staging, or cleanout for our purchase.
+
+Tell us who is handling the estate, occupancy, condition, and what you know about probate. See [Harris County cash-sale guide](/blog/sell-house-fast-harris-county-tx/) and [Houston probate guide](/blog/sell-probate-house-houston/).
