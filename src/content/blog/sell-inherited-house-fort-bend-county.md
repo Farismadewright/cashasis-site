@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell an Inherited House in Fort Bend County As-Is?"
+title: "Can I Sell an Inherited House in Fort Bend County?"
 description: "CashAsIs can evaluate an inherited Fort Bend County property as-is while authority to sell and title requirements are confirmed."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Inherited Home Decisions in Fort Bend County.png"
 imageAlt: "Selling an inherited house in Fort Bend County"
 tags: ["sell inherited house Fort Bend County", "Houston area", "CashAsIs"]
 faq:
-  - q: "Can I Sell an Inherited House in Fort Bend County As-Is?"
+  - q: "Can I Sell an Inherited House in Fort Bend County?"
     a: "CashAsIs can evaluate an inherited Fort Bend County property as-is while authority to sell and title requirements are confirmed."
 ---
 ## The short answer
