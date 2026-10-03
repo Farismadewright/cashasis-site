@@ -44,3 +44,15 @@ We are a direct potential buyer, not another repair project.
 Give us the property address, condition, and the situation you are dealing with. We can determine whether it fits what CashAsIs buys.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Can you sell before a Texas foreclosure sale?
+
+Often, a property can still be sold before a scheduled foreclosure sale if there is enough time to complete the transaction and satisfy the lender's payoff and title requirements. The practical issue is **time**: an offer alone does not stop a foreclosure, and a closing has to be completed correctly.
+
+For a Houston-area owner who wants to explore a direct sale, CashAsIs can evaluate the property in its current condition without requiring a renovation project first. Tell us about the property and any deadline you already know about so we can determine whether a direct purchase is something we can pursue.
+
+## What CashAsIs needs to evaluate
+
+Start with the property address, condition, occupancy, and any foreclosure notice or sale date you know about. Title and payoff information may also affect what can actually close. We do not promise that every foreclosure situation can be solved by a sale, but starting earlier generally leaves more room to evaluate the property and complete required closing work.
+
+For Houston-specific information, see [selling before foreclosure in Houston](/blog/stop-foreclosure-houston/) and [our pre-foreclosure timeline guide](/blog/understanding-your-pre-foreclosure-timeline/).
