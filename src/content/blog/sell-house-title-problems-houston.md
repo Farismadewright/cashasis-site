@@ -8,6 +8,8 @@ category: "Title Problems"
 readTime: "6 min read"
 image: "/images/Houston Title Problems_ Sell Your House.png"
 imageAlt: "Sell a Houston house with title problems to CashAsIs"
+image: "/images/Houston Title Problems_ Sell Your House.png"
+imageAlt: "Sell a Houston house with title problems to CashAsIs"
 tags: ["sell house title problems Houston", "Houston", "Title Problems", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
