@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Seller Guide"
 readTime: "6 min read"
+image: "/images/Sell Your House Fast in Houston.png"
+imageAlt: "CashAsIs - sell my house fast in Houston cash home buyer"
 tags: ["sell my house fast Houston", "Houston cash buyer", "sell property Houston", "CashAsIs"]
 faq:
   - q: "Do I need to repair the property before contacting CashAsIs?"
