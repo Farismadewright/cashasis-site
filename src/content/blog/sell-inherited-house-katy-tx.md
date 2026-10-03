@@ -28,3 +28,11 @@ Read [the related Houston distress guide](/blog/sell-inherited-house-houston/) a
 Location and condition matter, so we evaluate the actual address rather than using one generic citywide number.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Katy property may be valuable and still be inconvenient
+
+A house does not need to be severely distressed to create a problem for heirs. It may be dated, occupied by a relative or tenant, contain belongings, need maintenance, or simply be a property the family does not want to manage.
+
+CashAsIs can evaluate the house before the family updates it for a retail buyer. Estate and title authority still must be handled correctly before closing.
+
+See [Katy cash-sale guide](/blog/sell-house-fast-katy-tx/) and [Houston inherited-property guide](/blog/sell-inherited-house-houston/).
