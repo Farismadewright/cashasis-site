@@ -4,7 +4,7 @@ description: "Potentially, but the people with legal authority to sell must be i
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Inherited"
-readTime: "5 min read"
+readTime: "6 min read"
 image: "/images/Selling a House After Loss.png"
 imageAlt: "Selling a house after the owner dies in Texas"
 tags: ["sell house after owner dies Texas", "Texas", "CashAsIs"]
@@ -58,3 +58,11 @@ You do not necessarily need to clean out, repair, or renovate the property just 
 Start with the property address, the deceased owner's name, who is currently handling the property, occupancy, and any probate or estate information you already have. If the ownership picture is unclear, tell us that too.
 
 See [our inherited-house Houston guide](/blog/sell-inherited-house-houston/), [probate-property guide](/blog/sell-probate-house-houston/), and [multiple owners/heirs guide](/blog/sell-house-multiple-owners-heirs-houston/).
+
+## A practical first-week checklist
+
+Before spending money on the property, gather the deed or closing papers you can find, the owner's full legal name, any will or estate documents available to the family, recent mortgage and tax statements, and contact information for the people involved. Also note who has keys, whether anyone lives there, whether insurance and utilities are active, and whether the house contains belongings that still need to be divided. Those facts help separate the **estate question** from the **property-condition question**.
+
+## Avoid making the house the first problem to solve
+
+Families often focus immediately on paint, flooring, furniture, yard work, or repairs because those are visible. But after an owner dies, authority and title can matter more than cosmetic preparation. CashAsIs can look at the real estate in its present condition while the family and closing professionals work through the documentation required for a valid transfer. That can help you avoid committing to a renovation before you know which selling path makes sense.
