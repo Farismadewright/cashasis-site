@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Spring Landlord"
 readTime: "5 min read"
+image: "/images/Can I Sell a Rental Property in Spring, TX_.png"
+imageAlt: "Selling a rental property in Spring, Texas"
 tags: ["sell rental property Spring TX tenants", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell a Rental Property in Spring, TX With Tenants?"
