@@ -6,6 +6,8 @@ updatedDate: 2026-10-03
 author: "CashAsIs"
 category: "Probate"
 readTime: "6 min read"
+image: "/images/Houston Probate House Sale Ad.png"
+imageAlt: "Sell a probate house in Houston with CashAsIs"
 tags: ["sell probate house Houston", "Houston", "Probate", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
