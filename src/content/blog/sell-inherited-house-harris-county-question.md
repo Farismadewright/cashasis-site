@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Harris County Inherited"
 readTime: "5 min read"
+image: "/images/Sell Your Inherited Harris County Home.png"
+imageAlt: "Selling an inherited house in Harris County"
 tags: ["sell inherited house Harris County", "Houston area", "CashAsIs"]
 faq:
   - q: "How Do I Sell an Inherited House in Harris County?"
