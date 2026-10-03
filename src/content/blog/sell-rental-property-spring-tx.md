@@ -14,35 +14,11 @@ faq:
 ---
 ## The short answer
 
-**CashAsIs evaluates Spring-area rentals, including occupied properties. Tell us the lease, rent, occupancy, and known condition details.**
+**Yes. A Spring, Texas rental property can be evaluated for a direct sale whether it is occupied or between tenants.**
 
-That lets you start with the property as it actually sits instead of spending money simply to find out whether a direct sale could work.
+The useful starting point is the landlord file: lease status, rent, deposit, occupancy, access, recent repairs, and any notices already given. If the house is vacant between tenants, describe the make-ready work it needs. If a tenant remains, be accurate about possession and access.
 
-## CashAsIs evaluates the current condition
-
-Tell us about repairs, belongings, occupancy, vacancy, inherited-property circumstances, or other issues. We want the real situation.
-
-A direct purchase from CashAsIs does not require you to remodel for us, stage for us, or prepare the property for repeated public showings.
-
-## Local property details still matter
-
-Neighborhood, property type, lot, condition, repair scope, occupancy, and title can all affect an offer. That is why we evaluate the actual address rather than applying one generic number to an entire city.
-
-See our [Houston-area cash buyer guide](/blog/cash-home-buyers-houston/) and [as-is selling guide](/blog/sell-house-as-is-houston/).
-
-## Start with the address
-
-Tell us what you know. If the property fits what we buy, CashAsIs can determine a direct cash offer.
-
-**[Request your CashAsIs offer](/#offer).**
-
-## A Spring rental can be evaluated with the tenancy in mind
-
-If the property is occupied, tell CashAsIs whether the tenant is under a lease or month-to-month, what access is available, and the general condition. If it is vacant between tenants, tell us what make-ready work you believe it needs.
-
-A direct sale can be useful when an owner does not want another repair-and-turnover cycle before exploring an exit. Legitimate tenant, lease, notice, and closing requirements still apply.
-
-See [Sell Your House Fast in Spring](/blog/sell-house-fast-spring-tx/) and [our Houston tenant-occupied property guide](/blog/sell-house-with-tenants-houston/).
+CashAsIs can evaluate the property without requiring another retail-style turnover first. Tenant rights and lease obligations still matter when applicable. For more local information, see [Sell Your House Fast in Spring](/blog/sell-house-fast-spring-tx/) and [our Houston tenant guide](/blog/sell-house-with-tenants-houston/).
 
 ## Gather the landlord file before deciding how to sell
 
