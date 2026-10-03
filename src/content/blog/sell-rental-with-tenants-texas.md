@@ -4,7 +4,7 @@ description: "An occupied rental may be sellable. The lease, occupancy, notices,
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Landlord"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a Tenant-Occupied Texas Rental.png"
 imageAlt: "Selling a rental property with tenants in Texas"
 tags: ["sell rental with tenants Texas", "Texas", "CashAsIs"]
