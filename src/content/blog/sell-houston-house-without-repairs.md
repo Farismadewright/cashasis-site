@@ -4,7 +4,7 @@ description: "Yes. CashAsIs evaluates Houston properties in their current condit
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Repairs"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Without Making Repairs.png"
 imageAlt: "Selling a Houston house without making repairs"
 tags: ["sell Houston house without repairs", "Houston", "CashAsIs"]
