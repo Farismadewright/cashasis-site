@@ -8,8 +8,6 @@ category: "Foundation"
 readTime: "6 min read"
 image: "/images/Houston Foundation Problems_ Sell As-Is.png"
 imageAlt: "Sell a Houston house with foundation problems as-is to CashAsIs"
-image: "/images/Houston Foundation Problems_ Sell As-Is.png"
-imageAlt: "Sell a Houston house with foundation problems as-is to CashAsIs"
 tags: ["sell house foundation problems Houston", "Houston", "Foundation", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
