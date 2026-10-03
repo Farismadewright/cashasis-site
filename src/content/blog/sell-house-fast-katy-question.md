@@ -33,3 +33,11 @@ See our [Houston-area cash buyer guide](/blog/cash-home-buyers-houston/) and [as
 Tell us what you know. If the property fits what we buy, CashAsIs can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## What “fast” should mean for a Katy seller
+
+A fast sale should not mean skipping the facts of the property. CashAsIs first evaluates the address, condition, occupancy, and any title or ownership issue that could affect closing. A direct cash purchase can remove repair preparation, public showings, and retail-buyer financing from our side of the process.
+
+If the property is inherited, tenant occupied, or needs substantial work, tell us at the beginning so the proposed path reflects the real situation.
+
+For the main local resource, see [Sell Your House Fast in Katy](/blog/sell-house-fast-katy-tx/), plus [Katy houses needing repairs](/blog/sell-house-needs-repairs-katy-tx/) and [Katy rentals with tenants](/blog/sell-rental-with-tenants-katy-tx/).
