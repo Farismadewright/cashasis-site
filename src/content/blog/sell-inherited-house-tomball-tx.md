@@ -26,3 +26,9 @@ Read [the related guide](/blog/sell-inherited-house-houston/) and [our Tomball c
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Tomball inherited properties can include very different house and lot types
+
+An inherited property may be an established subdivision house, an older home on a larger lot, or something with more land and maintenance than the family wants. CashAsIs evaluates the actual property rather than applying one inherited-house assumption.
+
+Tell us about the house, lot, occupancy, condition, and estate status. See [Tomball cash-sale guide](/blog/sell-house-fast-tomball-tx/) and [Houston inherited-property guide](/blog/sell-inherited-house-houston/).
