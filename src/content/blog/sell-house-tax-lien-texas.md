@@ -4,7 +4,7 @@ description: "A tax lien does not automatically make a sale impossible. Title an
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Liens"
-readTime: "5 min read"
+readTime: "6 min read"
 image: "/images/Selling a Tax-Lien House in Texas.png"
 imageAlt: "Selling a house with a tax lien in Texas"
 tags: ["sell house tax lien Texas", "Texas", "CashAsIs"]
@@ -56,3 +56,11 @@ A tax lien can affect title and the money needed to complete a sale. The lien am
 Send us the address and tell us about any tax notice, lien, suit, or amount you already know about. You do not need perfect records just to begin the conversation. If a direct purchase works, legitimate lien and title requirements still have to be handled through closing.
 
 For related Houston information, see [selling with liens in Houston](/blog/sell-house-with-liens-houston/) and [selling while behind on property taxes](/blog/sell-house-behind-on-taxes-houston/).
+
+## What changes when a tax lien is attached
+
+A tax lien turns part of the sale into a payoff-and-title problem. The useful numbers are not just the property's value and your desired price; you also need to understand the amount that must be satisfied, whether other recorded claims exist, and how much equity remains after legitimate closing obligations. That is why an old tax notice by itself may not tell the whole story. Bring any current statement, lawsuit notice, payment agreement, or payoff information you have, and let the closing process confirm the actual requirements.
+
+## Evaluate the house separately from the lien
+
+A lien does not tell us whether the roof is old, the kitchen is dated, the property is vacant, or the house needs major work. CashAsIs evaluates those physical facts separately. This is useful for an owner who does not want to invest additional cash into repairs while also dealing with a tax issue. The transaction still has to produce a valid, insurable transfer, but the house does not need to become retail-ready simply because a lien exists.
