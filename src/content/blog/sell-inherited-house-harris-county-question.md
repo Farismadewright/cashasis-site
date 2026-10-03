@@ -33,3 +33,11 @@ See [Sell House As-Is Houston](/blog/sell-house-as-is-houston/) and [Sell My Hou
 Start with the address and the facts you know today.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Start with the inherited property before making it a project
+
+An inherited Harris County house may contain belongings, need repairs, be vacant, or have unresolved estate/title questions. CashAsIs can evaluate the property before the family spends money making it retail-ready.
+
+The property evaluation and the legal authority to sell are separate issues. Title, probate, heirship, or other estate requirements still need to be resolved as applicable before a completed transfer.
+
+For the fuller local guide, see [Sell an Inherited House in Harris County](/blog/sell-inherited-house-harris-county/) and [our Houston probate guide](/blog/sell-probate-house-houston/).
