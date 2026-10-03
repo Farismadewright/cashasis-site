@@ -26,3 +26,11 @@ Read [the related Houston-area guide](/blog/stop-foreclosure-houston/).
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Harris County pre-foreclosure is a deadline-driven transaction
+
+The property can still be evaluated as-is, but a scheduled foreclosure date changes the amount of time available for title, lender payoff, signatures, and closing. An offer by itself does not stop a foreclosure.
+
+Tell CashAsIs about any known sale date or notice at the beginning. We can evaluate condition without requiring repairs first, while the transaction still must satisfy the lender and title requirements necessary to close.
+
+See [Harris County cash-sale guide](/blog/sell-house-fast-harris-county-tx/) and [Houston foreclosure guide](/blog/stop-foreclosure-houston/).
