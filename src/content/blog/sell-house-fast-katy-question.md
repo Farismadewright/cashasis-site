@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell My Katy House Fast Without Fixing It First?"
+title: "How Fast Can I Sell My House in Katy, TX?"
 description: "CashAsIs evaluates Katy-area properties as-is, so owners can request a cash offer before taking on repairs or renovations."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -7,9 +7,9 @@ category: "Katy Cash Sale"
 readTime: "5 min read"
 image: "/images/Katy Home Sale Billboard Ad.png"
 imageAlt: "Selling a house fast in Katy, Texas"
-tags: ["sell Katy house fast without repairs", "Houston area", "CashAsIs"]
+tags: ["how fast can I sell my house Katy TX", "sell house fast Katy", "Katy TX", "CashAsIs"]
 faq:
-  - q: "Can I Sell My Katy House Fast Without Fixing It First?"
+  - q: "How Fast Can I Sell My House in Katy, TX?"
     a: "CashAsIs evaluates Katy-area properties as-is, so owners can request a cash offer before taking on repairs or renovations."
 ---
 ## The short answer
