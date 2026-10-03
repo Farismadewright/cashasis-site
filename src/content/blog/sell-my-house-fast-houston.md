@@ -58,3 +58,14 @@ Our goal is to make the process understandable and useful. Give us the property 
 You do not have to commit just to learn your number.
 
 **[Request your CashAsIs offer](/#offer) and tell us about the Houston property.**
+
+
+## Houston-area seller resources
+
+CashAsIs also serves property owners throughout the Houston metro. If your property is outside Houston proper, start with the guide for your area:
+
+[Pasadena](/blog/sell-house-fast-pasadena-tx/) · [Katy](/blog/sell-house-fast-katy-tx/) · [Sugar Land](/blog/sell-house-fast-sugar-land-tx/) · [Missouri City](/blog/sell-house-fast-missouri-city-tx/) · [Pearland](/blog/sell-house-fast-pearland-tx/) · [Spring](/blog/sell-house-fast-spring-tx/) · [Cypress](/blog/sell-house-fast-cypress-tx/) · [Humble](/blog/sell-house-fast-humble-tx/) · [Baytown](/blog/sell-house-fast-baytown-tx/) · [Tomball](/blog/sell-house-fast-tomball-tx/).
+
+County guides: [Harris County](/blog/sell-house-fast-harris-county-tx/) · [Fort Bend County](/blog/sell-house-fast-fort-bend-county-tx/) · [Montgomery County](/blog/sell-house-fast-montgomery-county-tx/).
+
+For situation-specific help, see our guides for [inherited properties](/blog/sell-inherited-house-houston/), [probate](/blog/sell-probate-house-houston/), [tenants](/blog/sell-house-with-tenants-houston/), [major repairs](/blog/sell-house-needs-major-repairs-houston/), [title problems](/blog/sell-house-title-problems-houston/), and [code violations](/blog/sell-house-code-violations-houston/).
