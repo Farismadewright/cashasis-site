@@ -14,33 +14,11 @@ faq:
 ---
 ## The short answer
 
-**A Harris County property with delinquent taxes may still be sold if the tax and title requirements can be satisfied through the transaction.**
+**Yes. A Harris County house with back taxes may still be sold if the delinquent amounts and other title requirements can be satisfied through the closing.**
 
-County-specific records and closing requirements can matter, but you do not need to turn the property into a retail-ready house before asking CashAsIs to evaluate it.
+Start with the latest tax notice you have and note any lawsuit, hearing, judgment, payment plan, or deadline. The actual amount due should be confirmed rather than estimated from an old bill. CashAsIs can evaluate the property's condition while tax and title figures are being assembled.
 
-## Start with ownership, title, and the actual property
-
-Tell us who is involved, what you know about the situation, and the property's current condition. The appropriate title or closing professionals can identify requirements that must be resolved for a valid sale.
-
-At the same time, CashAsIs can determine whether the real estate itself fits what we buy.
-
-## Sell as-is
-
-We consider properties needing repairs, updating, cleanout, or other work. You do not have to renovate for our purchase.
-
-See [Sell House As-Is Houston](/blog/sell-house-as-is-houston/) and [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/).
-
-## Request a property review
-
-Start with the address and the facts you know today.
-
-**[Request your CashAsIs offer](/#offer).**
-
-## Harris County back taxes should be part of the closing review early
-
-If taxes are delinquent, the balance and any related lien or legal action can affect title and proceeds. CashAsIs can evaluate the property as-is while those amounts are being identified. You do not need to renovate the house simply to find out whether a direct purchase may work.
-
-Tell us about any tax notice, suit, payment arrangement, or deadline you already know about. For the broader issue, see [Houston property-tax selling guide](/blog/sell-house-behind-on-taxes-houston/) and [Harris County cash-sale hub](/blog/sell-house-fast-harris-county-tx/).
+Do not assume that requesting an offer pauses a government or court deadline. If a date is approaching, tell us and seek appropriate professional guidance. For more context, see [our Houston back-tax guide](/blog/sell-house-behind-on-taxes-houston/) and [Harris County selling guide](/blog/sell-house-fast-harris-county-tx/).
 
 ## Build a simple payoff picture before guessing at your proceeds
 
