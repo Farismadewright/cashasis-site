@@ -4,7 +4,7 @@ description: "A property with code issues may still be sellable. CashAsIs can ev
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Code"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a Houston Code-Violation House.png"
 imageAlt: "Selling a house with code violations in Houston"
 tags: ["sell Houston house code violations", "Houston", "CashAsIs"]
