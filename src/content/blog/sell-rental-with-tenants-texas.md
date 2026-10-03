@@ -4,7 +4,7 @@ description: "An occupied rental may be sellable. The lease, occupancy, notices,
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Landlord"
-readTime: "5 min read"
+readTime: "6 min read"
 image: "/images/Selling a Tenant-Occupied Texas Rental.png"
 imageAlt: "Selling a rental property with tenants in Texas"
 tags: ["sell rental with tenants Texas", "Texas", "CashAsIs"]
@@ -58,3 +58,11 @@ CashAsIs evaluates occupied rental properties without requiring the owner to fir
 Deferred maintenance and tenant turnover are often why an owner starts considering a sale. You can request an evaluation before repainting, replacing flooring, or completing a retail-style make-ready for our purchase.
 
 Houston owners can continue with [Sell a House With Tenants in Houston](/blog/sell-house-with-tenants-houston/) and [our Katy tenant-occupied property guide](/blog/sell-rental-with-tenants-katy-tx/).
+
+## Build the sale around the actual tenancy
+
+Start with the lease rather than assumptions. Note the lease term, rent amount, deposit, payment status, who occupies the property, and how showings or inspections are handled. If the arrangement is month-to-month, say so. If communication with the tenant is difficult, say that too. A buyer evaluating an occupied rental needs a truthful picture of possession and access; pretending the house is vacant only creates problems later.
+
+## A direct sale can reduce the make-ready question
+
+Traditional landlord turnover often means coordinating move-out, trash removal, paint, flooring, cleaning, repairs, utilities, lawn work, and then marketing. An owner who wants to exit may not want another full turn. CashAsIs can evaluate the property with its current condition and occupancy in mind. Tenant rights, lease obligations, deposits, notices, and lawful access still matter, but the owner can explore a sale without automatically beginning a renovation-and-relisting cycle.
