@@ -14,35 +14,11 @@ faq:
 ---
 ## The short answer
 
-**CashAsIs can evaluate an inherited Fort Bend County property as-is while authority to sell and title requirements are confirmed.**
+**Yes. An inherited Fort Bend County house can be sold without first turning it into a retail-ready property, provided the seller has authority and title can transfer.**
 
-County-specific records and closing requirements can matter, but you do not need to turn the property into a retail-ready house before asking CashAsIs to evaluate it.
+Inherited real estate often combines two separate jobs: settling family or estate questions and deciding what to do with the physical house. CashAsIs can work on the second question by evaluating the property as-is while the appropriate professionals clarify the first. Tell us who is handling the property, whether it is occupied, and what condition it is in.
 
-## Start with ownership, title, and the actual property
-
-Tell us who is involved, what you know about the situation, and the property's current condition. The appropriate title or closing professionals can identify requirements that must be resolved for a valid sale.
-
-At the same time, CashAsIs can determine whether the real estate itself fits what we buy.
-
-## Sell as-is
-
-We consider properties needing repairs, updating, cleanout, or other work. You do not have to renovate for our purchase.
-
-See [Sell House As-Is Houston](/blog/sell-house-as-is-houston/) and [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/).
-
-## Request a property review
-
-Start with the address and the facts you know today.
-
-**[Request your CashAsIs offer](/#offer).**
-
-## An inherited Fort Bend property can be evaluated as it sits
-
-Inherited houses can combine property-condition questions with estate and ownership questions. CashAsIs can review the property before the family commits to repairs, cleanout, staging, or other retail-sale preparation.
-
-Tell us who is handling the property, whether it is occupied, what condition it is in, and what you know about the estate. Authority to sell and title requirements still have to be resolved as applicable before closing.
-
-Continue with [Fort Bend County cash-sale guide](/blog/sell-house-fast-fort-bend-county-tx/) or [our Houston inherited-property guide](/blog/sell-inherited-house-houston/).
+Before ordering repairs or a cleanout, compare the cost and effort with a direct-sale option. For local context, see [our Fort Bend County cash-sale guide](/blog/sell-house-fast-fort-bend-county-tx/).
 
 ## Decide what the family actually wants from the property
 
