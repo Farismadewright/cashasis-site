@@ -26,3 +26,9 @@ Read [the related Houston-area guide](/blog/sell-house-code-violations-houston/)
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Code issues should be evaluated with the physical property
+
+A code case may involve cleanup, maintenance, unsafe conditions, permits, or other property-specific items. CashAsIs can evaluate the house before you complete a retail renovation, while any requirements that affect title or closing still have to be addressed.
+
+Share notices or case information if you have them, but the address and known condition are enough to begin. See [Harris County cash-sale guide](/blog/sell-house-fast-harris-county-tx/) and [Houston code-violation guide](/blog/sell-house-code-violations-houston/).
