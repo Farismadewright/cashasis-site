@@ -26,3 +26,11 @@ Read [the related guide](/blog/sell-house-fast-tomball-tx/) and [our Tomball cas
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Acreage needs a property-specific review
+
+A Tomball-area acreage property should not be evaluated exactly like a standard subdivision house. Lot size, access, utilities, improvements, outbuildings, drainage, condition, and the usability of the land can all matter to a buyer.
+
+Tell CashAsIs about both the structure and the land. If you know the acreage, access arrangement, utilities, or restrictions, include them; if not, start with the address.
+
+See [Tomball cash-sale guide](/blog/sell-house-fast-tomball-tx/). A direct evaluation can begin before you spend money clearing, renovating, or preparing the property for our purchase.
