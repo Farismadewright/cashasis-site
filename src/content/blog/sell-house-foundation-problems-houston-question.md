@@ -4,7 +4,7 @@ description: "Yes. CashAsIs can evaluate a Houston property with foundation prob
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Foundation"
-readTime: "5 min read"
+readTime: "6 min read"
 image: "/images/Houston Foundation Inspection Homesales.png"
 imageAlt: "Selling a house with foundation problems in Houston"
 tags: ["sell Houston house foundation problems", "Houston", "CashAsIs"]
@@ -47,3 +47,11 @@ You do not need to diagnose the engineering issue yourself. Tell us what you obs
 ## The offer should reflect the actual property
 
 Foundation condition is one part of the overall evaluation along with location, size, other repairs, occupancy, and the transaction itself. For the complete topic guide, see [Sell a House With Foundation Problems in Houston](/blog/sell-house-foundation-problems-houston/), or start with [Sell House As-Is Houston](/blog/sell-house-as-is-houston/).
+
+## Describe the symptoms, not just the word “foundation”
+
+Tell us what you actually see: diagonal wall cracks, brick separation, doors that no longer close normally, uneven floors, gaps near windows, prior leveling work, or plumbing concerns. If a foundation company has already measured the house, share the report and warranty information. If nobody has inspected it, that is fine too. A seller does not need to invent a diagnosis to request an offer.
+
+## Prior repairs can matter as much as current movement
+
+Houston-area houses sometimes have a history of foundation work. Existing transferable warranties, repair invoices, engineering documents, plumbing tests, and dates of prior work can help explain the property. CashAsIs evaluates the entire house—not one crack in isolation—so location, size, layout, other deferred maintenance, and the likely repair scope all feed into the offer decision.
