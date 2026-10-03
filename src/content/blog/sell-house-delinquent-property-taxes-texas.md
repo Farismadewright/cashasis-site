@@ -44,3 +44,15 @@ We are a direct potential buyer, not another repair project.
 Give us the property address, condition, and the situation you are dealing with. We can determine whether it fits what CashAsIs buys.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Back taxes do not automatically mean the property cannot be sold
+
+A sale may still be possible when property taxes are delinquent, but the amount owed and any tax liens or active litigation have to be identified as part of title and closing. The proceeds and payoff structure determine what can actually be completed.
+
+For CashAsIs, the first step is still the property itself. We can evaluate a house as-is before you spend money repairing it simply to explore a sale.
+
+## Why earlier evaluation helps
+
+Tax problems can become more complicated over time. If you already know about delinquent taxes, a tax suit, or another deadline, tell us at the start so it can be considered with the property condition and proposed closing timeline.
+
+Houston-area owners can also read [Sell a House Behind on Property Taxes in Houston](/blog/sell-house-behind-on-taxes-houston/) and [what happens to back taxes when you sell](/blog/what-happens-back-taxes-when-you-sell/).
