@@ -4,7 +4,7 @@ description: "A tax lien does not automatically make a sale impossible. Title an
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Liens"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a Tax-Lien House in Texas.png"
 imageAlt: "Selling a house with a tax lien in Texas"
 tags: ["sell house tax lien Texas", "Texas", "CashAsIs"]
