@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Repairs"
 readTime: "5 min read"
+image: "/images/Without Making Repairs.png"
+imageAlt: "Selling a Houston house without making repairs"
 tags: ["sell Houston house without repairs", "Houston", "CashAsIs"]
 faq:
   - q: "Can I Sell My Houston House Without Making Repairs?"
