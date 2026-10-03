@@ -4,7 +4,7 @@ description: "Yes. CashAsIs evaluates vacant Montgomery County properties in the
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Montgomery County Vacant"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a Vacant House in Montgomery County.png"
 imageAlt: "Selling a vacant house in Montgomery County"
 tags: ["sell vacant house Montgomery County", "Houston area", "CashAsIs"]
