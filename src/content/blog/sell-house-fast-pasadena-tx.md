@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
 readTime: "6 min read"
+image: "/images/Sell Your House Fast in Pasadena, TX.png"
+imageAlt: "Sell your house fast in Pasadena, Texas with CashAsIs"
 tags: ["sell my house fast Pasadena", "cash home buyers Pasadena", "we buy houses Pasadena", "sell house as is Pasadena", "sell house for cash Pasadena"]
 faq:
   - q: "Does CashAsIs buy properties in Pasadena?"
