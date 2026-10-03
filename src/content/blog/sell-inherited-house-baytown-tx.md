@@ -32,3 +32,13 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Inherited Baytown properties often combine two jobs
+
+The family may be dealing with the estate while also deciding what to do with a physical property that needs maintenance, contains belongings, or has been vacant. CashAsIs can evaluate the house before the family turns it into a renovation or cleanout project.
+
+Tell us who is handling the property, whether anyone lives there, what you know about condition, and whether probate or other estate work is underway. The authority to sell still has to be established as required before closing.
+
+## Start with an as-is property evaluation
+
+Knowing whether CashAsIs is interested can help the family evaluate the property decision separately from the estate process. See [Baytown cash-sale guide](/blog/sell-house-fast-baytown-tx/) and [Houston inherited-house guide](/blog/sell-inherited-house-houston/).
