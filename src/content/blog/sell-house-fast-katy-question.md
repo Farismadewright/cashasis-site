@@ -4,7 +4,7 @@ description: "CashAsIs evaluates Katy-area properties as-is, so owners can reque
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Katy Cash Sale"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Katy Home Sale Billboard Ad.png"
 imageAlt: "Selling a house fast in Katy, Texas"
 tags: ["how fast can I sell my house Katy TX", "sell house fast Katy", "Katy TX", "CashAsIs"]
