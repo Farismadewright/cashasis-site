@@ -28,3 +28,11 @@ Read [the related Houston distress guide](/blog/sell-inherited-house-houston/) a
 Location and condition matter, so we evaluate the actual address rather than using one generic citywide number.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Inherited Pasadena houses can come with deferred decisions
+
+A family may inherit an older house that needs updating, contains belongings, has been vacant, or is simply not a property anyone wants to maintain. CashAsIs can evaluate it before those issues become a renovation and cleanout project.
+
+Estate authority and title still have to be handled correctly. Tell us who is involved, occupancy, condition, and what you know about probate or other estate documents.
+
+See [Pasadena cash-sale guide](/blog/sell-house-fast-pasadena-tx/) and [Houston inherited-house guide](/blog/sell-inherited-house-houston/).
