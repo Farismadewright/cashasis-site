@@ -26,3 +26,9 @@ Read [the related guide](/blog/sell-inherited-house-houston/) and [our Pearland 
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Pearland property may be a good house the family simply does not want
+
+Inheritance does not automatically mean severe distress. The property may only be dated, contain belongings, need routine repairs, or create carrying costs for heirs. CashAsIs can evaluate it as-is before a retail preparation project.
+
+Estate and title requirements still have to be completed correctly. See [Pearland cash-sale guide](/blog/sell-house-fast-pearland-tx/) and [Houston inherited-property guide](/blog/sell-inherited-house-houston/).
