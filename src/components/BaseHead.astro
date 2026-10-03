@@ -84,7 +84,10 @@ const faqSchema = (faq && faq.length) ? {
       /(tax|back-taxes|delinquent)/.test(p) ? 'tax_delinquency' :
       /(inherit|probate|heir)/.test(p) ? 'inherited_probate' :
       /vacant|unused|empty-house/.test(p) ? 'vacant_property' :
-      /landlord|rental-property/.test(p) ? 'tired_landlord' :
+      /landlord|rental-property|tenant|eviction/.test(p) ? 'landlord_tenant' :
+      /code-violation/.test(p) ? 'code_violation' :
+      /(lien|title-problem|multiple-owners)/.test(p) ? 'title_lien' :
+      /(major-repair|foundation|hoarder)/.test(p) ? 'property_condition' :
       /divorce/.test(p) ? 'divorce' :
       /(fire|flood|damage)/.test(p) ? 'property_damage' :
       'general_seller';
