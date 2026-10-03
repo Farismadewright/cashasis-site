@@ -4,7 +4,7 @@ description: "A property with code issues may still be sellable. CashAsIs can ev
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Code"
-readTime: "5 min read"
+readTime: "6 min read"
 image: "/images/Selling a Houston Code-Violation House.png"
 imageAlt: "Selling a house with code violations in Houston"
 tags: ["sell Houston house code violations", "Houston", "CashAsIs"]
@@ -47,3 +47,11 @@ The important questions are what the violations involve, whether there are activ
 If you have notices, case numbers, photos, or a list of cited conditions, share what you have. If you only know that violations exist, we can still begin with the property address and condition.
 
 This page answers the seller's immediate question. For the full transaction-focused resource, see [Sell a House With Code Violations in Houston](/blog/sell-house-code-violations-houston/).
+
+## Separate the citation from the underlying repair
+
+A code case may point to an exterior condition, unsafe structure, unpermitted work, accumulation, utilities, or another property issue. The notice matters, but so does the physical condition behind it. Send us the notice if you have it and explain what has or has not been corrected. CashAsIs can consider the repair scope in an as-is evaluation while the seller confirms what the city and closing professionals require.
+
+## Do not make cosmetic work your priority by default
+
+If the property already has a code problem, spending first on paint, staging, landscaping, or cosmetic updates may not address the issue that actually affects the transaction. Start with the known violation, title status, occupancy, and major property condition. That sequence helps the owner decide whether correcting the issue before sale or pricing it into an as-is transaction is the more practical route.
