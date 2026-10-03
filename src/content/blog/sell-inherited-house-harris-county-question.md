@@ -1,5 +1,5 @@
 ---
-title: "How Do I Sell an Inherited House in Harris County?"
+title: "Can I Sell an Inherited House in Harris County?"
 description: "Start by identifying who has authority to sell and what title requires. CashAsIs can evaluate the property as-is while that is clarified."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Sell Your Inherited Harris County Home.png"
 imageAlt: "Selling an inherited house in Harris County"
 tags: ["sell inherited house Harris County", "Houston area", "CashAsIs"]
 faq:
-  - q: "How Do I Sell an Inherited House in Harris County?"
+  - q: "Can I Sell an Inherited House in Harris County?"
     a: "Start by identifying who has authority to sell and what title requires. CashAsIs can evaluate the property as-is while that is clarified."
 ---
 ## The short answer
