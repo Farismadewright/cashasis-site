@@ -8,6 +8,8 @@ category: "Landlord"
 readTime: "6 min read"
 image: "/images/Houston Eviction House Sale Ad.png"
 imageAlt: "Sell a Houston house after an eviction with CashAsIs"
+image: "/images/Houston Eviction House Sale Ad.png"
+imageAlt: "Sell a Houston house after an eviction with CashAsIs"
 tags: ["sell house after eviction Houston", "Houston", "Landlord", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
