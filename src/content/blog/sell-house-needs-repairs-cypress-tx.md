@@ -26,3 +26,9 @@ Read [the related guide](/blog/sell-house-needs-major-repairs-houston/) and [our
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Cypress repair properties can be dated rather than destroyed
+
+An older house may need flooring, paint, kitchen or bath updating, roofing, HVAC, foundation work, or accumulated maintenance. CashAsIs evaluates the current condition before you decide whether renovation is worth taking on for our purchase.
+
+Tell us what is original, what has been updated, and any known major issue. See [Cypress cash-sale guide](/blog/sell-house-fast-cypress-tx/) and [Houston repair-property guide](/blog/sell-house-needs-major-repairs-houston/).
