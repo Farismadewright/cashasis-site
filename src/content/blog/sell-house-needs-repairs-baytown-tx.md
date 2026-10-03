@@ -32,3 +32,15 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Baytown repair needs can be more than cosmetic
+
+An older property may need ordinary updating, but owners can also encounter roofing, HVAC, electrical, plumbing, moisture, exterior, or other deferred-maintenance issues. CashAsIs does not require you to solve those problems for our purchase before requesting an evaluation.
+
+Tell us what you know and what you do not. Photos and known repair history are useful, but you do not need a complete contractor scope just to start.
+
+## Evaluate before renovating
+
+A repair estimate can be expensive and time-consuming to obtain. We can first determine whether the property fits what we buy in its present condition.
+
+See [Sell Your House Fast in Baytown](/blog/sell-house-fast-baytown-tx/) and [Houston major-repairs guide](/blog/sell-house-needs-major-repairs-houston/).
