@@ -33,3 +33,11 @@ See our [Houston-area cash buyer guide](/blog/cash-home-buyers-houston/) and [as
 Tell us what you know. If the property fits what we buy, CashAsIs can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A Spring rental can be evaluated with the tenancy in mind
+
+If the property is occupied, tell CashAsIs whether the tenant is under a lease or month-to-month, what access is available, and the general condition. If it is vacant between tenants, tell us what make-ready work you believe it needs.
+
+A direct sale can be useful when an owner does not want another repair-and-turnover cycle before exploring an exit. Legitimate tenant, lease, notice, and closing requirements still apply.
+
+See [Sell Your House Fast in Spring](/blog/sell-house-fast-spring-tx/) and [our Houston tenant-occupied property guide](/blog/sell-house-with-tenants-houston/).
