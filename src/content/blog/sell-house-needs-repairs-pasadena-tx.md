@@ -28,3 +28,11 @@ Read [the related Houston distress guide](/blog/sell-house-needs-major-repairs-h
 Location and condition matter, so we evaluate the actual address rather than using one generic citywide number.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Older Pasadena housing can need layered repairs
+
+A property may need cosmetic updates, but roofing, HVAC, plumbing, electrical, foundation, exterior, or moisture-related work can also be part of the picture. CashAsIs evaluates the house in its current condition rather than requiring a retail renovation for our purchase.
+
+Tell us what has been updated, what has not, and what problems you already know about. Photos can be more useful than guessing at a full repair budget yourself.
+
+See [Pasadena cash-sale guide](/blog/sell-house-fast-pasadena-tx/) and [Houston repair-property guide](/blog/sell-house-needs-major-repairs-houston/).
