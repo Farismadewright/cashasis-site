@@ -26,3 +26,9 @@ Read [the related guide](/blog/sell-house-needs-major-repairs-houston/) and [our
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Evaluate an older Pearland house before automatically updating it
+
+Owners sometimes assume a house must receive new flooring, paint, kitchen finishes, roofing, or other updates before anyone will consider it. CashAsIs can evaluate the existing condition for our direct purchase.
+
+Share known system ages, prior repairs, and current issues if available. See [Pearland cash-sale guide](/blog/sell-house-fast-pearland-tx/) and [Houston major-repairs guide](/blog/sell-house-needs-major-repairs-houston/).
