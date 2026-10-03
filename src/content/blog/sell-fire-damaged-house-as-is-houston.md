@@ -4,7 +4,7 @@ description: "CashAsIs evaluates fire-damaged Houston properties as-is, includin
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Damage"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a Fire-Damaged House As-Is.png"
 imageAlt: "Selling a fire-damaged house as-is in Houston"
 tags: ["sell fire damaged house as is Houston", "Houston", "CashAsIs"]
