@@ -4,7 +4,7 @@ description: "CashAsIs can evaluate a Humble property before a full cleanout. Te
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Humble As-Is"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Humble House Sale Consultation.png"
 imageAlt: "Selling a house in Humble without cleaning it out"
 tags: ["sell house without cleanout Humble TX", "Houston area", "CashAsIs"]
