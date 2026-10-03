@@ -24,3 +24,11 @@ Read [the related Houston guide](/blog/sell-probate-house-houston/) and [our Sug
 You do not need to make the property perfect before finding out whether CashAsIs can buy it.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A Sugar Land probate property can be evaluated before every estate step is finished
+
+CashAsIs can review the physical property and its as-is purchase potential while the estate determines who has authority to sell. Those are related but separate questions.
+
+Tell us who is handling the estate, whether the house is occupied, its condition, and what you know about the probate case. You do not need to update or stage the house for us just to begin.
+
+See [Sugar Land cash-sale guide](/blog/sell-house-fast-sugar-land-tx/) and [Houston probate-property guide](/blog/sell-probate-house-houston/).
