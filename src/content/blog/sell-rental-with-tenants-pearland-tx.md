@@ -26,3 +26,9 @@ Read [the related Houston-area guide](/blog/sell-house-with-tenants-houston/).
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A Pearland landlord can explore a sale without first creating a vacant listing
+
+If the rental is occupied, tell us the lease status, access situation, condition, and any upcoming maintenance. If it is between tenants, tell us what make-ready work you believe it needs.
+
+CashAsIs evaluates the property and occupancy together. Legitimate tenant and lease requirements still apply. See [Pearland cash-sale guide](/blog/sell-house-fast-pearland-tx/) and [Houston tenant guide](/blog/sell-house-with-tenants-houston/).
