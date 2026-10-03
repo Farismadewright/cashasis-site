@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell a Humble House Without Cleaning It Out First?"
+title: "Can I Sell a House in Humble Without Cleaning It Out?"
 description: "CashAsIs can evaluate a Humble property before a full cleanout. Tell us about the belongings and condition when requesting your offer."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Humble House Sale Consultation.png"
 imageAlt: "Selling a house in Humble without cleaning it out"
 tags: ["sell house without cleanout Humble TX", "Houston area", "CashAsIs"]
 faq:
-  - q: "Can I Sell a Humble House Without Cleaning It Out First?"
+  - q: "Can I Sell a House in Humble Without Cleaning It Out?"
     a: "CashAsIs can evaluate a Humble property before a full cleanout. Tell us about the belongings and condition when requesting your offer."
 ---
 ## The short answer
