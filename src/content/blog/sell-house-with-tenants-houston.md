@@ -6,6 +6,8 @@ updatedDate: 2026-10-03
 author: "CashAsIs"
 category: "Landlord"
 readTime: "6 min read"
+image: "/images/Houston Tenant-Occupied Home Advertisement.png"
+imageAlt: "Sell a tenant-occupied house in Houston with CashAsIs"
 tags: ["sell house with tenants Houston", "Houston", "Landlord", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
