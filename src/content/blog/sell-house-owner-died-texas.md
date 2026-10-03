@@ -4,7 +4,7 @@ description: "Potentially, but the people with legal authority to sell must be i
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Inherited"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a House After Loss.png"
 imageAlt: "Selling a house after the owner dies in Texas"
 tags: ["sell house after owner dies Texas", "Texas", "CashAsIs"]
