@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Texas Landlord"
 readTime: "5 min read"
+image: "/images/Selling a Tenant-Occupied Texas Rental.png"
+imageAlt: "Selling a rental property with tenants in Texas"
 tags: ["sell rental with tenants Texas", "Texas", "CashAsIs"]
 faq:
   - q: "Can I Sell a Rental Property With Tenants in Texas?"
