@@ -35,3 +35,13 @@ Read [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash H
 Tell us the address, condition, occupancy, and any known issue. We can review whether the property fits what we buy and determine an offer if it does.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Foundation problems can be part of an as-is evaluation
+
+Visible cracking, uneven floors, sticking doors, prior foundation work, or a known structural concern can make an owner reluctant to list traditionally. CashAsIs can evaluate the property before you commit to foundation repairs for our purchase.
+
+You do not need to diagnose the engineering issue yourself. Tell us what you observe and provide any inspection, warranty, or repair information you already have.
+
+## The offer should reflect the actual property
+
+Foundation condition is one part of the overall evaluation along with location, size, other repairs, occupancy, and the transaction itself. For the complete topic guide, see [Sell a House With Foundation Problems in Houston](/blog/sell-house-foundation-problems-houston/), or start with [Sell House As-Is Houston](/blog/sell-house-as-is-houston/).
