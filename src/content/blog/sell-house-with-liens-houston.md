@@ -8,8 +8,6 @@ category: "Title & Liens"
 readTime: "6 min read"
 image: "/images/Selling Houston Homes With Liens.png"
 imageAlt: "Sell a Houston house with liens through a direct CashAsIs purchase"
-image: "/images/Selling Houston Homes With Liens.png"
-imageAlt: "Sell a Houston house with liens through a direct CashAsIs purchase"
 tags: ["sell house with liens Houston", "Houston", "Title & Liens", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
