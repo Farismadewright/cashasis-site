@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Seller Guide"
 readTime: "6 min read"
+image: "/images/Sell Your Houston House As-Is.png"
+imageAlt: "Sell a Houston house without a Realtor directly to CashAsIs"
 tags: ["sell house without a Realtor Houston", "Houston cash buyer", "sell property Houston", "CashAsIs"]
 faq:
   - q: "Do I need to repair the property before contacting CashAsIs?"
