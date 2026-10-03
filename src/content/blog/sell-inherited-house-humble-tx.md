@@ -32,3 +32,11 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Humble house can be evaluated before the family fixes it
+
+The property may be occupied, vacant, dated, full of belongings, or in need of repairs. CashAsIs can review it in that condition while the family works through any estate or title requirements that apply.
+
+Tell us who is handling the property, whether anyone lives there, and what you know about the estate. You do not need to finish a cleanout or renovation just to request an offer.
+
+See [Humble cash-sale guide](/blog/sell-house-fast-humble-tx/) and [Houston inherited-property guide](/blog/sell-inherited-house-houston/).
