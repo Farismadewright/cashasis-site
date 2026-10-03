@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Damage"
 readTime: "5 min read"
+image: "/images/Selling a Fire-Damaged House As-Is.png"
+imageAlt: "Selling a fire-damaged house as-is in Houston"
 tags: ["sell fire damaged house as is Houston", "Houston", "CashAsIs"]
 faq:
   - q: "Can I Sell a Fire-Damaged House As-Is in Houston?"
