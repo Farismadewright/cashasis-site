@@ -14,39 +14,11 @@ faq:
 ---
 ## The short answer
 
-**Yes. CashAsIs can evaluate a Houston property with foundation problems before you take on foundation repairs for our purchase.**
+**Yes. A Houston house with foundation problems can be evaluated and sold as-is; you do not automatically have to complete foundation work before requesting an offer from CashAsIs.**
 
-That is the direct answer to **sell Houston house foundation problems**. The next question is whether the actual property fits a direct CashAsIs purchase.
+Foundation concerns affect value because a buyer has to account for uncertainty and repair scope. The useful evidence is what exists at the property: visible cracking, floor movement, doors or windows that bind, prior leveling, warranties, engineering reports, plumbing tests, or previous repair invoices.
 
-## We evaluate the house you have today
-
-Houston properties can involve deferred maintenance, old systems, foundation concerns, belongings, vacancy, tenants, inheritance, damage, taxes, or title issues. You can tell us about those conditions instead of repairing around them before we look.
-
-CashAsIs evaluates properties **as-is**.
-
-## What a direct cash purchase removes
-
-Our purchase does not depend on a retail buyer obtaining a traditional mortgage. You also do not need to renovate or stage the property for us or prepare it for repeated public showings.
-
-Title and legitimate closing requirements still need to be handled correctly.
-
-Read [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash Home Buyers Houston](/blog/cash-home-buyers-houston/).
-
-## Start with the property address
-
-Tell us the address, condition, occupancy, and any known issue. We can review whether the property fits what we buy and determine an offer if it does.
-
-**[Request your CashAsIs offer](/#offer).**
-
-## Foundation problems can be part of an as-is evaluation
-
-Visible cracking, uneven floors, sticking doors, prior foundation work, or a known structural concern can make an owner reluctant to list traditionally. CashAsIs can evaluate the property before you commit to foundation repairs for our purchase.
-
-You do not need to diagnose the engineering issue yourself. Tell us what you observe and provide any inspection, warranty, or repair information you already have.
-
-## The offer should reflect the actual property
-
-Foundation condition is one part of the overall evaluation along with location, size, other repairs, occupancy, and the transaction itself. For the complete topic guide, see [Sell a House With Foundation Problems in Houston](/blog/sell-house-foundation-problems-houston/), or start with [Sell House As-Is Houston](/blog/sell-house-as-is-houston/).
+Do not feel pressured to diagnose the structure yourself. Share what you know and let the evaluation reflect it. For the full topic, see [our Houston foundation-problem selling guide](/blog/sell-house-foundation-problems-houston/).
 
 ## Describe the symptoms, not just the word “foundation”
 
