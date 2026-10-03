@@ -28,3 +28,11 @@ Read [the related Houston distress guide](/blog/sell-house-with-tenants-houston/
 Location and condition matter, so we evaluate the actual address rather than using one generic citywide number.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## The tenant situation matters as much as the finishes
+
+A Katy rental may be in good physical condition and still be a property the owner wants to exit. Lease terms, month-to-month occupancy, access, deposits, upcoming maintenance, and landlord fatigue can all shape the sale.
+
+CashAsIs can evaluate an occupied rental without asking you to first make it a staged vacant listing. Tell us the occupancy arrangement and what access is realistically available.
+
+See [Katy cash-sale guide](/blog/sell-house-fast-katy-tx/) and [Houston tenant-occupied property guide](/blog/sell-house-with-tenants-houston/).
