@@ -35,3 +35,15 @@ Read [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash H
 Tell us the address, condition, occupancy, and any known issue. We can review whether the property fits what we buy and determine an offer if it does.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## You can start before fixing the house
+
+CashAsIs evaluates Houston properties in their current condition. That means an outdated kitchen, worn flooring, roof or HVAC concerns, foundation issues, deferred maintenance, or a property that simply needs a full update can be discussed before you hire contractors.
+
+For our direct purchase, the useful question is not “How do I make this house retail-ready?” It is “What is the property worth to CashAsIs in the condition it is in now?”
+
+## What to tell us about repairs
+
+Share what you know, even if you do not have contractor estimates. Photos, known system ages, visible damage, occupancy, and the general condition help us understand the property. You do not need to diagnose every problem yourself.
+
+See [our major-repairs Houston guide](/blog/sell-house-needs-major-repairs-houston/) and [Sell House As-Is Houston](/blog/sell-house-as-is-houston/).
