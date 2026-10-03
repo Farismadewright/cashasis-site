@@ -4,7 +4,7 @@ description: "A lien does not automatically prevent a sale. Title can identify r
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Harris County Liens"
-readTime: "6 min read"
+readTime: "3 min read"
 image: "/images/Selling a House With Liens.png"
 imageAlt: "Selling a house with liens in Harris County"
 tags: ["sell house liens Harris County", "Houston area", "CashAsIs"]
