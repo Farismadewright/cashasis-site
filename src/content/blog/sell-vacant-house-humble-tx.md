@@ -32,3 +32,15 @@ Our direct purchase does not require you to renovate for us, stage the property 
 If the property fits what we buy, we can determine a cash offer based on the actual property and situation.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A vacant Humble house can change while you are away
+
+Heat, humidity, storms, vegetation, plumbing, pests, and ordinary deferred maintenance can affect an empty property over time. The house does not have to be severely distressed for vacancy to become expensive or inconvenient.
+
+CashAsIs can evaluate the property before a full cleanout or make-ready. Tell us how long it has been vacant, whether utilities are active, and who currently has access.
+
+## We evaluate the actual condition
+
+An older but maintained house is different from one that has sat unattended for years. Our review is property-specific rather than based only on the “vacant” label.
+
+See [Humble cash-sale guide](/blog/sell-house-fast-humble-tx/) and [Houston vacant-house guide](/blog/sell-vacant-house-houston/).
