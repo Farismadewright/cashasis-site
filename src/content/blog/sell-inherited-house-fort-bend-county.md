@@ -4,7 +4,7 @@ description: "CashAsIs can evaluate an inherited Fort Bend County property as-is
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Fort Bend Inherited"
-readTime: "5 min read"
+readTime: "6 min read"
 image: "/images/Inherited Home Decisions in Fort Bend County.png"
 imageAlt: "Selling an inherited house in Fort Bend County"
 tags: ["sell inherited house Fort Bend County", "Houston area", "CashAsIs"]
@@ -43,3 +43,11 @@ Inherited houses can combine property-condition questions with estate and owners
 Tell us who is handling the property, whether it is occupied, what condition it is in, and what you know about the estate. Authority to sell and title requirements still have to be resolved as applicable before closing.
 
 Continue with [Fort Bend County cash-sale guide](/blog/sell-house-fast-fort-bend-county-tx/) or [our Houston inherited-property guide](/blog/sell-inherited-house-houston/).
+
+## Decide what the family actually wants from the property
+
+An inherited house can create different priorities for different heirs: one person may want a quick exit, another may focus on price, and another may be concerned about belongings or repairs. Before ordering work, identify who is involved, who can legally act, whether anyone occupies the property, and whether the family wants to keep or remove specific contents. CashAsIs can evaluate the house as it sits so the family has a concrete direct-sale option to discuss.
+
+## Property preparation and estate administration are different tracks
+
+Cleaning the yard or replacing flooring does not establish authority to sell, and probate or heirship paperwork does not repair the roof. Treat those as separate tracks. The appropriate professionals can determine estate and title requirements while we evaluate the physical property, lot, condition, and occupancy. That separation can prevent the family from spending on improvements before it knows which selling route it prefers.
