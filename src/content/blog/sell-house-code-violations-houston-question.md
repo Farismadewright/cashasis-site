@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Code"
 readTime: "5 min read"
+image: "/images/Selling a Houston Code-Violation House.png"
+imageAlt: "Selling a house with code violations in Houston"
 tags: ["sell Houston house code violations", "Houston", "CashAsIs"]
 faq:
   - q: "Can I Sell a Houston House With Code Violations?"
