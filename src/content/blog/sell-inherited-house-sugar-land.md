@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell an Inherited House in Sugar Land As-Is?"
+title: "Can I Sell an Inherited House in Sugar Land?"
 description: "CashAsIs can evaluate an inherited Sugar Land property in its current condition, including houses needing updates, repairs, or cleanout."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Selling an Inherited House in Sugar Land.png"
 imageAlt: "Selling an inherited house in Sugar Land"
 tags: ["sell inherited house Sugar Land", "Houston area", "CashAsIs"]
 faq:
-  - q: "Can I Sell an Inherited House in Sugar Land As-Is?"
+  - q: "Can I Sell an Inherited House in Sugar Land?"
     a: "CashAsIs can evaluate an inherited Sugar Land property in its current condition, including houses needing updates, repairs, or cleanout."
 ---
 ## The short answer
