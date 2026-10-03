@@ -1,6 +1,6 @@
 ---
 title: "Sell a House With Liens in Houston | CashAsIs"
-description: "A lien does not automatically mean a Houston property cannot be sold. CashAsIs can evaluate the property while title determines what must be addressed for closing."
+description: "Sell a Houston house with liens. CashAsIs can evaluate the property while title determines what must be resolved for closing."
 pubDate: 2026-10-03
 updatedDate: 2026-10-03
 author: "CashAsIs"
