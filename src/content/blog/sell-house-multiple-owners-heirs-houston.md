@@ -6,6 +6,8 @@ updatedDate: 2026-10-03
 author: "CashAsIs"
 category: "Multiple Owners"
 readTime: "6 min read"
+image: "/images/Houston Estate Property Inheritance Guide.png"
+imageAlt: "Sell a Houston house with multiple owners or heirs through CashAsIs"
 tags: ["sell house multiple heirs Houston", "Houston", "Multiple Owners", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
