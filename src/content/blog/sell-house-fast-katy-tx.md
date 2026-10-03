@@ -1,6 +1,6 @@
 ---
 title: "Sell My House Fast in Katy, TX | CashAsIs"
-description: "CashAsIs buys Katy properties directly for cash. Sell as-is without renovating for us, repeated public showings, or an agent commission on our direct purchase."
+description: "Sell your Katy property directly to CashAsIs. Request a cash offer before repairs, renovations, or public showings."
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
