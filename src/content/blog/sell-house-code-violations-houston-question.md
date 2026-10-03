@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell a Houston House With Code Violations?"
+title: "Can I Sell a House With Code Violations in Houston?"
 description: "A property with code issues may still be sellable. CashAsIs can evaluate its current condition while closing requirements are identified."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Selling a Houston Code-Violation House.png"
 imageAlt: "Selling a house with code violations in Houston"
 tags: ["sell Houston house code violations", "Houston", "CashAsIs"]
 faq:
-  - q: "Can I Sell a Houston House With Code Violations?"
+  - q: "Can I Sell a House With Code Violations in Houston?"
     a: "A property with code issues may still be sellable. CashAsIs can evaluate its current condition while closing requirements are identified."
 ---
 ## The short answer
