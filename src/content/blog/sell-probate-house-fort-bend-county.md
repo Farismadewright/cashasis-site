@@ -26,3 +26,11 @@ Read [the related Houston-area guide](/blog/sell-probate-house-houston/).
 Give us the address and tell us what is happening. If the property fits what we buy, we can determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A Fort Bend probate property can be evaluated before retail preparation
+
+The estate may still be establishing authority to sell while the family is deciding what to do with the house. CashAsIs can evaluate the physical property as-is without requiring repairs or staging first.
+
+Tell us who is handling the estate, whether the property is occupied, and what you know about the probate matter. Title and estate requirements still must be satisfied before closing.
+
+See [Fort Bend County cash-sale guide](/blog/sell-house-fast-fort-bend-county-tx/) and [Houston probate guide](/blog/sell-probate-house-houston/).
