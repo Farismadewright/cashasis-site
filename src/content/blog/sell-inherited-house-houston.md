@@ -6,6 +6,8 @@ updatedDate: 2026-10-03
 author: "CashAsIs"
 category: "Inherited Property"
 readTime: "6 min read"
+image: "/images/Sell an Inherited House in Houston.png"
+imageAlt: "Sell an inherited house in Houston with CashAsIs"
 tags: ["sell inherited house Houston", "Houston", "Inherited Property", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
