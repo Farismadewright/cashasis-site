@@ -44,3 +44,15 @@ We are a direct potential buyer, not another repair project.
 Give us the property address, condition, and the situation you are dealing with. We can determine whether it fits what CashAsIs buys.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## A tenant-occupied property needs an occupancy-aware sale
+
+A rental does not become a normal vacant-house transaction simply because the owner wants to sell. The lease or rental arrangement, occupancy, access, deposits, notices, and closing plan can affect the transaction.
+
+CashAsIs evaluates occupied rental properties without requiring the owner to first turn the property into a staged retail listing. Tell us whether the tenant is under a lease or month-to-month, the general condition, and what access is realistically available.
+
+## Selling as-is can matter for tired landlords
+
+Deferred maintenance and tenant turnover are often why an owner starts considering a sale. You can request an evaluation before repainting, replacing flooring, or completing a retail-style make-ready for our purchase.
+
+Houston owners can continue with [Sell a House With Tenants in Houston](/blog/sell-house-with-tenants-houston/) and [our Katy tenant-occupied property guide](/blog/sell-rental-with-tenants-katy-tx/).
