@@ -33,3 +33,11 @@ See [Sell House As-Is Houston](/blog/sell-house-as-is-houston/) and [Sell My Hou
 Start with the address and the facts you know today.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Fort Bend property can be evaluated as it sits
+
+Inherited houses can combine property-condition questions with estate and ownership questions. CashAsIs can review the property before the family commits to repairs, cleanout, staging, or other retail-sale preparation.
+
+Tell us who is handling the property, whether it is occupied, what condition it is in, and what you know about the estate. Authority to sell and title requirements still have to be resolved as applicable before closing.
+
+Continue with [Fort Bend County cash-sale guide](/blog/sell-house-fast-fort-bend-county-tx/) or [our Houston inherited-property guide](/blog/sell-inherited-house-houston/).
