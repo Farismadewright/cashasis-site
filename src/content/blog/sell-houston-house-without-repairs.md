@@ -1,5 +1,5 @@
 ---
-title: "Can I Sell My Houston House Without Making Repairs?"
+title: "Can I Sell a Houston House Without Making Repairs?"
 description: "Yes. CashAsIs evaluates Houston properties in their current condition, so you can request an offer before renovating for our purchase."
 pubDate: 2026-10-03
 author: "CashAsIs"
@@ -9,7 +9,7 @@ image: "/images/Without Making Repairs.png"
 imageAlt: "Selling a Houston house without making repairs"
 tags: ["sell Houston house without repairs", "Houston", "CashAsIs"]
 faq:
-  - q: "Can I Sell My Houston House Without Making Repairs?"
+  - q: "Can I Sell a Houston House Without Making Repairs?"
     a: "Yes. CashAsIs evaluates Houston properties in their current condition, so you can request an offer before renovating for our purchase."
 ---
 ## The short answer
