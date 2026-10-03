@@ -8,8 +8,6 @@ category: "Property Damage"
 readTime: "6 min read"
 image: "/images/Sell Your Fire-Damaged Houston House.png"
 imageAlt: "Sell a fire-damaged house in Houston with CashAsIs"
-image: "/images/Sell Your Fire-Damaged Houston House.png"
-imageAlt: "Sell a fire-damaged house in Houston with CashAsIs"
 tags: ["sell fire damaged house Houston", "Houston", "Property Damage", "sell as is"]
 faq:
   - q: "Can I contact CashAsIs before this situation is completely resolved?"
