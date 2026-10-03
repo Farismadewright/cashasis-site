@@ -28,3 +28,11 @@ Read [the related Houston distress guide](/blog/sell-house-behind-on-taxes-houst
 Location and condition matter, so we evaluate the actual address rather than using one generic citywide number.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## Delinquent taxes and property condition are separate parts of the decision
+
+A Pasadena house can need repairs and also have back taxes. CashAsIs considers the property as-is while title and tax amounts are identified for the transaction. You do not need to renovate simply because taxes are already creating pressure.
+
+Share any tax notices, suit information, or deadlines you know about. The earlier those issues are identified, the more realistic the closing discussion can be.
+
+See [Pasadena cash-sale guide](/blog/sell-house-fast-pasadena-tx/) and [Houston property-tax guide](/blog/sell-house-behind-on-taxes-houston/).
