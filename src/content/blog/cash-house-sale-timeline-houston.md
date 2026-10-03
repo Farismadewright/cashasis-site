@@ -35,3 +35,15 @@ Read [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/) and [Cash H
 Tell us the address, condition, occupancy, and any known issue. We can review whether the property fits what we buy and determine an offer if it does.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## What actually controls a Houston cash-sale timeline?
+
+The buyer's funding is only one part of the timeline. Title review, ownership, liens or payoffs, access, signatures, estate issues, and the seller's preferred closing date can all affect when a transaction is ready to fund.
+
+CashAsIs removes several retail-sale steps from our direct purchase: you do not need to renovate for us, stage the property for us, schedule repeated public showings, or wait on our purchase to depend on a retail buyer obtaining a mortgage.
+
+## A faster process starts with complete information
+
+When requesting an offer, tell us about known property or title complications early. If the house is tenant occupied, inherited, behind on taxes, in pre-foreclosure, or has multiple owners, that information helps us evaluate a realistic path rather than quote a generic timeline.
+
+See [how a Houston cash offer works](/blog/how-cash-offer-house-works-houston/) and [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/).
