@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Pasadena Vacant"
 readTime: "5 min read"
+image: "/images/Selling a Vacant House in Pasadena, TX_.png"
+imageAlt: "Selling a vacant house in Pasadena, Texas"
 tags: ["sell vacant house Pasadena TX", "Houston area", "CashAsIs"]
 faq:
   - q: "Can I Sell a Vacant House in Pasadena, TX As-Is?"
