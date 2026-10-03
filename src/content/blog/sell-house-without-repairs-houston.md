@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Seller Guide"
 readTime: "6 min read"
+image: "/images/Sell House Without Repairs Houston.png"
+imageAlt: "Sell a Houston house without repairs to CashAsIs"
 tags: ["sell house without repairs Houston", "Houston cash buyer", "sell property Houston", "CashAsIs"]
 faq:
   - q: "Do I need to repair the property before contacting CashAsIs?"
