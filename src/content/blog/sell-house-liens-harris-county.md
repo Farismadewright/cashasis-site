@@ -14,35 +14,11 @@ faq:
 ---
 ## The short answer
 
-**A lien does not automatically prevent a sale. Title can identify recorded items and what must be addressed for closing.**
+**Yes, a Harris County house with liens may still be sold if the recorded claims and title requirements can be properly handled through the transaction.**
 
-County-specific records and closing requirements can matter, but you do not need to turn the property into a retail-ready house before asking CashAsIs to evaluate it.
+The word “lien” covers different situations, so the first useful step is identification. A tax claim, judgment, contractor claim, HOA-related amount, or another recorded item may have a different payoff or release process. The title company and appropriate professionals should confirm what actually exists.
 
-## Start with ownership, title, and the actual property
-
-Tell us who is involved, what you know about the situation, and the property's current condition. The appropriate title or closing professionals can identify requirements that must be resolved for a valid sale.
-
-At the same time, CashAsIs can determine whether the real estate itself fits what we buy.
-
-## Sell as-is
-
-We consider properties needing repairs, updating, cleanout, or other work. You do not have to renovate for our purchase.
-
-See [Sell House As-Is Houston](/blog/sell-house-as-is-houston/) and [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/).
-
-## Request a property review
-
-Start with the address and the facts you know today.
-
-**[Request your CashAsIs offer](/#offer).**
-
-## A Harris County lien needs to be identified, not ignored
-
-A lien can affect title, payoff, and the proceeds available at closing. CashAsIs can still evaluate the property itself before an owner spends money preparing it for a retail sale. Whether a particular transaction can close depends on the actual lien and title requirements.
-
-If you have a notice, payoff information, judgment, tax record, or other document, share what you know. If not, start with the property address and the fact that you believe a lien exists.
-
-For the broader topic, see [Sell a House With Liens in Houston](/blog/sell-house-with-liens-houston/) and [Harris County cash-sale guide](/blog/sell-house-fast-harris-county-tx/).
+CashAsIs can evaluate the real estate while that work is underway. The house itself may also need repairs, contain tenants, or be vacant; those facts are priced separately from the title issue. Read [our Houston lien guide](/blog/sell-house-with-liens-houston/) for more context.
 
 ## Not every lien creates the same closing problem
 
