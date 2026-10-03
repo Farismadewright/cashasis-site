@@ -5,6 +5,8 @@ pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
 readTime: "6 min read"
+image: "/images/Sell Your Humble House Fast.png"
+imageAlt: "Sell your house fast in Humble, Texas with CashAsIs"
 tags: ["sell my house fast Humble", "cash home buyers Humble", "we buy houses Humble", "sell house as is Humble", "sell house for cash Humble"]
 faq:
   - q: "Does CashAsIs buy properties in Humble?"
