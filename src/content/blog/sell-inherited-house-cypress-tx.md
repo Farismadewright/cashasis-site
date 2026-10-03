@@ -26,3 +26,9 @@ Read [the related guide](/blog/sell-inherited-house-houston/) and [our Cypress c
 You can ask for an offer before turning the property into another project.
 
 **[Request your CashAsIs offer](/#offer).**
+
+## An inherited Cypress property does not have to be distressed to be a burden
+
+A family may inherit a house that is simply dated, occupied, far from the person handling the estate, or no longer useful to the family. CashAsIs can evaluate it before repairs or staging for our purchase.
+
+Tell us who is handling the property, occupancy, condition, and what you know about estate authority. See [Cypress cash-sale guide](/blog/sell-house-fast-cypress-tx/) and [Houston inherited-house guide](/blog/sell-inherited-house-houston/).
