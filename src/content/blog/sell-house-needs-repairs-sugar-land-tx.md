@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Sugar Land Distressed Property"
 readTime: "5 min read"
 tags: ["house needing repairs Sugar Land", "Sugar Land property buyer", "sell as is"]
+image: "/images/Sell As-Is_ Repairs Needed.png"
+imageAlt: "Sell a Sugar Land House That Needs Repairs"
 ---
 If you are dealing with a **house needing repairs in Sugar Land**, you can start with the property exactly as it is today.
 
