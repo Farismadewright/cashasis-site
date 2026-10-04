@@ -1,6 +1,6 @@
 ---
 title: "Selling a Flood-Damaged House in Houston As-Is"
-description: "Flood damage doesn't have to mean a money pit. Here's how to sell a flood-damaged Houston home as-is, what you must disclose, and how to price the repair gap."
+description: "Sell a flood-damaged house in Houston as-is. Learn disclosure requirements, repair considerations, cash-sale options, and what affects your offer."
 pubDate: 2026-06-10
 author: "CashAsIs"
 category: "Selling As-Is"
