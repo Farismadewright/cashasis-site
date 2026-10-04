@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Texas Foreclosure"
 readTime: "5 min read"
 tags: ["sell house before foreclosure Texas", "Texas", "CashAsIs"]
+image: "/images/Selling Before Foreclosure in Texas.png"
+imageAlt: "Can I Sell My House Before Foreclosure in Texas?"
 faq:
   - q: "Can I Sell My House Before Foreclosure in Texas?"
     a: "Yes. A Texas property may be sold before the foreclosure sale if there is enough time to complete the transaction and satisfy closing requirements."
