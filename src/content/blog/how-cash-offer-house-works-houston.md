@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Houston Cash Offer"
 readTime: "5 min read"
 tags: ["how cash offer house works Houston", "Houston", "CashAsIs"]
+image: "/images/How Cash Offers Work in Houston.png"
+imageAlt: "How Does a Cash Offer on a House Work in Houston?"
 faq:
   - q: "How Does a Cash Offer on a House Work in Houston?"
     a: "CashAsIs reviews the property, condition, location, and situation and can make a direct offer without a retail mortgage contingency."
