@@ -62,3 +62,8 @@ Start with the address and the situation. We will review whether the property fi
 ## Related repair guides
 
 See [Houston foundation problems](/blog/sell-house-foundation-problems-houston/), [selling without repairs](/blog/sell-house-without-repairs-houston/), [Katy repair properties](/blog/sell-house-needs-repairs-katy-tx/), [Pasadena](/blog/sell-house-needs-repairs-pasadena-tx/), [Spring](/blog/sell-house-needs-repairs-spring-tx/), and [Pearland](/blog/sell-house-needs-repairs-pearland-tx/).
+
+
+## Before you repair it, run the numbers
+
+Use the free [Houston Fix It or Sell It repair-cost calculator](/fix-it-or-sell-it/) to estimate current retail homeowner repair costs before deciding whether to renovate or request an as-is offer.
