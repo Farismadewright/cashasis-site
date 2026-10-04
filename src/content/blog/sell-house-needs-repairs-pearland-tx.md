@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Pearland Distressed Property"
 readTime: "5 min read"
 tags: ["house needing repairs Pearland", "Pearland cash buyer", "CashAsIs"]
+image: "/images/Sell Your Pearland Fixer-Upper.png"
+imageAlt: "Sell a Pearland House That Needs Repairs"
 ---
 A **house needing repairs in Pearland** deserves a property-specific evaluation.
 
