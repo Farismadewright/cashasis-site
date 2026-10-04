@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Fort Bend County Distressed Property"
 readTime: "5 min read"
 tags: ["tax-delinquent property Fort Bend County", "Fort Bend County", "CashAsIs"]
+image: "/images/Sell Your Tax-Delinquent House.png"
+imageAlt: "Sell a Tax-Delinquent House in Fort Bend County"
 ---
 If you are dealing with a **tax-delinquent property in Fort Bend County**, timing and the specific property details matter.
 
