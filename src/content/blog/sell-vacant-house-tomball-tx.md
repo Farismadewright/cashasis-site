@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Tomball Distressed Property"
 readTime: "5 min read"
 tags: ["vacant house Tomball", "Tomball cash buyer", "CashAsIs"]
+image: "/images/Sell Your Vacant House in Tomball.png"
+imageAlt: "Sell a Vacant House in Tomball, TX | CashAsIs"
 ---
 A **vacant house in Tomball** deserves a property-specific evaluation.
 
