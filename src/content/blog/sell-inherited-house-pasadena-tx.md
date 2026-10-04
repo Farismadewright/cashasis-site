@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Pasadena Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Pasadena", "sell house Pasadena", "CashAsIs"]
+image: "/images/Inherited House Sale in Pasadena, TX.png"
+imageAlt: "Sell an Inherited House in Pasadena, TX | CashAsIs"
 ---
 A **inherited house in Pasadena** can create a very different selling situation from a move-in-ready house.
 
