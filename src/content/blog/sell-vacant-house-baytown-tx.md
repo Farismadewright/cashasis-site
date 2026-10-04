@@ -8,10 +8,6 @@ readTime: "5 min read"
 tags: ["sell vacant house Baytown", "Baytown cash buyer", "sell as is Baytown"]
 image: "/images/Sell a Vacant House in Baytown, TX.png"
 imageAlt: "Sell a Vacant House in Baytown, TX"
-image: "/images/Sell a Vacant House in Baytown, TX.png"
-imageAlt: "Sell a Vacant House in Baytown, TX | CashAsIs"
-image: "/images/Sell a Vacant House in Baytown, TX.png"
-imageAlt: "Sell a Vacant House in Baytown, TX | CashAsIs"
 ---
 If you own a **vacant house in Baytown**, the property may need a different selling process than a clean, market-ready house.
 
