@@ -14,7 +14,7 @@ const faq=[
 <BaseHead title={title} description={description} type="website" faq={faq}/>
 <link rel="stylesheet" href="/styles.css"/>
 <style>
-.rm-wrap{max-width:1080px;margin:0 auto;padding:34px 24px 60px}.rm-intro{max-width:800px;margin:0 auto 28px;text-align:center;color:#536173}.rm-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:start}.rm-panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 18px 44px -34px rgba(13,27,42,.5)}.rm-panel h2{margin:0 0 8px;font-size:22px}.rm-panel .hint{font-size:13px;color:#687586;margin-bottom:20px}.rm-q{border-top:1px solid var(--line);padding:18px 0}.rm-q:first-of-type{border-top:0}.rm-q label.title{display:block;font-weight:800;margin-bottom:10px}.rm-choice{display:flex;gap:10px;flex-wrap:wrap}.rm-choice label{border:1px solid #d9dee6;border-radius:999px;padding:9px 14px;font-size:14px;font-weight:700;cursor:pointer}.rm-choice input{margin-right:6px}.repairs{display:grid;gap:10px}.repair{border:1px solid #e1e5eb;border-radius:12px;padding:14px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}.repair input{width:20px;height:20px}.repair b{display:block}.repair small{display:block;color:#6b7787}.repair .range{font-weight:800;white-space:nowrap}.rm-result{position:sticky;top:86px}.total{font-size:clamp(34px,5vw,50px);font-weight:900;letter-spacing:-.04em;color:var(--navy);line-height:1.05;margin:12px 0}.total span{color:var(--orange)}.rm-note{font-size:13px;color:#697586;line-height:1.55}.rm-breakdown{margin:20px 0;border-top:1px solid var(--line);padding-top:14px}.rm-row{display:flex;justify-content:space-between;gap:16px;padding:8px 0;font-size:14px}.rm-row strong{white-space:nowrap}.rm-cta{background:var(--navy);color:#fff;border-radius:14px;padding:20px;margin-top:18px}.rm-cta p{color:#e7edf4;margin-bottom:14px}.rm-btn{display:inline-flex;background:var(--orange);color:#fff;font-weight:800;border-radius:999px;padding:13px 20px}.sources{margin-top:30px}.sources h2{margin-bottom:10px}.sources li{margin:8px 0;color:#536173}.sources a{color:var(--teal);text-decoration:underline}.privacy{background:#f4f7fa;border-radius:12px;padding:14px;margin-top:18px;font-size:13px;color:#596678}@media(max-width:800px){.rm-grid{grid-template-columns:1fr}.rm-result{position:static}.repair{grid-template-columns:auto 1fr}.repair .range{grid-column:2}}
+.rm-wrap{max-width:1080px;margin:0 auto;padding:34px 24px 60px}.rm-intro{max-width:800px;margin:0 auto 28px;text-align:center;color:#536173}.rm-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:start}.rm-panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 18px 44px -34px rgba(13,27,42,.5)}.rm-panel h2{margin:0 0 8px;font-size:22px}.rm-panel .hint{font-size:13px;color:#687586;margin-bottom:20px}.rm-q{border-top:1px solid var(--line);padding:18px 0}.rm-q:first-of-type{border-top:0}.rm-q label.title{display:block;font-weight:800;margin-bottom:10px}.rm-choice{display:flex;gap:10px;flex-wrap:wrap}.rm-choice label{border:1px solid #d9dee6;border-radius:999px;padding:9px 14px;font-size:14px;font-weight:700;cursor:pointer}.rm-choice input{margin-right:6px}.repairs{display:grid;gap:10px}.repair{border:1px solid #e1e5eb;border-radius:12px;padding:14px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}.repair input{width:20px;height:20px}.repair b{display:block}.repair small{display:block;color:#6b7787}.repair .range{font-weight:800;white-space:nowrap}.scope{display:none;margin:-4px 0 10px 32px}.scope.show{display:block}.scope select{width:100%;padding:10px;border:1px solid #d9dee6;border-radius:9px;background:#fff;font:inherit}.rm-result{position:sticky;top:86px}.total{font-size:clamp(34px,5vw,50px);font-weight:900;letter-spacing:-.04em;color:var(--navy);line-height:1.05;margin:12px 0}.total span{color:var(--orange)}.rm-note{font-size:13px;color:#697586;line-height:1.55}.rm-breakdown{margin:20px 0;border-top:1px solid var(--line);padding-top:14px}.rm-row{display:flex;justify-content:space-between;gap:16px;padding:8px 0;font-size:14px}.rm-row strong{white-space:nowrap}.rm-cta{background:var(--navy);color:#fff;border-radius:14px;padding:20px;margin-top:18px}.rm-cta p{color:#e7edf4;margin-bottom:14px}.rm-btn{display:inline-flex;background:var(--orange);color:#fff;font-weight:800;border-radius:999px;padding:13px 20px}.sources{margin-top:30px}.sources h2{margin-bottom:10px}.sources li{margin:8px 0;color:#536173}.sources a{color:var(--teal);text-decoration:underline}.privacy{background:#f4f7fa;border-radius:12px;padding:14px;margin-top:18px;font-size:13px;color:#596678}@media(max-width:800px){.rm-grid{grid-template-columns:1fr}.rm-result{position:static}.repair{grid-template-columns:auto 1fr}.repair .range{grid-column:2}}
 </style>
 </head><body>
 <Nav/>
@@ -29,14 +29,18 @@ const faq=[
 <div class="rm-q"><label class="title" for="condition">How would you describe the property overall?</label><select id="condition" style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><option value="1">Mostly maintained</option><option value="1.08" selected>Outdated / deferred maintenance</option><option value="1.18">Significant deferred maintenance</option></select></div>
 <div class="rm-q"><label class="title">What may need work?</label>
 <div class="repairs" id="repairs">
-<label class="repair"><input type="checkbox" data-name="Roof replacement" data-low="6712" data-high="13123"><span><b>Roof replacement</b><small>Houston retail re-roof planning range</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="HVAC replacement" data-low="4930" data-high="12325"><span><b>HVAC replacement</b><small>Standard system; ductwork can push higher</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Foundation repair" data-low="4500" data-high="14000"><span><b>Foundation repair</b><small>Typical Houston repair; extensive work can exceed $20K</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Kitchen update" data-low="10000" data-high="30000"><span><b>Kitchen update</b><small>Typical pre-sale retail refresh: cabinets/counters/fixtures/paint as needed, without luxury reconfiguration</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Bathroom update" data-low="6899" data-high="18688"><span><b>Bathroom update</b><small>Typical Houston retail bathroom remodel centered on current local homeowner data</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Whole-home repipe" data-low="5000" data-high="15000"><span><b>Whole-home repipe</b><small>Houston homeowner retail range; material/access affect price</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Electrical panel upgrade" data-low="1183" data-high="1972"><span><b>Electrical panel upgrade</b><small>Typical Houston panel-upgrade range</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Interior painting" data-low="3000" data-high="8000"><span><b>Interior painting</b><small>Typical 1,500–2,500 sf full-interior planning range</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Roof replacement" data-method="sf" data-rate="6.25"><span><b>Roof replacement</b><small>Retail contractor allowance based on house size + roof-area factor</small></span><span class="range">$6.25 / roof sf</span></label>
+<label class="repair"><input type="checkbox" data-name="Interior painting" data-method="sf" data-rate="3.25"><span><b>Interior painting</b><small>Walls/ceilings/trim contractor-grade repaint allowance</small></span><span class="range">$3.25 / living sf</span></label>
+<label class="repair"><input type="checkbox" data-name="Flooring replacement" data-method="sf" data-rate="6.50"><span><b>Flooring replacement</b><small>Retail installed mid-grade LVP/carpet blend allowance</small></span><span class="range">$6.50 / living sf</span></label>
+<label class="repair"><input type="checkbox" data-name="HVAC replacement" data-method="hvac"><span><b>HVAC replacement</b><small>System size estimated from living area; retail installed equipment</small></span><span class="range">Size-based</span></label>
+<label class="repair"><input type="checkbox" data-name="Whole-home repipe" data-method="repipe"><span><b>Whole-home repipe</b><small>Retail whole-house plumbing allowance scaled to living area</small></span><span class="range">Size-based</span></label>
+<label class="repair"><input type="checkbox" data-name="Electrical panel upgrade" data-method="fixed" data-cost="2200"><span><b>Electrical panel upgrade</b><small>Retail installed service/panel planning allowance</small></span><span class="range">$2,200</span></label>
+<label class="repair"><input type="checkbox" data-name="Foundation repair" data-method="foundation"><span><b>Foundation repair</b><small>Planning allowance based on repair scope—not house square footage</small></span><span class="range">Choose scope</span></label>
+<div class="scope" data-for="Foundation repair"><select data-scope="Foundation repair"><option value="6500">Minor / localized</option><option value="12000" selected>Moderate repair</option><option value="22000">Extensive repair</option></select></div>
+<label class="repair"><input type="checkbox" data-name="Kitchen update" data-method="kitchen"><span><b>Kitchen</b><small>Choose the actual level of work instead of assuming a full remodel</small></span><span class="range">Choose scope</span></label>
+<div class="scope" data-for="Kitchen update"><select data-scope="Kitchen update"><option value="7500">Cosmetic refresh</option><option value="15000" selected>Moderate update</option><option value="30000">Full contractor-grade replacement</option></select></div>
+<label class="repair"><input type="checkbox" data-name="Bathroom updates" data-method="bath"><span><b>Bathrooms</b><small>Retail contractor allowance per bathroom selected</small></span><span class="range">Count + scope</span></label>
+<div class="scope" data-for="Bathroom updates"><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><select id="bathCount"><option value="1">1 bathroom</option><option value="2" selected>2 bathrooms</option><option value="3">3 bathrooms</option><option value="4">4 bathrooms</option></select><select id="bathScope"><option value="5500">Cosmetic refresh</option><option value="9500" selected>Moderate update</option><option value="15000">Full contractor-grade remodel</option></select></div></div>
 </div></div>
 </section>
 <aside class="rm-panel rm-result">
@@ -44,7 +48,7 @@ const faq=[
 <p class="rm-note" id="status">Select repairs to build your estimate. The condition setting adds a modest planning allowance for complexity and hidden work; it is not a substitute for bids.</p>
 <div class="rm-breakdown" id="breakdown"><div class="rm-row"><span>No repairs selected yet.</span></div></div>
 <div class="rm-cta"><p><strong>Before you spend that money, compare the as-is option.</strong><br/>CashAsIs can evaluate the property in its current condition. You do not need to complete these repairs for our purchase.</p><a class="rm-btn" href="https://www.cashasis.com?utm_source=repair_math&utm_medium=calculator&utm_campaign=fix_or_sell">See What CashAsIs Would Offer →</a></div>
-<div class="privacy"><strong>CRM-ready personalization:</strong> this page is being designed to support a private lead token from CashAsIs/GHL. We will not expose a seller's name or property address directly in a public tracking URL.</div>
+<div class="privacy"><strong>How this estimate works:</strong> measurable work is calculated from retail installed unit pricing where appropriate. Room/system repairs use the scope you select. This is an educational planning estimate, not a contractor bid.</div>
 </aside>
 </div>
 <section class="rm-panel sources">
@@ -63,37 +67,44 @@ const faq=[
 </main><Footer/>
 <script is:inline>
 (function(){
- const root=document;
- const checks=[...root.querySelectorAll('#repairs input[type="checkbox"]')];
- const condition=root.querySelector('#condition'); const sqft=root.querySelector('#sqft');
+ const root=document, checks=[...root.querySelectorAll('#repairs input[type="checkbox"]')];
+ const condition=root.querySelector('#condition'), sqft=root.querySelector('#sqft');
  const total=root.querySelector('#total'), breakdown=root.querySelector('#breakdown'), status=root.querySelector('#status');
- const money=n=>'$'+Math.round(n).toLocaleString('en-US');
- function calc(){
-   const selected=checks.filter(x=>x.checked);
-   const sf=Math.max(400,Math.min(10000,Number(sqft.value)||1800));
-   const conditionMult=Number(condition.value)||1;
-   const updated=root.querySelector('input[name="updated"]:checked')?.value||'some';
-   const updateMult=updated==='yes'?0.94:updated==='no'?1.06:1;
-   const mid=(x)=>(Number(x.dataset.low)+Number(x.dataset.high))/2;
-   function estimate(x){
-     let v=mid(x), n=x.dataset.name;
-     if(n==='Interior painting') v=sf*3.0;
-     if(n==='Roof replacement') v=mid(x)*Math.max(.75,Math.min(1.55,sf/2000));
-     if(n==='HVAC replacement') v=mid(x)*Math.max(.85,Math.min(1.35,sf/2000));
-     if(n==='Kitchen update') v=20000;
-     if(n==='Bathroom update') v=12794;
-     if(n==='Whole-home repipe') v=10000*Math.max(.75,Math.min(1.5,sf/2000));
-     return v*conditionMult*updateMult;
+ const money=n=>'
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>+Math.round(n).toLocaleString('en-US');
+ const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+ function scopeValue(name){const s=root.querySelector('[data-scope="'+name+'"]');return s?Number(s.value):0}
+ function estimate(x,sf){
+   const n=x.dataset.name, method=x.dataset.method;
+   if(method==='sf'){
+     let qty=sf;
+     if(n==='Roof replacement') qty=sf*1.18;
+     return qty*Number(x.dataset.rate);
    }
-   const rows=selected.map(x=>({name:x.dataset.name,val:estimate(x)}));
-   const sum=rows.reduce((a,r)=>a+r.val,0);
-   const contingency=selected.length>=3?sum*.10:sum*.06;
-   const est=sum+contingency;
-   total.textContent=selected.length?money(Math.round(est/100)*100):'$0';
-   breakdown.innerHTML=selected.length?rows.map(r=>'<div class="rm-row"><span>'+r.name+'</span><strong>'+money(Math.round(r.val/100)*100)+'</strong></div>').join('')+'<div class="rm-row"><span>Planning allowance</span><strong>'+money(Math.round(contingency/100)*100)+'</strong></div>':'<div class="rm-row"><span>No repairs selected yet.</span></div>';
-   status.textContent=selected.length?'Estimated retail homeowner repair budget for an approximately '+sf.toLocaleString('en-US')+' sq ft Houston-area house. This is a planning estimate, not a contractor quote.':'Enter the house size and select repairs to build one estimated repair budget.';
+   if(method==='hvac'){const tons=clamp(Math.ceil(sf/600*.5)*.5,2,5);return 5200+(tons*1450)}
+   if(method==='repipe') return 4200+(sf*3.1);
+   if(method==='fixed') return Number(x.dataset.cost);
+   if(method==='foundation') return scopeValue(n);
+   if(method==='kitchen') return scopeValue(n);
+   if(method==='bath') return Number(root.querySelector('#bathCount').value)*Number(root.querySelector('#bathScope').value);
+   return 0;
  }
- checks.forEach(x=>x.addEventListener('change',calc));condition.addEventListener('change',calc);sqft.addEventListener('input',calc);root.querySelectorAll('input[name="updated"]').forEach(x=>x.addEventListener('change',calc));calc();
+ function calc(){
+   const sf=clamp(Number(sqft.value)||1800,400,10000), selected=checks.filter(x=>x.checked);
+   const conditionMult=Number(condition.value)||1;
+   const rows=selected.map(x=>({name:x.dataset.name,val:estimate(x,sf)*conditionMult}));
+   const sum=rows.reduce((a,r)=>a+r.val,0);
+   const est=Math.round(sum/100)*100;
+   total.textContent=selected.length?money(est):'$0';
+   breakdown.innerHTML=selected.length?rows.map(r=>'<div class="rm-row"><span>'+r.name+'</span><strong>'+money(Math.round(r.val/100)*100)+'</strong></div>').join(''):'<div class="rm-row"><span>No repairs selected yet.</span></div>';
+   status.textContent=selected.length?'Estimated retail contractor cost for an approximately '+sf.toLocaleString('en-US')+' sq ft Houston-area property. Size-based work uses installed unit pricing; kitchens, bathrooms and foundation use the scope you selected.':'Enter the house size and select repairs to build one estimated retail contractor budget.';
+ }
+ checks.forEach(x=>x.addEventListener('change',function(){const box=root.querySelector('.scope[data-for="'+x.dataset.name+'"]');if(box)box.classList.toggle('show',x.checked);calc()}));
+ root.querySelectorAll('.scope select').forEach(x=>x.addEventListener('change',calc));
+ condition.addEventListener('change',calc);sqft.addEventListener('input',calc);
+ root.querySelectorAll('input[name="updated"]').forEach(x=>x.addEventListener('change',calc));
+ calc();
 })();
 </script>
 <script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
