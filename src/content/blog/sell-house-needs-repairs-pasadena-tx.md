@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Pasadena Distressed Property"
 readTime: "5 min read"
 tags: ["house needing repairs Pasadena", "sell house Pasadena", "CashAsIs"]
+image: "/images/Sell a Pasadena House As-Is.png"
+imageAlt: "Sell a Pasadena House That Needs Repairs"
 ---
 A **house needing repairs in Pasadena** can create a very different selling situation from a move-in-ready house.
 
