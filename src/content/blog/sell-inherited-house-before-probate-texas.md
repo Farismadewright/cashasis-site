@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Texas Inherited"
 readTime: "5 min read"
 tags: ["sell inherited house before probate Texas", "Texas", "CashAsIs"]
+image: "/images/Selling an Inherited House Before Probate.png"
+imageAlt: "Can I Sell an Inherited House Before Probate Is Finished in Texas?"
 faq:
   - q: "Can I Sell an Inherited House Before Probate Is Finished in Texas?"
     a: "It depends on who has authority to sell and what title requires. CashAsIs can evaluate the property while estate requirements are identified."
