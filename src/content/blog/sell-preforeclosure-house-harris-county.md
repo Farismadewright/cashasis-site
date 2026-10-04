@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Harris County Distressed Property"
 readTime: "5 min read"
 tags: ["pre-foreclosure property Harris County", "Harris County", "CashAsIs"]
+image: "/images/Sell Before Foreclosure in Harris County.png"
+imageAlt: "Sell a House Before Foreclosure in Harris County"
 ---
 If you are dealing with a **pre-foreclosure property in Harris County**, timing and the specific property details matter.
 
