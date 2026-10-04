@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Pearland Distressed Property"
 readTime: "5 min read"
 tags: ["rental with tenants Pearland", "Pearland", "CashAsIs"]
+image: "/images/Sell a Pearland Rental Property.png"
+imageAlt: "Sell a Pearland Rental Property With Tenants | CashAsIs"
 ---
 If you are dealing with a **rental with tenants in Pearland**, timing and the specific property details matter.
 
