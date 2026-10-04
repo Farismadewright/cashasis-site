@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Pasadena Distressed Property"
 readTime: "5 min read"
 tags: ["house with back taxes Pasadena", "sell house Pasadena", "CashAsIs"]
+image: "/images/Sell a Pasadena House With Back Taxes.png"
+imageAlt: "Sell a Pasadena House With Back Taxes"
 ---
 A **house with back taxes in Pasadena** can create a very different selling situation from a move-in-ready house.
 
