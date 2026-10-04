@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Spring Distressed Property"
 readTime: "5 min read"
 tags: ["vacant house Spring", "Spring property buyer", "sell as is"]
+image: "/images/Sell Your Vacant House in Spring, TX.png"
+imageAlt: "Sell a Vacant House in Spring, TX"
 ---
 If you are dealing with a **vacant house in Spring**, you can start with the property exactly as it is today.
 
