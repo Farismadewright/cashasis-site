@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Cypress Distressed Property"
 readTime: "5 min read"
 tags: ["house needing repairs Cypress", "Cypress cash buyer", "CashAsIs"]
+image: "/images/Sell Your Cypress House As-Is.png"
+imageAlt: "Sell a Cypress House That Needs Repairs"
 ---
 A **house needing repairs in Cypress** deserves a property-specific evaluation.
 
