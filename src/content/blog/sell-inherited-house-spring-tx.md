@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Spring Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Spring", "Spring property buyer", "sell as is"]
+image: "/images/Sell an Inherited House in Spring, TX.png"
+imageAlt: "Sell an Inherited House in Spring, TX"
 ---
 If you are dealing with a **inherited house in Spring**, you can start with the property exactly as it is today.
 
