@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Baytown Distressed Property"
 readTime: "5 min read"
 tags: ["sell inherited house Baytown", "Baytown cash buyer", "sell as is Baytown"]
+image: "/images/Inherited House Sale in Baytown, TX.png"
+imageAlt: "Sell an Inherited House in Baytown, TX"
 ---
 If you own a **inherited house in Baytown**, the property may need a different selling process than a clean, market-ready house.
 
