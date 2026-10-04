@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Spring Distressed Property"
 readTime: "5 min read"
 tags: ["house needing repairs Spring", "Spring property buyer", "sell as is"]
+image: "/images/Sell a Spring House As-Is.png"
+imageAlt: "Sell a Spring House That Needs Repairs"
 ---
 If you are dealing with a **house needing repairs in Spring**, you can start with the property exactly as it is today.
 
