@@ -159,18 +159,21 @@ const faq=[
 })();
 </script>
 <script is:inline>
-(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await(a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+"."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({key:"AIzaSyASelo7CuCfmWpoUoCWsy_cWDOPXOd5T00",v:"weekly"});
+<script is:inline>
 (function(){
- var placesPromise=null;
- function attach(input){ if(!input||input.dataset.placesAttached==='1')return; input.dataset.placesAttached='1';input.setAttribute('autocomplete','off');
- var token=null,timer,list=document.createElement('div');list.className='ac-list';input.parentNode.appendChild(list);
- function places(){if(!placesPromise)placesPromise=google.maps.importLibrary('places');return placesPromise}
- input.addEventListener('input',function(){clearTimeout(timer);var q=input.value.trim();if(q.length<3){list.classList.remove('show');return}timer=setTimeout(function(){suggest(q)},250)});
- async function suggest(q){try{var lib=await places();if(!token)token=new lib.AutocompleteSessionToken();var resp=await lib.AutocompleteSuggestion.fetchAutocompleteSuggestions({input:q,sessionToken:token,includedRegionCodes:['us']});var sg=(resp&&resp.suggestions)||[];if(!sg.length){list.classList.remove('show');return}list.innerHTML='';sg.slice(0,5).forEach(function(s){var pred=s.placePrediction;if(!pred)return;var item=document.createElement('div');item.className='ac-item';item.tabIndex=0;item.textContent=(pred.text&&pred.text.text)?pred.text.text:String(pred.text||'');function choose(){list.classList.remove('show');Promise.resolve().then(function(){var place=pred.toPlace();return place.fetchFields({fields:['formattedAddress']}).then(function(){input.value=place.formattedAddress||item.textContent;input.dispatchEvent(new Event('change',{bubbles:true}))})}).catch(function(){input.value=item.textContent;input.dispatchEvent(new Event('change',{bubbles:true}))});token=null}item.addEventListener('mousedown',function(e){e.preventDefault()});item.addEventListener('click',choose);item.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();choose()}});list.appendChild(item)});list.classList.add('show')}catch(err){list.classList.remove('show')}}
- document.addEventListener('click',function(e){if(!list.contains(e.target)&&e.target!==input)list.classList.remove('show')});
+ var inputs=[document.getElementById('propertyAddress'),document.querySelector('#caoModalForm input[name="address"]')].filter(Boolean);
+ function install(){
+   if(!window.google||!google.maps||!google.maps.places||!google.maps.places.Autocomplete)return;
+   inputs.forEach(function(input){
+     if(input.dataset.autocompleteReady==='1')return; input.dataset.autocompleteReady='1';
+     var ac=new google.maps.places.Autocomplete(input,{componentRestrictions:{country:'us'},fields:['formatted_address','address_components','geometry'],types:['address']});
+     ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)input.value=p.formatted_address;input.dispatchEvent(new Event('change',{bubbles:true}))});
+   });
  }
- ['#propertyAddress','#caoModalForm input[name="address"]'].forEach(function(sel){attach(document.querySelector(sel))});
+ window.__cashasisPlacesReady=install;
+ if(window.google&&google.maps&&google.maps.places)install();
 })();
 </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASelo7CuCfmWpoUoCWsy_cWDOPXOd5T00&libraries=places&callback=__cashasisPlacesReady"></script>
 <script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
 </body></html>
