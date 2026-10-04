@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Montgomery County Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Montgomery County", "Montgomery County", "CashAsIs"]
+image: "/images/Sell Your Inherited House As-Is.png"
+imageAlt: "Sell an Inherited House in Montgomery County"
 ---
 If you are dealing with a **inherited house in Montgomery County**, timing and the specific property details matter.
 
