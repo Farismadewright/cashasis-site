@@ -7,6 +7,8 @@ category: "Missouri City Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Missouri City", "Missouri City property buyer", "sell as is"]
 image: "/images/Sell Your Inherited Missouri City Home.png"
+imageAlt: "Sell an Inherited House in Missouri City, TX"
+image: "/images/Sell Your Inherited Missouri City Home.png"
 imageAlt: "Sell an Inherited House in Missouri City, TX | CashAsIs"
 ---
 If you are dealing with a **inherited house in Missouri City**, you can start with the property exactly as it is today.
