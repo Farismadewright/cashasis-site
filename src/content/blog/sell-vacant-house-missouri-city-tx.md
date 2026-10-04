@@ -8,10 +8,6 @@ readTime: "5 min read"
 tags: ["vacant house Missouri City", "Missouri City property buyer", "sell as is"]
 image: "/images/Sell a Vacant House in Missouri City.png"
 imageAlt: "Sell a Vacant House in Missouri City, TX"
-image: "/images/Sell a Vacant House in Missouri City.png"
-imageAlt: "Sell a Vacant House in Missouri City, TX | CashAsIs"
-image: "/images/Sell a Vacant House in Missouri City.png"
-imageAlt: "Sell a Vacant House in Missouri City, TX | CashAsIs"
 ---
 If you are dealing with a **vacant house in Missouri City**, you can start with the property exactly as it is today.
 
