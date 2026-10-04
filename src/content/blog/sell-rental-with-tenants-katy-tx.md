@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Katy Distressed Property"
 readTime: "5 min read"
 tags: ["rental with tenants Katy", "sell house Katy", "CashAsIs"]
+image: "/images/Sell Your Katy Rental Property.png"
+imageAlt: "Sell a Katy Rental Property With Tenants | CashAsIs"
 ---
 A **rental with tenants in Katy** can create a very different selling situation from a move-in-ready house.
 
