@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Houston Cash Sale"
 readTime: "5 min read"
 tags: ["cash house sale timeline Houston", "Houston", "CashAsIs"]
+image: "/images/Cash House Sale Timeline in Houston.png"
+imageAlt: "How Long Does a Cash House Sale Take in Houston?"
 faq:
   - q: "How Long Does a Cash House Sale Take in Houston?"
     a: "Cash sales can remove lender underwriting, but title readiness, ownership, payoff, and the property situation still affect timing."
