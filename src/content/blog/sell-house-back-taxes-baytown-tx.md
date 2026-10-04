@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Baytown Distressed Property"
 readTime: "5 min read"
 tags: ["sell house with back taxes Baytown", "Baytown cash buyer", "sell as is Baytown"]
+image: "/images/Sell Baytown Houses With Back Taxes.png"
+imageAlt: "Sell a Baytown House With Back Taxes"
 ---
 If you own a **house with back taxes in Baytown**, the property may need a different selling process than a clean, market-ready house.
 
