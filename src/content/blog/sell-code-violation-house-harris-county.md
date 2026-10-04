@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Harris County Distressed Property"
 readTime: "5 min read"
 tags: ["property with code violations Harris County", "Harris County", "CashAsIs"]
+image: "/images/Sell Your Harris County House As-Is.png"
+imageAlt: "Sell a House With Code Violations in Harris County"
 ---
 If you are dealing with a **property with code violations in Harris County**, timing and the specific property details matter.
 
