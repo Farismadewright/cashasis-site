@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Tomball Distressed Property"
 readTime: "5 min read"
 tags: ["acreage property Tomball", "Tomball cash buyer", "CashAsIs"]
+image: "/images/Sell Acreage in Tomball, TX.png"
+imageAlt: "Sell an Acreage Property in Tomball, TX"
 ---
 A **acreage property in Tomball** deserves a property-specific evaluation.
 
