@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Missouri City Distressed Property"
 readTime: "5 min read"
 tags: ["house with back taxes Missouri City", "Missouri City property buyer", "sell as is"]
+image: "/images/Sell Your Home With Back Taxes.png"
+imageAlt: "Sell a Missouri City House With Back Taxes"
 ---
 If you are dealing with a **house with back taxes in Missouri City**, you can start with the property exactly as it is today.
 
