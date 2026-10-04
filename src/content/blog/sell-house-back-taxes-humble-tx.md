@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Humble Distressed Property"
 readTime: "5 min read"
 tags: ["sell house with back taxes Humble", "Humble cash buyer", "sell as is Humble"]
+image: "/images/Stressed Homeowner Facing Past-Due Property Taxes.png"
+imageAlt: "Sell a Humble House With Back Taxes"
 ---
 If you own a **house with back taxes in Humble**, the property may need a different selling process than a clean, market-ready house.
 
