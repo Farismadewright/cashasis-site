@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Humble Distressed Property"
 readTime: "5 min read"
 tags: ["sell house needing repairs Humble", "Humble cash buyer", "sell as is Humble"]
+image: "/images/Sell Your Home With Back Taxes.png"
+imageAlt: "Sell a Humble House That Needs Repairs"
 ---
 If you own a **house needing repairs in Humble**, the property may need a different selling process than a clean, market-ready house.
 
