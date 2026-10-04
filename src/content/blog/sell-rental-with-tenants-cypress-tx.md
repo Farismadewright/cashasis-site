@@ -8,8 +8,6 @@ readTime: "5 min read"
 tags: ["rental with tenants Cypress", "Cypress cash buyer", "CashAsIs"]
 image: "/images/Sell Your Cypress Rental Property.png"
 imageAlt: "Sell a Cypress Rental Property With Tenants"
-image: "/images/Sell Your Cypress Rental Property.png"
-imageAlt: "Sell a Cypress Rental Property With Tenants | CashAsIs"
 ---
 A **rental with tenants in Cypress** deserves a property-specific evaluation.
 
