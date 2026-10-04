@@ -20,26 +20,27 @@ const faq=[
 <Nav/>
 <section class="legal-hero"><div class="in"><span class="badge">Houston Repair Math</span><h1>Fix It or Sell It?</h1><p class="meta">See what retail homeowner repairs can cost before you spend a dollar preparing a property for market.</p></div></section>
 <main class="rm-wrap">
-<p class="rm-intro"><strong>This uses homeowner-facing Houston retail pricing—not investor rehab crews.</strong> Check the work your property may need and get a planning range. Then decide whether repairing first or requesting an as-is offer makes more sense for you.</p>
+<p class="rm-intro"><strong>This uses homeowner-facing Houston retail pricing—not investor rehab crews.</strong> Enter the house size, check the work your property may need, and get one estimated retail repair budget. Then decide whether repairing first or requesting an as-is offer makes more sense for you.</p>
 <div class="rm-grid">
 <section class="rm-panel">
-<h2>Build your repair list</h2><p class="hint">Choose only work you believe the property actually needs. This is a planning tool, not an inspection or contractor quote.</p>
+<h2>Build your repair list</h2><p class="hint">Enter the property's approximate living area, then choose the work you believe it needs. The calculator returns one estimated retail repair budget instead of a giant range.</p>
+<div class="rm-q"><label class="title" for="sqft">Approximate house size (living area)</label><input id="sqft" type="number" min="400" max="10000" step="50" value="1800" inputmode="numeric" style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><p class="hint" style="margin:7px 0 0">Use approximate heated/living square feet. We use this where size actually drives the retail job cost.</p></div>
 <div class="rm-q"><label class="title">Has the property been substantially updated in the last 5 years?</label><div class="rm-choice"><label><input type="radio" name="updated" value="yes">Yes</label><label><input type="radio" name="updated" value="some" checked>Some updates</label><label><input type="radio" name="updated" value="no">No</label></div></div>
 <div class="rm-q"><label class="title" for="condition">How would you describe the property overall?</label><select id="condition" style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><option value="1">Mostly maintained</option><option value="1.08" selected>Outdated / deferred maintenance</option><option value="1.18">Significant deferred maintenance</option></select></div>
 <div class="rm-q"><label class="title">What may need work?</label>
 <div class="repairs" id="repairs">
-<label class="repair"><input type="checkbox" data-name="Roof replacement" data-low="6712" data-high="13123"><span><b>Roof replacement</b><small>Houston retail re-roof planning range</small></span><span class="range">$6.7K–$13.1K</span></label>
-<label class="repair"><input type="checkbox" data-name="HVAC replacement" data-low="4930" data-high="12325"><span><b>HVAC replacement</b><small>Standard system; ductwork can push higher</small></span><span class="range">$4.9K–$12.3K</span></label>
-<label class="repair"><input type="checkbox" data-name="Foundation repair" data-low="4500" data-high="14000"><span><b>Foundation repair</b><small>Typical Houston repair; extensive work can exceed $20K</small></span><span class="range">$4.5K–$14K</span></label>
-<label class="repair"><input type="checkbox" data-name="Kitchen remodel" data-low="28000" data-high="75000"><span><b>Kitchen remodel</b><small>Retail contractor range; scope and finishes matter heavily</small></span><span class="range">$28K–$75K</span></label>
-<label class="repair"><input type="checkbox" data-name="Bathroom remodel" data-low="15000" data-high="35000"><span><b>Bathroom remodel</b><small>Typical contractor-grade hall/full bath range</small></span><span class="range">$15K–$35K</span></label>
-<label class="repair"><input type="checkbox" data-name="Whole-home repipe" data-low="5000" data-high="15000"><span><b>Whole-home repipe</b><small>Houston homeowner retail range; material/access affect price</small></span><span class="range">$5K–$15K+</span></label>
-<label class="repair"><input type="checkbox" data-name="Electrical panel upgrade" data-low="1183" data-high="1972"><span><b>Electrical panel upgrade</b><small>Typical Houston panel-upgrade range</small></span><span class="range">$1.2K–$2K</span></label>
-<label class="repair"><input type="checkbox" data-name="Interior painting" data-low="3000" data-high="8000"><span><b>Interior painting</b><small>Typical 1,500–2,500 sf full-interior planning range</small></span><span class="range">$3K–$8K</span></label>
+<label class="repair"><input type="checkbox" data-name="Roof replacement" data-low="6712" data-high="13123"><span><b>Roof replacement</b><small>Houston retail re-roof planning range</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="HVAC replacement" data-low="4930" data-high="12325"><span><b>HVAC replacement</b><small>Standard system; ductwork can push higher</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Foundation repair" data-low="4500" data-high="14000"><span><b>Foundation repair</b><small>Typical Houston repair; extensive work can exceed $20K</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Kitchen remodel" data-low="28000" data-high="75000"><span><b>Kitchen remodel</b><small>Retail contractor range; scope and finishes matter heavily</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Bathroom remodel" data-low="15000" data-high="35000"><span><b>Bathroom remodel</b><small>Typical contractor-grade hall/full bath range</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Whole-home repipe" data-low="5000" data-high="15000"><span><b>Whole-home repipe</b><small>Houston homeowner retail range; material/access affect price</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Electrical panel upgrade" data-low="1183" data-high="1972"><span><b>Electrical panel upgrade</b><small>Typical Houston panel-upgrade range</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Interior painting" data-low="3000" data-high="8000"><span><b>Interior painting</b><small>Typical 1,500–2,500 sf full-interior planning range</small></span><span class="range">Select</span></label>
 </div></div>
 </section>
 <aside class="rm-panel rm-result">
-<div class="eyebrow">Estimated retail repair burden</div><div class="total" id="total">$0 <span>– $0</span></div>
+<div class="eyebrow">Estimated retail repairs</div><div class="total" id="total">$0</div>
 <p class="rm-note" id="status">Select repairs to build your estimate. The condition setting adds a modest planning allowance for complexity and hidden work; it is not a substitute for bids.</p>
 <div class="rm-breakdown" id="breakdown"><div class="rm-row"><span>No repairs selected yet.</span></div></div>
 <div class="rm-cta"><p><strong>Before you spend that money, compare the as-is option.</strong><br/>CashAsIs can evaluate the property in its current condition. You do not need to complete these repairs for our purchase.</p><a class="rm-btn" href="https://www.cashasis.com?utm_source=repair_math&utm_medium=calculator&utm_campaign=fix_or_sell">See What CashAsIs Would Offer →</a></div>
@@ -64,19 +65,35 @@ const faq=[
 (function(){
  const root=document;
  const checks=[...root.querySelectorAll('#repairs input[type="checkbox"]')];
- const condition=root.querySelector('#condition');
+ const condition=root.querySelector('#condition'); const sqft=root.querySelector('#sqft');
  const total=root.querySelector('#total'), breakdown=root.querySelector('#breakdown'), status=root.querySelector('#status');
  const money=n=>'$'+Math.round(n).toLocaleString('en-US');
  function calc(){
-   const selected=checks.filter(x=>x.checked); const mult=Number(condition.value)||1;
-   let lo=0,hi=0; selected.forEach(x=>{lo+=Number(x.dataset.low);hi+=Number(x.dataset.high)});
-   lo*=mult;hi*=mult;
-   total.innerHTML=selected.length?money(lo)+' <span>– '+money(hi)+'</span>':'$0 <span>– $0</span>';
-   breakdown.innerHTML=selected.length?selected.map(x=>'<div class="rm-row"><span>'+x.dataset.name+'</span><strong>'+money(Number(x.dataset.low)*mult)+'–'+money(Number(x.dataset.high)*mult)+'</strong></div>').join(''):'<div class="rm-row"><span>No repairs selected yet.</span></div>';
-   const updated=root.querySelector('input[name="updated"]:checked')?.value;
-   status.textContent=selected.length?(updated==='yes'?'Because the property has recent updates, double-check that selected items truly need replacement. ':'')+'Planning estimate only. Actual contractor bids may be lower or higher based on scope, materials, permits, access and hidden conditions.':'Select repairs to build your estimate. The condition setting adds a modest planning allowance for complexity and hidden work; it is not a substitute for bids.';
+   const selected=checks.filter(x=>x.checked);
+   const sf=Math.max(400,Math.min(10000,Number(sqft.value)||1800));
+   const conditionMult=Number(condition.value)||1;
+   const updated=root.querySelector('input[name="updated"]:checked')?.value||'some';
+   const updateMult=updated==='yes'?0.94:updated==='no'?1.06:1;
+   const mid=(x)=>(Number(x.dataset.low)+Number(x.dataset.high))/2;
+   function estimate(x){
+     let v=mid(x), n=x.dataset.name;
+     if(n==='Interior painting') v=sf*3.0;
+     if(n==='Roof replacement') v=mid(x)*Math.max(.75,Math.min(1.55,sf/2000));
+     if(n==='HVAC replacement') v=mid(x)*Math.max(.85,Math.min(1.35,sf/2000));
+     if(n==='Kitchen remodel') v=42000*Math.max(.85,Math.min(1.25,sf/2000));
+     if(n==='Bathroom remodel') v=25000;
+     if(n==='Whole-home repipe') v=10000*Math.max(.75,Math.min(1.5,sf/2000));
+     return v*conditionMult*updateMult;
+   }
+   const rows=selected.map(x=>({name:x.dataset.name,val:estimate(x)}));
+   const sum=rows.reduce((a,r)=>a+r.val,0);
+   const contingency=selected.length>=3?sum*.10:sum*.06;
+   const est=sum+contingency;
+   total.textContent=selected.length?money(Math.round(est/100)*100):'$0';
+   breakdown.innerHTML=selected.length?rows.map(r=>'<div class="rm-row"><span>'+r.name+'</span><strong>'+money(Math.round(r.val/100)*100)+'</strong></div>').join('')+'<div class="rm-row"><span>Planning allowance</span><strong>'+money(Math.round(contingency/100)*100)+'</strong></div>':'<div class="rm-row"><span>No repairs selected yet.</span></div>';
+   status.textContent=selected.length?'Estimated retail homeowner repair budget for an approximately '+sf.toLocaleString('en-US')+' sq ft Houston-area house. This is a planning estimate, not a contractor quote.':'Enter the house size and select repairs to build one estimated repair budget.';
  }
- checks.forEach(x=>x.addEventListener('change',calc));condition.addEventListener('change',calc);root.querySelectorAll('input[name="updated"]').forEach(x=>x.addEventListener('change',calc));calc();
+ checks.forEach(x=>x.addEventListener('change',calc));condition.addEventListener('change',calc);sqft.addEventListener('input',calc);root.querySelectorAll('input[name="updated"]').forEach(x=>x.addEventListener('change',calc));calc();
 })();
 </script>
 <script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
