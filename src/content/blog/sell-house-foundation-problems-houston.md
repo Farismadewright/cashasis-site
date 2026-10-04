@@ -58,3 +58,8 @@ You do not have to make the property perfect before asking for a number.
 Start with the address and the situation. We will review whether the property fits what we buy and, if it does, determine a direct cash offer.
 
 **[Request your CashAsIs offer](/#offer) and tell us what is happening with the Houston property.**
+
+
+## Before you repair it, run the numbers
+
+Use the free [Houston Fix It or Sell It repair-cost calculator](/fix-it-or-sell-it/) to estimate current retail homeowner repair costs before deciding whether to renovate or request an as-is offer.
