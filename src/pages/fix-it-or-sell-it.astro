@@ -32,8 +32,8 @@ const faq=[
 <label class="repair"><input type="checkbox" data-name="Roof replacement" data-low="6712" data-high="13123"><span><b>Roof replacement</b><small>Houston retail re-roof planning range</small></span><span class="range">Select</span></label>
 <label class="repair"><input type="checkbox" data-name="HVAC replacement" data-low="4930" data-high="12325"><span><b>HVAC replacement</b><small>Standard system; ductwork can push higher</small></span><span class="range">Select</span></label>
 <label class="repair"><input type="checkbox" data-name="Foundation repair" data-low="4500" data-high="14000"><span><b>Foundation repair</b><small>Typical Houston repair; extensive work can exceed $20K</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Kitchen remodel" data-low="28000" data-high="75000"><span><b>Kitchen remodel</b><small>Retail contractor range; scope and finishes matter heavily</small></span><span class="range">Select</span></label>
-<label class="repair"><input type="checkbox" data-name="Bathroom remodel" data-low="15000" data-high="35000"><span><b>Bathroom remodel</b><small>Typical contractor-grade hall/full bath range</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Kitchen update" data-low="10000" data-high="30000"><span><b>Kitchen update</b><small>Typical pre-sale retail refresh: cabinets/counters/fixtures/paint as needed, without luxury reconfiguration</small></span><span class="range">Select</span></label>
+<label class="repair"><input type="checkbox" data-name="Bathroom update" data-low="6899" data-high="18688"><span><b>Bathroom update</b><small>Typical Houston retail bathroom remodel centered on current local homeowner data</small></span><span class="range">Select</span></label>
 <label class="repair"><input type="checkbox" data-name="Whole-home repipe" data-low="5000" data-high="15000"><span><b>Whole-home repipe</b><small>Houston homeowner retail range; material/access affect price</small></span><span class="range">Select</span></label>
 <label class="repair"><input type="checkbox" data-name="Electrical panel upgrade" data-low="1183" data-high="1972"><span><b>Electrical panel upgrade</b><small>Typical Houston panel-upgrade range</small></span><span class="range">Select</span></label>
 <label class="repair"><input type="checkbox" data-name="Interior painting" data-low="3000" data-high="8000"><span><b>Interior painting</b><small>Typical 1,500–2,500 sf full-interior planning range</small></span><span class="range">Select</span></label>
@@ -49,7 +49,7 @@ const faq=[
 </div>
 <section class="rm-panel sources">
 <h2>Where these Houston retail ranges come from</h2>
-<p class="rm-note">Ranges were checked against current 2026 Houston homeowner-facing sources. Actual quotes can fall outside these ranges.</p>
+<p class="rm-note">The calculator uses a single representative retail estimate for each selected job, centered on current Houston homeowner-facing cost data. It is not using the top end of luxury remodel ranges.</p>
 <ul>
 <li><a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost/tx/houston">Roof replacement — Angi Houston 2026</a></li>
 <li><a href="https://www.angi.com/articles/insider-s-price-guide-new-heating-and-cooling-system/tx/houston">HVAC replacement — Angi Houston 2026</a></li>
@@ -80,8 +80,8 @@ const faq=[
      if(n==='Interior painting') v=sf*3.0;
      if(n==='Roof replacement') v=mid(x)*Math.max(.75,Math.min(1.55,sf/2000));
      if(n==='HVAC replacement') v=mid(x)*Math.max(.85,Math.min(1.35,sf/2000));
-     if(n==='Kitchen remodel') v=42000*Math.max(.85,Math.min(1.25,sf/2000));
-     if(n==='Bathroom remodel') v=25000;
+     if(n==='Kitchen update') v=20000;
+     if(n==='Bathroom update') v=12794;
      if(n==='Whole-home repipe') v=10000*Math.max(.75,Math.min(1.5,sf/2000));
      return v*conditionMult*updateMult;
    }
