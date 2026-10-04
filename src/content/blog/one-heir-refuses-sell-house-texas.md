@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Texas Heirship"
 readTime: "5 min read"
 tags: ["one heir refuses sell house Texas", "Texas", "CashAsIs"]
+image: "/images/Heir Refuses to Sell in Texas.png"
+imageAlt: "What If One Heir Refuses to Sell a House in Texas?"
 faq:
   - q: "What If One Heir Refuses to Sell a House in Texas?"
     a: "Required owners cannot simply be bypassed. The ownership, authority, and signing requirements need to be identified before a sale can close."
