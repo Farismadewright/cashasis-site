@@ -1,0 +1,83 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+const title='Fix It or Sell It? Houston Repair Cost Calculator | CashAsIs';
+const description='Estimate retail Houston repair costs before fixing a property for sale. Compare roof, HVAC, foundation, kitchen, bath, plumbing, electrical and paint costs.';
+const faq=[
+ {q:'Are these investor rehab prices?',a:'No. The planning ranges are based on current Houston homeowner-facing retail contractor and consumer cost sources, not discounted investor crews.'},
+ {q:'Is this a contractor quote?',a:'No. It is an educational planning tool. Actual bids vary by property, scope, materials, permits, access and hidden conditions.'},
+ {q:'Do I need to make these repairs before CashAsIs will evaluate my property?',a:'No. CashAsIs evaluates properties as-is. The calculator is designed to help owners understand the potential retail repair burden before deciding what to do.'}
+];
+---
+<!doctype html><html lang="en"><head>
+<BaseHead title={title} description={description} type="website" faq={faq}/>
+<link rel="stylesheet" href="/styles.css"/>
+<style>
+.rm-wrap{max-width:1080px;margin:0 auto;padding:34px 24px 60px}.rm-intro{max-width:800px;margin:0 auto 28px;text-align:center;color:#536173}.rm-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:start}.rm-panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 18px 44px -34px rgba(13,27,42,.5)}.rm-panel h2{margin:0 0 8px;font-size:22px}.rm-panel .hint{font-size:13px;color:#687586;margin-bottom:20px}.rm-q{border-top:1px solid var(--line);padding:18px 0}.rm-q:first-of-type{border-top:0}.rm-q label.title{display:block;font-weight:800;margin-bottom:10px}.rm-choice{display:flex;gap:10px;flex-wrap:wrap}.rm-choice label{border:1px solid #d9dee6;border-radius:999px;padding:9px 14px;font-size:14px;font-weight:700;cursor:pointer}.rm-choice input{margin-right:6px}.repairs{display:grid;gap:10px}.repair{border:1px solid #e1e5eb;border-radius:12px;padding:14px;display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center}.repair input{width:20px;height:20px}.repair b{display:block}.repair small{display:block;color:#6b7787}.repair .range{font-weight:800;white-space:nowrap}.rm-result{position:sticky;top:86px}.total{font-size:clamp(34px,5vw,50px);font-weight:900;letter-spacing:-.04em;color:var(--navy);line-height:1.05;margin:12px 0}.total span{color:var(--orange)}.rm-note{font-size:13px;color:#697586;line-height:1.55}.rm-breakdown{margin:20px 0;border-top:1px solid var(--line);padding-top:14px}.rm-row{display:flex;justify-content:space-between;gap:16px;padding:8px 0;font-size:14px}.rm-row strong{white-space:nowrap}.rm-cta{background:var(--navy);color:#fff;border-radius:14px;padding:20px;margin-top:18px}.rm-cta p{color:#e7edf4;margin-bottom:14px}.rm-btn{display:inline-flex;background:var(--orange);color:#fff;font-weight:800;border-radius:999px;padding:13px 20px}.sources{margin-top:30px}.sources h2{margin-bottom:10px}.sources li{margin:8px 0;color:#536173}.sources a{color:var(--teal);text-decoration:underline}.privacy{background:#f4f7fa;border-radius:12px;padding:14px;margin-top:18px;font-size:13px;color:#596678}@media(max-width:800px){.rm-grid{grid-template-columns:1fr}.rm-result{position:static}.repair{grid-template-columns:auto 1fr}.repair .range{grid-column:2}}
+</style>
+</head><body>
+<Nav/>
+<section class="legal-hero"><div class="in"><span class="badge">Houston Repair Math</span><h1>Fix It or Sell It?</h1><p class="meta">See what retail homeowner repairs can cost before you spend a dollar preparing a property for market.</p></div></section>
+<main class="rm-wrap">
+<p class="rm-intro"><strong>This uses homeowner-facing Houston retail pricing—not investor rehab crews.</strong> Check the work your property may need and get a planning range. Then decide whether repairing first or requesting an as-is offer makes more sense for you.</p>
+<div class="rm-grid">
+<section class="rm-panel">
+<h2>Build your repair list</h2><p class="hint">Choose only work you believe the property actually needs. This is a planning tool, not an inspection or contractor quote.</p>
+<div class="rm-q"><label class="title">Has the property been substantially updated in the last 5 years?</label><div class="rm-choice"><label><input type="radio" name="updated" value="yes">Yes</label><label><input type="radio" name="updated" value="some" checked>Some updates</label><label><input type="radio" name="updated" value="no">No</label></div></div>
+<div class="rm-q"><label class="title" for="condition">How would you describe the property overall?</label><select id="condition" style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><option value="1">Mostly maintained</option><option value="1.08" selected>Outdated / deferred maintenance</option><option value="1.18">Significant deferred maintenance</option></select></div>
+<div class="rm-q"><label class="title">What may need work?</label>
+<div class="repairs" id="repairs">
+<label class="repair"><input type="checkbox" data-name="Roof replacement" data-low="6712" data-high="13123"><span><b>Roof replacement</b><small>Houston retail re-roof planning range</small></span><span class="range">$6.7K–$13.1K</span></label>
+<label class="repair"><input type="checkbox" data-name="HVAC replacement" data-low="4930" data-high="12325"><span><b>HVAC replacement</b><small>Standard system; ductwork can push higher</small></span><span class="range">$4.9K–$12.3K</span></label>
+<label class="repair"><input type="checkbox" data-name="Foundation repair" data-low="4500" data-high="14000"><span><b>Foundation repair</b><small>Typical Houston repair; extensive work can exceed $20K</small></span><span class="range">$4.5K–$14K</span></label>
+<label class="repair"><input type="checkbox" data-name="Kitchen remodel" data-low="28000" data-high="75000"><span><b>Kitchen remodel</b><small>Retail contractor range; scope and finishes matter heavily</small></span><span class="range">$28K–$75K</span></label>
+<label class="repair"><input type="checkbox" data-name="Bathroom remodel" data-low="15000" data-high="35000"><span><b>Bathroom remodel</b><small>Typical contractor-grade hall/full bath range</small></span><span class="range">$15K–$35K</span></label>
+<label class="repair"><input type="checkbox" data-name="Whole-home repipe" data-low="5000" data-high="15000"><span><b>Whole-home repipe</b><small>Houston homeowner retail range; material/access affect price</small></span><span class="range">$5K–$15K+</span></label>
+<label class="repair"><input type="checkbox" data-name="Electrical panel upgrade" data-low="1183" data-high="1972"><span><b>Electrical panel upgrade</b><small>Typical Houston panel-upgrade range</small></span><span class="range">$1.2K–$2K</span></label>
+<label class="repair"><input type="checkbox" data-name="Interior painting" data-low="3000" data-high="8000"><span><b>Interior painting</b><small>Typical 1,500–2,500 sf full-interior planning range</small></span><span class="range">$3K–$8K</span></label>
+</div></div>
+</section>
+<aside class="rm-panel rm-result">
+<div class="eyebrow">Estimated retail repair burden</div><div class="total" id="total">$0 <span>– $0</span></div>
+<p class="rm-note" id="status">Select repairs to build your estimate. The condition setting adds a modest planning allowance for complexity and hidden work; it is not a substitute for bids.</p>
+<div class="rm-breakdown" id="breakdown"><div class="rm-row"><span>No repairs selected yet.</span></div></div>
+<div class="rm-cta"><p><strong>Before you spend that money, compare the as-is option.</strong><br/>CashAsIs can evaluate the property in its current condition. You do not need to complete these repairs for our purchase.</p><a class="rm-btn" href="https://www.cashasis.com?utm_source=repair_math&utm_medium=calculator&utm_campaign=fix_or_sell">See What CashAsIs Would Offer →</a></div>
+<div class="privacy"><strong>CRM-ready personalization:</strong> this page is being designed to support a private lead token from CashAsIs/GHL. We will not expose a seller's name or property address directly in a public tracking URL.</div>
+</aside>
+</div>
+<section class="rm-panel sources">
+<h2>Where these Houston retail ranges come from</h2>
+<p class="rm-note">Ranges were checked against current 2026 Houston homeowner-facing sources. Actual quotes can fall outside these ranges.</p>
+<ul>
+<li><a href="https://www.angi.com/articles/how-much-does-roof-replacement-cost/tx/houston">Roof replacement — Angi Houston 2026</a></li>
+<li><a href="https://www.angi.com/articles/insider-s-price-guide-new-heating-and-cooling-system/tx/houston">HVAC replacement — Angi Houston 2026</a></li>
+<li><a href="https://htxfoundations.com/blog/how-much-foundation-repair-cost-houston/">Foundation repair — HTX Foundation Repair 2026</a></li>
+<li><a href="https://skyprohouston.com/remodeling-cost-houston/">Kitchen and bathroom remodeling — Sky Pro Houston signed-contract ranges</a></li>
+<li><a href="https://texasqualityplumbing.com/learning-center/repiping-house-cost-houston">Whole-home repipe — Texas Quality Plumbing 2026</a></li>
+<li><a href="https://www.angi.com/articles/ask-angie-what-does-it-cost-upgrade-200-amps/tx/houston">Electrical panel — Angi Houston 2026</a></li>
+<li><a href="https://houstonsuperiorpainting.com/houston-painting-cost-guide">Interior painting — Houston Superior Painting 2026</a></li>
+</ul>
+</section>
+</main><Footer/>
+<script is:inline>
+(function(){
+ const root=document;
+ const checks=[...root.querySelectorAll('#repairs input[type="checkbox"]')];
+ const condition=root.querySelector('#condition');
+ const total=root.querySelector('#total'), breakdown=root.querySelector('#breakdown'), status=root.querySelector('#status');
+ const money=n=>'$'+Math.round(n).toLocaleString('en-US');
+ function calc(){
+   const selected=checks.filter(x=>x.checked); const mult=Number(condition.value)||1;
+   let lo=0,hi=0; selected.forEach(x=>{lo+=Number(x.dataset.low);hi+=Number(x.dataset.high)});
+   lo*=mult;hi*=mult;
+   total.innerHTML=selected.length?money(lo)+' <span>– '+money(hi)+'</span>':'$0 <span>– $0</span>';
+   breakdown.innerHTML=selected.length?selected.map(x=>'<div class="rm-row"><span>'+x.dataset.name+'</span><strong>'+money(Number(x.dataset.low)*mult)+'–'+money(Number(x.dataset.high)*mult)+'</strong></div>').join(''):'<div class="rm-row"><span>No repairs selected yet.</span></div>';
+   const updated=root.querySelector('input[name="updated"]:checked')?.value;
+   status.textContent=selected.length?(updated==='yes'?'Because the property has recent updates, double-check that selected items truly need replacement. ':'')+'Planning estimate only. Actual contractor bids may be lower or higher based on scope, materials, permits, access and hidden conditions.':'Select repairs to build your estimate. The condition setting adds a modest planning allowance for complexity and hidden work; it is not a substitute for bids.';
+ }
+ checks.forEach(x=>x.addEventListener('change',calc));condition.addEventListener('change',calc);root.querySelectorAll('input[name="updated"]').forEach(x=>x.addEventListener('change',calc));calc();
+})();
+</script>
+<script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
+</body></html>
