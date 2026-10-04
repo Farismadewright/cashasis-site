@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Fort Bend County Distressed Property"
 readTime: "5 min read"
 tags: ["probate property Fort Bend County", "Fort Bend County", "CashAsIs"]
+image: "/images/Sell a Probate House in Fort Bend.png"
+imageAlt: "Sell a Probate House in Fort Bend County"
 ---
 If you are dealing with a **probate property in Fort Bend County**, timing and the specific property details matter.
 
