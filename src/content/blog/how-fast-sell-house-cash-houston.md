@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Houston Cash Sale"
 readTime: "5 min read"
 tags: ["how fast sell house for cash Houston", "Houston", "CashAsIs"]
+image: "/images/Sell Your Houston Home for Cash.png"
+imageAlt: "How Fast Can I Sell My House for Cash in Houston?"
 faq:
   - q: "How Fast Can I Sell My House for Cash in Houston?"
     a: "A direct cash sale can remove financing, repair, and showing delays, but title and property-specific issues still affect the closing timeline."
