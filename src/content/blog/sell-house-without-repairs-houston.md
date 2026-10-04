@@ -60,3 +60,8 @@ Our goal is to make the process understandable and useful. Give us the property 
 You do not have to commit just to learn your number.
 
 **[Request your CashAsIs offer](/#offer) and tell us about the Houston property.**
+
+
+## Before you repair it, run the numbers
+
+Use the free [Houston Fix It or Sell It repair-cost calculator](/fix-it-or-sell-it/) to estimate current retail homeowner repair costs before deciding whether to renovate or request an as-is offer.
