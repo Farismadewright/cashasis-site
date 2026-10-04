@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Montgomery County Distressed Property"
 readTime: "5 min read"
 tags: ["pre-foreclosure property Montgomery County", "Montgomery County", "CashAsIs"]
+image: "/images/Montgomery County Foreclosure Solutions.png"
+imageAlt: "Sell a House Before Foreclosure in Montgomery County"
 ---
 If you are dealing with a **pre-foreclosure property in Montgomery County**, timing and the specific property details matter.
 
