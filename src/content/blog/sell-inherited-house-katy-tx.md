@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Katy Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Katy", "sell house Katy", "CashAsIs"]
+image: "/images/Sell an Inherited House in Katy, TX.png"
+imageAlt: "Sell an Inherited House in Katy, TX"
 ---
 A **inherited house in Katy** can create a very different selling situation from a move-in-ready house.
 
