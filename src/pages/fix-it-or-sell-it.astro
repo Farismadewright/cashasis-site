@@ -24,7 +24,7 @@ const faq=[
 <div class="rm-grid">
 <section class="rm-panel">
 <h2>Build your repair list</h2><p class="hint">Enter the property's approximate living area, then choose the work you believe it needs. The calculator returns one estimated retail repair budget instead of a giant range.</p>
-<div class="rm-q"><label class="title" for="sqft">Approximate house size (living area)</label><input id="sqft" type="number" min="400" max="10000" step="50" value="1800" inputmode="numeric" style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><p class="hint" style="margin:7px 0 0">Use approximate heated/living square feet. We use this where size actually drives the retail job cost.</p></div>
+<div class="rm-q"><label class="title" for="propertyAddress">Property address</label><input id="propertyAddress" type="text" autocomplete="street-address" placeholder="Start typing the property address..." style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><p class="hint" style="margin:7px 0 14px">Enter the property you are estimating so your repair calculation stays tied to the right house.</p><label class="title" for="sqft">Approximate house size (living area)</label><input id="sqft" type="number" min="400" max="10000" step="50" value="1800" inputmode="numeric" style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><p class="hint" style="margin:7px 0 0">Use approximate heated/living square feet. We use this where size actually drives the retail job cost.</p></div>
 <div class="rm-q"><label class="title">Has the property been substantially updated in the last 5 years?</label><div class="rm-choice"><label><input type="radio" name="updated" value="yes">Yes</label><label><input type="radio" name="updated" value="some" checked>Some updates</label><label><input type="radio" name="updated" value="no">No</label></div></div>
 <div class="rm-q"><label class="title" for="condition">How would you describe the property overall?</label><select id="condition" style="width:100%;padding:12px;border:1px solid #d9dee6;border-radius:10px;font:inherit"><option value="1">Mostly maintained</option><option value="1.08" selected>Outdated / deferred maintenance</option><option value="1.18">Significant deferred maintenance</option></select></div>
 <div class="rm-q"><label class="title">What may need work?</label>
@@ -77,9 +77,13 @@ const faq=[
 <script is:inline>
 (function(){
  const root=document, checks=[...root.querySelectorAll('#repairs input[type="checkbox"]')];
- const condition=root.querySelector('#condition'), sqft=root.querySelector('#sqft');
+ const condition=root.querySelector('#condition'), sqft=root.querySelector('#sqft'), propertyAddress=root.querySelector('#propertyAddress');
  const total=root.querySelector('#total'), breakdown=root.querySelector('#breakdown'), status=root.querySelector('#status'), skipAmount=root.querySelector('#skipAmount'), fixFirst=root.querySelector('#fixFirst'), asIsSave=root.querySelector('#asIsSave');
  let displayedTotal=0, animFrame=null;
+ const calcSession=(crypto.randomUUID?crypto.randomUUID():('calc_'+Date.now()+'_'+Math.random().toString(36).slice(2)));
+ let warehouseStarted=false, warehouseTimer=null;
+ const SB_URL='https://mzqzmnrmjdjzuxgrdzcd.supabase.co/rest/v1/repair_calculator_sessions';
+ const SB_KEY='sb_publishable_Ymc7IT9-6ZifGj-fnsCJ6A_Zqj6FryH';
  const money=n=>'$'+Math.round(n).toLocaleString('en-US');
  const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
  function scopeValue(name){const s=root.querySelector('[data-scope="'+name+'"]');return s?Number(s.value):0}
@@ -97,6 +101,17 @@ const faq=[
    if(method==='kitchen') return scopeValue(n);
    if(method==='bath') return Number(root.querySelector('#bathCount').value)*Number(root.querySelector('#bathScope').value);
    return 0;
+ }
+ function warehouseSnapshot(){
+   const selected=checks.filter(x=>x.checked);
+   const scopes={}; root.querySelectorAll('.scope select').forEach(function(s){const wrap=s.closest('.scope');if(wrap)scopes[wrap.dataset.for]=s.options[s.selectedIndex]?s.options[s.selectedIndex].text:s.value});
+   return {session_id:calcSession,property_address:propertyAddress.value.trim()||null,square_feet:Number(sqft.value)||null,updated_status:(root.querySelector('input[name="updated"]:checked')||{}).value||null,condition_label:condition.options[condition.selectedIndex]?condition.options[condition.selectedIndex].text:null,selected_repairs:selected.map(x=>x.dataset.name),repair_scopes:scopes,estimated_repairs:window.__repairEstimate||0,source:'fix-it-or-sell-it',page_url:location.href,last_activity_at:new Date().toISOString(),updated_at:new Date().toISOString()};
+ }
+ function saveWarehouse(){
+   if(!warehouseStarted)return;
+   clearTimeout(warehouseTimer); warehouseTimer=setTimeout(function(){
+     fetch(SB_URL+'?on_conflict=session_id',{method:'POST',headers:{'apikey':SB_KEY,'Authorization':'Bearer '+SB_KEY,'Content-Type':'application/json','Prefer':'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(warehouseSnapshot())}).catch(function(){});
+   },180);
  }
  function animateMoney(target){
    if(animFrame) cancelAnimationFrame(animFrame);
@@ -117,10 +132,10 @@ const faq=[
    breakdown.innerHTML=selected.length?rows.map(r=>'<div class="rm-row"><span>'+r.name+'</span><strong>'+money(Math.round(r.val/100)*100)+'</strong></div>').join(''):'<div class="rm-row"><span>No repairs selected yet.</span></div>';
    status.textContent=selected.length?'Estimated retail contractor cost for an approximately '+sf.toLocaleString('en-US')+' sq ft Houston-area property. Size-based work uses installed unit pricing; kitchens, bathrooms and foundation use the scope you selected.':'Enter the house size and select repairs to build one estimated retail contractor budget.';
  }
- checks.forEach(x=>x.addEventListener('change',function(){const box=root.querySelector('.scope[data-for="'+x.dataset.name+'"]');if(box)box.classList.toggle('show',x.checked);calc()}));
- root.querySelectorAll('.scope select').forEach(x=>x.addEventListener('change',calc));
- condition.addEventListener('change',calc);sqft.addEventListener('input',calc);
- root.querySelectorAll('input[name="updated"]').forEach(x=>x.addEventListener('change',calc));
+ checks.forEach(x=>x.addEventListener('change',function(){if(!warehouseStarted)warehouseStarted=true;const box=root.querySelector('.scope[data-for="'+x.dataset.name+'"]');if(box)box.classList.toggle('show',x.checked);calc();saveWarehouse()}));
+ root.querySelectorAll('.scope select').forEach(x=>x.addEventListener('change',function(){calc();saveWarehouse()}));
+ condition.addEventListener('change',function(){calc();saveWarehouse()});sqft.addEventListener('input',function(){calc();saveWarehouse()});propertyAddress.addEventListener('change',saveWarehouse);propertyAddress.addEventListener('blur',saveWarehouse);
+ root.querySelectorAll('input[name="updated"]').forEach(x=>x.addEventListener('change',function(){calc();saveWarehouse()}));
  calc();
 })();
 </script>
