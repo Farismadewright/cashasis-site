@@ -7,6 +7,8 @@ category: "Baytown Distressed Property"
 readTime: "5 min read"
 tags: ["sell vacant house Baytown", "Baytown cash buyer", "sell as is Baytown"]
 image: "/images/Sell a Vacant House in Baytown, TX.png"
+imageAlt: "Sell a Vacant House in Baytown, TX"
+image: "/images/Sell a Vacant House in Baytown, TX.png"
 imageAlt: "Sell a Vacant House in Baytown, TX | CashAsIs"
 image: "/images/Sell a Vacant House in Baytown, TX.png"
 imageAlt: "Sell a Vacant House in Baytown, TX | CashAsIs"
