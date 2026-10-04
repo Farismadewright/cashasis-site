@@ -7,6 +7,8 @@ category: "Humble Distressed Property"
 readTime: "5 min read"
 tags: ["sell vacant house Humble", "Humble cash buyer", "sell as is Humble"]
 image: "/images/Sell Your Vacant House in Humble, TX.png"
+imageAlt: "Sell a Vacant House in Humble, TX"
+image: "/images/Sell Your Vacant House in Humble, TX.png"
 imageAlt: "Sell a Vacant House in Humble, TX | CashAsIs"
 image: "/images/Sell Your Vacant House in Humble, TX.png"
 imageAlt: "Sell a Vacant House in Humble, TX | CashAsIs"
