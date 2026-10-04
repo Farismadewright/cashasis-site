@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Cypress Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Cypress", "Cypress cash buyer", "CashAsIs"]
+image: "/images/Sell an Inherited House in Cypress, TX.png"
+imageAlt: "Sell an Inherited House in Cypress, TX"
 ---
 A **inherited house in Cypress** deserves a property-specific evaluation.
 
