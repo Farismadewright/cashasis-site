@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Harris County Distressed Property"
 readTime: "5 min read"
 tags: ["probate property Harris County", "Harris County", "CashAsIs"]
+image: "/images/Probate House Cash Offer Ad.png"
+imageAlt: "Sell a Probate House in Harris County"
 ---
 If you are dealing with a **probate property in Harris County**, timing and the specific property details matter.
 
