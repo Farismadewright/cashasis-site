@@ -7,6 +7,8 @@ category: "Sugar Land Distressed Property"
 readTime: "5 min read"
 tags: ["probate property Sugar Land", "Sugar Land property buyer", "sell as is"]
 image: "/images/Sell a Probate House in Sugar Land.png"
+imageAlt: "Sell a Probate House in Sugar Land, TX"
+image: "/images/Sell a Probate House in Sugar Land.png"
 imageAlt: "Sell a Probate House in Sugar Land, TX | CashAsIs"
 ---
 If you are dealing with a **probate property in Sugar Land**, you can start with the property exactly as it is today.
