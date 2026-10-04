@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Humble Distressed Property"
 readTime: "5 min read"
 tags: ["sell inherited house Humble", "Humble cash buyer", "sell as is Humble"]
+image: "/images/Sell an Inherited House in Humble, TX.png"
+imageAlt: "Sell an Inherited House in Humble, TX"
 ---
 If you own a **inherited house in Humble**, the property may need a different selling process than a clean, market-ready house.
 
