@@ -7,6 +7,8 @@ category: "Pearland Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Pearland", "Pearland cash buyer", "CashAsIs"]
 image: "/images/Sell Your Inherited House in Pearland.png"
+imageAlt: "Sell an Inherited House in Pearland, TX"
+image: "/images/Sell Your Inherited House in Pearland.png"
 imageAlt: "Sell an Inherited House in Pearland, TX | CashAsIs"
 ---
 A **inherited house in Pearland** deserves a property-specific evaluation.
