@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Texas Foreclosure"
 readTime: "5 min read"
 tags: ["how late sell before foreclosure Texas", "Texas", "CashAsIs"]
+image: "/images/How Late Can I Sell Before Foreclosure_.png"
+imageAlt: "How Late Can I Sell Before Foreclosure in Texas?"
 faq:
   - q: "How Late Can I Sell Before Foreclosure in Texas?"
     a: "The practical deadline is before the foreclosure sale, but waiting too long can leave too little time for title, payoff, signatures, and closing."
