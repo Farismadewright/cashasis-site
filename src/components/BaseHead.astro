@@ -22,7 +22,7 @@ const META_PIXEL_ID = '992265673072496'; // e.g. '1234567890'
 const blogPostingSchema = type === 'article' ? {
   '@context':'https://schema.org','@type':'BlogPosting',headline:title,description,image:ogImage,
   datePublished:pubDate,dateModified:updatedDate||pubDate,
-  author:{'@type':'Organization',name:author},
+  author:{'@type':'Organization',name:author,logo:{'@type':'ImageObject',url:LOGO}},
   publisher:{'@type':'Organization',name:SITE,logo:{'@type':'ImageObject',url:LOGO}},
   mainEntityOfPage:{'@type':'WebPage','@id':canonical},
 } : null;
