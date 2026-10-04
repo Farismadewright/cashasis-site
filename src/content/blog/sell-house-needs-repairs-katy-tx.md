@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Katy Distressed Property"
 readTime: "5 min read"
 tags: ["house needing repairs Katy", "sell house Katy", "CashAsIs"]
+image: "/images/Sell Katy Houses Needing Repairs.png"
+imageAlt: "Sell a Katy House That Needs Repairs"
 ---
 A **house needing repairs in Katy** can create a very different selling situation from a move-in-ready house.
 
