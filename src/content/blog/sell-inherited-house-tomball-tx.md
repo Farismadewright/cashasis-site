@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Tomball Distressed Property"
 readTime: "5 min read"
 tags: ["inherited house Tomball", "Tomball cash buyer", "CashAsIs"]
+image: "/images/Selling an Inherited House in Tomball.png"
+imageAlt: "Sell an Inherited House in Tomball, TX | CashAsIs"
 ---
 A **inherited house in Tomball** deserves a property-specific evaluation.
 
