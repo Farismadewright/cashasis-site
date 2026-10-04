@@ -6,6 +6,8 @@ author: "CashAsIs"
 category: "Baytown Distressed Property"
 readTime: "5 min read"
 tags: ["sell house needing repairs Baytown", "Baytown cash buyer", "sell as is Baytown"]
+image: "/images/Baytown Repair House Ad.png"
+imageAlt: "Sell a Baytown House That Needs Repairs"
 ---
 If you own a **house needing repairs in Baytown**, the property may need a different selling process than a clean, market-ready house.
 
