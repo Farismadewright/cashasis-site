@@ -161,19 +161,17 @@ const faq=[
 <script is:inline>
 <script is:inline>
 (function(){
- var inputs=[document.getElementById('propertyAddress'),document.querySelector('#caoModalForm input[name="address"]')].filter(Boolean);
- function install(){
-   if(!window.google||!google.maps||!google.maps.places||!google.maps.places.Autocomplete)return;
-   inputs.forEach(function(input){
-     if(input.dataset.autocompleteReady==='1')return; input.dataset.autocompleteReady='1';
-     var ac=new google.maps.places.Autocomplete(input,{componentRestrictions:{country:'us'},fields:['formatted_address','address_components','geometry'],types:['address']});
-     ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)input.value=p.formatted_address;input.dispatchEvent(new Event('change',{bubbles:true}))});
-   });
+ var API='https://places.googleapis.com/v1/places:autocomplete';
+ var KEY='AIzaSyASelo7CuCfmWpoUoCWsy_cWDOPXOd5T00';
+ function attach(input){
+   if(!input||input.dataset.addressSuggest==='1')return;input.dataset.addressSuggest='1';input.setAttribute('autocomplete','off');
+   var list=document.createElement('div');list.className='ac-list';input.parentNode.appendChild(list);var timer=null,controller=null,session=(crypto.randomUUID?crypto.randomUUID():String(Date.now()));
+   input.addEventListener('input',function(){clearTimeout(timer);var q=input.value.trim();if(q.length<3){list.classList.remove('show');list.innerHTML='';return}timer=setTimeout(function(){lookup(q)},220)});
+   async function lookup(q){try{if(controller)controller.abort();controller=new AbortController();var r=await fetch(API,{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json','X-Goog-Api-Key':KEY,'X-Goog-FieldMask':'suggestions.placePrediction.text,suggestions.placePrediction.placeId'},body:JSON.stringify({input:q,sessionToken:session,includedRegionCodes:['us']})});if(!r.ok)throw new Error('places_'+r.status);var d=await r.json(),sg=d.suggestions||[];list.innerHTML='';sg.slice(0,5).forEach(function(s){var p=s.placePrediction;if(!p)return;var item=document.createElement('div');item.className='ac-item';item.tabIndex=0;item.textContent=(p.text&&p.text.text)||'';function choose(){input.value=item.textContent;list.classList.remove('show');list.innerHTML='';input.dispatchEvent(new Event('change',{bubbles:true}));session=(crypto.randomUUID?crypto.randomUUID():String(Date.now()))}item.addEventListener('mousedown',function(ev){ev.preventDefault()});item.addEventListener('click',choose);item.addEventListener('keydown',function(ev){if(ev.key==='Enter'){ev.preventDefault();choose()}});list.appendChild(item)});if(list.children.length)list.classList.add('show');else list.classList.remove('show')}catch(err){if(err.name!=='AbortError'){list.classList.remove('show')}}}
+   document.addEventListener('click',function(ev){if(ev.target!==input&&!list.contains(ev.target))list.classList.remove('show')});
  }
- window.__cashasisPlacesReady=install;
- if(window.google&&google.maps&&google.maps.places)install();
+ attach(document.getElementById('propertyAddress'));attach(document.querySelector('#caoModalForm input[name="address"]'));
 })();
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASelo7CuCfmWpoUoCWsy_cWDOPXOd5T00&libraries=places&callback=__cashasisPlacesReady"></script>
 <script is:inline src="https://link.msgsndr.com/js/external-tracking.js" data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf"></script>
 </body></html>
