@@ -1,9 +1,7 @@
+import { preflight, queueAttribution, markReady, processReceipt, archiveReceipt } from './_shared/attribution-queue.js';
 import crypto from 'node:crypto';
 
 const META_DATASET_ID = '992265673072496';
-const META_CAPI_ACCESS_TOKEN = process.env.META_CAPI_ACCESS_TOKEN || '';
-const META_TEST_EVENT_CODE = process.env.META_TEST_EVENT_CODE || '';
-const GHL_WEBHOOK_URL = process.env.GHL_WEBHOOK_URL || 'https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d';
 
 const json = (statusCode, body) => ({
   statusCode,
@@ -45,6 +43,9 @@ function normalizePhone(value) {
 }
 
 async function sendMetaLead(body, event) {
+  if(/^attribution\.qa\.(google|meta|organic|preserve)\.20261005@example\.invalid$/i.test(body.email||''))return {ok:true,skipped:true};
+  const META_TEST_EVENT_CODE = Netlify.env.get('META_TEST_EVENT_CODE') || '';
+  const META_CAPI_ACCESS_TOKEN = Netlify.env.get('META_CAPI_ACCESS_TOKEN') || '';
   if (!META_CAPI_ACCESS_TOKEN) {
     console.warn('[lead-submit] META_CAPI_ACCESS_TOKEN missing; CAPI skipped');
     return { ok: false, skipped: true };
@@ -97,7 +98,8 @@ async function sendMetaLead(body, event) {
   return { ok: true };
 }
 
-export async function handler(event) {
+async function handler(event) {
+  const GHL_WEBHOOK_URL = Netlify.env.get('GHL_WEBHOOK_URL') || 'https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d';
   if (event.httpMethod === 'OPTIONS') return json(204, {});
   if (event.httpMethod !== 'POST') return json(405, { ok: false, error: 'method_not_allowed' });
 
@@ -130,10 +132,17 @@ export async function handler(event) {
     return json(200, { ok: true, filtered: true, reason: 'email' });
   }
 
+  if(body.tcpa_consent!==true)return json(400,{ok:false,error:'consent_required'});
   const outbound = { ...body };
+  delete outbound.attribution;
   delete outbound._website;
   delete outbound._started_at;
 
+  let receiptId=null;
+  try {
+    await preflight(body);
+    receiptId=await queueAttribution(body);
+  }catch(err){return json(err.message==='identity_conflict'?409:503,{ok:false,error:err.message==='identity_conflict'?'identity_conflict':'intake_temporarily_unavailable'});}
   try {
     const response = await fetch(GHL_WEBHOOK_URL, {
       method: 'POST',
@@ -142,16 +151,24 @@ export async function handler(event) {
     });
     const upstreamText = await response.text();
     if (!response.ok) {
+      if(receiptId)await archiveReceipt(receiptId,'intake_rejected');
       console.error('[lead-submit] GHL rejected request', response.status, upstreamText);
       return json(502, { ok: false, error: 'upstream_error', status: response.status });
     }
     console.log('[lead-submit] forwarded lead', { email: outbound.email, address: outbound.address1, stage: outbound.stage });
+    let attribution={status:'not_recorded'};
+    try { if(receiptId){await markReady(receiptId);attribution=await processReceipt(receiptId);}else attribution={status:'no_evidence'}; } catch(err) { console.error('[lead-submit] Attribution persistence failed',err.message); attribution={status:'error'}; }
     let capi = { ok: true, skipped: true };
     try { capi = await sendMetaLead(body, event); }
     catch (metaErr) { console.error('[lead-submit] Meta CAPI request failed', metaErr && metaErr.message); capi = { ok: false }; }
-    return json(200, { ok: true, forwarded: true, upstream_status: response.status, capi_ok: !!capi.ok, meta_event_id: body.meta_event_id || null });
+    return json(200, { ok: true, forwarded: true, is_test: /^attribution\.qa\.(google|meta|organic|preserve)\.20261005@example\.invalid$/i.test(body.email||''), attribution_status: attribution.status, upstream_status: response.status, capi_ok: !!capi.ok, meta_event_id: body.meta_event_id || null });
   } catch (err) {
     console.error('[lead-submit] GHL request failed', err && err.message);
     return json(502, { ok: false, error: 'upstream_unavailable' });
   }
 };
+
+export default async function(request) {
+  const result=await handler({httpMethod:request.method,headers:Object.fromEntries(request.headers),body:request.method==='GET'||request.method==='HEAD'?'':await request.text()});
+  return new Response(result.statusCode===204?null:result.body,{status:result.statusCode,headers:result.headers});
+}
