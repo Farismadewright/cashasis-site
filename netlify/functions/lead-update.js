@@ -1,10 +1,9 @@
-import { preflight, queueAttribution, markReady, processReceipt } from './_shared/attribution-queue.js';
+import { conditionTimelinePatch } from './_shared/condition-timeline.js';
+import { attributionStore, publishedProduction, preflight, queueAttribution, markReady, processReceipt } from './_shared/attribution-queue.js';
 import crypto from 'node:crypto';
 
 const LOCATION_ID = 'O3BfhO3fUHCu0LXCtV7e';
 const META_DATASET_ID = '992265673072496';
-const PROPERTY_CONDITION_FIELD = '01i2ggTacsfSrYfKqLxq';
-const TIMELINE_FIELD = 'Dwz4ZW2U43Psb6h6nDs3';
 
 function json(statusCode, body) {
   return { statusCode, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' }, body: JSON.stringify(body) };
@@ -33,26 +32,26 @@ async function metaLead(body,eventId,event){
   const r=await fetch('https://graph.facebook.com/v23.0/'+META_DATASET_ID+'/events?access_token='+encodeURIComponent(token),{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(payload)});
   if(!r.ok)console.error('[lead-update] Meta CAPI rejected',r.status,await r.text());
 }
-async function handler(event){
+async function handler(event, context){
   if(event.httpMethod!=='POST')return json(405,{ok:false,error:'method_not_allowed'});
   let b;try{b=JSON.parse(event.body||'{}')}catch{return json(400,{ok:false,error:'invalid_json'})}
   if(b.tcpa_consent!==true)return json(400,{ok:false,error:'consent_required'});
   if(!b.email&&!b.phone)return json(400,{ok:false,error:'identity_required'});
   try{
+    const details=conditionTimelinePatch(b);
     const contact=await preflight(b,ghl);if(!contact)return json(404,{ok:false,error:'contact_not_found'});
-    const receiptId=await queueAttribution(b);
-    await ghl('/contacts/'+contact.id,{method:'PUT',body:JSON.stringify({customFields:[
-      {id:PROPERTY_CONDITION_FIELD,fieldValue:String(b.property_condition||'')},
-      {id:TIMELINE_FIELD,fieldValue:String(b.selling_timeline||'')}
-    ]})});
+    const store=b.attribution?attributionStore(context):undefined;
+    const receiptId=await queueAttribution(b,store);
+    if(details.length)await ghl('/contacts/'+contact.id,{method:'PUT',body:JSON.stringify({customFields:details})});
     let attribution={status:'not_recorded'};
-    try{if(receiptId){await markReady(receiptId);attribution=await processReceipt(receiptId,undefined,ghl);}else attribution={status:'no_evidence'};}catch(e){console.error('[lead-update] Attribution persistence failed',e.message);attribution={status:'error'};}
+    try{if(receiptId){await markReady(receiptId,store);attribution=await processReceipt(receiptId,store,ghl);}else attribution={status:'no_evidence'};}catch(e){console.error('[lead-update] Attribution persistence failed',e.message);attribution={status:'error'};}
     const eid=String(b.meta_event_id||('lead_'+Date.now()));
     try{await metaLead(b,eid,event)}catch(e){console.error('[lead-update] CAPI failed',e.message)}
     return json(200,{ok:true,updated:true,is_test:/^attribution\.qa\.(google|meta|organic|preserve)\.20261005@example\.invalid$/i.test(b.email||''),attribution_status:attribution.status,contact_id:contact.id,meta_event_id:eid});
-  }catch(e){console.error('[lead-update]',e.message);return json(e.message==='identity_conflict'?409:502,{ok:false,error:e.message==='identity_conflict'?'identity_conflict':'update_failed'});}
+  }catch(e){console.error('[lead-update]',e.message);const invalid=e.message==='final_details_required'||e.message.startsWith('invalid_');return json(invalid?400:e.message==='identity_conflict'?409:502,{ok:false,error:invalid||e.message==='identity_conflict'?e.message:'update_failed'});}
 }
-export default async function(request) {
-  const result=await handler({httpMethod:request.method,headers:Object.fromEntries(request.headers),body:request.method==='GET'||request.method==='HEAD'?'':await request.text()});
-  return new Response(result.statusCode===204?null:result.body,{status:result.statusCode,headers:result.headers});
+export default async function(request, context) {
+  if(request.method==='POST'&&!publishedProduction(context))return Response.json({ok:false,error:'non_production_intake_disabled'},{status:503});
+  const result=await handler({httpMethod:request.method,headers:Object.fromEntries(request.headers),body:request.method==='GET'||request.method==='HEAD'?'':await request.text()},context);
+  return new Response(result.statusCode===204?null:result.body,{status:result.statusCode,headers:{...result.headers,'x-cashasis-runtime-scope':context?.deploy?.context||'unknown','x-cashasis-current-deploy':String(context?.deploy?.published===true)}});
 }

@@ -1,4 +1,4 @@
-import { preflight, queueAttribution, markReady, processReceipt, archiveReceipt } from './_shared/attribution-queue.js';
+import { attributionStore, publishedProduction, preflight, queueAttribution, markReady, processReceipt, archiveReceipt } from './_shared/attribution-queue.js';
 import crypto from 'node:crypto';
 
 const META_DATASET_ID = '992265673072496';
@@ -98,7 +98,7 @@ async function sendMetaLead(body, event) {
   return { ok: true };
 }
 
-async function handler(event) {
+async function handler(event, context) {
   const GHL_WEBHOOK_URL = Netlify.env.get('GHL_WEBHOOK_URL') || 'https://services.leadconnectorhq.com/hooks/O3BfhO3fUHCu0LXCtV7e/webhook-trigger/570a225e-0922-4942-90c6-7e3bd28b086d';
   if (event.httpMethod === 'OPTIONS') return json(204, {});
   if (event.httpMethod !== 'POST') return json(405, { ok: false, error: 'method_not_allowed' });
@@ -138,10 +138,11 @@ async function handler(event) {
   delete outbound._website;
   delete outbound._started_at;
 
+  const store=body.attribution?attributionStore(context):undefined;
   let receiptId=null;
   try {
     await preflight(body);
-    receiptId=await queueAttribution(body);
+    receiptId=await queueAttribution(body,store);
   }catch(err){return json(err.message==='identity_conflict'?409:503,{ok:false,error:err.message==='identity_conflict'?'identity_conflict':'intake_temporarily_unavailable'});}
   try {
     const response = await fetch(GHL_WEBHOOK_URL, {
@@ -151,13 +152,13 @@ async function handler(event) {
     });
     const upstreamText = await response.text();
     if (!response.ok) {
-      if(receiptId)await archiveReceipt(receiptId,'intake_rejected');
+      if(receiptId)await archiveReceipt(receiptId,'intake_rejected',store);
       console.error('[lead-submit] GHL rejected request', response.status, upstreamText);
       return json(502, { ok: false, error: 'upstream_error', status: response.status });
     }
     console.log('[lead-submit] forwarded lead', { email: outbound.email, address: outbound.address1, stage: outbound.stage });
     let attribution={status:'not_recorded'};
-    try { if(receiptId){await markReady(receiptId);attribution=await processReceipt(receiptId);}else attribution={status:'no_evidence'}; } catch(err) { console.error('[lead-submit] Attribution persistence failed',err.message); attribution={status:'error'}; }
+    try { if(receiptId){await markReady(receiptId,store);attribution=await processReceipt(receiptId,store);}else attribution={status:'no_evidence'}; } catch(err) { console.error('[lead-submit] Attribution persistence failed',err.message); attribution={status:'error'}; }
     let capi = { ok: true, skipped: true };
     try { capi = await sendMetaLead(body, event); }
     catch (metaErr) { console.error('[lead-submit] Meta CAPI request failed', metaErr && metaErr.message); capi = { ok: false }; }
@@ -168,7 +169,8 @@ async function handler(event) {
   }
 };
 
-export default async function(request) {
-  const result=await handler({httpMethod:request.method,headers:Object.fromEntries(request.headers),body:request.method==='GET'||request.method==='HEAD'?'':await request.text()});
-  return new Response(result.statusCode===204?null:result.body,{status:result.statusCode,headers:result.headers});
+export default async function(request, context) {
+  if(request.method==='POST'&&!publishedProduction(context))return Response.json({ok:false,error:'non_production_intake_disabled'},{status:503});
+  const result=await handler({httpMethod:request.method,headers:Object.fromEntries(request.headers),body:request.method==='GET'||request.method==='HEAD'?'':await request.text()},context);
+  return new Response(result.statusCode===204?null:result.body,{status:result.statusCode,headers:{...result.headers,'x-cashasis-runtime-scope':context?.deploy?.context||'unknown','x-cashasis-current-deploy':String(context?.deploy?.published===true)}});
 }

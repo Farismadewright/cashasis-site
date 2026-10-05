@@ -1,6 +1,7 @@
-import {attributionStore,processReceipt,archiveReceipt} from './_shared/attribution-queue.js';
-export default async function(){
- const store=attributionStore();const started=Date.now();const cursor=await store.get('reconciliation-cursor',{type:'json'});const offset=Math.max(0,Number(cursor?.offset)||0);let skipped=0,removed=0;let inspected=0,processed=0,pending=0;
+import {attributionStore,processReceipt,archiveReceipt,publishedProduction} from './_shared/attribution-queue.js';
+export default async function(request,context){
+ if(!publishedProduction(context))return new Response(null,{status:503});
+ const store=attributionStore(context);const started=Date.now();const cursor=await store.get('reconciliation-cursor',{type:'json'});const offset=Math.max(0,Number(cursor?.offset)||0);let skipped=0,removed=0;let inspected=0,processed=0,pending=0;
  // Low-volume bounded reconciliation; never read or rewrite seller contact data outside saved receipts.
  for await(const page of store.list({prefix:'pending/',paginate:true})){
   for(const item of page.blobs){

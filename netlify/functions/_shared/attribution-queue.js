@@ -3,7 +3,24 @@ import {getStore} from '@netlify/blobs';
 import {sanitizeEvidence,persistAttribution,resolveContact} from './attribution.js';
 export const hash=v=>crypto.createHash('sha256').update(String(v)).digest('hex');
 const phone=v=>String(v||'').replace(/\D/g,'').replace(/^1(?=\d{10}$)/,'');
-export function attributionStore(){const context=Netlify.env.get('CONTEXT');return getStore({name:context==='production'?'cashasis-attribution-v1':'cashasis-attribution-preview-'+String(Netlify.env.get('DEPLOY_ID')||'local'),consistency:'strong'});}
+export function publishedProduction(context){return context?.deploy?.context==='production'&&context?.deploy?.published===true;}
+export function createStoreView(primary,legacyStores=[]){
+ async function read(key){let value=await primary.getWithMetadata(key,{type:'json'});if(key.startsWith('locks/')){for(const legacy of legacyStores){const old=await legacy.get(key,{type:'json'});if(old?.until>Date.now()&&(!value||old.until>(value.data?.until||0))){await primary.setJSON(key,old,value?{onlyIfMatch:value.etag}:{onlyIfNew:true});value=await primary.getWithMetadata(key,{type:'json'});if(!value||value.data.until<old.until)throw Error('legacy_active_lease_conflict');}}if(value)return value;}if(value)return value;for(const legacy of legacyStores){const old=await legacy.get(key,{type:'json'});if(old!==null){await primary.setJSON(key,old,{onlyIfNew:true});value=await primary.getWithMetadata(key,{type:'json'});if(!value)throw Error('legacy_receipt_readback_failed');return value;}}return null;}
+ return {
+  get:async key=>(await read(key))?.data??null,
+  getWithMetadata:read,
+  setJSON:async(key,value,options={})=>{if(options.onlyIfNew)await read(key);return primary.setJSON(key,value,options);},
+  delete:async key=>{if(!key.startsWith('pending/'))throw Error('only_transient_pending_cleanup_allowed');await primary.delete(key);for(const legacy of legacyStores)await legacy.delete(key);},
+  list:async function*(options){const seen=new Set;for(const source of [primary,...legacyStores]){for await(const page of source.list(options)){const blobs=page.blobs.filter(item=>{if(seen.has(item.key))return false;seen.add(item.key);return true;});if(blobs.length)yield {blobs};}}}
+ };
+}
+export function attributionStore(context){
+ if(!publishedProduction(context))throw Error('non_production_intake_disabled');
+ const primary=getStore({name:'cashasis-attribution-v1',consistency:'strong'});
+ // Preserve the first release's exact possible runtime fallback namespaces; never read other app stores.
+ const legacy=['cashasis-attribution-preview-local','cashasis-attribution-preview-6ac3d18a1f91290008b75a0f'].map(name=>getStore({name,consistency:'strong'}));
+ return createStoreView(primary,legacy);
+}
 export async function ghl(path,options={}){const token=Netlify.env.get('GHL_PRIVATE_INTEGRATION_TOKEN')||Netlify.env.get('GHL_API_TOKEN');if(!token)throw Error('ghl_api_token_missing');const r=await fetch('https://services.leadconnectorhq.com'+path,{...options,signal:AbortSignal.timeout(8000),headers:{Authorization:'Bearer '+token,Version:'2021-07-28','Content-Type':'application/json'}});if(!r.ok)throw Error('attribution_ghl_'+r.status);return r.json();}
 export function identityMatches(body,contact){if(!contact)return true;if(body.email&&contact.email&&body.email.trim().toLowerCase()!==contact.email.trim().toLowerCase())return false;if(body.phone&&contact.phone&&phone(body.phone)!==phone(contact.phone))return false;return true;}
 export async function preflight(body,api=ghl){const a=await resolveContact(body,api);if(!identityMatches(body,a))throw Error('identity_conflict');if(body.phone){const r=await api('/contacts/search/duplicate?locationId=O3BfhO3fUHCu0LXCtV7e&number='+encodeURIComponent(body.phone));let b=r.contact||(r.contacts&&r.contacts[0]);if(b){const full=await api('/contacts/'+b.id);b=full.contact||full;}if(b&&((a&&a.id!==b.id)||!identityMatches(body,b)))throw Error('identity_conflict');}return a;}
@@ -18,7 +35,7 @@ export async function queueAttribution(body,store){
  await store.setJSON(key,entry,{onlyIfNew:true});const saved=await store.get(key,{type:'json'});if(!saved||saved.id!==id)throw Error('receipt_readback_failed');return id;
 }
 export async function processReceipt(id,store=attributionStore(),api=ghl){
- const key='pending/'+id;const done=await store.get('completed/'+id,{type:'json'});if(done)return {status:done.status};let receipt=await store.get(key,{type:'json'});if(!receipt)return {status:'missing_receipt'};if(receipt.status==='awaiting_intake'&&Date.now()-Date.parse(receipt.createdAt)<60000)return {status:'awaiting_intake'};
+ const key='pending/'+id;const done=await store.get('completed/'+id,{type:'json'});if(done){await store.delete(key);return {status:done.status};}let receipt=await store.get(key,{type:'json'});if(!receipt)return {status:'missing_receipt'};if(receipt.status==='awaiting_intake'&&Date.now()-Date.parse(receipt.createdAt)<60000)return {status:'awaiting_intake'};
  if(Date.now()-Date.parse(receipt.createdAt)>30*86400000){await store.setJSON('completed/'+id,{id,status:'expired',createdAt:receipt.createdAt,updatedAt:new Date().toISOString()},{onlyIfNew:true});if(await store.get('completed/'+id,{type:'json'}))await store.delete(key);return {status:'expired'};}
  if(['recorded','identity_conflict','review_required','expired','intake_rejected'].includes(receipt.status)){await archiveReceipt(id,receipt.status,store);return {status:receipt.status};}
  let contact=await resolveContact({email:receipt.email},api);if(!contact){await store.setJSON(key,{...receipt,status:'pending_contact_creation',attempts:receipt.attempts+1,nextAttemptAt:Date.now()+3600000});return {status:'pending_contact_creation'};}
