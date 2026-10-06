@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/inject-attribution.mjs",
+    "build": "astro build && node scripts/inject-attribution.mjs && node scripts/inject-dni.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
