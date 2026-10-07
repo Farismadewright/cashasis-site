@@ -1,12 +1,8 @@
+# QA-ONLY branch configuration. Do not merge this branch into production.
 [build]
-  command = "npm run build"
-  publish = "dist"
-
+  command = "node _qa-form/build.mjs"
+  publish = "_qa-form/site"
 [build.environment]
   NODE_VERSION = "22"
-
-# Seller forms post directly to /.netlify/functions/lead-submit.
-# No global HTML-rewrite edge function is needed; this keeps form routing deterministic.
-
-# When you wire cashasis.com/blog later, the main site proxies /blog/* here.
-# That redirect rule lives on the MAIN site's config, not this one.
+[functions]
+  directory = "_qa-form/no-functions"
