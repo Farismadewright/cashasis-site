@@ -387,6 +387,8 @@
   /* Immediate, accessible feedback for every homepage offer action. */
   #caoCard button:disabled,#caoModal button:disabled{cursor:wait;opacity:.72}
   .cao-loading{display:flex;align-items:center;justify-content:center;gap:10px}
+  #caoCard .cao-loading:disabled,#caoModal .cao-loading:disabled{opacity:1}
+  .cao-opt.cao-loading{color:var(--navy,#0D1B2A);font-family:inherit;font-size:16px;font-weight:700}
   .cao-loading::before{content:"";width:16px;height:16px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:cao-spin .7s linear infinite;flex:none}
   @keyframes cao-spin{to{transform:rotate(360deg)}}
   @media(prefers-reduced-motion:reduce){.cao-loading::before{animation:none}}
