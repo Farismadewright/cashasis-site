@@ -1,0 +1,8 @@
+[
+  {
+    "slug": "publisher-validation",
+    "intentKey": "workflow-validation-only",
+    "status": "preview",
+    "productionEligible": false
+  }
+]

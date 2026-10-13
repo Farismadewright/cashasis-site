@@ -1,0 +1,44 @@
+{
+  "runId": "validation-2026-10-13",
+  "slug": "publisher-validation",
+  "intentKey": "workflow-validation-only",
+  "status": "preview",
+  "nearestOverlaps": [
+    "compare-the-net"
+  ],
+  "substantiveDifference": "Test fixture only; not a production topic",
+  "sources": [],
+  "checks": {
+    "editorial": "pass",
+    "originality": "pending",
+    "facts": "pass",
+    "thumbnail": "pending",
+    "build": "pass",
+    "render": "pending",
+    "deploy": "pass",
+    "conversion": "pending"
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "note": "No paid external runner enabled; generation cost unknown."
+  },
+  "image": {
+    "provenance": "imagegen illustrative property background; deterministic exact-logo overlay",
+    "prompt": "Houston brick house on right, natural daylight, shaded left negative space, no text/address/logo/people",
+    "sha256": "dab85ac4c7451196748f86a921f8b51c121147da7ecc70dae3f314b13d47473d"
+  },
+  "commit": "49b98725693f09e1f0dc4820f9526e4ce82f3bef",
+  "deployId": "6ace67d0f47ecf85b24b085a",
+  "url": "https://6ace67d0f47ecf85b24b085a--cashasis-blog.netlify.app/blog/publisher-validation/",
+  "validationEvidence": {
+    "http": 200,
+    "noindex": true,
+    "desktopRender": "pass",
+    "faqInteraction": "pass",
+    "tableFitsDesktop": true,
+    "mobile": "pending",
+    "conversion": "pending",
+    "productionDesignChanged": false
+  }
+}
