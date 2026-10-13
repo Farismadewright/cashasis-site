@@ -1,0 +1,151 @@
+{
+  "runId": "native-e2e-20261013T210230Z",
+  "slug": "mortgage-payoff-vs-balance-houston",
+  "intentKey": "mortgage-payoff-quote-vs-statement-balance-seller-proceeds-houston",
+  "status": "preview",
+  "validationOnly": true,
+  "title": "Mortgage Payoff vs. Balance: What Houston Sellers Should Check",
+  "description": "Selling a Houston house with a mortgage? Learn why your payoff can differ from your balance and use a checklist to estimate what remains at closing.",
+  "primaryKeyword": "mortgage payoff vs balance when selling a house",
+  "supportingKeywords": [
+    "Houston mortgage payoff",
+    "seller proceeds after mortgage payoff",
+    "cash offer with mortgage",
+    "payoff statement closing date"
+  ],
+  "nearestOverlaps": [
+    "/compare-the-net/",
+    "/understanding-your-cash-offer/",
+    "/blog/how-cash-offer-house-works-houston/",
+    "/blog/what-happens-back-taxes-when-you-sell/"
+  ],
+  "substantiveDifference": "A dedicated dated-payoff-versus-statement reconciliation, escrow double-counting check and independently calculated seller-proceeds example. Existing pages cover general net, buyer process or back taxes without this loan-document checklist. Current main collection, seller pages and two pending validation PRs reviewed; no city or synonym swap.",
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "eligibleInbound": 49,
+    "theme": "Broad price/offer questions",
+    "screenedDistinctSellers": 6,
+    "limitations": "Bounded keyword screen; not market data, representative prevalence or evidence of individual motives. No private quotes or identifiers retained."
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+      "title": "What is a payoff amount and is it the same as my current balance?",
+      "accessedAt": "2026-10-13",
+      "verifiedAt": "2026-10-13",
+      "publicationDate": "2026-08-31",
+      "reportingPeriod": null,
+      "geography": "United States mortgage consumer guidance",
+      "unit": null,
+      "figure": null,
+      "method": "Read full primary source; HTTP 200 verified",
+      "claim": "Payoff differs from statement balance; includes interest to specified date and may include unpaid charges or applicable prepayment penalty."
+    },
+    {
+      "url": "https://www.tdi.texas.gov/title/titlefaqs.html",
+      "title": "Title insurance FAQ",
+      "accessedAt": "2026-10-13",
+      "verifiedAt": "2026-10-13",
+      "publicationDate": "2024-03-19",
+      "reportingPeriod": null,
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read full regulator source; HTTP 200 verified",
+      "claim": "Buyer and seller may negotiate who pays premium; escrow/closing charges vary; review extra charges and papers."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1024/34/",
+      "title": "Regulation X 1024.34 current version",
+      "accessedAt": "2026-10-13",
+      "verifiedAt": "2026-10-13",
+      "publicationDate": null,
+      "reportingPeriod": "Current regulation at access",
+      "geography": "Covered United States mortgage loans",
+      "unit": null,
+      "figure": null,
+      "method": "Read current regulation and official interpretation; HTTP 200 verified",
+      "claim": "Remaining controlled escrow funds generally refunded subject to conditions; interpretation permits netting against loan balance. Article omits individualized legal instructions."
+    }
+  ],
+  "calculation": {
+    "kind": "hypothetical_not_market_data",
+    "purchasePrice": 180000,
+    "statementBalance": 142000,
+    "payoff": 143250,
+    "otherAssumedSellerItems": 2750,
+    "statementEstimate": 35250,
+    "payoffEstimate": 34000,
+    "difference": 1250,
+    "arithmeticVerified": true
+  },
+  "image": "/images/mortgage-payoff-vs-balance-houston.png",
+  "imageSha256": "0084161ed31c312b3aa9881f42969b62236a2af67d5d2e37760f9b60e60b5da0",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "KNOW YOUR REAL PAYOFF",
+    "wordCount": 4,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "background": "New native imagegen illustrative property; no actual listing or private property represented",
+    "backgroundPrompt": "New realistic modest Houston brick house, right-side composition, shaded left negative space, natural daylight, no people/address/text/logos/watermarks",
+    "provenance": "native imagegen generated exec-0556af8d-05d2-49db-9e26-199e64409feb; exact approved deterministic logo/text composition",
+    "visualReview": "Full-size and article/mobile renders pass; readable exact logo, no background block or clipped text",
+    "backgroundSha256": "3857a89ca370121295f3ca20d9bb087563b321976ce5ddc807780d4d7d983b40"
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work imagegen and existing Netlify plan; no new API/services, existing allowance consumption not separately priced or asserted free."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending",
+    "conversionReporting": "unavailable_optional"
+  },
+  "mobileWidths": [
+    360,
+    390,
+    768,
+    1366
+  ],
+  "mobileEvidence": "No viewport overflow, local accessible table scroll at 360, hero1200 natural width, single H1, interactive FAQ opens",
+  "social": {
+    "slug": "mortgage-payoff-vs-balance-houston",
+    "url": "https://www.cashasis.com/blog/mortgage-payoff-vs-balance-houston/",
+    "image": "https://www.cashasis.com/images/mortgage-payoff-vs-balance-houston.png",
+    "status": "draft_only",
+    "facebook": "Mortgage Payoff vs. Balance: What Houston Sellers Should Check\n\nSelling a Houston house with a mortgage? Learn why your payoff can differ from your balance and use a checklist to estimate what remains at closing.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/mortgage-payoff-vs-balance-houston/",
+    "instagram": "Mortgage Payoff vs. Balance: What Houston Sellers Should Check\n\nSelling a Houston house with a mortgage? Learn why your payoff can differ from your balance and use a checklist to estimate what remains at closing.\n\nRead the guide: https://www.cashasis.com/blog/mortgage-payoff-vs-balance-houston/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Mortgage Payoff vs. Balance: What Houston Sellers Should Check\n\nSelling a Houston house with a mortgage? Learn why your payoff can differ from your balance and use a checklist to estimate what remains at closing.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/mortgage-payoff-vs-balance-houston/",
+    "googleBusinessProfile": "Mortgage Payoff vs. Balance: What Houston Sellers Should Check\n\nSelling a Houston house with a mortgage? Learn why your payoff can differ from your balance and use a checklist to estimate what remains at closing.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/mortgage-payoff-vs-balance-houston/",
+    "promotionalExcerpt": "Selling a Houston house with a mortgage? Learn why your payoff can differ from your balance and use a checklist to estimate what remains at closing.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "validationOnly": true,
+    "publishAllowed": false
+  },
+  "protectedSourceChanges": [],
+  "commit": null,
+  "deployId": null,
+  "url": null
+}
