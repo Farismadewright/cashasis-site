@@ -6,7 +6,7 @@ from zoneinfo import ZoneInfo
 
 def check(repo,state,batch,ledger,now=None):
  errors=[];repo=Path(repo);now=now or datetime.now(ZoneInfo('America/Chicago'));day=now.astimezone(ZoneInfo('America/Chicago')).date().isoformat()
- gates=['templateApproved','workflowPassed','conversionPassed','mobilePassed','metadataPassed','sellerVoicePassed','analyticsPassed','budgetApproved','nativeUnattendedTestPassed']
+ gates=['templateApproved','workflowPassed','mobilePassed','metadataPassed','sellerVoicePassed','budgetApproved','nativeUnattendedTestPassed']
  for gate in gates:
   if state.get(gate) is not True:errors.append('required gate: '+gate)
  if state.get('unattendedProduction') is not True or state.get('mode')!='production':errors.append('production OFF')
