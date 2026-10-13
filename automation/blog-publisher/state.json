@@ -2,8 +2,23 @@
   "mode": "validation",
   "unattendedProduction": false,
   "dailyCap": 0,
-  "templateApproved": false,
+  "templateApproved": true,
   "workflowPassed": false,
   "conversionPassed": false,
-  "runnerEnabled": false
+  "runnerEnabled": false,
+  "template": "left-photo-transparent-v2",
+  "approvedAt": "2026-10-13T12:36:55-05:00",
+  "approval": "Owner: ok yes looks good",
+  "approvedPreviewCommit": "3179b70e486d85fe8f7957d66d4f29b016dcc924",
+  "approvedPreviewDeploy": "6ace6b697087c6b7c279298a",
+  "thumbnailSize": [
+    1200,
+    630
+  ],
+  "templateHashes": {
+    "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+    "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+    "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+    "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  }
 }
