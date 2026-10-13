@@ -1,0 +1,19 @@
+{
+  "lease": {
+    "runId": "native-e2e-20261013T210230Z",
+    "fence": 1,
+    "issuedAt": "2026-10-13T21:05:19.527Z",
+    "expiresAt": "2026-10-13T23:05:19.527Z"
+  },
+  "ledger": [
+    {
+      "runId": "native-e2e-20261013T210230Z",
+      "day": "2026-10-13",
+      "slug": "mortgage-payoff-vs-balance-houston",
+      "intentKey": "mortgage-payoff-quote-vs-statement-balance-seller-proceeds-houston",
+      "status": "reserved",
+      "validationOnly": true
+    }
+  ],
+  "externalApiSpendLimitUSD": 0
+}
