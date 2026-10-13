@@ -15,7 +15,7 @@
     "thumbnail": "pending",
     "build": "pass",
     "render": "pending",
-    "deploy": "pending",
+    "deploy": "pass",
     "conversion": "pending"
   },
   "cost": {
@@ -26,9 +26,19 @@
   "image": {
     "provenance": "imagegen illustrative property background; deterministic exact-logo overlay",
     "prompt": "Houston brick house on right, natural daylight, shaded left negative space, no text/address/logo/people",
-    "sha256": "ed4ded8731d7452423a2b3f0d0e36d686e2706f1e96979866bcd601970185ca8"
+    "sha256": "dab85ac4c7451196748f86a921f8b51c121147da7ecc70dae3f314b13d47473d"
   },
-  "commit": null,
-  "deployId": null,
-  "url": null
+  "commit": "49b98725693f09e1f0dc4820f9526e4ce82f3bef",
+  "deployId": "6ace67d0f47ecf85b24b085a",
+  "url": "https://6ace67d0f47ecf85b24b085a--cashasis-blog.netlify.app/blog/publisher-validation/",
+  "validationEvidence": {
+    "http": 200,
+    "noindex": true,
+    "desktopRender": "pass",
+    "faqInteraction": "pass",
+    "tableFitsDesktop": true,
+    "mobile": "pending",
+    "conversion": "pending",
+    "productionDesignChanged": false
+  }
 }
