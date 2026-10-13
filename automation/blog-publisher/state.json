@@ -1,11 +1,11 @@
 {
-  "mode": "validation",
-  "unattendedProduction": false,
+  "mode": "production",
+  "unattendedProduction": true,
   "dailyCap": 3,
   "templateApproved": true,
   "workflowPassed": true,
   "conversionPassed": false,
-  "runnerEnabled": false,
+  "runnerEnabled": true,
   "template": "left-photo-transparent-v2",
   "approvedAt": "2026-10-13T12:36:55-05:00",
   "approval": "Owner: ok yes looks good",
@@ -29,11 +29,9 @@
   "budgetApproved": true,
   "apiMode": "native",
   "externalApiSpendLimitUSD": 0,
-  "nativeUnattendedTestPassed": false,
+  "nativeUnattendedTestPassed": true,
   "runnerPreflightConfigured": false,
-  "blockers": [
-    "Genuine native unattended end-to-end publishing test has not completed"
-  ],
+  "blockers": [],
   "leasePassed": true,
   "runnerPreflightRequested": true,
   "preflightTaskPaused": false,
@@ -43,5 +41,10 @@
   "conversionReportingRequiredForPublishing": false,
   "unattendedTestRequested": true,
   "unattendedTestTaskId": "6ace70f590248191ba47506d54301acf",
-  "unattendedTestStatus": "requested_not_verified"
+  "unattendedTestStatus": "pass",
+  "unattendedTestEvidence": "automation/blog-publisher/unattended-test-result.json",
+  "unattendedTestCommit": "d51156b167f9185ee003618ba25c5da026fd55b0",
+  "unattendedTestDeploy": "6ace9e213b54b4e694796c30",
+  "activatedAt": "2026-10-13T21:13:48.027Z",
+  "activationAuthority": "Owner authorization conditional on mandatory safe publishing tests; analytics optional per 2026-10-13 update"
 }
