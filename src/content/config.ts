@@ -11,6 +11,8 @@ const blog = defineCollection({
     category: z.string().default('Seller Guide'),  // shows on the card pill
     readTime: z.string().optional(),               // e.g. "6 min read"
     tags: z.array(z.string()).default([]),
+    primaryKeyword: z.string().optional(),
+    supportingKeywords: z.array(z.string()).default([]),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     draft: z.boolean().default(false),

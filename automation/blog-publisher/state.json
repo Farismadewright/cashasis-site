@@ -1,9 +1,9 @@
 {
   "mode": "validation",
   "unattendedProduction": false,
-  "dailyCap": 0,
+  "dailyCap": 3,
   "templateApproved": true,
-  "workflowPassed": false,
+  "workflowPassed": true,
   "conversionPassed": false,
   "runnerEnabled": false,
   "template": "left-photo-transparent-v2",
@@ -20,5 +20,25 @@
     "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
     "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
     "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
-  }
+  },
+  "mobilePassed": true,
+  "metadataPassed": true,
+  "sellerVoicePassed": true,
+  "localAttributionPassed": true,
+  "analyticsPassed": false,
+  "budgetApproved": true,
+  "apiMode": "native",
+  "externalApiSpendLimitUSD": 0,
+  "nativeUnattendedTestPassed": false,
+  "runnerPreflightConfigured": true,
+  "blockers": [
+    "Existing Google Analytics/Search Console read access unavailable: only exposed GSC Wizard returns payment_required",
+    "Live GA delivery/deduplication and GHL blog attribution cannot be confirmed without analytics access; local attribution tests pass",
+    "Full unattended publishing run has not passed"
+  ],
+  "leasePassed": true,
+  "runnerPreflightRequested": true,
+  "preflightTaskPaused": true,
+  "previewValidationCommit": "67dedd005657230bd4ae327deab6059ce1fc9535",
+  "previewValidationDeploy": "6ace7409f59d6c11c46b034b"
 }

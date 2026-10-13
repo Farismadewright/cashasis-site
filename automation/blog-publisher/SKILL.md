@@ -1,54 +1,35 @@
-# Cash As-Is Autonomous Blog Publisher — Skill Rules
-Version: 1.0 | Status: editorial specification, automation NOT enabled
+---
+name: cash-as-is-autonomous-seo-blog-publisher
+description: Operate native ChatGPT Work SEO, AEO and GEO publishing for CashAsIs.com, including read-only GHL seller intelligence, social drafts and up to three daily seller articles and branded thumbnails through Farismadewright/cashasis-site and Netlify. Use for Cash As-Is blog batches, seller content, market analysis, indexing and organic seller conversions. Preserve the Astro website design and enforce staged rollout before unattended publishing.
+---
 
-## Mission
-Produce original, accurate, conversion-aware content for CashAsIs.com that helps Texas property sellers make informed choices. Do not manufacture favorable statistics, imply a cash offer always nets more, or use fear or unsupported claims. Publish only when quality gates pass.
+# Cash As-Is — Autonomous SEO & Blog Publisher
 
-## Existing site is the source of truth
-- Repository: Farismadewright/cashasis-site
-- Astro collection: src/content/blog/*.md
-- Schema: src/content/config.ts
-- Page layout: src/layouts/BlogPost.astro
-- Preserve existing navigation, hero, article body, FAQ, CTA, footer, tracking, CSS, routing, sitemap, RSS and schema; do not overwrite templates without explicit authorization.
-- Frontmatter: title <=70 characters; description 50–160; pubDate; optional updatedDate, author, category, readTime, tags, image, imageAlt, draft, faq[{q,a}]. Validate against Astro schema. Use existing conventions for slug and image paths.
+## Authority and state
+Use `Farismadewright/cashasis-site` and `automation/blog-publisher/SKILL.md` as the starting rulebook. Fetch current main and publishing state each run. Read [site-contract.md](references/site-contract.md) before editing. Preserve live design, routing, CSS, layouts, forms, SEO, tracking and official logo assets.
 
-## Visual design lock
-- Reference artwork: user-approved CashAsIs.com examples: vacant house Spring TX and sell house Humble TX.
-- Maintain exact transparent CashAsIs.com logo asset, orange/white/navy-black palette, bold legible type and realistic property photography. Output exactly 1200×630 to match the existing Astro article/card/OG contract. Use public/images/cashasis-logo-white-transparent-v2.png on dark areas or public/images/cashasis-logo-navy-transparent-v2.png on light areas. Never add a block background behind the logo; preserve aspect ratio and alpha. Inspect current stored thumbnails before each batch.
-- Thumbnail text: one curiosity-provoking but accurate headline of 3–7 words; avoid clutter, small disclaimers, paragraphs, and multiple slogans. Full SEO title belongs in article metadata.
-- Implement image rendering as a deterministic branded template with an approved logo overlay; AI may create background property imagery only. Never depict a real listed property as a documented specific home without rights/source. Check readability, cropping, and logo placement.
-- First template and test images require one-time owner sign-off; subsequent production must use locked template and automated visual QA. If template asset/service unavailable, HOLD publishing rather than substitute an inconsistent image.
+Read [validation-state.json](references/validation-state.json) for initial test evidence; refresh it against current repository state. Determine mode from durable state. Remain **unattended production OFF** until all activation gates pass. Read repository `automation/blog-publisher/state.json`; missing, malformed or inconsistent state means OFF. Read [publishing.md](references/publishing.md). Installation does not schedule or execute publishing. Use ChatGPT Work native scheduling, research, writing and image generation. Configure a paused native runner during validation; do not enable production publishing until every essential gate passes. Do not add Windsor.ai, external writers/image subscriptions, Zapier, Make, external AI runners or paid APIs. Use current tools first. Never buy extra credits or services automatically.
 
-## Editorial content
-- Topic buckets: seller problems (vacancy, inheritance, tax delinquency, pre-foreclosure, tenants, repairs), Houston-area location guides, honest cash-vs-listing comparisons, local market analysis, timelines, selling-cost explainers.
-- Prioritize Harris and Fort Bend; expand only where actual service coverage is verified.
-- Before drafting: inventory existing posts and Search Console queries; reject keyword cannibalization, duplicate topics, spun city variants and thin content.
-- Answer the reader's question immediately; give actionable specifics and nuance; use original calculations or examples clearly labeled hypothetical.
-- Differentiate Cash As-Is on simplicity, condition flexibility, potential speed and no-repair option when supported; never claim best financial outcome for everyone.
-- Avoid legal/tax advice or guarantee of stopping foreclosure. High-stakes claims need verified authoritative sources and review or must be held.
-- Add useful tables, FAQ, comparisons, and charts only where supported. All chart data must include source, geography, date, unit and methodology. No invented numbers.
-- Every article should have helpful headings, relevant internal links, accurate metadata, descriptive image alt text, and a natural offer CTA. Preserve sitewide CTA; do not break tracking.
-- Do not invent customer testimonials, transactions, credentials, statistics or authors.
+The user authorizes creation and testing, including isolated branches and Netlify previews. The corrected transparent-logo template left-photo-transparent-v2 was approved on 2026-10-13. Preserve its approved asset/renderer hashes and 1200×630 output. Do not request routine thumbnail or article approval. The owner authorizes unattended up-to-three/day publishing after the complete workflow passes; further authorization is required only for template changes or new paid services.
 
-## Publication gate (all must pass)
-1. Source freshness, factual checks, especially law/tax/foreclosure/market stats.
-2. Originality and overlap scan with existing blog.
-3. Editorial usefulness and fair comparisons.
-4. Brand thumbnail validation and asset availability.
-5. Schema/frontmatter, Astro build, internal links, image paths, structured data, sitemap/RSS checks.
-6. Deployment health: page returns success, metadata and CTA render, tracking remains intact.
-7. Log sources, generation cost, slug, commit, deployment, result and any errors.
-On failure: do not publish; queue for review, retry safely, and never silently push questionable content.
+## Execute the pipeline
+1. Resolve latest main commit and current Netlify production deploy. Use connected GitHub/Netlify tools and a clean isolated worktree. Never expose secrets.
+2. Inventory all blog articles, static seller pages, pending PRs and the durable topic ledger. Run `scripts/inventory.py REPO`. Compare intent, answer and geography manually too; exact hashes are insufficient for cannibalization. Read [editorial.md](references/editorial.md).
+3. Read [seller-voice.md](references/seller-voice.md) and analyze accessible Cash As-Is GHL inbound messages read-only. Publish only anonymous recurring patterns; never quotes, names, addresses, contact IDs, private amounts or unique stories. Combine this evidence with search opportunities and existing coverage. Select distinct seller questions. Prioritize Harris/Fort Bend; verify service coverage elsewhere. Use GSC demand if accessible; never invent search volume. Improve existing overlapping content instead of spinning cities or synonyms.
+4. Read primary sources and verify facts before drafting. Read [evidence.md](references/evidence.md). Save source URLs, dates, period, geography, units, methodology and supported claims in article evidence records. Never force market facts to favor Cash As-Is.
+5. Write an original, conversational seller article that answers immediately, explains options and offers an actionable decision or labeled calculation. Use house/property. Explain convenience, condition flexibility and potential speed honestly; never claim cash always nets more or guarantees foreclosure prevention. Do not imitate inaccurate claims in old articles.
+6. Apply [discovery-and-social.md](references/discovery-and-social.md): primary/supporting keywords, title/description/slug/canonical, OG and X metadata using the unique thumbnail, BlogPosting, applicable BreadcrumbList, matching visible FAQs and eligible schema. Add direct answers, credible citations, local context, meaningful internal links and descriptive alt text. Use tables/graphs only when they help; generate charts from retained data, never imagegen. Avoid duplicating the layout FAQ/final CTA. Preserve `ctaLink` attribution for extra CTAs.
+7. Read [thumbnail.md](references/thumbnail.md), inspect bundled approved examples, generate illustrative property backgrounds with imagegen and compose using the deterministic template with the exact official logo. Never generate logo lettering.
+8. Generate and store Facebook, Instagram, LinkedIn, Google Business Profile drafts, short excerpt and useful hashtags with scripts/social_drafts.py. Never auto-publish social. Retain a per-article record using [record-contract.json](references/record-contract.json): intent, overlaps/difference, sources, image provenance, real/unknown cost, checks and release IDs. Store mutable ledger/state in the repository, not only scratch or this skill. Keep private CRM data out of public GitHub.
+9. Run full `npm run build` and `scripts/validate_output.py REPO SLUG`. Inspect desktop/mobile article and card; check source links, table widths, chart labels, crop, FAQ, CTA, canonical/schema, image, sitemap/RSS and tracking. Scripts are necessary, not sufficient.
+10. Commit content/images/records to a validation branch, open a draft PR and verify the exact commit's Netlify preview. Mark failures HOLD with reason. Do not merge test fixtures. Publish production only under activated policy in [publishing.md](references/publishing.md); verify runtime release afterward and stop on regression.
 
-## Scheduling and rollout
-- Initial 14 days: target up to 3 articles/day, not a quota; only quality-passing articles.
-- Then up to 5/day; allow up to 10 only after evidence of indexing, quality, and lead performance.
-- Use an external scheduled runner (GitHub Actions or Railway) with secured API credentials, generation and image service, idempotent article IDs, budget ceiling, rate limits, and alerting. A skill file alone does not execute autonomously.
-- Publish to staging/test branch first; verify exact Astro content shape and deploy before enabling live automatic writes.
-- Track GSC impressions/clicks/indexing, GA4 organic leads, and GHL lead attribution where available. Weekly report: published/held, quality errors, top pages, organic leads and conversion rates. Avoid confusing indexing with guaranteed rankings.
-- Do not turn on production schedule, spend money, or change live site layout until runner, image provider, and initial approval are verified.
+## Quality and pace
+Require every originality, editorial, evidence, visual, technical and deployment gate. Never publish filler for volume. Target at most **3/day Monday–Sunday permanently**, with America/Chicago date accounting. Never increase this cap without new owner authorization. Publish fewer if gates fail. Report published/held counts honestly.
 
-## Safety
-- Respect Google Search policies against scaled low-value content.
-- Do not publish fabricated or misleading market claims to make Cash As-Is look favorable.
-- Never commit secrets or private lead data to the public repository.
+## Measure
+Read [measurement.md](references/measurement.md). Track GSC indexing/clicks, GA4 original organic landing sessions and successful seller leads, and GHL blog attribution where available. CTA clicks/form starts are intermediate actions. Validate `generate_lead` delivery, key-event status and deduplication; source code alone is not proof. Report unavailable data as unavailable, never zero.
+
+Read [native-runner.md](references/native-runner.md) and use scripts/release_gate.py before production writes. Acquire a durable GitHub Contents API SHA-guarded lease, reserve daily slots before generation, verify lease ownership again before publication, and preserve main branch checks. Native schedules do not preserve scratch; reconstruct source from GitHub and installed skill each run. Record exact deployment commits and outcomes.
+
+Return concise published/held results, reasons, commit/preview/live links, actual activation state, material traffic/lead findings and next action. Do not pretend a skill file executes while idle.

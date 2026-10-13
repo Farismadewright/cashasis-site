@@ -3,14 +3,14 @@ import BaseHead from '../components/BaseHead.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { ctaLink } from '../config.ts';
-const { title, description, pubDate, updatedDate, image, imageAlt, author, faq, category, readTime, slug } = Astro.props;
+const { title, description, pubDate, updatedDate, image, imageAlt, author, faq, category, readTime, slug, tags, primaryKeyword, supportingKeywords } = Astro.props;
 const fmt = (d) => new Date(d).toLocaleDateString('en-US', { year:'numeric', month:'long', day:'numeric' });
 const cta = ctaLink(slug, 'post');
 ---
 <!doctype html>
 <html lang="en">
 <head>
-  <BaseHead title={title} description={description} image={image} imageAlt={imageAlt} type="article" pubDate={pubDate} updatedDate={updatedDate} author={author} faq={faq} />
+  <BaseHead title={title} description={description} image={image} imageAlt={imageAlt} type="article" pubDate={pubDate} updatedDate={updatedDate} author={author} faq={faq} tags={tags} primaryKeyword={primaryKeyword} supportingKeywords={supportingKeywords} />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
