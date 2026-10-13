@@ -18,4 +18,17 @@ class GateTests(unittest.TestCase):
  def test_duplicate_run_and_budget_fail_closed(self):
   state={'mode':'production','unattendedProduction':True,'dailyCap':3,'apiMode':'paid','dailySpendLimitUSD':1,'monthlySpendLimitUSD':1,'lease':{'runId':'x','expiresAt':(datetime.now(ZoneInfo('America/Chicago'))+timedelta(hours=1)).isoformat()}}
   r=check('.',state,{'runId':'x','articles':[{'costUSD':2}]},[{'runId':'x'}]);self.assertIn('missing unique durable reservation',r['errors']);self.assertIn('daily budget exceeded',r['errors'])
+ def test_optional_analytics_does_not_bypass_publishing_safety(self):
+  now=datetime.now(ZoneInfo('America/Chicago'))
+  state={'mode':'production','unattendedProduction':True,'dailyCap':3,'analyticsPassed':False,'conversionPassed':False}
+  mandatory=['templateApproved','workflowPassed','mobilePassed','metadataPassed','sellerVoicePassed','budgetApproved','nativeUnattendedTestPassed']
+  state.update({x:True for x in mandatory})
+  errors=check('.',state,{'runId':'x','articles':[]},[])['errors']
+  self.assertNotIn('required gate: analyticsPassed',errors)
+  self.assertNotIn('required gate: conversionPassed',errors)
+  for gate in mandatory:
+   invalid=dict(state);invalid[gate]=False
+   self.assertIn('required gate: '+gate,check('.',invalid,{'runId':'x','articles':[]},[])['errors'])
+  self.assertIn('complete approved template hashes required',errors)
+  self.assertIn('missing valid lease',errors)
 if __name__=='__main__':unittest.main()
