@@ -32,13 +32,13 @@
   "nativeUnattendedTestPassed": false,
   "runnerPreflightConfigured": true,
   "blockers": [
-    "Existing Google Analytics/Search Console read access unavailable: only exposed GSC Wizard returns payment_required",
-    "Live GA delivery/deduplication and GHL blog attribution cannot be confirmed without analytics access; local attribution tests pass",
-    "Full unattended publishing run has not passed"
+    "Genuine native unattended end-to-end publishing test has not completed"
   ],
   "leasePassed": true,
   "runnerPreflightRequested": true,
   "preflightTaskPaused": true,
   "previewValidationCommit": "67dedd005657230bd4ae327deab6059ce1fc9535",
-  "previewValidationDeploy": "6ace7409f59d6c11c46b034b"
+  "previewValidationDeploy": "6ace7409f59d6c11c46b034b",
+  "analyticsRequiredForPublishing": false,
+  "conversionReportingRequiredForPublishing": false
 }
