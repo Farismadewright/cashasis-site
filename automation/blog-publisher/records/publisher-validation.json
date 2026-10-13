@@ -1,0 +1,34 @@
+{
+  "runId": "validation-2026-10-13",
+  "slug": "publisher-validation",
+  "intentKey": "workflow-validation-only",
+  "status": "preview",
+  "nearestOverlaps": [
+    "compare-the-net"
+  ],
+  "substantiveDifference": "Test fixture only; not a production topic",
+  "sources": [],
+  "checks": {
+    "editorial": "pass",
+    "originality": "pending",
+    "facts": "pass",
+    "thumbnail": "pending",
+    "build": "pass",
+    "render": "pending",
+    "deploy": "pending",
+    "conversion": "pending"
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "note": "No paid external runner enabled; generation cost unknown."
+  },
+  "image": {
+    "provenance": "imagegen illustrative property background; deterministic exact-logo overlay",
+    "prompt": "Houston brick house on right, natural daylight, shaded left negative space, no text/address/logo/people",
+    "sha256": "ed4ded8731d7452423a2b3f0d0e36d686e2706f1e96979866bcd601970185ca8"
+  },
+  "commit": null,
+  "deployId": null,
+  "url": null
+}

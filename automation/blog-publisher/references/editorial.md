@@ -1,0 +1,6 @@
+# Originality and editorial gate
+Inventory current blog, static seller pages, pending PRs and ledger before each batch. Define an intent key from problem + actual question + geographic scope. Record closest overlaps and substantive differences. Reject city swaps, synonym swaps, reworded existing answers and generic thin pages. A local guide needs real local process/data that changes the answer. Prefer updating an existing article.
+
+Require direct opening answer; useful headings; actionable decision framework, verified local detail or original labeled calculation; fair alternatives and cash/listing tradeoffs; relevant working internal links (normally at least two); honest business claims; metadata matching content; useful FAQ; readable prose without padding/keyword stuffing. Choose length for completeness, not a quota.
+
+Prioritize Harris and Fort Bend and verify coverage elsewhere. Use house/property. Present Cash As-Is simplicity, condition flexibility and potential speed when supported. Never fabricate stories, credentials, statistics, offers or testimonials. Do not assert automatic depreciation, always-better net proceeds or guaranteed deadlines. Hold individualized legal/tax/foreclosure instructions needing professional review; verified general education must explain jurisdiction and limits. Do not force every trend into a cash-sale argument.

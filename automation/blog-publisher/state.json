@@ -1,0 +1,9 @@
+{
+  "mode": "validation",
+  "unattendedProduction": false,
+  "dailyCap": 0,
+  "templateApproved": false,
+  "workflowPassed": false,
+  "conversionPassed": false,
+  "runnerEnabled": false
+}
