@@ -8,6 +8,8 @@ readTime: "2 min read"
 tags: ["publisher validation"]
 image: "/images/publisher-validation.png"
 imageAlt: "Illustrative Texas property with Vacant House? Compare Your Options headline"
+primaryKeyword: "compare hypothetical sale options"
+supportingKeywords: ["seller net proceeds", "cash sale comparison"]
 draft: false
 faq:
   - q: "Are these actual offers or market statistics?"
@@ -22,12 +24,16 @@ faq:
 
 Subtract selling expenses and mortgage or lien payoffs from each proposed price. Then compare the remaining amount alongside timing, repairs and convenience. A higher price may produce a larger net result even after expenses; the right choice depends on real terms.
 
+<div style="overflow-x:auto" role="region" aria-label="Hypothetical sale comparison" tabindex="0">
+
 | Hypothetical item | Listing option | Direct sale option |
 | --- | ---: | ---: |
 | Sale price | $200,000 | $175,000 |
 | Assumed selling expenses | $15,000 | $2,000 |
 | Assumed loan payoff | $100,000 | $100,000 |
 | Arithmetic remainder | $85,000 | $73,000 |
+
+</div>
 
 The calculation is price minus the assumed expenses minus the assumed payoff. This simplified example excludes taxes on proceeds and other circumstances. Expenses here are placeholders, not typical fees or contractual promises. In this example, the listing leaves $12,000 more. A seller would also weigh actual timing, preparation and uncertainty before deciding.
 

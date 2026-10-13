@@ -1,0 +1,17 @@
+{
+  "kind": "chatgpt_work_native",
+  "enabled": false,
+  "dailyCap": 3,
+  "timezone": "America/Chicago",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/Chicago:20261014T080000\nRRULE:FREQ=DAILY\nEND:VEVENT",
+  "timingMode": "flexible_schedule",
+  "expectedLocalWindow": "08:00\u201309:00",
+  "externalApiSpendLimitUSD": 0,
+  "socialPublish": false,
+  "activationNeeds": [
+    "Google read access",
+    "mobile QA",
+    "live attribution verification",
+    "unattended test"
+  ]
+}

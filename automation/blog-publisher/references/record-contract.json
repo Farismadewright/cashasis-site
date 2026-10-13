@@ -1,0 +1,92 @@
+{
+  "required": [
+    "runId",
+    "slug",
+    "intentKey",
+    "nearestOverlaps",
+    "substantiveDifference",
+    "status",
+    "sources",
+    "checks",
+    "cost",
+    "image",
+    "commit",
+    "deployId",
+    "url"
+  ],
+  "status": [
+    "reserved",
+    "draft",
+    "hold",
+    "preview",
+    "published",
+    "failed"
+  ],
+  "checks": {
+    "editorial": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ],
+    "originality": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ],
+    "facts": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ],
+    "thumbnail": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ],
+    "build": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ],
+    "render": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ],
+    "deploy": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ],
+    "conversion": [
+      "pass",
+      "fail",
+      "pending",
+      "unavailable"
+    ]
+  },
+  "sourceFields": [
+    "url",
+    "title",
+    "accessedAt",
+    "publicationDate",
+    "reportingPeriod",
+    "geography",
+    "unit",
+    "figure",
+    "method",
+    "claim"
+  ],
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "note": "Use null for unknown; never invent zero."
+  }
+}

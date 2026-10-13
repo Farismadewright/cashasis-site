@@ -12,3 +12,18 @@ if(['dist/index.html','dist/fix-it-or-sell-it/index.html'].includes(f)){
 fs.writeFileSync(f,html);
 }}
 walk(root);if(forms!==2)throw Error('Expected homepage and calculator seller form pages; found '+forms);console.log('Attribution injected:',pages,'pages,',forms,'seller form pages');
+
+// Allow only actually built public blog paths, so new posts retain attribution.
+const blogPaths=[];
+for(const dir of fs.readdirSync(path.join(root,'blog'),{withFileTypes:true})){
+ if(dir.isDirectory()&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(dir.name)&&fs.existsSync(path.join(root,'blog',dir.name,'index.html')))blogPaths.push('/blog/'+dir.name+'/');
+}
+blogPaths.sort();
+fs.writeFileSync('netlify/functions/_shared/published-blog-paths.js','export const PUBLISHED_BLOG_PATHS = new Set('+JSON.stringify(blogPaths)+');\n');
+const jsPath=path.join(root,'js/cashasis-attribution.js');
+let js=fs.readFileSync(jsPath,'utf8');
+const match=js.match(/var KNOWN_PATHS=new Set\((\[[^;]+\])\);/);
+if(!match)throw Error('Attribution path allowlist format changed');
+const known=[...new Set([...JSON.parse(match[1]),...blogPaths,...blogPaths.map(p=>p.slice(0,-1))])];
+js=js.replace(match[0],'var KNOWN_PATHS=new Set('+JSON.stringify(known)+');');
+fs.writeFileSync(jsPath,js);

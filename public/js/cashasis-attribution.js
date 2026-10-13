@@ -15,8 +15,11 @@
   var campaign=KEYS.some(function(k){return !!touch[k];});
   var external=!!touch.referrer&&!internal;
   var old=previous&&previous.version===1&&previous.first&&previous.latest&&/^https:\/\/(www\.)?cashasis\.com(\/|$)/.test(previous.first.url)&&/^https:\/\/(www\.)?cashasis\.com(\/|$)/.test(previous.latest.url)&&Number.isFinite(Date.parse(previous.first.at))&&Date.parse(previous.first.at)<=now&&Date.parse(previous.latest.at)>=Date.parse(previous.first.at)&&Date.parse(previous.latest.at)<=now&&now-Date.parse(previous.first.at)<TTL?previous:null;
-  if(!old)return {version:1,first:touch,latest:touch};
-  return {version:1,first:old.first,latest:(!internal&&!placement&&(campaign||external))?touch:old.latest};
+  var result=old?{version:1,first:old.first,latest:(!internal&&!placement&&(campaign||external))?touch:old.latest}:{version:1,first:touch,latest:touch};
+  if(old&&old.blog)result.blog=old.blog;
+  var slug=p.get('utm_content')||'',term=p.get('utm_term')||'cta';
+  if(source==='blog'&&medium==='cta'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)&&!/\d{10,}/.test(slug)&&KNOWN_PATHS.has('/blog/'+slug+'/'))result.blog={slug:slug,placement:/^(post|index|inline|cta|top)$/.test(term)?term:'cta',at:new Date(now).toISOString()};
+  return result;
  }
  if(typeof module==='object'&&module.exports){module.exports={capture:capture,safeUrl:safeUrl};return;}
  var mayPersist=!(root.navigator&&root.navigator.globalPrivacyControl===true);
