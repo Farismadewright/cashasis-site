@@ -3,7 +3,8 @@
     "runId": "native-e2e-20261013T210230Z",
     "fence": 1,
     "issuedAt": "2026-10-13T21:05:19.527Z",
-    "expiresAt": "2026-10-13T23:05:19.527Z"
+    "expiresAt": "2026-10-13T21:14:31.610Z",
+    "releasedAt": "2026-10-13T21:14:31.610Z"
   },
   "ledger": [
     {
@@ -11,8 +12,12 @@
       "day": "2026-10-13",
       "slug": "mortgage-payoff-vs-balance-houston",
       "intentKey": "mortgage-payoff-quote-vs-statement-balance-seller-proceeds-houston",
-      "status": "reserved",
-      "validationOnly": true
+      "status": "validation_complete",
+      "validationOnly": true,
+      "commit": "d51156b167f9185ee003618ba25c5da026fd55b0",
+      "deployId": "6ace9e213b54b4e694796c30",
+      "url": "https://6ace9e213b54b4e694796c30--cashasis-blog.netlify.app/blog/mortgage-payoff-vs-balance-houston/",
+      "intentReservedForProduction": false
     }
   ],
   "externalApiSpendLimitUSD": 0
