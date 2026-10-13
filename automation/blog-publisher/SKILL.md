@@ -14,7 +14,7 @@ Produce original, accurate, conversion-aware content for CashAsIs.com that helps
 
 ## Visual design lock
 - Reference artwork: user-approved CashAsIs.com examples: vacant house Spring TX and sell house Humble TX.
-- Maintain exact official CashAsIs.com logo asset (do not regenerate or approximate logo), orange/white/navy-black palette, bold legible type, realistic property photography, 16:9 image.
+- Maintain exact transparent CashAsIs.com logo asset, orange/white/navy-black palette, bold legible type and realistic property photography. Output exactly 1200×630 to match the existing Astro article/card/OG contract. Use public/images/cashasis-logo-white-transparent-v2.png on dark areas or public/images/cashasis-logo-navy-transparent-v2.png on light areas. Never add a block background behind the logo; preserve aspect ratio and alpha. Inspect current stored thumbnails before each batch.
 - Thumbnail text: one curiosity-provoking but accurate headline of 3–7 words; avoid clutter, small disclaimers, paragraphs, and multiple slogans. Full SEO title belongs in article metadata.
 - Implement image rendering as a deterministic branded template with an approved logo overlay; AI may create background property imagery only. Never depict a real listed property as a documented specific home without rights/source. Check readability, cropping, and logo placement.
 - First template and test images require one-time owner sign-off; subsequent production must use locked template and automated visual QA. If template asset/service unavailable, HOLD publishing rather than substitute an inconsistent image.
