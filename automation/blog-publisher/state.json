@@ -30,15 +30,18 @@
   "apiMode": "native",
   "externalApiSpendLimitUSD": 0,
   "nativeUnattendedTestPassed": false,
-  "runnerPreflightConfigured": true,
+  "runnerPreflightConfigured": false,
   "blockers": [
     "Genuine native unattended end-to-end publishing test has not completed"
   ],
   "leasePassed": true,
   "runnerPreflightRequested": true,
-  "preflightTaskPaused": true,
+  "preflightTaskPaused": false,
   "previewValidationCommit": "67dedd005657230bd4ae327deab6059ce1fc9535",
   "previewValidationDeploy": "6ace7409f59d6c11c46b034b",
   "analyticsRequiredForPublishing": false,
-  "conversionReportingRequiredForPublishing": false
+  "conversionReportingRequiredForPublishing": false,
+  "unattendedTestRequested": true,
+  "unattendedTestTaskId": "6ace70f590248191ba47506d54301acf",
+  "unattendedTestStatus": "requested_not_verified"
 }
