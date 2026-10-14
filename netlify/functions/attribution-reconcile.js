@@ -1,5 +1,21 @@
-import {attributionStore,processReceipt,archiveReceipt,publishedProduction} from './_shared/attribution-queue.js';
+import {getStore} from '@netlify/blobs';
+import {createStoreView,processReceipt,archiveReceipt} from './_shared/attribution-queue.js';
+// schedule is the platform admission boundary: Netlify blocks incoming web requests.
+// See https://docs.netlify.com/build/functions/api/#schedule
+async function scheduledProduction(request,context){
+ if(context?.deploy?.context!=='production'||context?.site?.id!=='a00e8950-5064-4a85-880a-86acf9041c35'||request?.method!=='POST')return false;
+ try{
+  const event=await request.json();
+  return typeof event?.next_run==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(event.next_run)&&Number.isFinite(Date.parse(event.next_run));
+ }catch{return false;}
+}
+function scheduledAttributionStore(){
+ const primary=getStore({name:'cashasis-attribution-v1',consistency:'strong'});
+ const legacy=['cashasis-attribution-preview-local','cashasis-attribution-preview-6ac3d18a1f91290008b75a0f'].map(name=>getStore({name,consistency:'strong'}));
+ return createStoreView(primary,legacy);
+}
 export default async function(request,context){
+ const schedulerAccepted=await scheduledProduction(request,context);
  // Temporary diagnostics: allowlisted platform metadata only; never log request data or secrets.
  try{
   const deploy=context?.deploy;
@@ -12,11 +28,11 @@ export default async function(request,context){
    deployContextType:typeof deploy?.context,
    published:typeof published==='boolean'||published==='true'||published==='false'?published:null,
    publishedType:typeof published,
-   guardAccepted:publishedProduction(context)
+   guardAccepted:schedulerAccepted
   });
  }catch{}
- if(!publishedProduction(context))return new Response(null,{status:503});
- const store=attributionStore(context);const started=Date.now();const cursor=await store.get('reconciliation-cursor',{type:'json'});const offset=Math.max(0,Number(cursor?.offset)||0);let skipped=0,removed=0;let inspected=0,processed=0,pending=0;
+ if(!schedulerAccepted)return new Response(null,{status:503});
+ const store=scheduledAttributionStore();const started=Date.now();const cursor=await store.get('reconciliation-cursor',{type:'json'});const offset=Math.max(0,Number(cursor?.offset)||0);let skipped=0,removed=0;let inspected=0,processed=0,pending=0;
  // Low-volume bounded reconciliation; never read or rewrite seller contact data outside saved receipts.
  for await(const page of store.list({prefix:'pending/',paginate:true})){
   for(const item of page.blobs){
@@ -30,3 +46,4 @@ export default async function(request,context){
  console.log('[attribution] reconcile',{inspected,processed,pending});return new Response(null,{status:204});
 }
 export const config={schedule:'*/10 * * * *'};
+
