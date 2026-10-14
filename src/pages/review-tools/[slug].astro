@@ -1,13 +1,15 @@
 ---
 import BaseHead from '../../components/BaseHead.astro';
-const entries=[
-['net-proceeds','As-Is vs Repair & List Calculator'],
-['cost-of-waiting','Cost of Waiting Calculator'],
-['seller-situation','Seller Situation Guide'],
-['sale-readiness','Cash Sale Readiness Checklist'],
-['deadline-organizer','Seller Deadline Organizer']
-];
-export function getStaticPaths(){return entries.map(([slug,title])=>({params:{slug},props:{title,slug}}));}
+export function getStaticPaths(){
+  const entries=[
+    ['net-proceeds','As-Is vs Repair & List Calculator'],
+    ['cost-of-waiting','Cost of Waiting Calculator'],
+    ['seller-situation','Seller Situation Guide'],
+    ['sale-readiness','Cash Sale Readiness Checklist'],
+    ['deadline-organizer','Seller Deadline Organizer']
+  ];
+  return entries.map(([slug,title])=>({params:{slug},props:{title,slug}}));
+}
 const {title,slug}=Astro.props;
 ---
 <!doctype html><html lang="en"><head><BaseHead title={title+' | CashAsIs Review'} description="Private seller-tool preview" /><meta name="robots" content="noindex,nofollow,noarchive"/><link rel="stylesheet" href="/styles.css"/>
