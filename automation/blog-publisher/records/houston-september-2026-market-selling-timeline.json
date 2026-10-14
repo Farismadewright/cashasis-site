@@ -1,0 +1,220 @@
+{
+  "runId": "native-daily-20261014T131202Z",
+  "fence": 2,
+  "day": "2026-10-14",
+  "status": "preview",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work and existing Netlify allowances. No paid API/new services; allowance consumption is not separately priced."
+  },
+  "protectedSourceChanges": [],
+  "commit": null,
+  "deployId": null,
+  "url": null,
+  "slug": "houston-september-2026-market-selling-timeline",
+  "intentKey": "har-september2026-greater-houston-market-days-vs-seller-timeline",
+  "nearestOverlaps": [
+    "/blog/cash-house-sale-timeline-houston/",
+    "/closing-timeline/",
+    "/the-cost-of-waiting/"
+  ],
+  "substantiveDifference": "Current HAR September2026 single-family report released2026-10-14, zero-based observed selling-days comparison, metro-versus-property distinction and original carrying-cost scenarios. Existing guides describe general cash/closing time or holding burdens without this report interpretation.",
+  "sellerTopicOrigin": "Broad price-comparison/closing questions plus verified current market research; no private stories.",
+  "sources": [
+    {
+      "url": "https://www.har.com/content/department/mls?m=10&y=2026",
+      "title": "HAR September2026 Housing Market Update",
+      "publicationDate": "2026-10-14",
+      "reportingPeriod": "September2026 versus September2025",
+      "geography": "Greater Houston MLS single-family; not county-only, all-property, condo-only or cash-only",
+      "unit": "days; months inventory; USD median sale price",
+      "figure": {
+        "days2025": 56,
+        "days2026": 58,
+        "inventoryMonths2025": 5.1,
+        "inventoryMonths2026": 5.5,
+        "medianPrice2025": 325990,
+        "medianPrice2026": 325000
+      },
+      "method": "Read complete monthly primary release, exact report-month link, single-family section. Separate from city-only pricetrends and existing-single-family subsection.",
+      "claim": "Reported regional selling average, inventory and median; no individual closing/price prediction.",
+      "accessedAt": "2026-10-14T13:26:28.394564+00:00",
+      "verifiedAt": "2026-10-14T13:26:28.394564+00:00"
+    }
+  ],
+  "headline": "PLAN YOUR SALE TIMELINE",
+  "calculation": {
+    "kind": "hypothetical_not_market_data",
+    "dailyExpenseUSD": 45,
+    "days": [
+      30,
+      60,
+      90
+    ],
+    "expenseUSD": [
+      1350,
+      2700,
+      4050
+    ],
+    "arithmeticVerified": true
+  },
+  "chart": {
+    "path": "/images/houston-september-2026-selling-days-chart.png",
+    "data": {
+      "September2025": 56,
+      "September2026": 58
+    },
+    "unit": "average days to sell",
+    "axisMinimum": 0,
+    "sourceURL": "https://www.har.com/content/department/mls?m=10&y=2026",
+    "method": "Matplotlib deterministic horizontal bars; directly retained data; accessible equivalent table; no imagegen chart",
+    "sha256": "ba18c9b682e9694962c3eb1da9f4a66d3c21b9c19eb9088134425dd264c3ddc3"
+  },
+  "title": "Houston's September 2026 Market: Plan Your Selling Timeline",
+  "description": "HAR's September 2026 report shows a 58-day selling average. See what that means\u2014and what it cannot tell you\u2014when planning a Houston house sale.",
+  "primaryKeyword": "Houston housing market September 2026 sellers",
+  "supportingKeywords": [
+    "Houston days on market",
+    "how long to sell a Houston house",
+    "Houston cash sale timeline",
+    "seller holding costs"
+  ],
+  "image": "/images/houston-september-2026-market-selling-timeline.png",
+  "imageAlt": "Illustrative Houston-area brick house with the headline Plan Your Sale Timeline and the official Cash As-Is logo",
+  "social": {
+    "slug": "houston-september-2026-market-selling-timeline",
+    "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+    "image": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png",
+    "status": "draft_only",
+    "facebook": "Houston's latest HAR report is out. A regional selling average can help frame your plan, but it can't promise your closing date. Here's a practical way to compare timelines and continuing expenses.\n\nhttps://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+    "instagram": "Houston's September 2026 Market: Plan Your Selling Timeline\n\nHAR's September 2026 report shows a 58-day selling average. See what that means\u2014and what it cannot tell you\u2014when planning a Houston house sale.\n\nRead the guide: https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Houston's September 2026 Market: Plan Your Selling Timeline\n\nHAR's September 2026 report shows a 58-day selling average. See what that means\u2014and what it cannot tell you\u2014when planning a Houston house sale.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+    "googleBusinessProfile": "Houston's September 2026 Market: Plan Your Selling Timeline\n\nHAR's September 2026 report shows a 58-day selling average. See what that means\u2014and what it cannot tell you\u2014when planning a Houston house sale.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+    "promotionalExcerpt": "HAR's September 2026 report shows a 58-day selling average. See what that means\u2014and what it cannot tell you\u2014when planning a Houston house sale.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "eligibleInbound": 56,
+    "screenedDistinctSellers": {
+      "pricing": 6,
+      "tenants": 6,
+      "condition": 2,
+      "timing": 2
+    },
+    "contextReviewed": true,
+    "limitations": "Pricing comparisons and closing questions observed; security-deposit and vacancy-insurance guides are adjacent editorial questions, not claims of recurring deposit/insurance messages. Excluded explicit opt-outs; no private data or stories enter content."
+  },
+  "imageSha256": "07a89e4d9502aabebbeb3163a99b4556fc842a810509c4dc0c6d2662ea48043f",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "PLAN YOUR SALE TIMELINE",
+    "logoVariant": "white",
+    "officialTransparentLogo": true,
+    "approvedHashesMatch": true,
+    "renderer": "left-photo-transparent-v2",
+    "backgroundGeneratedAt": "2026-10-14T13:26:28.394564+00:00",
+    "backgroundProvenance": "native_work_imagegen",
+    "backgroundFile": "exec-3f7923b3-2344-4460-8cb2-1a9d39152022.png",
+    "backgroundSha256": "41ba0d0893ac76ffd81f18cac75e639bc154f5581a116f76faa668f48fe50ed5",
+    "illustrativeNotActualListing": true,
+    "prompt": "Use case: photorealistic-natural. Asset type: original illustrative real-estate blog-thumbnail background, wide landscape about1.9:1. A modest two-story tan brick Houston-area suburban house, ordinary maintained lawn, mature live oak and a cloudy bright fall morning. Property on the right, broad quiet shaded trees on the left. Context is a seller considering the market's timeline, not a dramatic distress scene. Use natural editorial photography, believable construction and texture, no exaggerated decay. Leave the left third with negative space for the approved logo/headline to be composed later. No people, no cars, no house numbers, no identifying addresses, no signage, no text, no lettering, no logos, no watermarks. Do not copy a prior property image. This is an illustration, not an actual listing.",
+    "visualReview": "Full-size exact logo/spacing/property/headline and small-card crop reviewed; no logo block or generated logo lettering."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "production": "pending",
+    "conversionReporting": "unavailable_optional"
+  },
+  "reviewedAt": "2026-10-14T13:26:28.394564+00:00",
+  "mobileQA": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 292.90625,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 489.09375,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 489.09375,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+      }
+    ]
+  },
+  "checksEvidence": {
+    "buildCommand": "npm run build",
+    "buildExitCode": 0,
+    "outputValidation": "pass",
+    "mobile": "360/390/768/1366 viewport and table/hero checks + screenshot review",
+    "faqInteraction": "opens at every tested width",
+    "sourceLinks": "Primary URLs and full current content verified through web tool; separate direct HTTP evidence retained with limitations",
+    "privacy": "No private conversations or identifiers retained",
+    "protectedSources": "Only new article assets/records/social plus generated blog allowlist",
+    "schema": "BlogPosting, BreadcrumbList, matching visible FAQ; no Google rich-result eligibility claim"
+  },
+  "sourceLinkChecks": [
+    {
+      "url": "https://www.har.com/content/department/mls?m=10&y=2026",
+      "error": "HTTP Error 403: Forbidden",
+      "verifiedFullContentViaWebTool": true
+    }
+  ]
+}

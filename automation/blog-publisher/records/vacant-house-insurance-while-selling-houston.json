@@ -1,0 +1,228 @@
+{
+  "runId": "native-daily-20261014T131202Z",
+  "fence": 2,
+  "day": "2026-10-14",
+  "status": "preview",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work and existing Netlify allowances. No paid API/new services; allowance consumption is not separately priced."
+  },
+  "protectedSourceChanges": [],
+  "commit": null,
+  "deployId": null,
+  "url": null,
+  "slug": "vacant-house-insurance-while-selling-houston",
+  "intentKey": "houston-vacancy-insurance-occupancy-notification-before-sale-checklist",
+  "nearestOverlaps": [
+    "/blog/dont-live-in-area-vacant-property-risk/",
+    "/blog/still-paying-unused-property/",
+    "/blog/empty-house-problems-dont-wait/"
+  ],
+  "substantiveDifference": "Policy-specific occupancy review and dates worksheet, separates in-term exclusions from nonrenewal, explicitly rejects universal60-day grace and separates a sale from a claim. Existing vacancy guides discuss security/holding costs without this sourced coverage checklist.",
+  "sellerTopicOrigin": "Editorial gap adjacent to property-condition/unused-property concerns; no private insurer/claim/seller facts reused.",
+  "sources": [
+    {
+      "url": "https://tdi.texas.gov/tips/auto-and-home-policy-underwriting.html",
+      "title": "TDI auto and home policy underwriting",
+      "publicationDate": "2026-04-01",
+      "reportingPeriod": null,
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read regulator guide occupancy section.",
+      "claim": "Occupancy can affect offered policy types; ask actual insurer about definitions.",
+      "accessedAt": "2026-10-14T13:26:28.394564+00:00",
+      "verifiedAt": "2026-10-14T13:26:28.394564+00:00"
+    },
+    {
+      "url": "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
+      "title": "TDI home insurance guide",
+      "publicationDate": null,
+      "reportingPeriod": "Current consumer guide accessed2026-10-14",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read vacancy loss exclusion table and lender insurance guidance; avoid insurer-specific claims.",
+      "claim": "Policy-specific vacancy-day exclusions and lender requirement context; exact policy controls.",
+      "accessedAt": "2026-10-14T13:26:28.394564+00:00",
+      "verifiedAt": "2026-10-14T13:26:28.394564+00:00"
+    },
+    {
+      "url": "https://tdi.texas.gov/tips/home-insurance-canceled-or-not-renewed.html",
+      "title": "TDI canceled or nonrenewed home insurance guide",
+      "publicationDate": "2026-01-15",
+      "reportingPeriod": null,
+      "geography": "Texas",
+      "unit": "days of vacancy, nonrenewal context only",
+      "figure": 60,
+      "method": "Read nonrenewal reasons; distinguish from active-policy loss coverage.",
+      "claim": "Vacancy60days-or-more possible nonrenewal reason, not universal full-coverage grace period.",
+      "accessedAt": "2026-10-14T13:26:28.394564+00:00",
+      "verifiedAt": "2026-10-14T13:26:28.394564+00:00"
+    }
+  ],
+  "headline": "EMPTY HOUSE CHECK COVERAGE",
+  "title": "Vacant House Insurance While Selling in Houston: What to Check",
+  "description": "Moved out before your Houston house sells? Ask your insurer about vacancy, policy limits and the sale timeline before assuming coverage continues.",
+  "primaryKeyword": "vacant house insurance while selling Houston",
+  "supportingKeywords": [
+    "insurance after moving out before sale",
+    "Texas vacant property insurance",
+    "vacant versus unoccupied house",
+    "selling unused Houston property"
+  ],
+  "image": "/images/vacant-house-insurance-while-selling-houston.png",
+  "imageAlt": "Illustrative unused Houston-area house with the headline Empty House Check Coverage and the official Cash As-Is logo",
+  "social": {
+    "slug": "vacant-house-insurance-while-selling-houston",
+    "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+    "image": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png",
+    "status": "draft_only",
+    "facebook": "Moved out before the house sells? Ask your insurer how the change affects your actual policy. Our Houston-area checklist covers the questions to raise while you compare selling options.\n\nhttps://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+    "instagram": "Vacant House Insurance While Selling in Houston: What to Check\n\nMoved out before your Houston house sells? Ask your insurer about vacancy, policy limits and the sale timeline before assuming coverage continues.\n\nRead the guide: https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Vacant House Insurance While Selling in Houston: What to Check\n\nMoved out before your Houston house sells? Ask your insurer about vacancy, policy limits and the sale timeline before assuming coverage continues.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+    "googleBusinessProfile": "Vacant House Insurance While Selling in Houston: What to Check\n\nMoved out before your Houston house sells? Ask your insurer about vacancy, policy limits and the sale timeline before assuming coverage continues.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+    "promotionalExcerpt": "Moved out before your Houston house sells? Ask your insurer about vacancy, policy limits and the sale timeline before assuming coverage continues.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "eligibleInbound": 56,
+    "screenedDistinctSellers": {
+      "pricing": 6,
+      "tenants": 6,
+      "condition": 2,
+      "timing": 2
+    },
+    "contextReviewed": true,
+    "limitations": "Pricing comparisons and closing questions observed; security-deposit and vacancy-insurance guides are adjacent editorial questions, not claims of recurring deposit/insurance messages. Excluded explicit opt-outs; no private data or stories enter content."
+  },
+  "imageSha256": "72bbc40ec33a5287414860e41f344484ad3f8e0446d7936d3b7db5c013ed5da0",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "EMPTY HOUSE CHECK COVERAGE",
+    "logoVariant": "white",
+    "officialTransparentLogo": true,
+    "approvedHashesMatch": true,
+    "renderer": "left-photo-transparent-v2",
+    "backgroundGeneratedAt": "2026-10-14T13:26:28.394564+00:00",
+    "backgroundProvenance": "native_work_imagegen",
+    "backgroundFile": "exec-7330f7c7-35a8-4646-9f57-a73b1d625b9f.png",
+    "backgroundSha256": "0bc196280760253b027dc4698502b605d22046fef750b0c3f0eecb40d4611b57",
+    "illustrativeNotActualListing": true,
+    "prompt": "Use case: photorealistic-natural. Asset type: original illustrative real-estate blog-thumbnail background, wide landscape about1.9:1. A realistic older Houston-area single-story cream siding and brick house with a closed front door, empty porch, gently overgrown grass and an ordinary older shingle roof. House on the right, quiet shaded foliage on the left, natural soft daylight. Slight deferred upkeep, no catastrophe, no boarded windows. Context is an unused house awaiting a sale. Use natural editorial photography, believable construction and texture, no exaggerated decay. Leave the left third with negative space for the approved logo/headline to be composed later. No people, no cars, no house numbers, no identifying addresses, no signage, no text, no lettering, no logos, no watermarks. Do not copy a prior property image. This is an illustration, not an actual listing.",
+    "visualReview": "Full-size exact logo/spacing/property/headline and small-card crop reviewed; no logo block or generated logo lettering."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "production": "pending",
+    "conversionReporting": "unavailable_optional"
+  },
+  "reviewedAt": "2026-10-14T13:26:28.394564+00:00",
+  "mobileQA": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+      }
+    ]
+  },
+  "checksEvidence": {
+    "buildCommand": "npm run build",
+    "buildExitCode": 0,
+    "outputValidation": "pass",
+    "mobile": "360/390/768/1366 viewport and table/hero checks + screenshot review",
+    "faqInteraction": "opens at every tested width",
+    "sourceLinks": "Primary URLs and full current content verified through web tool; separate direct HTTP evidence retained with limitations",
+    "privacy": "No private conversations or identifiers retained",
+    "protectedSources": "Only new article assets/records/social plus generated blog allowlist",
+    "schema": "BlogPosting, BreadcrumbList, matching visible FAQ; no Google rich-result eligibility claim"
+  },
+  "sourceLinkChecks": [
+    {
+      "url": "https://tdi.texas.gov/tips/home-insurance-canceled-or-not-renewed.html",
+      "http": 200,
+      "finalURL": "https://tdi.texas.gov/tips/home-insurance-canceled-or-not-renewed.html",
+      "bytes": 28033,
+      "anchorPresent": null
+    },
+    {
+      "url": "https://tdi.texas.gov/tips/auto-and-home-policy-underwriting.html",
+      "http": 200,
+      "finalURL": "https://tdi.texas.gov/tips/auto-and-home-policy-underwriting.html",
+      "bytes": 29146,
+      "anchorPresent": null
+    },
+    {
+      "url": "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
+      "http": 200,
+      "finalURL": "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
+      "bytes": 59873,
+      "anchorPresent": null
+    }
+  ]
+}
