@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // then update it to https://cashasis.com once the domain is connected.
 export default defineConfig({
   site: 'https://www.cashasis.com',
-  integrations: [sitemap()],
+  integrations: [sitemap({ filter: (page) => !page.includes('/review-tools/') })],
   build: { format: 'directory' },
 });
