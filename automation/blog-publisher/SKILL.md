@@ -61,3 +61,54 @@ This section is mandatory for future runs and ongoing SEO improvement. It supple
 - /blog/: last GSC inspection 'Crawled - currently not indexed'; Google crawl/index directives allowed and canonical matched. Review index hub's original utility, category navigation, excessive similar entries and seller conversion flow.
 - /blog/how-fast-sell-house-cash-houston/: inspection has alternated 'Discovered - currently not indexed' and 'URL unknown'; check actual production HTTP response, sitemap, internal links and overlap with Houston cash-sale timeline articles before any indexing request.
 - /blog/sell-house-back-taxes-harris-county/: 'URL unknown'; check live response, sitemap, links and differentiation from the Houston back-taxes page (which has early search impressions).
+
+
+## Organic Seller Acquisition Architecture — Carrot-style strategy, owner update 2026-10-14
+The business goal is a seller-lead conversion system built around Google search, not article count. CashAsIs.com previously produced roughly two seller leads/month during a prior Carrot-era implementation; treat that as owner-reported historical context, not a verified current benchmark. Preserve the current Astro/Netlify design and existing attribution infrastructure. Reproduce useful principles, not Carrot proprietary code/content.
+
+### Three-layer search architecture
+Maintain a durable keyword-to-page and cluster map in the repository before selecting new topics. Every commercially important seller intent gets ONE designated primary page; supporting pages must strengthen that primary page and not compete with it.
+1. PRIMARY ACQUISITION / MONEY PAGES: high-intent direct-sale searches such as sell my house fast Houston, cash home buyers Houston, we buy houses Houston, plus validated service-area city pages. These pages must clearly explain who CashAsIs is, what it buys, seller tradeoffs, process, proof/credibility where verified, and a low-friction offer path.
+2. SELLER-PROBLEM PAGES: one primary page for each meaningful problem/intent such as inherited/probate, back taxes, foreclosure, vacant property, major repairs, fire/flood damage, tenants/tired landlord, liens/title complications, divorce and other evidence-supported seller situations.
+3. SUPPORTING EDUCATION: detailed questions, checklists, timelines and local explainers. Every supporting article should naturally link upward to the designated problem or acquisition page and laterally only where useful. Primary pages should link to their strongest supporting guides.
+
+### Keyword-to-page governance
+- Maintain a canonical intent map with: target query family, primary URL, supporting URLs, geography, funnel stage, current GSC clicks/impressions/position, GA4 landing sessions/key events, status and next optimization.
+- Before creating a page, search this map and current content. If a primary already exists, improve it. Do not create another page merely for a synonym.
+- If multiple existing URLs compete for the same intent, HOLD new content and propose consolidation/internal-link/title changes; redirects/merges/deletions require owner approval.
+- Search Console query/page evidence overrides speculative keyword targeting. Tiny samples are directional only.
+
+### Conversion optimization
+- Preserve existing design and forms. Verify mobile and desktop paths from search landing page to offer request/call; keep CTA language accurate and low pressure.
+- Every primary/problem page should have an obvious relevant next action and contextual links to useful evidence/education. Do not overload pages with CTAs.
+- Use the existing UTM/blog attribution and lead-submit/GHL attribution system; never replace a working attribution mechanism casually.
+- Treat form_start/CTA events as intermediate. generate_lead requires validation; qualified seller, agreement and funded GP require CRM/transaction evidence.
+- Report organic conversion as: query -> landing page -> session -> CTA/form start -> validated lead -> qualified seller -> agreement -> funded retained GP.
+
+### Local authority and trust
+Strengthen real Houston-area usefulness using verified service geography, primary local sources, real seller stories/testimonials already approved for public use, transparent process/cost/timing explanations, and accurate local problem guidance. Never fabricate offices, neighborhoods served, transactions, reviews, seller outcomes or local statistics. Do not create doorway pages with swapped city names.
+
+### Lead magnets/tools
+Prefer genuinely useful, low-friction tools that answer a seller decision and can earn links/return visits. Candidate backlog, requiring normal build/evidence/privacy QA before production:
+- As-Is vs. Repair/List Net Proceeds Comparator using user-entered assumptions with clear labels; never present an estimate as an appraisal or guaranteed net.
+- Cost of Waiting calculator: mortgage/taxes/insurance/utilities/maintenance assumptions -> monthly/90-day holding estimate.
+- Seller Situation Checklist selector: inherited/probate, taxes, foreclosure, tenants, vacant, repairs -> personalized checklist and relevant verified guides.
+- Cash Sale Readiness checklist: ownership/signers, occupancy, access, title/payoff/tax issues, desired timing.
+- Texas/Houston seller deadline organizer for user-entered known dates; no invented legal deadline or legal advice.
+Tools may offer the existing cash-offer path after delivering value. Do not gate every educational tool behind contact capture. Any lead magnet collecting personal data must use existing privacy/consent infrastructure and minimum necessary fields.
+
+### Off-page authority
+Track legitimate citation/backlink opportunities: local/industry resource mentions, useful tools worth citing, public seller education, partner/resource relationships and earned media. Never buy spam links, use PBNs, mass directory spam, fake reviews or automated link schemes. Monitor referring domains/backlinks when an approved data source is available; otherwise mark unavailable.
+
+### Optimization cadence
+Daily publishing is a maximum, not a quota. On any run, improving a high-opportunity existing page can be more valuable than a new article. Prioritize: (a) primary acquisition pages, (b) problem pages, (c) striking-distance pages with meaningful GSC evidence, then (d) genuinely uncovered supporting questions. Maintain the 3/day article publication cap; optimization of existing pages must still pass build/release checks and must not silently redirect/delete/merge pages.
+
+### Initial intent map from GSC settled through 2026-10-11
+Use as starting evidence, not permanent truth:
+- Houston direct-sale cluster: /blog/sell-my-house-fast-houston/ (17 impressions, avg pos ~62.2), /blog/cash-home-buyers-houston/ (1, ~10), /blog/sell-house-for-cash-houston/ (4, ~43). Audit whether the website homepage should be the commercial Houston hub before consolidating or changing canonicals.
+- Back taxes Houston: /blog/sell-house-behind-on-taxes-houston/ (14, ~23) is current optimization priority and should be the broad Houston tax-problem hub unless later evidence supports another primary.
+- City direct-sale striking-distance candidates: Pearland /blog/sell-house-fast-pearland-tx/ (7, ~16.1); Montgomery County (7, ~19.1); Missouri City (4, ~19.8); Tomball (11, ~21.6); Katy (12, ~22.9); Cypress (12, ~29.8). Do not infer stable ranking from low impressions.
+- Problem pages with early strong but tiny samples include tenant-occupied Houston (~pos 4 on 2 impressions), vacant Houston (~3.75 on 4), liens Harris County (~1 on 1), inherited Harris County (~11 on 1), probate Harris County (~13.7 on 3). Preserve uncertainty.
+
+### Success objective
+First milestone: establish repeatable, verified organic seller acquisition and work toward recovering the owner-reported historical baseline of about 2 organic seller leads/month. Then scale qualified organic leads, agreements and funded retained GP. This is an operating target, never a guarantee.
