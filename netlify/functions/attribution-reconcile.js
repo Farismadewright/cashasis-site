@@ -1,5 +1,20 @@
 import {attributionStore,processReceipt,archiveReceipt,publishedProduction} from './_shared/attribution-queue.js';
 export default async function(request,context){
+ // Temporary diagnostics: allowlisted platform metadata only; never log request data or secrets.
+ try{
+  const deploy=context?.deploy;
+  const published=deploy?.published;
+  console.info('[attribution] reconcile_diagnostic_v1',{
+   requestId:typeof context?.requestId==='string'&&/^[A-Za-z0-9-]{1,64}$/.test(context.requestId)?context.requestId:null,
+   deployId:typeof deploy?.id==='string'&&/^[a-f0-9]{24}$/i.test(deploy.id)?deploy.id:null,
+   deployPresent:deploy!=null,
+   deployContext:['production','deploy-preview','branch-deploy','dev'].includes(deploy?.context)?deploy.context:null,
+   deployContextType:typeof deploy?.context,
+   published:typeof published==='boolean'||published==='true'||published==='false'?published:null,
+   publishedType:typeof published,
+   guardAccepted:publishedProduction(context)
+  });
+ }catch{}
  if(!publishedProduction(context))return new Response(null,{status:503});
  const store=attributionStore(context);const started=Date.now();const cursor=await store.get('reconciliation-cursor',{type:'json'});const offset=Math.max(0,Number(cursor?.offset)||0);let skipped=0,removed=0;let inspected=0,processed=0,pending=0;
  // Low-volume bounded reconciliation; never read or rewrite seller contact data outside saved receipts.
