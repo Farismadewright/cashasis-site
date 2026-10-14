@@ -1,10 +1,9 @@
 {
   "lease": {
-    "runId": "native-e2e-20261013T210230Z",
-    "fence": 1,
-    "issuedAt": "2026-10-13T21:05:19.527Z",
-    "expiresAt": "2026-10-13T21:14:31.610Z",
-    "releasedAt": "2026-10-13T21:14:31.610Z"
+    "runId": "native-daily-20261014T131202Z",
+    "fence": 2,
+    "issuedAt": "2026-10-14T13:16:43.418Z",
+    "expiresAt": "2026-10-14T15:16:43.418Z"
   },
   "ledger": [
     {
@@ -18,6 +17,30 @@
       "deployId": "6ace9e213b54b4e694796c30",
       "url": "https://6ace9e213b54b4e694796c30--cashasis-blog.netlify.app/blog/mortgage-payoff-vs-balance-houston/",
       "intentReservedForProduction": false
+    },
+    {
+      "slug": "houston-september-2026-market-selling-timeline",
+      "intentKey": "har-september2026-greater-houston-market-days-vs-seller-timeline",
+      "runId": "native-daily-20261014T131202Z",
+      "day": "2026-10-14",
+      "status": "reserved",
+      "validationOnly": false
+    },
+    {
+      "slug": "security-deposit-when-selling-texas-rental",
+      "intentKey": "texas-residential-rental-sale-security-deposit-transfer-record-checklist",
+      "runId": "native-daily-20261014T131202Z",
+      "day": "2026-10-14",
+      "status": "reserved",
+      "validationOnly": false
+    },
+    {
+      "slug": "vacant-house-insurance-while-selling-houston",
+      "intentKey": "houston-vacancy-insurance-occupancy-notification-before-sale-checklist",
+      "runId": "native-daily-20261014T131202Z",
+      "day": "2026-10-14",
+      "status": "reserved",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0
