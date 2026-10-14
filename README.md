@@ -119,3 +119,4 @@ truth, nothing to re-sync.
 
 **Optional mid-article CTA:** rename a post from `.md` to `.mdx` and drop
 `<InlineCta slug="post-slug" />` where you want a nudge in the middle of the article.
+
