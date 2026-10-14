@@ -3,7 +3,8 @@
     "runId": "native-daily-20261014T131202Z",
     "fence": 2,
     "issuedAt": "2026-10-14T13:16:43.418Z",
-    "expiresAt": "2026-10-14T15:16:43.418Z"
+    "expiresAt": "2026-10-14T13:58:39.256Z",
+    "releasedAt": "2026-10-14T13:58:39.256Z"
   },
   "ledger": [
     {
@@ -23,34 +24,58 @@
       "intentKey": "har-september2026-greater-houston-market-days-vs-seller-timeline",
       "runId": "native-daily-20261014T131202Z",
       "day": "2026-10-14",
-      "status": "publishing",
+      "status": "published",
       "validationOnly": false,
       "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
       "previewDeployId": "6acf849a1e471fc7d0b32e99",
-      "pr": 8
+      "pr": 8,
+      "commit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+      "deployId": "6acf8919ab5d8af9d59db66c",
+      "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+      "publishedAt": "2026-10-14T13:58:39.256Z",
+      "evidenceCommit": "d1c959f3a7ab9a8e518cbbd575819a78bbf00432"
     },
     {
       "slug": "security-deposit-when-selling-texas-rental",
       "intentKey": "texas-residential-rental-sale-security-deposit-transfer-record-checklist",
       "runId": "native-daily-20261014T131202Z",
       "day": "2026-10-14",
-      "status": "publishing",
+      "status": "published",
       "validationOnly": false,
       "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
       "previewDeployId": "6acf849a1e471fc7d0b32e99",
-      "pr": 8
+      "pr": 8,
+      "commit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+      "deployId": "6acf8919ab5d8af9d59db66c",
+      "url": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+      "publishedAt": "2026-10-14T13:58:39.256Z",
+      "evidenceCommit": "d1c959f3a7ab9a8e518cbbd575819a78bbf00432"
     },
     {
       "slug": "vacant-house-insurance-while-selling-houston",
       "intentKey": "houston-vacancy-insurance-occupancy-notification-before-sale-checklist",
       "runId": "native-daily-20261014T131202Z",
       "day": "2026-10-14",
-      "status": "publishing",
+      "status": "published",
       "validationOnly": false,
       "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
       "previewDeployId": "6acf849a1e471fc7d0b32e99",
-      "pr": 8
+      "pr": 8,
+      "commit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+      "deployId": "6acf8919ab5d8af9d59db66c",
+      "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+      "publishedAt": "2026-10-14T13:58:39.256Z",
+      "evidenceCommit": "d1c959f3a7ab9a8e518cbbd575819a78bbf00432"
     }
   ],
-  "externalApiSpendLimitUSD": 0
+  "externalApiSpendLimitUSD": 0,
+  "lastRun": {
+    "runId": "native-daily-20261014T131202Z",
+    "status": "pass",
+    "published": 3,
+    "held": 0,
+    "completedAt": "2026-10-14T13:58:39.256Z",
+    "evidenceCommit": "d1c959f3a7ab9a8e518cbbd575819a78bbf00432",
+    "evidencePath": "automation/blog-publisher/runs/2026-10-14.json"
+  }
 }
