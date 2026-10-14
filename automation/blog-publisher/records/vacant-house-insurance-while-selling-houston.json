@@ -2,7 +2,7 @@
   "runId": "native-daily-20261014T131202Z",
   "fence": 2,
   "day": "2026-10-14",
-  "status": "preview",
+  "status": "published",
   "externalApiUsed": false,
   "cost": {
     "currency": "USD",
@@ -11,9 +11,9 @@
     "note": "Native Work and existing Netlify allowances. No paid API/new services; allowance consumption is not separately priced."
   },
   "protectedSourceChanges": [],
-  "commit": null,
-  "deployId": null,
-  "url": null,
+  "commit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+  "deployId": "6acf8919ab5d8af9d59db66c",
+  "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
   "slug": "vacant-house-insurance-while-selling-houston",
   "intentKey": "houston-vacancy-insurance-occupancy-notification-before-sale-checklist",
   "nearestOverlaps": [
@@ -133,8 +133,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "production": "pending",
+    "preview": "pass",
+    "production": "pass",
     "conversionReporting": "unavailable_optional"
   },
   "reviewedAt": "2026-10-14T13:26:28.394564+00:00",
@@ -224,5 +224,60 @@
       "bytes": 59873,
       "anchorPresent": null
     }
-  ]
+  ],
+  "previewEvidence": {
+    "slug": "vacant-house-insurance-while-selling-houston",
+    "url": "https://6acf849a1e471fc7d0b32e99--cashasis-blog.netlify.app/blog/vacant-house-insurance-while-selling-houston/",
+    "http": 200,
+    "noindex": "noindex",
+    "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+    "ogTwitterImage": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSha256": "72bbc40ec33a5287414860e41f344484ad3f8e0446d7936d3b7db5c013ed5da0",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 5,
+    "ctaParametersPassed": true,
+    "internalLinksPassed": true,
+    "indexRssSitemapPassed": true,
+    "mobileTestedHTMLIdentical": true,
+    "cssIdentical": true,
+    "analyticsReporting": "unavailable_optional"
+  },
+  "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
+  "previewDeployId": "6acf849a1e471fc7d0b32e99",
+  "publishedAt": "2026-10-14T13:58:10.302951+00:00",
+  "pr": 8,
+  "productionEvidence": {
+    "slug": "vacant-house-insurance-while-selling-houston",
+    "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+    "http": 200,
+    "noindex": "",
+    "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+    "ogTwitterImage": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSha256": "72bbc40ec33a5287414860e41f344484ad3f8e0446d7936d3b7db5c013ed5da0",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 5,
+    "ctaParametersPassed": true,
+    "internalLinksPassed": true,
+    "indexRssSitemapPassed": true,
+    "mobileTestedHTMLIdentical": true,
+    "cssIdentical": true,
+    "analyticsReporting": "unavailable_optional"
+  },
+  "previewVerificationNote": "Initial alias HTML parity check failed; one corrective verification against the immutable exact-commit preview passed. No article or protected source correction was required."
 }

@@ -4,41 +4,53 @@
     "day": "2026-10-14",
     "slug": "houston-september-2026-market-selling-timeline",
     "intentKey": "har-september2026-greater-houston-market-days-vs-seller-timeline",
-    "status": "preview",
+    "status": "published",
     "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
     "nearestOverlaps": [
       "/blog/cash-house-sale-timeline-houston/",
       "/closing-timeline/",
       "/the-cost-of-waiting/"
     ],
-    "substantiveDifference": "Current HAR September2026 single-family report released2026-10-14, zero-based observed selling-days comparison, metro-versus-property distinction and original carrying-cost scenarios. Existing guides describe general cash/closing time or holding burdens without this report interpretation."
+    "substantiveDifference": "Current HAR September2026 single-family report released2026-10-14, zero-based observed selling-days comparison, metro-versus-property distinction and original carrying-cost scenarios. Existing guides describe general cash/closing time or holding burdens without this report interpretation.",
+    "commit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+    "deployId": "6acf8919ab5d8af9d59db66c",
+    "pr": 8,
+    "publishedAt": "2026-10-14T13:58:10.302951+00:00"
   },
   {
     "runId": "native-daily-20261014T131202Z",
     "day": "2026-10-14",
     "slug": "security-deposit-when-selling-texas-rental",
     "intentKey": "texas-residential-rental-sale-security-deposit-transfer-record-checklist",
-    "status": "preview",
+    "status": "published",
     "url": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
     "nearestOverlaps": [
       "/blog/sell-rental-with-tenants-texas/",
       "/blog/sell-house-with-tenants-houston/",
       "/blog/sell-rental-property-tired-landlord-houston/"
     ],
-    "substantiveDifference": "Dedicated residential security-deposit owner handoff, current Texas92.105/92.106 boundaries and document reconciliation, with a clearly hypothetical250-dollar discrepancy. Existing occupied-rental guides only mention deposits as one sale consideration. No town swap or eviction instructions."
+    "substantiveDifference": "Dedicated residential security-deposit owner handoff, current Texas92.105/92.106 boundaries and document reconciliation, with a clearly hypothetical250-dollar discrepancy. Existing occupied-rental guides only mention deposits as one sale consideration. No town swap or eviction instructions.",
+    "commit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+    "deployId": "6acf8919ab5d8af9d59db66c",
+    "pr": 8,
+    "publishedAt": "2026-10-14T13:58:10.302951+00:00"
   },
   {
     "runId": "native-daily-20261014T131202Z",
     "day": "2026-10-14",
     "slug": "vacant-house-insurance-while-selling-houston",
     "intentKey": "houston-vacancy-insurance-occupancy-notification-before-sale-checklist",
-    "status": "preview",
+    "status": "published",
     "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
     "nearestOverlaps": [
       "/blog/dont-live-in-area-vacant-property-risk/",
       "/blog/still-paying-unused-property/",
       "/blog/empty-house-problems-dont-wait/"
     ],
-    "substantiveDifference": "Policy-specific occupancy review and dates worksheet, separates in-term exclusions from nonrenewal, explicitly rejects universal60-day grace and separates a sale from a claim. Existing vacancy guides discuss security/holding costs without this sourced coverage checklist."
+    "substantiveDifference": "Policy-specific occupancy review and dates worksheet, separates in-term exclusions from nonrenewal, explicitly rejects universal60-day grace and separates a sale from a claim. Existing vacancy guides discuss security/holding costs without this sourced coverage checklist.",
+    "commit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+    "deployId": "6acf8919ab5d8af9d59db66c",
+    "pr": 8,
+    "publishedAt": "2026-10-14T13:58:10.302951+00:00"
   }
 ]

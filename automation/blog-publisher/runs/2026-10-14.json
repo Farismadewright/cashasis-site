@@ -1,0 +1,401 @@
+{
+  "runId": "native-daily-20261014T131202Z",
+  "fence": 2,
+  "day": "2026-10-14",
+  "status": "pass",
+  "startedAt": "2026-10-14T13:12:02Z",
+  "completedAt": "2026-10-14T13:58:10.302951+00:00",
+  "published": 3,
+  "held": 0,
+  "pr": 8,
+  "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
+  "previewDeployId": "6acf849a1e471fc7d0b32e99",
+  "productionCommit": "c4fdd77deed04b022a1a784cd4e9973511cbccfa",
+  "productionDeployId": "6acf8919ab5d8af9d59db66c",
+  "deploymentState": "ready",
+  "releaseGuard": {
+    "allowed": true,
+    "errors": []
+  },
+  "preview": {
+    "passed": true,
+    "context": "preview",
+    "articles": [
+      {
+        "slug": "houston-september-2026-market-selling-timeline",
+        "url": "https://6acf849a1e471fc7d0b32e99--cashasis-blog.netlify.app/blog/houston-september-2026-market-selling-timeline/",
+        "http": 200,
+        "noindex": "noindex",
+        "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "ogTwitterImage": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "07a89e4d9502aabebbeb3163a99b4556fc842a810509c4dc0c6d2662ea48043f",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "ctaParametersPassed": true,
+        "internalLinksPassed": true,
+        "indexRssSitemapPassed": true,
+        "mobileTestedHTMLIdentical": true,
+        "cssIdentical": true,
+        "analyticsReporting": "unavailable_optional"
+      },
+      {
+        "slug": "security-deposit-when-selling-texas-rental",
+        "url": "https://6acf849a1e471fc7d0b32e99--cashasis-blog.netlify.app/blog/security-deposit-when-selling-texas-rental/",
+        "http": 200,
+        "noindex": "noindex",
+        "canonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "ogTwitterImage": "https://www.cashasis.com/images/security-deposit-when-selling-texas-rental.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "60bbaeb947e37c3eaf8b58af5ae9f77f530d23df73c0222ccd6ffecb0f2efa85",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "ctaParametersPassed": true,
+        "internalLinksPassed": true,
+        "indexRssSitemapPassed": true,
+        "mobileTestedHTMLIdentical": true,
+        "cssIdentical": true,
+        "analyticsReporting": "unavailable_optional"
+      },
+      {
+        "slug": "vacant-house-insurance-while-selling-houston",
+        "url": "https://6acf849a1e471fc7d0b32e99--cashasis-blog.netlify.app/blog/vacant-house-insurance-while-selling-houston/",
+        "http": 200,
+        "noindex": "noindex",
+        "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "ogTwitterImage": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "72bbc40ec33a5287414860e41f344484ad3f8e0446d7936d3b7db5c013ed5da0",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 5,
+        "ctaParametersPassed": true,
+        "internalLinksPassed": true,
+        "indexRssSitemapPassed": true,
+        "mobileTestedHTMLIdentical": true,
+        "cssIdentical": true,
+        "analyticsReporting": "unavailable_optional"
+      }
+    ]
+  },
+  "production": {
+    "passed": true,
+    "context": "production",
+    "articles": [
+      {
+        "slug": "houston-september-2026-market-selling-timeline",
+        "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "http": 200,
+        "noindex": "",
+        "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "ogTwitterImage": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "07a89e4d9502aabebbeb3163a99b4556fc842a810509c4dc0c6d2662ea48043f",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "ctaParametersPassed": true,
+        "internalLinksPassed": true,
+        "indexRssSitemapPassed": true,
+        "mobileTestedHTMLIdentical": true,
+        "cssIdentical": true,
+        "analyticsReporting": "unavailable_optional"
+      },
+      {
+        "slug": "security-deposit-when-selling-texas-rental",
+        "url": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "http": 200,
+        "noindex": "",
+        "canonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "ogTwitterImage": "https://www.cashasis.com/images/security-deposit-when-selling-texas-rental.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "60bbaeb947e37c3eaf8b58af5ae9f77f530d23df73c0222ccd6ffecb0f2efa85",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "ctaParametersPassed": true,
+        "internalLinksPassed": true,
+        "indexRssSitemapPassed": true,
+        "mobileTestedHTMLIdentical": true,
+        "cssIdentical": true,
+        "analyticsReporting": "unavailable_optional"
+      },
+      {
+        "slug": "vacant-house-insurance-while-selling-houston",
+        "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "http": 200,
+        "noindex": "",
+        "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "ogTwitterImage": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "72bbc40ec33a5287414860e41f344484ad3f8e0446d7936d3b7db5c013ed5da0",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 5,
+        "ctaParametersPassed": true,
+        "internalLinksPassed": true,
+        "indexRssSitemapPassed": true,
+        "mobileTestedHTMLIdentical": true,
+        "cssIdentical": true,
+        "analyticsReporting": "unavailable_optional"
+      }
+    ]
+  },
+  "externalApiSpendUSD": 0,
+  "nativeAllowanceCostUSD": null,
+  "socialStatus": "draft_only",
+  "analyticsReporting": "unavailable_optional",
+  "crmMode": "read_only_aggregate_only",
+  "protectedSourceChanges": [],
+  "generatedAllowlistUpdated": true,
+  "validationPRsMerged": false,
+  "verification": {
+    "buildCommand": "npm run build",
+    "buildExitCode": 0,
+    "astroPages": 160,
+    "outputValidatorSlugs": [
+      "houston-september-2026-market-selling-timeline",
+      "security-deposit-when-selling-texas-rental",
+      "vacant-house-insurance-while-selling-houston"
+    ],
+    "outputValidatorExitCodes": [
+      0,
+      0,
+      0
+    ],
+    "publisherGuardTestsPassed": 5,
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "desktopAndMobileVisuallyReviewed": true,
+    "liveBrowserPagesReviewed": true,
+    "templateHashesVerified": true,
+    "privateSellerInformationPublished": false,
+    "sourcesVerifiedAt": "2026-10-14",
+    "retryCount": 1,
+    "retryReason": "Preview alias parity; immutable exact-commit verification succeeded",
+    "mobileMarket": {
+      "passed": true,
+      "results": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "body": 266,
+          "table": 292.90625,
+          "tableScrollSafe": true,
+          "image": 266,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+          "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "body": 296,
+          "table": 296,
+          "tableScrollSafe": true,
+          "image": 296,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+          "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "body": 638,
+          "table": 489.09375,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+          "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+        },
+        {
+          "width": 1366,
+          "scroll": 1366,
+          "body": 638,
+          "table": 489.09375,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+          "og": "https://www.cashasis.com/images/houston-september-2026-market-selling-timeline.png"
+        }
+      ]
+    },
+    "mobileDeposit": {
+      "passed": true,
+      "results": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "body": 266,
+          "table": 266,
+          "tableScrollSafe": true,
+          "image": 266,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+          "og": "https://www.cashasis.com/images/security-deposit-when-selling-texas-rental.png"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "body": 296,
+          "table": 296,
+          "tableScrollSafe": true,
+          "image": 296,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+          "og": "https://www.cashasis.com/images/security-deposit-when-selling-texas-rental.png"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "body": 638,
+          "table": 570.484375,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+          "og": "https://www.cashasis.com/images/security-deposit-when-selling-texas-rental.png"
+        },
+        {
+          "width": 1366,
+          "scroll": 1366,
+          "body": 638,
+          "table": 570.484375,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+          "og": "https://www.cashasis.com/images/security-deposit-when-selling-texas-rental.png"
+        }
+      ]
+    },
+    "mobileInsurance": {
+      "passed": true,
+      "results": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "body": 266,
+          "table": 266,
+          "tableScrollSafe": true,
+          "image": 266,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+          "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "body": 296,
+          "table": 296,
+          "tableScrollSafe": true,
+          "image": 296,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+          "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "body": 638,
+          "table": 638,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+          "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+        },
+        {
+          "width": 1366,
+          "scroll": 1366,
+          "body": 638,
+          "table": 638,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+          "og": "https://www.cashasis.com/images/vacant-house-insurance-while-selling-houston.png"
+        }
+      ]
+    }
+  },
+  "articles": [
+    {
+      "slug": "houston-september-2026-market-selling-timeline",
+      "title": "Houston's September 2026 Market: Plan Your Selling Timeline",
+      "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+      "imageSha256": "07a89e4d9502aabebbeb3163a99b4556fc842a810509c4dc0c6d2662ea48043f",
+      "intentKey": "har-september2026-greater-houston-market-days-vs-seller-timeline"
+    },
+    {
+      "slug": "security-deposit-when-selling-texas-rental",
+      "title": "Security Deposits When Selling a Texas Rental: A Seller Checklist",
+      "url": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+      "imageSha256": "60bbaeb947e37c3eaf8b58af5ae9f77f530d23df73c0222ccd6ffecb0f2efa85",
+      "intentKey": "texas-residential-rental-sale-security-deposit-transfer-record-checklist"
+    },
+    {
+      "slug": "vacant-house-insurance-while-selling-houston",
+      "title": "Vacant House Insurance While Selling in Houston: What to Check",
+      "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+      "imageSha256": "72bbc40ec33a5287414860e41f344484ad3f8e0446d7936d3b7db5c013ed5da0",
+      "intentKey": "houston-vacancy-insurance-occupancy-notification-before-sale-checklist"
+    }
+  ]
+}
