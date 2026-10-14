@@ -23,24 +23,33 @@
       "intentKey": "har-september2026-greater-houston-market-days-vs-seller-timeline",
       "runId": "native-daily-20261014T131202Z",
       "day": "2026-10-14",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "publishing",
+      "validationOnly": false,
+      "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
+      "previewDeployId": "6acf849a1e471fc7d0b32e99",
+      "pr": 8
     },
     {
       "slug": "security-deposit-when-selling-texas-rental",
       "intentKey": "texas-residential-rental-sale-security-deposit-transfer-record-checklist",
       "runId": "native-daily-20261014T131202Z",
       "day": "2026-10-14",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "publishing",
+      "validationOnly": false,
+      "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
+      "previewDeployId": "6acf849a1e471fc7d0b32e99",
+      "pr": 8
     },
     {
       "slug": "vacant-house-insurance-while-selling-houston",
       "intentKey": "houston-vacancy-insurance-occupancy-notification-before-sale-checklist",
       "runId": "native-daily-20261014T131202Z",
       "day": "2026-10-14",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "publishing",
+      "validationOnly": false,
+      "previewCommit": "eb4a7f16689b20f2e70da220e784ef0165c047a8",
+      "previewDeployId": "6acf849a1e471fc7d0b32e99",
+      "pr": 8
     }
   ],
   "externalApiSpendLimitUSD": 0
