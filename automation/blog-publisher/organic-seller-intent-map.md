@@ -44,3 +44,11 @@ For every primary page track: GSC query/page impressions, position and clicks; G
 5. Seller deadline organizer based only on dates the user enters.
 
 Each tool must preserve existing design, consent/privacy, attribution and GHL intake. Deliver value before asking for contact details where practical.
+
+## October15 supporting-education additions
+Verified current141-article inventory, pending validation PRs5/6/7 and ledger before generation. No new commercial/city synonym pages.
+- Texas seller disclosure as-is sale → /blog/texas-as-is-sale-seller-disclosure-checklist/; supporting upward link /blog/selling-as-is-what-it-actually-means/; Dedicated current Texas disclosure-preparation workflow separates actual knowledge, unknowns, source documents and repair decisions. Existing as-is guide explains purchase approach; flood guide only addresses flood history. No new Houston as-is head-term page.
+- selling Houston house with solar panels → /blog/selling-houston-house-solar-panels-contract-checklist/; supporting upward link /blog/how-cash-offer-house-works-houston/; Previously uncovered solar ownership/financing/lease/PPA document and proposed-sale review, with original170000-minus15000 planning example. Not general title-lien or cash-sale process duplicate.
+- protect house sale proceeds wire fraud → /blog/protect-house-sale-proceeds-wire-fraud/; supporting upward link /after-you-sign/; New seller contact-verification and payment-message safety workflow, separate from closing timing and title milestones. Hypothetical scenario explicitly not seller data.
+
+Current GSC review Sep16–Oct13: Katy32impressions/position27.53, MissouriCity27/17.59 and Houston back-tax14/23 are low-sample existing-page opportunities. No live rewrites or consolidation made; investigate query/page overlap and seller questions before proposing approved changes. New-topic demand unmeasured; organic seller conversion not established.

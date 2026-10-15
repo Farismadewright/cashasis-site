@@ -1,0 +1,246 @@
+{
+  "slug": "protect-house-sale-proceeds-wire-fraud",
+  "intentKey": "seller-closing-proceeds-wire-fraud-independent-verification-checklist",
+  "title": "Protect Your House-Sale Proceeds: A Seller's Wire-Fraud Checklist",
+  "description": "Selling a Houston house? Verify closing contacts and payment-instruction changes, protect sensitive details and learn how to respond to suspected wire fraud.",
+  "primaryKeyword": "protect house sale proceeds wire fraud",
+  "supportingKeywords": [
+    "seller closing wire fraud checklist",
+    "verify title company payment instructions",
+    "Houston seller closing safety"
+  ],
+  "image": "/images/protect-house-sale-proceeds-wire-fraud.png",
+  "imageAlt": "Illustrative Houston-area house with the headline Protect Your Sale Proceeds and the official Cash As-Is logo",
+  "runId": "native-catchup-20261015T170311Z",
+  "fence": 5,
+  "day": "2026-10-15",
+  "status": "preview",
+  "commit": null,
+  "deployId": null,
+  "url": null,
+  "sources": [
+    {
+      "url": "https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-real-estate-fraud",
+      "title": "FBI Digital Defense Against Real Estate Fraud",
+      "publicationDate": "2018-07-24",
+      "claim": "Compromised email can introduce fraudulent instructions; confirm through previously stored trusted contact, not suspicious-message number; avoid disclosing sensitive information to unverified callers. No old statistics reused.",
+      "verifiedAt": "2026-10-15T17:14:25.910788+00:00",
+      "accessedAt": "2026-10-15T17:14:25.910788+00:00",
+      "geography": "US guidance applied to Houston-area seller planning",
+      "method": "Read current primary-source full page, not search snippets; no copied private conversations.",
+      "httpEvidence": {
+        "url": "https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-real-estate-fraud",
+        "error": "HTTP Error 403: Forbidden",
+        "webPrimaryContentReviewed": true
+      }
+    },
+    {
+      "url": "https://www.consumerfinance.gov/archive/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/",
+      "title": "CFPB Mortgage Closing Scams",
+      "publicationDate": "2019-06-03",
+      "pageLastModified": "2026-06-25",
+      "claim": "Buyer-focused guidance: establish trusted contacts; independent confirmation; contact bank/transfer provider immediately and ask for recall; report toIC3. Seller application is labeled editorial planning, not guarantee of disbursement process or recovery.",
+      "verifiedAt": "2026-10-15T17:14:25.910788+00:00",
+      "accessedAt": "2026-10-15T17:14:25.910788+00:00",
+      "geography": "US guidance applied to Houston-area seller planning",
+      "method": "Read current primary-source full page, not search snippets; no copied private conversations.",
+      "httpEvidence": {
+        "url": "https://www.consumerfinance.gov/archive/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/",
+        "http": 200,
+        "finalURL": "https://www.consumerfinance.gov/archive/blog/mortgage-closing-scams-how-protect-yourself-and-your-closing-funds/",
+        "bytes": 161112
+      }
+    },
+    {
+      "url": "https://www.ic3.gov/",
+      "title": "FBI Internet Crime Complaint Center",
+      "publicationDate": null,
+      "claim": "Official reporting destination, not report submission by publisher.",
+      "verifiedAt": "2026-10-15T17:14:25.910788+00:00",
+      "accessedAt": "2026-10-15T17:14:25.910788+00:00",
+      "geography": "US guidance applied to Houston-area seller planning",
+      "method": "Read current primary-source full page, not search snippets; no copied private conversations.",
+      "httpEvidence": {
+        "url": "https://www.ic3.gov/",
+        "http": 200,
+        "finalURL": "https://www.ic3.gov/",
+        "bytes": 53154
+      }
+    }
+  ],
+  "nearestOverlaps": [
+    "/after-you-sign/",
+    "/blog/cash-house-sale-timeline-houston/",
+    "/closing-timeline/"
+  ],
+  "substantiveDifference": "New seller contact-verification and payment-message safety workflow, separate from closing timing and title milestones. Hypothetical scenario explicitly not seller data.",
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "eligibleInbound": 42,
+    "distinctSellerThemeCounts": {
+      "offerComparison": 6,
+      "condition": 1,
+      "closingProcess": 3
+    },
+    "contextReviewed": true,
+    "limitations": "Recent bounded SMS sample, not all leads; themes are broad price/condition/process questions. The three new guides answer adjacent editorial gaps; not evidence of recurring exact disclosure, solar or wire-fraud questions. Opt-outs/wrong numbers excluded; no private quotes, identifiers or amounts retained in public records."
+  },
+  "sellerTopicOrigin": "Broad seller price/condition/closing concerns plus manually identified educational gap; no claim of recurring exact topic demand.",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpendUSD": 0,
+    "note": "Native Work and existing Netlify allowances only; no purchased services or API credits."
+  },
+  "protectedSourceChanges": [],
+  "imageSha256": "fda278cfbf04fdaf4ba597e519e2e9ea87f1a081bcf65b404abf7b15e60c540b",
+  "thumbnail": {
+    "nativeImagegen": true,
+    "backgroundSha256": "e7f4980f371cb447901b8636983f4294836a5933706a1093689a821dd7350af7",
+    "prompt": "Use case: photorealistic-natural. Asset: illustrative property background photograph for established seller education thumbnail. Wide landscape natural editorial photo of a tidy older cream siding and brick Houston-area house on the RIGHT side, welcoming front porch and closed door, mature oak shade in left half and foreground, calm clear afternoon light. Left55percent negative space with shaded lawn/foliage for deterministic headline and official logo later. Realistic modest property, not a luxury mansion. No people, phones, devices, paperwork, cash, text, address numbers, logos, signs, watermarks or security symbols. Do not add graphic overlays. Photographic1200x630 crop-safe composition, not an actual listing.",
+    "renderer": "automation/blog-publisher/scripts/render_thumbnail.mjs",
+    "template": "left-photo-transparent-v2",
+    "width": 1200,
+    "height": 630,
+    "headline": "PROTECT|YOUR SALE|PROCEEDS",
+    "logoVariant": "white",
+    "transparentOfficialLogo": true,
+    "templateHashesVerified": true,
+    "visualReviewedFullAndCardScale": true
+  },
+  "social": {
+    "slug": "protect-house-sale-proceeds-wire-fraud",
+    "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+    "image": "https://www.cashasis.com/images/protect-house-sale-proceeds-wire-fraud.png",
+    "status": "draft_only",
+    "facebook": "Selling a Houston house? Verify closing contacts and payment-instruction changes, protect sensitive details and learn how to respond to suspected wire fraud.\n\nRead the practical seller checklist:\nhttps://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+    "instagram": "Protect Your House-Sale Proceeds: A Seller's Wire-Fraud Checklist\n\nSelling a Houston house? Verify closing contacts and payment-instruction changes, protect sensitive details and learn how to respond to suspected wire fraud.\n\nRead the guide: https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Protect Your House-Sale Proceeds: A Seller's Wire-Fraud Checklist\n\nSelling a Houston house? Verify closing contacts and payment-instruction changes, protect sensitive details and learn how to respond to suspected wire fraud.\n\nA clearer property decision starts with verified documents and questions, not promises.\nhttps://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+    "googleBusinessProfile": "Protect Your House-Sale Proceeds: A Seller's Wire-Fraud Checklist\n\nSelling a Houston house? Verify closing contacts and payment-instruction changes, protect sensitive details and learn how to respond to suspected wire fraud.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+    "promotionalExcerpt": "Selling a Houston house? Verify closing contacts and payment-instruction changes, protect sensitive details and learn how to respond to suspected wire fraud.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "originalityEvidence": {
+    "priorBlogArticles": 141,
+    "maxShared12WordShingles": 0,
+    "manualIntentReview": "New seller contact-verification and payment-message safety workflow, separate from closing timing and title milestones. Hypothetical scenario explicitly not seller data.",
+    "noCityOrSynonymSwap": true
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "production": "pending",
+    "conversionReporting": "not_validated_live_optional"
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "og": "https://www.cashasis.com/images/protect-house-sale-proceeds-wire-fraud.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "og": "https://www.cashasis.com/images/protect-house-sale-proceeds-wire-fraud.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "og": "https://www.cashasis.com/images/protect-house-sale-proceeds-wire-fraud.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "og": "https://www.cashasis.com/images/protect-house-sale-proceeds-wire-fraud.png"
+      }
+    ]
+  },
+  "commandEvidence": {
+    "buildCommand": "npm run build",
+    "buildExitCode": 0,
+    "outputValidator": "validate_output.py . protect-house-sale-proceeds-wire-fraud",
+    "outputValidatorExitCode": 0,
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ]
+  },
+  "seoLifecycle": {
+    "localGates": {
+      "indexability": "pass",
+      "robotsNoindex": "pass",
+      "canonical": "pass",
+      "sitemapEligibility": "pass",
+      "contentQuality": "pass",
+      "specificSearchIntent": "pass",
+      "duplicateContent": "pass",
+      "cannibalization": "pass",
+      "meaningfulInternalLinks": "pass",
+      "sellerConversionPath": "pass",
+      "factualSources": "pass"
+    },
+    "robotsEvidence": "User-agent:* Allow:/ Disallow:/agent-portal; article routes allowed; no production noindex in built HTML; preview runtime header checked before release.",
+    "intentPrimaryURL": "/after-you-sign/",
+    "inboundDiscovery": "Existing blog hub automatically renders article cards; confirmed built hub link.",
+    "searchConsoleMonitoring": {
+      "status": "pending_new_live_URL",
+      "source": "Existing GSC Wizard read-only URL Inspection after production; no manual indexing request",
+      "nextReview": "2026-10-16",
+      "searchDemand": "No search-volume claim or observed exact query demand for new topics."
+    },
+    "ga4Measurement": {
+      "status": "available_existing_GA4_but_new_articles_have_no_settled_data",
+      "organicLeads": "unestablished",
+      "funnel": "Article > impressions > clicks > original organic landing session > CTA/form start > validated lead > qualified seller > agreement > funded retained GP",
+      "neverInferDownstreamFromRawEvents": true
+    }
+  },
+  "correctiveWork": "Renderer rejected long line before release; same approved words split across3lines, no template/font/logo change."
+}
