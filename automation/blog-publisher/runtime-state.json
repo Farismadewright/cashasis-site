@@ -3,7 +3,8 @@
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
     "fence": 4,
     "issuedAt": "2026-10-15T13:59:37.094Z",
-    "expiresAt": "2026-10-15T14:14:37.094Z"
+    "expiresAt": "2026-10-15T13:59:43.119Z",
+    "releasedAt": "2026-10-15T13:59:43.119Z"
   },
   "ledger": [
     {
@@ -80,6 +81,16 @@
     "completedAt": "2026-10-15T13:57:38.487Z",
     "evidenceCommit": "7c2d6547679684ac84224ef9bb644fd9e940a895",
     "evidencePath": "automation/blog-publisher/runs/2026-10-15.json",
-    "publisherPaused": true
+    "publisherPaused": false,
+    "blockerResolvedAt": "2026-10-15T13:59:43.119Z"
+  },
+  "lastRecovery": {
+    "runId": "publisher-reauth-recovery-20261015T135937094Z",
+    "fence": 4,
+    "status": "pass",
+    "at": "2026-10-15T13:59:43.119Z",
+    "commit": "fdcab894552605fe5fb479c244dcf25b511e68d1",
+    "resolvedBlocker": "netlify_reauthentication_required",
+    "articlesPublished": 0
   }
 }
