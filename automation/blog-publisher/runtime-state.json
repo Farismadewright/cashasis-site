@@ -3,7 +3,8 @@
     "runId": "native-catchup-20261015T170311Z",
     "fence": 5,
     "issuedAt": "2026-10-15T17:04:16.968Z",
-    "expiresAt": "2026-10-15T19:04:16.968Z"
+    "expiresAt": "2026-10-15T17:25:51.645Z",
+    "releasedAt": "2026-10-15T17:25:51.645Z"
   },
   "ledger": [
     {
@@ -71,50 +72,62 @@
       "intentKey": "texas-as-is-voluntary-residential-sale-disclosure-knowledge-document-preparation",
       "runId": "native-catchup-20261015T170311Z",
       "day": "2026-10-15",
-      "status": "publishing",
+      "status": "published",
       "validationOnly": false,
       "previewCommit": "bc20b7dff230018f10007162772d0ee75c423a75",
       "previewDeployId": "6ad10a99680091d93466d640",
-      "pr": 9
+      "pr": 9,
+      "commit": "3508525b585ac1d56002d51a6e9e14e063025a71",
+      "deployId": "6ad10bb44aaa7eab064877ec",
+      "url": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "publishedAt": "2026-10-15T17:25:51.645Z",
+      "evidenceCommit": "48da7870c037137a9788c429c71c88d0d7a7278b"
     },
     {
       "slug": "selling-houston-house-solar-panels-contract-checklist",
       "intentKey": "houston-house-sale-solar-owned-loan-lease-ppa-contract-transfer-checklist",
       "runId": "native-catchup-20261015T170311Z",
       "day": "2026-10-15",
-      "status": "publishing",
+      "status": "published",
       "validationOnly": false,
       "previewCommit": "bc20b7dff230018f10007162772d0ee75c423a75",
       "previewDeployId": "6ad10a99680091d93466d640",
-      "pr": 9
+      "pr": 9,
+      "commit": "3508525b585ac1d56002d51a6e9e14e063025a71",
+      "deployId": "6ad10bb44aaa7eab064877ec",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+      "publishedAt": "2026-10-15T17:25:51.645Z",
+      "evidenceCommit": "48da7870c037137a9788c429c71c88d0d7a7278b"
     },
     {
       "slug": "protect-house-sale-proceeds-wire-fraud",
       "intentKey": "seller-closing-proceeds-wire-fraud-independent-verification-checklist",
       "runId": "native-catchup-20261015T170311Z",
       "day": "2026-10-15",
-      "status": "publishing",
+      "status": "published",
       "validationOnly": false,
       "previewCommit": "bc20b7dff230018f10007162772d0ee75c423a75",
       "previewDeployId": "6ad10a99680091d93466d640",
-      "pr": 9
+      "pr": 9,
+      "commit": "3508525b585ac1d56002d51a6e9e14e063025a71",
+      "deployId": "6ad10bb44aaa7eab064877ec",
+      "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+      "publishedAt": "2026-10-15T17:25:51.645Z",
+      "evidenceCommit": "48da7870c037137a9788c429c71c88d0d7a7278b"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261015T133653Z",
-    "fence": 3,
+    "runId": "native-catchup-20261015T170311Z",
+    "fence": 5,
     "day": "2026-10-15",
-    "status": "hold",
-    "published": 0,
+    "status": "pass",
+    "published": 3,
     "articlesHeld": 0,
-    "batchHeld": true,
-    "reason": "netlify_reauthentication_required",
-    "completedAt": "2026-10-15T13:57:38.487Z",
-    "evidenceCommit": "7c2d6547679684ac84224ef9bb644fd9e940a895",
-    "evidencePath": "automation/blog-publisher/runs/2026-10-15.json",
-    "publisherPaused": false,
-    "blockerResolvedAt": "2026-10-15T13:59:43.119Z"
+    "batchHeld": false,
+    "completedAt": "2026-10-15T17:25:51.645Z",
+    "evidenceCommit": "48da7870c037137a9788c429c71c88d0d7a7278b",
+    "evidencePath": "automation/blog-publisher/runs/2026-10-15.json"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
