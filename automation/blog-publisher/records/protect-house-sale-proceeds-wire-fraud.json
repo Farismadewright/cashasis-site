@@ -14,10 +14,10 @@
   "runId": "native-catchup-20261015T170311Z",
   "fence": 5,
   "day": "2026-10-15",
-  "status": "preview",
-  "commit": null,
-  "deployId": null,
-  "url": null,
+  "status": "published",
+  "commit": "3508525b585ac1d56002d51a6e9e14e063025a71",
+  "deployId": "6ad10bb44aaa7eab064877ec",
+  "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
   "sources": [
     {
       "url": "https://www.fbi.gov/contact-us/field-offices/portland/news/press-releases/fbi-tech-tuesday-building-a-digital-defense-against-real-estate-fraud",
@@ -143,8 +143,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "production": "pending",
+    "preview": "pass",
+    "production": "pass",
     "conversionReporting": "not_validated_live_optional"
   },
   "mobileEvidence": {
@@ -230,17 +230,90 @@
     "intentPrimaryURL": "/after-you-sign/",
     "inboundDiscovery": "Existing blog hub automatically renders article cards; confirmed built hub link.",
     "searchConsoleMonitoring": {
-      "status": "pending_new_live_URL",
+      "status": "inspected",
       "source": "Existing GSC Wizard read-only URL Inspection after production; no manual indexing request",
       "nextReview": "2026-10-16",
-      "searchDemand": "No search-volume claim or observed exact query demand for new topics."
+      "searchDemand": "No search-volume claim or observed exact query demand for new topics.",
+      "inspection": {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JwueFBizLNCawGgyzck8Qw&utm_medium=link&utm_source=api"
+      },
+      "checkedAt": "2026-10-15T17:25:12.169318+00:00",
+      "indexingRequestSubmitted": false
     },
     "ga4Measurement": {
       "status": "available_existing_GA4_but_new_articles_have_no_settled_data",
       "organicLeads": "unestablished",
       "funnel": "Article > impressions > clicks > original organic landing session > CTA/form start > validated lead > qualified seller > agreement > funded retained GP",
       "neverInferDownstreamFromRawEvents": true
-    }
+    },
+    "productionIndexability": "pass"
   },
-  "correctiveWork": "Renderer rejected long line before release; same approved words split across3lines, no template/font/logo change."
+  "correctiveWork": "Renderer rejected long line before release; same approved words split across3lines, no template/font/logo change.",
+  "previewEvidence": {
+    "slug": "protect-house-sale-proceeds-wire-fraud",
+    "url": "https://6ad10a99680091d93466d640--cashasis-blog.netlify.app/blog/protect-house-sale-proceeds-wire-fraud/",
+    "http": 200,
+    "canonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+    "sharingImage": "https://www.cashasis.com/images/protect-house-sale-proceeds-wire-fraud.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSha256": "fda278cfbf04fdaf4ba597e519e2e9ea87f1a081bcf65b404abf7b15e60c540b",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "xRobotsTag": "noindex",
+    "robotsAllowsArticle": true,
+    "internalLinks": true,
+    "ctaAttribution": true,
+    "sitemapRssBlogCard": true,
+    "sameHtmlAndCssAsMobileTestedBuild": true,
+    "privacy": "no_private_data",
+    "actualSellerLeadSubmission": "not_performed"
+  },
+  "previewCommit": "bc20b7dff230018f10007162772d0ee75c423a75",
+  "previewDeployId": "6ad10a99680091d93466d640",
+  "publishedAt": "2026-10-15T17:25:12.169318+00:00",
+  "pr": 9,
+  "productionEvidence": {
+    "slug": "protect-house-sale-proceeds-wire-fraud",
+    "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+    "http": 200,
+    "canonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+    "sharingImage": "https://www.cashasis.com/images/protect-house-sale-proceeds-wire-fraud.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSha256": "fda278cfbf04fdaf4ba597e519e2e9ea87f1a081bcf65b404abf7b15e60c540b",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "xRobotsTag": "",
+    "robotsAllowsArticle": true,
+    "internalLinks": true,
+    "ctaAttribution": true,
+    "sitemapRssBlogCard": true,
+    "sameHtmlAndCssAsMobileTestedBuild": true,
+    "privacy": "no_private_data",
+    "actualSellerLeadSubmission": "not_performed"
+  }
 }

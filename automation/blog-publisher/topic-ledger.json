@@ -58,38 +58,53 @@
     "day": "2026-10-15",
     "slug": "texas-as-is-sale-seller-disclosure-checklist",
     "intentKey": "texas-as-is-voluntary-residential-sale-disclosure-knowledge-document-preparation",
-    "status": "preview",
+    "status": "published",
     "nearestOverlaps": [
       "/blog/selling-as-is-what-it-actually-means/",
       "/blog/sell-flood-damaged-house-houston/",
       "/understanding-your-cash-offer/"
     ],
-    "substantiveDifference": "Dedicated current Texas disclosure-preparation workflow separates actual knowledge, unknowns, source documents and repair decisions. Existing as-is guide explains purchase approach; flood guide only addresses flood history. No new Houston as-is head-term page."
+    "substantiveDifference": "Dedicated current Texas disclosure-preparation workflow separates actual knowledge, unknowns, source documents and repair decisions. Existing as-is guide explains purchase approach; flood guide only addresses flood history. No new Houston as-is head-term page.",
+    "commit": "3508525b585ac1d56002d51a6e9e14e063025a71",
+    "deployId": "6ad10bb44aaa7eab064877ec",
+    "pr": 9,
+    "publishedAt": "2026-10-15T17:25:12.169318+00:00",
+    "url": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/"
   },
   {
     "runId": "native-catchup-20261015T170311Z",
     "day": "2026-10-15",
     "slug": "selling-houston-house-solar-panels-contract-checklist",
     "intentKey": "houston-house-sale-solar-owned-loan-lease-ppa-contract-transfer-checklist",
-    "status": "preview",
+    "status": "published",
     "nearestOverlaps": [
       "/blog/sell-house-title-problems-houston/",
       "/compare-the-net/",
       "/blog/how-cash-offer-house-works-houston/"
     ],
-    "substantiveDifference": "Previously uncovered solar ownership/financing/lease/PPA document and proposed-sale review, with original170000-minus15000 planning example. Not general title-lien or cash-sale process duplicate."
+    "substantiveDifference": "Previously uncovered solar ownership/financing/lease/PPA document and proposed-sale review, with original170000-minus15000 planning example. Not general title-lien or cash-sale process duplicate.",
+    "commit": "3508525b585ac1d56002d51a6e9e14e063025a71",
+    "deployId": "6ad10bb44aaa7eab064877ec",
+    "pr": 9,
+    "publishedAt": "2026-10-15T17:25:12.169318+00:00",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/"
   },
   {
     "runId": "native-catchup-20261015T170311Z",
     "day": "2026-10-15",
     "slug": "protect-house-sale-proceeds-wire-fraud",
     "intentKey": "seller-closing-proceeds-wire-fraud-independent-verification-checklist",
-    "status": "preview",
+    "status": "published",
     "nearestOverlaps": [
       "/after-you-sign/",
       "/blog/cash-house-sale-timeline-houston/",
       "/closing-timeline/"
     ],
-    "substantiveDifference": "New seller contact-verification and payment-message safety workflow, separate from closing timing and title milestones. Hypothetical scenario explicitly not seller data."
+    "substantiveDifference": "New seller contact-verification and payment-message safety workflow, separate from closing timing and title milestones. Hypothetical scenario explicitly not seller data.",
+    "commit": "3508525b585ac1d56002d51a6e9e14e063025a71",
+    "deployId": "6ad10bb44aaa7eab064877ec",
+    "pr": 9,
+    "publishedAt": "2026-10-15T17:25:12.169318+00:00",
+    "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/"
   }
 ]
