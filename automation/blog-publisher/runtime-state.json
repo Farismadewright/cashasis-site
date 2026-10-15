@@ -71,24 +71,33 @@
       "intentKey": "texas-as-is-voluntary-residential-sale-disclosure-knowledge-document-preparation",
       "runId": "native-catchup-20261015T170311Z",
       "day": "2026-10-15",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "publishing",
+      "validationOnly": false,
+      "previewCommit": "bc20b7dff230018f10007162772d0ee75c423a75",
+      "previewDeployId": "6ad10a99680091d93466d640",
+      "pr": 9
     },
     {
       "slug": "selling-houston-house-solar-panels-contract-checklist",
       "intentKey": "houston-house-sale-solar-owned-loan-lease-ppa-contract-transfer-checklist",
       "runId": "native-catchup-20261015T170311Z",
       "day": "2026-10-15",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "publishing",
+      "validationOnly": false,
+      "previewCommit": "bc20b7dff230018f10007162772d0ee75c423a75",
+      "previewDeployId": "6ad10a99680091d93466d640",
+      "pr": 9
     },
     {
       "slug": "protect-house-sale-proceeds-wire-fraud",
       "intentKey": "seller-closing-proceeds-wire-fraud-independent-verification-checklist",
       "runId": "native-catchup-20261015T170311Z",
       "day": "2026-10-15",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "publishing",
+      "validationOnly": false,
+      "previewCommit": "bc20b7dff230018f10007162772d0ee75c423a75",
+      "previewDeployId": "6ad10a99680091d93466d640",
+      "pr": 9
     }
   ],
   "externalApiSpendLimitUSD": 0,
