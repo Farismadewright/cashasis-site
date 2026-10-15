@@ -1,11 +1,11 @@
 {
-  "mode": "hold",
-  "unattendedProduction": false,
+  "mode": "production",
+  "unattendedProduction": true,
   "dailyCap": 3,
   "templateApproved": true,
   "workflowPassed": true,
   "conversionPassed": false,
-  "runnerEnabled": false,
+  "runnerEnabled": true,
   "template": "left-photo-transparent-v2",
   "approvedAt": "2026-10-13T12:36:55-05:00",
   "approval": "Owner: ok yes looks good",
@@ -31,9 +31,7 @@
   "externalApiSpendLimitUSD": 0,
   "nativeUnattendedTestPassed": true,
   "runnerPreflightConfigured": false,
-  "blockers": [
-    "netlify_reauthentication_required"
-  ],
+  "blockers": [],
   "leasePassed": true,
   "runnerPreflightRequested": true,
   "preflightTaskPaused": false,
@@ -49,12 +47,15 @@
   "unattendedTestDeploy": "6ace9e213b54b4e694796c30",
   "activatedAt": "2026-10-13T21:13:48.027Z",
   "activationAuthority": "Owner authorization conditional on mandatory safe publishing tests; analytics optional per 2026-10-13 update",
-  "hold": {
+  "lastHold": {
     "runId": "native-daily-20261015T133653Z",
     "at": "2026-10-15T13:57:17.334Z",
     "reason": "netlify_reauthentication_required",
     "previousMode": "production",
     "evidence": "automation/blog-publisher/runs/2026-10-15.json",
-    "preserveActivationEvidence": true
-  }
+    "preserveActivationEvidence": true,
+    "resolvedAt": "2026-10-15T13:59:37.094Z",
+    "resolution": "Existing Netlify connection reauthenticated; site/deploy read succeeded and current production ready at exact main commit."
+  },
+  "recoveredAt": "2026-10-15T13:59:37.094Z"
 }

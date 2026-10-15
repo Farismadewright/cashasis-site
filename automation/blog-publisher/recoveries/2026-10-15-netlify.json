@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "kind": "connection_recovery_not_article_publication",
+  "at": "2026-10-15T13:59:37.094Z",
+  "runId": "publisher-reauth-recovery-20261015T135937094Z",
+  "fence": 4,
+  "resolvedBlocker": "netlify_reauthentication_required",
+  "checks": {
+    "githubRead": "pass",
+    "netlifySiteRead": "pass",
+    "netlifyExactProductionDeployRead": "pass",
+    "cashAsIsGhlLocationRead": "pass",
+    "activationSafeguardsRetained": "pass"
+  },
+  "productionCommit": "7c2d6547679684ac84224ef9bb644fd9e940a895",
+  "productionDeployId": "6ad0dbd3b21cb925cb08cc44",
+  "site": "cashasis-blog",
+  "articlesPublished": 0,
+  "externalApiSpendUSD": 0,
+  "scheduleChanged": false,
+  "priorHeldRun": "automation/blog-publisher/runs/2026-10-15.json",
+  "note": "Preserve the failed attempt as historical HOLD; restoring access is not an article publication or a completed publisher run."
+}
