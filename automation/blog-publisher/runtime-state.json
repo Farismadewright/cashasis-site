@@ -3,7 +3,8 @@
     "runId": "native-daily-20261015T133653Z",
     "fence": 3,
     "issuedAt": "2026-10-15T13:37:50.629Z",
-    "expiresAt": "2026-10-15T15:37:50.629Z"
+    "expiresAt": "2026-10-15T13:57:38.487Z",
+    "releasedAt": "2026-10-15T13:57:38.487Z"
   },
   "ledger": [
     {
@@ -69,12 +70,17 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261014T131202Z",
-    "status": "pass",
-    "published": 3,
-    "held": 0,
-    "completedAt": "2026-10-14T13:58:39.256Z",
-    "evidenceCommit": "d1c959f3a7ab9a8e518cbbd575819a78bbf00432",
-    "evidencePath": "automation/blog-publisher/runs/2026-10-14.json"
+    "runId": "native-daily-20261015T133653Z",
+    "fence": 3,
+    "day": "2026-10-15",
+    "status": "hold",
+    "published": 0,
+    "articlesHeld": 0,
+    "batchHeld": true,
+    "reason": "netlify_reauthentication_required",
+    "completedAt": "2026-10-15T13:57:38.487Z",
+    "evidenceCommit": "7c2d6547679684ac84224ef9bb644fd9e940a895",
+    "evidencePath": "automation/blog-publisher/runs/2026-10-15.json",
+    "publisherPaused": true
   }
 }
