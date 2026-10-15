@@ -1,0 +1,58 @@
+{
+  "runId": "native-daily-20261015T133653Z",
+  "fence": 3,
+  "day": "2026-10-15",
+  "status": "hold",
+  "startedAt": "2026-10-15T13:36:53Z",
+  "completedAt": "2026-10-15T13:57:17.334Z",
+  "published": 0,
+  "articlesHeld": 0,
+  "batchHeld": true,
+  "targetMaximum": 3,
+  "articlesGenerated": 0,
+  "imagesGenerated": 0,
+  "reservationsCreated": 0,
+  "externalApiSpendUSD": 0,
+  "sourceMain": "502c9683660ed9302e88be0bcfb0f73be311eca9",
+  "mandatoryBlocker": {
+    "integration": "Netlify",
+    "operation": "get_project",
+    "site": "cashasis-blog",
+    "errorCode": "UNAUTHORIZED",
+    "reason": "Reauthentication required; existing connection could not refresh credentials.",
+    "impact": "Cannot verify exact-commit preview/production deploy readiness. Stop before generation or content release.",
+    "requiredAction": "Reconnect the existing Netlify connection, verify a harmless site read, then resume the same existing publisher. No new service or plan required."
+  },
+  "checks": {
+    "mainState": "pass_production_authorized_at_start",
+    "nativeTestEvidence": "existing_record_preserved_not_rerun",
+    "runtimeLease": "pass_contents_api_sha_guarded",
+    "inventory": "pass",
+    "netlifyAccess": "fail_reauthentication_required",
+    "topicReservation": "not_started",
+    "sellerVoice": "not_run_after_essential_blocker",
+    "factualVerification": "not_run_no_article_created",
+    "thumbnail": "not_run_no_image_created",
+    "build": "not_run_no_content_change",
+    "preview": "not_run",
+    "production": "not_run",
+    "livePage": "not_run_no_content_change"
+  },
+  "inventory": {
+    "exitCode": 0,
+    "entries": 162,
+    "blogArticles": 141,
+    "inventorySha256": "e29741c7be96661712b1f32df0def88205183e7962e8af071114703d8c926005"
+  },
+  "pendingValidationPRsPreserved": [
+    5,
+    6,
+    7
+  ],
+  "protectedSourceChanges": [],
+  "websiteContentChanges": [],
+  "scheduleCadenceChanged": false,
+  "publisherPaused": true,
+  "analyticsRequiredForPublishing": false,
+  "conversionReportingRequiredForPublishing": false
+}
