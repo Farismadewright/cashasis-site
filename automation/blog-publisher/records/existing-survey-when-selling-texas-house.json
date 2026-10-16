@@ -11,10 +11,10 @@
   "imageAlt": "Illustrative Houston-area brick house and side-yard fence with the headline Check Your Existing Survey",
   "slug": "existing-survey-when-selling-texas-house",
   "intentKey": "texas-house-seller-existing-survey-t47-t471-acceptance-document-checklist",
-  "runId": "native-daily-20261016T132454Z",
-  "fence": 6,
+  "runId": "owner-resume-20261016T135920Z",
+  "fence": 7,
   "day": "2026-10-16",
-  "status": "hold",
+  "status": "preview",
   "commit": null,
   "deployId": null,
   "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
@@ -180,7 +180,7 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
+    "preview": "pass",
     "production": "pending",
     "conversionReporting": "optional_not_a_live_lead_test"
   },
@@ -253,15 +253,7 @@
     ],
     "pythonReleaseGuardTestsPassed": 5,
     "javascriptPublisherTestsPassed": 3,
-    "correctiveAttempt": "Initial build rejected overlong money meta description; shortened before final full build exited0.",
-    "blogCardVisualReview": {
-      "passed": true,
-      "widths": [
-        390,
-        1366
-      ],
-      "imagesDecodedBeforeFinalScreenshot": true
-    }
+    "correctiveAttempt": "Initial build rejected166-character money meta description; shortened to compliant length, full subsequent build exited0."
   },
   "seoLifecycle": {
     "localGates": {
@@ -300,22 +292,33 @@
       "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
     }
   },
-  "hold": {
-    "reason": "required_preview_network_approval_cancelled",
-    "details": "Final immutable-preview full resource verification did not complete: unified exec reported network approval was cancelled before a decision was returned. No main content merge attempted.",
-    "at": "2026-10-16T13:49:29.330Z"
+  "previewEvidence": {
+    "slug": "existing-survey-when-selling-texas-house",
+    "url": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/existing-survey-when-selling-texas-house/",
+    "http": 200,
+    "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+    "sharingImage": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSha256": "23991123c81bd0183994fc9e7c57d72607fa038b7e4e08d655d7ea4fa40e665c",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "xRobotsTag": "noindex",
+    "robotsAllowsArticle": true,
+    "internalLinks": true,
+    "ctaAttribution": true,
+    "sitemapRssBlogCard": true,
+    "sameHtmlAndCssAsMobileTestedBuild": true,
+    "privacy": "no_private_data",
+    "liveLeadSubmission": "not_performed"
   },
   "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
   "previewDeployId": "6ad22958f4d946c4da1facda",
-  "pr": 10,
-  "previewURL": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/existing-survey-when-selling-texas-house/",
-  "previewEvidence": {
-    "exactCommitReady": true,
-    "context": "deploy-preview",
-    "liveHtmlHttp200": true,
-    "htmlMatchesMobileTestedBuild": true,
-    "fullResourceCheck": "incomplete_not_pass",
-    "allLiveImageHashes": "not_fully_confirmed",
-    "productionRelease": "not_attempted"
-  }
+  "pr": 10
 }

@@ -108,57 +108,45 @@
     "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/"
   },
   {
-    "runId": "native-daily-20261016T132454Z",
+    "runId": "owner-resume-20261016T135920Z",
     "day": "2026-10-16",
     "slug": "existing-survey-when-selling-texas-house",
     "intentKey": "texas-house-seller-existing-survey-t47-t471-acceptance-document-checklist",
-    "status": "hold",
+    "status": "preview",
+    "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
     "nearestOverlaps": [
       "/blog/sell-house-title-problems-houston/",
       "/blog/sell-inherited-house-sugar-land/",
       "/blog/texas-as-is-sale-seller-disclosure-checklist/"
     ],
-    "substantiveDifference": "Dedicated existing-survey acceptance and document packet; T47/T47.1 knowledge versus drawing distinction and original fence-change decision example. Existing title guide covers ownership/lien problems; inherited guide merely lists surveys among documents; disclosure guide concerns condition reporting, not survey acceptance.",
-    "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
-    "previewDeployId": "6ad22958f4d946c4da1facda",
-    "pr": 10,
-    "reason": "required_preview_network_approval_cancelled",
-    "neverPublished": true
+    "substantiveDifference": "Dedicated existing-survey acceptance and document packet; T47/T47.1 knowledge versus drawing distinction and original fence-change decision example. Existing title guide covers ownership/lien problems; inherited guide merely lists surveys among documents; disclosure guide concerns condition reporting, not survey acceptance."
   },
   {
-    "runId": "native-daily-20261016T132454Z",
+    "runId": "owner-resume-20261016T135920Z",
     "day": "2026-10-16",
     "slug": "hoa-resale-documents-texas-house-sale",
     "intentKey": "texas-non-condominium-mandatory-hoa-resale-document-ordering-fee-allocation-checklist",
-    "status": "hold",
+    "status": "preview",
+    "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
     "nearestOverlaps": [
       "/blog/sell-house-liens-harris-county/",
       "/blog/sell-house-title-problems-houston/",
       "/compare-the-net/"
     ],
-    "substantiveDifference": "Previously uncovered non-condominium mandatory HOA document-order handoff and separation of resale documents, account balance, assessment issues and transfer charges. Not an HOA lien remedy article or generic seller-net page.",
-    "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
-    "previewDeployId": "6ad22958f4d946c4da1facda",
-    "pr": 10,
-    "reason": "required_preview_network_approval_cancelled",
-    "neverPublished": true
+    "substantiveDifference": "Previously uncovered non-condominium mandatory HOA document-order handoff and separation of resale documents, account balance, assessment issues and transfer charges. Not an HOA lien remedy article or generic seller-net page."
   },
   {
-    "runId": "native-daily-20261016T132454Z",
+    "runId": "owner-resume-20261016T135920Z",
     "day": "2026-10-16",
     "slug": "earnest-money-option-fee-texas-cash-sale",
     "intentKey": "texas-seller-cash-offer-earnest-money-vs-option-fee-receipt-risk-checklist",
-    "status": "hold",
+    "status": "preview",
+    "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
     "nearestOverlaps": [
       "/blog/how-cash-offer-house-works-houston/",
       "/after-you-sign/",
       "/blog/protect-house-sale-proceeds-wire-fraud/"
     ],
-    "substantiveDifference": "Focused deposit-versus-option review and independently verified receipt-versus-full-purchase-funding distinction. General process page does not explain these terms; prior fraud guide focuses on proceeds-message security rather than paragraph5 payment/option roles.",
-    "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
-    "previewDeployId": "6ad22958f4d946c4da1facda",
-    "pr": 10,
-    "reason": "required_preview_network_approval_cancelled",
-    "neverPublished": true
+    "substantiveDifference": "Focused deposit-versus-option review and independently verified receipt-versus-full-purchase-funding distinction. General process page does not explain these terms; prior fraud guide focuses on proceeds-message security rather than paragraph5 payment/option roles."
   }
 ]
