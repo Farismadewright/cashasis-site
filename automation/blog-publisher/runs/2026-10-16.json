@@ -1,50 +1,203 @@
 {
-  "runId": "native-daily-20261016T132454Z",
-  "fence": 6,
+  "runId": "owner-resume-20261016T135920Z",
+  "fence": 7,
   "day": "2026-10-16",
-  "status": "hold",
-  "startedAt": "2026-10-16T13:24:54Z",
-  "completedAt": "2026-10-16T13:49:29.330Z",
-  "published": 0,
-  "articlesHeld": 3,
-  "batchHeld": true,
-  "articlesGenerated": 3,
-  "imagesGenerated": 3,
-  "reservationsCreated": 3,
+  "status": "pass",
+  "execution": "Owner-directed recovery and publication of the existing native scheduled batch; no new article/image generation in recovery",
+  "creationRunId": "native-daily-20261016T132454Z",
+  "completedAt": "2026-10-16T14:06:43.070360+00:00",
+  "published": 3,
+  "articlesHeld": 0,
+  "batchHeld": false,
+  "articlesGeneratedInRecovery": 0,
+  "imagesGeneratedInRecovery": 0,
+  "articlesCreatedInOriginalRun": 3,
+  "imagesCreatedInOriginalRun": 3,
   "externalApiSpendUSD": 0,
-  "sourceMain": "48da7870c037137a9788c429c71c88d0d7a7278b",
   "pr": 10,
   "prURL": "https://github.com/Farismadewright/cashasis-site/pull/10",
-  "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
-  "previewDeployId": "6ad22958f4d946c4da1facda",
-  "mandatoryBlocker": {
-    "reason": "required_preview_network_approval_cancelled",
-    "operation": "Final preview HTTP/resource verification",
-    "error": "Unified exec process failed: network approval was cancelled before a decision was returned",
-    "impact": "Full preview resource verification incomplete. Release gate not passed, no merge/production release attempted.",
-    "requiredAction": "Allow/approve the interrupted existing Netlify preview and production HTTP verification in Work, finish PR10 exact-commit checks, then resume the same existing publisher. Netlify connector itself remains authenticated."
+  "previewCommit": "44a75644058952dd70be5aeac4b2fa226e558256",
+  "previewDeployId": "6ad22e53073bd65cd55f1543",
+  "productionCommit": "bbb82599e17f93e5a3b1d2aad085e1e08d220cfe",
+  "productionDeployId": "6ad22ee2b4af767f915fcabe",
+  "exactProductionCommitReady": true,
+  "releaseGate": {
+    "allowed": true,
+    "errors": [],
+    "exitCode": 0
   },
-  "checks": {
-    "inventory": "pass_144_existing_blog_articles_and_seller_pages",
-    "privacy": "pass_anonymous_aggregates_only",
-    "sellerVoice": "pass_read_only_500_SMS",
-    "primarySources": "pass_current_TREC_TDI_review",
-    "thumbnail": "pass_locked_transparent_1200x630",
-    "build": "pass_exit0_171_pages",
-    "outputValidators": "pass_3",
-    "mobileDesktop": "pass_360_390_768_1366",
-    "blogCardVisual": "pass_390_1366_after_decode",
-    "unitTests": "pass_5_python_3_JS",
-    "exactPreviewDeploy": "pass_ready_exact_commit",
-    "livePreviewFullResourceVerification": "hold_incomplete",
-    "releaseGate": "not_run_due_incomplete_preview",
-    "production": "not_attempted"
+  "previewVerification": {
+    "passed": true,
+    "context": "preview",
+    "articleCount": 3,
+    "uniqueLiveResourcesChecked": 30,
+    "articles": [
+      {
+        "slug": "existing-survey-when-selling-texas-house",
+        "url": "https://6ad22e53073bd65cd55f1543--cashasis-blog.netlify.app/blog/existing-survey-when-selling-texas-house/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "sharingImage": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "23991123c81bd0183994fc9e7c57d72607fa038b7e4e08d655d7ea4fa40e665c",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      },
+      {
+        "slug": "hoa-resale-documents-texas-house-sale",
+        "url": "https://6ad22e53073bd65cd55f1543--cashasis-blog.netlify.app/blog/hoa-resale-documents-texas-house-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "sharingImage": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "a321c28b77fda3baeec17be187f6cd2b81d26245ef07846c7f0cfa33f0291517",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      },
+      {
+        "slug": "earnest-money-option-fee-texas-cash-sale",
+        "url": "https://6ad22e53073bd65cd55f1543--cashasis-blog.netlify.app/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "sharingImage": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "5dc65f2110181526965c463f73f151540fdc35c033c3fd6637bd068cf99cee76",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      }
+    ]
   },
-  "previewDiagnosticHistory": [
-    "Preview alias run failed strict HTML byte equality; immutable preview independently matched all three local built pages,HTTP200.",
-    "Immutable full-resource checker stopped on an overstrict requirement that every retained source PDF be linked directly. Corrected scratch checker to require all visible primary-source links have evidence; official form pages link underlying PDFs.",
-    "Final corrected immutable full check was interrupted by canceled network approval; no pass artifact exists. No further network retry or alternate access route attempted."
-  ],
+  "productionVerification": {
+    "passed": true,
+    "context": "production",
+    "articleCount": 3,
+    "uniqueLiveResourcesChecked": 30,
+    "articles": [
+      {
+        "slug": "existing-survey-when-selling-texas-house",
+        "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "sharingImage": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "23991123c81bd0183994fc9e7c57d72607fa038b7e4e08d655d7ea4fa40e665c",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      },
+      {
+        "slug": "hoa-resale-documents-texas-house-sale",
+        "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "sharingImage": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "a321c28b77fda3baeec17be187f6cd2b81d26245ef07846c7f0cfa33f0291517",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      },
+      {
+        "slug": "earnest-money-option-fee-texas-cash-sale",
+        "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "sharingImage": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "5dc65f2110181526965c463f73f151540fdc35c033c3fd6637bd068cf99cee76",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      }
+    ]
+  },
   "articles": [
     {
       "title": "Can You Use an Existing Survey When Selling a Texas House?",
@@ -59,12 +212,12 @@
       "imageAlt": "Illustrative Houston-area brick house and side-yard fence with the headline Check Your Existing Survey",
       "slug": "existing-survey-when-selling-texas-house",
       "intentKey": "texas-house-seller-existing-survey-t47-t471-acceptance-document-checklist",
-      "runId": "native-daily-20261016T132454Z",
-      "fence": 6,
+      "runId": "owner-resume-20261016T135920Z",
+      "fence": 7,
       "day": "2026-10-16",
-      "status": "hold",
-      "commit": null,
-      "deployId": null,
+      "status": "published",
+      "commit": "bbb82599e17f93e5a3b1d2aad085e1e08d220cfe",
+      "deployId": "6ad22ee2b4af767f915fcabe",
       "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
       "sources": [
         {
@@ -228,8 +381,8 @@
         "metadata": "pass",
         "links": "pass",
         "mobile": "pass",
-        "preview": "pending",
-        "production": "pending",
+        "preview": "pass",
+        "production": "pass",
         "conversionReporting": "optional_not_a_live_lead_test"
       },
       "mobileEvidence": {
@@ -301,15 +454,7 @@
         ],
         "pythonReleaseGuardTestsPassed": 5,
         "javascriptPublisherTestsPassed": 3,
-        "correctiveAttempt": "Initial build rejected overlong money meta description; shortened before final full build exited0.",
-        "blogCardVisualReview": {
-          "passed": true,
-          "widths": [
-            390,
-            1366
-          ],
-          "imagesDecodedBeforeFinalScreenshot": true
-        }
+        "correctiveAttempt": "Overlong metadata description corrected before successful full build. Preview resource checker completed on owner-directed recovery."
       },
       "seoLifecycle": {
         "localGates": {
@@ -331,12 +476,29 @@
         "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
         "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
         "searchConsoleMonitoring": {
-          "status": "pending_new_live_url",
+          "status": "inspected",
           "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
           "canonicalURL": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
           "nextReview": "2026-10-17",
           "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
-          "newTopicDemand": "Unmeasured; do not claim search volume."
+          "newTopicDemand": "Unmeasured; do not claim search volume.",
+          "note": "Eligible live page verified; not a claim Google has indexed it. No manual indexing request.",
+          "inspection": {
+            "siteUrl": "https://www.cashasis.com/",
+            "inspectionUrl": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+            "verdict": "NEUTRAL",
+            "coverageState": "URL is unknown to Google",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "lastCrawlTime": null,
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "referringUrls": [],
+            "googleCanonical": null,
+            "userCanonical": null,
+            "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=LMTJyOgd9TUY7T-mFPhk2A&utm_medium=link&utm_source=api"
+          },
+          "inspectedAt": "2026-10-16T14:07:00.661Z",
+          "indexingRequestSubmitted": false
         },
         "ga4Measurement": {
           "status": "No settled data for new articles yet; existing implementation preserved.",
@@ -346,25 +508,65 @@
           "agreement": null,
           "fundedRetainedGP": null,
           "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
-        }
+        },
+        "productionIndexability": "pass"
       },
-      "hold": {
-        "reason": "required_preview_network_approval_cancelled",
-        "details": "Final immutable-preview full resource verification did not complete: unified exec reported network approval was cancelled before a decision was returned. No main content merge attempted.",
-        "at": "2026-10-16T13:49:29.330Z"
-      },
-      "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
-      "previewDeployId": "6ad22958f4d946c4da1facda",
-      "pr": 10,
-      "previewURL": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/existing-survey-when-selling-texas-house/",
       "previewEvidence": {
-        "exactCommitReady": true,
-        "context": "deploy-preview",
-        "liveHtmlHttp200": true,
-        "htmlMatchesMobileTestedBuild": true,
-        "fullResourceCheck": "incomplete_not_pass",
-        "allLiveImageHashes": "not_fully_confirmed",
-        "productionRelease": "not_attempted"
+        "slug": "existing-survey-when-selling-texas-house",
+        "url": "https://6ad22e53073bd65cd55f1543--cashasis-blog.netlify.app/blog/existing-survey-when-selling-texas-house/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "sharingImage": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "23991123c81bd0183994fc9e7c57d72607fa038b7e4e08d655d7ea4fa40e665c",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      },
+      "previewCommit": "44a75644058952dd70be5aeac4b2fa226e558256",
+      "previewDeployId": "6ad22e53073bd65cd55f1543",
+      "pr": 10,
+      "publishedAt": "2026-10-16T14:06:43.070360+00:00",
+      "creationRunId": "native-daily-20261016T132454Z",
+      "productionEvidence": {
+        "slug": "existing-survey-when-selling-texas-house",
+        "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "sharingImage": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "23991123c81bd0183994fc9e7c57d72607fa038b7e4e08d655d7ea4fa40e665c",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
       }
     },
     {
@@ -380,12 +582,12 @@
       "imageAlt": "Illustrative Houston-area subdivision house with the headline Selling With An HOA",
       "slug": "hoa-resale-documents-texas-house-sale",
       "intentKey": "texas-non-condominium-mandatory-hoa-resale-document-ordering-fee-allocation-checklist",
-      "runId": "native-daily-20261016T132454Z",
-      "fence": 6,
+      "runId": "owner-resume-20261016T135920Z",
+      "fence": 7,
       "day": "2026-10-16",
-      "status": "hold",
-      "commit": null,
-      "deployId": null,
+      "status": "published",
+      "commit": "bbb82599e17f93e5a3b1d2aad085e1e08d220cfe",
+      "deployId": "6ad22ee2b4af767f915fcabe",
       "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
       "sources": [
         {
@@ -548,8 +750,8 @@
         "metadata": "pass",
         "links": "pass",
         "mobile": "pass",
-        "preview": "pending",
-        "production": "pending",
+        "preview": "pass",
+        "production": "pass",
         "conversionReporting": "optional_not_a_live_lead_test"
       },
       "mobileEvidence": {
@@ -621,15 +823,7 @@
         ],
         "pythonReleaseGuardTestsPassed": 5,
         "javascriptPublisherTestsPassed": 3,
-        "correctiveAttempt": "Initial build rejected overlong money meta description; shortened before final full build exited0.",
-        "blogCardVisualReview": {
-          "passed": true,
-          "widths": [
-            390,
-            1366
-          ],
-          "imagesDecodedBeforeFinalScreenshot": true
-        }
+        "correctiveAttempt": "Overlong metadata description corrected before successful full build. Preview resource checker completed on owner-directed recovery."
       },
       "seoLifecycle": {
         "localGates": {
@@ -651,12 +845,29 @@
         "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
         "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
         "searchConsoleMonitoring": {
-          "status": "pending_new_live_url",
+          "status": "inspected",
           "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
           "canonicalURL": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
           "nextReview": "2026-10-17",
           "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
-          "newTopicDemand": "Unmeasured; do not claim search volume."
+          "newTopicDemand": "Unmeasured; do not claim search volume.",
+          "note": "Eligible live page verified; not a claim Google has indexed it. No manual indexing request.",
+          "inspection": {
+            "siteUrl": "https://www.cashasis.com/",
+            "inspectionUrl": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+            "verdict": "NEUTRAL",
+            "coverageState": "URL is unknown to Google",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "lastCrawlTime": null,
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "referringUrls": [],
+            "googleCanonical": null,
+            "userCanonical": null,
+            "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=W11Di70GmLM9J9pFxI18JA&utm_medium=link&utm_source=api"
+          },
+          "inspectedAt": "2026-10-16T14:07:00.661Z",
+          "indexingRequestSubmitted": false
         },
         "ga4Measurement": {
           "status": "No settled data for new articles yet; existing implementation preserved.",
@@ -666,25 +877,65 @@
           "agreement": null,
           "fundedRetainedGP": null,
           "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
-        }
+        },
+        "productionIndexability": "pass"
       },
-      "hold": {
-        "reason": "required_preview_network_approval_cancelled",
-        "details": "Final immutable-preview full resource verification did not complete: unified exec reported network approval was cancelled before a decision was returned. No main content merge attempted.",
-        "at": "2026-10-16T13:49:29.330Z"
-      },
-      "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
-      "previewDeployId": "6ad22958f4d946c4da1facda",
-      "pr": 10,
-      "previewURL": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/hoa-resale-documents-texas-house-sale/",
       "previewEvidence": {
-        "exactCommitReady": true,
-        "context": "deploy-preview",
-        "liveHtmlHttp200": true,
-        "htmlMatchesMobileTestedBuild": true,
-        "fullResourceCheck": "incomplete_not_pass",
-        "allLiveImageHashes": "not_fully_confirmed",
-        "productionRelease": "not_attempted"
+        "slug": "hoa-resale-documents-texas-house-sale",
+        "url": "https://6ad22e53073bd65cd55f1543--cashasis-blog.netlify.app/blog/hoa-resale-documents-texas-house-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "sharingImage": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "a321c28b77fda3baeec17be187f6cd2b81d26245ef07846c7f0cfa33f0291517",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      },
+      "previewCommit": "44a75644058952dd70be5aeac4b2fa226e558256",
+      "previewDeployId": "6ad22e53073bd65cd55f1543",
+      "pr": 10,
+      "publishedAt": "2026-10-16T14:06:43.070360+00:00",
+      "creationRunId": "native-daily-20261016T132454Z",
+      "productionEvidence": {
+        "slug": "hoa-resale-documents-texas-house-sale",
+        "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "sharingImage": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "a321c28b77fda3baeec17be187f6cd2b81d26245ef07846c7f0cfa33f0291517",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
       }
     },
     {
@@ -700,12 +951,12 @@
       "imageAlt": "Illustrative Houston-area brick house and porch with the headline Know Your Offer Terms",
       "slug": "earnest-money-option-fee-texas-cash-sale",
       "intentKey": "texas-seller-cash-offer-earnest-money-vs-option-fee-receipt-risk-checklist",
-      "runId": "native-daily-20261016T132454Z",
-      "fence": 6,
+      "runId": "owner-resume-20261016T135920Z",
+      "fence": 7,
       "day": "2026-10-16",
-      "status": "hold",
-      "commit": null,
-      "deployId": null,
+      "status": "published",
+      "commit": "bbb82599e17f93e5a3b1d2aad085e1e08d220cfe",
+      "deployId": "6ad22ee2b4af767f915fcabe",
       "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
       "sources": [
         {
@@ -855,8 +1106,8 @@
         "metadata": "pass",
         "links": "pass",
         "mobile": "pass",
-        "preview": "pending",
-        "production": "pending",
+        "preview": "pass",
+        "production": "pass",
         "conversionReporting": "optional_not_a_live_lead_test"
       },
       "mobileEvidence": {
@@ -928,15 +1179,7 @@
         ],
         "pythonReleaseGuardTestsPassed": 5,
         "javascriptPublisherTestsPassed": 3,
-        "correctiveAttempt": "Initial build rejected overlong money meta description; shortened before final full build exited0.",
-        "blogCardVisualReview": {
-          "passed": true,
-          "widths": [
-            390,
-            1366
-          ],
-          "imagesDecodedBeforeFinalScreenshot": true
-        }
+        "correctiveAttempt": "Overlong metadata description corrected before successful full build. Preview resource checker completed on owner-directed recovery."
       },
       "seoLifecycle": {
         "localGates": {
@@ -958,12 +1201,29 @@
         "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
         "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
         "searchConsoleMonitoring": {
-          "status": "pending_new_live_url",
+          "status": "inspected",
           "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
           "canonicalURL": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
           "nextReview": "2026-10-17",
           "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
-          "newTopicDemand": "Unmeasured; do not claim search volume."
+          "newTopicDemand": "Unmeasured; do not claim search volume.",
+          "note": "Eligible live page verified; not a claim Google has indexed it. No manual indexing request.",
+          "inspection": {
+            "siteUrl": "https://www.cashasis.com/",
+            "inspectionUrl": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+            "verdict": "NEUTRAL",
+            "coverageState": "URL is unknown to Google",
+            "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+            "indexingState": "INDEXING_STATE_UNSPECIFIED",
+            "lastCrawlTime": null,
+            "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+            "referringUrls": [],
+            "googleCanonical": null,
+            "userCanonical": null,
+            "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0vUH9jNfBgFoXJkwCT8oKQ&utm_medium=link&utm_source=api"
+          },
+          "inspectedAt": "2026-10-16T14:07:00.661Z",
+          "indexingRequestSubmitted": false
         },
         "ga4Measurement": {
           "status": "No settled data for new articles yet; existing implementation preserved.",
@@ -973,39 +1233,1083 @@
           "agreement": null,
           "fundedRetainedGP": null,
           "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
-        }
+        },
+        "productionIndexability": "pass"
       },
-      "hold": {
-        "reason": "required_preview_network_approval_cancelled",
-        "details": "Final immutable-preview full resource verification did not complete: unified exec reported network approval was cancelled before a decision was returned. No main content merge attempted.",
-        "at": "2026-10-16T13:49:29.330Z"
-      },
-      "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
-      "previewDeployId": "6ad22958f4d946c4da1facda",
-      "pr": 10,
-      "previewURL": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/earnest-money-option-fee-texas-cash-sale/",
       "previewEvidence": {
-        "exactCommitReady": true,
-        "context": "deploy-preview",
-        "liveHtmlHttp200": true,
-        "htmlMatchesMobileTestedBuild": true,
-        "fullResourceCheck": "incomplete_not_pass",
-        "allLiveImageHashes": "not_fully_confirmed",
-        "productionRelease": "not_attempted"
+        "slug": "earnest-money-option-fee-texas-cash-sale",
+        "url": "https://6ad22e53073bd65cd55f1543--cashasis-blog.netlify.app/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "sharingImage": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "5dc65f2110181526965c463f73f151540fdc35c033c3fd6637bd068cf99cee76",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
+      },
+      "previewCommit": "44a75644058952dd70be5aeac4b2fa226e558256",
+      "previewDeployId": "6ad22e53073bd65cd55f1543",
+      "pr": 10,
+      "publishedAt": "2026-10-16T14:06:43.070360+00:00",
+      "creationRunId": "native-daily-20261016T132454Z",
+      "productionEvidence": {
+        "slug": "earnest-money-option-fee-texas-cash-sale",
+        "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "sharingImage": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "5dc65f2110181526965c463f73f151540fdc35c033c3fd6637bd068cf99cee76",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed"
       }
     }
   ],
+  "priorAttempt": {
+    "runId": "native-daily-20261016T132454Z",
+    "fence": 6,
+    "day": "2026-10-16",
+    "status": "hold",
+    "startedAt": "2026-10-16T13:24:54Z",
+    "completedAt": "2026-10-16T13:49:29.330Z",
+    "published": 0,
+    "articlesHeld": 3,
+    "batchHeld": true,
+    "articlesGenerated": 3,
+    "imagesGenerated": 3,
+    "reservationsCreated": 3,
+    "externalApiSpendUSD": 0,
+    "sourceMain": "48da7870c037137a9788c429c71c88d0d7a7278b",
+    "pr": 10,
+    "prURL": "https://github.com/Farismadewright/cashasis-site/pull/10",
+    "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
+    "previewDeployId": "6ad22958f4d946c4da1facda",
+    "mandatoryBlocker": {
+      "reason": "required_preview_network_approval_cancelled",
+      "operation": "Final preview HTTP/resource verification",
+      "error": "Unified exec process failed: network approval was cancelled before a decision was returned",
+      "impact": "Full preview resource verification incomplete. Release gate not passed, no merge/production release attempted.",
+      "requiredAction": "Allow/approve the interrupted existing Netlify preview and production HTTP verification in Work, finish PR10 exact-commit checks, then resume the same existing publisher. Netlify connector itself remains authenticated."
+    },
+    "checks": {
+      "inventory": "pass_144_existing_blog_articles_and_seller_pages",
+      "privacy": "pass_anonymous_aggregates_only",
+      "sellerVoice": "pass_read_only_500_SMS",
+      "primarySources": "pass_current_TREC_TDI_review",
+      "thumbnail": "pass_locked_transparent_1200x630",
+      "build": "pass_exit0_171_pages",
+      "outputValidators": "pass_3",
+      "mobileDesktop": "pass_360_390_768_1366",
+      "blogCardVisual": "pass_390_1366_after_decode",
+      "unitTests": "pass_5_python_3_JS",
+      "exactPreviewDeploy": "pass_ready_exact_commit",
+      "livePreviewFullResourceVerification": "hold_incomplete",
+      "releaseGate": "not_run_due_incomplete_preview",
+      "production": "not_attempted"
+    },
+    "previewDiagnosticHistory": [
+      "Preview alias run failed strict HTML byte equality; immutable preview independently matched all three local built pages,HTTP200.",
+      "Immutable full-resource checker stopped on an overstrict requirement that every retained source PDF be linked directly. Corrected scratch checker to require all visible primary-source links have evidence; official form pages link underlying PDFs.",
+      "Final corrected immutable full check was interrupted by canceled network approval; no pass artifact exists. No further network retry or alternate access route attempted."
+    ],
+    "articles": [
+      {
+        "title": "Can You Use an Existing Survey When Selling a Texas House?",
+        "description": "Have an old survey for your Houston-area house? Learn what to gather, how T-47 and T-47.1 fit, and what to ask before paying for a replacement.",
+        "primaryKeyword": "existing survey when selling a house in Texas",
+        "supportingKeywords": [
+          "T-47.1 seller declaration",
+          "old property survey Texas",
+          "Houston house sale survey"
+        ],
+        "image": "/images/existing-survey-when-selling-texas-house.png",
+        "imageAlt": "Illustrative Houston-area brick house and side-yard fence with the headline Check Your Existing Survey",
+        "slug": "existing-survey-when-selling-texas-house",
+        "intentKey": "texas-house-seller-existing-survey-t47-t471-acceptance-document-checklist",
+        "runId": "native-daily-20261016T132454Z",
+        "fence": 6,
+        "day": "2026-10-16",
+        "status": "hold",
+        "commit": null,
+        "deployId": null,
+        "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "sources": [
+          {
+            "url": "https://www.trec.texas.gov/forms/one-four-family-residential-contract-resale",
+            "title": "TREC Form20-19 official form page",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2026-07-01",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Current resale form20-19 effective July1,2026; scope excludes condos, builder new homes and farm/ranch."
+          },
+          {
+            "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/20-19_4.pdf",
+            "title": "TREC20-19 current contract, paragraphs5 and6C",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2026-05-04",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Paragraph5 separates earnest money/option fee and recipients, crediting and consequences; paragraph6C offers existing survey plus T47/T47.1 or new-survey arrangements."
+          },
+          {
+            "url": "https://www.tdi.texas.gov/title/titlem4a.html",
+            "title": "TDI Title Basic Manual P2",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2025-07-29",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Title company may accept an existing survey subject to its review; unsworn T47.1 may replace T47 under rule. Distinguishes resale general instructions from narrower refinance subsection."
+          },
+          {
+            "url": "https://www.tdi.texas.gov/title/documents/form-t-47-1.pdf",
+            "title": "TDI T47.1 Residential Real Property Declaration",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2024-11-01",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Declaration concerns knowledge of changes after survey; not a new survey or guarantee of improvement locations."
+          }
+        ],
+        "nearestOverlaps": [
+          "/blog/sell-house-title-problems-houston/",
+          "/blog/sell-inherited-house-sugar-land/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+        ],
+        "substantiveDifference": "Dedicated existing-survey acceptance and document packet; T47/T47.1 knowledge versus drawing distinction and original fence-change decision example. Existing title guide covers ownership/lien problems; inherited guide merely lists surveys among documents; disclosure guide concerns condition reporting, not survey acceptance.",
+        "sellerVoice": {
+          "sampleMessages": 500,
+          "inbound": 67,
+          "eligibleInbound": 63,
+          "themes": {
+            "price": 6,
+            "timing": 5,
+            "condition": 1
+          },
+          "recurringConfirmed": [
+            "offer/price comparison"
+          ],
+          "limitations": "Bounded read-only SMS sample and contextual review. Counts are broad keyword screens, not population estimates. New document topics are adjacent editorial gaps, not recurring exact seller questions."
+        },
+        "sellerTopicOrigin": "Adjacent editorial gap informed by broad recurring offer/price concern, not a claimed recurring exact question or measured new keyword demand.",
+        "externalApiUsed": false,
+        "cost": {
+          "currency": "USD",
+          "actual": null,
+          "externalPaidApiSpendUSD": 0,
+          "note": "Native Work imagegen/writing and existing connections only. No paid external API used or credits purchased. Bundled-plan unit cost unavailable."
+        },
+        "protectedSourceChanges": [],
+        "imageSha256": "23991123c81bd0183994fc9e7c57d72607fa038b7e4e08d655d7ea4fa40e665c",
+        "thumbnail": {
+          "template": "left-photo-transparent-v2",
+          "width": 1200,
+          "height": 630,
+          "headline": "CHECK YOUR EXISTING SURVEY",
+          "lines": [
+            "CHECK YOUR",
+            "EXISTING",
+            "SURVEY"
+          ],
+          "logoVariant": "white",
+          "transparentLogo": true,
+          "rendererSha256": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+          "nativeImagegen": true,
+          "backgroundSha256": "bbb879ba37a9fde7e8365191926305bc0ff4c766790dedf44c02ed8a4fbf0002",
+          "prompt": "Photorealistic editorial photograph, wide landscape 1.9:1. Modest older Houston-area single-story brick house on RIGHT HALF of frame, side yard and wooden boundary fence visible, leafy trees, grass and pale blue daylight sky. Camera at street level, realistic residential property, no luxurious staging. LEFT HALF quiet dark foliage and lawn negative space for an approved overlay added later. No people, no survey marks or diagram, no text, numbers, address, signs, branding, logos, watermark. This is illustrative property imagery, not a real listed property.",
+          "illustrativeNotActualListing": true,
+          "fullAnd320pxVisualReview": "pass",
+          "approvedReferencesInspected": [
+            "Sell Your Humble House Fast.png",
+            "Sell Your Vacant House in Spring, TX.png",
+            "houston-september-2026-market-selling-timeline.png"
+          ]
+        },
+        "social": {
+          "slug": "existing-survey-when-selling-texas-house",
+          "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+          "image": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png",
+          "status": "draft_only",
+          "facebook": "Can You Use an Existing Survey When Selling a Texas House?\n\nHave an old survey for your Houston-area house? Learn what to gather, how T-47 and T-47.1 fit, and what to ask before paying for a replacement.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+          "instagram": "Can You Use an Existing Survey When Selling a Texas House?\n\nHave an old survey for your Houston-area house? Learn what to gather, how T-47 and T-47.1 fit, and what to ask before paying for a replacement.\n\nRead the guide: https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+          "linkedin": "Can You Use an Existing Survey When Selling a Texas House?\n\nA useful seller checklist: Have an old survey for your Houston-area house? Learn what to gather, how T-47 and T-47.1 fit, and what to ask before paying for a replacement.\n\nCompare written responsibilities—not just the headline price.\nhttps://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+          "googleBusinessProfile": "Can You Use an Existing Survey When Selling a Texas House?\n\nHave an old survey for your Houston-area house? Learn what to gather, how T-47 and T-47.1 fit, and what to ask before paying for a replacement.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+          "promotionalExcerpt": "Have an old survey for your Houston-area house? Learn what to gather, how T-47 and T-47.1 fit, and what to ask before paying for a replacement.",
+          "hashtags": [
+            "#CashAsIs",
+            "#HoustonRealEstate",
+            "#SellAsIs"
+          ]
+        },
+        "originalityEvidence": {
+          "existingBlogArticles": 144,
+          "inventoryAndStaticSellerPagesReviewed": true,
+          "pendingValidationPRsPreserved": [
+            5,
+            6,
+            7
+          ],
+          "maxShared12WordBodyShingles": 0,
+          "nearestLexicalMatches": [
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ],
+            [
+              0,
+              "we-buy-houses-houston"
+            ]
+          ],
+          "manualSemanticReview": "Dedicated existing-survey acceptance and document packet; T47/T47.1 knowledge versus drawing distinction and original fence-change decision example. Existing title guide covers ownership/lien problems; inherited guide merely lists surveys among documents; disclosure guide concerns condition reporting, not survey acceptance.",
+          "noCityOrSynonymSwap": true,
+          "textSha256": "bdecd9af058a1607b035780bbca81a2ad651f5902688eeb7fddcc0ebc746260a"
+        },
+        "checks": {
+          "privacy": "pass",
+          "originality": "pass",
+          "editorial": "pass",
+          "facts": "pass",
+          "sources": "pass",
+          "thumbnail": "pass",
+          "build": "pass",
+          "metadata": "pass",
+          "links": "pass",
+          "mobile": "pass",
+          "preview": "pending",
+          "production": "pending",
+          "conversionReporting": "optional_not_a_live_lead_test"
+        },
+        "mobileEvidence": {
+          "passed": true,
+          "results": [
+            {
+              "width": 360,
+              "scroll": 360,
+              "body": 266,
+              "table": 266,
+              "tableScrollSafe": true,
+              "image": 266,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+              "og": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png"
+            },
+            {
+              "width": 390,
+              "scroll": 390,
+              "body": 296,
+              "table": 296,
+              "tableScrollSafe": true,
+              "image": 296,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+              "og": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png"
+            },
+            {
+              "width": 768,
+              "scroll": 768,
+              "body": 638,
+              "table": 638,
+              "tableScrollSafe": true,
+              "image": 638,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+              "og": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png"
+            },
+            {
+              "width": 1366,
+              "scroll": 1366,
+              "body": 638,
+              "table": 638,
+              "tableScrollSafe": true,
+              "image": 638,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+              "og": "https://www.cashasis.com/images/existing-survey-when-selling-texas-house.png"
+            }
+          ]
+        },
+        "commandEvidence": {
+          "build": "npm run build",
+          "buildExitCode": 0,
+          "astroPages": 171,
+          "attributionPages": 184,
+          "dniPages": 175,
+          "sellerFormPages": 2,
+          "outputValidatorExitCode": 0,
+          "mobileWidths": [
+            360,
+            390,
+            768,
+            1366
+          ],
+          "pythonReleaseGuardTestsPassed": 5,
+          "javascriptPublisherTestsPassed": 3,
+          "correctiveAttempt": "Initial build rejected overlong money meta description; shortened before final full build exited0.",
+          "blogCardVisualReview": {
+            "passed": true,
+            "widths": [
+              390,
+              1366
+            ],
+            "imagesDecodedBeforeFinalScreenshot": true
+          }
+        },
+        "seoLifecycle": {
+          "localGates": {
+            "indexability": "pass",
+            "robotsNoindex": "pass",
+            "canonical": "pass",
+            "sitemapEligibility": "pass",
+            "contentQuality": "pass",
+            "specificSearchIntent": "pass",
+            "duplicateContent": "pass",
+            "cannibalization": "pass",
+            "meaningfulInternalLinks": "pass",
+            "sellerConversionPath": "pass",
+            "factualSources": "pass"
+          },
+          "intentPrimaryURL": "/blog/sell-house-title-problems-houston/",
+          "uniqueSellerQuestion": "Can You Use an Existing Survey When Selling a Texas House?",
+          "geography": "General Texas house-sale education for Houston/Harris/Fort Bend sellers; HOA guide excludes condos; no invented local procedure.",
+          "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
+          "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
+          "searchConsoleMonitoring": {
+            "status": "pending_new_live_url",
+            "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
+            "canonicalURL": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+            "nextReview": "2026-10-17",
+            "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
+            "newTopicDemand": "Unmeasured; do not claim search volume."
+          },
+          "ga4Measurement": {
+            "status": "No settled data for new articles yet; existing implementation preserved.",
+            "originalOrganicLandingSessions": null,
+            "validatedOrganicSellerLeads": null,
+            "qualifiedSeller": null,
+            "agreement": null,
+            "fundedRetainedGP": null,
+            "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
+          }
+        },
+        "hold": {
+          "reason": "required_preview_network_approval_cancelled",
+          "details": "Final immutable-preview full resource verification did not complete: unified exec reported network approval was cancelled before a decision was returned. No main content merge attempted.",
+          "at": "2026-10-16T13:49:29.330Z"
+        },
+        "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
+        "previewDeployId": "6ad22958f4d946c4da1facda",
+        "pr": 10,
+        "previewURL": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/existing-survey-when-selling-texas-house/",
+        "previewEvidence": {
+          "exactCommitReady": true,
+          "context": "deploy-preview",
+          "liveHtmlHttp200": true,
+          "htmlMatchesMobileTestedBuild": true,
+          "fullResourceCheck": "incomplete_not_pass",
+          "allLiveImageHashes": "not_fully_confirmed",
+          "productionRelease": "not_attempted"
+        }
+      },
+      {
+        "title": "HOA Resale Documents: A Texas House Seller's Checklist",
+        "description": "Selling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.",
+        "primaryKeyword": "HOA resale documents when selling a Texas house",
+        "supportingKeywords": [
+          "Texas HOA resale certificate seller",
+          "HOA transfer fees house sale",
+          "Houston subdivision resale documents"
+        ],
+        "image": "/images/hoa-resale-documents-texas-house-sale.png",
+        "imageAlt": "Illustrative Houston-area subdivision house with the headline Selling With An HOA",
+        "slug": "hoa-resale-documents-texas-house-sale",
+        "intentKey": "texas-non-condominium-mandatory-hoa-resale-document-ordering-fee-allocation-checklist",
+        "runId": "native-daily-20261016T132454Z",
+        "fence": 6,
+        "day": "2026-10-16",
+        "status": "hold",
+        "commit": null,
+        "deployId": null,
+        "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "sources": [
+          {
+            "url": "https://www.trec.texas.gov/forms/addendum-property-subject-mandatory-membership-property-owners-association",
+            "title": "TREC mandatory HOA addendum36-11",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2026-07-01",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Current addendum effectiveJuly1,2026, not for condos, has subdivision information delivery arrangements."
+          },
+          {
+            "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/36-11.pdf",
+            "title": "TREC36-11 HOA addendum",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2026-05-04",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Separate sections address document ordering/payment, transfer-related charges, regular prorated items and title information even where buyer does not require delivery. No universal seller-pays or waived-HOA-fees claim."
+          },
+          {
+            "url": "https://www.trec.texas.gov/forms/subdivision-information-including-resale-certificate-property-subject-mandatory-membership",
+            "title": "TREC subdivision information certificate37-5",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2014-02-10",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Certificate addresses broader HOA information than a dues receipt. Official page remains current despite2014effective date."
+          },
+          {
+            "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/37-5.pdf",
+            "title": "TREC37-5 certificate fields",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2014-02-10",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Fields cover regular/special assessments, unpaid amounts, violations, certain litigation, transfer charges and attachments."
+          }
+        ],
+        "nearestOverlaps": [
+          "/blog/sell-house-liens-harris-county/",
+          "/blog/sell-house-title-problems-houston/",
+          "/compare-the-net/"
+        ],
+        "substantiveDifference": "Previously uncovered non-condominium mandatory HOA document-order handoff and separation of resale documents, account balance, assessment issues and transfer charges. Not an HOA lien remedy article or generic seller-net page.",
+        "sellerVoice": {
+          "sampleMessages": 500,
+          "inbound": 67,
+          "eligibleInbound": 63,
+          "themes": {
+            "price": 6,
+            "timing": 5,
+            "condition": 1
+          },
+          "recurringConfirmed": [
+            "offer/price comparison"
+          ],
+          "limitations": "Bounded read-only SMS sample and contextual review. Counts are broad keyword screens, not population estimates. New document topics are adjacent editorial gaps, not recurring exact seller questions."
+        },
+        "sellerTopicOrigin": "Adjacent editorial gap informed by broad recurring offer/price concern, not a claimed recurring exact question or measured new keyword demand.",
+        "externalApiUsed": false,
+        "cost": {
+          "currency": "USD",
+          "actual": null,
+          "externalPaidApiSpendUSD": 0,
+          "note": "Native Work imagegen/writing and existing connections only. No paid external API used or credits purchased. Bundled-plan unit cost unavailable."
+        },
+        "protectedSourceChanges": [],
+        "imageSha256": "a321c28b77fda3baeec17be187f6cd2b81d26245ef07846c7f0cfa33f0291517",
+        "thumbnail": {
+          "template": "left-photo-transparent-v2",
+          "width": 1200,
+          "height": 630,
+          "headline": "SELLING WITH AN HOA",
+          "lines": [
+            "SELLING",
+            "WITH AN HOA"
+          ],
+          "logoVariant": "white",
+          "transparentLogo": true,
+          "rendererSha256": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+          "nativeImagegen": true,
+          "backgroundSha256": "a164b8ebcaaeb3c31e59e4ce314f3b1fb58f36b7fbf173868c2358303498e802",
+          "prompt": "Photorealistic editorial photograph, wide landscape 1.9:1. Well-kept but ordinary two-story beige brick Houston-area subdivision house on RIGHT HALF, neighboring roofline subtly visible, front lawn, mature small trees, afternoon natural light. LEFT HALF quiet shaded tree foliage and lawn negative space for branded overlay later. Realistic materials and residential proportions. No people, no gated-community sign, no text, house numbers, address, logos, branding, watermark. Illustrative property, not an actual listing.",
+          "illustrativeNotActualListing": true,
+          "fullAnd320pxVisualReview": "pass",
+          "approvedReferencesInspected": [
+            "Sell Your Humble House Fast.png",
+            "Sell Your Vacant House in Spring, TX.png",
+            "houston-september-2026-market-selling-timeline.png"
+          ]
+        },
+        "social": {
+          "slug": "hoa-resale-documents-texas-house-sale",
+          "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+          "image": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png",
+          "status": "draft_only",
+          "facebook": "HOA Resale Documents: A Texas House Seller's Checklist\n\nSelling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+          "instagram": "HOA Resale Documents: A Texas House Seller's Checklist\n\nSelling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\n\nRead the guide: https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+          "linkedin": "HOA Resale Documents: A Texas House Seller's Checklist\n\nA useful seller checklist: Selling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\n\nCompare written responsibilities—not just the headline price.\nhttps://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+          "googleBusinessProfile": "HOA Resale Documents: A Texas House Seller's Checklist\n\nSelling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+          "promotionalExcerpt": "Selling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.",
+          "hashtags": [
+            "#CashAsIs",
+            "#HoustonRealEstate",
+            "#SellAsIs"
+          ]
+        },
+        "originalityEvidence": {
+          "existingBlogArticles": 144,
+          "inventoryAndStaticSellerPagesReviewed": true,
+          "pendingValidationPRsPreserved": [
+            5,
+            6,
+            7
+          ],
+          "maxShared12WordBodyShingles": 0,
+          "nearestLexicalMatches": [
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ],
+            [
+              0,
+              "we-buy-houses-houston"
+            ]
+          ],
+          "manualSemanticReview": "Previously uncovered non-condominium mandatory HOA document-order handoff and separation of resale documents, account balance, assessment issues and transfer charges. Not an HOA lien remedy article or generic seller-net page.",
+          "noCityOrSynonymSwap": true,
+          "textSha256": "4193329095e6ffead6675033fec4639b4fc89fcd3ae3bec309b28514ebd6019f"
+        },
+        "checks": {
+          "privacy": "pass",
+          "originality": "pass",
+          "editorial": "pass",
+          "facts": "pass",
+          "sources": "pass",
+          "thumbnail": "pass",
+          "build": "pass",
+          "metadata": "pass",
+          "links": "pass",
+          "mobile": "pass",
+          "preview": "pending",
+          "production": "pending",
+          "conversionReporting": "optional_not_a_live_lead_test"
+        },
+        "mobileEvidence": {
+          "passed": true,
+          "results": [
+            {
+              "width": 360,
+              "scroll": 360,
+              "body": 266,
+              "table": 266,
+              "tableScrollSafe": true,
+              "image": 266,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+              "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+            },
+            {
+              "width": 390,
+              "scroll": 390,
+              "body": 296,
+              "table": 296,
+              "tableScrollSafe": true,
+              "image": 296,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+              "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+            },
+            {
+              "width": 768,
+              "scroll": 768,
+              "body": 638,
+              "table": 638,
+              "tableScrollSafe": true,
+              "image": 638,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+              "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+            },
+            {
+              "width": 1366,
+              "scroll": 1366,
+              "body": 638,
+              "table": 638,
+              "tableScrollSafe": true,
+              "image": 638,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+              "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+            }
+          ]
+        },
+        "commandEvidence": {
+          "build": "npm run build",
+          "buildExitCode": 0,
+          "astroPages": 171,
+          "attributionPages": 184,
+          "dniPages": 175,
+          "sellerFormPages": 2,
+          "outputValidatorExitCode": 0,
+          "mobileWidths": [
+            360,
+            390,
+            768,
+            1366
+          ],
+          "pythonReleaseGuardTestsPassed": 5,
+          "javascriptPublisherTestsPassed": 3,
+          "correctiveAttempt": "Initial build rejected overlong money meta description; shortened before final full build exited0.",
+          "blogCardVisualReview": {
+            "passed": true,
+            "widths": [
+              390,
+              1366
+            ],
+            "imagesDecodedBeforeFinalScreenshot": true
+          }
+        },
+        "seoLifecycle": {
+          "localGates": {
+            "indexability": "pass",
+            "robotsNoindex": "pass",
+            "canonical": "pass",
+            "sitemapEligibility": "pass",
+            "contentQuality": "pass",
+            "specificSearchIntent": "pass",
+            "duplicateContent": "pass",
+            "cannibalization": "pass",
+            "meaningfulInternalLinks": "pass",
+            "sellerConversionPath": "pass",
+            "factualSources": "pass"
+          },
+          "intentPrimaryURL": "/blog/sell-house-title-problems-houston/",
+          "uniqueSellerQuestion": "HOA Resale Documents: A Texas House Seller's Checklist",
+          "geography": "General Texas house-sale education for Houston/Harris/Fort Bend sellers; HOA guide excludes condos; no invented local procedure.",
+          "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
+          "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
+          "searchConsoleMonitoring": {
+            "status": "pending_new_live_url",
+            "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
+            "canonicalURL": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+            "nextReview": "2026-10-17",
+            "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
+            "newTopicDemand": "Unmeasured; do not claim search volume."
+          },
+          "ga4Measurement": {
+            "status": "No settled data for new articles yet; existing implementation preserved.",
+            "originalOrganicLandingSessions": null,
+            "validatedOrganicSellerLeads": null,
+            "qualifiedSeller": null,
+            "agreement": null,
+            "fundedRetainedGP": null,
+            "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
+          }
+        },
+        "hold": {
+          "reason": "required_preview_network_approval_cancelled",
+          "details": "Final immutable-preview full resource verification did not complete: unified exec reported network approval was cancelled before a decision was returned. No main content merge attempted.",
+          "at": "2026-10-16T13:49:29.330Z"
+        },
+        "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
+        "previewDeployId": "6ad22958f4d946c4da1facda",
+        "pr": 10,
+        "previewURL": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/hoa-resale-documents-texas-house-sale/",
+        "previewEvidence": {
+          "exactCommitReady": true,
+          "context": "deploy-preview",
+          "liveHtmlHttp200": true,
+          "htmlMatchesMobileTestedBuild": true,
+          "fullResourceCheck": "incomplete_not_pass",
+          "allLiveImageHashes": "not_fully_confirmed",
+          "productionRelease": "not_attempted"
+        }
+      },
+      {
+        "title": "Earnest Money vs. Option Fee in a Texas Cash House Sale",
+        "description": "Compare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.",
+        "primaryKeyword": "earnest money vs option fee Texas seller",
+        "supportingKeywords": [
+          "cash buyer earnest money Texas",
+          "Texas option fee seller",
+          "verify cash offer deposit"
+        ],
+        "image": "/images/earnest-money-option-fee-texas-cash-sale.png",
+        "imageAlt": "Illustrative Houston-area brick house and porch with the headline Know Your Offer Terms",
+        "slug": "earnest-money-option-fee-texas-cash-sale",
+        "intentKey": "texas-seller-cash-offer-earnest-money-vs-option-fee-receipt-risk-checklist",
+        "runId": "native-daily-20261016T132454Z",
+        "fence": 6,
+        "day": "2026-10-16",
+        "status": "hold",
+        "commit": null,
+        "deployId": null,
+        "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "sources": [
+          {
+            "url": "https://www.trec.texas.gov/forms/one-four-family-residential-contract-resale",
+            "title": "TREC Form20-19 official form page",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2026-07-01",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Current resale form20-19 effective July1,2026; scope excludes condos, builder new homes and farm/ranch."
+          },
+          {
+            "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/20-19_4.pdf",
+            "title": "TREC20-19 current contract, paragraphs5 and6C",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": "2026-05-04",
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Paragraph5 separates earnest money/option fee and recipients, crediting and consequences; paragraph6C offers existing survey plus T47/T47.1 or new-survey arrangements."
+          },
+          {
+            "url": "https://www.trec.texas.gov/node/368",
+            "title": "TREC seller unpaid-option FAQ",
+            "accessedAt": "2026-10-16",
+            "verifiedAt": "2026-10-16",
+            "publicationDate": null,
+            "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+            "geography": "Texas",
+            "unit": null,
+            "figure": null,
+            "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+            "claim": "Unpaid option fee affects unrestricted option right; FAQ cites older20-17, so article expressly anchors actual treatment to current signed form and legal review."
+          }
+        ],
+        "nearestOverlaps": [
+          "/blog/how-cash-offer-house-works-houston/",
+          "/after-you-sign/",
+          "/blog/protect-house-sale-proceeds-wire-fraud/"
+        ],
+        "substantiveDifference": "Focused deposit-versus-option review and independently verified receipt-versus-full-purchase-funding distinction. General process page does not explain these terms; prior fraud guide focuses on proceeds-message security rather than paragraph5 payment/option roles.",
+        "sellerVoice": {
+          "sampleMessages": 500,
+          "inbound": 67,
+          "eligibleInbound": 63,
+          "themes": {
+            "price": 6,
+            "timing": 5,
+            "condition": 1
+          },
+          "recurringConfirmed": [
+            "offer/price comparison"
+          ],
+          "limitations": "Bounded read-only SMS sample and contextual review. Counts are broad keyword screens, not population estimates. New document topics are adjacent editorial gaps, not recurring exact seller questions."
+        },
+        "sellerTopicOrigin": "Adjacent editorial gap informed by broad recurring offer/price concern, not a claimed recurring exact question or measured new keyword demand.",
+        "externalApiUsed": false,
+        "cost": {
+          "currency": "USD",
+          "actual": null,
+          "externalPaidApiSpendUSD": 0,
+          "note": "Native Work imagegen/writing and existing connections only. No paid external API used or credits purchased. Bundled-plan unit cost unavailable."
+        },
+        "protectedSourceChanges": [],
+        "imageSha256": "5dc65f2110181526965c463f73f151540fdc35c033c3fd6637bd068cf99cee76",
+        "thumbnail": {
+          "template": "left-photo-transparent-v2",
+          "width": 1200,
+          "height": 630,
+          "headline": "KNOW YOUR OFFER TERMS",
+          "lines": [
+            "KNOW YOUR",
+            "OFFER TERMS"
+          ],
+          "logoVariant": "white",
+          "transparentLogo": true,
+          "rendererSha256": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+          "nativeImagegen": true,
+          "backgroundSha256": "a1faea13cc2d05b636286d5c70cb7f8890d924d4d829cd92bcb722cd80b60313",
+          "prompt": "Photorealistic editorial photograph, wide landscape 1.9:1. Older modest one-story Houston-area tan brick house on RIGHT HALF, covered front porch and simple front walkway, slightly weathered siding detail, lawn and trees, soft morning natural light. LEFT HALF quiet shaded foliage and negative space for approved branded overlay later. Realistic, grounded seller-education imagery, no money or financial props. No people, no text, numbers, address, signs, logo, watermark. Illustrative property, not a real listing.",
+          "illustrativeNotActualListing": true,
+          "fullAnd320pxVisualReview": "pass",
+          "approvedReferencesInspected": [
+            "Sell Your Humble House Fast.png",
+            "Sell Your Vacant House in Spring, TX.png",
+            "houston-september-2026-market-selling-timeline.png"
+          ]
+        },
+        "social": {
+          "slug": "earnest-money-option-fee-texas-cash-sale",
+          "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+          "image": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png",
+          "status": "draft_only",
+          "facebook": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nCompare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+          "instagram": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nCompare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\n\nRead the guide: https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+          "linkedin": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nA useful seller checklist: Compare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\n\nCompare written responsibilities—not just the headline price.\nhttps://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+          "googleBusinessProfile": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nCompare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+          "promotionalExcerpt": "Compare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.",
+          "hashtags": [
+            "#CashAsIs",
+            "#HoustonRealEstate",
+            "#SellAsIs"
+          ]
+        },
+        "originalityEvidence": {
+          "existingBlogArticles": 144,
+          "inventoryAndStaticSellerPagesReviewed": true,
+          "pendingValidationPRsPreserved": [
+            5,
+            6,
+            7
+          ],
+          "maxShared12WordBodyShingles": 2,
+          "nearestLexicalMatches": [
+            [
+              2,
+              "cash-house-sale-timeline-houston"
+            ],
+            [
+              1,
+              "texas-as-is-sale-seller-disclosure-checklist"
+            ],
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ]
+          ],
+          "manualSemanticReview": "Focused deposit-versus-option review and independently verified receipt-versus-full-purchase-funding distinction. General process page does not explain these terms; prior fraud guide focuses on proceeds-message security rather than paragraph5 payment/option roles.",
+          "noCityOrSynonymSwap": true,
+          "textSha256": "728405fa9502a31d8371334566862136949ff0d9559628894621e7493afab513"
+        },
+        "checks": {
+          "privacy": "pass",
+          "originality": "pass",
+          "editorial": "pass",
+          "facts": "pass",
+          "sources": "pass",
+          "thumbnail": "pass",
+          "build": "pass",
+          "metadata": "pass",
+          "links": "pass",
+          "mobile": "pass",
+          "preview": "pending",
+          "production": "pending",
+          "conversionReporting": "optional_not_a_live_lead_test"
+        },
+        "mobileEvidence": {
+          "passed": true,
+          "results": [
+            {
+              "width": 360,
+              "scroll": 360,
+              "body": 266,
+              "table": 266,
+              "tableScrollSafe": true,
+              "image": 266,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+              "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+            },
+            {
+              "width": 390,
+              "scroll": 390,
+              "body": 296,
+              "table": 296,
+              "tableScrollSafe": true,
+              "image": 296,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+              "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+            },
+            {
+              "width": 768,
+              "scroll": 768,
+              "body": 638,
+              "table": 619.296875,
+              "tableScrollSafe": true,
+              "image": 638,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+              "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+            },
+            {
+              "width": 1366,
+              "scroll": 1366,
+              "body": 638,
+              "table": 619.296875,
+              "tableScrollSafe": true,
+              "image": 638,
+              "imageLoaded": 1200,
+              "h1s": 1,
+              "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+              "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+            }
+          ]
+        },
+        "commandEvidence": {
+          "build": "npm run build",
+          "buildExitCode": 0,
+          "astroPages": 171,
+          "attributionPages": 184,
+          "dniPages": 175,
+          "sellerFormPages": 2,
+          "outputValidatorExitCode": 0,
+          "mobileWidths": [
+            360,
+            390,
+            768,
+            1366
+          ],
+          "pythonReleaseGuardTestsPassed": 5,
+          "javascriptPublisherTestsPassed": 3,
+          "correctiveAttempt": "Initial build rejected overlong money meta description; shortened before final full build exited0.",
+          "blogCardVisualReview": {
+            "passed": true,
+            "widths": [
+              390,
+              1366
+            ],
+            "imagesDecodedBeforeFinalScreenshot": true
+          }
+        },
+        "seoLifecycle": {
+          "localGates": {
+            "indexability": "pass",
+            "robotsNoindex": "pass",
+            "canonical": "pass",
+            "sitemapEligibility": "pass",
+            "contentQuality": "pass",
+            "specificSearchIntent": "pass",
+            "duplicateContent": "pass",
+            "cannibalization": "pass",
+            "meaningfulInternalLinks": "pass",
+            "sellerConversionPath": "pass",
+            "factualSources": "pass"
+          },
+          "intentPrimaryURL": "/blog/how-cash-offer-house-works-houston/",
+          "uniqueSellerQuestion": "Earnest Money vs. Option Fee in a Texas Cash House Sale",
+          "geography": "General Texas house-sale education for Houston/Harris/Fort Bend sellers; HOA guide excludes condos; no invented local procedure.",
+          "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
+          "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
+          "searchConsoleMonitoring": {
+            "status": "pending_new_live_url",
+            "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
+            "canonicalURL": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+            "nextReview": "2026-10-17",
+            "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
+            "newTopicDemand": "Unmeasured; do not claim search volume."
+          },
+          "ga4Measurement": {
+            "status": "No settled data for new articles yet; existing implementation preserved.",
+            "originalOrganicLandingSessions": null,
+            "validatedOrganicSellerLeads": null,
+            "qualifiedSeller": null,
+            "agreement": null,
+            "fundedRetainedGP": null,
+            "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
+          }
+        },
+        "hold": {
+          "reason": "required_preview_network_approval_cancelled",
+          "details": "Final immutable-preview full resource verification did not complete: unified exec reported network approval was cancelled before a decision was returned. No main content merge attempted.",
+          "at": "2026-10-16T13:49:29.330Z"
+        },
+        "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
+        "previewDeployId": "6ad22958f4d946c4da1facda",
+        "pr": 10,
+        "previewURL": "https://6ad22958f4d946c4da1facda--cashasis-blog.netlify.app/blog/earnest-money-option-fee-texas-cash-sale/",
+        "previewEvidence": {
+          "exactCommitReady": true,
+          "context": "deploy-preview",
+          "liveHtmlHttp200": true,
+          "htmlMatchesMobileTestedBuild": true,
+          "fullResourceCheck": "incomplete_not_pass",
+          "allLiveImageHashes": "not_fully_confirmed",
+          "productionRelease": "not_attempted"
+        }
+      }
+    ],
+    "protectedSourceChanges": [],
+    "generatedAllowlistOnly": true,
+    "validationPRsPreserved": [
+      5,
+      6,
+      7
+    ],
+    "social": "draft_only",
+    "liveSellerLeadSubmitted": false,
+    "publisherPaused": true,
+    "schedulePolicyUnchanged": "Up to3/day daily08:00–09:00 America/Chicago; same task paused, cadence not edited.",
+    "analytics": "Optional. GSC read successful throughOct13; new articles unpublished and have no settled GA4/Google outcomes. Missing analytics not blocker.",
+    "previousProduction": "Preserved unchanged; no new article/image or layout source merged."
+  },
+  "priorHoldEvidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0",
+  "analytics": "Optional. No settled attribution for newly published articles; no validated seller or funded GP inferred.",
   "protectedSourceChanges": [],
-  "generatedAllowlistOnly": true,
-  "validationPRsPreserved": [
-    5,
-    6,
-    7
-  ],
   "social": "draft_only",
-  "liveSellerLeadSubmitted": false,
-  "publisherPaused": true,
-  "schedulePolicyUnchanged": "Up to3/day daily08:00–09:00 America/Chicago; same task paused, cadence not edited.",
-  "analytics": "Optional. GSC read successful throughOct13; new articles unpublished and have no settled GA4/Google outcomes. Missing analytics not blocker.",
-  "previousProduction": "Preserved unchanged; no new article/image or layout source merged."
+  "fakeSellerLeadSubmitted": false,
+  "schedulePolicy": "Existing up-to3 daily08:00–09:00 America/Chicago unchanged."
 }
