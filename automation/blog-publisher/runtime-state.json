@@ -1,10 +1,9 @@
 {
   "lease": {
-    "runId": "native-daily-20261016T132454Z",
-    "fence": 6,
-    "issuedAt": "2026-10-16T13:26:12.746Z",
-    "expiresAt": "2026-10-16T13:49:59.480Z",
-    "releasedAt": "2026-10-16T13:49:59.480Z"
+    "runId": "owner-resume-20261016T135920Z",
+    "fence": 7,
+    "issuedAt": "2026-10-16T14:00:41.233Z",
+    "expiresAt": "2026-10-16T16:00:41.233Z"
   },
   "ledger": [
     {
@@ -118,44 +117,44 @@
     {
       "slug": "existing-survey-when-selling-texas-house",
       "intentKey": "texas-house-seller-existing-survey-t47-t471-acceptance-document-checklist",
-      "runId": "native-daily-20261016T132454Z",
+      "runId": "owner-resume-20261016T135920Z",
       "day": "2026-10-16",
-      "status": "hold",
+      "status": "reserved",
       "validationOnly": false,
-      "reason": "required_preview_network_approval_cancelled",
       "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
       "previewDeployId": "6ad22958f4d946c4da1facda",
       "pr": 10,
       "neverPublished": true,
-      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0"
+      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0",
+      "priorHoldRunId": "native-daily-20261016T132454Z"
     },
     {
       "slug": "hoa-resale-documents-texas-house-sale",
       "intentKey": "texas-non-condominium-mandatory-hoa-resale-document-ordering-fee-allocation-checklist",
-      "runId": "native-daily-20261016T132454Z",
+      "runId": "owner-resume-20261016T135920Z",
       "day": "2026-10-16",
-      "status": "hold",
+      "status": "reserved",
       "validationOnly": false,
-      "reason": "required_preview_network_approval_cancelled",
       "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
       "previewDeployId": "6ad22958f4d946c4da1facda",
       "pr": 10,
       "neverPublished": true,
-      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0"
+      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0",
+      "priorHoldRunId": "native-daily-20261016T132454Z"
     },
     {
       "slug": "earnest-money-option-fee-texas-cash-sale",
       "intentKey": "texas-seller-cash-offer-earnest-money-vs-option-fee-receipt-risk-checklist",
-      "runId": "native-daily-20261016T132454Z",
+      "runId": "owner-resume-20261016T135920Z",
       "day": "2026-10-16",
-      "status": "hold",
+      "status": "reserved",
       "validationOnly": false,
-      "reason": "required_preview_network_approval_cancelled",
       "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
       "previewDeployId": "6ad22958f4d946c4da1facda",
       "pr": 10,
       "neverPublished": true,
-      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0"
+      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0",
+      "priorHoldRunId": "native-daily-20261016T132454Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
