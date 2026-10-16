@@ -3,7 +3,8 @@
     "runId": "native-daily-20261016T132454Z",
     "fence": 6,
     "issuedAt": "2026-10-16T13:26:12.746Z",
-    "expiresAt": "2026-10-16T15:26:12.746Z"
+    "expiresAt": "2026-10-16T13:49:59.480Z",
+    "releasedAt": "2026-10-16T13:49:59.480Z"
   },
   "ledger": [
     {
@@ -119,38 +120,58 @@
       "intentKey": "texas-house-seller-existing-survey-t47-t471-acceptance-document-checklist",
       "runId": "native-daily-20261016T132454Z",
       "day": "2026-10-16",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "hold",
+      "validationOnly": false,
+      "reason": "required_preview_network_approval_cancelled",
+      "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
+      "previewDeployId": "6ad22958f4d946c4da1facda",
+      "pr": 10,
+      "neverPublished": true,
+      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0"
     },
     {
       "slug": "hoa-resale-documents-texas-house-sale",
       "intentKey": "texas-non-condominium-mandatory-hoa-resale-document-ordering-fee-allocation-checklist",
       "runId": "native-daily-20261016T132454Z",
       "day": "2026-10-16",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "hold",
+      "validationOnly": false,
+      "reason": "required_preview_network_approval_cancelled",
+      "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
+      "previewDeployId": "6ad22958f4d946c4da1facda",
+      "pr": 10,
+      "neverPublished": true,
+      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0"
     },
     {
       "slug": "earnest-money-option-fee-texas-cash-sale",
       "intentKey": "texas-seller-cash-offer-earnest-money-vs-option-fee-receipt-risk-checklist",
       "runId": "native-daily-20261016T132454Z",
       "day": "2026-10-16",
-      "status": "reserved",
-      "validationOnly": false
+      "status": "hold",
+      "validationOnly": false,
+      "reason": "required_preview_network_approval_cancelled",
+      "previewCommit": "5d691ec1fd0defc0968ede2bf1e545fc628999f8",
+      "previewDeployId": "6ad22958f4d946c4da1facda",
+      "pr": 10,
+      "neverPublished": true,
+      "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-catchup-20261015T170311Z",
-    "fence": 5,
-    "day": "2026-10-15",
-    "status": "pass",
-    "published": 3,
-    "articlesHeld": 0,
-    "batchHeld": false,
-    "completedAt": "2026-10-15T17:25:51.645Z",
-    "evidenceCommit": "48da7870c037137a9788c429c71c88d0d7a7278b",
-    "evidencePath": "automation/blog-publisher/runs/2026-10-15.json"
+    "runId": "native-daily-20261016T132454Z",
+    "fence": 6,
+    "day": "2026-10-16",
+    "status": "hold",
+    "published": 0,
+    "articlesHeld": 3,
+    "batchHeld": true,
+    "reason": "required_preview_network_approval_cancelled",
+    "completedAt": "2026-10-16T13:49:59.480Z",
+    "publisherPaused": true,
+    "evidenceCommit": "934a1114fbebce715454e1c9a8fde4028c8a2dc0",
+    "evidencePath": "automation/blog-publisher/runs/2026-10-16.json"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
