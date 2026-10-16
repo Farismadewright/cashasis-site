@@ -1,11 +1,11 @@
 {
-  "mode": "hold",
-  "unattendedProduction": false,
+  "mode": "production",
+  "unattendedProduction": true,
   "dailyCap": 3,
   "templateApproved": true,
   "workflowPassed": true,
   "conversionPassed": false,
-  "runnerEnabled": false,
+  "runnerEnabled": true,
   "template": "left-photo-transparent-v2",
   "approvedAt": "2026-10-13T12:36:55-05:00",
   "approval": "Owner: ok yes looks good",
@@ -54,7 +54,9 @@
     "previousMode": "production",
     "evidence": "automation/blog-publisher/runs/2026-10-16.json",
     "preserveActivationEvidence": true,
-    "requiredAction": "Allow/approve the interrupted existing Netlify preview and production HTTP verification in Work, finish PR10 exact-commit checks, then resume the same existing publisher. Netlify connector itself remains authenticated."
+    "requiredAction": "Allow/approve the interrupted existing Netlify preview and production HTTP verification in Work, finish PR10 exact-commit checks, then resume the same existing publisher. Netlify connector itself remains authenticated.",
+    "resolvedAt": "2026-10-16T14:01:15.853Z",
+    "resolution": "Owner instructed publication; previously interrupted exact preview full30-resource verification now passed."
   },
   "recoveredAt": "2026-10-15T13:59:37.094Z"
 }

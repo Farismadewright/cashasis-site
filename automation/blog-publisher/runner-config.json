@@ -1,6 +1,6 @@
 {
   "kind": "chatgpt_work_native",
-  "enabled": false,
+  "enabled": true,
   "dailyCap": 3,
   "timezone": "America/Chicago",
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/Chicago:20261014T080000\nRRULE:FREQ=DAILY\nEND:VEVENT",
@@ -8,9 +8,7 @@
   "expectedLocalWindow": "08:00–09:00",
   "externalApiSpendLimitUSD": 0,
   "socialPublish": false,
-  "activationNeeds": [
-    "Complete final exact-commit preview network verification after required approval; preserve all other activation evidence."
-  ],
+  "activationNeeds": [],
   "analyticsRequired": false,
   "validationTask": "6ace70f590248191ba47506d54301acf",
   "testResult": "automation/blog-publisher/unattended-test-result.json",
@@ -19,7 +17,8 @@
   "firstScheduledRun": "2026-10-14T08:00:00-05:00",
   "lastPause": {
     "at": "2026-10-16T13:49:29.330Z",
-    "reason": "required_preview_network_approval_cancelled"
+    "reason": "required_preview_network_approval_cancelled",
+    "resolvedAt": "2026-10-16T14:01:15.853Z"
   },
-  "resumedAt": "2026-10-15T13:59:37.094Z"
+  "resumedAt": "2026-10-16T14:01:15.853Z"
 }
