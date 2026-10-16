@@ -159,6 +159,11 @@
     "commit": "bbb82599e17f93e5a3b1d2aad085e1e08d220cfe",
     "deployId": "6ad22ee2b4af767f915fcabe",
     "pr": 10,
-    "publishedAt": "2026-10-16T14:06:43.070360+00:00"
+    "publishedAt": "2026-10-16T14:06:43.070360+00:00",
+    "visibility": "withdrawn",
+    "withdrawnAt": "2026-10-16T14:53:11.029Z",
+    "republishRequiresOwnerRequest": true,
+    "withdrawalReason": "Owner requested removal: Cash As-Is wholesale agreements often use neither earnest money nor an option fee.",
+    "countOriginalPublicationTowardDailyCap": true
   }
 ]
