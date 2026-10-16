@@ -1,0 +1,294 @@
+{
+  "title": "HOA Resale Documents: A Texas House Seller's Checklist",
+  "description": "Selling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.",
+  "primaryKeyword": "HOA resale documents when selling a Texas house",
+  "supportingKeywords": [
+    "Texas HOA resale certificate seller",
+    "HOA transfer fees house sale",
+    "Houston subdivision resale documents"
+  ],
+  "image": "/images/hoa-resale-documents-texas-house-sale.png",
+  "imageAlt": "Illustrative Houston-area subdivision house with the headline Selling With An HOA",
+  "slug": "hoa-resale-documents-texas-house-sale",
+  "intentKey": "texas-non-condominium-mandatory-hoa-resale-document-ordering-fee-allocation-checklist",
+  "runId": "native-daily-20261016T132454Z",
+  "fence": 6,
+  "day": "2026-10-16",
+  "status": "preview",
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/forms/addendum-property-subject-mandatory-membership-property-owners-association",
+      "title": "TREC mandatory HOA addendum36-11",
+      "accessedAt": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "publicationDate": "2026-07-01",
+      "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+      "claim": "Current addendum effectiveJuly1,2026, not for condos, has subdivision information delivery arrangements."
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/36-11.pdf",
+      "title": "TREC36-11 HOA addendum",
+      "accessedAt": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "publicationDate": "2026-05-04",
+      "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+      "claim": "Separate sections address document ordering/payment, transfer-related charges, regular prorated items and title information even where buyer does not require delivery. No universal seller-pays or waived-HOA-fees claim."
+    },
+    {
+      "url": "https://www.trec.texas.gov/forms/subdivision-information-including-resale-certificate-property-subject-mandatory-membership",
+      "title": "TREC subdivision information certificate37-5",
+      "accessedAt": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "publicationDate": "2014-02-10",
+      "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+      "claim": "Certificate addresses broader HOA information than a dues receipt. Official page remains current despite2014effective date."
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/37-5.pdf",
+      "title": "TREC37-5 certificate fields",
+      "accessedAt": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "publicationDate": "2014-02-10",
+      "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+      "claim": "Fields cover regular/special assessments, unpaid amounts, violations, certain litigation, transfer charges and attachments."
+    }
+  ],
+  "nearestOverlaps": [
+    "/blog/sell-house-liens-harris-county/",
+    "/blog/sell-house-title-problems-houston/",
+    "/compare-the-net/"
+  ],
+  "substantiveDifference": "Previously uncovered non-condominium mandatory HOA document-order handoff and separation of resale documents, account balance, assessment issues and transfer charges. Not an HOA lien remedy article or generic seller-net page.",
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inbound": 67,
+    "eligibleInbound": 63,
+    "themes": {
+      "price": 6,
+      "timing": 5,
+      "condition": 1
+    },
+    "recurringConfirmed": [
+      "offer/price comparison"
+    ],
+    "limitations": "Bounded read-only SMS sample and contextual review. Counts are broad keyword screens, not population estimates. New document topics are adjacent editorial gaps, not recurring exact seller questions."
+  },
+  "sellerTopicOrigin": "Adjacent editorial gap informed by broad recurring offer/price concern, not a claimed recurring exact question or measured new keyword demand.",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Native Work imagegen/writing and existing connections only. No paid external API used or credits purchased. Bundled-plan unit cost unavailable."
+  },
+  "protectedSourceChanges": [],
+  "imageSha256": "a321c28b77fda3baeec17be187f6cd2b81d26245ef07846c7f0cfa33f0291517",
+  "thumbnail": {
+    "template": "left-photo-transparent-v2",
+    "width": 1200,
+    "height": 630,
+    "headline": "SELLING WITH AN HOA",
+    "lines": [
+      "SELLING",
+      "WITH AN HOA"
+    ],
+    "logoVariant": "white",
+    "transparentLogo": true,
+    "rendererSha256": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+    "nativeImagegen": true,
+    "backgroundSha256": "a164b8ebcaaeb3c31e59e4ce314f3b1fb58f36b7fbf173868c2358303498e802",
+    "prompt": "Photorealistic editorial photograph, wide landscape 1.9:1. Well-kept but ordinary two-story beige brick Houston-area subdivision house on RIGHT HALF, neighboring roofline subtly visible, front lawn, mature small trees, afternoon natural light. LEFT HALF quiet shaded tree foliage and lawn negative space for branded overlay later. Realistic materials and residential proportions. No people, no gated-community sign, no text, house numbers, address, logos, branding, watermark. Illustrative property, not an actual listing.",
+    "illustrativeNotActualListing": true,
+    "fullAnd320pxVisualReview": "pass",
+    "approvedReferencesInspected": [
+      "Sell Your Humble House Fast.png",
+      "Sell Your Vacant House in Spring, TX.png",
+      "houston-september-2026-market-selling-timeline.png"
+    ]
+  },
+  "social": {
+    "slug": "hoa-resale-documents-texas-house-sale",
+    "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+    "image": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png",
+    "status": "draft_only",
+    "facebook": "HOA Resale Documents: A Texas House Seller's Checklist\n\nSelling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+    "instagram": "HOA Resale Documents: A Texas House Seller's Checklist\n\nSelling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\n\nRead the guide: https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "HOA Resale Documents: A Texas House Seller's Checklist\n\nA useful seller checklist: Selling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\n\nCompare written responsibilities\u2014not just the headline price.\nhttps://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+    "googleBusinessProfile": "HOA Resale Documents: A Texas House Seller's Checklist\n\nSelling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+    "promotionalExcerpt": "Selling a Houston-area house with a mandatory HOA? Separate resale documents, dues and transfer charges, and clarify who orders and pays before closing.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "originalityEvidence": {
+    "existingBlogArticles": 144,
+    "inventoryAndStaticSellerPagesReviewed": true,
+    "pendingValidationPRsPreserved": [
+      5,
+      6,
+      7
+    ],
+    "maxShared12WordBodyShingles": 0,
+    "nearestLexicalMatches": [
+      [
+        0,
+        "what-happens-back-taxes-when-you-sell"
+      ],
+      [
+        0,
+        "what-can-you-skip-selling-cash-as-is"
+      ],
+      [
+        0,
+        "we-buy-houses-houston"
+      ]
+    ],
+    "manualSemanticReview": "Previously uncovered non-condominium mandatory HOA document-order handoff and separation of resale documents, account balance, assessment issues and transfer charges. Not an HOA lien remedy article or generic seller-net page.",
+    "noCityOrSynonymSwap": true,
+    "textSha256": "4193329095e6ffead6675033fec4639b4fc89fcd3ae3bec309b28514ebd6019f"
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "production": "pending",
+    "conversionReporting": "optional_not_a_live_lead_test"
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "og": "https://www.cashasis.com/images/hoa-resale-documents-texas-house-sale.png"
+      }
+    ]
+  },
+  "commandEvidence": {
+    "build": "npm run build",
+    "buildExitCode": 0,
+    "astroPages": 171,
+    "attributionPages": 184,
+    "dniPages": 175,
+    "sellerFormPages": 2,
+    "outputValidatorExitCode": 0,
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "pythonReleaseGuardTestsPassed": 5,
+    "javascriptPublisherTestsPassed": 3,
+    "correctiveAttempt": "Initial build rejected166-character money meta description; shortened to compliant length, full subsequent build exited0."
+  },
+  "seoLifecycle": {
+    "localGates": {
+      "indexability": "pass",
+      "robotsNoindex": "pass",
+      "canonical": "pass",
+      "sitemapEligibility": "pass",
+      "contentQuality": "pass",
+      "specificSearchIntent": "pass",
+      "duplicateContent": "pass",
+      "cannibalization": "pass",
+      "meaningfulInternalLinks": "pass",
+      "sellerConversionPath": "pass",
+      "factualSources": "pass"
+    },
+    "intentPrimaryURL": "/blog/sell-house-title-problems-houston/",
+    "uniqueSellerQuestion": "HOA Resale Documents: A Texas House Seller's Checklist",
+    "geography": "General Texas house-sale education for Houston/Harris/Fort Bend sellers; HOA guide excludes condos; no invented local procedure.",
+    "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
+    "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
+    "searchConsoleMonitoring": {
+      "status": "pending_new_live_url",
+      "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
+      "canonicalURL": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+      "nextReview": "2026-10-17",
+      "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
+      "newTopicDemand": "Unmeasured; do not claim search volume."
+    },
+    "ga4Measurement": {
+      "status": "No settled data for new articles yet; existing implementation preserved.",
+      "originalOrganicLandingSessions": null,
+      "validatedOrganicSellerLeads": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null,
+      "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
+    }
+  }
+}

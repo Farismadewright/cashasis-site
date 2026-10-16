@@ -1,0 +1,281 @@
+{
+  "title": "Earnest Money vs. Option Fee in a Texas Cash House Sale",
+  "description": "Compare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.",
+  "primaryKeyword": "earnest money vs option fee Texas seller",
+  "supportingKeywords": [
+    "cash buyer earnest money Texas",
+    "Texas option fee seller",
+    "verify cash offer deposit"
+  ],
+  "image": "/images/earnest-money-option-fee-texas-cash-sale.png",
+  "imageAlt": "Illustrative Houston-area brick house and porch with the headline Know Your Offer Terms",
+  "slug": "earnest-money-option-fee-texas-cash-sale",
+  "intentKey": "texas-seller-cash-offer-earnest-money-vs-option-fee-receipt-risk-checklist",
+  "runId": "native-daily-20261016T132454Z",
+  "fence": 6,
+  "day": "2026-10-16",
+  "status": "preview",
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/forms/one-four-family-residential-contract-resale",
+      "title": "TREC Form20-19 official form page",
+      "accessedAt": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "publicationDate": "2026-07-01",
+      "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+      "claim": "Current resale form20-19 effective July1,2026; scope excludes condos, builder new homes and farm/ranch."
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/20-19_4.pdf",
+      "title": "TREC20-19 current contract, paragraphs5 and6C",
+      "accessedAt": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "publicationDate": "2026-05-04",
+      "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+      "claim": "Paragraph5 separates earnest money/option fee and recipients, crediting and consequences; paragraph6C offers existing survey plus T47/T47.1 or new-survey arrangements."
+    },
+    {
+      "url": "https://www.trec.texas.gov/node/368",
+      "title": "TREC seller unpaid-option FAQ",
+      "accessedAt": "2026-10-16",
+      "verifiedAt": "2026-10-16",
+      "publicationDate": null,
+      "reportingPeriod": "Current published guidance reviewed 2026-10-16",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source text and current official form; form effective date checked separately. No individualized legal advice.",
+      "claim": "Unpaid option fee affects unrestricted option right; FAQ cites older20-17, so article expressly anchors actual treatment to current signed form and legal review."
+    }
+  ],
+  "nearestOverlaps": [
+    "/blog/how-cash-offer-house-works-houston/",
+    "/after-you-sign/",
+    "/blog/protect-house-sale-proceeds-wire-fraud/"
+  ],
+  "substantiveDifference": "Focused deposit-versus-option review and independently verified receipt-versus-full-purchase-funding distinction. General process page does not explain these terms; prior fraud guide focuses on proceeds-message security rather than paragraph5 payment/option roles.",
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inbound": 67,
+    "eligibleInbound": 63,
+    "themes": {
+      "price": 6,
+      "timing": 5,
+      "condition": 1
+    },
+    "recurringConfirmed": [
+      "offer/price comparison"
+    ],
+    "limitations": "Bounded read-only SMS sample and contextual review. Counts are broad keyword screens, not population estimates. New document topics are adjacent editorial gaps, not recurring exact seller questions."
+  },
+  "sellerTopicOrigin": "Adjacent editorial gap informed by broad recurring offer/price concern, not a claimed recurring exact question or measured new keyword demand.",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Native Work imagegen/writing and existing connections only. No paid external API used or credits purchased. Bundled-plan unit cost unavailable."
+  },
+  "protectedSourceChanges": [],
+  "imageSha256": "5dc65f2110181526965c463f73f151540fdc35c033c3fd6637bd068cf99cee76",
+  "thumbnail": {
+    "template": "left-photo-transparent-v2",
+    "width": 1200,
+    "height": 630,
+    "headline": "KNOW YOUR OFFER TERMS",
+    "lines": [
+      "KNOW YOUR",
+      "OFFER TERMS"
+    ],
+    "logoVariant": "white",
+    "transparentLogo": true,
+    "rendererSha256": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+    "nativeImagegen": true,
+    "backgroundSha256": "a1faea13cc2d05b636286d5c70cb7f8890d924d4d829cd92bcb722cd80b60313",
+    "prompt": "Photorealistic editorial photograph, wide landscape 1.9:1. Older modest one-story Houston-area tan brick house on RIGHT HALF, covered front porch and simple front walkway, slightly weathered siding detail, lawn and trees, soft morning natural light. LEFT HALF quiet shaded foliage and negative space for approved branded overlay later. Realistic, grounded seller-education imagery, no money or financial props. No people, no text, numbers, address, signs, logo, watermark. Illustrative property, not a real listing.",
+    "illustrativeNotActualListing": true,
+    "fullAnd320pxVisualReview": "pass",
+    "approvedReferencesInspected": [
+      "Sell Your Humble House Fast.png",
+      "Sell Your Vacant House in Spring, TX.png",
+      "houston-september-2026-market-selling-timeline.png"
+    ]
+  },
+  "social": {
+    "slug": "earnest-money-option-fee-texas-cash-sale",
+    "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+    "image": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png",
+    "status": "draft_only",
+    "facebook": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nCompare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+    "instagram": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nCompare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\n\nRead the guide: https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nA useful seller checklist: Compare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\n\nCompare written responsibilities\u2014not just the headline price.\nhttps://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+    "googleBusinessProfile": "Earnest Money vs. Option Fee in a Texas Cash House Sale\n\nCompare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+    "promotionalExcerpt": "Compare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "originalityEvidence": {
+    "existingBlogArticles": 144,
+    "inventoryAndStaticSellerPagesReviewed": true,
+    "pendingValidationPRsPreserved": [
+      5,
+      6,
+      7
+    ],
+    "maxShared12WordBodyShingles": 2,
+    "nearestLexicalMatches": [
+      [
+        2,
+        "cash-house-sale-timeline-houston"
+      ],
+      [
+        1,
+        "texas-as-is-sale-seller-disclosure-checklist"
+      ],
+      [
+        0,
+        "what-happens-back-taxes-when-you-sell"
+      ]
+    ],
+    "manualSemanticReview": "Focused deposit-versus-option review and independently verified receipt-versus-full-purchase-funding distinction. General process page does not explain these terms; prior fraud guide focuses on proceeds-message security rather than paragraph5 payment/option roles.",
+    "noCityOrSynonymSwap": true,
+    "textSha256": "728405fa9502a31d8371334566862136949ff0d9559628894621e7493afab513"
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "production": "pending",
+    "conversionReporting": "optional_not_a_live_lead_test"
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 619.296875,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 619.296875,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+        "og": "https://www.cashasis.com/images/earnest-money-option-fee-texas-cash-sale.png"
+      }
+    ]
+  },
+  "commandEvidence": {
+    "build": "npm run build",
+    "buildExitCode": 0,
+    "astroPages": 171,
+    "attributionPages": 184,
+    "dniPages": 175,
+    "sellerFormPages": 2,
+    "outputValidatorExitCode": 0,
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "pythonReleaseGuardTestsPassed": 5,
+    "javascriptPublisherTestsPassed": 3,
+    "correctiveAttempt": "Initial build rejected166-character money meta description; shortened to compliant length, full subsequent build exited0."
+  },
+  "seoLifecycle": {
+    "localGates": {
+      "indexability": "pass",
+      "robotsNoindex": "pass",
+      "canonical": "pass",
+      "sitemapEligibility": "pass",
+      "contentQuality": "pass",
+      "specificSearchIntent": "pass",
+      "duplicateContent": "pass",
+      "cannibalization": "pass",
+      "meaningfulInternalLinks": "pass",
+      "sellerConversionPath": "pass",
+      "factualSources": "pass"
+    },
+    "intentPrimaryURL": "/blog/how-cash-offer-house-works-houston/",
+    "uniqueSellerQuestion": "Earnest Money vs. Option Fee in a Texas Cash House Sale",
+    "geography": "General Texas house-sale education for Houston/Harris/Fort Bend sellers; HOA guide excludes condos; no invented local procedure.",
+    "inboundDiscovery": "Existing blog hub card plus RSS and sitemap generated by current components. No live primary-page rewrite.",
+    "robotsEvidence": "Built HTML indexable; production robots allows article paths; deployed preview noindex and production headers must be verified before pass.",
+    "searchConsoleMonitoring": {
+      "status": "pending_new_live_url",
+      "source": "Existing GSC Wizard read-only URL Inspection; no indexing request",
+      "canonicalURL": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+      "nextReview": "2026-10-17",
+      "existingOpportunityWindow": "2026-09-16 through2026-10-13 settled; low samples directional",
+      "newTopicDemand": "Unmeasured; do not claim search volume."
+    },
+    "ga4Measurement": {
+      "status": "No settled data for new articles yet; existing implementation preserved.",
+      "originalOrganicLandingSessions": null,
+      "validatedOrganicSellerLeads": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null,
+      "note": "Raw CTA/form/key events cannot establish validated seller or funded GP."
+    }
+  }
+}
