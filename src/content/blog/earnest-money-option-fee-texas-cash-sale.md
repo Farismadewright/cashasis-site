@@ -2,6 +2,7 @@
 title: "Earnest Money vs. Option Fee in a Texas Cash House Sale"
 description: "Compare earnest money and option fees in a Texas cash sale, confirm deposit receipts, and ask the right questions before relying on an offer."
 pubDate: 2026-10-16
+draft: true
 author: "CashAsIs"
 category: "Seller Guide"
 readTime: "5 min read"

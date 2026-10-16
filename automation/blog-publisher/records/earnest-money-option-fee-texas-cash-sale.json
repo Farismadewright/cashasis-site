@@ -352,5 +352,13 @@
     "sameHtmlAndCssAsMobileTestedBuild": true,
     "privacy": "no_private_data",
     "liveLeadSubmission": "not_performed"
+  },
+  "visibility": "withdrawn",
+  "withdrawnAt": "2026-10-16T14:53:11.029Z",
+  "withdrawalReason": "Owner requested removal: Cash As-Is wholesale agreements often use neither earnest money nor an option fee.",
+  "republishRequiresOwnerRequest": true,
+  "withdrawalRollback": {
+    "restoreDraftFalseFromCommit": "0d31d918a410afdfa9fd12b2d0358f529b62a042",
+    "requiresOwnerAuthorization": true
   }
 }
