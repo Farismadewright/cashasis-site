@@ -1,6 +1,6 @@
 {
   "kind": "chatgpt_work_native",
-  "enabled": true,
+  "enabled": false,
   "dailyCap": 3,
   "timezone": "America/Chicago",
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/Chicago:20261014T080000\nRRULE:FREQ=DAILY\nEND:VEVENT",
@@ -8,7 +8,9 @@
   "expectedLocalWindow": "08:00–09:00",
   "externalApiSpendLimitUSD": 0,
   "socialPublish": false,
-  "activationNeeds": [],
+  "activationNeeds": [
+    "Complete final exact-commit preview network verification after required approval; preserve all other activation evidence."
+  ],
   "analyticsRequired": false,
   "validationTask": "6ace70f590248191ba47506d54301acf",
   "testResult": "automation/blog-publisher/unattended-test-result.json",
@@ -16,9 +18,8 @@
   "conversionReportingRequired": false,
   "firstScheduledRun": "2026-10-14T08:00:00-05:00",
   "lastPause": {
-    "at": "2026-10-15T13:57:17.334Z",
-    "reason": "netlify_reauthentication_required",
-    "resolvedAt": "2026-10-15T13:59:37.094Z"
+    "at": "2026-10-16T13:49:29.330Z",
+    "reason": "required_preview_network_approval_cancelled"
   },
   "resumedAt": "2026-10-15T13:59:37.094Z"
 }

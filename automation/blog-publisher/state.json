@@ -1,11 +1,11 @@
 {
-  "mode": "production",
-  "unattendedProduction": true,
+  "mode": "hold",
+  "unattendedProduction": false,
   "dailyCap": 3,
   "templateApproved": true,
   "workflowPassed": true,
   "conversionPassed": false,
-  "runnerEnabled": true,
+  "runnerEnabled": false,
   "template": "left-photo-transparent-v2",
   "approvedAt": "2026-10-13T12:36:55-05:00",
   "approval": "Owner: ok yes looks good",
@@ -48,14 +48,13 @@
   "activatedAt": "2026-10-13T21:13:48.027Z",
   "activationAuthority": "Owner authorization conditional on mandatory safe publishing tests; analytics optional per 2026-10-13 update",
   "lastHold": {
-    "runId": "native-daily-20261015T133653Z",
-    "at": "2026-10-15T13:57:17.334Z",
-    "reason": "netlify_reauthentication_required",
+    "runId": "native-daily-20261016T132454Z",
+    "at": "2026-10-16T13:49:29.330Z",
+    "reason": "required_preview_network_approval_cancelled",
     "previousMode": "production",
-    "evidence": "automation/blog-publisher/runs/2026-10-15.json",
+    "evidence": "automation/blog-publisher/runs/2026-10-16.json",
     "preserveActivationEvidence": true,
-    "resolvedAt": "2026-10-15T13:59:37.094Z",
-    "resolution": "Existing Netlify connection reauthenticated; site/deploy read succeeded and current production ready at exact main commit."
+    "requiredAction": "Allow/approve the interrupted existing Netlify preview and production HTTP verification in Work, finish PR10 exact-commit checks, then resume the same existing publisher. Netlify connector itself remains authenticated."
   },
   "recoveredAt": "2026-10-15T13:59:37.094Z"
 }
