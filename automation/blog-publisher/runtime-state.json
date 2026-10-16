@@ -3,7 +3,8 @@
     "runId": "owner-withdrawal-earnest-option-20261016",
     "fence": 8,
     "issuedAt": "2026-10-16T14:52:38.425Z",
-    "expiresAt": "2026-10-16T16:52:38.425Z"
+    "expiresAt": "2026-10-16T14:57:03.702Z",
+    "releasedAt": "2026-10-16T14:57:03.702Z"
   },
   "ledger": [
     {
@@ -163,7 +164,12 @@
       "commit": "bbb82599e17f93e5a3b1d2aad085e1e08d220cfe",
       "deployId": "6ad22ee2b4af767f915fcabe",
       "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
-      "publishedAt": "2026-10-16T14:07:31.156Z"
+      "publishedAt": "2026-10-16T14:07:31.156Z",
+      "visibility": "withdrawn",
+      "withdrawnAt": "2026-10-16T14:57:03.702Z",
+      "withdrawalCommit": "eeb5233894780c38f19495385a58bde5ebd63c6d",
+      "withdrawalDeployId": "6ad23aceb317167b4b7771d2",
+      "republishRequiresOwnerRequest": true
     }
   ],
   "externalApiSpendLimitUSD": 0,
@@ -188,5 +194,29 @@
     "commit": "fdcab894552605fe5fb479c244dcf25b511e68d1",
     "resolvedBlocker": "netlify_reauthentication_required",
     "articlesPublished": 0
+  },
+  "lastWithdrawal": {
+    "runId": "owner-withdrawal-earnest-option-20261016",
+    "fence": 8,
+    "slug": "earnest-money-option-fee-texas-cash-sale",
+    "requestedBy": "owner",
+    "reason": "Cash As-Is wholesale agreements often omit both earnest money and option fees; owner requested removal.",
+    "status": "pass",
+    "at": "2026-10-16T14:57:03.702Z",
+    "pr": 11,
+    "commit": "eeb5233894780c38f19495385a58bde5ebd63c6d",
+    "deployId": "6ad23aceb317167b4b7771d2",
+    "checks": {
+      "cleanAstroBuild": "pass",
+      "exactPreviewReady": "pass",
+      "preview404": "pass",
+      "exactProductionReady": "pass",
+      "live404": "pass",
+      "absentFromBlogRssSitemap": "pass",
+      "otherTwoArticlesHTTP200": "pass",
+      "layoutUnchanged": true
+    },
+    "originalPublicationStillCountsTowardDailyCap": true,
+    "scheduleChanged": false
   }
 }
