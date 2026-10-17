@@ -1,0 +1,104 @@
+{
+  "policyVersion": "2026-10-17",
+  "activatedAt": "2026-10-17T18:28:08.220Z",
+  "firstWeeklyPeriod": "2026-W43",
+  "firstMonthlyPeriod": "2026-10",
+  "lastWeeklyKey": null,
+  "lastMonthlyKey": null,
+  "lastAttempt": null,
+  "lastSuccessfulReview": null,
+  "pages": [
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+      "publishedAt": "2026-10-17T13:38:06.899Z",
+      "history": [
+        {
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-8TCxSHjSSAcNnrxWAvLGA&utm_medium=link&utm_source=api",
+          "inspectedAt": "2026-10-17T13:39:17.698Z",
+          "source": "google_url_inspection"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-17T13:38:36.935778+00:00",
+      "recordPath": "automation/blog-publisher/records/selling-houston-house-open-insurance-claim.json"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+      "publishedAt": "2026-10-17T13:38:06.899Z",
+      "history": [
+        {
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9pRbK1o6m_7xgGChllY01A&utm_medium=link&utm_source=api",
+          "inspectedAt": "2026-10-17T13:39:29.021Z",
+          "source": "google_url_inspection"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-17T13:38:36.946840+00:00",
+      "recordPath": "automation/blog-publisher/records/houston-house-unpermitted-addition-records.json"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+      "publishedAt": "2026-10-17T13:38:06.899Z",
+      "history": [
+        {
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vT8hW6a1b8FfJg8v_Hix8w&utm_medium=link&utm_source=api",
+          "inspectedAt": "2026-10-17T13:39:02.456Z",
+          "source": "google_url_inspection"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-17T13:38:36.958646+00:00",
+      "recordPath": "automation/blog-publisher/records/selling-fort-bend-house-septic-system.json"
+    }
+  ],
+  "notifications": [],
+  "reportReceipts": {
+    "weekly": {},
+    "monthly": {}
+  },
+  "connectionScope": {
+    "searchConsole": "https://www.cashasis.com/",
+    "ga4Property": "properties/439983808",
+    "verifiedAt": "2026-10-17T18:28:08.221Z",
+    "note": "Existing connections; no renewal, purchase, account/configuration change or analytics report asserted."
+  },
+  "initializationEvidence": {
+    "source": "Existing October17 production article records and Google inspection observations",
+    "fullInventoryReconciliation": "due_on_next_existing_run",
+    "newGoogleInspectionsDuringSetup": 0
+  },
+  "externalPaidApiSpendLimitUSD": 0
+}
