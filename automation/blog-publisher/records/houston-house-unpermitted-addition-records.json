@@ -1,0 +1,301 @@
+{
+  "title": "Houston House Addition: Check Permit Records Before Selling",
+  "description": "Unsure whether a Houston house addition was permitted? Gather the right records, separate missing paperwork from proven problems, and compare selling options.",
+  "primaryKeyword": "Houston house addition permit records before selling",
+  "image": "/images/houston-house-unpermitted-addition-records.png",
+  "imageAlt": "Illustrative Houston house with an enclosed side porch and the headline Addition Check First",
+  "supportingKeywords": [
+    "selling house with unpermitted addition Houston",
+    "Houston building permit history",
+    "missing permit records house sale"
+  ],
+  "slug": "houston-house-unpermitted-addition-records",
+  "intentKey": "houston-addition-permit-records-before-house-sale",
+  "runId": "native-daily-20261017T131503Z",
+  "fence": 9,
+  "day": "2026-10-17",
+  "status": "draft",
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+  "sources": [
+    {
+      "url": "https://www.houstontx.gov/planning/DevelopRegs/dev_reports.html",
+      "title": "City of Houston: Plat and permit activity reports",
+      "claim": "Current permit inquiries directed to Public Works/Sold Permits Search; pre-December2025 permit-activity archives are reference only.",
+      "accessedAt": "2026-10-17",
+      "verifiedAt": "2026-10-17",
+      "publicationDate": null,
+      "reportingPeriod": "Published official guidance reviewed 2026-10-17",
+      "geography": "City of Houston jurisdiction",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source guidance; scoped general education, not individualized advice.",
+      "accessEvidence": {
+        "primarySourceTextRetrieved": true,
+        "retrievalReference": "turn33view1",
+        "directRobotCheck": {
+          "url": "https://www.houstontx.gov/planning/DevelopRegs/dev_reports.html",
+          "http": 200,
+          "bytes": 82601,
+          "sha256": "064a7b1c8c93e50439d0a724b39b49b01f13429e9dfee6eae15a799f7476bf46",
+          "checkedAt": "2026-10-17T13:30:52.071451+00:00"
+        },
+        "note": "Full official source text retrieved and read through native browsing. A robot-route403/502/timeout is disclosed, not called a dead page or a200."
+      }
+    },
+    {
+      "url": "https://www.houstontx.gov/pia.html",
+      "title": "City of Houston: Public Information Act requests",
+      "claim": "Directory places building permits and code violations under Public Works; requests seek existing records, not new analysis or legal answers.",
+      "accessedAt": "2026-10-17",
+      "verifiedAt": "2026-10-17",
+      "publicationDate": null,
+      "reportingPeriod": "Published official guidance reviewed 2026-10-17",
+      "geography": "City of Houston jurisdiction",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source guidance; scoped general education, not individualized advice.",
+      "accessEvidence": {
+        "primarySourceTextRetrieved": true,
+        "retrievalReference": "turn31view0",
+        "directRobotCheck": {
+          "url": "https://www.houstontx.gov/pia.html",
+          "http": 200,
+          "bytes": 132096,
+          "sha256": "1ddedd8dbb3f17eebf2db24065fe78650f61d9a4922cda7d381acd5f3300d565",
+          "checkedAt": "2026-10-17T13:30:52.011702+00:00"
+        },
+        "note": "Full official source text retrieved and read through native browsing. A robot-route403/502/timeout is disclosed, not called a dead page or a200."
+      }
+    }
+  ],
+  "nearestOverlaps": [
+    "/blog/sell-house-code-violations-houston/",
+    "/blog/sell-house-code-violations-houston-question/",
+    "/blog/sell-code-violation-house-harris-county/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+  ],
+  "substantiveDifference": "An addition-specific permit/inspection record retrieval and uncertainty checklist, not another generic code-violation or disclosure page. Uses actual City records directory and current permit guidance; does not presume every mailing address is City jurisdiction or infer approval from absence/presence of one record.",
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inbound": 65,
+    "mode": "bounded_read_only_anonymized",
+    "themes": {
+      "offerComparison": {
+        "messages": 9,
+        "distinctSellers": 7
+      },
+      "closingQuestions": {
+        "messages": 5,
+        "distinctSellers": 3
+      },
+      "repairIssues": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "limitations": "Broad contextual keyword signals only, not representative prevalence. Exact claim/addition/septic questions were not established as recurring CRM themes. New articles address distinct editorial gaps adjacent to seller condition/offer decisions. Raw conversations and identifiers excluded; no CRM writes or contacting sellers."
+  },
+  "sellerTopicOrigin": "Distinct editorial gap adjacent to broad seller price/timing/condition questions, not measured keyword volume or a claimed recurring exact CRM question.",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Built-in native Work generation and existing GitHub/Netlify/GSC connections only. No new services, paid APIs or credits; bundled unit cost unavailable."
+  },
+  "protectedSourceChanges": [],
+  "imageSha256": "0a32ca983a6d81568a67fa9e61a69e7dbde2ee785c7825e15dfd41be1f657b75",
+  "thumbnail": {
+    "template": "left-photo-transparent-v2",
+    "width": 1200,
+    "height": 630,
+    "headline": "ADDITION? CHECK FIRST",
+    "lines": [
+      "ADDITION?",
+      "CHECK FIRST"
+    ],
+    "logoVariant": "white",
+    "transparentLogo": true,
+    "nativeImagegen": true,
+    "backgroundSha256": "dbe686a4c87c6675840a22a8ccbb80fa9b69cb83f5e6d915b10377a653380e30",
+    "nativeGenerationId": "exec-536ae7de-bcdc-4b49-9155-b3f93e70fcf7",
+    "prompt": "Use case: photorealistic-natural. Asset type: original editorial background for Houston seller guide to checking records for an older house addition. Wide 1.9:1 landscape. Modest older Houston cream brick single-story house on right side with a visibly different-age enclosed side porch addition: simple beige siding and windows, realistic structurally plausible construction, clean modest yard, mature oak shade. Neither imply visible violation nor certify compliance. Quiet shadowed yard occupies left half for later navy branded overlay. Warm natural daylight, photorealistic real-estate editorial photography. Fictional illustrative property. No people, no addresses, no text, numbers, logos, signs, watermark. Do not generate a graphic or logo.",
+    "rendererSha256": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+    "illustrativeNotActualListing": true,
+    "fullAnd320pxVisualReview": "pass",
+    "approvedReferencesInspected": [
+      "Sell Your Humble House Fast.png",
+      "Sell Your Vacant House in Spring, TX.png",
+      "vacant-house-insurance-while-selling-houston.png"
+    ]
+  },
+  "social": {
+    "slug": "houston-house-unpermitted-addition-records",
+    "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "image": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png",
+    "status": "draft_only",
+    "facebook": "Houston House Addition: Check Permit Records Before Selling\n\nUnsure whether a Houston house addition was permitted? Gather the right records, separate missing paperwork from proven problems, and compare selling options.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "instagram": "Houston House Addition: Check Permit Records Before Selling\n\nUnsure whether a Houston house addition was permitted? Gather the right records, separate missing paperwork from proven problems, and compare selling options.\n\nRead the guide: https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Houston House Addition: Check Permit Records Before Selling\n\nUnsure whether a Houston house addition was permitted? Gather the right records, separate missing paperwork from proven problems, and compare selling options.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "googleBusinessProfile": "Houston House Addition: Check Permit Records Before Selling\n\nUnsure whether a Houston house addition was permitted? Gather the right records, separate missing paperwork from proven problems, and compare selling options.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "promotionalExcerpt": "Unsure whether a Houston house addition was permitted? Gather the right records, separate missing paperwork from proven problems, and compare selling options.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "production": "pending",
+    "conversionReporting": "optional_not_a_live_lead_test"
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "og": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "og": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "og": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "og": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png"
+      }
+    ]
+  },
+  "originalityEvidence": {
+    "existingBlogArticles": 147,
+    "inventoryAndStaticSellerPagesReviewed": true,
+    "pendingValidationPRsPreserved": [
+      5,
+      6,
+      7
+    ],
+    "nearest12WordBodyMatchesExcludingCitationLinks": [
+      [
+        0,
+        "what-happens-back-taxes-when-you-sell"
+      ],
+      [
+        0,
+        "what-can-you-skip-selling-cash-as-is"
+      ],
+      [
+        0,
+        "we-buy-houses-houston"
+      ]
+    ],
+    "manualSemanticReview": "An addition-specific permit/inspection record retrieval and uncertainty checklist, not another generic code-violation or disclosure page. Uses actual City records directory and current permit guidance; does not presume every mailing address is City jurisdiction or infer approval from absence/presence of one record.",
+    "noCityOrSynonymSwap": true,
+    "textSha256": "301abf0cfe0edbaf524df0b093fac9297fbb249c41f644c5d1b3d7e2aac6f558"
+  },
+  "commandEvidence": {
+    "build": "npm run build",
+    "buildExitCode": 0,
+    "astroPages": 173,
+    "attributionPages": 186,
+    "dniPages": 177,
+    "sellerFormPages": 2,
+    "outputValidatorExitCode": 0,
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "pythonReleaseGuardTestsPassed": 5,
+    "javascriptPublisherTestsPassed": 3,
+    "localCorrection": "Description length shortened; new article publication dates include noon UTC to render Oct17 consistently across build timezones.",
+    "thumbnailCorrection": "Two-line headlines retain locked renderer and clear existing blog-card category badge.",
+    "buildCorrection": "Full final npm build includes Astro, attribution and DNI injectors; final validators run against that output."
+  },
+  "seoLifecycle": {
+    "localGates": {
+      "indexability": "pass",
+      "robotsNoindex": "pass",
+      "canonical": "pass",
+      "sitemapEligibility": "pass",
+      "contentQuality": "pass",
+      "specificSearchIntent": "pass",
+      "duplicateContent": "pass",
+      "cannibalization": "pass",
+      "meaningfulInternalLinks": "pass",
+      "sellerConversionPath": "pass",
+      "factualSources": "pass"
+    },
+    "intentPrimaryURL": "/blog/sell-house-code-violations-houston/",
+    "uniqueSellerQuestion": "Houston House Addition: Check Permit Records Before Selling",
+    "geography": "City of Houston records procedure only after jurisdiction confirmation",
+    "inboundDiscovery": "Existing automatic blog card, RSS and sitemap; existing page rewrites not authorized or performed.",
+    "searchConsoleMonitoring": {
+      "status": "pending_live_inspection",
+      "siteUrl": "https://www.cashasis.com/",
+      "nextReview": "2026-10-18",
+      "indexingRequestSubmitted": false,
+      "newTopicDemand": "Unmeasured; no claimed keyword volume."
+    },
+    "ga4Measurement": {
+      "status": "No settled data for new articles yet; existing tracking preserved.",
+      "organicLandingSessions": null,
+      "validatedOrganicSellerLeads": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null,
+      "note": "Raw views/events are not validated seller or funded GP."
+    },
+    "productionIndexability": "pending"
+  }
+}

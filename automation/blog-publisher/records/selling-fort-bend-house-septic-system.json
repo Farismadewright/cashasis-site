@@ -1,0 +1,317 @@
+{
+  "title": "Selling a Fort Bend House With a Septic System: What to Gather",
+  "description": "Selling a Fort Bend County house with a septic system? Check permits, maintenance records and transfer questions before comparing repairs with an as-is offer.",
+  "primaryKeyword": "selling a house with a septic system Fort Bend County",
+  "image": "/images/selling-fort-bend-house-septic-system.png",
+  "imageAlt": "Illustrative Fort Bend brick house and grassy yard with a closed septic access lid and the headline Septic System Selling Guide",
+  "supportingKeywords": [
+    "Fort Bend OSSF permit transfer",
+    "septic maintenance records house sale",
+    "selling house with septic problems"
+  ],
+  "slug": "selling-fort-bend-house-septic-system",
+  "intentKey": "fort-bend-septic-property-sale-records-maintenance-handoff",
+  "runId": "native-daily-20261017T131503Z",
+  "fence": 9,
+  "day": "2026-10-17",
+  "status": "draft",
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+  "sources": [
+    {
+      "url": "https://www.tceq.texas.gov/permitting/ossf/ossfadvice.html",
+      "title": "TCEQ: Advice for an owner of an on-site sewage facility",
+      "claim": "Lender may require pre-sale OSSF evaluation; this type is not required/regulated by TCEQ. New owner should notify local permitting authority and ask startup procedure. Local/contract requirements still need review.",
+      "accessedAt": "2026-10-17",
+      "verifiedAt": "2026-10-17",
+      "publicationDate": "2026-03-03",
+      "reportingPeriod": "Published official guidance reviewed 2026-10-17",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source guidance; scoped general education, not individualized advice.",
+      "accessEvidence": {
+        "primarySourceTextRetrieved": true,
+        "retrievalReference": "turn28view0",
+        "directRobotCheck": {
+          "url": "https://www.tceq.texas.gov/permitting/ossf/ossfadvice.html",
+          "error": "HTTP Error 502: Bad Gateway"
+        },
+        "note": "Full official source text retrieved and read through native browsing. A robot-route403/502/timeout is disclosed, not called a dead page or a200."
+      }
+    },
+    {
+      "url": "https://www.fortbendcountytx.gov/government/departments/health-and-human-services/environmental-health/on-site-sewage-facility-permits-packets",
+      "title": "Fort Bend County Environmental Health: OSSF permits and packets",
+      "claim": "County requires approval process for modifications, including relocated sprinklers/added lines; application approval differs from install/operate authorization. Scope limited to responsible authority jurisdiction.",
+      "accessedAt": "2026-10-17",
+      "verifiedAt": "2026-10-17",
+      "publicationDate": null,
+      "reportingPeriod": "Published official guidance reviewed 2026-10-17",
+      "geography": "Fort Bend County responsible OSSF jurisdiction",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source guidance; scoped general education, not individualized advice.",
+      "accessEvidence": {
+        "primarySourceTextRetrieved": true,
+        "retrievalReference": "turn29view1",
+        "directRobotCheck": {
+          "url": "https://www.fortbendcountytx.gov/government/departments/health-and-human-services/environmental-health/on-site-sewage-facility-permits-packets",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        "note": "Full official source text retrieved and read through native browsing. A robot-route403/502/timeout is disclosed, not called a dead page or a200."
+      }
+    },
+    {
+      "url": "https://fbctxdocs.fortbendcountytx.gov/Forms_Library/On-Site%20Sewage%20Facility%20Packet/OnSiteSewageFacilityMainte%20%281%29.pdf",
+      "title": "Fort Bend County: Affidavit to the public, OSSF requiring maintenance",
+      "claim": "For systems covered by this continuous-service affidavit: permit transferred to buyer/new owner; signed service policy submitted within30days after transfer. Does not apply universally to all septic systems.",
+      "accessedAt": "2026-10-17",
+      "verifiedAt": "2026-10-17",
+      "publicationDate": "2010-11",
+      "reportingPeriod": "Published official guidance reviewed 2026-10-17",
+      "geography": "Fort Bend County systems covered by maintenance affidavit",
+      "unit": null,
+      "figure": null,
+      "method": "Read relevant primary-source guidance; scoped general education, not individualized advice.",
+      "accessEvidence": {
+        "primarySourceTextRetrieved": true,
+        "retrievalReference": "turn32view0",
+        "directRobotCheck": {
+          "url": "https://fbctxdocs.fortbendcountytx.gov/Forms_Library/On-Site%20Sewage%20Facility%20Packet/OnSiteSewageFacilityMainte%20%281%29.pdf",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        "note": "Full official source text retrieved and read through native browsing. A robot-route403/502/timeout is disclosed, not called a dead page or a200."
+      }
+    }
+  ],
+  "nearestOverlaps": [
+    "/blog/sell-house-fast-fort-bend-county-tx/",
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/blog/sell-vacant-house-montgomery-county/",
+    "/fix-it-or-sell-it/"
+  ],
+  "substantiveDifference": "A first dedicated septic-records, maintenance affidavit and ownership-handoff guide grounded in Fort Bend official OSSF process and TCEQ seller evaluation distinction. Existing Fort Bend commercial page is broad; Montgomery vacancy page only mentions well/septic in a list. No city/synonym swap.",
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inbound": 65,
+    "mode": "bounded_read_only_anonymized",
+    "themes": {
+      "offerComparison": {
+        "messages": 9,
+        "distinctSellers": 7
+      },
+      "closingQuestions": {
+        "messages": 5,
+        "distinctSellers": 3
+      },
+      "repairIssues": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "limitations": "Broad contextual keyword signals only, not representative prevalence. Exact claim/addition/septic questions were not established as recurring CRM themes. New articles address distinct editorial gaps adjacent to seller condition/offer decisions. Raw conversations and identifiers excluded; no CRM writes or contacting sellers."
+  },
+  "sellerTopicOrigin": "Distinct editorial gap adjacent to broad seller price/timing/condition questions, not measured keyword volume or a claimed recurring exact CRM question.",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Built-in native Work generation and existing GitHub/Netlify/GSC connections only. No new services, paid APIs or credits; bundled unit cost unavailable."
+  },
+  "protectedSourceChanges": [],
+  "imageSha256": "b96cfe3af16e5d317ffc09b6b4a5f6dde7b93b788a4dc396b39fec2b6f9ae9e2",
+  "thumbnail": {
+    "template": "left-photo-transparent-v2",
+    "width": 1200,
+    "height": 630,
+    "headline": "SEPTIC SYSTEM SELLING GUIDE",
+    "lines": [
+      "SEPTIC SYSTEM",
+      "SELLING GUIDE"
+    ],
+    "logoVariant": "white",
+    "transparentLogo": true,
+    "nativeImagegen": true,
+    "backgroundSha256": "c1816c1d2cac350c859760063c10d105f85f7b9ac82d42bf8e612d8e3ed276cd",
+    "nativeGenerationId": "exec-dade3c37-d1c7-4dee-8923-dce6cb466ea7",
+    "prompt": "Use case: photorealistic-natural. Asset type: original editorial property background for Fort Bend County seller article about septic records and maintenance handoff. Landscape 1.9:1. Modest single-story red brick house toward right with broad grassy side yard in a semi-rural southeast Texas setting, mature trees, subtle small closed green septic service access lid flush with grass in right foreground, physically plausible modest system access. No exposed sewage, excavation or technical cutaways. Calm sunny morning, authentic realistic property photography. Left half quiet shaded grass suitable for later navy overlay. Fictional illustrative property, not actual listing. No people, text, addresses, numbers, signage, logos or watermark.",
+    "rendererSha256": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+    "illustrativeNotActualListing": true,
+    "fullAnd320pxVisualReview": "pass",
+    "approvedReferencesInspected": [
+      "Sell Your Humble House Fast.png",
+      "Sell Your Vacant House in Spring, TX.png",
+      "vacant-house-insurance-while-selling-houston.png"
+    ]
+  },
+  "social": {
+    "slug": "selling-fort-bend-house-septic-system",
+    "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+    "image": "https://www.cashasis.com/images/selling-fort-bend-house-septic-system.png",
+    "status": "draft_only",
+    "facebook": "Selling a Fort Bend House With a Septic System: What to Gather\n\nSelling a Fort Bend County house with a septic system? Check permits, maintenance records and transfer questions before comparing repairs with an as-is offer.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+    "instagram": "Selling a Fort Bend House With a Septic System: What to Gather\n\nSelling a Fort Bend County house with a septic system? Check permits, maintenance records and transfer questions before comparing repairs with an as-is offer.\n\nRead the guide: https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Fort Bend House With a Septic System: What to Gather\n\nSelling a Fort Bend County house with a septic system? Check permits, maintenance records and transfer questions before comparing repairs with an as-is offer.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+    "googleBusinessProfile": "Selling a Fort Bend House With a Septic System: What to Gather\n\nSelling a Fort Bend County house with a septic system? Check permits, maintenance records and transfer questions before comparing repairs with an as-is offer.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+    "promotionalExcerpt": "Selling a Fort Bend County house with a septic system? Check permits, maintenance records and transfer questions before comparing repairs with an as-is offer.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "production": "pending",
+    "conversionReporting": "optional_not_a_live_lead_test"
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "og": "https://www.cashasis.com/images/selling-fort-bend-house-septic-system.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "og": "https://www.cashasis.com/images/selling-fort-bend-house-septic-system.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "og": "https://www.cashasis.com/images/selling-fort-bend-house-septic-system.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "og": "https://www.cashasis.com/images/selling-fort-bend-house-septic-system.png"
+      }
+    ]
+  },
+  "originalityEvidence": {
+    "existingBlogArticles": 147,
+    "inventoryAndStaticSellerPagesReviewed": true,
+    "pendingValidationPRsPreserved": [
+      5,
+      6,
+      7
+    ],
+    "nearest12WordBodyMatchesExcludingCitationLinks": [
+      [
+        0,
+        "what-happens-back-taxes-when-you-sell"
+      ],
+      [
+        0,
+        "what-can-you-skip-selling-cash-as-is"
+      ],
+      [
+        0,
+        "we-buy-houses-houston"
+      ]
+    ],
+    "manualSemanticReview": "A first dedicated septic-records, maintenance affidavit and ownership-handoff guide grounded in Fort Bend official OSSF process and TCEQ seller evaluation distinction. Existing Fort Bend commercial page is broad; Montgomery vacancy page only mentions well/septic in a list. No city/synonym swap.",
+    "noCityOrSynonymSwap": true,
+    "textSha256": "864849ac2ef14a8d158f8b243f194999abcb66499da66a3fce20791115daca99"
+  },
+  "commandEvidence": {
+    "build": "npm run build",
+    "buildExitCode": 0,
+    "astroPages": 173,
+    "attributionPages": 186,
+    "dniPages": 177,
+    "sellerFormPages": 2,
+    "outputValidatorExitCode": 0,
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "pythonReleaseGuardTestsPassed": 5,
+    "javascriptPublisherTestsPassed": 3,
+    "localCorrection": "Description length shortened; new article publication dates include noon UTC to render Oct17 consistently across build timezones.",
+    "thumbnailCorrection": "Two-line headlines retain locked renderer and clear existing blog-card category badge.",
+    "buildCorrection": "Full final npm build includes Astro, attribution and DNI injectors; final validators run against that output."
+  },
+  "seoLifecycle": {
+    "localGates": {
+      "indexability": "pass",
+      "robotsNoindex": "pass",
+      "canonical": "pass",
+      "sitemapEligibility": "pass",
+      "contentQuality": "pass",
+      "specificSearchIntent": "pass",
+      "duplicateContent": "pass",
+      "cannibalization": "pass",
+      "meaningfulInternalLinks": "pass",
+      "sellerConversionPath": "pass",
+      "factualSources": "pass"
+    },
+    "intentPrimaryURL": "/blog/sell-house-fast-fort-bend-county-tx/",
+    "uniqueSellerQuestion": "Selling a Fort Bend House With a Septic System: What to Gather",
+    "geography": "Fort Bend OSSF authority process with system-specific maintenance scope",
+    "inboundDiscovery": "Existing automatic blog card, RSS and sitemap; existing page rewrites not authorized or performed.",
+    "searchConsoleMonitoring": {
+      "status": "pending_live_inspection",
+      "siteUrl": "https://www.cashasis.com/",
+      "nextReview": "2026-10-18",
+      "indexingRequestSubmitted": false,
+      "newTopicDemand": "Unmeasured; no claimed keyword volume."
+    },
+    "ga4Measurement": {
+      "status": "No settled data for new articles yet; existing tracking preserved.",
+      "organicLandingSessions": null,
+      "validatedOrganicSellerLeads": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null,
+      "note": "Raw views/events are not validated seller or funded GP."
+    },
+    "productionIndexability": "pending"
+  }
+}
