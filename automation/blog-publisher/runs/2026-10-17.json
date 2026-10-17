@@ -1,0 +1,643 @@
+{
+  "status": "pass",
+  "runId": "native-daily-20261017T131503Z",
+  "fence": 9,
+  "day": "2026-10-17",
+  "execution": "actual_native_unattended_run",
+  "startedAt": "2026-10-17T13:15:03Z",
+  "completedAt": "2026-10-17T13:40:43.905274+00:00",
+  "published": 3,
+  "held": 0,
+  "rejected": 0,
+  "articles": [
+    {
+      "title": "Selling a Houston House With an Open Insurance Claim",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+      "record": "automation/blog-publisher/records/selling-houston-house-open-insurance-claim.json"
+    },
+    {
+      "title": "Houston House Addition: Check Permit Records Before Selling",
+      "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+      "record": "automation/blog-publisher/records/houston-house-unpermitted-addition-records.json"
+    },
+    {
+      "title": "Selling a Fort Bend House With a Septic System: What to Gather",
+      "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+      "record": "automation/blog-publisher/records/selling-fort-bend-house-septic-system.json"
+    }
+  ],
+  "prURL": "https://github.com/Farismadewright/cashasis-site/pull/12",
+  "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
+  "previewDeployId": "6ad37965f02590fa05aeec5e",
+  "productionCommit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+  "productionDeployId": "6ad37a1f9f87a882da9656c5",
+  "productionDeployState": "ready",
+  "productionDeployCommitMatches": true,
+  "preview": {
+    "passed": true,
+    "mode": "preview",
+    "origin": "https://6ad37965f02590fa05aeec5e--cashasis-blog.netlify.app",
+    "checkedAt": "2026-10-17T13:36:32.995174+00:00",
+    "resourceCount": 30,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/houston-house-unpermitted-addition-records/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-fire-damaged-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-code-violations-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-fast-fort-bend-county-tx/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-fort-bend-house-septic-system/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/compare-the-net/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/houston-house-unpermitted-addition-records.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-fort-bend-house-septic-system.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-houston-house-open-insurance-claim.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "articles": [
+      {
+        "slug": "selling-houston-house-open-insurance-claim",
+        "url": "https://6ad37965f02590fa05aeec5e--cashasis-blog.netlify.app/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "sharingImage": "https://www.cashasis.com/images/selling-houston-house-open-insurance-claim.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "3935fd05a2f85894daa941e6e041e7e45de398dca84c84273e15267e6d4b149c",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed",
+        "checkedAt": "2026-10-17T13:36:32.969746+00:00"
+      },
+      {
+        "slug": "houston-house-unpermitted-addition-records",
+        "url": "https://6ad37965f02590fa05aeec5e--cashasis-blog.netlify.app/blog/houston-house-unpermitted-addition-records/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "sharingImage": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "0a32ca983a6d81568a67fa9e61a69e7dbde2ee785c7825e15dfd41be1f657b75",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed",
+        "checkedAt": "2026-10-17T13:36:32.980555+00:00"
+      },
+      {
+        "slug": "selling-fort-bend-house-septic-system",
+        "url": "https://6ad37965f02590fa05aeec5e--cashasis-blog.netlify.app/blog/selling-fort-bend-house-septic-system/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "sharingImage": "https://www.cashasis.com/images/selling-fort-bend-house-septic-system.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "b96cfe3af16e5d317ffc09b6b4a5f6dde7b93b788a4dc396b39fec2b6f9ae9e2",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "noindex",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed",
+        "checkedAt": "2026-10-17T13:36:32.995010+00:00"
+      }
+    ],
+    "errors": []
+  },
+  "production": {
+    "passed": true,
+    "mode": "production",
+    "origin": "https://www.cashasis.com",
+    "checkedAt": "2026-10-17T13:38:36.958810+00:00",
+    "resourceCount": 30,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/houston-house-unpermitted-addition-records/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-fire-damaged-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-code-violations-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-fast-fort-bend-county-tx/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-fort-bend-house-septic-system/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/compare-the-net/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/houston-house-unpermitted-addition-records.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-fort-bend-house-septic-system.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-houston-house-open-insurance-claim.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "articles": [
+      {
+        "slug": "selling-houston-house-open-insurance-claim",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "sharingImage": "https://www.cashasis.com/images/selling-houston-house-open-insurance-claim.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "3935fd05a2f85894daa941e6e041e7e45de398dca84c84273e15267e6d4b149c",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed",
+        "checkedAt": "2026-10-17T13:38:36.935778+00:00"
+      },
+      {
+        "slug": "houston-house-unpermitted-addition-records",
+        "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "sharingImage": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "0a32ca983a6d81568a67fa9e61a69e7dbde2ee785c7825e15dfd41be1f657b75",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed",
+        "checkedAt": "2026-10-17T13:38:36.946840+00:00"
+      },
+      {
+        "slug": "selling-fort-bend-house-septic-system",
+        "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "sharingImage": "https://www.cashasis.com/images/selling-fort-bend-house-septic-system.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "b96cfe3af16e5d317ffc09b6b4a5f6dde7b93b788a4dc396b39fec2b6f9ae9e2",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "xRobotsTag": "",
+        "robotsAllowsArticle": true,
+        "internalLinks": true,
+        "ctaAttribution": true,
+        "sitemapRssBlogCard": true,
+        "sameHtmlAndCssAsMobileTestedBuild": true,
+        "privacy": "no_private_data",
+        "liveLeadSubmission": "not_performed",
+        "checkedAt": "2026-10-17T13:38:36.958646+00:00"
+      }
+    ],
+    "errors": []
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-17",
+    "errors": []
+  },
+  "commandResults": {
+    "npmRunBuildExit": 0,
+    "astroPages": 173,
+    "attributionPages": 186,
+    "dniPages": 177,
+    "outputValidatorsPassed": 3,
+    "mobileChecksPassed": 12,
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "pythonGuardTestsPassed": 5,
+    "javascriptPublisherTestsPassed": 3
+  },
+  "privacy": "Bounded read-only seller theme analysis only; no messages/record changes/mark-read, no private quotes/IDs/addresses/amounts retained. No fake lead submissions.",
+  "social": "15 accompanying channel drafts stored in article records; not posted to any social account.",
+  "preservation": {
+    "designCSSLayoutsFormsTrackingChanged": false,
+    "onlyGeneratedAttributionAllowlistAddsThreeSlugs": true,
+    "approvedThumbnailHashesUnchanged": true,
+    "withdrawnEarnestArticleHTTP": 404,
+    "withdrawnAbsentBlogSitemapRSS": true,
+    "protectedValidationPRsUntouched": [
+      6,
+      7
+    ]
+  },
+  "spend": {
+    "externalPaidApiUSD": 0,
+    "newServicesOrPurchases": false,
+    "nativeBundledUnitCost": null
+  },
+  "googleMonitoring": {
+    "inspectionResults": [
+      {
+        "slug": "selling-houston-house-open-insurance-claim",
+        "inspection": {
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-8TCxSHjSSAcNnrxWAvLGA&utm_medium=link&utm_source=api"
+        },
+        "error": null,
+        "inspectedAt": "2026-10-17T13:39:17.698Z"
+      },
+      {
+        "slug": "houston-house-unpermitted-addition-records",
+        "inspection": {
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9pRbK1o6m_7xgGChllY01A&utm_medium=link&utm_source=api"
+        },
+        "error": null,
+        "inspectedAt": "2026-10-17T13:39:29.021Z"
+      },
+      {
+        "slug": "selling-fort-bend-house-septic-system",
+        "inspection": {
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vT8hW6a1b8FfJg8v_Hix8w&utm_medium=link&utm_source=api"
+        },
+        "error": null,
+        "inspectedAt": "2026-10-17T13:39:02.456Z"
+      }
+    ],
+    "indexingRequestsSubmitted": false,
+    "note": "All3URLs currently unknown to Google; live indexability passed. No indexing/ranking promise. Impressions do not establish indexed URL counts."
+  },
+  "analytics": {
+    "existingPageOpportunityReview": "automation/blog-publisher/runs/2026-10-17-opportunities.json",
+    "ga4NewArticleSettledOutcomeData": "unavailable_new_publication",
+    "organicValidatedSellerLeads": null,
+    "qualifiedSellers": null,
+    "agreements": null,
+    "fundedRetainedGP": null,
+    "leadAcquisitionCOO": "Use existing acquisition/COO workflow with linked opportunity findings; no new dashboard or raw-events-to-leads inference."
+  },
+  "policy": "Daily cap3, existing schedule and external spend0 unchanged; no infrastructure, workflow or installed-skill edits in this publishing run.",
+  "blockers": [],
+  "validationCorrections": [
+    "Shortened overlong description before build",
+    "Explicit noon UTC dates renderOct17 across build timezones",
+    "Shorter two-line headlines clear existing card badge using locked renderer",
+    "HTTP checker uses existing BlogPosting keywords field instead of nonexistent meta-keywords element; preview then passed",
+    "Final full build verified attribution and DNI injectors before preview"
+  ],
+  "sourceAccessLimitations": "TCEQ and Fort Bend robot fetches intermittently returned502/403; full current official text retrieved and read through native browsing. Exact access evidence disclosed per source."
+}

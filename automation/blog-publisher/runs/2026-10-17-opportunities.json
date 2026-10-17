@@ -1,0 +1,75 @@
+{
+  "status": "reviewed_no_live_rewrites",
+  "reviewedAt": "2026-10-17",
+  "period": {
+    "start": "2026-09-17",
+    "end": "2026-10-14",
+    "maturity": "settled_through_2026-10-14",
+    "source": "Google Search Console API through existing GSC Wizard"
+  },
+  "pages": [
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 20.666666666666668
+    },
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+      "clicks": 0,
+      "impressions": 30,
+      "ctr": 0,
+      "position": 18.3
+    },
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 21.636363636363637
+    }
+  ],
+  "queryEvidence": [
+    {
+      "page": "sell-house-fast-missouri-city-tx",
+      "query": "sell my house fast missouri city tx",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 14.666666666666666
+    },
+    {
+      "page": "sell-house-fast-missouri-city-tx",
+      "query": "sell my house fast in missouri city",
+      "impressions": 5,
+      "clicks": 0,
+      "position": 24.2
+    },
+    {
+      "page": "sell-house-fast-tomball-tx",
+      "query": "sell my house fast tomball tx",
+      "impressions": 6,
+      "clicks": 0,
+      "position": 16
+    }
+  ],
+  "assessment": "Small directional samples: Missouri City30impressions/0clicks/position18.3 and Tomball11/0/21.64 are existing-page opportunities; Houston back-tax12/0/20.67 has overlapping tax-intent URLs. No reliable trend or page-specific lead attribution established. Current Missouri City/Tomball guides already have local-condition context, internal situation links and offer CTA, but only two generic FAQs. Recommend reviewing actual seller questions and snippet alignment with evidence before any rewrite. Do not add another city page, auto-lengthen, or change titles based on tiny samples alone.",
+  "competingCashAsIsURLs": [
+    "/blog/sell-house-fast-katy-question/",
+    "/blog/sell-house-fast-katy-tx/",
+    "/blog/sell-house-back-taxes-harris-county/",
+    "/blog/sell-house-behind-on-taxes-houston/",
+    "/blog/sell-house-delinquent-property-taxes-texas/"
+  ],
+  "approvalAndRollback": "Existing-page consolidation/rewrites require scoped owner approval and rollback evidence under production rulebook. None performed. October14 approved improvements preserved.",
+  "leadAcquisitionCOOHandoff": {
+    "destination": "Existing Lead Acquisition Engine / COO evidence workflow",
+    "finding": "Prioritize review of already-tested Missouri City and Tomball landing pages and tax-intent cannibalization, not publication volume. New support articles answer different evidence questions and link upward.",
+    "organicSellerLead": null,
+    "qualifiedSeller": null,
+    "agreement": null,
+    "fundedRetainedGP": null,
+    "measurementLimitation": "No new GA4 settled outcome query in this run; raw events and Search Console clicks cannot establish validated sellers or funded GP. Missing metrics are unavailable, not zero.",
+    "newDashboardCreated": false
+  }
+}

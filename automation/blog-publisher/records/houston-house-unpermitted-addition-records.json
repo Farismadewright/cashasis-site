@@ -14,9 +14,9 @@
   "runId": "native-daily-20261017T131503Z",
   "fence": 9,
   "day": "2026-10-17",
-  "status": "draft",
-  "commit": null,
-  "deployId": null,
+  "status": "published",
+  "commit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+  "deployId": "6ad37a1f9f87a882da9656c5",
   "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
   "sources": [
     {
@@ -159,9 +159,10 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "production": "pending",
-    "conversionReporting": "optional_not_a_live_lead_test"
+    "preview": "pass",
+    "production": "pass",
+    "conversionReporting": "optional_not_a_live_lead_test",
+    "deploy": "pass"
   },
   "mobileEvidence": {
     "passed": true,
@@ -281,11 +282,28 @@
     "geography": "City of Houston records procedure only after jurisdiction confirmation",
     "inboundDiscovery": "Existing automatic blog card, RSS and sitemap; existing page rewrites not authorized or performed.",
     "searchConsoleMonitoring": {
-      "status": "pending_live_inspection",
+      "status": "inspected",
       "siteUrl": "https://www.cashasis.com/",
       "nextReview": "2026-10-18",
       "indexingRequestSubmitted": false,
-      "newTopicDemand": "Unmeasured; no claimed keyword volume."
+      "newTopicDemand": "Unmeasured; no claimed keyword volume.",
+      "inspection": {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9pRbK1o6m_7xgGChllY01A&utm_medium=link&utm_source=api"
+      },
+      "error": null,
+      "inspectedAt": "2026-10-17T13:39:29.021Z",
+      "note": "Google currently reports URL unknown; this is a newly published page, not an indexing rejection. No indexing request submitted."
     },
     "ga4Measurement": {
       "status": "No settled data for new articles yet; existing tracking preserved.",
@@ -296,6 +314,65 @@
       "fundedRetainedGP": null,
       "note": "Raw views/events are not validated seller or funded GP."
     },
-    "productionIndexability": "pending"
+    "productionIndexability": "pass"
+  },
+  "previewEvidence": {
+    "slug": "houston-house-unpermitted-addition-records",
+    "url": "https://6ad37965f02590fa05aeec5e--cashasis-blog.netlify.app/blog/houston-house-unpermitted-addition-records/",
+    "http": 200,
+    "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "sharingImage": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSha256": "0a32ca983a6d81568a67fa9e61a69e7dbde2ee785c7825e15dfd41be1f657b75",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "xRobotsTag": "noindex",
+    "robotsAllowsArticle": true,
+    "internalLinks": true,
+    "ctaAttribution": true,
+    "sitemapRssBlogCard": true,
+    "sameHtmlAndCssAsMobileTestedBuild": true,
+    "privacy": "no_private_data",
+    "liveLeadSubmission": "not_performed",
+    "checkedAt": "2026-10-17T13:36:32.980555+00:00"
+  },
+  "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
+  "previewDeployId": "6ad37965f02590fa05aeec5e",
+  "pr": 12,
+  "previewValidationNotes": "All30previewresourcesHTTP200; live HTML/CSS equal final mobile-tested build; schema keyword field verified using existing component contract, not nonexistent meta-keywords tag.",
+  "publishedAt": "2026-10-17T13:38:06.899Z",
+  "productionEvidence": {
+    "slug": "houston-house-unpermitted-addition-records",
+    "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "http": 200,
+    "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "sharingImage": "https://www.cashasis.com/images/houston-house-unpermitted-addition-records.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSha256": "0a32ca983a6d81568a67fa9e61a69e7dbde2ee785c7825e15dfd41be1f657b75",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "xRobotsTag": "",
+    "robotsAllowsArticle": true,
+    "internalLinks": true,
+    "ctaAttribution": true,
+    "sitemapRssBlogCard": true,
+    "sameHtmlAndCssAsMobileTestedBuild": true,
+    "privacy": "no_private_data",
+    "liveLeadSubmission": "not_performed",
+    "checkedAt": "2026-10-17T13:38:36.946840+00:00"
   }
 }

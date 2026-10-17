@@ -165,5 +165,65 @@
     "republishRequiresOwnerRequest": true,
     "withdrawalReason": "Owner requested removal: Cash As-Is wholesale agreements often use neither earnest money nor an option fee.",
     "countOriginalPublicationTowardDailyCap": true
+  },
+  {
+    "runId": "native-daily-20261017T131503Z",
+    "fence": 9,
+    "day": "2026-10-17",
+    "slug": "selling-houston-house-open-insurance-claim",
+    "intentKey": "open-property-insurance-claim-sale-proceeds-reconciliation-houston",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+    "nearestOverlaps": [
+      "/blog/vacant-house-insurance-while-selling-houston/",
+      "/blog/sell-fire-damaged-house-houston/",
+      "/blog/sell-flood-damaged-house-houston/",
+      "/compare-the-net/"
+    ],
+    "substantiveDifference": "Separates open claim payments, conditional repair money and sale proceeds with a claim-and-sale evidence packet. Existing vacancy insurance page concerns coverage while empty; fire/flood guides concern physical-condition selling. No dedicated unresolved-claim reconciliation guide exists. No cash/claim-rights guarantee.",
+    "commit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+    "deployId": "6ad37a1f9f87a882da9656c5",
+    "pr": 12,
+    "publishedAt": "2026-10-17T13:38:06.899Z"
+  },
+  {
+    "runId": "native-daily-20261017T131503Z",
+    "fence": 9,
+    "day": "2026-10-17",
+    "slug": "houston-house-unpermitted-addition-records",
+    "intentKey": "houston-addition-permit-records-before-house-sale",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+    "nearestOverlaps": [
+      "/blog/sell-house-code-violations-houston/",
+      "/blog/sell-house-code-violations-houston-question/",
+      "/blog/sell-code-violation-house-harris-county/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+    ],
+    "substantiveDifference": "An addition-specific permit/inspection record retrieval and uncertainty checklist, not another generic code-violation or disclosure page. Uses actual City records directory and current permit guidance; does not presume every mailing address is City jurisdiction or infer approval from absence/presence of one record.",
+    "commit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+    "deployId": "6ad37a1f9f87a882da9656c5",
+    "pr": 12,
+    "publishedAt": "2026-10-17T13:38:06.899Z"
+  },
+  {
+    "runId": "native-daily-20261017T131503Z",
+    "fence": 9,
+    "day": "2026-10-17",
+    "slug": "selling-fort-bend-house-septic-system",
+    "intentKey": "fort-bend-septic-property-sale-records-maintenance-handoff",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+    "nearestOverlaps": [
+      "/blog/sell-house-fast-fort-bend-county-tx/",
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/sell-vacant-house-montgomery-county/",
+      "/fix-it-or-sell-it/"
+    ],
+    "substantiveDifference": "A first dedicated septic-records, maintenance affidavit and ownership-handoff guide grounded in Fort Bend official OSSF process and TCEQ seller evaluation distinction. Existing Fort Bend commercial page is broad; Montgomery vacancy page only mentions well/septic in a list. No city/synonym swap.",
+    "commit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+    "deployId": "6ad37a1f9f87a882da9656c5",
+    "pr": 12,
+    "publishedAt": "2026-10-17T13:38:06.899Z"
   }
 ]
