@@ -1,10 +1,9 @@
 {
   "lease": {
-    "runId": "owner-withdrawal-earnest-option-20261016",
-    "fence": 8,
-    "issuedAt": "2026-10-16T14:52:38.425Z",
-    "expiresAt": "2026-10-16T14:57:03.702Z",
-    "releasedAt": "2026-10-16T14:57:03.702Z"
+    "runId": "native-daily-20261017T131503Z",
+    "fence": 9,
+    "issuedAt": "2026-10-17T13:16:39.323Z",
+    "expiresAt": "2026-10-17T15:16:39.323Z"
   },
   "ledger": [
     {
