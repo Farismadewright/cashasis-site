@@ -60,3 +60,14 @@ Our goal is to make the process understandable and useful. Give us the property 
 You do not have to commit just to learn your number.
 
 **[Request your CashAsIs offer](/#offer) and tell us about the Houston property.**
+
+## Choose the right selling guide for your situation
+
+Houston homeowners weighing a cash sale often have more specific questions:
+
+- [Behind on Harris County property taxes?](/blog/sell-house-behind-on-taxes-houston/) Understand how payoff amounts can affect proceeds.
+- [Thinking about selling before foreclosure?](/blog/sell-before-foreclosure-texas/) Check your deadlines and available options early.
+- [Does the property need significant repairs?](/blog/sell-house-needs-major-repairs-houston/) Understand how condition affects an as-is evaluation.
+- [Inherited a house?](/blog/inherited-property-cashasis-options/) Review the ownership and closing questions that may matter.
+
+These guides explain different situations; the right offer still depends on the actual property and title details. [Request a no-obligation property review](/#offer) when you're ready.
