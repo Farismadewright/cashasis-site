@@ -11,3 +11,8 @@ Analytics and live conversion reporting are optional and cannot block publishing
 ## Verified activation
 Native unattended test completed on 2026-10-13: fresh original article, native imagegen background, approved1200×630 renderer, Astro build, mobile360/390/768/1366, exact-commit Netlify noindex preview, HTTP/image/schema/FAQ/CTA/RSS/sitemap checks. Deployed HTML/CSS matched mobile-tested built bytes. Evidence is repository automation/blog-publisher/unattended-test-result.json; PR7 remains validation-only and must never merge. Same native task is activated for daily08:00 America/Chicago (flexible08:00–09:00), starting2026-10-14, cap3/day. Refresh durable state rather than trusting this initial evidence.
 For release_gate.py, compose a temporary input state from freshly fetched main activation state plus the fetched runtime lease at automation/blog-publisher-runtime:automation/blog-publisher/runtime-state.json. Supply matching batch runId/fence and the complete runtime ledger; never omit reservations. Recheck lease before merge. Analytics/conversion reporting remains optional.
+
+
+
+## October17 monitoring extension
+Read [monitoring.md](monitoring.md) for mandatory post-publication checks, bounded indexing follow-ups, weekly settled comparisons, monthly reviews, durable state and quiet deduplicated notifications. Execute in the same existing daily publisher, including zero-publication days; preserve schedule, cap, Google reporting separation and all existing safeguards.

@@ -6,3 +6,8 @@ Current frontend has multiple generate_lead paths including detail updates; vali
 Keep private person-level data out of public GitHub; store aggregate public-safe metrics. Report unavailable as unavailable, not zero. Weekly brief: published/held/errors, indexed/pending/unknown URLs, organic sessions, successful seller leads, attribution coverage, useful pages, cannibalization/decay, next updates. Match denominators/windows, disclose small samples and don't increase volume solely from publication count.
 
 Do not add another analytics service as a workaround. 2026-10-13 preflight: GSC Wizard returns payment_required; no direct Google Analytics or GSC connector is exposed. Do not repeatedly probe that subscription. Unavailable direct Google access affects reporting only; it does not block publishing. Never use GSC Wizard or Windsor.ai.
+
+
+
+## October17 monitoring extension
+Read [monitoring.md](monitoring.md) for mandatory post-publication checks, bounded indexing follow-ups, weekly settled comparisons, monthly reviews, durable state and quiet deduplicated notifications. Execute in the same existing daily publisher, including zero-publication days; preserve schedule, cap, Google reporting separation and all existing safeguards.

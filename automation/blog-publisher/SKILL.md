@@ -1,6 +1,6 @@
 ---
 name: cash-as-is-autonomous-seo-blog-publisher
-description: Operate native ChatGPT Work SEO, AEO and GEO publishing for CashAsIs.com, including read-only GHL seller intelligence, social drafts and up to three daily seller articles and branded thumbnails through Farismadewright/cashasis-site and Netlify. Use for Cash As-Is blog batches, seller content, market analysis, indexing and organic seller conversions. Preserve the Astro website design and enforce staged rollout before unattended publishing.
+description: Operate native ChatGPT Work SEO, AEO and GEO publishing for CashAsIs.com, including read-only GHL seller intelligence, social drafts and up to three daily seller articles and branded thumbnails through Farismadewright/cashasis-site and Netlify. Use for Cash As-Is blog batches, seller content, market analysis, indexing, weekly/monthly SEO reviews and organic seller conversions. Preserve the Astro website design and enforce staged rollout before unattended publishing.
 ---
 
 # Cash As-Is — Autonomous SEO & Blog Publisher
@@ -112,3 +112,16 @@ Use as starting evidence, not permanent truth:
 
 ### Success objective
 First milestone: establish repeatable, verified organic seller acquisition and work toward recovering the owner-reported historical baseline of about 2 organic seller leads/month. Then scale qualified organic leads, agreements and funded retained GP. This is an operating target, never a guarantee.
+
+
+
+## Ongoing SEO monitoring — owner extension 2026-10-17
+Read [monitoring.md](references/monitoring.md) on every publishing run and SEO review. Extend this same publisher and existing schedule; never create a competing skill, runner or SEO schedule. Continue up to three quality articles/day with unchanged safeguards.
+
+After each publication verify live accessibility, canonical, sitemap/RSS, structured data, meaningful internal links and seller path; record the actual publication timestamp, Google URL Inspection result/source/time and next follow-up. Review due indexing observations in later existing daily runs, including days with no new publication. Treat initial unknown/pending statuses and API errors correctly; investigate persistent failures with repeat evidence and fresh local QA.
+
+Review settled GSC impressions/clicks/CTR/average position/top queries and GA4 original organic traffic/meaningful conversion evidence weekly. Identify visibility gains, impression-with-few-click opportunities and position11–30 pages. Recommend evidence-based existing-content improvements before more volume. Compare completed settled months with prior months; report indexed-page evidence/coverage, comparable ranking changes, organic traffic, seller outcomes and overlapping/low-value pages for editorial review. Never infer leads or funded GP from raw events or promise rankings.
+
+Use `scripts/monitoring_queue.py` and the durable monitoring checkpoint for follow-ups, period receipts and alert deduplication. Store actual evidence in the existing article records/runs structure. Keep Google unavailability optional for publication, preserve privacy and read-only measurement, and never buy paid indexing services or use unsupported indexing shortcuts.
+
+Apply the quiet-notification policy in monitoring.md instead of routine daily all-clear messages: retain publication counts/URLs in durable run logs; deliver concise requested weekly/monthly reviews and only actionable publishing/indexing failures, sustained meaningful ranking gains or verified organic-lead changes between reports. Suppress unchanged repeats and normal discovery delays. On-demand owner questions still receive actual status. Preserve the existing ACTIVE08:00–09:00 America/Chicago window, daily cap3, approved thumbnails, design and all factual/privacy/duplicate/build/deploy/lease/spending protections.
