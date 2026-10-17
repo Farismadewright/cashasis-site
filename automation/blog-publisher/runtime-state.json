@@ -169,6 +169,36 @@
       "withdrawalCommit": "eeb5233894780c38f19495385a58bde5ebd63c6d",
       "withdrawalDeployId": "6ad23aceb317167b4b7771d2",
       "republishRequiresOwnerRequest": true
+    },
+    {
+      "slug": "selling-houston-house-open-insurance-claim",
+      "intentKey": "open-property-insurance-claim-sale-proceeds-reconciliation-houston",
+      "day": "2026-10-17",
+      "runId": "native-daily-20261017T131503Z",
+      "fence": 9,
+      "status": "reserved",
+      "reservedAt": "2026-10-17T13:22:22.524Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "houston-house-unpermitted-addition-records",
+      "intentKey": "houston-addition-permit-records-before-house-sale",
+      "day": "2026-10-17",
+      "runId": "native-daily-20261017T131503Z",
+      "fence": 9,
+      "status": "reserved",
+      "reservedAt": "2026-10-17T13:22:22.524Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-fort-bend-house-septic-system",
+      "intentKey": "fort-bend-septic-property-sale-records-maintenance-handoff",
+      "day": "2026-10-17",
+      "runId": "native-daily-20261017T131503Z",
+      "fence": 9,
+      "status": "reserved",
+      "reservedAt": "2026-10-17T13:22:22.524Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
