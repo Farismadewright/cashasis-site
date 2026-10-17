@@ -3,7 +3,8 @@
     "runId": "native-daily-20261017T131503Z",
     "fence": 9,
     "issuedAt": "2026-10-17T13:16:39.323Z",
-    "expiresAt": "2026-10-17T15:16:39.323Z"
+    "expiresAt": "2026-10-17T13:42:14.355Z",
+    "releasedAt": "2026-10-17T13:42:14.355Z"
   },
   "ledger": [
     {
@@ -176,7 +177,7 @@
       "day": "2026-10-17",
       "runId": "native-daily-20261017T131503Z",
       "fence": 9,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-17T13:22:22.524Z",
       "validationOnly": false,
       "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
@@ -188,7 +189,13 @@
         "errors": [],
         "checkedAt": "2026-10-17T13:37:28.940Z"
       },
-      "noindexPreviewVerified": true
+      "noindexPreviewVerified": true,
+      "commit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+      "deployId": "6ad37a1f9f87a882da9656c5",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+      "publishedAt": "2026-10-17T13:38:06.899Z",
+      "verifiedAt": "2026-10-17T13:38:36.958810Z",
+      "pr": 12
     },
     {
       "slug": "houston-house-unpermitted-addition-records",
@@ -196,7 +203,7 @@
       "day": "2026-10-17",
       "runId": "native-daily-20261017T131503Z",
       "fence": 9,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-17T13:22:22.524Z",
       "validationOnly": false,
       "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
@@ -208,7 +215,13 @@
         "errors": [],
         "checkedAt": "2026-10-17T13:37:28.940Z"
       },
-      "noindexPreviewVerified": true
+      "noindexPreviewVerified": true,
+      "commit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+      "deployId": "6ad37a1f9f87a882da9656c5",
+      "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+      "publishedAt": "2026-10-17T13:38:06.899Z",
+      "verifiedAt": "2026-10-17T13:38:36.958810Z",
+      "pr": 12
     },
     {
       "slug": "selling-fort-bend-house-septic-system",
@@ -216,7 +229,7 @@
       "day": "2026-10-17",
       "runId": "native-daily-20261017T131503Z",
       "fence": 9,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-17T13:22:22.524Z",
       "validationOnly": false,
       "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
@@ -228,22 +241,28 @@
         "errors": [],
         "checkedAt": "2026-10-17T13:37:28.940Z"
       },
-      "noindexPreviewVerified": true
+      "noindexPreviewVerified": true,
+      "commit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+      "deployId": "6ad37a1f9f87a882da9656c5",
+      "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+      "publishedAt": "2026-10-17T13:38:06.899Z",
+      "verifiedAt": "2026-10-17T13:38:36.958810Z",
+      "pr": 12
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "owner-resume-20261016T135920Z",
-    "fence": 7,
-    "day": "2026-10-16",
+    "runId": "native-daily-20261017T131503Z",
+    "fence": 9,
     "status": "pass",
+    "day": "2026-10-17",
     "published": 3,
-    "articlesHeld": 0,
-    "batchHeld": false,
-    "completedAt": "2026-10-16T14:07:31.156Z",
-    "publisherPaused": false,
-    "evidenceCommit": "0d31d918a410afdfa9fd12b2d0358f529b62a042",
-    "evidencePath": "automation/blog-publisher/runs/2026-10-16.json"
+    "held": 0,
+    "productionCommit": "6b5f0a24c46d5e3e8cebffcda2f21682f4567a12",
+    "deployId": "6ad37a1f9f87a882da9656c5",
+    "evidence": "automation/blog-publisher/runs/2026-10-17.json",
+    "bookkeepingCommit": "d5d27fa40df7d1518df7af3a0b7104a74185c7d3",
+    "completedAt": "2026-10-17T13:42:14.355Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
