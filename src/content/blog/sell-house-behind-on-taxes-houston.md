@@ -54,3 +54,9 @@ Selling — especially a fast cash sale — stops the meter. You clear the debt,
 3. Get a cash offer that accounts for the back taxes built into the deal.
 
 We buy houses across Houston with back taxes owed — the title company clears the lien at closing, and you keep what's left. No out-of-pocket payment, no waiting for a tax sale to take your equity.
+
+## Related Houston property-tax and sale resources
+
+If you are comparing your choices, read our [guide to selling property with delinquent taxes](/blog/sell-property-with-delinquent-taxes/) and [the Houston cash-home-buyer overview](/blog/cash-home-buyers-houston/). For a pending tax lawsuit, the timing and payoff process may be different; confirm the current status with the taxing authority and title company before making plans.
+
+**Considering an as-is sale?** [Request a property review and cash offer](/#offer) with the address, condition, and any known tax-sale deadline. An inquiry is not a promise of a particular offer or closing date.
