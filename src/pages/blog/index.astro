@@ -38,6 +38,17 @@ const indexCta = ctaLink('blog-index', 'index');
       <p><a href="/blog/inherited-property-cashasis-options/"><b>Inherited property</b></a> &middot; <a href="/blog/sell-house-behind-on-taxes-houston/"><b>Back taxes</b></a> &middot; <a href="/blog/options-before-foreclosure-sale/"><b>Foreclosure timeline</b></a> &middot; <a href="/blog/vacant-house-insurance-while-selling-houston/"><b>Vacant property</b></a> &middot; <a href="/blog/sell-house-with-tenants-houston/"><b>Tenant-occupied property</b></a> &middot; <a href="/blog/sell-house-needs-major-repairs-houston/"><b>Major repairs</b></a></p>
     </section>
 
+    <section aria-labelledby="recent-guides-title" style="margin:28px 0 34px">
+      <h2 id="recent-guides-title">Newest Home Seller Guides</h2>
+      <p>Recently published answers on selling, repairs, title, taxes, and closing in Texas.</p>
+      <ul style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;padding-left:18px">
+        {posts.slice(0, 12).map((post) => (
+          <li><a href={`/blog/${post.slug}/`}>{post.data.title}</a> <small>({fmt(post.data.pubDate)})</small></li>
+        ))}
+      </ul>
+      <p><a href="/blog/sell-house-behind-on-taxes-houston/">Houston property-tax guide</a> &middot; <a href="/blog/cash-home-buyers-houston/">Houston cash-home-buyer guide</a></p>
+    </section>
+
     <a class="featured" href="/after-you-sign/">
       <div class="featured-thumb">
         <img class="thumb-img" src="/images/what-happens-after-you-sign.jpg.png" alt="What happens after you sign a cash home sale agreement — CashAsIs seller guide" width="1200" height="630" loading="eager" fetchpriority="high" decoding="async" />
