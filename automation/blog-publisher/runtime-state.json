@@ -176,9 +176,19 @@
       "day": "2026-10-17",
       "runId": "native-daily-20261017T131503Z",
       "fence": 9,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-17T13:22:22.524Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
+      "previewDeployId": "6ad37965f02590fa05aeec5e",
+      "previewVerifiedAt": "2026-10-17T13:36:32.995174Z",
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-17",
+        "errors": [],
+        "checkedAt": "2026-10-17T13:37:28.940Z"
+      },
+      "noindexPreviewVerified": true
     },
     {
       "slug": "houston-house-unpermitted-addition-records",
@@ -186,9 +196,19 @@
       "day": "2026-10-17",
       "runId": "native-daily-20261017T131503Z",
       "fence": 9,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-17T13:22:22.524Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
+      "previewDeployId": "6ad37965f02590fa05aeec5e",
+      "previewVerifiedAt": "2026-10-17T13:36:32.995174Z",
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-17",
+        "errors": [],
+        "checkedAt": "2026-10-17T13:37:28.940Z"
+      },
+      "noindexPreviewVerified": true
     },
     {
       "slug": "selling-fort-bend-house-septic-system",
@@ -196,9 +216,19 @@
       "day": "2026-10-17",
       "runId": "native-daily-20261017T131503Z",
       "fence": 9,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-17T13:22:22.524Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "7e118c3b93150b8e3f7664f42e19be23453ee5f1",
+      "previewDeployId": "6ad37965f02590fa05aeec5e",
+      "previewVerifiedAt": "2026-10-17T13:36:32.995174Z",
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-17",
+        "errors": [],
+        "checkedAt": "2026-10-17T13:37:28.940Z"
+      },
+      "noindexPreviewVerified": true
     }
   ],
   "externalApiSpendLimitUSD": 0,
