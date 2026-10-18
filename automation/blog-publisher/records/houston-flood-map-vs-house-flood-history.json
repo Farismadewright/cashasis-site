@@ -1,0 +1,244 @@
+{
+  "slug": "houston-flood-map-vs-house-flood-history",
+  "intentKey": "harris-county-seller-effective-flood-map-versus-observed-property-history-packet",
+  "title": "Houston Flood Maps vs. House Flood History: A Seller Guide",
+  "description": "A Houston flood map is not a house flood-history report. Learn which records to separate before answering buyer questions and comparing selling options.",
+  "primaryKeyword": "Houston flood map vs house flood history",
+  "supportingKeywords": [
+    "Harris County flood map selling house",
+    "effective FIRM seller records",
+    "outside floodplain house flooding"
+  ],
+  "imageAlt": "Illustrative Harris County brick house beside a grassy drainage swale after light rain with the headline Flood Maps Check First",
+  "headline": "FLOOD MAPS|CHECK FIRST",
+  "background": "exec-7c361d98-5a10-4858-a5f2-f1c04e7ddbff.png",
+  "nearestOverlaps": [
+    "/blog/sell-flood-damaged-house-houston/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+    "/blog/selling-houston-house-open-insurance-claim/"
+  ],
+  "substantiveDifference": "Addresses effective flood map versus actual observed house history even without current damage, with Harris County mapping limitations, dated map capture and evidence reconciliation. Existing flood-damage guide concerns pricing/remediation; insurance guide concerns claim proceeds, not map/history interpretation.",
+  "faq": [
+    {
+      "q": "Does being outside the mapped floodplain prove a house never flooded?",
+      "a": "No. Harris County Flood Control District explains that local ponding and overland flow can occur beyond mapped bayou or creek floodplains. A mapped designation and a property history answer different questions."
+    },
+    {
+      "q": "Is the Harris County Flood Education Mapping Tool the effective FIRM?",
+      "a": "No. HCFCD says its educational tool displays mapped information but is not the effective Flood Insurance Rate Map. Its guidance directs users to FEMA Map Service Center for the effective map."
+    },
+    {
+      "q": "Can a neighborhood flood map establish what happened inside my house?",
+      "a": "The map alone does not document that. Separate your known observations, property-specific reports, photographs and repair records from the map information, and identify what remains unknown."
+    },
+    {
+      "q": "Can Cash As-Is evaluate a property with unresolved flood questions?",
+      "a": "You can explain what is known and what records remain under review when asking for an offer evaluation. Any proposal depends on the property and agreement; neither a cash offer nor a map substitutes for accurate information and applicable disclosures."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.hcfcd.org/Resources/Interactive-Mapping-Tools/Harris-County-Flood-Education",
+      "title": "HCFCD: Harris County Flood Education",
+      "publicationDate": null,
+      "accessedAt": "2026-10-18",
+      "verifiedAt": "2026-10-18",
+      "reportingPeriod": "Current official consumer guidance at access",
+      "geography": "Harris County, Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current primary source in native web research; claim-specific source review retained",
+      "claim": "Educational mapping tool is not the effective FIRM; view effective map at FEMA Map Service Center and save a FIRMette."
+    },
+    {
+      "url": "https://www.hcfcd.org/Resources/FAQ",
+      "title": "HCFCD: Frequently Asked Questions",
+      "publicationDate": null,
+      "accessedAt": "2026-10-18",
+      "verifiedAt": "2026-10-18",
+      "reportingPeriod": "Current official consumer guidance at access",
+      "geography": "Harris County, Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current primary source in native web research; claim-specific source review retained",
+      "claim": "Mapped floodplain estimates bayou/creek flooding under assumed parameters; ponding and overland flow can occur when intense rainfall overwhelms local drainage."
+    }
+  ],
+  "image": "/images/houston-flood-map-vs-house-flood-history.png",
+  "runId": "native-daily-20261018T135133Z",
+  "fence": 10,
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+  "commit": null,
+  "deployId": null,
+  "imageSha256": "2086c3aeb5ad9a94e5dc626ed0a814bf72b40e1f9c308396455ceab1a1b3a689",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "headline": "FLOOD MAPS|CHECK FIRST",
+    "templateHashesMatch": true,
+    "officialAlphaVerified": true,
+    "backgroundSha256": "e5100f45cdaac44ac953b5070d96ec24abd0160f5344363ac39628a703359554",
+    "provenance": "new native imagegen exec-7c361d98-5a10-4858-a5f2-f1c04e7ddbff.png",
+    "visualReview": "Full size and320px contact-sheet reviewed: exact transparent official logo; headline readable; no clipping/background block",
+    "illustrative": true,
+    "generationMode": "built_in_native_imagegen"
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work/existing Netlify allowances; no new paid API or services. Allowance consumption not separately priced."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "inboundMessages": 44,
+    "screenedBroadPriceMessages": 5,
+    "screenedDistinctPriceSellers": 4,
+    "topicOrigin": "Editorial gap related to reducing condition uncertainty in offer comparisons, not a claimed recurring lead/termite/flood-specific CRM theme",
+    "limitations": "Bounded anonymous keyword screen, not prevalence or representative seller demand; no private quotes, identifiers, addresses or amounts retained."
+  },
+  "social": {
+    "slug": "houston-flood-map-vs-house-flood-history",
+    "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "image": "https://www.cashasis.com/images/houston-flood-map-vs-house-flood-history.png",
+    "status": "draft_only",
+    "publishAllowed": false,
+    "facebook": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nA Houston flood map is not a house flood-history report. Learn which records to separate before answering buyer questions and comparing selling options.\n\nRead the checklist, then compare the work and proceeds of your selling options. https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "instagram": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nDocuments can answer different questions. Know what you have before choosing your next step. Guide: https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nClear property information makes a more useful offer comparison. This seller guide separates the records from the decisions still requiring professional review. https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "googleBusinessProfile": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nA Houston flood map is not a house flood-history report. Learn which records to separate before answering buyer questions and comparing selling options.\nRead the guide and explore an as-is offer evaluation: https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "promotionalExcerpt": "A Houston flood map is not a house flood-history report. Learn which records to separate before answering buyer questions and comparing selling options.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "seoLifecycle": {
+    "required": [
+      "indexability",
+      "robots",
+      "canonical",
+      "sitemap",
+      "specific_intent",
+      "quality",
+      "duplicate_cannibalization",
+      "internal_links",
+      "seller_path",
+      "source_verification"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "googleMonitoring": "pending_post_publication",
+    "ga4": "optional_not_measured_this_run",
+    "liveRewritePerformed": false
+  },
+  "originalityEvidence": {
+    "reviewedBlogFiles": 150,
+    "staticSellerPagesAndOpenPRsReviewed": true,
+    "maxShared12WordBodyShingles": 0,
+    "nearestSemanticOverlaps": [
+      "/blog/sell-flood-damaged-house-houston/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/selling-houston-house-open-insurance-claim/"
+    ],
+    "sourceHash": "7b9d28d665308fda4cf88dc7b99886d32deaf57c5a89bb6e3395f333fe774f58"
+  },
+  "protectedSourceChanges": [],
+  "buildEvidence": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "attributionAndDniInjectorsCompleted": true
+  },
+  "localMetadataEvidence": {
+    "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "ogXHeroImageMatch": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqVisibleAndSchemaCount": 4,
+    "indexable": true,
+    "internalBodyLinks": [
+      "https://www.hcfcd.org/Resources/Interactive-Mapping-Tools/Harris-County-Flood-Education",
+      "https://www.hcfcd.org/Resources/FAQ",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/sell-flood-damaged-house-houston/",
+      "/blog/selling-houston-house-open-insurance-claim/"
+    ]
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 285.453125,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "og": "https://www.cashasis.com/images/houston-flood-map-vs-house-flood-history.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "og": "https://www.cashasis.com/images/houston-flood-map-vs-house-flood-history.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "og": "https://www.cashasis.com/images/houston-flood-map-vs-house-flood-history.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "og": "https://www.cashasis.com/images/houston-flood-map-vs-house-flood-history.png"
+      }
+    ],
+    "visualReview": "Mobile360/390 and desktop visual review plus all four responsive measurements pass. Existing article layout preserved."
+  }
+}
