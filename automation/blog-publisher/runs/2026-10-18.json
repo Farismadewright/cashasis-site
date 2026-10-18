@@ -1,0 +1,981 @@
+{
+  "status": "pass",
+  "runId": "native-daily-20261018T135133Z",
+  "fence": 10,
+  "day": "2026-10-18",
+  "execution": "actual_native_unattended_run",
+  "startedAt": "2026-10-18T13:51:33Z",
+  "completedAt": "2026-10-18T14:14:55.687036+00:00",
+  "published": 3,
+  "held": 0,
+  "rejected": 0,
+  "articles": [
+    {
+      "title": "Selling a Pre-1978 Houston House: Lead-Paint Paperwork",
+      "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+      "record": "automation/blog-publisher/records/selling-pre-1978-houston-house-lead-paint.json"
+    },
+    {
+      "title": "Termite Report Before Selling a Houston House: What It Means",
+      "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+      "record": "automation/blog-publisher/records/termite-report-before-selling-houston-house.json"
+    },
+    {
+      "title": "Houston Flood Maps vs. House Flood History: A Seller Guide",
+      "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+      "record": "automation/blog-publisher/records/houston-flood-map-vs-house-flood-history.json"
+    }
+  ],
+  "prURL": "https://github.com/Farismadewright/cashasis-site/pull/13",
+  "previewCommit": "0eaf27c5a57df33868f857c1e7effeeada484b63",
+  "previewDeployId": "6ad4d26f1321ca6652876b00",
+  "productionCommit": "88073f0594463693114defaa6dc3cc143235b558",
+  "productionDeployId": "6ad4d3a6fdfcee7dc13a51cd",
+  "productionDeployState": "ready",
+  "productionDeployCommitMatches": true,
+  "publishedAt": "2026-10-18T14:12:33.936Z",
+  "preview": {
+    "passed": true,
+    "mode": "preview",
+    "origin": "https://6ad4d26f1321ca6652876b00--cashasis-blog.netlify.app",
+    "checkedAt": "2026-10-18T14:09:51.057930+00:00",
+    "resourceCount": 29,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/houston-flood-map-vs-house-flood-history/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-flood-damaged-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-needs-major-repairs-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-pre-1978-houston-house-lead-paint/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/termite-report-before-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/houston-flood-map-vs-house-flood-history.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-pre-1978-houston-house-lead-paint.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/termite-report-before-selling-houston-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "articles": [
+      {
+        "slug": "selling-pre-1978-houston-house-lead-paint",
+        "url": "https://6ad4d26f1321ca6652876b00--cashasis-blog.netlify.app/blog/selling-pre-1978-houston-house-lead-paint/",
+        "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "http": 200,
+        "noindex": true,
+        "xRobotsTag": "noindex",
+        "image": "/images/selling-pre-1978-houston-house-lead-paint.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageHash": "476949ece4111ce627d54a65e97f6d3f43f53bb3967ca071743eef866d5d99a7",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "attributedCTAsVerified": true,
+        "sitemapRssBlogHub": true,
+        "testedHtmlCssParity": true,
+        "passed": true,
+        "errors": []
+      },
+      {
+        "slug": "termite-report-before-selling-houston-house",
+        "url": "https://6ad4d26f1321ca6652876b00--cashasis-blog.netlify.app/blog/termite-report-before-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "http": 200,
+        "noindex": true,
+        "xRobotsTag": "noindex",
+        "image": "/images/termite-report-before-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageHash": "e092d6a2cd6ed974e52c26cde8f54fd8d571d30c959ee2a4146eb3ab70cd5666",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "attributedCTAsVerified": true,
+        "sitemapRssBlogHub": true,
+        "testedHtmlCssParity": true,
+        "passed": true,
+        "errors": []
+      },
+      {
+        "slug": "houston-flood-map-vs-house-flood-history",
+        "url": "https://6ad4d26f1321ca6652876b00--cashasis-blog.netlify.app/blog/houston-flood-map-vs-house-flood-history/",
+        "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "http": 200,
+        "noindex": true,
+        "xRobotsTag": "noindex",
+        "image": "/images/houston-flood-map-vs-house-flood-history.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageHash": "2086c3aeb5ad9a94e5dc626ed0a814bf72b40e1f9c308396455ceab1a1b3a689",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "attributedCTAsVerified": true,
+        "sitemapRssBlogHub": true,
+        "testedHtmlCssParity": true,
+        "passed": true,
+        "errors": []
+      }
+    ],
+    "withdrawnArticleHTTP": 404,
+    "errors": []
+  },
+  "production": {
+    "passed": true,
+    "mode": "production",
+    "origin": "https://www.cashasis.com",
+    "checkedAt": "2026-10-18T14:13:35.685420+00:00",
+    "resourceCount": 29,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/houston-flood-map-vs-house-flood-history/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-flood-damaged-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-needs-major-repairs-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-pre-1978-houston-house-lead-paint/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/termite-report-before-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/houston-flood-map-vs-house-flood-history.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-pre-1978-houston-house-lead-paint.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/termite-report-before-selling-houston-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "articles": [
+      {
+        "slug": "selling-pre-1978-houston-house-lead-paint",
+        "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "http": 200,
+        "noindex": false,
+        "xRobotsTag": null,
+        "image": "/images/selling-pre-1978-houston-house-lead-paint.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageHash": "476949ece4111ce627d54a65e97f6d3f43f53bb3967ca071743eef866d5d99a7",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "attributedCTAsVerified": true,
+        "sitemapRssBlogHub": true,
+        "testedHtmlCssParity": true,
+        "passed": true,
+        "errors": []
+      },
+      {
+        "slug": "termite-report-before-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "http": 200,
+        "noindex": false,
+        "xRobotsTag": null,
+        "image": "/images/termite-report-before-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageHash": "e092d6a2cd6ed974e52c26cde8f54fd8d571d30c959ee2a4146eb3ab70cd5666",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "attributedCTAsVerified": true,
+        "sitemapRssBlogHub": true,
+        "testedHtmlCssParity": true,
+        "passed": true,
+        "errors": []
+      },
+      {
+        "slug": "houston-flood-map-vs-house-flood-history",
+        "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "http": 200,
+        "noindex": false,
+        "xRobotsTag": null,
+        "image": "/images/houston-flood-map-vs-house-flood-history.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageHash": "2086c3aeb5ad9a94e5dc626ed0a814bf72b40e1f9c308396455ceab1a1b3a689",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "attributedCTAsVerified": true,
+        "sitemapRssBlogHub": true,
+        "testedHtmlCssParity": true,
+        "passed": true,
+        "errors": []
+      }
+    ],
+    "withdrawnArticleHTTP": 404,
+    "errors": []
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-18",
+    "errors": []
+  },
+  "commands": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "astroPagesBuilt": 176,
+      "attributionAndDniInjectorsCompleted": true
+    },
+    {
+      "command": "validate_output.py each of3 new slugs",
+      "exitCode": 0
+    },
+    {
+      "command": "publisher_gate_test.py",
+      "testsPassed": 5,
+      "exitCode": 0
+    },
+    {
+      "command": "node --test tests/blog-publisher.test.mjs",
+      "testsPassed": 3,
+      "exitCode": 0
+    },
+    {
+      "command": "mobile_qa.cjs each of3 new slugs widths360/390/768/1366",
+      "exitCode": 0
+    },
+    {
+      "command": "card_qa.cjs mobile390/desktop1366 + desktop article screenshots",
+      "exitCode": 0
+    },
+    {
+      "command": "release_gate.py fresh activation+lease+full durable ledger",
+      "exitCode": 0,
+      "allowed": true
+    }
+  ],
+  "contentQA": {
+    "passed": true,
+    "articles": [
+      {
+        "slug": "selling-pre-1978-houston-house-lead-paint",
+        "pass": true,
+        "maxShared12WordShingles": 0,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      },
+      {
+        "slug": "termite-report-before-selling-houston-house",
+        "pass": true,
+        "maxShared12WordShingles": 0,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      },
+      {
+        "slug": "houston-flood-map-vs-house-flood-history",
+        "pass": true,
+        "maxShared12WordShingles": 0,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      }
+    ],
+    "generatedAllowlistOnlyAdds": [
+      "/blog/houston-flood-map-vs-house-flood-history/",
+      "/blog/selling-pre-1978-houston-house-lead-paint/",
+      "/blog/termite-report-before-selling-houston-house/"
+    ],
+    "protectedTrackedChanges": []
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "inboundMessages": 44,
+    "screenedBroadPriceMessages": 5,
+    "screenedDistinctPriceSellers": 4,
+    "topicOrigin": "Editorial gap related to reducing condition uncertainty in offer comparisons, not a claimed recurring lead/termite/flood-specific CRM theme",
+    "limitations": "Bounded anonymous keyword screen, not prevalence or representative seller demand; no private quotes, identifiers, addresses or amounts retained."
+  },
+  "sourceHttpChecks": [
+    {
+      "url": "https://www.epa.gov/lead/must-i-check-my-house-lead-prior-sale",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    },
+    {
+      "url": "https://www.trec.texas.gov/node/548",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    },
+    {
+      "url": "https://www.epa.gov/lead/can-inspectionrisk-assessment-period-testing-house-lead-be-waived",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    },
+    {
+      "url": "https://www.hcfcd.org/Resources/FAQ",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    },
+    {
+      "url": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    },
+    {
+      "url": "https://texasagriculture.gov/Regulatory-Programs/Pesticides/Structural-Pest-Control-Service/Termite-Fumigation-Applications/Termite-FAQs",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    },
+    {
+      "url": "https://www.hcfcd.org/Resources/Interactive-Mapping-Tools/Harris-County-Flood-Education",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    }
+  ],
+  "monitoring": {
+    "eligibleSitemapURLsBefore": 168,
+    "eligibleSitemapURLsAfter": 171,
+    "blogArticleURLsAfter": 152,
+    "blogHubURLs": 1,
+    "nonBlogURLs": 18,
+    "inspectionHistoryReadRows": 224,
+    "actualInspectionCalls": 10,
+    "newArticleInspections": 3,
+    "dueExistingURLInspections": 7,
+    "dueExistingResults": [
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-17T01:30:59Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "userCanonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=pN-_d9SF-yBev-BAEVideQ&utm_medium=link&utm_source=api",
+        "inspectedAt": "2026-10-18T14:04:53.076Z",
+        "source": "google_url_inspection"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T23:02:02Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "userCanonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rIXefXNbDSsvWCkEWEVdzQ&utm_medium=link&utm_source=api",
+        "inspectedAt": "2026-10-18T14:05:03.081Z",
+        "source": "google_url_inspection"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T22:58:48Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "userCanonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=E2-qJ5WVJ7lNXYm_HcM0qQ&utm_medium=link&utm_source=api",
+        "inspectedAt": "2026-10-18T14:05:23.321Z",
+        "source": "google_url_inspection"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T22:58:01Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "userCanonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1WWbubcWgs7xW0SmAUl54g&utm_medium=link&utm_source=api",
+        "inspectedAt": "2026-10-18T14:05:44.922Z",
+        "source": "google_url_inspection"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T23:06:37Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+        "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=XNRXlS6_5d94nCE9sgiXww&utm_medium=link&utm_source=api",
+        "inspectedAt": "2026-10-18T14:05:13.079Z",
+        "source": "google_url_inspection"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T22:57:31Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "userCanonical": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Fi2AsxI8zVInNHkNBfXP7Q&utm_medium=link&utm_source=api",
+        "inspectedAt": "2026-10-18T14:05:34.272Z",
+        "source": "google_url_inspection"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-08T04:14:28Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=W2U0UOOi2LhMKrpgoeKUMg&utm_medium=link&utm_source=api",
+        "inspectedAt": "2026-10-18T14:05:54.834Z",
+        "source": "google_url_inspection"
+      }
+    ],
+    "dueTechnicalChecks": [
+      {
+        "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+        "noindex": false,
+        "sitemap": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "bodyInternalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/compare-the-net/",
+          "/blog/cash-as-is-vs-listing/"
+        ],
+        "attributedSellerPath": true,
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-18T14:03:56.868623+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+        "noindex": false,
+        "sitemap": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "bodyInternalLinks": [
+          "/blog/sell-rental-with-tenants-texas/",
+          "/blog/sell-house-with-tenants-houston/"
+        ],
+        "attributedSellerPath": true,
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-18T14:03:56.969574+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+        "noindex": false,
+        "sitemap": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "bodyInternalLinks": [
+          "/closing-timeline/",
+          "/blog/dont-live-in-area-vacant-property-risk/",
+          "/blog/cash-as-is-vs-listing/"
+        ],
+        "attributedSellerPath": true,
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-18T14:03:56.953091+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
+        "noindex": false,
+        "sitemap": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "bodyInternalLinks": [
+          "/after-you-sign/",
+          "/blog/cash-house-sale-timeline-houston/"
+        ],
+        "attributedSellerPath": true,
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-18T14:03:56.962669+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+        "noindex": false,
+        "sitemap": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "bodyInternalLinks": [
+          "/compare-the-net/",
+          "/blog/how-cash-offer-house-works-houston/",
+          "/after-you-sign/"
+        ],
+        "attributedSellerPath": true,
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-18T14:03:56.945643+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "noindex": false,
+        "sitemap": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "bodyInternalLinks": [
+          "/blog/selling-as-is-what-it-actually-means/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedSellerPath": true,
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-18T14:03:56.973937+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "noindex": false,
+        "sitemap": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "bodyInternalLinks": [
+          "/blog/sell-house-with-liens-houston/",
+          "/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "attributedSellerPath": true,
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-18T14:03:56.978201+00:00"
+      }
+    ],
+    "newResults": [
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=UIjNEHd6GjT9K0lhAoj9aw&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-18T14:13:41.883Z"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8uSUlFiS08dl-mWGI_oiPQ&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-18T14:14:02.455Z"
+      },
+      {
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=doUiwDcT0WrjUUP7Ery8bg&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-18T14:13:51.746Z"
+      }
+    ],
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "normalInitialDelaysAlerted": false,
+    "persistentFailuresConfirmed": 0,
+    "metricsCaveat": "Historical observations have mixed dates; no claim of a same-time complete indexing census. No GA4 organic/validated lead change measured.",
+    "opportunityEvidence": "automation/blog-publisher/runs/2026-10-18-opportunities.json",
+    "ownerNotification": "suppressed_routine_success",
+    "notificationReason": "No actionable publication failure, confirmed persistent indexing problem, sustained ranking gain or verified organic lead change; periodic report not due."
+  },
+  "externalApiSpendUSD": 0,
+  "newPaidServices": false,
+  "privateCRMDataPublished": false,
+  "protectedSourceChanges": [],
+  "socialStatus": "draft_only",
+  "withdrawnEarnestOptionArticle": "HTTP404; absent from blog,RSS,sitemap; not republished",
+  "scheduleChanged": false,
+  "dailyCap": 3,
+  "remainingBlockers": []
+}

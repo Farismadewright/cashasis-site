@@ -1,0 +1,181 @@
+{
+  "status": "reviewed_no_live_rewrite",
+  "reviewedAt": "2026-10-18T14:07:57.884Z",
+  "source": "Existing GSC Wizard Google Search Console API",
+  "range": {
+    "start": "2026-09-18",
+    "end": "2026-10-15",
+    "settledThrough": "2026-10-16",
+    "reportingTimezone": "America/Los_Angeles"
+  },
+  "siteTotals": {
+    "clicks": 7,
+    "impressions": 589,
+    "ctrPercent": 1.19,
+    "avgPositionWeighted": 43.75
+  },
+  "paginationComplete": true,
+  "opportunities": [
+    {
+      "page": "https://www.cashasis.com/",
+      "clicks": 6,
+      "impressions": 28,
+      "ctr": 21.428571428571427,
+      "position": 13.285714285714286
+    },
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 19.923076923076923
+    },
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0,
+      "position": 18.424242424242426
+    },
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0,
+      "position": 20.63157894736842
+    },
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 28.733333333333334
+    },
+    {
+      "page": "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 21.636363636363637
+    }
+  ],
+  "queryEvidence": [
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+        "sell house behind on taxes"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 63
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+        "cash home buyers missouri city tx"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+        "sell my house fast in missouri city"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 24.2
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+        "sell my house fast missouri city tx"
+      ],
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 15.75
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+        "we buy houses missouri city"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+        "we buy houses missouri city tx"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 15.25
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+        "sell my house fast in tomball"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+        "sell my house fast tomball tx"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+        "we buy houses tomball"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "keys": [
+        "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+        "we buy houses tomball tx"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    }
+  ],
+  "limitations": "Small samples are directional, not sustained ranking gains. Query rows omit anonymized searches; do not force query sums to page totals. No GA4/validated seller attribution reviewed today; no lead or funded GP inferred.",
+  "recommendations": [
+    {
+      "url": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+      "reason": "33 impressions,0clicks,position18.42; exact fast-sale query8 impressions,position15.75. Existing title matches city intent; body repeats generic service copy.",
+      "proposedReview": "Assess a concise realistic timing/next-step answer and relevant linked seller decisions against other Cash As-Is fast-sale URLs. Use current actual queries before editing; no duplicate new city article.",
+      "approval": "Specific live rewrite approval/rollback remains required; no rewrite performed."
+    },
+    {
+      "url": "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+      "reason": "11 impressions,0clicks,position21.64; exact query6 impressions,position16. Existing service page is broadly similar to other city pages.",
+      "proposedReview": "Review missing practical seller timing questions and local property-context value; compare competing site URLs before changing title, FAQ or body.",
+      "approval": "Editorial recommendation only; no consolidation,redirect or rewrite."
+    }
+  ],
+  "feedTo": "Existing Lead Acquisition Engine / COO evidence workflow; this run record is durable source evidence, no disconnected dashboard",
+  "notification": "No threshold for sustained gain or organic-lead alert met."
+}

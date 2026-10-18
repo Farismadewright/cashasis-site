@@ -225,5 +225,62 @@
     "deployId": "6ad37a1f9f87a882da9656c5",
     "pr": 12,
     "publishedAt": "2026-10-17T13:38:06.899Z"
+  },
+  {
+    "slug": "selling-pre-1978-houston-house-lead-paint",
+    "intentKey": "pre1978-houston-sale-federal-lead-disclosure-records-inspection-opportunity",
+    "runId": "native-daily-20261018T135133Z",
+    "status": "published",
+    "commit": "88073f0594463693114defaa6dc3cc143235b558",
+    "deployId": "6ad4d3a6fdfcee7dc13a51cd",
+    "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+    "publishedAt": "2026-10-18T14:12:33.936Z",
+    "day": "2026-10-18",
+    "fence": 10,
+    "pr": 13,
+    "nearestOverlaps": [
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/selling-as-is-what-it-actually-means/",
+      "/fix-it-or-sell-it/"
+    ],
+    "substantiveDifference": "Federal pre-1978 lead-specific disclosure packet and buyer testing opportunity, distinguishing a disclosure rule from testing/removal spending. Existing Texas condition notice and generic repair guides do not answer this federal process. No city or synonym replacement."
+  },
+  {
+    "slug": "termite-report-before-selling-houston-house",
+    "intentKey": "houston-seller-wdi-report-treatment-warranty-structural-repair-separation",
+    "runId": "native-daily-20261018T135133Z",
+    "status": "published",
+    "commit": "88073f0594463693114defaa6dc3cc143235b558",
+    "deployId": "6ad4d3a6fdfcee7dc13a51cd",
+    "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+    "publishedAt": "2026-10-18T14:12:33.936Z",
+    "day": "2026-10-18",
+    "fence": 10,
+    "pr": 13,
+    "nearestOverlaps": [
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/fix-it-or-sell-it/"
+    ],
+    "substantiveDifference": "Explains four distinct termite documents: visible-evidence WDI report, treatment disclosure/scope, actual warranty terms and separate structural assessment. Current repair and disclosure pages do not explain these limits or the seller handoff."
+  },
+  {
+    "slug": "houston-flood-map-vs-house-flood-history",
+    "intentKey": "harris-county-seller-effective-flood-map-versus-observed-property-history-packet",
+    "runId": "native-daily-20261018T135133Z",
+    "status": "published",
+    "commit": "88073f0594463693114defaa6dc3cc143235b558",
+    "deployId": "6ad4d3a6fdfcee7dc13a51cd",
+    "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "publishedAt": "2026-10-18T14:12:33.936Z",
+    "day": "2026-10-18",
+    "fence": 10,
+    "pr": 13,
+    "nearestOverlaps": [
+      "/blog/sell-flood-damaged-house-houston/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/selling-houston-house-open-insurance-claim/"
+    ],
+    "substantiveDifference": "Addresses effective flood map versus actual observed house history even without current damage, with Harris County mapping limitations, dated map capture and evidence reconciliation. Existing flood-damage guide concerns pricing/remediation; insurance guide concerns claim proceeds, not map/history interpretation."
   }
 ]

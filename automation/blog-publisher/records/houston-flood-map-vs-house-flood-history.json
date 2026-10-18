@@ -67,10 +67,10 @@
   "image": "/images/houston-flood-map-vs-house-flood-history.png",
   "runId": "native-daily-20261018T135133Z",
   "fence": 10,
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
-  "commit": null,
-  "deployId": null,
+  "commit": "88073f0594463693114defaa6dc3cc143235b558",
+  "deployId": "6ad4d3a6fdfcee7dc13a51cd",
   "imageSha256": "2086c3aeb5ad9a94e5dc626ed0a814bf72b40e1f9c308396455ceab1a1b3a689",
   "thumbnail": {
     "width": 1200,
@@ -84,7 +84,8 @@
     "provenance": "new native imagegen exec-7c361d98-5a10-4858-a5f2-f1c04e7ddbff.png",
     "visualReview": "Full size and320px contact-sheet reviewed: exact transparent official logo; headline readable; no clipping/background block",
     "illustrative": true,
-    "generationMode": "built_in_native_imagegen"
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPrompt": "Use case: photorealistic-natural. One original realistic illustrative wide landscape 1.9:1 background photograph for a Houston seller guide comparing flood mapping with actual flood history. Ordinary single story red brick Harris County house positioned on RIGHT half beside a suburban street and shallow grassy drainage swale, cloudy bright day just after light rain, subtle wet driveway but no standing floodwater or visible damage. LEFT half softly shaded lawn/tree negative space for later brand overlay. Accurate ordinary Houston vegetation, editorial property photography, fictional property. No people, maps, text, logos, signs, addresses, cars or watermarks."
   },
   "externalApiUsed": false,
   "cost": {
@@ -104,8 +105,9 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass",
+    "conversionReporting": "optional_not_measured"
   },
   "sellerVoice": {
     "mode": "read_only",
@@ -123,8 +125,8 @@
     "status": "draft_only",
     "publishAllowed": false,
     "facebook": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nA Houston flood map is not a house flood-history report. Learn which records to separate before answering buyer questions and comparing selling options.\n\nRead the checklist, then compare the work and proceeds of your selling options. https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
-    "instagram": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nDocuments can answer different questions. Know what you have before choosing your next step. Guide: https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/\n#CashAsIs #HoustonRealEstate #SellAsIs",
-    "linkedin": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nClear property information makes a more useful offer comparison. This seller guide separates the records from the decisions still requiring professional review. https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "instagram": "A map color does not tell the whole history of a house. Keep the effective flood map separate from known events, photographs and repair records before comparing offers.\n\nRead the seller guide: https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "A map color does not tell the whole history of a house. Keep the effective flood map separate from known events, photographs and repair records before comparing offers.\n\nClear records help Houston-area owners compare preparation, responsibilities and sale options without treating a cash offer as an exemption from applicable requirements. https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
     "googleBusinessProfile": "Houston Flood Maps vs. House Flood History: A Seller Guide\n\nA Houston flood map is not a house flood-history report. Learn which records to separate before answering buyer questions and comparing selling options.\nRead the guide and explore an as-is offer evaluation: https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
     "promotionalExcerpt": "A Houston flood map is not a house flood-history report. Learn which records to separate before answering buyer questions and comparing selling options.",
     "hashtags": [
@@ -146,11 +148,13 @@
       "seller_path",
       "source_verification"
     ],
-    "previewNoindex": "pending",
-    "productionIndexability": "pending",
-    "googleMonitoring": "pending_post_publication",
+    "previewNoindex": "pass",
+    "productionIndexability": "pass",
+    "googleMonitoring": "actual_initial_inspection_recorded",
     "ga4": "optional_not_measured_this_run",
-    "liveRewritePerformed": false
+    "liveRewritePerformed": false,
+    "nextIndexingReview": "2026-10-21",
+    "manualIndexingRequested": false
   },
   "originalityEvidence": {
     "reviewedBlogFiles": 150,
@@ -240,5 +244,109 @@
       }
     ],
     "visualReview": "Mobile360/390 and desktop visual review plus all four responsive measurements pass. Existing article layout preserved."
+  },
+  "previewEvidence": {
+    "commit": "0eaf27c5a57df33868f857c1e7effeeada484b63",
+    "deployId": "6ad4d26f1321ca6652876b00",
+    "state": "ready",
+    "exactCommitVerified": true,
+    "live": {
+      "slug": "houston-flood-map-vs-house-flood-history",
+      "url": "https://6ad4d26f1321ca6652876b00--cashasis-blog.netlify.app/blog/houston-flood-map-vs-house-flood-history/",
+      "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+      "http": 200,
+      "noindex": true,
+      "xRobotsTag": "noindex",
+      "image": "/images/houston-flood-map-vs-house-flood-history.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageHash": "2086c3aeb5ad9a94e5dc626ed0a814bf72b40e1f9c308396455ceab1a1b3a689",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "attributedCTAsVerified": true,
+      "sitemapRssBlogHub": true,
+      "testedHtmlCssParity": true,
+      "passed": true,
+      "errors": []
+    },
+    "checkedAt": "2026-10-18T14:09:51.057930+00:00"
+  },
+  "publishedAt": "2026-10-18T14:12:33.936Z",
+  "verifiedAt": "2026-10-18T14:13:35.685420+00:00",
+  "pr": 13,
+  "prURL": "https://github.com/Farismadewright/cashasis-site/pull/13",
+  "productionEvidence": {
+    "exactCommitReady": true,
+    "id": "6ad4d3a6fdfcee7dc13a51cd",
+    "state": "ready",
+    "commit": "88073f0594463693114defaa6dc3cc143235b558",
+    "publishedAt": "2026-10-18T14:12:33.936Z",
+    "context": "production",
+    "siteId": "a00e8950-5064-4a85-880a-86acf9041c35",
+    "permalink": "https://6ad4d3a6fdfcee7dc13a51cd--cashasis-blog.netlify.app",
+    "live": {
+      "slug": "houston-flood-map-vs-house-flood-history",
+      "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+      "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+      "http": 200,
+      "noindex": false,
+      "xRobotsTag": null,
+      "image": "/images/houston-flood-map-vs-house-flood-history.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageHash": "2086c3aeb5ad9a94e5dc626ed0a814bf72b40e1f9c308396455ceab1a1b3a689",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "attributedCTAsVerified": true,
+      "sitemapRssBlogHub": true,
+      "testedHtmlCssParity": true,
+      "passed": true,
+      "errors": []
+    }
+  },
+  "googleInspection": {
+    "siteUrl": "https://www.cashasis.com/",
+    "inspectionUrl": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=doUiwDcT0WrjUUP7Ery8bg&utm_medium=link&utm_source=api",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-10-18T14:13:51.746Z"
+  },
+  "sourceHttpChecks": [
+    {
+      "url": "https://www.hcfcd.org/Resources/FAQ",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    },
+    {
+      "url": "https://www.hcfcd.org/Resources/Interactive-Mapping-Tools/Harris-County-Flood-Education",
+      "http": 200,
+      "nativePrimarySourceRead": true
+    }
+  ],
+  "visualReview": {
+    "articleDesktopMobile": "pass",
+    "blogCards390And1366": "pass",
+    "heroAndCardHeadlinesReadable": true
   }
 }
