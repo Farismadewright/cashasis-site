@@ -1,0 +1,257 @@
+{
+  "slug": "selling-pre-1978-houston-house-lead-paint",
+  "intentKey": "pre1978-houston-sale-federal-lead-disclosure-records-inspection-opportunity",
+  "title": "Selling a Pre-1978 Houston House: Lead-Paint Paperwork",
+  "description": "Selling an older Houston house? Separate lead-paint disclosure, available records and the buyer inspection opportunity from your decision about repairs.",
+  "primaryKeyword": "selling a pre-1978 house Houston lead paint",
+  "supportingKeywords": [
+    "lead paint disclosure cash sale",
+    "older house seller lead records",
+    "lead inspection opportunity home sale"
+  ],
+  "imageAlt": "Illustrative older Houston bungalow with the headline Pre-1978 Sale Guide and the official transparent Cash As-Is logo",
+  "headline": "PRE-1978?|SALE GUIDE",
+  "background": "exec-dbe947ce-c1f3-4da1-9267-d9debaece7c5.png",
+  "nearestOverlaps": [
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+    "/blog/selling-as-is-what-it-actually-means/",
+    "/fix-it-or-sell-it/"
+  ],
+  "substantiveDifference": "Federal pre-1978 lead-specific disclosure packet and buyer testing opportunity, distinguishing a disclosure rule from testing/removal spending. Existing Texas condition notice and generic repair guides do not answer this federal process. No city or synonym replacement.",
+  "faq": [
+    {
+      "q": "Does paying cash remove lead-paint disclosure requirements?",
+      "a": "EPA bases its rule on covered housing and specified exceptions, not simply the payment method. For most pre-1978 housing, plan for the applicable federal disclosures even when discussing a cash purchase; confirm any exception with a qualified professional."
+    },
+    {
+      "q": "Must a seller pay for a lead inspection before selling?",
+      "a": "EPA says its disclosure rule does not require sellers to conduct or finance an inspection or risk assessment. That differs from providing known information, available reports and the applicable buyer inspection opportunity."
+    },
+    {
+      "q": "Is the lead inspection opportunity always exactly ten days?",
+      "a": "EPA describes a ten-day opportunity. It also explains that the parties can change the period or waive it through mutual written consent. Have the transaction documents reviewed rather than assuming a verbal cash-sale discussion settles it."
+    },
+    {
+      "q": "Does repainting prove an older house is lead-free?",
+      "a": "A painting receipt alone does not establish that. Keep the receipt separate from any actual lead inspection or risk assessment, and describe only what your documents support."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "title": "EPA: Real Estate Disclosures about Potential Lead Hazards",
+      "publicationDate": "2026-05-27",
+      "accessedAt": "2026-10-18",
+      "verifiedAt": "2026-10-18",
+      "reportingPeriod": "Current official consumer guidance at access",
+      "geography": "United States",
+      "unit": null,
+      "figure": null,
+      "method": "Read current primary source in native web research; claim-specific source review retained",
+      "claim": "Most pre-1978 housing is covered subject to specified exceptions; disclose known information, provide available records and pamphlet, include warning/compliance statement, retain signed disclosure three years."
+    },
+    {
+      "url": "https://www.epa.gov/lead/must-i-check-my-house-lead-prior-sale",
+      "title": "EPA: Must I check my house for lead prior to sale?",
+      "publicationDate": null,
+      "accessedAt": "2026-10-18",
+      "verifiedAt": "2026-10-18",
+      "reportingPeriod": "Current official consumer guidance at access",
+      "geography": "United States",
+      "unit": null,
+      "figure": null,
+      "method": "Read current primary source in native web research; claim-specific source review retained",
+      "claim": "The disclosure rule does not require a seller to conduct or finance inspection/risk assessment; buyer receives testing opportunity."
+    },
+    {
+      "url": "https://www.epa.gov/lead/can-inspectionrisk-assessment-period-testing-house-lead-be-waived",
+      "title": "EPA: Can the lead testing period be waived?",
+      "publicationDate": null,
+      "accessedAt": "2026-10-18",
+      "verifiedAt": "2026-10-18",
+      "reportingPeriod": "Current official consumer guidance at access",
+      "geography": "United States",
+      "unit": null,
+      "figure": null,
+      "method": "Read current primary source in native web research; claim-specific source review retained",
+      "claim": "The inspection/risk-assessment period can be lengthened, shortened or waived by mutual written consent."
+    }
+  ],
+  "image": "/images/selling-pre-1978-houston-house-lead-paint.png",
+  "runId": "native-daily-20261018T135133Z",
+  "fence": 10,
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+  "commit": null,
+  "deployId": null,
+  "imageSha256": "476949ece4111ce627d54a65e97f6d3f43f53bb3967ca071743eef866d5d99a7",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "headline": "PRE-1978?|SALE GUIDE",
+    "templateHashesMatch": true,
+    "officialAlphaVerified": true,
+    "backgroundSha256": "f8b2fa4a5224efa8eaaacc39acfa8324d6e1b2c2220d4ce15936442a00d0563d",
+    "provenance": "new native imagegen exec-dbe947ce-c1f3-4da1-9267-d9debaece7c5.png",
+    "visualReview": "Full size and320px contact-sheet reviewed: exact transparent official logo; headline readable; no clipping/background block",
+    "illustrative": true,
+    "generationMode": "built_in_native_imagegen"
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work/existing Netlify allowances; no new paid API or services. Allowance consumption not separately priced."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "inboundMessages": 44,
+    "screenedBroadPriceMessages": 5,
+    "screenedDistinctPriceSellers": 4,
+    "topicOrigin": "Editorial gap related to reducing condition uncertainty in offer comparisons, not a claimed recurring lead/termite/flood-specific CRM theme",
+    "limitations": "Bounded anonymous keyword screen, not prevalence or representative seller demand; no private quotes, identifiers, addresses or amounts retained."
+  },
+  "social": {
+    "slug": "selling-pre-1978-houston-house-lead-paint",
+    "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+    "image": "https://www.cashasis.com/images/selling-pre-1978-houston-house-lead-paint.png",
+    "status": "draft_only",
+    "publishAllowed": false,
+    "facebook": "Selling a Pre-1978 Houston House: Lead-Paint Paperwork\n\nSelling an older Houston house? Separate lead-paint disclosure, available records and the buyer inspection opportunity from your decision about repairs.\n\nRead the checklist, then compare the work and proceeds of your selling options. https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+    "instagram": "Selling a Pre-1978 Houston House: Lead-Paint Paperwork\n\nDocuments can answer different questions. Know what you have before choosing your next step. Guide: https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Pre-1978 Houston House: Lead-Paint Paperwork\n\nClear property information makes a more useful offer comparison. This seller guide separates the records from the decisions still requiring professional review. https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+    "googleBusinessProfile": "Selling a Pre-1978 Houston House: Lead-Paint Paperwork\n\nSelling an older Houston house? Separate lead-paint disclosure, available records and the buyer inspection opportunity from your decision about repairs.\nRead the guide and explore an as-is offer evaluation: https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+    "promotionalExcerpt": "Selling an older Houston house? Separate lead-paint disclosure, available records and the buyer inspection opportunity from your decision about repairs.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "seoLifecycle": {
+    "required": [
+      "indexability",
+      "robots",
+      "canonical",
+      "sitemap",
+      "specific_intent",
+      "quality",
+      "duplicate_cannibalization",
+      "internal_links",
+      "seller_path",
+      "source_verification"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "googleMonitoring": "pending_post_publication",
+    "ga4": "optional_not_measured_this_run",
+    "liveRewritePerformed": false
+  },
+  "originalityEvidence": {
+    "reviewedBlogFiles": 150,
+    "staticSellerPagesAndOpenPRsReviewed": true,
+    "maxShared12WordBodyShingles": 0,
+    "nearestSemanticOverlaps": [
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/selling-as-is-what-it-actually-means/",
+      "/fix-it-or-sell-it/"
+    ],
+    "sourceHash": "0dd2d9e265fd4c4f26ea3d1cb23ebf3fdb4f047ef51013b99fd9df321eea09f3"
+  },
+  "protectedSourceChanges": [],
+  "buildEvidence": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "attributionAndDniInjectorsCompleted": true
+  },
+  "localMetadataEvidence": {
+    "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+    "ogXHeroImageMatch": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqVisibleAndSchemaCount": 4,
+    "indexable": true,
+    "internalBodyLinks": [
+      "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "https://www.epa.gov/lead/must-i-check-my-house-lead-prior-sale",
+      "https://www.epa.gov/lead/can-inspectionrisk-assessment-period-testing-house-lead-be-waived",
+      "/fix-it-or-sell-it/"
+    ]
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "og": "https://www.cashasis.com/images/selling-pre-1978-houston-house-lead-paint.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "og": "https://www.cashasis.com/images/selling-pre-1978-houston-house-lead-paint.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "og": "https://www.cashasis.com/images/selling-pre-1978-houston-house-lead-paint.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "og": "https://www.cashasis.com/images/selling-pre-1978-houston-house-lead-paint.png"
+      }
+    ],
+    "visualReview": "Mobile360/390 and desktop visual review plus all four responsive measurements pass. Existing article layout preserved."
+  }
+}

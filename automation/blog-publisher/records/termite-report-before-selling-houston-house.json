@@ -1,0 +1,244 @@
+{
+  "slug": "termite-report-before-selling-houston-house",
+  "intentKey": "houston-seller-wdi-report-treatment-warranty-structural-repair-separation",
+  "title": "Termite Report Before Selling a Houston House: What It Means",
+  "description": "Selling a Houston house with termite concerns? Separate the WDI inspection, treatment paperwork, warranty and damage assessment before comparing offers.",
+  "primaryKeyword": "termite report selling house Houston",
+  "supportingKeywords": [
+    "Texas wood destroying insect report seller",
+    "termite warranty house sale",
+    "sell Houston house termite damage"
+  ],
+  "imageAlt": "Illustrative Houston brick ranch with wooden porch trim and the headline Termites Sale Guide under the official Cash As-Is logo",
+  "headline": "TERMITES?|SALE GUIDE",
+  "background": "exec-668b23dc-6ca0-4410-bc06-4a1e242a9843.png",
+  "nearestOverlaps": [
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+    "/fix-it-or-sell-it/"
+  ],
+  "substantiveDifference": "Explains four distinct termite documents: visible-evidence WDI report, treatment disclosure/scope, actual warranty terms and separate structural assessment. Current repair and disclosure pages do not explain these limits or the seller handoff.",
+  "faq": [
+    {
+      "q": "Does a clear WDI inspection guarantee there are no termites?",
+      "a": "No. The Texas Department of Agriculture explains that the inspection concerns visible evidence in readily accessible areas and is not a warranty that wood-destroying insects are absent."
+    },
+    {
+      "q": "Is a termite inspection also a structural damage report?",
+      "a": "No. TDA explicitly distinguishes the WDI inspection from a structural damage report. Ask an appropriately qualified building professional about the extent and repair of suspected damage."
+    },
+    {
+      "q": "Does a termite treatment invoice prove a warranty transfers?",
+      "a": "The invoice alone does not establish the warranty terms or transfer. Obtain the actual agreement and ask the issuing company to confirm coverage, renewal conditions and any ownership-change requirements in writing."
+    },
+    {
+      "q": "Can I compare an as-is offer before repairing termite damage?",
+      "a": "You can ask Cash As-Is to evaluate the house in its current condition and explain what is known or still unresolved. Any proposal must be reviewed alongside applicable disclosure requirements, assessments and the actual agreement."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://texasagriculture.gov/Regulatory-Programs/Pesticides/Structural-Pest-Control-Service/Termite-Fumigation-Applications/Termite-FAQs",
+      "title": "Texas Department of Agriculture: Termite FAQs",
+      "publicationDate": null,
+      "accessedAt": "2026-10-18",
+      "verifiedAt": "2026-10-18",
+      "reportingPeriod": "Current official consumer guidance at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current primary source in native web research; claim-specific source review retained",
+      "claim": "WDI inspection covers visible evidence in readily accessible areas, is not an absence warranty or structural damage report; treatment disclosures and warranties have separate scope/terms."
+    },
+    {
+      "url": "https://www.trec.texas.gov/node/548",
+      "title": "TREC: Should a home inspector have noted termite infestation?",
+      "publicationDate": null,
+      "accessedAt": "2026-10-18",
+      "verifiedAt": "2026-10-18",
+      "reportingPeriod": "Current official consumer guidance at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current primary source in native web research; claim-specific source review retained",
+      "claim": "Reporting on wood-destroying insects requires the relevant state license administered through TDA Structural Pest Control Service."
+    }
+  ],
+  "image": "/images/termite-report-before-selling-houston-house.png",
+  "runId": "native-daily-20261018T135133Z",
+  "fence": 10,
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+  "commit": null,
+  "deployId": null,
+  "imageSha256": "e092d6a2cd6ed974e52c26cde8f54fd8d571d30c959ee2a4146eb3ab70cd5666",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "headline": "TERMITES?|SALE GUIDE",
+    "templateHashesMatch": true,
+    "officialAlphaVerified": true,
+    "backgroundSha256": "450c8de2c4fedbe78bd1c8efec9eb813a5dc692ea07db8a5907f41f73feab79a",
+    "provenance": "new native imagegen exec-668b23dc-6ca0-4410-bc06-4a1e242a9843.png",
+    "visualReview": "Full size and320px contact-sheet reviewed: exact transparent official logo; headline readable; no clipping/background block",
+    "illustrative": true,
+    "generationMode": "built_in_native_imagegen"
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work/existing Netlify allowances; no new paid API or services. Allowance consumption not separately priced."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "inboundMessages": 44,
+    "screenedBroadPriceMessages": 5,
+    "screenedDistinctPriceSellers": 4,
+    "topicOrigin": "Editorial gap related to reducing condition uncertainty in offer comparisons, not a claimed recurring lead/termite/flood-specific CRM theme",
+    "limitations": "Bounded anonymous keyword screen, not prevalence or representative seller demand; no private quotes, identifiers, addresses or amounts retained."
+  },
+  "social": {
+    "slug": "termite-report-before-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/termite-report-before-selling-houston-house.png",
+    "status": "draft_only",
+    "publishAllowed": false,
+    "facebook": "Termite Report Before Selling a Houston House: What It Means\n\nSelling a Houston house with termite concerns? Separate the WDI inspection, treatment paperwork, warranty and damage assessment before comparing offers.\n\nRead the checklist, then compare the work and proceeds of your selling options. https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+    "instagram": "Termite Report Before Selling a Houston House: What It Means\n\nDocuments can answer different questions. Know what you have before choosing your next step. Guide: https://www.cashasis.com/blog/termite-report-before-selling-houston-house/\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Termite Report Before Selling a Houston House: What It Means\n\nClear property information makes a more useful offer comparison. This seller guide separates the records from the decisions still requiring professional review. https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+    "googleBusinessProfile": "Termite Report Before Selling a Houston House: What It Means\n\nSelling a Houston house with termite concerns? Separate the WDI inspection, treatment paperwork, warranty and damage assessment before comparing offers.\nRead the guide and explore an as-is offer evaluation: https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+    "promotionalExcerpt": "Selling a Houston house with termite concerns? Separate the WDI inspection, treatment paperwork, warranty and damage assessment before comparing offers.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "seoLifecycle": {
+    "required": [
+      "indexability",
+      "robots",
+      "canonical",
+      "sitemap",
+      "specific_intent",
+      "quality",
+      "duplicate_cannibalization",
+      "internal_links",
+      "seller_path",
+      "source_verification"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "googleMonitoring": "pending_post_publication",
+    "ga4": "optional_not_measured_this_run",
+    "liveRewritePerformed": false
+  },
+  "originalityEvidence": {
+    "reviewedBlogFiles": 150,
+    "staticSellerPagesAndOpenPRsReviewed": true,
+    "maxShared12WordBodyShingles": 0,
+    "nearestSemanticOverlaps": [
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/fix-it-or-sell-it/"
+    ],
+    "sourceHash": "8a8640648b02f32b5e7660d495b03f0b1c11fc0f896352d26d2b3bbe0e5124ce"
+  },
+  "protectedSourceChanges": [],
+  "buildEvidence": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "attributionAndDniInjectorsCompleted": true
+  },
+  "localMetadataEvidence": {
+    "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+    "ogXHeroImageMatch": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqVisibleAndSchemaCount": 4,
+    "indexable": true,
+    "internalBodyLinks": [
+      "https://texasagriculture.gov/Regulatory-Programs/Pesticides/Structural-Pest-Control-Service/Termite-Fumigation-Applications/Termite-FAQs",
+      "https://www.trec.texas.gov/node/548",
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/cash-offer-vs-listing-house-houston/"
+    ]
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/termite-report-before-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/termite-report-before-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/termite-report-before-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/termite-report-before-selling-houston-house.png"
+      }
+    ],
+    "visualReview": "Mobile360/390 and desktop visual review plus all four responsive measurements pass. Existing article layout preserved."
+  }
+}
