@@ -254,9 +254,20 @@
       "day": "2026-10-18",
       "runId": "native-daily-20261018T135133Z",
       "fence": 10,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-18T13:57:10.632Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "0eaf27c5a57df33868f857c1e7effeeada484b63",
+      "previewDeployId": "6ad4d26f1321ca6652876b00",
+      "previewVerifiedAt": "2026-10-18T14:11:36.477Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-18",
+        "errors": [],
+        "checkedAt": "2026-10-18T14:11:36.477Z"
+      },
+      "pr": 13
     },
     {
       "slug": "termite-report-before-selling-houston-house",
@@ -264,9 +275,20 @@
       "day": "2026-10-18",
       "runId": "native-daily-20261018T135133Z",
       "fence": 10,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-18T13:57:10.632Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "0eaf27c5a57df33868f857c1e7effeeada484b63",
+      "previewDeployId": "6ad4d26f1321ca6652876b00",
+      "previewVerifiedAt": "2026-10-18T14:11:36.477Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-18",
+        "errors": [],
+        "checkedAt": "2026-10-18T14:11:36.477Z"
+      },
+      "pr": 13
     },
     {
       "slug": "houston-flood-map-vs-house-flood-history",
@@ -274,9 +296,20 @@
       "day": "2026-10-18",
       "runId": "native-daily-20261018T135133Z",
       "fence": 10,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-18T13:57:10.632Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "0eaf27c5a57df33868f857c1e7effeeada484b63",
+      "previewDeployId": "6ad4d26f1321ca6652876b00",
+      "previewVerifiedAt": "2026-10-18T14:11:36.477Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-18",
+        "errors": [],
+        "checkedAt": "2026-10-18T14:11:36.477Z"
+      },
+      "pr": 13
     }
   ],
   "externalApiSpendLimitUSD": 0,
