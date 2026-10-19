@@ -1,0 +1,208 @@
+{
+  "slug": "selling-houston-house-from-out-of-state-signing",
+  "intentKey": "outofstate-houston-seller-closing-signing-method-approval-access-handoff",
+  "title": "Selling a Houston House From Out of State: Plan the Signing",
+  "description": "Selling a Houston house while living elsewhere? Confirm the approved signing method, document timing and property handoff before planning your closing.",
+  "primaryKeyword": "selling Houston house from out of state closing",
+  "supportingKeywords": [
+    "Texas seller remote online notarization",
+    "out of state house seller signing documents",
+    "Houston closing document handoff"
+  ],
+  "imageAlt": "Illustrative Houston red brick ranch and empty front walkway with the headline Out of State Signing Guide and the official Cash As-Is logo",
+  "headline": "OUT OF STATE?|SIGNING GUIDE",
+  "background": "exec-92cebdde-f374-49e0-ad75-ad54eb96f04b.png",
+  "nearestOverlaps": [
+    "/blog/dont-live-in-area-vacant-property-risk/",
+    "/closing-timeline/",
+    "/after-you-sign/",
+    "/blog/protect-house-sale-proceeds-wire-fraud/"
+  ],
+  "substantiveDifference": "A closing-team-approved signing-method and document-return plan for an out-of-state seller, separating electronic signing, online notarization, physical documents, funding and property handoff. Existing absentee/vacancy and timeline guides do not answer this logistical decision.",
+  "sources": [
+    {
+      "url": "https://www.sos.state.tx.us/statdoc/online-np-educational.shtml",
+      "title": "Texas Secretary of State: Online Notary Public Educational Information",
+      "publicationDate": null,
+      "accessedAt": "2026-10-19",
+      "verifiedAt": "2026-10-19",
+      "reportingPeriod": "Current official guidance at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current full primary source in native web research and verify supported claims",
+      "claim": "Texas online notary is physically in Texas; signer may be elsewhere. Online notarization uses compliant audio/video and identity procedures. Electronic notarization is distinct from remote online notarization."
+    },
+    {
+      "url": "https://www.sos.state.tx.us/statdoc/gettingstarted.shtml",
+      "title": "Texas Secretary of State: Getting Started as an Online Notary",
+      "publicationDate": null,
+      "accessedAt": "2026-10-19",
+      "verifiedAt": "2026-10-19",
+      "reportingPeriod": "Current official guidance at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current full primary source in native web research and verify supported claims",
+      "claim": "An authorized commissioned online notary may perform remote notarization by audiovisual conference rather than physical appearance. This authority does not guarantee all closing documents/transactions use online signing."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I ask about selling a Houston house without traveling to Houston?",
+      "a": "Yes. Tell Cash As-Is and the closing team where you will be and ask which signing and property-access arrangements they can approve for the transaction. Do not assume every document can be completed online."
+    },
+    {
+      "q": "Is an electronic signature the same as remote online notarization?",
+      "a": "No. The Texas Secretary of State distinguishes electronic notarization from remote online notarization. A document may be electronic while still requiring physical appearance; the closing team should identify what applies to each document."
+    },
+    {
+      "q": "Must the seller be in Texas for a Texas online notarization?",
+      "a": "The Secretary of State says the Texas online notary must be physically in Texas, while the signing party may be elsewhere. Confirm transaction acceptance, identity requirements and the actual signing arrangements with the closing team."
+    },
+    {
+      "q": "Does finishing the signing mean I should immediately turn over keys?",
+      "a": "Do not assume that. Ask the closing team when the transaction is funded and when possession must transfer under the agreement, then follow the confirmed property-handoff instructions."
+    }
+  ],
+  "image": "/images/selling-houston-house-from-out-of-state-signing.png",
+  "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+  "runId": "native-daily-20261019T134614Z",
+  "fence": 11,
+  "day": "2026-10-19",
+  "status": "preview_ready",
+  "commit": null,
+  "deployId": null,
+  "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "OUT OF STATE?|SIGNING GUIDE",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "generationMode": "built_in_native_imagegen",
+    "provenance": "New native imagegen exec-92cebdde-f374-49e0-ad75-ad54eb96f04b.png",
+    "backgroundPrompt": "Use case: photorealistic-natural. Original illustrative wide landscape 1.9:1 real estate background for a guide to selling a Houston house while owner is out of state. Modest single story red brick Houston ranch with front walkway and empty porch on RIGHT half, quiet suburban yard, mature live oak, warm morning light, realistic everyday property photography. LEFT half shaded lawn/tree negative space for later deterministic headline and official transparent logo. Fictional house; no people, phones, laptops, documents, words, numbers, signs, addresses, logos, cars or watermarks.",
+    "backgroundSha256": "2debded036ec297b94d5561263fe114a67722b0916a3def5ffbf91d372180af1",
+    "illustrative": true,
+    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing Netlify allowances only; no external paid API/new services. Allowance consumption not separately priced."
+  },
+  "externalApiUsed": false,
+  "protectedSourceChanges": [],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "inboundMessages": 45,
+    "screenedBroadPriceMessages": 4,
+    "screenedDistinctPriceSellers": 3,
+    "topicOrigin": "Editorial gaps in practical spending, condition-record and distance decisions; not represented as recurring HVAC/mold/remote-signing CRM demand",
+    "limitations": "Bounded anonymous screen; no private conversations, identifiers, addresses, amounts or unique stories retained. Not representative demand or market statistics."
+  },
+  "social": {
+    "slug": "selling-houston-house-from-out-of-state-signing",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+    "image": "https://www.cashasis.com/images/selling-houston-house-from-out-of-state-signing.png",
+    "status": "draft_only",
+    "publishAllowed": false,
+    "facebook": "Selling a Houston House From Out of State: Plan the Signing\n\nSelling a Houston house while living elsewhere? Confirm the approved signing method, document timing and property handoff before planning your closing.\n\nRead the guide and compare your next steps: https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+    "instagram": "Selling a Houston House From Out of State: Plan the Signing\n\nSelling a Houston house while living elsewhere? Confirm the approved signing method, document timing and property handoff before planning your closing.\n\nGuide: https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Houston House From Out of State: Plan the Signing\n\nSelling a Houston house while living elsewhere? Confirm the approved signing method, document timing and property handoff before planning your closing. Clear information helps Houston-area sellers compare costs, responsibilities and sale options. https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+    "googleBusinessProfile": "Selling a Houston house while living elsewhere? Confirm the approved signing method, document timing and property handoff before planning your closing.\nRead the guide and consider an as-is offer evaluation: https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+    "promotionalExcerpt": "Selling a Houston house while living elsewhere? Confirm the approved signing method, document timing and property handoff before planning your closing.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "seoLifecycle": {
+    "required": [
+      "indexability",
+      "robots",
+      "canonical",
+      "sitemap",
+      "specific_intent",
+      "quality",
+      "duplicate_cannibalization",
+      "internal_links",
+      "seller_path",
+      "factual_sources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "googleMonitoring": "pending",
+    "ga4": "optional_not_measured_per_article",
+    "noLiveRewrite": true,
+    "localQA": "pass"
+  },
+  "localQA": {
+    "observedAt": "2026-10-19T13:58:32.176687+00:00",
+    "articleCountReviewed": 153,
+    "maxShared12WordShingles": [
+      [
+        0,
+        "what-happens-back-taxes-when-you-sell"
+      ],
+      [
+        0,
+        "what-can-you-skip-selling-cash-as-is"
+      ],
+      [
+        0,
+        "we-buy-houses-houston"
+      ]
+    ],
+    "semanticReview": "All published inventory/static money pages, ledger and pending PRs checked; record substantive difference and hub links reviewed. No city/synonym swaps.",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqVisibleMatches": 4,
+    "bodyInternalLinks": [
+      "/blog/how-cash-offer-house-works-houston/",
+      "/blog/dont-live-in-area-vacant-property-risk/",
+      "/blog/protect-house-sale-proceeds-wire-fraud/"
+    ],
+    "attributedCTAs": 2,
+    "indexability": "pass; production build emits no noindex; canonical and sitemap correct",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "trackingPreserved": true
+  },
+  "mobileQA": {
+    "widths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "passed": true,
+    "visualReview": "Actual full-page mobile/desktop screenshots reviewed; no page/table/hero overflow; FAQ operates; branded hero/CTAs legible. Blog cards reviewed at390/1366.",
+    "screenshotsRetainedInRunEvidence": true
+  }
+}

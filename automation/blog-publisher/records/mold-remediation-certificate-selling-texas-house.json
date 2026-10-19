@@ -1,0 +1,207 @@
+{
+  "slug": "mold-remediation-certificate-selling-texas-house",
+  "intentKey": "texas-seller-mold-remediation-certificate-five-year-record-handoff",
+  "title": "Selling a Texas House After Mold Work: Check the Certificate",
+  "description": "Selling a Houston-area house after mold work? Find the remediation certificate, check what it covers and organize the records a Texas buyer may need.",
+  "primaryKeyword": "mold remediation certificate selling house Texas",
+  "supportingKeywords": [
+    "Texas CMDR seller records",
+    "selling Houston house after mold remediation",
+    "five year mold certificate buyer"
+  ],
+  "imageAlt": "Illustrative Houston brick house with a sheltered side entry and the headline Past Mold Sale Records with the official transparent Cash As-Is logo",
+  "headline": "PAST MOLD?|SALE RECORDS",
+  "background": "exec-28ba8c84-9fd7-46d0-8071-ada50de08f21.png",
+  "nearestOverlaps": [
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+    "/blog/sell-flood-damaged-house-houston/",
+    "/blog/selling-houston-house-open-insurance-claim/"
+  ],
+  "substantiveDifference": "Dedicated Texas Certificate of Mold Damage Remediation handoff, its five-year sale-record duty, project/underlying-moisture distinctions and missing-record workflow. Existing general disclosure/flood/insurance pages do not explain this specific certificate and cannot replace it.",
+  "sources": [
+    {
+      "url": "https://www.tdlr.texas.gov/mld/pdf/cmis.pdf",
+      "title": "TDLR: Consumer Mold Information Sheet",
+      "publicationDate": null,
+      "accessedAt": "2026-10-19",
+      "verifiedAt": "2026-10-19",
+      "reportingPeriod": "Current official guidance at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current full primary source in native web research and verify supported claims",
+      "claim": "Certificate documents project remediation and whether the underlying cause was corrected; when selling, provide copies of certificates received for the property in the preceding five years."
+    },
+    {
+      "url": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+      "title": "TDLR: Mold Assessors and Remediators FAQs",
+      "publicationDate": null,
+      "accessedAt": "2026-10-19",
+      "verifiedAt": "2026-10-19",
+      "reportingPeriod": "Current official guidance at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read current full primary source in native web research and verify supported claims",
+      "claim": "Certificate and clearance depend on the work/protocol and licensed professional involvement; owner/construction exemptions can affect what documentation is obtainable. Do not assume any cleanup invoice entitles owner to CMDR."
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a CMDR?",
+      "a": "It is a Certificate of Mold Damage Remediation. TDLR explains that the document addresses the mold contamination identified for the project and whether the underlying cause was corrected. Read the actual project details and professional certifications."
+    },
+    {
+      "q": "Must a Texas seller give a buyer recent mold-remediation certificates?",
+      "a": "TDLR says a seller must provide the buyer copies of the certificates received for that property within the preceding five years. Ask your Texas real estate professional how to handle the records and other disclosure requirements in your transaction."
+    },
+    {
+      "q": "Is a cleanup invoice the same as the certificate?",
+      "a": "No. A receipt can document billed work, but it does not by itself establish the findings or certifications of a CMDR. Ask the professionals involved which documents were issued and what they support."
+    },
+    {
+      "q": "Does a cash as-is sale remove the certificate handoff?",
+      "a": "Do not assume that. An as-is proposal addresses the purchase and condition; it does not replace applicable record-delivery or disclosure duties. Discuss known history and missing records before closing."
+    }
+  ],
+  "image": "/images/mold-remediation-certificate-selling-texas-house.png",
+  "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+  "runId": "native-daily-20261019T134614Z",
+  "fence": 11,
+  "day": "2026-10-19",
+  "status": "preview_ready",
+  "commit": null,
+  "deployId": null,
+  "imageSha256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "PAST MOLD?|SALE RECORDS",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "generationMode": "built_in_native_imagegen",
+    "provenance": "New native imagegen exec-28ba8c84-9fd7-46d0-8071-ada50de08f21.png",
+    "backgroundPrompt": "Use case: photorealistic-natural. Original illustrative wide landscape 1.9:1 property photo for a Texas house seller guide about mold remediation records. Modest Houston brick house on RIGHT with a clean older side entry, closed windows and intact roof after a routine rain, subtly weathered realistic materials, dry sheltered porch, calm daylight. LEFT half dark leafy shaded yard negative space for later deterministic brand overlay. Do not visually claim house contains mold; no visible black mold, no disaster or medical imagery. Fictional property, no people, text, paperwork, logos, addresses, signs, watermarks or overlays.",
+    "backgroundSha256": "b763e7876d50a9d46d8db40379a532f23ffa709ccaec17faf4d05530a03f5002",
+    "illustrative": true,
+    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing Netlify allowances only; no external paid API/new services. Allowance consumption not separately priced."
+  },
+  "externalApiUsed": false,
+  "protectedSourceChanges": [],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "inboundMessages": 45,
+    "screenedBroadPriceMessages": 4,
+    "screenedDistinctPriceSellers": 3,
+    "topicOrigin": "Editorial gaps in practical spending, condition-record and distance decisions; not represented as recurring HVAC/mold/remote-signing CRM demand",
+    "limitations": "Bounded anonymous screen; no private conversations, identifiers, addresses, amounts or unique stories retained. Not representative demand or market statistics."
+  },
+  "social": {
+    "slug": "mold-remediation-certificate-selling-texas-house",
+    "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+    "image": "https://www.cashasis.com/images/mold-remediation-certificate-selling-texas-house.png",
+    "status": "draft_only",
+    "publishAllowed": false,
+    "facebook": "Selling a Texas House After Mold Work: Check the Certificate\n\nSelling a Houston-area house after mold work? Find the remediation certificate, check what it covers and organize the records a Texas buyer may need.\n\nRead the guide and compare your next steps: https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+    "instagram": "Selling a Texas House After Mold Work: Check the Certificate\n\nSelling a Houston-area house after mold work? Find the remediation certificate, check what it covers and organize the records a Texas buyer may need.\n\nGuide: https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Texas House After Mold Work: Check the Certificate\n\nSelling a Houston-area house after mold work? Find the remediation certificate, check what it covers and organize the records a Texas buyer may need. Clear information helps Houston-area sellers compare costs, responsibilities and sale options. https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+    "googleBusinessProfile": "Selling a Houston-area house after mold work? Find the remediation certificate, check what it covers and organize the records a Texas buyer may need.\nRead the guide and consider an as-is offer evaluation: https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+    "promotionalExcerpt": "Selling a Houston-area house after mold work? Find the remediation certificate, check what it covers and organize the records a Texas buyer may need.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "seoLifecycle": {
+    "required": [
+      "indexability",
+      "robots",
+      "canonical",
+      "sitemap",
+      "specific_intent",
+      "quality",
+      "duplicate_cannibalization",
+      "internal_links",
+      "seller_path",
+      "factual_sources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "googleMonitoring": "pending",
+    "ga4": "optional_not_measured_per_article",
+    "noLiveRewrite": true,
+    "localQA": "pass"
+  },
+  "localQA": {
+    "observedAt": "2026-10-19T13:58:32.164874+00:00",
+    "articleCountReviewed": 153,
+    "maxShared12WordShingles": [
+      [
+        0,
+        "what-happens-back-taxes-when-you-sell"
+      ],
+      [
+        0,
+        "what-can-you-skip-selling-cash-as-is"
+      ],
+      [
+        0,
+        "we-buy-houses-houston"
+      ]
+    ],
+    "semanticReview": "All published inventory/static money pages, ledger and pending PRs checked; record substantive difference and hub links reviewed. No city/synonym swaps.",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqVisibleMatches": 4,
+    "bodyInternalLinks": [
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/selling-houston-house-open-insurance-claim/",
+      "/blog/sell-house-needs-major-repairs-houston/"
+    ],
+    "attributedCTAs": 2,
+    "indexability": "pass; production build emits no noindex; canonical and sitemap correct",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "trackingPreserved": true
+  },
+  "mobileQA": {
+    "widths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "passed": true,
+    "visualReview": "Actual full-page mobile/desktop screenshots reviewed; no page/table/hero overflow; FAQ operates; branded hero/CTAs legible. Blog cards reviewed at390/1366.",
+    "screenshotsRetainedInRunEvidence": true
+  }
+}
