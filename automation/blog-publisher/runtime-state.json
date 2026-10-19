@@ -3,7 +3,8 @@
     "runId": "native-daily-20261019T134614Z",
     "fence": 11,
     "issuedAt": "2026-10-19T13:47:18.848Z",
-    "expiresAt": "2026-10-19T15:47:18.848Z"
+    "expiresAt": "2026-10-19T14:10:25.883Z",
+    "releasedAt": "2026-10-19T14:10:25.883Z"
   },
   "ledger": [
     {
@@ -335,7 +336,7 @@
       "day": "2026-10-19",
       "runId": "native-daily-20261019T134614Z",
       "fence": 11,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-19T13:49:22.309Z",
       "validationOnly": false,
       "previewCommit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
@@ -348,7 +349,13 @@
         "errors": [],
         "checkedAt": "2026-10-19T14:05:27.007Z"
       },
-      "pr": 14
+      "pr": 14,
+      "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+      "deployId": "6ad623ad6a4e3635ab7179c3",
+      "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+      "publishedAt": "2026-10-19T14:06:14.465Z",
+      "verifiedAt": "2026-10-19T14:10:25.883Z",
+      "evidenceCommit": "30e7650927edc119ac19d4ee052494ad22f22da4"
     },
     {
       "slug": "mold-remediation-certificate-selling-texas-house",
@@ -356,7 +363,7 @@
       "day": "2026-10-19",
       "runId": "native-daily-20261019T134614Z",
       "fence": 11,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-19T13:49:22.310Z",
       "validationOnly": false,
       "previewCommit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
@@ -369,7 +376,13 @@
         "errors": [],
         "checkedAt": "2026-10-19T14:05:27.007Z"
       },
-      "pr": 14
+      "pr": 14,
+      "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+      "deployId": "6ad623ad6a4e3635ab7179c3",
+      "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+      "publishedAt": "2026-10-19T14:06:14.465Z",
+      "verifiedAt": "2026-10-19T14:10:25.883Z",
+      "evidenceCommit": "30e7650927edc119ac19d4ee052494ad22f22da4"
     },
     {
       "slug": "selling-houston-house-from-out-of-state-signing",
@@ -377,7 +390,7 @@
       "day": "2026-10-19",
       "runId": "native-daily-20261019T134614Z",
       "fence": 11,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-19T13:49:22.310Z",
       "validationOnly": false,
       "previewCommit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
@@ -390,22 +403,29 @@
         "errors": [],
         "checkedAt": "2026-10-19T14:05:27.007Z"
       },
-      "pr": 14
+      "pr": 14,
+      "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+      "deployId": "6ad623ad6a4e3635ab7179c3",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+      "publishedAt": "2026-10-19T14:06:14.465Z",
+      "verifiedAt": "2026-10-19T14:10:25.883Z",
+      "evidenceCommit": "30e7650927edc119ac19d4ee052494ad22f22da4"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261018T135133Z",
-    "fence": 10,
+    "runId": "native-daily-20261019T134614Z",
+    "fence": 11,
     "status": "pass",
-    "day": "2026-10-18",
+    "day": "2026-10-19",
     "published": 3,
     "held": 0,
-    "productionCommit": "88073f0594463693114defaa6dc3cc143235b558",
-    "deployId": "6ad4d3a6fdfcee7dc13a51cd",
-    "evidence": "automation/blog-publisher/runs/2026-10-18.json",
-    "bookkeepingCommit": "d1efc58556ab85d6b27815832b52632088fbc0f9",
-    "completedAt": "2026-10-18T14:16:24.037Z"
+    "productionCommit": "bbbf16cbc719532f5af314e16829410d583f1248",
+    "deployId": "6ad623ad6a4e3635ab7179c3",
+    "evidence": "automation/blog-publisher/runs/2026-10-19.json",
+    "bookkeepingCommit": "30e7650927edc119ac19d4ee052494ad22f22da4",
+    "weeklyReview": "automation/blog-publisher/runs/2026-W43-weekly.json",
+    "completedAt": "2026-10-19T14:10:25.883Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
