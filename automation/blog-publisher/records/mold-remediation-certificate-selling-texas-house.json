@@ -69,9 +69,9 @@
   "runId": "native-daily-20261019T134614Z",
   "fence": 11,
   "day": "2026-10-19",
-  "status": "preview_ready",
-  "commit": null,
-  "deployId": null,
+  "status": "published",
+  "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+  "deployId": "6ad623ad6a4e3635ab7179c3",
   "imageSha256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
   "thumbnail": {
     "width": 1200,
@@ -86,7 +86,13 @@
     "backgroundPrompt": "Use case: photorealistic-natural. Original illustrative wide landscape 1.9:1 property photo for a Texas house seller guide about mold remediation records. Modest Houston brick house on RIGHT with a clean older side entry, closed windows and intact roof after a routine rain, subtly weathered realistic materials, dry sheltered porch, calm daylight. LEFT half dark leafy shaded yard negative space for later deterministic brand overlay. Do not visually claim house contains mold; no visible black mold, no disaster or medical imagery. Fictional property, no people, text, paperwork, logos, addresses, signs, watermarks or overlays.",
     "backgroundSha256": "b763e7876d50a9d46d8db40379a532f23ffa709ccaec17faf4d05530a03f5002",
     "illustrative": true,
-    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block."
+    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block.",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    }
   },
   "cost": {
     "currency": "USD",
@@ -107,8 +113,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
   "sellerVoice": {
     "mode": "read_only",
@@ -149,12 +155,14 @@
       "seller_path",
       "factual_sources"
     ],
-    "previewNoindex": "pending",
-    "productionIndexability": "pending",
-    "googleMonitoring": "pending",
+    "previewNoindex": "pass",
+    "productionIndexability": "pass",
+    "googleMonitoring": "Actual Google URL Inspection initial observation stored; normal new-URL unknown, no indexing request",
     "ga4": "optional_not_measured_per_article",
     "noLiveRewrite": true,
-    "localQA": "pass"
+    "localQA": "pass",
+    "performanceOptimization": "Weekly existing-page review retained separately; no live rewrite",
+    "sellerConversionMeasurement": "Existing attributed offer paths and tracking preserved; no per-article seller/conversion outcome evidence yet"
   },
   "localQA": {
     "observedAt": "2026-10-19T13:58:32.164874+00:00",
@@ -202,6 +210,235 @@
     ],
     "passed": true,
     "visualReview": "Actual full-page mobile/desktop screenshots reviewed; no page/table/hero overflow; FAQ operates; branded hero/CTAs legible. Blog cards reviewed at390/1366.",
-    "screenshotsRetainedInRunEvidence": true
+    "screenshotsRetainedInRunEvidence": true,
+    "measurements": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "og": "https://www.cashasis.com/images/mold-remediation-certificate-selling-texas-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "og": "https://www.cashasis.com/images/mold-remediation-certificate-selling-texas-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "og": "https://www.cashasis.com/images/mold-remediation-certificate-selling-texas-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "og": "https://www.cashasis.com/images/mold-remediation-certificate-selling-texas-house.png"
+      }
+    ],
+    "screenshots": [
+      {
+        "width": 360,
+        "sha256": "0f8a0b9c728297f0cb344f694f3bc12b28735f15422ef87fc6c481ad7bcf68de"
+      },
+      {
+        "width": 390,
+        "sha256": "425cbe655e926e679fa91d898ff0629b5dde3e5a1ba9718d85216d9a754209bf"
+      },
+      {
+        "width": 768,
+        "sha256": "3f1269650e913b66408bd331824efea92d7929ac0fe75814fc83bc2c317bc2c0"
+      },
+      {
+        "width": 1366,
+        "sha256": "b20b9ba4e5cbe6bad080b97f89d1c83e71c511ee4995ef27053d0190cf512e0f"
+      }
+    ]
+  },
+  "preview": {
+    "commit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
+    "deployId": "6ad622b52ad57bb7056ae614",
+    "exactCommitReady": true,
+    "verifiedAt": "2026-10-19T14:04:23.564560+00:00",
+    "noindexVerified": true,
+    "liveChecks": {
+      "slug": "mold-remediation-certificate-selling-texas-house",
+      "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+      "observedUrl": "https://6ad622b52ad57bb7056ae614--cashasis-blog.netlify.app/blog/mold-remediation-certificate-selling-texas-house/",
+      "http": 200,
+      "checkedAt": "2026-10-19T14:04:23.564560+00:00",
+      "checks": {
+        "canonical": true,
+        "sharing": true,
+        "metadata": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "mobileTestedHTMLParity": true,
+        "trackingPreserved": true,
+        "robotsCrawlable": true
+      },
+      "robots": " noindex",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
+      "bodyInternalLinks": [
+        "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "/blog/selling-houston-house-open-insurance-claim/",
+        "/blog/sell-house-needs-major-repairs-houston/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  },
+  "sourceHTTPChecks": [
+    {
+      "url": "https://www.tdlr.texas.gov/mld/pdf/cmis.pdf",
+      "http": 200,
+      "finalUrl": "https://www.tdlr.texas.gov/mld/pdf/cmis.pdf",
+      "bytes": 359252,
+      "at": "2026-10-19T14:00:02.756419+00:00"
+    },
+    {
+      "url": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+      "http": 200,
+      "finalUrl": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+      "bytes": 59658,
+      "at": "2026-10-19T14:00:02.501287+00:00"
+    }
+  ],
+  "originalityReview": {
+    "sourceArticlesReviewed": 153,
+    "liveBeforeBatch": 152,
+    "withdrawnBeforeBatch": 1,
+    "generatedArticlesInBatch": 3,
+    "existingProtectedSellerPagesReviewed": true,
+    "openPRsReviewed": [
+      5,
+      6,
+      7
+    ],
+    "validationPRsNeverMerged": true,
+    "nearestIntentAndDifference": "Dedicated Texas Certificate of Mold Damage Remediation handoff, its five-year sale-record duty, project/underlying-moisture distinctions and missing-record workflow. Existing general disclosure/flood/insurance pages do not explain this specific certificate and cannot replace it.",
+    "maxShared12WordShingles": 0,
+    "sourceInventoryHash": "f49a2ae74a17946921fa799ecbd24eaf7d2f4be879ed91d325748ffa9f5ef69d"
+  },
+  "publishedAt": "2026-10-19T14:06:14.465Z",
+  "verifiedAt": "2026-10-19T14:07:08.356830+00:00",
+  "pr": 14,
+  "production": {
+    "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+    "deployId": "6ad623ad6a4e3635ab7179c3",
+    "state": "ready",
+    "context": "production",
+    "exactCommitMatches": true,
+    "publishedAt": "2026-10-19T14:06:14.465Z",
+    "verifiedAt": "2026-10-19T14:07:08.356830+00:00",
+    "liveChecks": {
+      "slug": "mold-remediation-certificate-selling-texas-house",
+      "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+      "observedUrl": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+      "http": 200,
+      "checkedAt": "2026-10-19T14:07:08.356830+00:00",
+      "checks": {
+        "canonical": true,
+        "sharing": true,
+        "metadata": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "mobileTestedHTMLParity": true,
+        "trackingPreserved": true,
+        "robotsCrawlable": true
+      },
+      "robots": " ",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
+      "bodyInternalLinks": [
+        "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "/blog/selling-houston-house-open-insurance-claim/",
+        "/blog/sell-house-needs-major-repairs-houston/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  },
+  "googleInspection": {
+    "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-10-19T14:08:31.782Z",
+    "siteUrl": "https://www.cashasis.com/",
+    "inspectionUrl": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0nfcNSwAz7J_iJ4WQmR-bw&utm_medium=link&utm_source=api"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-19",
+    "errors": []
   }
 }

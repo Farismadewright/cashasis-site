@@ -69,9 +69,9 @@
   "runId": "native-daily-20261019T134614Z",
   "fence": 11,
   "day": "2026-10-19",
-  "status": "preview_ready",
-  "commit": null,
-  "deployId": null,
+  "status": "published",
+  "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+  "deployId": "6ad623ad6a4e3635ab7179c3",
   "imageSha256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
   "thumbnail": {
     "width": 1200,
@@ -86,7 +86,13 @@
     "backgroundPrompt": "Use case: photorealistic-natural. Original illustrative wide 1.9:1 real estate background for a Houston seller guide about deciding whether to replace an air conditioner before selling. Single story modest tan brick Houston house on RIGHT half, ordinary unbranded outdoor air conditioning condenser beside house clearly visible at lower right, natural daylight, live oak and grassy yard. LEFT half quiet shaded yard negative space for later official logo and headline. Documentary property photography, fictional property, normal wear, no dramatized damage. No text, numbers, people, addresses, logos, brand badges, signs, watermark or graphic overlays.",
     "backgroundSha256": "17b05ac2367637c1aa42195ecdfeb0099733bbb9b76d193f35ab02c5202b1721",
     "illustrative": true,
-    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block."
+    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block.",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    }
   },
   "cost": {
     "currency": "USD",
@@ -107,8 +113,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
   "sellerVoice": {
     "mode": "read_only",
@@ -149,12 +155,14 @@
       "seller_path",
       "factual_sources"
     ],
-    "previewNoindex": "pending",
-    "productionIndexability": "pending",
-    "googleMonitoring": "pending",
+    "previewNoindex": "pass",
+    "productionIndexability": "pass",
+    "googleMonitoring": "Actual Google URL Inspection initial observation stored; normal new-URL unknown, no indexing request",
     "ga4": "optional_not_measured_per_article",
     "noLiveRewrite": true,
-    "localQA": "pass"
+    "localQA": "pass",
+    "performanceOptimization": "Weekly existing-page review retained separately; no live rewrite",
+    "sellerConversionMeasurement": "Existing attributed offer paths and tracking preserved; no per-article seller/conversion outcome evidence yet"
   },
   "localQA": {
     "observedAt": "2026-10-19T13:58:32.153395+00:00",
@@ -202,6 +210,235 @@
     ],
     "passed": true,
     "visualReview": "Actual full-page mobile/desktop screenshots reviewed; no page/table/hero overflow; FAQ operates; branded hero/CTAs legible. Blog cards reviewed at390/1366.",
-    "screenshotsRetainedInRunEvidence": true
+    "screenshotsRetainedInRunEvidence": true,
+    "measurements": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/replace-air-conditioner-before-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/replace-air-conditioner-before-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/replace-air-conditioner-before-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/replace-air-conditioner-before-selling-houston-house.png"
+      }
+    ],
+    "screenshots": [
+      {
+        "width": 360,
+        "sha256": "3935e7c4ac8d6c934993498b8aec943124f95be79da6258860b9f8116dca2856"
+      },
+      {
+        "width": 390,
+        "sha256": "e06c002fedabc1d249083b60dd3d4b07fe9bb54f6dff978868667d7b7f9deebc"
+      },
+      {
+        "width": 768,
+        "sha256": "567ba25317b7890f2dedb6f3d02caf21e8e79e8141124d7dd2f0e58c8b08637f"
+      },
+      {
+        "width": 1366,
+        "sha256": "dfb0bd84053d4a3cc275ff928ea3b8ed62922247d25a092ce82e38eb97f018cf"
+      }
+    ]
+  },
+  "preview": {
+    "commit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
+    "deployId": "6ad622b52ad57bb7056ae614",
+    "exactCommitReady": true,
+    "verifiedAt": "2026-10-19T14:04:23.564560+00:00",
+    "noindexVerified": true,
+    "liveChecks": {
+      "slug": "replace-air-conditioner-before-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+      "observedUrl": "https://6ad622b52ad57bb7056ae614--cashasis-blog.netlify.app/blog/replace-air-conditioner-before-selling-houston-house/",
+      "http": 200,
+      "checkedAt": "2026-10-19T14:04:23.564560+00:00",
+      "checks": {
+        "canonical": true,
+        "sharing": true,
+        "metadata": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "mobileTestedHTMLParity": true,
+        "trackingPreserved": true,
+        "robotsCrawlable": true
+      },
+      "robots": " noindex",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
+      "bodyInternalLinks": [
+        "/blog/sell-house-needs-major-repairs-houston/",
+        "/fix-it-or-sell-it/",
+        "/blog/cash-offer-vs-listing-house-houston/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  },
+  "sourceHTTPChecks": [
+    {
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/replace",
+      "http": 200,
+      "finalUrl": "https://www.energystar.gov/saveathome/heating-cooling/replace",
+      "bytes": 39512,
+      "at": "2026-10-19T14:00:02.358925+00:00"
+    },
+    {
+      "url": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+      "http": 200,
+      "finalUrl": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+      "bytes": 69561,
+      "at": "2026-10-19T14:00:03.365642+00:00"
+    }
+  ],
+  "originalityReview": {
+    "sourceArticlesReviewed": 153,
+    "liveBeforeBatch": 152,
+    "withdrawnBeforeBatch": 1,
+    "generatedArticlesInBatch": 3,
+    "existingProtectedSellerPagesReviewed": true,
+    "openPRsReviewed": [
+      5,
+      6,
+      7
+    ],
+    "validationPRsNeverMerged": true,
+    "nearestIntentAndDifference": "A system-specific AC diagnosis-to-scope-to-sale comparison, including age versus actual performance and R22 phaseout misunderstandings. Existing repair hubs list HVAC among many issues but do not answer whether this system warrants replacement before sale.",
+    "maxShared12WordShingles": 0,
+    "sourceInventoryHash": "f49a2ae74a17946921fa799ecbd24eaf7d2f4be879ed91d325748ffa9f5ef69d"
+  },
+  "publishedAt": "2026-10-19T14:06:14.465Z",
+  "verifiedAt": "2026-10-19T14:07:08.356830+00:00",
+  "pr": 14,
+  "production": {
+    "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+    "deployId": "6ad623ad6a4e3635ab7179c3",
+    "state": "ready",
+    "context": "production",
+    "exactCommitMatches": true,
+    "publishedAt": "2026-10-19T14:06:14.465Z",
+    "verifiedAt": "2026-10-19T14:07:08.356830+00:00",
+    "liveChecks": {
+      "slug": "replace-air-conditioner-before-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+      "observedUrl": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+      "http": 200,
+      "checkedAt": "2026-10-19T14:07:08.356830+00:00",
+      "checks": {
+        "canonical": true,
+        "sharing": true,
+        "metadata": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "mobileTestedHTMLParity": true,
+        "trackingPreserved": true,
+        "robotsCrawlable": true
+      },
+      "robots": " ",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
+      "bodyInternalLinks": [
+        "/blog/sell-house-needs-major-repairs-houston/",
+        "/fix-it-or-sell-it/",
+        "/blog/cash-offer-vs-listing-house-houston/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  },
+  "googleInspection": {
+    "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-10-19T14:08:20.667Z",
+    "siteUrl": "https://www.cashasis.com/",
+    "inspectionUrl": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=RfIRf6zPHU8vxnS7DeH4CQ&utm_medium=link&utm_source=api"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-19",
+    "errors": []
   }
 }

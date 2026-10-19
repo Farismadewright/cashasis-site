@@ -1,0 +1,1148 @@
+{
+  "status": "pass",
+  "runId": "native-daily-20261019T134614Z",
+  "fence": 11,
+  "day": "2026-10-19",
+  "execution": "actual_native_unattended_run",
+  "startedAt": "2026-10-19T13:46:14Z",
+  "completedAt": "2026-10-19T14:09:25.136423+00:00",
+  "published": 3,
+  "held": 0,
+  "rejected": 0,
+  "articles": [
+    {
+      "title": "Replace the AC Before Selling a Houston House? Compare First",
+      "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+      "record": "automation/blog-publisher/records/replace-air-conditioner-before-selling-houston-house.json"
+    },
+    {
+      "title": "Selling a Texas House After Mold Work: Check the Certificate",
+      "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+      "record": "automation/blog-publisher/records/mold-remediation-certificate-selling-texas-house.json"
+    },
+    {
+      "title": "Selling a Houston House From Out of State: Plan the Signing",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+      "record": "automation/blog-publisher/records/selling-houston-house-from-out-of-state-signing.json"
+    }
+  ],
+  "prURL": "https://github.com/Farismadewright/cashasis-site/pull/14",
+  "previewCommit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
+  "previewDeployId": "6ad622b52ad57bb7056ae614",
+  "productionCommit": "bbbf16cbc719532f5af314e16829410d583f1248",
+  "productionDeployId": "6ad623ad6a4e3635ab7179c3",
+  "productionDeployState": "ready",
+  "productionDeployCommitMatches": true,
+  "publishedAt": "2026-10-19T14:06:14.465Z",
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-19",
+    "errors": []
+  },
+  "preview": {
+    "passed": true,
+    "mode": "preview",
+    "origin": "https://6ad622b52ad57bb7056ae614--cashasis-blog.netlify.app",
+    "checkedAt": "2026-10-19T14:04:23.564560+00:00",
+    "resourceCount": 36,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/dont-live-in-area-vacant-property-risk/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 404,
+        "error": null
+      },
+      {
+        "path": "/blog/how-cash-offer-house-works-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/mold-remediation-certificate-selling-texas-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/protect-house-sale-proceeds-wire-fraud/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/replace-air-conditioner-before-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-needs-major-repairs-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-from-out-of-state-signing/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/favicon.ico",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/apple-touch-icon.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-16.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-32.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/mold-remediation-certificate-selling-texas-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/replace-air-conditioner-before-selling-houston-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-houston-house-from-out-of-state-signing.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "articles": [
+      {
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "observedUrl": "https://6ad622b52ad57bb7056ae614--cashasis-blog.netlify.app/blog/replace-air-conditioner-before-selling-houston-house/",
+        "http": 200,
+        "checkedAt": "2026-10-19T14:04:23.564560+00:00",
+        "checks": {
+          "canonical": true,
+          "sharing": true,
+          "metadata": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "mobileTestedHTMLParity": true,
+          "trackingPreserved": true,
+          "robotsCrawlable": true
+        },
+        "robots": " noindex",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
+        "bodyInternalLinks": [
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/fix-it-or-sell-it/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      },
+      {
+        "slug": "mold-remediation-certificate-selling-texas-house",
+        "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "observedUrl": "https://6ad622b52ad57bb7056ae614--cashasis-blog.netlify.app/blog/mold-remediation-certificate-selling-texas-house/",
+        "http": 200,
+        "checkedAt": "2026-10-19T14:04:23.564560+00:00",
+        "checks": {
+          "canonical": true,
+          "sharing": true,
+          "metadata": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "mobileTestedHTMLParity": true,
+          "trackingPreserved": true,
+          "robotsCrawlable": true
+        },
+        "robots": " noindex",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
+        "bodyInternalLinks": [
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/selling-houston-house-open-insurance-claim/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      },
+      {
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "observedUrl": "https://6ad622b52ad57bb7056ae614--cashasis-blog.netlify.app/blog/selling-houston-house-from-out-of-state-signing/",
+        "http": 200,
+        "checkedAt": "2026-10-19T14:04:23.564560+00:00",
+        "checks": {
+          "canonical": true,
+          "sharing": true,
+          "metadata": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "mobileTestedHTMLParity": true,
+          "trackingPreserved": true,
+          "robotsCrawlable": true
+        },
+        "robots": " noindex",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
+        "bodyInternalLinks": [
+          "/blog/how-cash-offer-house-works-houston/",
+          "/blog/dont-live-in-area-vacant-property-risk/",
+          "/blog/protect-house-sale-proceeds-wire-fraud/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      }
+    ],
+    "stylesByteMatchMobileTestedBuild": true,
+    "protectedDesign": "Tracked layout/CSS/forms/tracking source unchanged; live HTML/CSS match locally tested build.",
+    "withdrawnArticleHTTP404": true,
+    "errors": []
+  },
+  "production": {
+    "passed": true,
+    "mode": "production",
+    "origin": "https://www.cashasis.com",
+    "checkedAt": "2026-10-19T14:07:08.356830+00:00",
+    "resourceCount": 36,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/dont-live-in-area-vacant-property-risk/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 404,
+        "error": null
+      },
+      {
+        "path": "/blog/how-cash-offer-house-works-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/mold-remediation-certificate-selling-texas-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/protect-house-sale-proceeds-wire-fraud/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/replace-air-conditioner-before-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-needs-major-repairs-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-from-out-of-state-signing/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-house-open-insurance-claim/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/favicon.ico",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/apple-touch-icon.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-16.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-32.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/mold-remediation-certificate-selling-texas-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/replace-air-conditioner-before-selling-houston-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-houston-house-from-out-of-state-signing.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "articles": [
+      {
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "observedUrl": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "http": 200,
+        "checkedAt": "2026-10-19T14:07:08.356830+00:00",
+        "checks": {
+          "canonical": true,
+          "sharing": true,
+          "metadata": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "mobileTestedHTMLParity": true,
+          "trackingPreserved": true,
+          "robotsCrawlable": true
+        },
+        "robots": " ",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
+        "bodyInternalLinks": [
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/fix-it-or-sell-it/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=replace-air-conditioner-before-selling-houston-house&utm_term=post"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      },
+      {
+        "slug": "mold-remediation-certificate-selling-texas-house",
+        "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "observedUrl": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "http": 200,
+        "checkedAt": "2026-10-19T14:07:08.356830+00:00",
+        "checks": {
+          "canonical": true,
+          "sharing": true,
+          "metadata": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "mobileTestedHTMLParity": true,
+          "trackingPreserved": true,
+          "robotsCrawlable": true
+        },
+        "robots": " ",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
+        "bodyInternalLinks": [
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/selling-houston-house-open-insurance-claim/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mold-remediation-certificate-selling-texas-house&utm_term=post"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      },
+      {
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "observedUrl": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "http": 200,
+        "checkedAt": "2026-10-19T14:07:08.356830+00:00",
+        "checks": {
+          "canonical": true,
+          "sharing": true,
+          "metadata": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "mobileTestedHTMLParity": true,
+          "trackingPreserved": true,
+          "robotsCrawlable": true
+        },
+        "robots": " ",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
+        "bodyInternalLinks": [
+          "/blog/how-cash-offer-house-works-houston/",
+          "/blog/dont-live-in-area-vacant-property-risk/",
+          "/blog/protect-house-sale-proceeds-wire-fraud/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      }
+    ],
+    "stylesByteMatchMobileTestedBuild": true,
+    "protectedDesign": "Tracked layout/CSS/forms/tracking source unchanged; live HTML/CSS match locally tested build.",
+    "withdrawnArticleHTTP404": true,
+    "errors": []
+  },
+  "localQA": {
+    "passed": true,
+    "articles": [
+      {
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "observedAt": "2026-10-19T13:58:32.153395+00:00",
+        "articleCountReviewed": 153,
+        "maxShared12WordShingles": [
+          [
+            0,
+            "what-happens-back-taxes-when-you-sell"
+          ],
+          [
+            0,
+            "what-can-you-skip-selling-cash-as-is"
+          ],
+          [
+            0,
+            "we-buy-houses-houston"
+          ]
+        ],
+        "semanticReview": "All published inventory/static money pages, ledger and pending PRs checked; record substantive difference and hub links reviewed. No city/synonym swaps.",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqVisibleMatches": 4,
+        "bodyInternalLinks": [
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/fix-it-or-sell-it/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTAs": 2,
+        "indexability": "pass; production build emits no noindex; canonical and sitemap correct",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "trackingPreserved": true
+      },
+      {
+        "slug": "mold-remediation-certificate-selling-texas-house",
+        "observedAt": "2026-10-19T13:58:32.164874+00:00",
+        "articleCountReviewed": 153,
+        "maxShared12WordShingles": [
+          [
+            0,
+            "what-happens-back-taxes-when-you-sell"
+          ],
+          [
+            0,
+            "what-can-you-skip-selling-cash-as-is"
+          ],
+          [
+            0,
+            "we-buy-houses-houston"
+          ]
+        ],
+        "semanticReview": "All published inventory/static money pages, ledger and pending PRs checked; record substantive difference and hub links reviewed. No city/synonym swaps.",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqVisibleMatches": 4,
+        "bodyInternalLinks": [
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/selling-houston-house-open-insurance-claim/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTAs": 2,
+        "indexability": "pass; production build emits no noindex; canonical and sitemap correct",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "trackingPreserved": true
+      },
+      {
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "observedAt": "2026-10-19T13:58:32.176687+00:00",
+        "articleCountReviewed": 153,
+        "maxShared12WordShingles": [
+          [
+            0,
+            "what-happens-back-taxes-when-you-sell"
+          ],
+          [
+            0,
+            "what-can-you-skip-selling-cash-as-is"
+          ],
+          [
+            0,
+            "we-buy-houses-houston"
+          ]
+        ],
+        "semanticReview": "All published inventory/static money pages, ledger and pending PRs checked; record substantive difference and hub links reviewed. No city/synonym swaps.",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqVisibleMatches": 4,
+        "bodyInternalLinks": [
+          "/blog/how-cash-offer-house-works-houston/",
+          "/blog/dont-live-in-area-vacant-property-risk/",
+          "/blog/protect-house-sale-proceeds-wire-fraud/"
+        ],
+        "attributedCTAs": 2,
+        "indexability": "pass; production build emits no noindex; canonical and sitemap correct",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "trackingPreserved": true
+      }
+    ],
+    "allowlistAdded": [
+      "/blog/mold-remediation-certificate-selling-texas-house/",
+      "/blog/replace-air-conditioner-before-selling-houston-house/",
+      "/blog/selling-houston-house-from-out-of-state-signing/"
+    ],
+    "protectedTrackedFilesChanged": []
+  },
+  "thumbnailCards": {
+    "passed": true,
+    "rows": [
+      {
+        "width": 390,
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "imageWidth": 1200
+      },
+      {
+        "width": 390,
+        "slug": "mold-remediation-certificate-selling-texas-house",
+        "imageWidth": 1200
+      },
+      {
+        "width": 390,
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "imageWidth": 1200
+      },
+      {
+        "width": 1366,
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "imageWidth": 1200
+      },
+      {
+        "width": 1366,
+        "slug": "mold-remediation-certificate-selling-texas-house",
+        "imageWidth": 1200
+      },
+      {
+        "width": 1366,
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "imageWidth": 1200
+      }
+    ]
+  },
+  "sourceHTTP": [
+    {
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/replace",
+      "http": 200,
+      "finalUrl": "https://www.energystar.gov/saveathome/heating-cooling/replace",
+      "bytes": 39512,
+      "at": "2026-10-19T14:00:02.358925+00:00"
+    },
+    {
+      "url": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+      "http": 200,
+      "finalUrl": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+      "bytes": 69561,
+      "at": "2026-10-19T14:00:03.365642+00:00"
+    },
+    {
+      "url": "https://www.tdlr.texas.gov/mld/pdf/cmis.pdf",
+      "http": 200,
+      "finalUrl": "https://www.tdlr.texas.gov/mld/pdf/cmis.pdf",
+      "bytes": 359252,
+      "at": "2026-10-19T14:00:02.756419+00:00"
+    },
+    {
+      "url": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+      "http": 200,
+      "finalUrl": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+      "bytes": 59658,
+      "at": "2026-10-19T14:00:02.501287+00:00"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/statdoc/online-np-educational.shtml",
+      "http": 200,
+      "finalUrl": "https://www.sos.state.tx.us/statdoc/online-np-educational.shtml",
+      "bytes": 47811,
+      "at": "2026-10-19T14:00:02.622870+00:00"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/statdoc/gettingstarted.shtml",
+      "http": 200,
+      "finalUrl": "https://www.sos.state.tx.us/statdoc/gettingstarted.shtml",
+      "bytes": 30505,
+      "at": "2026-10-19T14:00:02.689005+00:00"
+    }
+  ],
+  "sellerThemes": {
+    "sample": 500,
+    "inbound": 45,
+    "screenedHumanCandidates": 43,
+    "themes": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 3
+      },
+      "condition": {
+        "messages": 0,
+        "distinctSellers": 0
+      },
+      "closing": {
+        "messages": 0,
+        "distinctSellers": 0
+      },
+      "tenants": {
+        "messages": 2,
+        "distinctSellers": 2
+      }
+    }
+  },
+  "commands": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "result": "179Astro pages built;192attribution-injected pages;183DNI-prepared pages;generated allowlist adds exactly3slugs",
+      "stdoutSha256": "c5d5bd136a1c5c2bbdd51824613f3b504f441889a605ef96f12041df330b7f02"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p publisher_gate_test.py",
+      "exitCode": 0,
+      "testsPassed": 5
+    },
+    {
+      "command": "node --test tests/blog-publisher.test.mjs",
+      "exitCode": 0,
+      "testsPassed": 3
+    },
+    {
+      "command": "validate_output.py . SLUG (each newarticle)",
+      "exitCode": 0,
+      "articlesPassed": 3
+    },
+    {
+      "command": "mobile_qa.cjs . OUTPUT SLUG (eachnewarticle)",
+      "exitCode": 0,
+      "widths": [
+        360,
+        390,
+        768,
+        1366
+      ],
+      "articlesPassed": 3
+    },
+    {
+      "command": "release_gate.py . fresh-combined-state batch durable-ledger",
+      "exitCode": 0,
+      "allowed": true
+    },
+    {
+      "command": "monitoring_queue.py with fresh durable checkpoint before and after actual calls",
+      "exitCode": 0,
+      "actualGoogleInspections": 5,
+      "dueBacklog": 0
+    }
+  ],
+  "indexing": {
+    "eligibleSitemapURLs": 174,
+    "inspectedEligibleURLs": 174,
+    "confirmedIndexedURLs": 152,
+    "eligibleBlogArticles": 155,
+    "confirmedIndexedBlogArticles": 137,
+    "eligibleOtherSitemapPagesIncludingBlogHub": 19,
+    "indexedOtherSitemapPages": 15,
+    "latestCoverageCounts": {
+      "Submitted and indexed": 152,
+      "Crawled - currently not indexed": 2,
+      "URL is unknown to Google": 15,
+      "Discovered - currently not indexed": 5
+    },
+    "observationRange": {
+      "earliest": "2026-10-04T18:51:07.839038+00:00",
+      "latest": "2026-10-19T14:08:31.782Z"
+    },
+    "checksThisRun": 5,
+    "freshReinspectionsIndexed": 2,
+    "newPublicationInitialObservations": 3,
+    "note": "Retained actual Google inspections, not every URL freshly reinspected today. Denominator excludes homepage outside current sitemap, withdrawn/test/draft URLs. Pending/unknown is not Google rejection. No indexing request made.",
+    "nextDueCount": 0,
+    "confirmedPersistentAlertsThisRun": 0
+  },
+  "newPublicationGoogleInspections": [
+    {
+      "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-19T14:08:20.667Z",
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=RfIRf6zPHU8vxnS7DeH4CQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-19T14:08:31.782Z",
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0nfcNSwAz7J_iJ4WQmR-bw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-19T14:08:02.281Z",
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=O26rn2lEqwDyKN3VZSA0aA&utm_medium=link&utm_source=api"
+    }
+  ],
+  "dueFollowups": {
+    "actualInspections": [
+      {
+        "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "inspectedAt": "2026-10-19T14:00:37.829Z",
+        "source": "google_url_inspection",
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T22:57:17Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "userCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1Wtse1LSHDrFeqFvQF5UCg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "inspectedAt": "2026-10-19T14:00:26.219Z",
+        "source": "google_url_inspection",
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-16T23:02:01Z",
+        "pageFetchState": "SUCCESSFUL",
+        "crawledAs": "MOBILE",
+        "referringUrls": [
+          "https://www.cashasis.com/sitemap-0.xml"
+        ],
+        "googleCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "userCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Ms1BaD1U5DV0XHP42HlTcQ&utm_medium=link&utm_source=api"
+      }
+    ],
+    "freshTechnicalQA": [
+      {
+        "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-19T13:59:38.911451+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "robots": " ",
+        "sitemap": true,
+        "rss": true,
+        "internalLinks": [
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-title-problems-houston/"
+        ],
+        "ctaCount": 2,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      },
+      {
+        "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-19T13:59:38.972685+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "robots": " ",
+        "sitemap": true,
+        "rss": true,
+        "internalLinks": [
+          "/compare-the-net/",
+          "/blog/sell-house-title-problems-houston/",
+          "/after-you-sign/"
+        ],
+        "ctaCount": 2,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ]
+      }
+    ]
+  },
+  "weeklyReview": "automation/blog-publisher/runs/2026-W43-weekly.json",
+  "monthlyReview": "Not due; firstMonth2026-10 preserved",
+  "acquisitionCOOEvidence": "Verified acquisition findings retained in weekly report and existing intent-map evidence for existing engines; no message/dashboard created.",
+  "externalPaidAPISpendUSD": 0,
+  "nativeAllowanceCost": "No separately reported native allowance consumption; no purchased services,credits or upgrades",
+  "social": "5channels/article stored draft_only; no social publishing",
+  "privacy": "No raw/private CRM conversations, IDs, addresses, amounts or unique stories retained. No CRM writes/messages/mark-read. No fake lead submission.",
+  "design": "Protected Astro layout/CSS/forms/SEO/tracking source unchanged. Approved assets/template hashes unchanged. October14 blog navigation and corrected articles preserved.",
+  "scheduleChanged": false,
+  "withdrawalPreserved": "Earnest money/option fee article404 and excluded from blog/RSS/sitemap/allowlist",
+  "notification": {
+    "weeklyReview": "ready_for_owner_response; not marked delivered before actual response",
+    "routineDailyAllClear": "suppressed; actualcounts retained in run evidence",
+    "separateAlert": "none: no confirmed persistent indexing failure, sustained ranking gain or verified organic lead change"
+  }
+}

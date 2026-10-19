@@ -70,9 +70,9 @@
   "runId": "native-daily-20261019T134614Z",
   "fence": 11,
   "day": "2026-10-19",
-  "status": "preview_ready",
-  "commit": null,
-  "deployId": null,
+  "status": "published",
+  "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+  "deployId": "6ad623ad6a4e3635ab7179c3",
   "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
   "thumbnail": {
     "width": 1200,
@@ -87,7 +87,13 @@
     "backgroundPrompt": "Use case: photorealistic-natural. Original illustrative wide landscape 1.9:1 real estate background for a guide to selling a Houston house while owner is out of state. Modest single story red brick Houston ranch with front walkway and empty porch on RIGHT half, quiet suburban yard, mature live oak, warm morning light, realistic everyday property photography. LEFT half shaded lawn/tree negative space for later deterministic headline and official transparent logo. Fictional house; no people, phones, laptops, documents, words, numbers, signs, addresses, logos, cars or watermarks.",
     "backgroundSha256": "2debded036ec297b94d5561263fe114a67722b0916a3def5ffbf91d372180af1",
     "illustrative": true,
-    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block."
+    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block.",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    }
   },
   "cost": {
     "currency": "USD",
@@ -108,8 +114,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
   "sellerVoice": {
     "mode": "read_only",
@@ -150,12 +156,14 @@
       "seller_path",
       "factual_sources"
     ],
-    "previewNoindex": "pending",
-    "productionIndexability": "pending",
-    "googleMonitoring": "pending",
+    "previewNoindex": "pass",
+    "productionIndexability": "pass",
+    "googleMonitoring": "Actual Google URL Inspection initial observation stored; normal new-URL unknown, no indexing request",
     "ga4": "optional_not_measured_per_article",
     "noLiveRewrite": true,
-    "localQA": "pass"
+    "localQA": "pass",
+    "performanceOptimization": "Weekly existing-page review retained separately; no live rewrite",
+    "sellerConversionMeasurement": "Existing attributed offer paths and tracking preserved; no per-article seller/conversion outcome evidence yet"
   },
   "localQA": {
     "observedAt": "2026-10-19T13:58:32.176687+00:00",
@@ -203,6 +211,235 @@
     ],
     "passed": true,
     "visualReview": "Actual full-page mobile/desktop screenshots reviewed; no page/table/hero overflow; FAQ operates; branded hero/CTAs legible. Blog cards reviewed at390/1366.",
-    "screenshotsRetainedInRunEvidence": true
+    "screenshotsRetainedInRunEvidence": true,
+    "measurements": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-from-out-of-state-signing.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-from-out-of-state-signing.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-from-out-of-state-signing.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-from-out-of-state-signing.png"
+      }
+    ],
+    "screenshots": [
+      {
+        "width": 360,
+        "sha256": "1ba3b5a953b8bf145972b1523497051551561b036d01629765ffcc68d9eb8381"
+      },
+      {
+        "width": 390,
+        "sha256": "0941544c556e978bb27b77b39a8eb9569f5e822092f336c7e6a13f02d5b2792c"
+      },
+      {
+        "width": 768,
+        "sha256": "884a267a8d2e6f4bad7b143d1f203036af3e70b02402f2e52b4b01e634817e8b"
+      },
+      {
+        "width": 1366,
+        "sha256": "b051cc4b34cee66adbfd69eeee52571c7e66de07fa69aad2ff927f24282af419"
+      }
+    ]
+  },
+  "preview": {
+    "commit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
+    "deployId": "6ad622b52ad57bb7056ae614",
+    "exactCommitReady": true,
+    "verifiedAt": "2026-10-19T14:04:23.564560+00:00",
+    "noindexVerified": true,
+    "liveChecks": {
+      "slug": "selling-houston-house-from-out-of-state-signing",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+      "observedUrl": "https://6ad622b52ad57bb7056ae614--cashasis-blog.netlify.app/blog/selling-houston-house-from-out-of-state-signing/",
+      "http": 200,
+      "checkedAt": "2026-10-19T14:04:23.564560+00:00",
+      "checks": {
+        "canonical": true,
+        "sharing": true,
+        "metadata": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "mobileTestedHTMLParity": true,
+        "trackingPreserved": true,
+        "robotsCrawlable": true
+      },
+      "robots": " noindex",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
+      "bodyInternalLinks": [
+        "/blog/how-cash-offer-house-works-houston/",
+        "/blog/dont-live-in-area-vacant-property-risk/",
+        "/blog/protect-house-sale-proceeds-wire-fraud/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  },
+  "sourceHTTPChecks": [
+    {
+      "url": "https://www.sos.state.tx.us/statdoc/online-np-educational.shtml",
+      "http": 200,
+      "finalUrl": "https://www.sos.state.tx.us/statdoc/online-np-educational.shtml",
+      "bytes": 47811,
+      "at": "2026-10-19T14:00:02.622870+00:00"
+    },
+    {
+      "url": "https://www.sos.state.tx.us/statdoc/gettingstarted.shtml",
+      "http": 200,
+      "finalUrl": "https://www.sos.state.tx.us/statdoc/gettingstarted.shtml",
+      "bytes": 30505,
+      "at": "2026-10-19T14:00:02.689005+00:00"
+    }
+  ],
+  "originalityReview": {
+    "sourceArticlesReviewed": 153,
+    "liveBeforeBatch": 152,
+    "withdrawnBeforeBatch": 1,
+    "generatedArticlesInBatch": 3,
+    "existingProtectedSellerPagesReviewed": true,
+    "openPRsReviewed": [
+      5,
+      6,
+      7
+    ],
+    "validationPRsNeverMerged": true,
+    "nearestIntentAndDifference": "A closing-team-approved signing-method and document-return plan for an out-of-state seller, separating electronic signing, online notarization, physical documents, funding and property handoff. Existing absentee/vacancy and timeline guides do not answer this logistical decision.",
+    "maxShared12WordShingles": 0,
+    "sourceInventoryHash": "f49a2ae74a17946921fa799ecbd24eaf7d2f4be879ed91d325748ffa9f5ef69d"
+  },
+  "publishedAt": "2026-10-19T14:06:14.465Z",
+  "verifiedAt": "2026-10-19T14:07:08.356830+00:00",
+  "pr": 14,
+  "production": {
+    "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+    "deployId": "6ad623ad6a4e3635ab7179c3",
+    "state": "ready",
+    "context": "production",
+    "exactCommitMatches": true,
+    "publishedAt": "2026-10-19T14:06:14.465Z",
+    "verifiedAt": "2026-10-19T14:07:08.356830+00:00",
+    "liveChecks": {
+      "slug": "selling-houston-house-from-out-of-state-signing",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+      "observedUrl": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+      "http": 200,
+      "checkedAt": "2026-10-19T14:07:08.356830+00:00",
+      "checks": {
+        "canonical": true,
+        "sharing": true,
+        "metadata": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "mobileTestedHTMLParity": true,
+        "trackingPreserved": true,
+        "robotsCrawlable": true
+      },
+      "robots": " ",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
+      "bodyInternalLinks": [
+        "/blog/how-cash-offer-house-works-houston/",
+        "/blog/dont-live-in-area-vacant-property-risk/",
+        "/blog/protect-house-sale-proceeds-wire-fraud/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-from-out-of-state-signing&utm_term=post"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  },
+  "googleInspection": {
+    "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-10-19T14:08:02.281Z",
+    "siteUrl": "https://www.cashasis.com/",
+    "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=O26rn2lEqwDyKN3VZSA0aA&utm_medium=link&utm_source=api"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-19",
+    "errors": []
   }
 }

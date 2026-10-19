@@ -282,5 +282,63 @@
       "/blog/selling-houston-house-open-insurance-claim/"
     ],
     "substantiveDifference": "Addresses effective flood map versus actual observed house history even without current damage, with Harris County mapping limitations, dated map capture and evidence reconciliation. Existing flood-damage guide concerns pricing/remediation; insurance guide concerns claim proceeds, not map/history interpretation."
+  },
+  {
+    "runId": "native-daily-20261019T134614Z",
+    "day": "2026-10-19",
+    "slug": "replace-air-conditioner-before-selling-houston-house",
+    "intentKey": "houston-seller-ac-diagnosis-repair-replacement-vs-as-is-comparison",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+    "nearestOverlaps": [
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/fix-it-or-sell-it/",
+      "/blog/sell-houston-house-without-repairs/"
+    ],
+    "substantiveDifference": "A system-specific AC diagnosis-to-scope-to-sale comparison, including age versus actual performance and R22 phaseout misunderstandings. Existing repair hubs list HVAC among many issues but do not answer whether this system warrants replacement before sale.",
+    "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+    "deployId": "6ad623ad6a4e3635ab7179c3",
+    "pr": 14,
+    "publishedAt": "2026-10-19T14:06:14.465Z",
+    "imageSha256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610"
+  },
+  {
+    "runId": "native-daily-20261019T134614Z",
+    "day": "2026-10-19",
+    "slug": "mold-remediation-certificate-selling-texas-house",
+    "intentKey": "texas-seller-mold-remediation-certificate-five-year-record-handoff",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+    "nearestOverlaps": [
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/sell-flood-damaged-house-houston/",
+      "/blog/selling-houston-house-open-insurance-claim/"
+    ],
+    "substantiveDifference": "Dedicated Texas Certificate of Mold Damage Remediation handoff, its five-year sale-record duty, project/underlying-moisture distinctions and missing-record workflow. Existing general disclosure/flood/insurance pages do not explain this specific certificate and cannot replace it.",
+    "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+    "deployId": "6ad623ad6a4e3635ab7179c3",
+    "pr": 14,
+    "publishedAt": "2026-10-19T14:06:14.465Z",
+    "imageSha256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f"
+  },
+  {
+    "runId": "native-daily-20261019T134614Z",
+    "day": "2026-10-19",
+    "slug": "selling-houston-house-from-out-of-state-signing",
+    "intentKey": "outofstate-houston-seller-closing-signing-method-approval-access-handoff",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+    "nearestOverlaps": [
+      "/blog/dont-live-in-area-vacant-property-risk/",
+      "/closing-timeline/",
+      "/after-you-sign/",
+      "/blog/protect-house-sale-proceeds-wire-fraud/"
+    ],
+    "substantiveDifference": "A closing-team-approved signing-method and document-return plan for an out-of-state seller, separating electronic signing, online notarization, physical documents, funding and property handoff. Existing absentee/vacancy and timeline guides do not answer this logistical decision.",
+    "commit": "bbbf16cbc719532f5af314e16829410d583f1248",
+    "deployId": "6ad623ad6a4e3635ab7179c3",
+    "pr": 14,
+    "publishedAt": "2026-10-19T14:06:14.465Z",
+    "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab"
   }
 ]

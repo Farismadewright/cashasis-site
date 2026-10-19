@@ -1,0 +1,474 @@
+{
+  "status": "review_complete",
+  "periodKey": "2026-W43",
+  "runId": "native-daily-20261019T134614Z",
+  "reviewedAt": "2026-10-19T14:05:00.286047+00:00",
+  "source": "Existing approved GSC Wizard using Search Console API / GA4 API / Google URL Inspection, read-only; no subscription changes",
+  "property": "https://www.cashasis.com/",
+  "ga4Property": "439983808",
+  "periods": {
+    "searchAndAnalytics": {
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "days": 7
+    },
+    "comparison": {
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-09"
+    },
+    "context": {
+      "startDate": "2026-09-19",
+      "endDate": "2026-10-16",
+      "days": 28
+    },
+    "publishingCalendarWeek": {
+      "start": "2026-10-12",
+      "end": "2026-10-18"
+    }
+  },
+  "lagAndScope": "Actual returned common seven-day window endsOct16; provider maturity label says settledThroughOct17, but noOct17row was returned and it is not counted. GSC date basis America/Los_Angeles; GA4 America/Chicago; same calendar dates do not align hour-for-hour. Totals are sitewide, not blog-only. No current-day traffic claims.",
+  "gsc": {
+    "current": {
+      "clicks": 0,
+      "impressions": 406,
+      "ctr": 0,
+      "avgPosition": 42.62807881773399
+    },
+    "previous": {
+      "clicks": 3,
+      "impressions": 182,
+      "ctr": 1.6483516483516485,
+      "avgPosition": 50.75824175824176
+    },
+    "impressionsChange": 224,
+    "impressionsChangePercent": 123.07692307692308,
+    "positionChange": -8.130162940507766,
+    "context28Days": {
+      "clicks": 7,
+      "impressions": 630,
+      "ctr": 1.1111111111111112,
+      "avgPosition": 43.25238095238095
+    },
+    "contextComparison": {
+      "clicks": 1,
+      "impressions": 91,
+      "ctr": 1.098901098901099,
+      "avgPosition": 38.9010989010989
+    },
+    "interpretation": "Higher impressions, fewer clicks. Seven-day aggregate position improved but changing query mix and small sample do not establish sustained rankings;28dayaggregate position is worse than its prior comparison.",
+    "queryCoverage": {
+      "rowsReturned": 155,
+      "paginationComplete": true,
+      "impressionShare": 0.8177,
+      "anonymizedRemainder": 0.1823
+    },
+    "topQueryPairs": [
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/",
+          "sell my house fast in tomball"
+        ],
+        "clicks": 0,
+        "impressions": 20,
+        "ctr": 0,
+        "position": 44.4
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "sell my house fast katy tx"
+        ],
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": 0,
+        "position": 32.73684210526316
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/",
+          "can i sell my house before foreclosure"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 94.75
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "sell my house fast katy"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 45.888888888888886
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 15.75
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/",
+          "sell fire damaged house texas"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 54.166666666666664
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/",
+          "sell my house fast humble tx"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 57.166666666666664
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+          "sell my house fast tomball tx"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "sell my house fast in katy"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 40.6
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast in missouri city"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 24.2
+      }
+    ]
+  },
+  "ga4": {
+    "filter": "Original sessionDefaultChannelGroup Organic Search",
+    "summary": {
+      "sessions": 5,
+      "activeUsers": 4,
+      "totalUsers": 4,
+      "newUsers": 4,
+      "screenPageViews": 5,
+      "engagementRate": 0.2,
+      "averageSessionDuration": 32.771221600000004,
+      "bounceRate": 0.8,
+      "eventCount": 23,
+      "keyEvents": 0
+    },
+    "priorSummary": {
+      "sessions": 7,
+      "activeUsers": 4,
+      "totalUsers": 4,
+      "newUsers": 1,
+      "screenPageViews": 10,
+      "engagementRate": 0.5714285714285714,
+      "averageSessionDuration": 245.43288528571426,
+      "bounceRate": 0.42857142857142855,
+      "eventCount": 32,
+      "keyEvents": 0
+    },
+    "generateLead": {
+      "rawCurrent": 0,
+      "rawPrevious": 0,
+      "settledKeyEventsCurrent": 0,
+      "settledKeyEventsPrevious": 0
+    },
+    "intermediateEvents": {
+      "requested": [
+        "form_start",
+        "offer_cta_click",
+        "offer_c_t_a",
+        "generate_lead"
+      ],
+      "result": "No rows under the Organic Search filter in this settled period",
+      "currentReportedRows": [],
+      "plainEventCountsAreNotDistinctSellers": true
+    },
+    "validatedOrganicSellerLeads": null,
+    "qualifiedSellers": null,
+    "agreements": null,
+    "fundedRetainedGP": null,
+    "interpretation": "No organic generate_lead recorded; no evidence establishes an organic seller lead. Missing downstream source/deduplication/funding evidence stays unavailable, not zero. Source breakdown included3google/organic sessions and2yahoo/referral sessions classified Organic Search by GA4; do not force GSC clicks to match.",
+    "hostNameVerification": [
+      {
+        "key": "www.cashasis.com",
+        "sessions": 5,
+        "prevSessions": 7,
+        "activeUsers": 4,
+        "prevActiveUsers": 4,
+        "screenPageViews": 5,
+        "prevScreenPageViews": 10,
+        "engagementRate": 0.2,
+        "prevEngagementRate": 0.5714285714285714,
+        "keyEvents": 0,
+        "prevKeyEvents": 0
+      }
+    ]
+  },
+  "publishingWeek": {
+    "publishedHistorically": 15,
+    "remainingLive": 14,
+    "ownerWithdrawn": 1,
+    "articlesCurrentlyHeld": 0,
+    "heldRunAttempts": "Historical early holds/recovery attempts existed; not additional unique held articles after resolved publications.",
+    "withdrawnTopic": "Earnest money/option fee article remains withdrawn and must not be republished without owner instruction."
+  },
+  "indexing": {
+    "eligibleSitemapURLs": 174,
+    "inspectedEligibleURLs": 174,
+    "confirmedIndexedURLs": 152,
+    "eligibleBlogArticles": 155,
+    "confirmedIndexedBlogArticles": 137,
+    "eligibleOtherSitemapPagesIncludingBlogHub": 19,
+    "indexedOtherSitemapPages": 15,
+    "latestCoverageCounts": {
+      "Submitted and indexed": 152,
+      "Crawled - currently not indexed": 2,
+      "URL is unknown to Google": 15,
+      "Discovered - currently not indexed": 5
+    },
+    "observationRange": {
+      "earliest": "2026-10-04T18:51:07.839038+00:00",
+      "latest": "2026-10-19T14:08:31.782Z"
+    },
+    "checksThisRun": 5,
+    "freshReinspectionsIndexed": 2,
+    "newPublicationInitialObservations": 3,
+    "note": "Retained actual Google inspections, not every URL freshly reinspected today. Denominator excludes homepage outside current sitemap, withdrawn/test/draft URLs. Pending/unknown is not Google rejection. No indexing request made.",
+    "nextDueCount": 0,
+    "confirmedPersistentAlertsThisRun": 0
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "url": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+      "evidence": {
+        "28day": {
+          "keys": [
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 34,
+          "ctr": 0,
+          "position": 18.323529411764707
+        },
+        "weeklyQueries": [
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+              "cash home buyers missouri city tx"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 15
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+              "sell my house fast in missouri city"
+            ],
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 24.2
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+              "sell my house fast missouri city tx"
+            ],
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 15.75
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+              "we buy houses missouri city"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+              "we buy houses missouri city tx"
+            ],
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 15.25
+          }
+        ]
+      },
+      "finding": "Title/snippet match city sale intent, but headings remain broad service language. The exact fast-sale query has8impressions at15.75; earlier week has no visible matched query rows, so no sustained rank claim. No exact-query competing URL appeared in returned rows, which excludes anonymized searches.",
+      "recommendation": "Review a concise practical timing/next-step answer, local seller questions and upward/downward links on the existing Missouri City primary. Assess other site URLs first; do not create another city variant or auto-lengthen.",
+      "sellerPath": "Existing two attributed offer CTAs retained; downstream organic seller validation unestablished.",
+      "approval": "Scoped editorial proposal only; live rewrite requires specific approval/rollback."
+    },
+    {
+      "priority": 2,
+      "url": "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+      "evidence": {
+        "28day": {
+          "keys": [
+            "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 11,
+          "ctr": 0,
+          "position": 21.636363636363637
+        },
+        "weeklyQueries": [
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+              "sell my house fast in tomball"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 33
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+              "sell my house fast tomball tx"
+            ],
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 16
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+              "we buy houses tomball"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 44
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+              "we buy houses tomball tx"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 45
+          }
+        ],
+        "competingQueries": [
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-inherited-house-tomball-tx/",
+              "sell my house fast in tomball"
+            ],
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 53.2
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/",
+              "sell my house fast in tomball"
+            ],
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": 0,
+            "position": 44.4
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/",
+              "sell my house fast tomball tx"
+            ],
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 67
+          }
+        ]
+      },
+      "finding": "Tomball primary and vacant/inherited support pages receive the same broad fast-sale query. The vacant page has20impressions at44.4 while the primary has1at33 for that query; this is overlap evidence, not proof of a ranking penalty.",
+      "recommendation": "Audit primary/supporting intent and internal anchor destinations, retain distinct vacancy/inheritance answers, and propose precise differentiation/consolidation only after review. Prefer this work over another Tomball page.",
+      "approval": "No redirect, consolidation or live rewrite performed."
+    },
+    {
+      "priority": 3,
+      "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+      "evidence": {
+        "28day": {
+          "keys": [
+            "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 19.923076923076923
+        },
+        "weeklyQueries": [],
+        "priorWeeklyQueries": [
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+              "sell house behind on taxes"
+            ],
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 63
+          }
+        ]
+      },
+      "finding": "Houston behind-tax page has13impressions at19.92 over28days but no disclosed current-week query rows. The Harris County back-tax supporting page was strengthened October14 and must remain intact.",
+      "recommendation": "Reconcile actual tax queries across Houston/Harris pages and inspect source accuracy, snippet promises and internal hierarchy before proposing an edit. Do not infer a missing question from absent anonymized query rows.",
+      "approval": "Preserve October14 changes; specific live rewrite approval/rollback required."
+    }
+  ],
+  "rankOrLeadAlertThresholdMet": false,
+  "monthlyReview": "Not due; firstMonthlyPeriod2026-10. Prior-month backfill not fabricated.",
+  "feedTo": {
+    "workflow": "Existing Lead Acquisition Engine / COO",
+    "evidence": "automation/blog-publisher/runs/2026-W43-weekly.json",
+    "finding": "Organic visibility precedes acquisition: no evidenced organic seller lead/funded GP. Prioritize primary-page intent/snippets and internal linking, especially Tomball overlap, before more broad commercial/city pages.",
+    "delivery": "Durable public-safe evidence for existing engines to consume; no person-directed message or new dashboard."
+  },
+  "notification": {
+    "kind": "requested_weekly_review",
+    "deliveryStatus": "ready_for_owner_response",
+    "deliveredAt": null
+  }
+}
