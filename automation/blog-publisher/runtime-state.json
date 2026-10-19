@@ -335,9 +335,20 @@
       "day": "2026-10-19",
       "runId": "native-daily-20261019T134614Z",
       "fence": 11,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-19T13:49:22.309Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
+      "previewDeployId": "6ad622b52ad57bb7056ae614",
+      "previewVerifiedAt": "2026-10-19T14:05:27.007Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-19",
+        "errors": [],
+        "checkedAt": "2026-10-19T14:05:27.007Z"
+      },
+      "pr": 14
     },
     {
       "slug": "mold-remediation-certificate-selling-texas-house",
@@ -345,9 +356,20 @@
       "day": "2026-10-19",
       "runId": "native-daily-20261019T134614Z",
       "fence": 11,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-19T13:49:22.310Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
+      "previewDeployId": "6ad622b52ad57bb7056ae614",
+      "previewVerifiedAt": "2026-10-19T14:05:27.007Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-19",
+        "errors": [],
+        "checkedAt": "2026-10-19T14:05:27.007Z"
+      },
+      "pr": 14
     },
     {
       "slug": "selling-houston-house-from-out-of-state-signing",
@@ -355,9 +377,20 @@
       "day": "2026-10-19",
       "runId": "native-daily-20261019T134614Z",
       "fence": 11,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-19T13:49:22.310Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "46d8b60635258bb1f4757d20dfb627dba31972cd",
+      "previewDeployId": "6ad622b52ad57bb7056ae614",
+      "previewVerifiedAt": "2026-10-19T14:05:27.007Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-19",
+        "errors": [],
+        "checkedAt": "2026-10-19T14:05:27.007Z"
+      },
+      "pr": 14
     }
   ],
   "externalApiSpendLimitUSD": 0,
