@@ -328,6 +328,36 @@
       "publishedAt": "2026-10-18T14:12:33.936Z",
       "verifiedAt": "2026-10-18T14:16:24.037Z",
       "evidenceCommit": "d1efc58556ab85d6b27815832b52632088fbc0f9"
+    },
+    {
+      "slug": "replace-air-conditioner-before-selling-houston-house",
+      "intentKey": "houston-seller-ac-diagnosis-repair-replacement-vs-as-is-comparison",
+      "day": "2026-10-19",
+      "runId": "native-daily-20261019T134614Z",
+      "fence": 11,
+      "status": "reserved",
+      "reservedAt": "2026-10-19T13:49:22.309Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "mold-remediation-certificate-selling-texas-house",
+      "intentKey": "texas-seller-mold-remediation-certificate-five-year-record-handoff",
+      "day": "2026-10-19",
+      "runId": "native-daily-20261019T134614Z",
+      "fence": 11,
+      "status": "reserved",
+      "reservedAt": "2026-10-19T13:49:22.310Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-house-from-out-of-state-signing",
+      "intentKey": "outofstate-houston-seller-closing-signing-method-approval-access-handoff",
+      "day": "2026-10-19",
+      "runId": "native-daily-20261019T134614Z",
+      "fence": 11,
+      "status": "reserved",
+      "reservedAt": "2026-10-19T13:49:22.310Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
