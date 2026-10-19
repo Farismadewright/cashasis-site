@@ -6144,16 +6144,17 @@
   ],
   "notifications": [],
   "reportReceipts": {
-    "weekly": {},
-    "monthly": {},
-    "2026-W43": {
-      "kind": "weekly",
-      "status": "review_complete",
-      "completedAt": "2026-10-19T14:08:33.072747+00:00",
-      "record": "automation/blog-publisher/runs/2026-W43-weekly.json",
-      "deliveryStatus": "ready_for_owner_response",
-      "deliveredAt": null
-    }
+    "weekly": {
+      "2026-W43": {
+        "kind": "weekly",
+        "status": "review_complete",
+        "completedAt": "2026-10-19T14:08:33.072747+00:00",
+        "record": "automation/blog-publisher/runs/2026-W43-weekly.json",
+        "deliveryStatus": "ready_for_owner_response",
+        "deliveredAt": null
+      }
+    },
+    "monthly": {}
   },
   "connectionScope": {
     "searchConsole": "https://www.cashasis.com/",
@@ -6192,7 +6193,9 @@
     "monitoringEvidence": "automation/blog-publisher/runs/2026-10-19.json",
     "backlogCount": 0,
     "bookkeepingCommit": "30e7650927edc119ac19d4ee052494ad22f22da4",
-    "completedAt": "2026-10-19T14:10:24.208Z"
+    "completedAt": "2026-10-19T14:10:24.208Z",
+    "bookkeepingDeployId": "6ad624b691c1ba25b33cec7e",
+    "bookkeepingDeployCommit": "30e7650927edc119ac19d4ee052494ad22f22da4"
   },
   "now": "2026-10-19T14:08:33.072747+00:00"
 }
