@@ -1,0 +1,207 @@
+{
+  "slug": "replace-air-conditioner-before-selling-houston-house",
+  "intentKey": "houston-seller-ac-diagnosis-repair-replacement-vs-as-is-comparison",
+  "title": "Replace the AC Before Selling a Houston House? Compare First",
+  "description": "Before replacing an older Houston AC to sell your house, compare a professional diagnosis, written repair scope and an as-is offer using the same facts.",
+  "primaryKeyword": "replace AC before selling house Houston",
+  "supportingKeywords": [
+    "sell house with old air conditioner",
+    "AC repair versus replacement before sale",
+    "Houston as-is HVAC condition"
+  ],
+  "imageAlt": "Illustrative Houston brick house with an outdoor air conditioner and the headline AC Trouble Seller Guide beneath the official Cash As-Is logo",
+  "headline": "AC TROUBLE?|SELLER GUIDE",
+  "background": "exec-c6d87637-d421-4bf3-932d-fb6358d70be8.png",
+  "nearestOverlaps": [
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/fix-it-or-sell-it/",
+    "/blog/sell-houston-house-without-repairs/"
+  ],
+  "substantiveDifference": "A system-specific AC diagnosis-to-scope-to-sale comparison, including age versus actual performance and R22 phaseout misunderstandings. Existing repair hubs list HVAC among many issues but do not answer whether this system warrants replacement before sale.",
+  "sources": [
+    {
+      "url": "https://www.energystar.gov/saveathome/heating-cooling/replace",
+      "title": "ENERGY STAR: When is it time to replace?",
+      "publicationDate": null,
+      "accessedAt": "2026-10-19",
+      "verifiedAt": "2026-10-19",
+      "reportingPeriod": "Current official guidance at access",
+      "geography": "United States",
+      "unit": null,
+      "figure": null,
+      "method": "Read current full primary source in native web research and verify supported claims",
+      "claim": "Age over10years, frequent repairs, rising energy bills and uneven comfort are reasons to consider professional evaluation/replacement, not an automatic sale requirement."
+    },
+    {
+      "url": "https://www.epa.gov/ods-phaseout/homeowners-and-consumers-frequently-asked-questions",
+      "title": "EPA: Homeowners and Consumers Frequently Asked Questions",
+      "publicationDate": "2026-04-01",
+      "accessedAt": "2026-10-19",
+      "verifiedAt": "2026-10-19",
+      "reportingPeriod": "Current official guidance at access",
+      "geography": "United States",
+      "unit": null,
+      "figure": null,
+      "method": "Read current full primary source in native web research and verify supported claims",
+      "claim": "EPA does not require homeowners to replace existing HCFC22 equipment; existing equipment can still be serviced. Request appropriate certified technicians and repair of leaks rather than repeated topping off."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does an AC older than ten years have to be replaced before selling?",
+      "a": "Age alone does not establish that. ENERGY STAR identifies older equipment as a reason to consider a professional evaluation. The actual condition, proposed repair, buyer requirements and your sale strategy still matter."
+    },
+    {
+      "q": "Does the R-22 phaseout automatically mean my existing AC must be replaced?",
+      "a": "No. EPA says homeowners are not required to replace existing HCFC-22 equipment and that existing systems can continue to be serviced. Ask a qualified technician about the actual system, repair options and availability rather than assuming the phaseout decides the sale."
+    },
+    {
+      "q": "Will a new AC add its full cost to my selling price?",
+      "a": "There is no guarantee. Compare realistic proposals and the work, selling costs and time involved. Equipment efficiency information is not evidence of a particular increase in your house-sale proceeds."
+    },
+    {
+      "q": "Can Cash As-Is review a house before AC replacement?",
+      "a": "Yes. Describe how the system is operating, what a technician found and what remains uncertain. Cash As-Is can evaluate the property in its present condition without requiring you to replace the AC for our purchase."
+    }
+  ],
+  "image": "/images/replace-air-conditioner-before-selling-houston-house.png",
+  "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+  "runId": "native-daily-20261019T134614Z",
+  "fence": 11,
+  "day": "2026-10-19",
+  "status": "preview_ready",
+  "commit": null,
+  "deployId": null,
+  "imageSha256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "AC TROUBLE?|SELLER GUIDE",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "generationMode": "built_in_native_imagegen",
+    "provenance": "New native imagegen exec-c6d87637-d421-4bf3-932d-fb6358d70be8.png",
+    "backgroundPrompt": "Use case: photorealistic-natural. Original illustrative wide 1.9:1 real estate background for a Houston seller guide about deciding whether to replace an air conditioner before selling. Single story modest tan brick Houston house on RIGHT half, ordinary unbranded outdoor air conditioning condenser beside house clearly visible at lower right, natural daylight, live oak and grassy yard. LEFT half quiet shaded yard negative space for later official logo and headline. Documentary property photography, fictional property, normal wear, no dramatized damage. No text, numbers, people, addresses, logos, brand badges, signs, watermark or graphic overlays.",
+    "backgroundSha256": "17b05ac2367637c1aa42195ecdfeb0099733bbb9b76d193f35ab02c5202b1721",
+    "illustrative": true,
+    "visualReview": "Full-size and320px contact-sheet pass: transparent exact official logo; headline readable; no clipping or logo background block."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing Netlify allowances only; no external paid API/new services. Allowance consumption not separately priced."
+  },
+  "externalApiUsed": false,
+  "protectedSourceChanges": [],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "inboundMessages": 45,
+    "screenedBroadPriceMessages": 4,
+    "screenedDistinctPriceSellers": 3,
+    "topicOrigin": "Editorial gaps in practical spending, condition-record and distance decisions; not represented as recurring HVAC/mold/remote-signing CRM demand",
+    "limitations": "Bounded anonymous screen; no private conversations, identifiers, addresses, amounts or unique stories retained. Not representative demand or market statistics."
+  },
+  "social": {
+    "slug": "replace-air-conditioner-before-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/replace-air-conditioner-before-selling-houston-house.png",
+    "status": "draft_only",
+    "publishAllowed": false,
+    "facebook": "Replace the AC Before Selling a Houston House? Compare First\n\nBefore replacing an older Houston AC to sell your house, compare a professional diagnosis, written repair scope and an as-is offer using the same facts.\n\nRead the guide and compare your next steps: https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+    "instagram": "Replace the AC Before Selling a Houston House? Compare First\n\nBefore replacing an older Houston AC to sell your house, compare a professional diagnosis, written repair scope and an as-is offer using the same facts.\n\nGuide: https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Replace the AC Before Selling a Houston House? Compare First\n\nBefore replacing an older Houston AC to sell your house, compare a professional diagnosis, written repair scope and an as-is offer using the same facts. Clear information helps Houston-area sellers compare costs, responsibilities and sale options. https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+    "googleBusinessProfile": "Before replacing an older Houston AC to sell your house, compare a professional diagnosis, written repair scope and an as-is offer using the same facts.\nRead the guide and consider an as-is offer evaluation: https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+    "promotionalExcerpt": "Before replacing an older Houston AC to sell your house, compare a professional diagnosis, written repair scope and an as-is offer using the same facts.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "seoLifecycle": {
+    "required": [
+      "indexability",
+      "robots",
+      "canonical",
+      "sitemap",
+      "specific_intent",
+      "quality",
+      "duplicate_cannibalization",
+      "internal_links",
+      "seller_path",
+      "factual_sources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "googleMonitoring": "pending",
+    "ga4": "optional_not_measured_per_article",
+    "noLiveRewrite": true,
+    "localQA": "pass"
+  },
+  "localQA": {
+    "observedAt": "2026-10-19T13:58:32.153395+00:00",
+    "articleCountReviewed": 153,
+    "maxShared12WordShingles": [
+      [
+        0,
+        "what-happens-back-taxes-when-you-sell"
+      ],
+      [
+        0,
+        "what-can-you-skip-selling-cash-as-is"
+      ],
+      [
+        0,
+        "we-buy-houses-houston"
+      ]
+    ],
+    "semanticReview": "All published inventory/static money pages, ledger and pending PRs checked; record substantive difference and hub links reviewed. No city/synonym swaps.",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqVisibleMatches": 4,
+    "bodyInternalLinks": [
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/fix-it-or-sell-it/",
+      "/blog/cash-offer-vs-listing-house-houston/"
+    ],
+    "attributedCTAs": 2,
+    "indexability": "pass; production build emits no noindex; canonical and sitemap correct",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "trackingPreserved": true
+  },
+  "mobileQA": {
+    "widths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "passed": true,
+    "visualReview": "Actual full-page mobile/desktop screenshots reviewed; no page/table/hero overflow; FAQ operates; branded hero/CTAs legible. Blog cards reviewed at390/1366.",
+    "screenshotsRetainedInRunEvidence": true
+  }
+}
