@@ -416,9 +416,20 @@
       "runId": "native-daily-20261020T133354Z",
       "fence": 12,
       "day": "2026-10-20",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-20T13:39:51.273Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "fede8347e38f32874ac242ae165a819dcd62160f",
+      "previewDeployId": "6ad771e779838c321add9e9a",
+      "previewVerifiedAt": "2026-10-20T13:54:31.924Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-20",
+        "errors": [],
+        "checkedAt": "2026-10-20T13:54:31.924Z"
+      },
+      "pr": 15
     },
     {
       "slug": "when-to-transfer-utilities-selling-houston-house",
@@ -426,9 +437,20 @@
       "runId": "native-daily-20261020T133354Z",
       "fence": 12,
       "day": "2026-10-20",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-20T13:39:51.273Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "fede8347e38f32874ac242ae165a819dcd62160f",
+      "previewDeployId": "6ad771e779838c321add9e9a",
+      "previewVerifiedAt": "2026-10-20T13:54:31.924Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-20",
+        "errors": [],
+        "checkedAt": "2026-10-20T13:54:31.924Z"
+      },
+      "pr": 15
     },
     {
       "slug": "selling-houston-area-house-private-water-well",
@@ -436,9 +458,20 @@
       "runId": "native-daily-20261020T133354Z",
       "fence": 12,
       "day": "2026-10-20",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-20T13:39:51.273Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "fede8347e38f32874ac242ae165a819dcd62160f",
+      "previewDeployId": "6ad771e779838c321add9e9a",
+      "previewVerifiedAt": "2026-10-20T13:54:31.924Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-20",
+        "errors": [],
+        "checkedAt": "2026-10-20T13:54:31.924Z"
+      },
+      "pr": 15
     }
   ],
   "externalApiSpendLimitUSD": 0,
