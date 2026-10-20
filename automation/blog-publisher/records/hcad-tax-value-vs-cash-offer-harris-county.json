@@ -1,0 +1,421 @@
+{
+  "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+  "intentKey": "harris-county-tax-market-appraised-value-date-versus-current-cash-proposal",
+  "title": "HCAD Value vs. a Cash Offer: A Harris County Seller's Guide",
+  "description": "Comparing an HCAD value with a cash offer? Check the value label, valuation date, property facts and sale costs before deciding what the difference means.",
+  "pubDate": "2026-10-20T12:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "tags": [
+    "Harris County",
+    "Houston",
+    "seller pricing"
+  ],
+  "primaryKeyword": "HCAD value vs cash offer",
+  "supportingKeywords": [
+    "Harris County tax value selling house",
+    "HCAD market value versus appraised value",
+    "cash offer below tax appraisal"
+  ],
+  "image": "/images/hcad-tax-value-vs-cash-offer-harris-county.png",
+  "imageAlt": "Illustrative Houston brick house and shaded yard with Tax Value Cash Offer headline and the official transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does HCAD's value establish the minimum offer I should accept?",
+      "a": "No. First identify which value you are reading and its valuation date. Compare current property evidence, realistic sale alternatives and written proposals; the tax value alone does not decide your sale."
+    },
+    {
+      "q": "Are HCAD market value and appraised value always the same?",
+      "a": "No. HCAD explains that market value reflects its January 1 estimate, while appraised value may be the same or lower when a cap applies. Read the labels on the actual record."
+    },
+    {
+      "q": "Does an offer below the tax value prove a cash buyer is right?",
+      "a": "No. Ask what property facts, repair scope and sale assumptions explain the proposal. You can question the comparison, seek a current market opinion or decline an offer that does not fit."
+    },
+    {
+      "q": "Does accepting an offer automatically change my HCAD record?",
+      "a": "Do not assume that a purchase discussion changes the appraisal record or resolves a tax issue. Keep the sale decision separate from any appraisal question and ask the appropriate professionals about your circumstances."
+    }
+  ],
+  "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+  "runId": "native-daily-20261020T133354Z",
+  "fence": 12,
+  "day": "2026-10-20",
+  "status": "preview",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/how-cash-offer-house-works-houston/",
+    "/blog/cash-offer-vs-listing-house-houston/",
+    "/blog/sell-house-behind-on-taxes-houston/"
+  ],
+  "substantiveDifference": "First dedicated HCAD market/appraised value labels and January1 versus current-offer comparison. Distinct from generic cash pricing, net-proceeds comparison and tax-debt resolution. Uses a property-condition hypothetical without invented prices or universal discount. Supports existing cash-offer primary.",
+  "sources": [
+    {
+      "url": "https://hcad.org/hcad-help/protests-and-corrections/ifile-and-isettle",
+      "title": "HCAD: iFile and iSettle",
+      "accessedAt": "2026-10-20",
+      "verifiedAt": "2026-10-20T13:46:51.151162+00:00",
+      "publicationDate": null,
+      "reportingPeriod": "Current official/issuing-provider guidance accessed2026-10-20",
+      "geography": "Harris County / Texas / Houston as specified",
+      "unit": null,
+      "figure": null,
+      "method": "Read complete relevant primary-source text in native web; source claims checked against article and FAQ",
+      "claim": "HCAD distinguishes January1 market-value estimate and appraised value that may be lower when capped; do not equate either with a present purchase proposal."
+    },
+    {
+      "url": "https://hcad.org/hcad-resources/reappraisal/2026-reappraisal-values",
+      "title": "HCAD:2026 Reappraisal Values",
+      "accessedAt": "2026-10-20",
+      "verifiedAt": "2026-10-20T13:46:51.151162+00:00",
+      "publicationDate": null,
+      "reportingPeriod": "Current official/issuing-provider guidance accessed2026-10-20",
+      "geography": "Harris County / Texas / Houston as specified",
+      "unit": null,
+      "figure": null,
+      "method": "Read complete relevant primary-source text in native web; source claims checked against article and FAQ",
+      "claim": "HCAD appraises Harris County property for tax purposes using January1 market value; current2026 maps have dated snapshots, not a particular as-is cash sale quote."
+    }
+  ],
+  "imageSha256": "65343d3d1cac5dd42a3434e6a1d39f9778f153bfff40658d1872079bd1551d90",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "TAX VALUE?|CASH OFFER",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-a731d5b7-50f0-431d-874d-5c71fdcc92b0.png",
+    "backgroundSha256": "cad2a98343472e4054c17d2b6f2028ca8dd1f84529647cdb1d7ab4c56cb8bcdb",
+    "backgroundPrompt": "Use case: photorealistic-natural. Asset type: original illustrative property background for Cash As-Is seller guide, wide landscape 1.9:1. Modest weathered but intact Houston red brick single-story house on RIGHT half, driveway and front windows visible, mature live oak yard; no damage exaggeration. LEFT half shaded dark leafy negative space for later official deterministic logo and headline overlay. Calm daylight, realistic local residential photography, natural materials. Fictional house. No people, lettering, address numerals, street signs, real estate signs, logos, paperwork, watermarks, or overlays.",
+    "illustrative": true,
+    "visualReview": "New final template thumbnails viewed together at600px scale; exact official alpha logo, readable3\u20137word headline, correct1200x630; no logo panel/clipping."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work/existing Netlify allowances; separate native usage pricing unavailable, no services/credits/API purchased."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inboundMessages": 59,
+    "screenedMessages": 54,
+    "keywordScreen": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 3
+      },
+      "condition": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "tenants": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "timing": {
+        "messages": 0,
+        "distinctSellers": 0
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen; categories provisional, not representative demand. No human-context review or topic-specific recurring demand is claimed. No raw conversations or identifying details retained.",
+    "topicOrigin": "Broad offer-price screen informed tax-value comparison; utility/well topics are distinct editorial gaps, not asserted recurring CRM questions. No private example used.",
+    "mode": "read_only"
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "pending initial production inspection; actual future result only",
+      "canonicalURL": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+      "inspectionVerdict": null,
+      "inspectedAt": null,
+      "queries": null,
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null,
+      "reportingPeriod": null,
+      "nextReview": null
+    },
+    "GA4Measurement": {
+      "source": "Existing attribution code preserved; no new-article settled data available",
+      "originalOrganicLandingSessions": null,
+      "ctaEvents": null,
+      "formStarts": null,
+      "rawGenerateLeadEvents": null,
+      "settledKeyEvents": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No real attributed lead observed; no fake submission or CRM write."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+      "source": "Astro built output, actual metadata/schema/link checks and native visual review",
+      "details": {
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+        "http": null,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true,
+          "originalityText": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/replace-air-conditioner-before-selling-houston-house/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post"
+        ],
+        "originality": {
+          "maxShared12WordShingles": [
+            [
+              0,
+              "when-to-transfer-utilities-selling-houston-house"
+            ],
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ]
+          ],
+          "semanticDifference": "First dedicated HCAD market/appraised value labels and January1 versus current-offer comparison. Distinct from generic cash pricing, net-proceeds comparison and tax-debt resolution. Uses a property-condition hypothetical without invented prices or universal discount. Supports existing cash-offer primary.",
+          "sourceArticlesBeforeBatch": 156,
+          "liveArticlesBeforeBatch": 155,
+          "withdrawn": 1,
+          "pendingValidationPRs": [
+            5,
+            6,
+            7
+          ],
+          "allSellerPagesAndIntentMapReviewed": true
+        },
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "65343d3d1cac5dd42a3434e6a1d39f9778f153bfff40658d1872079bd1551d90"
+      }
+    }
+  },
+  "protectedSourceChanges": [],
+  "social": {
+    "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+    "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+    "image": "https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png",
+    "status": "draft_only",
+    "facebook": "HCAD Value vs. a Cash Offer: A Harris County Seller's Guide\n\nComparing an HCAD value with a cash offer? Check the value label, valuation date, property facts and sale costs before deciding what the difference means.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+    "instagram": "HCAD Value vs. a Cash Offer: A Harris County Seller's Guide\n\nComparing an HCAD value with a cash offer? Check the value label, valuation date, property facts and sale costs before deciding what the difference means.\n\nRead the guide: https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "HCAD Value vs. a Cash Offer: A Harris County Seller's Guide\n\nComparing an HCAD value with a cash offer? Check the value label, valuation date, property facts and sale costs before deciding what the difference means.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+    "googleBusinessProfile": "HCAD Value vs. a Cash Offer: A Harris County Seller's Guide\n\nComparing an HCAD value with a cash offer? Check the value label, valuation date, property facts and sale costs before deciding what the difference means.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+    "promotionalExcerpt": "Comparing an HCAD value with a cash offer? Check the value label, valuation date, property facts and sale costs before deciding what the difference means.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "localQA": {
+    "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+    "checks": {
+      "canonical": true,
+      "metadata": true,
+      "sharing": true,
+      "indexability": true,
+      "schema": true,
+      "faq": true,
+      "image": true,
+      "internalLinks": true,
+      "sellerPath": true,
+      "sitemap": true,
+      "rss": true,
+      "blogCard": true,
+      "robotsCrawlable": true,
+      "tracking": true,
+      "mobileTestedHTMLParity": true,
+      "originalityText": true
+    },
+    "originality": {
+      "maxShared12WordShingles": [
+        [
+          0,
+          "when-to-transfer-utilities-selling-houston-house"
+        ],
+        [
+          0,
+          "what-happens-back-taxes-when-you-sell"
+        ],
+        [
+          0,
+          "what-can-you-skip-selling-cash-as-is"
+        ]
+      ],
+      "semanticDifference": "First dedicated HCAD market/appraised value labels and January1 versus current-offer comparison. Distinct from generic cash pricing, net-proceeds comparison and tax-debt resolution. Uses a property-condition hypothetical without invented prices or universal discount. Supports existing cash-offer primary.",
+      "sourceArticlesBeforeBatch": 156,
+      "liveArticlesBeforeBatch": 155,
+      "withdrawn": 1,
+      "pendingValidationPRs": [
+        5,
+        6,
+        7
+      ],
+      "allSellerPagesAndIntentMapReviewed": true
+    },
+    "internalLinks": [
+      "/blog/replace-air-conditioner-before-selling-houston-house/",
+      "/blog/cash-offer-vs-listing-house-houston/",
+      "/blog/sell-house-behind-on-taxes-houston/"
+    ],
+    "attributedCTAs": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post"
+    ]
+  },
+  "mobileQA": {
+    "passed": true,
+    "measurements": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "og": "https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "og": "https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "og": "https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "og": "https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png"
+      }
+    ],
+    "visualReview": "Actual mobile390/desktop1366 full-page screenshots and390/1366cards reviewed. Hero, headings, readable local-overflow tables, FAQ interaction and offer CTAs preserve approved layout.",
+    "screenshotHashes": {
+      "360": "d8f57499607b0dd0d75b3a85630ee655b00e2da0fe70013d78da9ac413650405",
+      "390": "7a22be168c2461f475683295005b15f3f81313dcd4594e3b16983a551956f613",
+      "768": "4ed8fac9610e1945770b7ff9e133a2d9b1ca8715ca6818d7e8157a43c406ec0e",
+      "1366": "4a74d74d3b6e3744ce2082f3ceac9bb33f558ca9640e1fe9ca6c0c078b75df36"
+    }
+  },
+  "sourceHTTPChecks": [
+    {
+      "url": "https://hcad.org/hcad-help/protests-and-corrections/ifile-and-isettle",
+      "http": 200,
+      "bytes": 57112,
+      "checkedAt": "2026-10-20T13:49:01.871463+00:00"
+    },
+    {
+      "url": "https://hcad.org/hcad-resources/reappraisal/2026-reappraisal-values",
+      "http": 200,
+      "bytes": 58350,
+      "checkedAt": "2026-10-20T13:49:01.857119+00:00"
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "slug": "selling-houston-area-house-private-water-well",
+  "intentKey": "houston-area-private-well-sale-lab-result-scope-water-log-handoff",
+  "title": "Selling a Houston-Area House With a Private Water Well",
+  "description": "Selling a Houston-area house with a private well? Separate well logs, lab results and equipment records before comparing your sale options.",
+  "pubDate": "2026-10-20T12:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "tags": [
+    "Houston area",
+    "Harris County",
+    "Fort Bend County",
+    "private water well"
+  ],
+  "primaryKeyword": "selling Houston area house private water well",
+  "supportingKeywords": [
+    "Texas private well records house sale",
+    "water well lab report seller",
+    "well log versus water quality test"
+  ],
+  "image": "/images/selling-houston-area-house-private-water-well.png",
+  "imageAlt": "Illustrative Houston-area brick ranch on a grassy lot with a small closed pump shelter and Well Water Seller Guide headline with the official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does a well log establish that the water is safe to drink today?",
+      "a": "No. A drilling or construction record and a current water-quality laboratory result answer different questions. Ask a qualified professional to interpret what the actual records and tests establish."
+    },
+    {
+      "q": "Where can a Texas seller look for an older well report?",
+      "a": "TCEQ directs owners to Texas Water Development Board data, its Water Well Report Viewer and potentially the local groundwater district. Matching a nearby map point is not enough; verify that a record belongs to the actual well."
+    },
+    {
+      "q": "Who handles testing for a private household well?",
+      "a": "TCEQ places responsibility for regular testing on the private well owner and recommends an accredited drinking-water laboratory. Ask the laboratory or qualified professional about the appropriate scope and sampling instructions."
+    },
+    {
+      "q": "Can I ask about an as-is sale before replacing well equipment?",
+      "a": "You can request a Cash As-Is evaluation and describe the known condition and missing information. A proposal does not certify water quality or waive applicable information duties; buyer and closing requirements still need review."
+    }
+  ],
+  "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+  "runId": "native-daily-20261020T133354Z",
+  "fence": 12,
+  "day": "2026-10-20",
+  "status": "preview",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/selling-fort-bend-house-septic-system/",
+    "/blog/sell-acreage-property-tomball-tx/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+  ],
+  "substantiveDifference": "First dedicated private household well record and lab-result scope guide. Septic page concerns wastewater, acreage page general property fit, and disclosure page knowledge reporting. Water source, log matching and test-scope decisions are different seller questions; no water-safety guarantee.",
+  "sources": [
+    {
+      "url": "https://www.tceq.texas.gov/drinkingwater/my-drinking-water-quality",
+      "title": "TCEQ: How Is My Drinking Water Quality?",
+      "accessedAt": "2026-10-20",
+      "verifiedAt": "2026-10-20T13:46:51.151162+00:00",
+      "publicationDate": "2026-03-31",
+      "reportingPeriod": "Current official/issuing-provider guidance accessed2026-10-20",
+      "geography": "Harris County / Texas / Houston as specified",
+      "unit": null,
+      "figure": null,
+      "method": "Read complete relevant primary-source text in native web; source claims checked against article and FAQ",
+      "claim": "Private well owner responsible for regular water testing; TCEQ recommends accredited drinking-water laboratory. No sale-wide certificate mandate or water-safety conclusion inferred."
+    },
+    {
+      "url": "https://www.tceq.texas.gov/drinkingwater/SWAP/wells.html",
+      "title": "TCEQ: Finding Information about Water Wells in Texas",
+      "accessedAt": "2026-10-20",
+      "verifiedAt": "2026-10-20T13:46:51.151162+00:00",
+      "publicationDate": "2026-03-06",
+      "reportingPeriod": "Current official/issuing-provider guidance accessed2026-10-20",
+      "geography": "Harris County / Texas / Houston as specified",
+      "unit": null,
+      "figure": null,
+      "method": "Read complete relevant primary-source text in native web; source claims checked against article and FAQ",
+      "claim": "Gather construction information; locate TWDB/scanned well reports and potentially local district logs. A construction record is not a current water-quality laboratory result."
+    }
+  ],
+  "imageSha256": "fc992a547d3cc11fb8fa50d072487abb0cb2df6ea1be5455628af5a8c0a5cb3d",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "WELL WATER?|SELLER GUIDE",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-df056af0-019d-47a4-8d4b-e68c67498e0e.png",
+    "backgroundSha256": "9f37ee6565d62c3d9bc921f2a331c95747fb07cb69320346ab41dfae99b282fe",
+    "backgroundPrompt": "Use case: photorealistic-natural. Asset type: original wide 1.9:1 illustrative property photo for a Houston-area private-well seller guide. Modest brick ranch house on RIGHT half on a large grassy rural-edge Harris/Fort Bend style lot, small closed clean well pump shelter beside yard, trees in background, natural late-afternoon daylight. LEFT half shaded leafy negative space for later deterministic logo/headline overlay. Realistic unglamorous Texas property, fictional, no suggestion of confirmed water contamination. No people, text, addresses, signs, logos, exposed dangerous machinery or watermarks.",
+    "illustrative": true,
+    "visualReview": "New final template thumbnails viewed together at600px scale; exact official alpha logo, readable3\u20137word headline, correct1200x630; no logo panel/clipping."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work/existing Netlify allowances; separate native usage pricing unavailable, no services/credits/API purchased."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inboundMessages": 59,
+    "screenedMessages": 54,
+    "keywordScreen": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 3
+      },
+      "condition": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "tenants": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "timing": {
+        "messages": 0,
+        "distinctSellers": 0
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen; categories provisional, not representative demand. No human-context review or topic-specific recurring demand is claimed. No raw conversations or identifying details retained.",
+    "topicOrigin": "Broad offer-price screen informed tax-value comparison; utility/well topics are distinct editorial gaps, not asserted recurring CRM questions. No private example used.",
+    "mode": "read_only"
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "pending initial production inspection; actual future result only",
+      "canonicalURL": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+      "inspectionVerdict": null,
+      "inspectedAt": null,
+      "queries": null,
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null,
+      "reportingPeriod": null,
+      "nextReview": null
+    },
+    "GA4Measurement": {
+      "source": "Existing attribution code preserved; no new-article settled data available",
+      "originalOrganicLandingSessions": null,
+      "ctaEvents": null,
+      "formStarts": null,
+      "rawGenerateLeadEvents": null,
+      "settledKeyEvents": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No real attributed lead observed; no fake submission or CRM write."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+      "source": "Astro built output, actual metadata/schema/link checks and native visual review",
+      "details": {
+        "slug": "selling-houston-area-house-private-water-well",
+        "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+        "http": null,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true,
+          "originalityText": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/selling-fort-bend-house-septic-system/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post"
+        ],
+        "originality": {
+          "maxShared12WordShingles": [
+            [
+              0,
+              "when-to-transfer-utilities-selling-houston-house"
+            ],
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ]
+          ],
+          "semanticDifference": "First dedicated private household well record and lab-result scope guide. Septic page concerns wastewater, acreage page general property fit, and disclosure page knowledge reporting. Water source, log matching and test-scope decisions are different seller questions; no water-safety guarantee.",
+          "sourceArticlesBeforeBatch": 156,
+          "liveArticlesBeforeBatch": 155,
+          "withdrawn": 1,
+          "pendingValidationPRs": [
+            5,
+            6,
+            7
+          ],
+          "allSellerPagesAndIntentMapReviewed": true
+        },
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "fc992a547d3cc11fb8fa50d072487abb0cb2df6ea1be5455628af5a8c0a5cb3d"
+      }
+    }
+  },
+  "protectedSourceChanges": [],
+  "social": {
+    "slug": "selling-houston-area-house-private-water-well",
+    "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+    "image": "https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png",
+    "status": "draft_only",
+    "facebook": "Selling a Houston-Area House With a Private Water Well\n\nSelling a Houston-area house with a private well? Separate well logs, lab results and equipment records before comparing your sale options.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+    "instagram": "Selling a Houston-Area House With a Private Water Well\n\nSelling a Houston-area house with a private well? Separate well logs, lab results and equipment records before comparing your sale options.\n\nRead the guide: https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Houston-Area House With a Private Water Well\n\nSelling a Houston-area house with a private well? Separate well logs, lab results and equipment records before comparing your sale options.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+    "googleBusinessProfile": "Selling a Houston-Area House With a Private Water Well\n\nSelling a Houston-area house with a private well? Separate well logs, lab results and equipment records before comparing your sale options.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+    "promotionalExcerpt": "Selling a Houston-area house with a private well? Separate well logs, lab results and equipment records before comparing your sale options.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "localQA": {
+    "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+    "checks": {
+      "canonical": true,
+      "metadata": true,
+      "sharing": true,
+      "indexability": true,
+      "schema": true,
+      "faq": true,
+      "image": true,
+      "internalLinks": true,
+      "sellerPath": true,
+      "sitemap": true,
+      "rss": true,
+      "blogCard": true,
+      "robotsCrawlable": true,
+      "tracking": true,
+      "mobileTestedHTMLParity": true,
+      "originalityText": true
+    },
+    "originality": {
+      "maxShared12WordShingles": [
+        [
+          0,
+          "when-to-transfer-utilities-selling-houston-house"
+        ],
+        [
+          0,
+          "what-happens-back-taxes-when-you-sell"
+        ],
+        [
+          0,
+          "what-can-you-skip-selling-cash-as-is"
+        ]
+      ],
+      "semanticDifference": "First dedicated private household well record and lab-result scope guide. Septic page concerns wastewater, acreage page general property fit, and disclosure page knowledge reporting. Water source, log matching and test-scope decisions are different seller questions; no water-safety guarantee.",
+      "sourceArticlesBeforeBatch": 156,
+      "liveArticlesBeforeBatch": 155,
+      "withdrawn": 1,
+      "pendingValidationPRs": [
+        5,
+        6,
+        7
+      ],
+      "allSellerPagesAndIntentMapReviewed": true
+    },
+    "internalLinks": [
+      "/blog/selling-fort-bend-house-septic-system/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/sell-house-needs-major-repairs-houston/"
+    ],
+    "attributedCTAs": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post"
+    ]
+  },
+  "mobileQA": {
+    "passed": true,
+    "measurements": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "og": "https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "og": "https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "og": "https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "og": "https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png"
+      }
+    ],
+    "visualReview": "Actual mobile390/desktop1366 full-page screenshots and390/1366cards reviewed. Hero, headings, readable local-overflow tables, FAQ interaction and offer CTAs preserve approved layout.",
+    "screenshotHashes": {
+      "360": "d935708ba4604e67f064a90d9137d0243213850079c9a8861f4b478c8cc19a5d",
+      "390": "2f10dbfa75833e97579e29e7eb7bb1dc9489e0e5f30c50e2f9434c707e8f4672",
+      "768": "bf3c8e257a9344f502a40bb3d56de6bc5392d9d0982f461a65196d92c8db17cc",
+      "1366": "ed376441cac00d70a56531df515142dd58cb1f2117d66e240badc02258c2b391"
+    }
+  },
+  "sourceHTTPChecks": [
+    {
+      "url": "https://www.tceq.texas.gov/drinkingwater/my-drinking-water-quality",
+      "http": 200,
+      "bytes": 60006,
+      "checkedAt": "2026-10-20T13:49:02.031519+00:00"
+    },
+    {
+      "url": "https://www.tceq.texas.gov/drinkingwater/SWAP/wells.html",
+      "http": 200,
+      "bytes": 55068,
+      "checkedAt": "2026-10-20T13:49:01.963891+00:00"
+    }
+  ]
+}
