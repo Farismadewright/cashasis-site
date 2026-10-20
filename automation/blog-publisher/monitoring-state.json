@@ -6598,7 +6598,10 @@
     "ownerNotification": "none: routine success and normal initial discovery; no confirmed persistent failure/lead change/sustained gain",
     "monitoringEvidence": "automation/blog-publisher/runs/2026-10-20.json",
     "completedAt": "2026-10-20T13:58:07.501382+00:00",
-    "bookkeepingCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df"
+    "bookkeepingCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df",
+    "bookkeepingDeployId": "6ad773b8242b1829db9e9b68",
+    "bookkeepingDeployCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df",
+    "bookkeepingDeployReadyVerifiedAt": "2026-10-20T14:00:16.456Z"
   },
   "now": "2026-10-20T13:58:07.501382+00:00"
 }
