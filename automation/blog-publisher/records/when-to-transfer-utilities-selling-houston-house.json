@@ -1,0 +1,440 @@
+{
+  "slug": "when-to-transfer-utilities-selling-houston-house",
+  "intentKey": "houston-seller-utility-service-stop-date-possession-inspection-handoff",
+  "title": "Selling a Houston House: When Should Utilities Transfer?",
+  "description": "Plan utility service around your Houston house sale. Coordinate inspections, possession and provider stop/start dates without assuming signing ends every bill.",
+  "pubDate": "2026-10-20T12:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "tags": [
+    "Houston",
+    "closing preparation",
+    "seller utilities"
+  ],
+  "primaryKeyword": "when to transfer utilities selling Houston house",
+  "supportingKeywords": [
+    "turn off utilities before closing Houston",
+    "seller electricity move out date",
+    "water service house sale handoff"
+  ],
+  "image": "/images/when-to-transfer-utilities-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston brick house with a closed electric meter and Selling Soon Utility Plan headline beneath the official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Should I shut off utilities as soon as I sign sale papers?",
+      "a": "Confirm the agreement, remaining property access, funding and possession arrangements first. A signing appointment alone is not a service-handoff plan. Coordinate dates with the closing team, buyer and actual providers."
+    },
+    {
+      "q": "Does changing a billing address stop electricity service?",
+      "a": "Do not assume so. Reliant's account guidance distinguishes the mailing address from the service address and says a billing-address change does not change where electricity is supplied. Confirm your own provider's stop or transfer process."
+    },
+    {
+      "q": "Will one utility-transfer request handle water and electricity?",
+      "a": "Do not assume one request covers different services. Identify who supplies and bills each account, then obtain separate confirmations where required. A Houston mailing address alone does not establish your water provider."
+    },
+    {
+      "q": "Can I request a Cash As-Is review if utilities are already off?",
+      "a": "Yes. Explain which services are off and any known condition or access issue before a visit. Ask what evaluation is possible; do not energize damaged equipment or promise every system has been tested."
+    }
+  ],
+  "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+  "runId": "native-daily-20261020T133354Z",
+  "fence": 12,
+  "day": "2026-10-20",
+  "status": "preview",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/cash-house-sale-timeline-houston/",
+    "/blog/selling-houston-house-from-out-of-state-signing/",
+    "/blog/vacant-house-insurance-while-selling-houston/"
+  ],
+  "substantiveDifference": "First dedicated provider-account stop/start and possession/inspection handoff worksheet, distinguishing billing-address change from service transfer. Existing timeline/signing/vacancy pages do not explain provider requests, final statements or change-of-date reconciliation.",
+  "sources": [
+    {
+      "url": "https://pwehelp.houstontx.gov/contactus/",
+      "title": "City of Houston: Contact Us",
+      "accessedAt": "2026-10-20",
+      "verifiedAt": "2026-10-20T13:46:51.151162+00:00",
+      "publicationDate": null,
+      "reportingPeriod": "Current official/issuing-provider guidance accessed2026-10-20",
+      "geography": "Harris County / Texas / Houston as specified",
+      "unit": null,
+      "figure": null,
+      "method": "Read complete relevant primary-source text in native web; source claims checked against article and FAQ",
+      "claim": "Official directory identifies water-billing customer-service channel; not evidence that every Houston mailing address receives city water."
+    },
+    {
+      "url": "https://www.reliant.com/en/residential/help-support/customer-resources/faqs/account-management",
+      "title": "Reliant: Account Management FAQs",
+      "accessedAt": "2026-10-20",
+      "verifiedAt": "2026-10-20T13:46:51.151162+00:00",
+      "publicationDate": null,
+      "reportingPeriod": "Current official/issuing-provider guidance accessed2026-10-20",
+      "geography": "Harris County / Texas / Houston as specified",
+      "unit": null,
+      "figure": null,
+      "method": "Read complete relevant primary-source text in native web; source claims checked against article and FAQ",
+      "claim": "Changing billing/mailing address does not change service location. This is Reliant guidance, not a universal provider rule."
+    },
+    {
+      "url": "https://www.reliant.com/en/moving/start-or-transfer-service/transfer-service",
+      "title": "Reliant: Transfer Electricity Service",
+      "accessedAt": "2026-10-20",
+      "verifiedAt": "2026-10-20T13:46:51.151162+00:00",
+      "publicationDate": null,
+      "reportingPeriod": "Current official/issuing-provider guidance accessed2026-10-20",
+      "geography": "Harris County / Texas / Houston as specified",
+      "unit": null,
+      "figure": null,
+      "method": "Read complete relevant primary-source text in native web; source claims checked against article and FAQ",
+      "claim": "Reliant transfer process selects move-out and move-in dates and describes final billing at old address; no generic same-day, fee-free or automatic buyer-account guarantee is made."
+    }
+  ],
+  "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "SELLING SOON?|UTILITY PLAN",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-14487604-0bec-45b5-893e-94ae15bb7cac.png",
+    "backgroundSha256": "10c4906047e78234a49a9ec7df630441f3df2378f42c50cd5902b8b6117df3d6",
+    "backgroundPrompt": "Use case: photorealistic-natural. Asset type: original wide 1.9:1 illustrative property background for a Houston seller utility-handoff guide. Older Houston cream brick house on RIGHT half, side wall with a small closed ordinary electric meter and intact simple side entry, modest front yard in natural daylight. LEFT half deep shade under trees and quiet negative space for later deterministic brand overlay. Realistic intact residential setting, no open electrical equipment, exposed wires, water leaks or staged hazards. Fictional property, no people, text, addresses, signs, logos or watermark.",
+    "illustrative": true,
+    "visualReview": "New final template thumbnails viewed together at600px scale; exact official alpha logo, readable3\u20137word headline, correct1200x630; no logo panel/clipping."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work/existing Netlify allowances; separate native usage pricing unavailable, no services/credits/API purchased."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inboundMessages": 59,
+    "screenedMessages": 54,
+    "keywordScreen": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 3
+      },
+      "condition": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "tenants": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "timing": {
+        "messages": 0,
+        "distinctSellers": 0
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen; categories provisional, not representative demand. No human-context review or topic-specific recurring demand is claimed. No raw conversations or identifying details retained.",
+    "topicOrigin": "Broad offer-price screen informed tax-value comparison; utility/well topics are distinct editorial gaps, not asserted recurring CRM questions. No private example used.",
+    "mode": "read_only"
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "pending initial production inspection; actual future result only",
+      "canonicalURL": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+      "inspectionVerdict": null,
+      "inspectedAt": null,
+      "queries": null,
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null,
+      "reportingPeriod": null,
+      "nextReview": null
+    },
+    "GA4Measurement": {
+      "source": "Existing attribution code preserved; no new-article settled data available",
+      "originalOrganicLandingSessions": null,
+      "ctaEvents": null,
+      "formStarts": null,
+      "rawGenerateLeadEvents": null,
+      "settledKeyEvents": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No real attributed lead observed; no fake submission or CRM write."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+      "source": "Astro built output, actual metadata/schema/link checks and native visual review",
+      "details": {
+        "slug": "when-to-transfer-utilities-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+        "http": null,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true,
+          "originalityText": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/sell-house-with-tenants-houston/",
+          "/blog/vacant-house-insurance-while-selling-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
+        ],
+        "originality": {
+          "maxShared12WordShingles": [
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ],
+            [
+              0,
+              "we-buy-houses-houston"
+            ]
+          ],
+          "semanticDifference": "First dedicated provider-account stop/start and possession/inspection handoff worksheet, distinguishing billing-address change from service transfer. Existing timeline/signing/vacancy pages do not explain provider requests, final statements or change-of-date reconciliation.",
+          "sourceArticlesBeforeBatch": 156,
+          "liveArticlesBeforeBatch": 155,
+          "withdrawn": 1,
+          "pendingValidationPRs": [
+            5,
+            6,
+            7
+          ],
+          "allSellerPagesAndIntentMapReviewed": true
+        },
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a"
+      }
+    }
+  },
+  "protectedSourceChanges": [],
+  "social": {
+    "slug": "when-to-transfer-utilities-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "Selling a Houston House: When Should Utilities Transfer?\n\nPlan utility service around your Houston house sale. Coordinate inspections, possession and provider stop/start dates without assuming signing ends every bill.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "instagram": "Selling a Houston House: When Should Utilities Transfer?\n\nPlan utility service around your Houston house sale. Coordinate inspections, possession and provider stop/start dates without assuming signing ends every bill.\n\nRead the guide: https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Houston House: When Should Utilities Transfer?\n\nPlan utility service around your Houston house sale. Coordinate inspections, possession and provider stop/start dates without assuming signing ends every bill.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "googleBusinessProfile": "Selling a Houston House: When Should Utilities Transfer?\n\nPlan utility service around your Houston house sale. Coordinate inspections, possession and provider stop/start dates without assuming signing ends every bill.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "promotionalExcerpt": "Plan utility service around your Houston house sale. Coordinate inspections, possession and provider stop/start dates without assuming signing ends every bill.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ],
+    "publishAllowed": false
+  },
+  "localQA": {
+    "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+    "checks": {
+      "canonical": true,
+      "metadata": true,
+      "sharing": true,
+      "indexability": true,
+      "schema": true,
+      "faq": true,
+      "image": true,
+      "internalLinks": true,
+      "sellerPath": true,
+      "sitemap": true,
+      "rss": true,
+      "blogCard": true,
+      "robotsCrawlable": true,
+      "tracking": true,
+      "mobileTestedHTMLParity": true,
+      "originalityText": true
+    },
+    "originality": {
+      "maxShared12WordShingles": [
+        [
+          0,
+          "what-happens-back-taxes-when-you-sell"
+        ],
+        [
+          0,
+          "what-can-you-skip-selling-cash-as-is"
+        ],
+        [
+          0,
+          "we-buy-houses-houston"
+        ]
+      ],
+      "semanticDifference": "First dedicated provider-account stop/start and possession/inspection handoff worksheet, distinguishing billing-address change from service transfer. Existing timeline/signing/vacancy pages do not explain provider requests, final statements or change-of-date reconciliation.",
+      "sourceArticlesBeforeBatch": 156,
+      "liveArticlesBeforeBatch": 155,
+      "withdrawn": 1,
+      "pendingValidationPRs": [
+        5,
+        6,
+        7
+      ],
+      "allSellerPagesAndIntentMapReviewed": true
+    },
+    "internalLinks": [
+      "/blog/cash-house-sale-timeline-houston/",
+      "/blog/sell-house-with-tenants-houston/",
+      "/blog/vacant-house-insurance-while-selling-houston/"
+    ],
+    "attributedCTAs": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
+    ]
+  },
+  "mobileQA": {
+    "passed": true,
+    "measurements": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 266,
+        "table": 266,
+        "tableScrollSafe": true,
+        "image": 266,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 296,
+        "table": 296,
+        "tableScrollSafe": true,
+        "image": 296,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png"
+      }
+    ],
+    "visualReview": "Actual mobile390/desktop1366 full-page screenshots and390/1366cards reviewed. Hero, headings, readable local-overflow tables, FAQ interaction and offer CTAs preserve approved layout.",
+    "screenshotHashes": {
+      "360": "9b872a7565e99acf9eb2ca83b07c2625ae044ded25e30a3246592bb87905e424",
+      "390": "e6f57682b627928a91c64d57a1d38233932fce601996280b4586b49fc89beae1",
+      "768": "e4658cda89716bce3061a1286cc3b6191a6758b975a11608e23f1a75b193f2c4",
+      "1366": "0ec7932a9ec054d22b18a6d27324367dd7975a391b5d30ac5fef917f0d74df0f"
+    }
+  },
+  "sourceHTTPChecks": [
+    {
+      "url": "https://www.reliant.com/en/moving/start-or-transfer-service/transfer-service",
+      "http": 200,
+      "bytes": 223765,
+      "checkedAt": "2026-10-20T13:49:02.536662+00:00"
+    },
+    {
+      "url": "https://www.reliant.com/en/residential/help-support/customer-resources/faqs/account-management",
+      "http": 200,
+      "bytes": 365473,
+      "checkedAt": "2026-10-20T13:49:01.437140+00:00"
+    },
+    {
+      "url": "https://pwehelp.houstontx.gov/contactus/",
+      "http": 200,
+      "bytes": 32787,
+      "checkedAt": "2026-10-20T13:49:01.316625+00:00"
+    }
+  ]
+}
