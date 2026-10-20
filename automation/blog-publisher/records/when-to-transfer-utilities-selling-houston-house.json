@@ -42,9 +42,9 @@
   "runId": "native-daily-20261020T133354Z",
   "fence": 12,
   "day": "2026-10-20",
-  "status": "preview",
-  "commit": null,
-  "deployId": null,
+  "status": "published",
+  "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+  "deployId": "6ad7729f0fdb0c464fb94995",
   "nearestOverlaps": [
     "/blog/cash-house-sale-timeline-houston/",
     "/blog/selling-houston-house-from-out-of-state-signing/",
@@ -132,8 +132,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
   "sellerVoice": {
     "sampleMessages": 500,
@@ -175,20 +175,24 @@
       "sellerConversionPath",
       "factualSources"
     ],
-    "previewNoindex": "pending",
-    "productionIndexability": "pending",
+    "previewNoindex": "pass",
+    "productionIndexability": "pass",
     "searchConsoleMonitoring": {
-      "availability": "pending initial production inspection; actual future result only",
+      "availability": "Actual initial Google URL Inspection result retained",
       "canonicalURL": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
-      "inspectionVerdict": null,
-      "inspectedAt": null,
+      "inspectionVerdict": "NEUTRAL",
+      "inspectedAt": "2026-10-20T13:57:52.422Z",
       "queries": null,
       "impressions": null,
       "clicks": null,
       "ctr": null,
       "position": null,
       "reportingPeriod": null,
-      "nextReview": null
+      "nextReview": "2026-10-23T13:55:13.710000+00:00",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "source": "google_url_inspection"
     },
     "GA4Measurement": {
       "source": "Existing attribution code preserved; no new-article settled data available",
@@ -436,5 +440,149 @@
       "bytes": 32787,
       "checkedAt": "2026-10-20T13:49:01.316625+00:00"
     }
-  ]
+  ],
+  "preview": {
+    "commit": "fede8347e38f32874ac242ae165a819dcd62160f",
+    "deployId": "6ad771e779838c321add9e9a",
+    "state": "ready",
+    "exactCommitReady": true,
+    "noindexVerified": true,
+    "checks": {
+      "slug": "when-to-transfer-utilities-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+      "checkedAt": "2026-10-20T13:53:03.293802+00:00",
+      "http": 200,
+      "checks": {
+        "canonical": true,
+        "metadata": true,
+        "sharing": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "robotsCrawlable": true,
+        "tracking": true,
+        "mobileTestedHTMLParity": true
+      },
+      "robots": " noindex",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/blog/cash-house-sale-timeline-houston/",
+        "/blog/sell-house-with-tenants-houston/",
+        "/blog/vacant-house-insurance-while-selling-houston/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
+      ],
+      "originality": null,
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a"
+    },
+    "verifiedAt": "2026-10-20T13:53:03.293802+00:00"
+  },
+  "publishedAt": "2026-10-20T13:55:13.710Z",
+  "verifiedAt": "2026-10-20T13:56:10.251703+00:00",
+  "pr": 15,
+  "production": {
+    "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+    "deployId": "6ad7729f0fdb0c464fb94995",
+    "state": "ready",
+    "context": "production",
+    "exactCommitMatches": true,
+    "publishedAt": "2026-10-20T13:55:13.710Z",
+    "liveChecks": {
+      "slug": "when-to-transfer-utilities-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+      "checkedAt": "2026-10-20T13:56:10.251703+00:00",
+      "http": 200,
+      "checks": {
+        "canonical": true,
+        "metadata": true,
+        "sharing": true,
+        "indexability": true,
+        "schema": true,
+        "faq": true,
+        "image": true,
+        "internalLinks": true,
+        "sellerPath": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "robotsCrawlable": true,
+        "tracking": true,
+        "mobileTestedHTMLParity": true
+      },
+      "robots": " ",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "internalLinks": [
+        "/blog/cash-house-sale-timeline-houston/",
+        "/blog/sell-house-with-tenants-houston/",
+        "/blog/vacant-house-insurance-while-selling-houston/"
+      ],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
+      ],
+      "originality": null,
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a"
+    }
+  },
+  "googleInspection": {
+    "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-10-20T13:57:52.422Z",
+    "siteUrl": "https://www.cashasis.com/",
+    "inspectionUrl": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hH7yRkoOlLwBExkICzfDjw&utm_medium=link&utm_source=api"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-20",
+    "errors": []
+  },
+  "semanticReview": {
+    "sourceArticlesBeforeBatch": 156,
+    "liveBeforeBatch": 155,
+    "pendingPRs": [
+      5,
+      6,
+      7
+    ],
+    "protectedSellerPagesReviewed": true,
+    "intentMapReviewed": true,
+    "uniqueSellerQuestion": "when to transfer utilities selling Houston house",
+    "substantiveDifference": "First dedicated provider-account stop/start and possession/inspection handoff worksheet, distinguishing billing-address change from service transfer. Existing timeline/signing/vacancy pages do not explain provider requests, final statements or change-of-date reconciliation.",
+    "primaryAcquisitionPath": "https://www.cashasis.com via two attributed contextual offer CTAs",
+    "noCityOrSynonymSwap": true
+  }
 }

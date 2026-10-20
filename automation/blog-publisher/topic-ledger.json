@@ -340,5 +340,62 @@
     "pr": 14,
     "publishedAt": "2026-10-19T14:06:14.465Z",
     "imageSha256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab"
+  },
+  {
+    "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+    "intentKey": "harris-county-tax-market-appraised-value-date-versus-current-cash-proposal",
+    "day": "2026-10-20",
+    "runId": "native-daily-20261020T133354Z",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+    "nearestOverlaps": [
+      "/blog/how-cash-offer-house-works-houston/",
+      "/blog/cash-offer-vs-listing-house-houston/",
+      "/blog/sell-house-behind-on-taxes-houston/"
+    ],
+    "substantiveDifference": "First dedicated HCAD market/appraised value labels and January1 versus current-offer comparison. Distinct from generic cash pricing, net-proceeds comparison and tax-debt resolution. Uses a property-condition hypothetical without invented prices or universal discount. Supports existing cash-offer primary.",
+    "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+    "deployId": "6ad7729f0fdb0c464fb94995",
+    "pr": 15,
+    "publishedAt": "2026-10-20T13:55:13.710Z",
+    "imageSha256": "65343d3d1cac5dd42a3434e6a1d39f9778f153bfff40658d1872079bd1551d90"
+  },
+  {
+    "slug": "when-to-transfer-utilities-selling-houston-house",
+    "intentKey": "houston-seller-utility-service-stop-date-possession-inspection-handoff",
+    "day": "2026-10-20",
+    "runId": "native-daily-20261020T133354Z",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "nearestOverlaps": [
+      "/blog/cash-house-sale-timeline-houston/",
+      "/blog/selling-houston-house-from-out-of-state-signing/",
+      "/blog/vacant-house-insurance-while-selling-houston/"
+    ],
+    "substantiveDifference": "First dedicated provider-account stop/start and possession/inspection handoff worksheet, distinguishing billing-address change from service transfer. Existing timeline/signing/vacancy pages do not explain provider requests, final statements or change-of-date reconciliation.",
+    "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+    "deployId": "6ad7729f0fdb0c464fb94995",
+    "pr": 15,
+    "publishedAt": "2026-10-20T13:55:13.710Z",
+    "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a"
+  },
+  {
+    "slug": "selling-houston-area-house-private-water-well",
+    "intentKey": "houston-area-private-well-sale-lab-result-scope-water-log-handoff",
+    "day": "2026-10-20",
+    "runId": "native-daily-20261020T133354Z",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+    "nearestOverlaps": [
+      "/blog/selling-fort-bend-house-septic-system/",
+      "/blog/sell-acreage-property-tomball-tx/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+    ],
+    "substantiveDifference": "First dedicated private household well record and lab-result scope guide. Septic page concerns wastewater, acreage page general property fit, and disclosure page knowledge reporting. Water source, log matching and test-scope decisions are different seller questions; no water-safety guarantee.",
+    "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+    "deployId": "6ad7729f0fdb0c464fb94995",
+    "pr": 15,
+    "publishedAt": "2026-10-20T13:55:13.710Z",
+    "imageSha256": "fc992a547d3cc11fb8fa50d072487abb0cb2df6ea1be5455628af5a8c0a5cb3d"
   }
 ]

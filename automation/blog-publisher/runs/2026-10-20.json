@@ -1,0 +1,1548 @@
+{
+  "status": "pass",
+  "runId": "native-daily-20261020T133354Z",
+  "fence": 12,
+  "day": "2026-10-20",
+  "execution": "actual_native_unattended_run",
+  "startedAt": "2026-10-20T13:33:54Z",
+  "completedAt": "2026-10-20T13:58:07.554541+00:00",
+  "published": 3,
+  "held": 0,
+  "rejected": 0,
+  "articles": [
+    {
+      "title": "HCAD Value vs. a Cash Offer: A Harris County Seller's Guide",
+      "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+      "record": "automation/blog-publisher/records/hcad-tax-value-vs-cash-offer-harris-county.json"
+    },
+    {
+      "title": "Selling a Houston House: When Should Utilities Transfer?",
+      "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+      "record": "automation/blog-publisher/records/when-to-transfer-utilities-selling-houston-house.json"
+    },
+    {
+      "title": "Selling a Houston-Area House With a Private Water Well",
+      "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+      "record": "automation/blog-publisher/records/selling-houston-area-house-private-water-well.json"
+    }
+  ],
+  "prURL": "https://github.com/Farismadewright/cashasis-site/pull/15",
+  "previewCommit": "fede8347e38f32874ac242ae165a819dcd62160f",
+  "previewDeployId": "6ad771e779838c321add9e9a",
+  "productionCommit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+  "productionDeployId": "6ad7729f0fdb0c464fb94995",
+  "productionDeployState": "ready",
+  "productionDeployCommitMatches": true,
+  "publishedAt": "2026-10-20T13:55:13.710Z",
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-20",
+    "errors": []
+  },
+  "preview": {
+    "passed": true,
+    "mode": "preview",
+    "origin": "https://6ad771e779838c321add9e9a--cashasis-blog.netlify.app",
+    "checkedAt": "2026-10-20T13:53:03.293802+00:00",
+    "articles": [
+      {
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "checkedAt": "2026-10-20T13:53:03.293802+00:00",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        },
+        "robots": " noindex",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/replace-air-conditioner-before-selling-houston-house/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post"
+        ],
+        "originality": null,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "65343d3d1cac5dd42a3434e6a1d39f9778f153bfff40658d1872079bd1551d90"
+      },
+      {
+        "slug": "when-to-transfer-utilities-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "checkedAt": "2026-10-20T13:53:03.293802+00:00",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        },
+        "robots": " noindex",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/sell-house-with-tenants-houston/",
+          "/blog/vacant-house-insurance-while-selling-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
+        ],
+        "originality": null,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a"
+      },
+      {
+        "slug": "selling-houston-area-house-private-water-well",
+        "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "checkedAt": "2026-10-20T13:53:03.293802+00:00",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        },
+        "robots": " noindex",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/selling-fort-bend-house-septic-system/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post"
+        ],
+        "originality": null,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "fc992a547d3cc11fb8fa50d072487abb0cb2df6ea1be5455628af5a8c0a5cb3d"
+      }
+    ],
+    "resourceCount": 38,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-house-sale-timeline-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 404,
+        "error": null
+      },
+      {
+        "path": "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/replace-air-conditioner-before-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-behind-on-taxes-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-needs-major-repairs-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-with-tenants-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-fort-bend-house-septic-system/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-area-house-private-water-well/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/vacant-house-insurance-while-selling-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/when-to-transfer-utilities-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/favicon.ico",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/apple-touch-icon.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-16.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-32.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/hcad-tax-value-vs-cash-offer-harris-county.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-houston-area-house-private-water-well.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/when-to-transfer-utilities-selling-houston-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "errors": [],
+    "protectedSourcesChanged": [],
+    "noFakeLeads": true
+  },
+  "production": {
+    "passed": true,
+    "mode": "production",
+    "origin": "https://www.cashasis.com",
+    "checkedAt": "2026-10-20T13:56:10.251703+00:00",
+    "articles": [
+      {
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "checkedAt": "2026-10-20T13:56:10.251703+00:00",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/replace-air-conditioner-before-selling-houston-house/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post"
+        ],
+        "originality": null,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "65343d3d1cac5dd42a3434e6a1d39f9778f153bfff40658d1872079bd1551d90"
+      },
+      {
+        "slug": "when-to-transfer-utilities-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "checkedAt": "2026-10-20T13:56:10.251703+00:00",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/sell-house-with-tenants-houston/",
+          "/blog/vacant-house-insurance-while-selling-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
+        ],
+        "originality": null,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a"
+      },
+      {
+        "slug": "selling-houston-area-house-private-water-well",
+        "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "checkedAt": "2026-10-20T13:56:10.251703+00:00",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/selling-fort-bend-house-septic-system/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post"
+        ],
+        "originality": null,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "fc992a547d3cc11fb8fa50d072487abb0cb2df6ea1be5455628af5a8c0a5cb3d"
+      }
+    ],
+    "resourceCount": 38,
+    "resources": [
+      {
+        "path": "/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/accessibility",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-house-sale-timeline-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/cash-offer-vs-listing-house-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/earnest-money-option-fee-texas-cash-sale/",
+        "http": 404,
+        "error": null
+      },
+      {
+        "path": "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/replace-air-conditioner-before-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-behind-on-taxes-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-needs-major-repairs-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/sell-house-with-tenants-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-fort-bend-house-septic-system/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/selling-houston-area-house-private-water-well/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/vacant-house-insurance-while-selling-houston/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/blog/when-to-transfer-utilities-selling-houston-house/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/careers",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/disclaimer",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/favicon.ico",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/fix-it-or-sell-it/",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/apple-touch-icon.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-16.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/favicon-32.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/hcad-tax-value-vs-cash-offer-harris-county.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/selling-houston-area-house-private-water-well.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/images/when-to-transfer-utilities-selling-houston-house.png",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/lending-partners",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/privacy",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/referrals",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/robots.txt",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/rss.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sitemap-index.xml",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/sms-tcpa",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/styles.css",
+        "http": 200,
+        "error": null
+      },
+      {
+        "path": "/terms",
+        "http": 200,
+        "error": null
+      }
+    ],
+    "errors": [],
+    "protectedSourcesChanged": [],
+    "noFakeLeads": true
+  },
+  "localQA": {
+    "passed": true,
+    "mode": "local",
+    "origin": "",
+    "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+    "articles": [
+      {
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+        "http": null,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true,
+          "originalityText": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/replace-air-conditioner-before-selling-houston-house/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=hcad-tax-value-vs-cash-offer-harris-county&utm_term=post"
+        ],
+        "originality": {
+          "maxShared12WordShingles": [
+            [
+              0,
+              "when-to-transfer-utilities-selling-houston-house"
+            ],
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ]
+          ],
+          "semanticDifference": "First dedicated HCAD market/appraised value labels and January1 versus current-offer comparison. Distinct from generic cash pricing, net-proceeds comparison and tax-debt resolution. Uses a property-condition hypothetical without invented prices or universal discount. Supports existing cash-offer primary.",
+          "sourceArticlesBeforeBatch": 156,
+          "liveArticlesBeforeBatch": 155,
+          "withdrawn": 1,
+          "pendingValidationPRs": [
+            5,
+            6,
+            7
+          ],
+          "allSellerPagesAndIntentMapReviewed": true
+        },
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "65343d3d1cac5dd42a3434e6a1d39f9778f153bfff40658d1872079bd1551d90"
+      },
+      {
+        "slug": "when-to-transfer-utilities-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+        "http": null,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true,
+          "originalityText": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/sell-house-with-tenants-houston/",
+          "/blog/vacant-house-insurance-while-selling-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
+        ],
+        "originality": {
+          "maxShared12WordShingles": [
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ],
+            [
+              0,
+              "we-buy-houses-houston"
+            ]
+          ],
+          "semanticDifference": "First dedicated provider-account stop/start and possession/inspection handoff worksheet, distinguishing billing-address change from service transfer. Existing timeline/signing/vacancy pages do not explain provider requests, final statements or change-of-date reconciliation.",
+          "sourceArticlesBeforeBatch": 156,
+          "liveArticlesBeforeBatch": 155,
+          "withdrawn": 1,
+          "pendingValidationPRs": [
+            5,
+            6,
+            7
+          ],
+          "allSellerPagesAndIntentMapReviewed": true
+        },
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "b9999ab34d7795969a56804f1640d0dc7bf1d97bd527668cdb7577371373aa8a"
+      },
+      {
+        "slug": "selling-houston-area-house-private-water-well",
+        "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "checkedAt": "2026-10-20T13:49:06.098891+00:00",
+        "http": null,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true,
+          "originalityText": true
+        },
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinks": [
+          "/blog/selling-fort-bend-house-septic-system/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-area-house-private-water-well&utm_term=post"
+        ],
+        "originality": {
+          "maxShared12WordShingles": [
+            [
+              0,
+              "when-to-transfer-utilities-selling-houston-house"
+            ],
+            [
+              0,
+              "what-happens-back-taxes-when-you-sell"
+            ],
+            [
+              0,
+              "what-can-you-skip-selling-cash-as-is"
+            ]
+          ],
+          "semanticDifference": "First dedicated private household well record and lab-result scope guide. Septic page concerns wastewater, acreage page general property fit, and disclosure page knowledge reporting. Water source, log matching and test-scope decisions are different seller questions; no water-safety guarantee.",
+          "sourceArticlesBeforeBatch": 156,
+          "liveArticlesBeforeBatch": 155,
+          "withdrawn": 1,
+          "pendingValidationPRs": [
+            5,
+            6,
+            7
+          ],
+          "allSellerPagesAndIntentMapReviewed": true
+        },
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSha256": "fc992a547d3cc11fb8fa50d072487abb0cb2df6ea1be5455628af5a8c0a5cb3d"
+      }
+    ],
+    "resourceCount": 0,
+    "resources": [],
+    "errors": [],
+    "protectedSourcesChanged": [],
+    "noFakeLeads": true
+  },
+  "mobileCommands": [
+    {
+      "command": [
+        "python",
+        "automation/blog-publisher/scripts/validate_output.py",
+        ".",
+        "hcad-tax-value-vs-cash-offer-harris-county"
+      ],
+      "exitCode": 0,
+      "stdout": "{\n  \"slug\": \"hcad-tax-value-vs-cash-offer-harris-county\",\n  \"technicalResult\": \"pass\",\n  \"errors\": [],\n  \"editorialVisualAndRuntimeReview\": \"required\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "automation/blog-publisher/scripts/mobile_qa.cjs",
+        ".",
+        "/workspace/scratch/dc90fe41c6d8/evidence20/mobile-0",
+        "hcad-tax-value-vs-cash-offer-harris-county"
+      ],
+      "exitCode": 0,
+      "stdout": "[{\"width\":360,\"scroll\":360,\"body\":266,\"table\":266,\"tableScrollSafe\":true,\"image\":266,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/\",\"og\":\"https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png\"},{\"width\":390,\"scroll\":390,\"body\":296,\"table\":296,\"tableScrollSafe\":true,\"image\":296,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/\",\"og\":\"https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png\"},{\"width\":768,\"scroll\":768,\"body\":638,\"table\":638,\"tableScrollSafe\":true,\"image\":638,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/\",\"og\":\"https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png\"},{\"width\":1366,\"scroll\":1366,\"body\":638,\"table\":638,\"tableScrollSafe\":true,\"image\":638,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/\",\"og\":\"https://www.cashasis.com/images/hcad-tax-value-vs-cash-offer-harris-county.png\"}]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "automation/blog-publisher/scripts/validate_output.py",
+        ".",
+        "when-to-transfer-utilities-selling-houston-house"
+      ],
+      "exitCode": 0,
+      "stdout": "{\n  \"slug\": \"when-to-transfer-utilities-selling-houston-house\",\n  \"technicalResult\": \"pass\",\n  \"errors\": [],\n  \"editorialVisualAndRuntimeReview\": \"required\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "automation/blog-publisher/scripts/mobile_qa.cjs",
+        ".",
+        "/workspace/scratch/dc90fe41c6d8/evidence20/mobile-1",
+        "when-to-transfer-utilities-selling-houston-house"
+      ],
+      "exitCode": 0,
+      "stdout": "[{\"width\":360,\"scroll\":360,\"body\":266,\"table\":266,\"tableScrollSafe\":true,\"image\":266,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/\",\"og\":\"https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png\"},{\"width\":390,\"scroll\":390,\"body\":296,\"table\":296,\"tableScrollSafe\":true,\"image\":296,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/\",\"og\":\"https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png\"},{\"width\":768,\"scroll\":768,\"body\":638,\"table\":638,\"tableScrollSafe\":true,\"image\":638,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/\",\"og\":\"https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png\"},{\"width\":1366,\"scroll\":1366,\"body\":638,\"table\":638,\"tableScrollSafe\":true,\"image\":638,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/\",\"og\":\"https://www.cashasis.com/images/when-to-transfer-utilities-selling-houston-house.png\"}]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "automation/blog-publisher/scripts/validate_output.py",
+        ".",
+        "selling-houston-area-house-private-water-well"
+      ],
+      "exitCode": 0,
+      "stdout": "{\n  \"slug\": \"selling-houston-area-house-private-water-well\",\n  \"technicalResult\": \"pass\",\n  \"errors\": [],\n  \"editorialVisualAndRuntimeReview\": \"required\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "automation/blog-publisher/scripts/mobile_qa.cjs",
+        ".",
+        "/workspace/scratch/dc90fe41c6d8/evidence20/mobile-2",
+        "selling-houston-area-house-private-water-well"
+      ],
+      "exitCode": 0,
+      "stdout": "[{\"width\":360,\"scroll\":360,\"body\":266,\"table\":266,\"tableScrollSafe\":true,\"image\":266,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/\",\"og\":\"https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png\"},{\"width\":390,\"scroll\":390,\"body\":296,\"table\":296,\"tableScrollSafe\":true,\"image\":296,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/\",\"og\":\"https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png\"},{\"width\":768,\"scroll\":768,\"body\":638,\"table\":638,\"tableScrollSafe\":true,\"image\":638,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/\",\"og\":\"https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png\"},{\"width\":1366,\"scroll\":1366,\"body\":638,\"table\":638,\"tableScrollSafe\":true,\"image\":638,\"imageLoaded\":1200,\"h1s\":1,\"canonical\":\"https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/\",\"og\":\"https://www.cashasis.com/images/selling-houston-area-house-private-water-well.png\"}]\n",
+      "stderr": ""
+    },
+    {
+      "command": "cards390/1366",
+      "exitCode": 0,
+      "stderr": ""
+    }
+  ],
+  "cards": {
+    "passed": true,
+    "rows": [
+      {
+        "width": 390,
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "imageWidth": 1200
+      },
+      {
+        "width": 390,
+        "slug": "when-to-transfer-utilities-selling-houston-house",
+        "imageWidth": 1200
+      },
+      {
+        "width": 390,
+        "slug": "selling-houston-area-house-private-water-well",
+        "imageWidth": 1200
+      },
+      {
+        "width": 1366,
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "imageWidth": 1200
+      },
+      {
+        "width": 1366,
+        "slug": "when-to-transfer-utilities-selling-houston-house",
+        "imageWidth": 1200
+      },
+      {
+        "width": 1366,
+        "slug": "selling-houston-area-house-private-water-well",
+        "imageWidth": 1200
+      }
+    ]
+  },
+  "sourceHTTP": [
+    {
+      "url": "https://www.reliant.com/en/moving/start-or-transfer-service/transfer-service",
+      "http": 200,
+      "bytes": 223765,
+      "checkedAt": "2026-10-20T13:49:02.536662+00:00"
+    },
+    {
+      "url": "https://www.tceq.texas.gov/drinkingwater/my-drinking-water-quality",
+      "http": 200,
+      "bytes": 60006,
+      "checkedAt": "2026-10-20T13:49:02.031519+00:00"
+    },
+    {
+      "url": "https://www.reliant.com/en/residential/help-support/customer-resources/faqs/account-management",
+      "http": 200,
+      "bytes": 365473,
+      "checkedAt": "2026-10-20T13:49:01.437140+00:00"
+    },
+    {
+      "url": "https://www.tceq.texas.gov/drinkingwater/SWAP/wells.html",
+      "http": 200,
+      "bytes": 55068,
+      "checkedAt": "2026-10-20T13:49:01.963891+00:00"
+    },
+    {
+      "url": "https://hcad.org/hcad-help/protests-and-corrections/ifile-and-isettle",
+      "http": 200,
+      "bytes": 57112,
+      "checkedAt": "2026-10-20T13:49:01.871463+00:00"
+    },
+    {
+      "url": "https://pwehelp.houstontx.gov/contactus/",
+      "http": 200,
+      "bytes": 32787,
+      "checkedAt": "2026-10-20T13:49:01.316625+00:00"
+    },
+    {
+      "url": "https://hcad.org/hcad-resources/reappraisal/2026-reappraisal-values",
+      "http": 200,
+      "bytes": 58350,
+      "checkedAt": "2026-10-20T13:49:01.857119+00:00"
+    }
+  ],
+  "sellerThemes": {
+    "sampleMessages": 500,
+    "inboundMessages": 59,
+    "screenedMessages": 54,
+    "broadPriceScreenMessages": 4,
+    "distinctPriceSellers": 3,
+    "method": "Bounded anonymous keyword screen; provisional categories, not human-reviewed recurring topic-specific demand. Condition/tenant screens each1seller, timing0. No private examples published.",
+    "topicUse": "Broad price comparison informed HCAD question; utilities/well are uncovered editorial support questions."
+  },
+  "commands": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "result": "182Astro pages;195attribution-injected pages;186DNI-prepared pages",
+      "stdoutSha256": "ae4d333b646417e6afa447da0d5aacd4111959215fbb37062c7d37a4556a43c5",
+      "correctiveAttempt": "Overlength draft description shortened before successful build; no failed release or deployment."
+    },
+    {
+      "command": "python -m unittest discover -s tests -p publisher_gate_test.py",
+      "exitCode": 0,
+      "testsPassed": 5
+    },
+    {
+      "command": "node --test tests/blog-publisher.test.mjs",
+      "exitCode": 0,
+      "testsPassed": 3
+    },
+    {
+      "command": "release_gate.py with freshmain activation plus runtime lease, batch and complete durable ledger",
+      "exitCode": 0,
+      "allowed": true
+    },
+    {
+      "command": "monitoring_queue.py before/after actual checks",
+      "exitCode": 0,
+      "actualGoogleInspections": 6
+    }
+  ],
+  "indexing": {
+    "eligibleSitemapURLs": 177,
+    "inspectedEligibleURLs": 177,
+    "confirmedIndexedURLs": 152,
+    "eligibleBlogArticles": 158,
+    "confirmedIndexedBlogArticles": 137,
+    "eligibleOtherPagesIncludingBlogHub": 19,
+    "indexedOtherPages": 15,
+    "latestCoverageCounts": {
+      "Submitted and indexed": 152,
+      "URL is unknown to Google": 18,
+      "Discovered - currently not indexed": 5,
+      "Crawled - currently not indexed": 2
+    },
+    "observationRange": {
+      "earliest": "2026-10-04T18:51:07.839038+00:00",
+      "latest": "2026-10-20T13:58:06.752Z"
+    },
+    "actualInspectionsThisRun": 6,
+    "dueFollowups": 3,
+    "publicationInspections": 3,
+    "historyRowsReconciled": 242,
+    "backlog": 0,
+    "reviewCandidates": [],
+    "note": "Mixed-date retained actual Google URL Inspection results; not every URL checked today. Unknown/pending/new discovery is not rejection. No indexing request or paid shortcut used."
+  },
+  "newPublicationGoogleInspections": [
+    {
+      "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-20T13:57:38.328Z",
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=b2-uFBj1Cd8hWTxZVESVqA&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-20T13:57:52.422Z",
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hH7yRkoOlLwBExkICzfDjw&utm_medium=link&utm_source=api"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-20T13:58:06.752Z",
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ZykuHlqH2YX4nw6R2XmWCw&utm_medium=link&utm_source=api"
+    }
+  ],
+  "dueFollowups": {
+    "actualInspections": [
+      {
+        "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "inspectedAt": "2026-10-20T13:52:02.370Z",
+        "source": "google_url_inspection",
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8dCeyZCd0_PUtZx0vct2Hw&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "inspectedAt": "2026-10-20T13:52:31.079Z",
+        "source": "google_url_inspection",
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=E0cKMv2AWqWWAHhEqCvZdw&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "inspectedAt": "2026-10-20T13:52:16.759Z",
+        "source": "google_url_inspection",
+        "siteUrl": "https://www.cashasis.com/",
+        "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "referringUrls": [],
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ffbr9hYSwVY1xugSef4b8w&utm_medium=link&utm_source=api"
+      }
+    ],
+    "technical": [
+      {
+        "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-20T13:50:25.342914+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sitemap": true,
+        "internalLinks": [
+          "/blog/sell-house-code-violations-houston/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=houston-house-unpermitted-addition-records&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=houston-house-unpermitted-addition-records&utm_term=post"
+        ],
+        "rss": true,
+        "robotsCrawlable": true,
+        "linkedTargets": {
+          "/": 200,
+          "/blog/cash-offer-vs-listing-house-houston/": 200,
+          "/blog/sell-fire-damaged-house-houston/": 200,
+          "/blog/sell-house-code-violations-houston/": 200,
+          "/blog/sell-house-fast-fort-bend-county-tx/": 200,
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/": 200,
+          "/compare-the-net/": 200,
+          "/fix-it-or-sell-it/": 200
+        },
+        "linksHTTP200": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-20T13:50:25.342914+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sitemap": true,
+        "internalLinks": [
+          "/fix-it-or-sell-it/",
+          "/blog/sell-house-fast-fort-bend-county-tx/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-fort-bend-house-septic-system&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-fort-bend-house-septic-system&utm_term=post"
+        ],
+        "rss": true,
+        "robotsCrawlable": true,
+        "linkedTargets": {
+          "/": 200,
+          "/blog/cash-offer-vs-listing-house-houston/": 200,
+          "/blog/sell-fire-damaged-house-houston/": 200,
+          "/blog/sell-house-code-violations-houston/": 200,
+          "/blog/sell-house-fast-fort-bend-county-tx/": 200,
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/": 200,
+          "/compare-the-net/": 200,
+          "/fix-it-or-sell-it/": 200
+        },
+        "linksHTTP200": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-20T13:50:25.342914+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "robots": " ",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sitemap": true,
+        "internalLinks": [
+          "/compare-the-net/",
+          "/blog/sell-fire-damaged-house-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-open-insurance-claim&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-open-insurance-claim&utm_term=post"
+        ],
+        "rss": true,
+        "robotsCrawlable": true,
+        "linkedTargets": {
+          "/": 200,
+          "/blog/cash-offer-vs-listing-house-houston/": 200,
+          "/blog/sell-fire-damaged-house-houston/": 200,
+          "/blog/sell-house-code-violations-houston/": 200,
+          "/blog/sell-house-fast-fort-bend-county-tx/": 200,
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/": 200,
+          "/compare-the-net/": 200,
+          "/fix-it-or-sell-it/": 200
+        },
+        "linksHTTP200": true
+      }
+    ]
+  },
+  "opportunities": {
+    "range": [
+      "2026-09-20",
+      "2026-10-17"
+    ],
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 222,
+      "hasMore": false,
+      "note": "Showing all 222 rows."
+    },
+    "rows": [
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/",
+          "inherited a house full of stuff"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/",
+          "sell fire damage house"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "sell my house fast cypress"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 17.666666666666668
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "we buy houses cypress"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 28.333333333333332
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "cash home buyers katy tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 16.666666666666664
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "cash home buyers missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 15
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast in missouri city"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 24.2
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 16.555555555555557
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "we buy houses missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 15.2
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/",
+          "sell my house fast pasadena tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 13.666666666666666
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/",
+          "sell my house fast in pearland tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/",
+          "sell my house fast sugar land tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 26.666666666666668
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+          "sell my house fast tomball tx"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/",
+          "cash home buyers tomball tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 21
+      }
+    ],
+    "notes": "Small samples; no sustained ranking claim. Priorities remain existing primary city-page alignment/Tomball overlap. No rewrite or new city variant authorized."
+  },
+  "weeklyReview": "Already completed/delivered2026-W43; delivery receipt confirmed from actual prior owner response, no duplicate notification",
+  "monthlyReview": "Not due; firstMonthlyPeriod2026-10",
+  "feedTo": "Existing Lead Acquisition Engine/COO evidence workflow through retained intent-map and weekly/run evidence; no new dashboard or message. No verified organic acquisition/business outcome asserted today.",
+  "externalPaidAPISpendUSD": 0,
+  "nativeAllowanceCost": "Not separately reported; no API/newservice/subscription/credits purchased",
+  "social": "5channels/article saved draft_only; no social-account publication",
+  "privacy": "Read-only GHL; no messages, CRM changes,mark-read or fake leads. No raw private conversations/identifiers/addresses/amounts/unique stories retained publicly.",
+  "protectedSourcesChanged": [],
+  "design": "Current Astro/CSS/layout/forms/officiallogo/SEO/tracking source unchanged; only generated article allowlist adds3slugs. October14 changes preserved.",
+  "scheduleChanged": false,
+  "dailyCap": 3,
+  "withdrawnEarnestArticle": "HTTP404; absent from blog/RSS/sitemap/generatedallowlist; not republished",
+  "notification": {
+    "ownerAlert": "suppressed_routine_success",
+    "reason": "No actionable failure, confirmed persistent indexing problem, sustained ranking gain, verified organic lead change or due weekly/monthly report",
+    "normalInitialUnknown": "Not a rejection or owner alert"
+  },
+  "nativeImages": "3new native backgrounds; approved deterministic renderer/font/logo hashes; unique1200x630PNG hero and OG per article"
+}

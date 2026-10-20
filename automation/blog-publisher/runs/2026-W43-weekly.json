@@ -468,7 +468,10 @@
   },
   "notification": {
     "kind": "requested_weekly_review",
-    "deliveryStatus": "ready_for_owner_response",
-    "deliveredAt": null
+    "deliveryStatus": "delivered_in_prior_owner_response",
+    "deliveredAt": null,
+    "deliveredDate": "2026-10-19",
+    "deliveryConfirmedAt": "2026-10-20T13:58:07.554541+00:00",
+    "deliveryEvidence": "Actual October19 owner response is visible in current conversation, including metrics, publication links and weekly evidence link; exact timestamp unavailable."
   }
 }
