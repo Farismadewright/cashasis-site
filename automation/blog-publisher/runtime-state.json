@@ -3,7 +3,8 @@
     "runId": "native-daily-20261020T133354Z",
     "fence": 12,
     "issuedAt": "2026-10-20T13:35:56.060Z",
-    "expiresAt": "2026-10-20T15:35:56.060Z"
+    "expiresAt": "2026-10-20T13:59:23.569Z",
+    "releasedAt": "2026-10-20T13:59:23.569Z"
   },
   "ledger": [
     {
@@ -416,7 +417,7 @@
       "runId": "native-daily-20261020T133354Z",
       "fence": 12,
       "day": "2026-10-20",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-20T13:39:51.273Z",
       "validationOnly": false,
       "previewCommit": "fede8347e38f32874ac242ae165a819dcd62160f",
@@ -429,7 +430,13 @@
         "errors": [],
         "checkedAt": "2026-10-20T13:54:31.924Z"
       },
-      "pr": 15
+      "pr": 15,
+      "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+      "deployId": "6ad7729f0fdb0c464fb94995",
+      "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+      "publishedAt": "2026-10-20T13:55:13.710Z",
+      "verifiedAt": "2026-10-20T13:59:23.568Z",
+      "evidenceCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df"
     },
     {
       "slug": "when-to-transfer-utilities-selling-houston-house",
@@ -437,7 +444,7 @@
       "runId": "native-daily-20261020T133354Z",
       "fence": 12,
       "day": "2026-10-20",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-20T13:39:51.273Z",
       "validationOnly": false,
       "previewCommit": "fede8347e38f32874ac242ae165a819dcd62160f",
@@ -450,7 +457,13 @@
         "errors": [],
         "checkedAt": "2026-10-20T13:54:31.924Z"
       },
-      "pr": 15
+      "pr": 15,
+      "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+      "deployId": "6ad7729f0fdb0c464fb94995",
+      "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+      "publishedAt": "2026-10-20T13:55:13.710Z",
+      "verifiedAt": "2026-10-20T13:59:23.568Z",
+      "evidenceCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df"
     },
     {
       "slug": "selling-houston-area-house-private-water-well",
@@ -458,7 +471,7 @@
       "runId": "native-daily-20261020T133354Z",
       "fence": 12,
       "day": "2026-10-20",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-20T13:39:51.273Z",
       "validationOnly": false,
       "previewCommit": "fede8347e38f32874ac242ae165a819dcd62160f",
@@ -471,23 +484,28 @@
         "errors": [],
         "checkedAt": "2026-10-20T13:54:31.924Z"
       },
-      "pr": 15
+      "pr": 15,
+      "commit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+      "deployId": "6ad7729f0fdb0c464fb94995",
+      "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+      "publishedAt": "2026-10-20T13:55:13.710Z",
+      "verifiedAt": "2026-10-20T13:59:23.569Z",
+      "evidenceCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261019T134614Z",
-    "fence": 11,
+    "runId": "native-daily-20261020T133354Z",
+    "fence": 12,
     "status": "pass",
-    "day": "2026-10-19",
+    "day": "2026-10-20",
     "published": 3,
     "held": 0,
-    "productionCommit": "bbbf16cbc719532f5af314e16829410d583f1248",
-    "deployId": "6ad623ad6a4e3635ab7179c3",
-    "evidence": "automation/blog-publisher/runs/2026-10-19.json",
-    "bookkeepingCommit": "30e7650927edc119ac19d4ee052494ad22f22da4",
-    "weeklyReview": "automation/blog-publisher/runs/2026-W43-weekly.json",
-    "completedAt": "2026-10-19T14:10:25.883Z"
+    "productionCommit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
+    "deployId": "6ad7729f0fdb0c464fb94995",
+    "evidence": "automation/blog-publisher/runs/2026-10-20.json",
+    "bookkeepingCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df",
+    "completedAt": "2026-10-20T13:59:23.569Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
