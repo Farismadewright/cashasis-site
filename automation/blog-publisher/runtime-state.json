@@ -409,6 +409,36 @@
       "publishedAt": "2026-10-19T14:06:14.465Z",
       "verifiedAt": "2026-10-19T14:10:25.883Z",
       "evidenceCommit": "30e7650927edc119ac19d4ee052494ad22f22da4"
+    },
+    {
+      "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+      "intentKey": "harris-county-tax-market-appraised-value-date-versus-current-cash-proposal",
+      "runId": "native-daily-20261020T133354Z",
+      "fence": 12,
+      "day": "2026-10-20",
+      "status": "reserved",
+      "reservedAt": "2026-10-20T13:39:51.273Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "when-to-transfer-utilities-selling-houston-house",
+      "intentKey": "houston-seller-utility-service-stop-date-possession-inspection-handoff",
+      "runId": "native-daily-20261020T133354Z",
+      "fence": 12,
+      "day": "2026-10-20",
+      "status": "reserved",
+      "reservedAt": "2026-10-20T13:39:51.273Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-area-house-private-water-well",
+      "intentKey": "houston-area-private-well-sale-lab-result-scope-water-log-handoff",
+      "runId": "native-daily-20261020T133354Z",
+      "fence": 12,
+      "day": "2026-10-20",
+      "status": "reserved",
+      "reservedAt": "2026-10-20T13:39:51.273Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
