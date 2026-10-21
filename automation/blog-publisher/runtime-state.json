@@ -498,9 +498,20 @@
       "day": "2026-10-21",
       "runId": "native-daily-20261021T134423Z",
       "fence": 13,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-21T13:49:10.000Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
+      "previewDeployId": "6ad8c9391c33c420f02392ed",
+      "previewVerifiedAt": "2026-10-21T14:18:00.000Z",
+      "noindexPreviewVerified": true,
+      "pr": 18,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-21",
+        "errors": [],
+        "checkedAt": "2026-10-21T14:20:00.000Z"
+      }
     },
     {
       "slug": "selling-houston-house-sewer-line-problem",
@@ -508,9 +519,20 @@
       "day": "2026-10-21",
       "runId": "native-daily-20261021T134423Z",
       "fence": 13,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-21T13:49:10.000Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
+      "previewDeployId": "6ad8c9391c33c420f02392ed",
+      "previewVerifiedAt": "2026-10-21T14:18:00.000Z",
+      "noindexPreviewVerified": true,
+      "pr": 18,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-21",
+        "errors": [],
+        "checkedAt": "2026-10-21T14:20:00.000Z"
+      }
     },
     {
       "slug": "how-to-verify-cash-home-buyer-texas",
@@ -518,9 +540,20 @@
       "day": "2026-10-21",
       "runId": "native-daily-20261021T134423Z",
       "fence": 13,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-21T13:49:10.000Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
+      "previewDeployId": "6ad8c9391c33c420f02392ed",
+      "previewVerifiedAt": "2026-10-21T14:18:00.000Z",
+      "noindexPreviewVerified": true,
+      "pr": 18,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-21",
+        "errors": [],
+        "checkedAt": "2026-10-21T14:20:00.000Z"
+      }
     }
   ],
   "externalApiSpendLimitUSD": 0,
