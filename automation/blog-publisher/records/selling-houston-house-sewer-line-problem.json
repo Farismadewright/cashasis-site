@@ -1,0 +1,263 @@
+{
+  "title": "Selling a Houston House With a Sewer-Line Problem",
+  "description": "Selling a Houston house with backups or a damaged sewer line? Identify the likely boundary, document the scope and compare repair with an as-is sale.",
+  "pubDate": "2026-10-21T12:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Houston",
+    "sewer line",
+    "property condition"
+  ],
+  "primaryKeyword": "sell house with sewer line problem Houston",
+  "supportingKeywords": [
+    "sell house with sewer backup as-is",
+    "Houston private sewer line repair before sale",
+    "sewer camera report selling house"
+  ],
+  "image": "/images/selling-houston-house-sewer-line-problem.png",
+  "imageAlt": "Illustrative Houston brick house with a sewer cleanout and inspection camera beside Sewer Issue Sell As-Is headline and the official transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Can I sell a Houston house with a sewer-line problem?",
+      "a": "Yes. First document what is known, whether the suspected problem is on a private or public segment, and what the buyer is agreeing to accept. A repair, traditional listing and current-condition cash sale carry different costs and timing."
+    },
+    {
+      "q": "Does a sewer camera inspection prove the exact repair cost?",
+      "a": "No. It can document observed conditions and location under its scope, but access, excavation, pipe length, permits and additional findings can change a repair proposal. Ask for the recording and written interpretation."
+    },
+    {
+      "q": "Is every sewer backup the City of Houston's responsibility?",
+      "a": "No. Houston Public Works distinguishes public pipes and right-of-way issues from private-line blockages. Verify the actual location and service provider because municipal, utility-district and private-system boundaries can differ."
+    },
+    {
+      "q": "Does selling as-is mean I can ignore a known sewer issue?",
+      "a": "Do not assume that. Texas disclosure requirements and exemptions depend on the facts and transaction. Describe known conditions honestly and get professional advice when needed."
+    }
+  ],
+  "slug": "selling-houston-house-sewer-line-problem",
+  "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+  "runId": "native-daily-20261021T134423Z",
+  "fence": 13,
+  "day": "2026-10-21",
+  "intentKey": "houston-private-sewer-line-backup-scope-repair-as-is-sale",
+  "status": "preview",
+  "commit": "0a4f42a1994802868b7a45fd7cd23a585726355b",
+  "deployId": "6ad8c7a629238aee5a69fd9b",
+  "preview": {
+    "verifiedAt": "2026-10-21T14:15:00.000Z",
+    "url": "https://6ad8c7a629238aee5a69fd9b--cashasis-blog.netlify.app/blog/selling-houston-house-sewer-line-problem/",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "exactCommit": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+    "heroDimensions": "1200x630",
+    "schemaTypes": ["BlogPosting", "BreadcrumbList", "FAQPage"],
+    "faqCount": 4,
+    "mobileDesktopLayout": "pass",
+    "internalLinks": "pass",
+    "sellerCTA": "pass"
+  },
+  "nearestOverlaps": [
+    "/blog/selling-fort-bend-house-septic-system/",
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+    "/fix-it-or-sell-it/"
+  ],
+  "substantiveDifference": "First public-versus-private sanitary sewer boundary, camera evidence and scope-comparison guide. The septic article covers on-site wastewater; the major-repair and disclosure pages do not explain City sewer cleanout diagnostics or scope limits.",
+  "sources": [
+    {
+      "url": "https://www.houstonpublicworks.org/protect-our-pipes",
+      "title": "Houston Public Works: Protect Our Pipes",
+      "publicationDate": null,
+      "reportingPeriod": "Current City guidance accessed 2026-10-21",
+      "geography": "City of Houston",
+      "unit": null,
+      "figure": null,
+      "claim": "Houston distinguishes public pipes/right-of-way responsibility from private-line blockages and offers a cleanout observation for initial triage.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    },
+    {
+      "url": "https://www.trec.texas.gov/forms/sellers-disclosure-notice",
+      "title": "Texas Real Estate Commission: Seller\u2019s Disclosure Notice",
+      "publicationDate": "2026-05-28",
+      "reportingPeriod": "Current form page accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "TREC identifies the notice as addressing material facts and physical condition for covered previously occupied single-family sales.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    },
+    {
+      "url": "https://www.trec.texas.gov/node/634",
+      "title": "Texas Real Estate Commission Rules",
+      "publicationDate": null,
+      "reportingPeriod": "Current rules accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "TREC inspection rules recognize sewer cameras as specialized tools and TREC adopts a separate hydrostatic-testing addendum when parties agree to that test.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    }
+  ],
+  "imageSha256": "79c160ec34d923df6a1f1df799e9b7ac85cbef3d00ecbf94ab813d3936b3c2cf",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "SEWER ISSUE?|SELL AS-IS?",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-dd6dcfbd-f799-4608-864d-02cd1796b6de.png",
+    "backgroundSha256": "adaf6b55619d8ad2005cf06116364c4c7c1909337e0678ac12175a3d3fc0ae0d",
+    "backgroundPrompt": "Realistic illustrative Houston-area brick house with an outdoor sewer cleanout and drain-inspection camera equipment on the right, dark natural negative space on the left, damp daylight yard, fictional and clean, no people, text, address, logo or watermark.",
+    "illustrative": true,
+    "visualReview": "Full-size and mobile-width review passed: readable 3\u20137 word headline, exact 1200x630, official transparent logo, no block behind logo, property remains visible and no clipping."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing Netlify allowances; no service, credit, subscription or paid API purchased."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pass",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inboundMessages": 58,
+    "screenedMessages": 56,
+    "keywordScreen": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 4
+      },
+      "condition": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "tenants": {
+        "messages": 0,
+        "distinctSellers": 0
+      },
+      "timing": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen; categories provisional, not representative demand. No human-context or topic-specific recurrence claim. No raw conversation, identifying detail, address, private amount or unique story retained.",
+    "mode": "read_only",
+    "topicOrigin": "Distinct editorial property-condition gap. Two condition-screen messages were observed but no sewer-specific or recurring CRM question is claimed."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pass; HTTP X-Robots-Tag noindex verified on exact-commit Netlify preview",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "pending publication; not a local publishing gate",
+      "canonicalURL": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+      "inspectionVerdict": null,
+      "inspectedAt": null,
+      "queries": null,
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null,
+      "reportingPeriod": null,
+      "nextReview": null,
+      "coverageState": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "source": null
+    },
+    "GA4Measurement": {
+      "source": "Existing attribution code preserved; no new-article settled data available",
+      "originalOrganicLandingSessions": null,
+      "ctaEvents": null,
+      "formStarts": null,
+      "rawGenerateLeadEvents": null,
+      "settledKeyEvents": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No real attributed lead observed; no fake submission or CRM write."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-21T14:05:00.000Z",
+      "source": "Astro built output, validate_output, structured metadata/link checks, native mobile and visual review",
+      "details": {
+        "canonical": true,
+        "metadata": true,
+        "sharing": true,
+        "indexability": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "image1200x630": true,
+        "meaningfulInternalLinks": true,
+        "sellerConversionPath": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "robotsCrawlable": true,
+        "tracking": true,
+        "mobileWidths": [
+          360,
+          390,
+          768,
+          1366
+        ],
+        "originality12WordShinglesMax": 0,
+        "semanticDifference": "First public-versus-private sanitary sewer boundary, camera evidence and scope-comparison guide. The septic article covers on-site wastewater; the major-repair and disclosure pages do not explain City sewer cleanout diagnostics or scope limits."
+      }
+    }
+  }
+}
