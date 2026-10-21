@@ -646,8 +646,7 @@ fbq('track','PageView');
 </footer>
 
 <script>
-/* Application posts only to the Supabase careers-intake function.
-   Do not send applicant data to GoHighLevel. */
+/* Application posts only to the Supabase careers-intake function. */
 const CAREERS_ENDPOINT = "https://mzqzmnrmjdjzuxgrdzcd.supabase.co/functions/v1/careers-intake";
 const LIVE = /(^|\.)cashasis\.com$/.test(location.hostname);
 const DRAFT_KEY = 'cashasis_application_draft_v3';
@@ -906,11 +905,5 @@ function resetForm(){
   show('screen-form');
 }
 </script>
-
-  <!-- HighLevel External Tracking: page views + supported external form activity -->
-  <script
-    src="https://link.msgsndr.com/js/external-tracking.js"
-    data-tracking-id="tk_61336d42285a45a29bdc44b9a0947ddf">
-  </script>
 </body>
 </html>

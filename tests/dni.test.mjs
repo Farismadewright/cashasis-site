@@ -120,7 +120,16 @@ test('every generated main-number page gets exactly one loader and unchanged val
   let instrumented = 0;
   for (const file of htmlFiles('dist')) {
     const html = fs.readFileSync(file, 'utf8');
+    const rel = file.split(path.sep).join('/');
     const count = (html.match(/src="\/js\/cashasis-dni\.js"/g) || []).length;
+    if (rel.startsWith('dist/careers/')) {
+      assert.equal(count, 0, file);
+      assert.equal(html.includes('data-cashasis-call'), false, file);
+      assert.doesNotMatch(html, /leadconnector|msgsndr|gohighlevel|external-tracking|data-tracking-id/i, file);
+      assert.doesNotMatch(html, /ghl/i, file);
+      assert.equal((html.match(/src="\/js\/cashasis-attribution\.js"/g) || []).length, 1, file);
+      continue;
+    }
     const mainLinks = html.match(/<a\b[^>]*\bhref=(['"])tel:\+13465846365\1[^>]*>/gi) || [];
     const phonePage = mainLinks.length > 0;
     assert.equal(count, phonePage ? 1 : 0, file);
@@ -162,6 +171,23 @@ test('postprocessor is idempotent for the full generated HTML corpus', () => {
     execFileSync(process.execPath, [path.resolve('scripts/inject-dni.mjs')], { cwd: temp });
     for (const [file, expected] of before) assert.equal(fs.readFileSync(file, 'utf8'), expected, file);
   } finally { fs.rmSync(temp, { recursive: true, force: true }); }
+});
+
+test('seller homepage still loads LeadConnector call tracking and external tracking', () => {
+  const html = fs.readFileSync('dist/index.html', 'utf8');
+  assert.match(html, /src="\/js\/cashasis-dni\.js"/);
+  assert.match(html, /https:\/\/link\.msgsndr\.com\/js\/external-tracking\.js/);
+});
+
+test('careers build output has no LeadConnector or GoHighLevel tracking', () => {
+  const files = htmlFiles('dist/careers');
+  assert.ok(files.some(file => file.endsWith('dist/careers/index.html')));
+  assert.ok(files.some(file => file.endsWith('dist/careers/questionnaire/index.html')));
+  assert.ok(files.some(file => file.endsWith('dist/careers/team-assessment/index.html')));
+  const tracking = /leadconnector|msgsndr|gohighlevel|external-tracking|cashasis-dni|data-tracking-id|ghl/i;
+  for (const file of files) {
+    assert.doesNotMatch(fs.readFileSync(file, 'utf8'), tracking, file);
+  }
 });
 
 test('existing form attribution source and postprocessor are unchanged', () => {

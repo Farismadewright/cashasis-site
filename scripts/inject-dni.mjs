@@ -16,6 +16,9 @@ function walk(dir) {
     const file = path.join(dir, name);
     if (fs.statSync(file).isDirectory()) { walk(file); continue; }
     if (!file.endsWith('.html')) continue;
+    // Careers pages keep the printed phone number. Do not mark those links
+    // or load the LeadConnector number pool on /careers and its subpages.
+    if (file.split(path.sep).join('/').startsWith('dist/careers/')) continue;
     let html = fs.readFileSync(file, 'utf8');
     // Mark existing main-number links without changing their E.164 targets.
     html = html.replace(/<a\b[^>]*\bhref=(['"])tel:\+13465846365\1[^>]*>/gi,
