@@ -1,0 +1,223 @@
+{
+  "runId": "native-daily-20261021T134423Z",
+  "fence": 13,
+  "day": "2026-10-21",
+  "status": "pass",
+  "published": 3,
+  "held": 0,
+  "externalPaidApiSpendUSD": 0,
+  "articles": [
+    {
+      "slug": "selling-houston-house-roof-damage-repair-or-as-is",
+      "title": "Selling a Houston House With Roof Damage: Repair or Sell As-Is?",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+      "image": "https://www.cashasis.com/images/selling-houston-house-roof-damage-repair-or-as-is.png",
+      "imageSha256": "d3cea00475ff7feff3af864e613a15208bcf3b1f1d6d36cb68d7a62bacc677dd",
+      "googleInspection": {
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "inspectedAt": "2026-10-21T14:22:45.000Z"
+      },
+      "social": "draft_only"
+    },
+    {
+      "slug": "selling-houston-house-sewer-line-problem",
+      "title": "Selling a Houston House With a Sewer-Line Problem",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+      "image": "https://www.cashasis.com/images/selling-houston-house-sewer-line-problem.png",
+      "imageSha256": "79c160ec34d923df6a1f1df799e9b7ac85cbef3d00ecbf94ab813d3936b3c2cf",
+      "googleInspection": {
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "inspectedAt": "2026-10-21T14:22:45.000Z"
+      },
+      "social": "draft_only"
+    },
+    {
+      "slug": "how-to-verify-cash-home-buyer-texas",
+      "title": "How Texas Sellers Can Verify a Cash Home Buyer",
+      "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "image": "https://www.cashasis.com/images/how-to-verify-cash-home-buyer-texas.png",
+      "imageSha256": "7a6bfd81a70216543e3798b887acf00c970718623a2d879824c6d8115757a81e",
+      "googleInspection": {
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "inspectedAt": "2026-10-21T14:22:45.000Z"
+      },
+      "social": "draft_only"
+    }
+  ],
+  "sellerVoice": {
+    "source": "Wright GHL Direct read-only aggregate keyword screen",
+    "messagesReviewed": 500,
+    "inbound": 58,
+    "retainedAfterNarrowExclusions": 56,
+    "recurringScreen": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 4
+      }
+    },
+    "privacy": "No raw messages, IDs, addresses or amounts retained; no CRM writes or contacts."
+  },
+  "validation": {
+    "npmCi": "pass; 406 packages",
+    "astroBuild": "pass; 185 pages",
+    "outputValidator": "pass all 3",
+    "publisherUnitTests": "5 passed",
+    "nodeTests": "27 passed",
+    "mobileWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "preview": {
+      "commit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
+      "deployId": "6ad8c9391c33c420f02392ed",
+      "http200": 3,
+      "xRobotsTagNoindex": 3
+    },
+    "releaseGate": {
+      "allowed": true,
+      "errors": []
+    }
+  },
+  "production": {
+    "pr": 18,
+    "commit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
+    "deployId": "6ad8ca27f71c98250d513c9b",
+    "publishedAt": "2026-10-21T14:21:04.022Z",
+    "verifiedAt": "2026-10-21T14:22:30.000Z",
+    "http200": 3,
+    "indexable": 3,
+    "canonical": 3,
+    "sitemap": 3,
+    "rss": 3,
+    "schema": 3,
+    "hero1200x630": 3,
+    "attributedCTA": 3,
+    "designUnchanged": true
+  },
+  "monitoring": {
+    "inspectionCallsUsed": 19,
+    "quotaRemaining": 1882,
+    "newArticleResults": "3 unknown to Google; normal initial discovery state",
+    "dueResults": [
+      {
+        "url": "https://www.cashasis.com/blog/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/compare-the-net/",
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed"
+      },
+      {
+        "url": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      },
+      {
+        "url": "https://www.cashasis.com/traditional-sale-requirements/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google"
+      }
+    ],
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "actionableAlert": false
+  },
+  "gscSearchPerformance": {
+    "settledThrough": "2026-10-19",
+    "range": "2026-09-21 through 2026-10-18",
+    "siteTotals": {
+      "clicks": 6,
+      "impressions": 652,
+      "ctrPercent": 0.92,
+      "averagePosition": 43.49
+    },
+    "note": "Query rows cover 76.53% of impressions and have 100% hidden click share; do not sum rows as site totals."
+  },
+  "analytics": {
+    "GA4": "not queried in this run; optional and not a publishing gate",
+    "organicSellerLead": null,
+    "qualifiedSeller": null,
+    "agreement": null,
+    "fundedRetainedGP": null
+  },
+  "commands": {
+    "build": "npm run build",
+    "outputValidation": "validate_output.py for 3 slugs",
+    "tests": [
+      "python -m unittest tests.publisher_gate_test",
+      "node --test tests/blog-publisher.test.mjs tests/attribution.test.mjs tests/build-output.test.mjs"
+    ],
+    "releaseGate": "allowed true; 2026-10-21; no errors"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Routine success and normal initial Google discovery delays; owner alert suppressed by monitoring policy."
+  }
+}

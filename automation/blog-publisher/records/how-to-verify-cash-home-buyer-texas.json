@@ -42,9 +42,9 @@
   "fence": 13,
   "day": "2026-10-21",
   "intentKey": "texas-seller-verify-cash-home-buyer-entity-funds-title-closing",
-  "status": "preview",
-  "commit": "0a4f42a1994802868b7a45fd7cd23a585726355b",
-  "deployId": "6ad8c7a629238aee5a69fd9b",
+  "status": "published",
+  "commit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
+  "deployId": "6ad8ca27f71c98250d513c9b",
   "preview": {
     "verifiedAt": "2026-10-21T14:15:00.000Z",
     "url": "https://6ad8c7a629238aee5a69fd9b--cashasis-blog.netlify.app/blog/how-to-verify-cash-home-buyer-texas/",
@@ -53,7 +53,11 @@
     "exactCommit": true,
     "canonical": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
     "heroDimensions": "1200x630",
-    "schemaTypes": ["BlogPosting", "BreadcrumbList", "FAQPage"],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
     "faqCount": 4,
     "mobileDesktopLayout": "pass",
     "internalLinks": "pass",
@@ -65,7 +69,7 @@
     "/blog/cash-offer-vs-listing-house-houston/",
     "/understanding-your-cash-offer/"
   ],
-  "substantiveDifference": "First seller-side multi-source verification workflow before signing: legal entity, funding evidence, licensed neutral closing channel and written-term consistency. Existing pages explain process, wire safety, price tradeoffs or offer inputs but not buyer verification. Explicitly states Cash As-Is wholesale agreements may use neither earnest money nor option fee, avoiding the withdrawn article\u2019s inaccurate implication.",
+  "substantiveDifference": "First seller-side multi-source verification workflow before signing: legal entity, funding evidence, licensed neutral closing channel and written-term consistency. Existing pages explain process, wire safety, price tradeoffs or offer inputs but not buyer verification. Explicitly states Cash As-Is wholesale agreements may use neither earnest money nor option fee, avoiding the withdrawn article’s inaccurate implication.",
   "sources": [
     {
       "url": "https://comptroller.texas.gov/taxes/franchise/account-status/search",
@@ -88,7 +92,7 @@
       "geography": "Texas",
       "unit": null,
       "figure": null,
-      "claim": "The result reflects the entity\u2019s right to transact business in Texas at the time of the search; it is not evidence of funds or integrity.",
+      "claim": "The result reflects the entity’s right to transact business in Texas at the time of the search; it is not evidence of funds or integrity.",
       "accessedAt": "2026-10-21",
       "verifiedAt": "2026-10-21T14:05:00.000Z",
       "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
@@ -114,7 +118,7 @@
       "geography": "Texas",
       "unit": null,
       "figure": null,
-      "claim": "Texas sellers can verify a title company\u2019s license; title agents examine public records and closing charges should be reviewed.",
+      "claim": "Texas sellers can verify a title company’s license; title agents examine public records and closing charges should be reviewed.",
       "accessedAt": "2026-10-21",
       "verifiedAt": "2026-10-21T14:05:00.000Z",
       "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
@@ -140,7 +144,7 @@
     "backgroundSha256": "86ce67768f14323ea43c8e8f68faa14efd7d01feba5ec1b2b37cfbc5b7979651",
     "backgroundPrompt": "Realistic illustrative Texas house-sale verification scene with a Houston-area brick house, keys and a blank unbranded proof-of-funds-style folder on the right, dark negative space on the left, fictional property, no people, writing, address, logo or watermark.",
     "illustrative": true,
-    "visualReview": "Full-size and mobile-width review passed: readable 3\u20137 word headline, exact 1200x630, official transparent logo, no block behind logo, property remains visible and no clipping."
+    "visualReview": "Full-size and mobile-width review passed: readable 3–7 word headline, exact 1200x630, official transparent logo, no block behind logo, property remains visible and no clipping."
   },
   "cost": {
     "currency": "USD",
@@ -161,7 +165,7 @@
     "links": "pass",
     "mobile": "pass",
     "preview": "pass",
-    "deploy": "pending"
+    "deploy": "pass"
   },
   "sellerVoice": {
     "sampleMessages": 500,
@@ -204,23 +208,23 @@
       "factualSources"
     ],
     "previewNoindex": "pass; HTTP X-Robots-Tag noindex verified on exact-commit Netlify preview",
-    "productionIndexability": "pending",
+    "productionIndexability": "pass; live HTTP 200, no meta/X-Robots noindex, self-canonical, sitemap and RSS eligible",
     "searchConsoleMonitoring": {
-      "availability": "pending publication; not a local publishing gate",
+      "availability": "available; immediate post-publication inspection retained; Google discovery is monitored separately from local eligibility",
       "canonicalURL": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
-      "inspectionVerdict": null,
-      "inspectedAt": null,
+      "inspectionVerdict": "NEUTRAL",
+      "inspectedAt": "2026-10-21T14:22:45.000Z",
       "queries": null,
       "impressions": null,
       "clicks": null,
       "ctr": null,
       "position": null,
       "reportingPeriod": null,
-      "nextReview": null,
-      "coverageState": null,
+      "nextReview": "2026-10-24T14:22:45.000Z",
+      "coverageState": "URL is unknown to Google",
       "googleCanonical": null,
       "userCanonical": null,
-      "source": null
+      "source": "Google URL Inspection API via owner-approved GSC Wizard"
     },
     "GA4Measurement": {
       "source": "Existing attribution code preserved; no new-article settled data available",
@@ -269,8 +273,35 @@
           1366
         ],
         "originality12WordShinglesMax": 0,
-        "semanticDifference": "First seller-side multi-source verification workflow before signing: legal entity, funding evidence, licensed neutral closing channel and written-term consistency. Existing pages explain process, wire safety, price tradeoffs or offer inputs but not buyer verification. Explicitly states Cash As-Is wholesale agreements may use neither earnest money nor option fee, avoiding the withdrawn article\u2019s inaccurate implication."
+        "semanticDifference": "First seller-side multi-source verification workflow before signing: legal entity, funding evidence, licensed neutral closing channel and written-term consistency. Existing pages explain process, wire safety, price tradeoffs or offer inputs but not buyer verification. Explicitly states Cash As-Is wholesale agreements may use neither earnest money nor option fee, avoiding the withdrawn article’s inaccurate implication."
       }
     }
+  },
+  "publication": {
+    "pr": 18,
+    "previewCommit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
+    "previewDeployId": "6ad8c9391c33c420f02392ed",
+    "productionCommit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
+    "productionDeployId": "6ad8ca27f71c98250d513c9b",
+    "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+    "publishedAt": "2026-10-21T14:21:04.022Z",
+    "verifiedAt": "2026-10-21T14:22:30.000Z",
+    "httpStatus": 200,
+    "xRobotsTag": null,
+    "metaRobots": null,
+    "robotsAllowed": true,
+    "canonical": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+    "sitemap": true,
+    "rss": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "heroDimensions": "1200x630",
+    "internalLinks": "pass",
+    "sellerCTA": "pass",
+    "mobileDesktopLayout": "pass"
   }
 }
