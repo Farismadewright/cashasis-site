@@ -1,0 +1,249 @@
+{
+  "title": "Selling a Houston House With Roof Damage: Repair or Sell As-Is?",
+  "description": "Roof leak before a Houston house sale? Separate age from storm damage, check the claim and repair facts, then compare repairing with selling as-is.",
+  "pubDate": "2026-10-21T12:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Houston",
+    "roof damage",
+    "sell as-is"
+  ],
+  "primaryKeyword": "sell house with roof damage Houston",
+  "supportingKeywords": [
+    "repair roof before selling Houston house",
+    "sell house with roof leak as-is",
+    "old roof versus storm damage Texas"
+  ],
+  "image": "/images/selling-houston-house-roof-damage-repair-or-as-is.png",
+  "imageAlt": "Illustrative Houston brick house with a patched shingle roof and Roof Leak Repair First headline beside the official transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Can I sell a Houston house with a leaking roof?",
+      "a": "Yes, but the buyer needs an accurate picture of the known condition and the contract must reflect the parties' agreement. Gather reports, estimates, photos and any insurance documents before comparing a repair, listing or as-is sale."
+    },
+    {
+      "q": "Will homeowners insurance replace an old roof before I sell?",
+      "a": "Not simply because the roof is old or worn. The Texas Department of Insurance says coverage depends on the policy and cause of loss; storm or tree damage is different from ordinary wear."
+    },
+    {
+      "q": "Should I accept a roofing estimate before comparing sale options?",
+      "a": "A written estimate can clarify scope, but it is not the same as a completed repair or a guaranteed insurance payment. Compare the estimate, timing, deductible and sale terms together."
+    },
+    {
+      "q": "Does selling as-is remove my disclosure responsibilities?",
+      "a": "Do not assume it does. Texas disclosure requirements and exemptions depend on the transaction. Describe known facts honestly and obtain legal or licensed professional advice for your specific situation."
+    }
+  ],
+  "slug": "selling-houston-house-roof-damage-repair-or-as-is",
+  "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+  "runId": "native-daily-20261021T134423Z",
+  "fence": 13,
+  "day": "2026-10-21",
+  "intentKey": "houston-roof-age-leak-storm-damage-repair-claim-as-is-decision",
+  "status": "draft",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/selling-houston-house-open-insurance-claim/",
+    "/blog/replace-air-conditioner-before-selling-houston-house/",
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/fix-it-or-sell-it/"
+  ],
+  "substantiveDifference": "First roof-specific age-versus-storm-damage evidence and repair/list/disclose/current-condition decision guide. The open-claim article reconciles claim money generally; the AC and major-repair pages do not explain roof coverage, contractor/adjuster role separation or roof evidence.",
+  "sources": [
+    {
+      "url": "https://www.tdi.texas.gov/tips/replacing-your-roof.html",
+      "title": "Texas Department of Insurance: Insurance and your roof",
+      "publicationDate": "2026-04-01",
+      "reportingPeriod": "Current guidance accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "Policy treatment differs for replacement cost and actual cash value; ordinary age or wear alone is not a covered roof replacement; storm/tree damage may support a claim under policy terms.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    },
+    {
+      "url": "https://www.tdi.texas.gov/consumer/storms/roofing-and-insurance-know-the-law.html",
+      "title": "Texas Department of Insurance: Roofing and insurance\u2014Know the law",
+      "publicationDate": "2025-03-24",
+      "reportingPeriod": "Current guidance accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "A roofing contractor may not act as the public adjuster on the same property while also providing contracting services.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    },
+    {
+      "url": "https://www.trec.texas.gov/forms/sellers-disclosure-notice",
+      "title": "Texas Real Estate Commission: Seller\u2019s Disclosure Notice",
+      "publicationDate": "2026-05-28",
+      "reportingPeriod": "Current form page accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "TREC identifies the notice as addressing material facts and physical condition for covered previously occupied single-family sales.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    }
+  ],
+  "imageSha256": "d3cea00475ff7feff3af864e613a15208bcf3b1f1d6d36cb68d7a62bacc677dd",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "ROOF LEAK?|REPAIR FIRST?",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-7c70bdb7-7be3-4235-b8f9-1c08d918b310.png",
+    "backgroundSha256": "ee54b67fb8d0d7a4853fcfe938a3f51a36d446a434681485a6e90a1e838d3866",
+    "backgroundPrompt": "Realistic illustrative Houston-area brick house with an aging composition-shingle roof and modest repair patch on the right, dark natural negative space on the left, daylight after rain, fictional property, no people, text, address, logo or watermark.",
+    "illustrative": true,
+    "visualReview": "Full-size and mobile-width review passed: readable 3\u20137 word headline, exact 1200x630, official transparent logo, no block behind logo, property remains visible and no clipping."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing Netlify allowances; no service, credit, subscription or paid API purchased."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inboundMessages": 58,
+    "screenedMessages": 56,
+    "keywordScreen": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 4
+      },
+      "condition": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "tenants": {
+        "messages": 0,
+        "distinctSellers": 0
+      },
+      "timing": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen; categories provisional, not representative demand. No human-context or topic-specific recurrence claim. No raw conversation, identifying detail, address, private amount or unique story retained.",
+    "mode": "read_only",
+    "topicOrigin": "Distinct editorial property-condition gap. Two condition-screen messages were observed but no roof-specific or recurring CRM question is claimed."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "pending publication; not a local publishing gate",
+      "canonicalURL": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+      "inspectionVerdict": null,
+      "inspectedAt": null,
+      "queries": null,
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null,
+      "reportingPeriod": null,
+      "nextReview": null,
+      "coverageState": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "source": null
+    },
+    "GA4Measurement": {
+      "source": "Existing attribution code preserved; no new-article settled data available",
+      "originalOrganicLandingSessions": null,
+      "ctaEvents": null,
+      "formStarts": null,
+      "rawGenerateLeadEvents": null,
+      "settledKeyEvents": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No real attributed lead observed; no fake submission or CRM write."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-21T14:05:00.000Z",
+      "source": "Astro built output, validate_output, structured metadata/link checks, native mobile and visual review",
+      "details": {
+        "canonical": true,
+        "metadata": true,
+        "sharing": true,
+        "indexability": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "image1200x630": true,
+        "meaningfulInternalLinks": true,
+        "sellerConversionPath": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "robotsCrawlable": true,
+        "tracking": true,
+        "mobileWidths": [
+          360,
+          390,
+          768,
+          1366
+        ],
+        "originality12WordShinglesMax": 0,
+        "semanticDifference": "First roof-specific age-versus-storm-damage evidence and repair/list/disclose/current-condition decision guide. The open-claim article reconciles claim money generally; the AC and major-repair pages do not explain roof coverage, contractor/adjuster role separation or roof evidence."
+      }
+    }
+  }
+}

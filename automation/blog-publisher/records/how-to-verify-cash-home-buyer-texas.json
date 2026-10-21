@@ -1,0 +1,262 @@
+{
+  "title": "How Texas Sellers Can Verify a Cash Home Buyer",
+  "description": "Before signing a Texas cash house offer, verify the buyer's identity, entity, funds, title company, written terms and closing contacts with this checklist.",
+  "pubDate": "2026-10-21T12:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Texas",
+    "cash home buyers",
+    "seller safety"
+  ],
+  "primaryKeyword": "verify cash home buyer Texas",
+  "supportingKeywords": [
+    "how to check a cash buyer for a house",
+    "cash buyer proof of funds Texas",
+    "legitimate cash home buyer checklist"
+  ],
+  "image": "/images/how-to-verify-cash-home-buyer-texas.png",
+  "imageAlt": "Illustrative Texas brick house, keys and blank transaction folder with Cash Buyer Verify First headline and the official transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Should a Texas seller ask a cash buyer for proof of funds?",
+      "a": "It is reasonable to request current evidence that supports the proposed purchase and to ask how the named buyer relates to the account or funding source. Protect sensitive information and remember that a document alone does not guarantee closing."
+    },
+    {
+      "q": "Does an active Texas business status prove a home buyer is trustworthy?",
+      "a": "No. It can help match a legal entity name and current public status, but it does not prove available funds, experience, contract performance or integrity. Use several independent checks."
+    },
+    {
+      "q": "Does a cash home buyer need a real estate license in Texas?",
+      "a": "Do not assume every principal buying for its own account must hold a brokerage license. If someone claims to be a Texas broker or sales agent, verify that claim with TREC and understand whom that person represents."
+    },
+    {
+      "q": "Is earnest money or an option fee required in every cash purchase agreement?",
+      "a": "No single payment structure describes every agreement. Read the actual written contract and ask a Texas real estate attorney about unfamiliar terms; do not infer buyer reliability from one clause alone."
+    }
+  ],
+  "slug": "how-to-verify-cash-home-buyer-texas",
+  "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+  "runId": "native-daily-20261021T134423Z",
+  "fence": 13,
+  "day": "2026-10-21",
+  "intentKey": "texas-seller-verify-cash-home-buyer-entity-funds-title-closing",
+  "status": "draft",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/how-cash-offer-house-works-houston/",
+    "/blog/protect-house-sale-proceeds-wire-fraud/",
+    "/blog/cash-offer-vs-listing-house-houston/",
+    "/understanding-your-cash-offer/"
+  ],
+  "substantiveDifference": "First seller-side multi-source verification workflow before signing: legal entity, funding evidence, licensed neutral closing channel and written-term consistency. Existing pages explain process, wire safety, price tradeoffs or offer inputs but not buyer verification. Explicitly states Cash As-Is wholesale agreements may use neither earnest money nor option fee, avoiding the withdrawn article\u2019s inaccurate implication.",
+  "sources": [
+    {
+      "url": "https://comptroller.texas.gov/taxes/franchise/account-status/search",
+      "title": "Texas Comptroller: Franchise Tax Account Status Search",
+      "publicationDate": null,
+      "reportingPeriod": "Current public database accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "The public search accepts entity name, taxpayer number or Secretary of State file number.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    },
+    {
+      "url": "https://comptroller.texas.gov/taxes/franchise/coas-instructions.php",
+      "title": "Texas Comptroller: Franchise Tax Account Status",
+      "publicationDate": null,
+      "reportingPeriod": "Current guidance accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "The result reflects the entity\u2019s right to transact business in Texas at the time of the search; it is not evidence of funds or integrity.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    },
+    {
+      "url": "https://www.trec.texas.gov/article/buying-and-selling-home-texas",
+      "title": "Texas Real Estate Commission: Buying and Selling a Home in Texas",
+      "publicationDate": "2021-09-27",
+      "reportingPeriod": "Current guidance accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "A title or escrow agent is a neutral third party serving both sides; Texas title and escrow agents are licensed by TDI.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    },
+    {
+      "url": "https://www.tdi.texas.gov/title/titlefaqs.html",
+      "title": "Texas Department of Insurance: Title insurance FAQ",
+      "publicationDate": "2024-03-19",
+      "reportingPeriod": "Current guidance accessed 2026-10-21",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "claim": "Texas sellers can verify a title company\u2019s license; title agents examine public records and closing charges should be reviewed.",
+      "accessedAt": "2026-10-21",
+      "verifiedAt": "2026-10-21T14:05:00.000Z",
+      "method": "Read relevant primary-source text in native web; claim checked against article and FAQ."
+    }
+  ],
+  "imageSha256": "7a6bfd81a70216543e3798b887acf00c970718623a2d879824c6d8115757a81e",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "CASH BUYER?|VERIFY FIRST",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-da141315-fada-4f46-9988-46503ac0fe66.png",
+    "backgroundSha256": "86ce67768f14323ea43c8e8f68faa14efd7d01feba5ec1b2b37cfbc5b7979651",
+    "backgroundPrompt": "Realistic illustrative Texas house-sale verification scene with a Houston-area brick house, keys and a blank unbranded proof-of-funds-style folder on the right, dark negative space on the left, fictional property, no people, writing, address, logo or watermark.",
+    "illustrative": true,
+    "visualReview": "Full-size and mobile-width review passed: readable 3\u20137 word headline, exact 1200x630, official transparent logo, no block behind logo, property remains visible and no clipping."
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing Netlify allowances; no service, credit, subscription or paid API purchased."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "inboundMessages": 58,
+    "screenedMessages": 56,
+    "keywordScreen": {
+      "price": {
+        "messages": 4,
+        "distinctSellers": 4
+      },
+      "condition": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "tenants": {
+        "messages": 0,
+        "distinctSellers": 0
+      },
+      "timing": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen; categories provisional, not representative demand. No human-context or topic-specific recurrence claim. No raw conversation, identifying detail, address, private amount or unique story retained.",
+    "mode": "read_only",
+    "topicOrigin": "Broad pricing was the only recurring anonymous keyword-screen signal. Buyer verification is a distinct editorial trust gap; no CRM-specific recurring concern or private example is claimed."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "pending publication; not a local publishing gate",
+      "canonicalURL": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "inspectionVerdict": null,
+      "inspectedAt": null,
+      "queries": null,
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null,
+      "reportingPeriod": null,
+      "nextReview": null,
+      "coverageState": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "source": null
+    },
+    "GA4Measurement": {
+      "source": "Existing attribution code preserved; no new-article settled data available",
+      "originalOrganicLandingSessions": null,
+      "ctaEvents": null,
+      "formStarts": null,
+      "rawGenerateLeadEvents": null,
+      "settledKeyEvents": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No real attributed lead observed; no fake submission or CRM write."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-21T14:05:00.000Z",
+      "source": "Astro built output, validate_output, structured metadata/link checks, native mobile and visual review",
+      "details": {
+        "canonical": true,
+        "metadata": true,
+        "sharing": true,
+        "indexability": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "image1200x630": true,
+        "meaningfulInternalLinks": true,
+        "sellerConversionPath": true,
+        "sitemap": true,
+        "rss": true,
+        "blogCard": true,
+        "robotsCrawlable": true,
+        "tracking": true,
+        "mobileWidths": [
+          360,
+          390,
+          768,
+          1366
+        ],
+        "originality12WordShinglesMax": 0,
+        "semanticDifference": "First seller-side multi-source verification workflow before signing: legal entity, funding evidence, licensed neutral closing channel and written-term consistency. Existing pages explain process, wire safety, price tradeoffs or offer inputs but not buyer verification. Explicitly states Cash As-Is wholesale agreements may use neither earnest money nor option fee, avoiding the withdrawn article\u2019s inaccurate implication."
+      }
+    }
+  }
+}
