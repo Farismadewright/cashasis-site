@@ -42,9 +42,23 @@
   "fence": 13,
   "day": "2026-10-21",
   "intentKey": "houston-private-sewer-line-backup-scope-repair-as-is-sale",
-  "status": "draft",
-  "commit": null,
-  "deployId": null,
+  "status": "preview",
+  "commit": "0a4f42a1994802868b7a45fd7cd23a585726355b",
+  "deployId": "6ad8c7a629238aee5a69fd9b",
+  "preview": {
+    "verifiedAt": "2026-10-21T14:15:00.000Z",
+    "url": "https://6ad8c7a629238aee5a69fd9b--cashasis-blog.netlify.app/blog/selling-houston-house-sewer-line-problem/",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "exactCommit": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+    "heroDimensions": "1200x630",
+    "schemaTypes": ["BlogPosting", "BreadcrumbList", "FAQPage"],
+    "faqCount": 4,
+    "mobileDesktopLayout": "pass",
+    "internalLinks": "pass",
+    "sellerCTA": "pass"
+  },
   "nearestOverlaps": [
     "/blog/selling-fort-bend-house-septic-system/",
     "/blog/sell-house-needs-major-repairs-houston/",
@@ -133,7 +147,7 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
+    "preview": "pass",
     "deploy": "pending"
   },
   "sellerVoice": {
@@ -176,7 +190,7 @@
       "sellerConversionPath",
       "factualSources"
     ],
-    "previewNoindex": "pending",
+    "previewNoindex": "pass; HTTP X-Robots-Tag noindex verified on exact-commit Netlify preview",
     "productionIndexability": "pending",
     "searchConsoleMonitoring": {
       "availability": "pending publication; not a local publishing gate",

@@ -42,9 +42,23 @@
   "fence": 13,
   "day": "2026-10-21",
   "intentKey": "texas-seller-verify-cash-home-buyer-entity-funds-title-closing",
-  "status": "draft",
-  "commit": null,
-  "deployId": null,
+  "status": "preview",
+  "commit": "0a4f42a1994802868b7a45fd7cd23a585726355b",
+  "deployId": "6ad8c7a629238aee5a69fd9b",
+  "preview": {
+    "verifiedAt": "2026-10-21T14:15:00.000Z",
+    "url": "https://6ad8c7a629238aee5a69fd9b--cashasis-blog.netlify.app/blog/how-to-verify-cash-home-buyer-texas/",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "exactCommit": true,
+    "canonical": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+    "heroDimensions": "1200x630",
+    "schemaTypes": ["BlogPosting", "BreadcrumbList", "FAQPage"],
+    "faqCount": 4,
+    "mobileDesktopLayout": "pass",
+    "internalLinks": "pass",
+    "sellerCTA": "pass"
+  },
   "nearestOverlaps": [
     "/blog/how-cash-offer-house-works-houston/",
     "/blog/protect-house-sale-proceeds-wire-fraud/",
@@ -146,7 +160,7 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
+    "preview": "pass",
     "deploy": "pending"
   },
   "sellerVoice": {
@@ -189,7 +203,7 @@
       "sellerConversionPath",
       "factualSources"
     ],
-    "previewNoindex": "pending",
+    "previewNoindex": "pass; HTTP X-Robots-Tag noindex verified on exact-commit Netlify preview",
     "productionIndexability": "pending",
     "searchConsoleMonitoring": {
       "availability": "pending publication; not a local publishing gate",
