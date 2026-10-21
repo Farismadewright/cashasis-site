@@ -12,37 +12,39 @@
 header{background:var(--navy);color:white;padding:14px 24px;border-bottom:1px solid rgba(255,255,255,.06)}.nav{max-width:760px;margin:auto}.brand{display:inline-flex;flex-direction:column;line-height:1;text-decoration:none}.brand .wm{font-weight:800;font-size:22px;letter-spacing:-.03em}.brand .n{color:#fff}.brand .o{color:var(--orange)}.brand .sub{font-size:9px;letter-spacing:.18em;color:rgba(255,255,255,.6);font-weight:700;margin-top:4px}
 .hero{background:var(--navy);color:white;text-align:center;padding:42px 24px 70px}.hero small{color:var(--orange);font-weight:800;letter-spacing:.14em;text-transform:uppercase}.hero h1{font-size:36px;margin:12px 0 10px}.hero p{max-width:570px;margin:auto;color:#dfe5ee;line-height:1.55}
 .wrap{max-width:760px;margin:-34px auto 50px;padding:0 24px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 18px 50px -20px rgba(13,27,42,.35)}
-.progress{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:24px}.q{margin-bottom:24px}.q label{display:block;font-weight:700;font-size:14px;margin-bottom:8px}.q small{display:block;color:var(--muted);font-weight:500;margin-top:4px}
-textarea,input,select{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:13px 14px;font:inherit}textarea{min-height:105px;resize:vertical}textarea:focus,input:focus,select:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(242,109,33,.12)}
-.btn{width:100%;border:0;border-radius:10px;background:var(--orange);color:white;font-weight:800;font-size:15px;padding:15px;cursor:pointer}.btn:disabled{opacity:.55}
-.note{background:#fbf4ee;border:1px solid #f3d9c7;border-radius:10px;padding:13px 15px;color:#6a7482;font-size:12.5px;line-height:1.5;margin-bottom:22px}
+.progress{font-size:13px;font-weight:700;color:var(--muted);margin-bottom:10px}.track{height:8px;background:#eef1f5;border-radius:99px;overflow:hidden;margin-bottom:22px}.track span{display:block;height:100%;background:var(--orange);width:0}
+.q label{display:block;font-weight:700;font-size:18px;line-height:1.4;margin-bottom:8px}.q small{display:block;color:var(--muted);font-weight:500;margin:0 0 12px}
+textarea,input{width:100%;border:1.5px solid var(--line);border-radius:10px;padding:14px;font:inherit;font-size:16px}textarea{min-height:140px;resize:vertical}textarea:focus,input:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(242,109,33,.12)}
+.nav{display:flex;gap:10px;margin-top:18px}.btn{border:0;border-radius:10px;background:var(--orange);color:white;font-weight:800;font-size:16px;padding:15px;cursor:pointer;min-height:52px}.btn.ghost{background:white;color:var(--navy);border:1.5px solid var(--line);flex:0 0 110px}.btn.grow{flex:1}.btn:disabled{opacity:.55}
+.note{background:#fbf4ee;border:1px solid #f3d9c7;border-radius:10px;padding:13px 15px;color:#6a7482;font-size:13px;line-height:1.5;margin-bottom:18px}
 .done{text-align:center;padding:28px 5px}.done h2{margin:0 0 10px}.done p{color:var(--muted);line-height:1.55}
-@media(max-width:560px){.hero h1{font-size:29px}.card{padding:22px}}
+@media(max-width:560px){.hero h1{font-size:29px}.card{padding:22px}.wrap{padding:0 14px}}
 </style>
 </head>
 <body>
 <header><div class="nav"><a href="/" class="brand"><span class="wm"><span class="n">cash</span><span class="o">asis</span></span><span class="sub">WE BUY HOUSES AS-IS</span></a></div></header>
-<section class="hero"><small>Application Step 2</small><h1>Tell us how you work.</h1><p>This short questionnaire helps us understand your experience, communication style, and how you approach the role. Most applicants finish in about 5 minutes.</p></section>
+<section class="hero"><small>Application Step 2</small><h1>Tell us how you work.</h1><p id="hero-copy">One question at a time. A few sentences is enough. The whole application takes about 10 minutes.</p></section>
 <div class="wrap"><div class="card" id="card">
-<div class="progress">Questionnaire • Step 2 of 3</div>
-<div class="note">Answer in your own words. There are no trick questions. We use your answers together with your experience, interview, and other job-related information.</div>
+<div class="progress" id="progress">Questionnaire</div>
+<div class="track"><span id="bar"></span></div>
+<div class="note" id="note">Answer in your own words. There are no trick questions. We use your answers together with your experience, interview, and other job-related information.</div>
 <form id="form">
-<div class="q"><label>What interests you most about this role?</label><textarea data-key="interest" required></textarea></div>
-<div class="q"><label>Tell us about your most relevant sales, customer service, real estate, marketing, or operations experience.</label><textarea data-key="relevant_experience" required></textarea></div>
-<div class="q"><label>When someone tells you “no” or pushes back, how do you normally respond?</label><textarea data-key="objection_response" required></textarea></div>
-<div class="q"><label>How do you keep yourself organized when several people need follow-up?</label><textarea data-key="followup_process" required></textarea></div>
-<div class="q"><label>What type of manager or coaching helps you perform at your best?</label><textarea data-key="coaching_style" required></textarea></div>
-<div id="role-questions"></div>
-<div class="q"><label>What are you looking to earn over the next 12 months?</label><input data-key="income_goal" required placeholder="Your realistic target"></div>
-<div class="q"><label>Why should we take the next step with you?</label><textarea data-key="why_you" required></textarea></div>
-<button class="btn" id="submit" type="submit">Complete Questionnaire</button>
+<div class="q" id="q"></div>
+<div class="nav">
+<button class="btn ghost" id="back" type="button">Back</button>
+<button class="btn grow" id="next" type="button">Next</button>
+</div>
 </form></div></div>
 <script>
-const ENDPOINT='https://mzqzmnrmjdjzuxgrdzcd.supabase.co/functions/v1/careers-questionnaire';
-const candidateId=sessionStorage.getItem('cashasis_candidate_id');
-const position=sessionStorage.getItem('cashasis_candidate_position')||'the role';
-if(!candidateId){document.getElementById('card').innerHTML='<div class="done"><h2>Application session not found</h2><p>Please start from the CashAsIs careers application so we can connect your questionnaire to your application.</p><a href="/careers/">Return to Careers</a></div>';}
-const roleMap={
+const LIVE = /(^|\.)cashasis\.com$/.test(location.hostname);
+const ENDPOINT = LIVE ? 'https://mzqzmnrmjdjzuxgrdzcd.supabase.co/functions/v1/careers-questionnaire' : '';
+const candidateId = sessionStorage.getItem('cashasis_candidate_id') || localStorage.getItem('cashasis_candidate_id');
+const position = sessionStorage.getItem('cashasis_candidate_position') || localStorage.getItem('cashasis_candidate_position') || '';
+if (candidateId) {
+  sessionStorage.setItem('cashasis_candidate_id', candidateId);
+  if (position) sessionStorage.setItem('cashasis_candidate_position', position);
+}
+const roleMap = {
 'Acquisitions':[
 ['pipeline_commitment','This role rewards consistency and initiative. Are you comfortable building your pipeline over time by working leads, calling, texting, following up, and using the training and resources we provide? If yes, what helps you stay motivated and consistent when results don’t happen right away?'],
 ['phone_comfort','How comfortable are you spending a large part of your day calling, texting, and consistently following up with sellers?']
@@ -63,19 +65,95 @@ const roleMap={
 ['closing_experience','This position requires prior closing or high-ticket sales experience. Describe what you sold, how you sold it, your typical deal size, and your results.'],
 ['seller_followup','An offer has already been sent and the seller has not signed. Walk us through how you would follow up by phone and text, handle objections, negotiate within an approved range, and decide when to set a property appointment for our local team.']
 ]};
-const holder=document.getElementById('role-questions');
-(roleMap[position]||[
-['role_strength','What skill would make you especially effective in '+position+'?'],
-['role_challenge','What part of '+position+' would challenge you most, and how would you improve at it?']
-]).forEach(([key,q])=>{const d=document.createElement('div');d.className='q';d.innerHTML='<label>'+q+'</label><textarea data-key="'+key+'" required></textarea>';holder.appendChild(d)});
-document.getElementById('form')?.addEventListener('submit',async e=>{
-e.preventDefault();const btn=document.getElementById('submit');btn.disabled=true;btn.textContent='Saving...';
-const els=[...document.querySelectorAll('[data-key]')];const answers=els.map(el=>({key:el.dataset.key,question:el.closest('.q').querySelector('label').textContent,answer:el.value.trim()}));
-if(answers.some(a=>!a.answer)){alert('Please answer each question.');btn.disabled=false;btn.textContent='Complete Questionnaire';return;}
-try{const res=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({candidate_id:candidateId,answers})});const data=await res.json();if(!res.ok||!data.ok)throw new Error(data.error||'Unable to save');
-sessionStorage.setItem('cashasis_questionnaire_complete','1');
-window.location.href='/careers/team-assessment/';
-}catch(err){console.error(err);alert('We could not save your questionnaire. Please try again.');btn.disabled=false;btn.textContent='Complete Questionnaire';}
-});
+const commonBefore = [
+['interest','What interests you most about this role?'],
+['relevant_experience','Tell us about your most relevant sales, customer service, real estate, marketing, or operations experience.'],
+['objection_response','When someone tells you “no” or pushes back, how do you normally respond?'],
+['followup_process','How do you keep yourself organized when several people need follow-up?'],
+['coaching_style','What type of manager or coaching helps you perform at your best?']
+];
+const commonAfter = [
+['income_goal','What are you looking to earn over the next 12 months?', 'short'],
+['why_you','Why should we take the next step with you?']
+];
+const roleQuestions = roleMap[position] || [
+['role_strength','What skill would make you especially effective in ' + (position || 'this role') + '?'],
+['role_challenge','What part of ' + (position || 'this role') + ' would challenge you most, and how would you improve at it?']
+];
+const questions = [...commonBefore, ...roleQuestions, ...commonAfter];
+const draftKey = 'cashasis_questionnaire_draft_v3:' + (candidateId || 'none');
+const pasted = new Set();
+let step = 0;
+let values = {};
+if (!candidateId) {
+  document.getElementById('card').innerHTML = '<div class="done"><h2>Application session not found</h2><p>Please start from the CashAsIs careers application so we can connect your questionnaire to your application.</p><p><a href="/careers/">Return to Careers</a></p></div>';
+} else {
+  if (position === 'Acquisitions') document.getElementById('note').textContent = 'No real estate experience is needed. Answer in your own words. A few sentences is enough.';
+  try {
+    const saved = JSON.parse(localStorage.getItem(draftKey) || 'null');
+    if (saved && saved.values) {
+      values = saved.values;
+      step = Math.min(saved.step || 0, questions.length - 1);
+      (saved.pasted || []).forEach(key => pasted.add(key));
+    }
+  } catch (err) {}
+  document.getElementById('back').addEventListener('click', () => { if (step > 0) { step -= 1; render(); } });
+  document.getElementById('next').addEventListener('click', () => advance());
+  document.getElementById('form').addEventListener('submit', (event) => { event.preventDefault(); advance(); });
+  render();
+}
+function currentValue() {
+  const el = document.querySelector('[data-key]');
+  return el ? el.value.trim() : '';
+}
+function saveDraft() {
+  const el = document.querySelector('[data-key]');
+  if (el) values[el.dataset.key] = el.value;
+  localStorage.setItem(draftKey, JSON.stringify({ values, step, pasted: [...pasted] }));
+}
+function render() {
+  const [key, label, kind] = questions[step];
+  const q = document.getElementById('q');
+  const field = kind === 'short'
+    ? '<input data-key="' + key + '" value="" placeholder="Your realistic target">'
+    : '<textarea data-key="' + key + '"></textarea>';
+  q.innerHTML = '<label>' + label + '</label><small>A few sentences is enough.</small>' + field;
+  const el = q.querySelector('[data-key]');
+  el.value = values[key] || '';
+  el.addEventListener('input', saveDraft);
+  el.addEventListener('paste', () => pasted.add(key));
+  document.getElementById('progress').textContent = 'Question ' + (step + 1) + ' of ' + questions.length;
+  document.getElementById('bar').style.width = Math.round(((step + 1) / questions.length) * 100) + '%';
+  document.getElementById('back').disabled = step === 0;
+  document.getElementById('next').textContent = step === questions.length - 1 ? 'Continue to Team & Position Assessment' : 'Next';
+  if (window.innerWidth <= 700) el.focus({ preventScroll: true });
+}
+async function advance() {
+  const [key, label] = questions[step];
+  const value = currentValue();
+  if (!value) { alert('Please answer this question.'); return; }
+  values[key] = value;
+  saveDraft();
+  if (step < questions.length - 1) { step += 1; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+  const btn = document.getElementById('next');
+  btn.disabled = true;
+  btn.textContent = 'Saving...';
+  const answers = questions.map(([qKey, qLabel]) => ({ key: qKey, question: qLabel, answer: values[qKey] || '', pasted: pasted.has(qKey) }));
+  try {
+    if (LIVE) {
+      const res = await fetch(ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ candidate_id: candidateId, answers }) });
+      const data = await res.json();
+      if (!res.ok || !data.ok) throw new Error(data.error || 'Unable to save');
+    }
+    localStorage.removeItem(draftKey);
+    sessionStorage.setItem('cashasis_questionnaire_complete', '1');
+    window.location.href = '/careers/team-assessment/';
+  } catch (err) {
+    console.error(err);
+    alert('We could not save your questionnaire. Please try again.');
+    btn.disabled = false;
+    btn.textContent = 'Continue to Team & Position Assessment';
+  }
+}
 </script>
 </body></html>

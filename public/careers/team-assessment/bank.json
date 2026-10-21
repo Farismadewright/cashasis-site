@@ -1,0 +1,516 @@
+{
+  "version": 3,
+  "forced": [
+    {
+      "key": "v3f1",
+      "options": [
+        {
+          "id": "a",
+          "text": "I naturally start conversations and build relationships."
+        },
+        {
+          "id": "b",
+          "text": "I keep pushing when progress is slower than expected."
+        },
+        {
+          "id": "c",
+          "text": "I make sure details and follow-ups do not get missed."
+        },
+        {
+          "id": "d",
+          "text": "I act on opportunities without needing much prompting."
+        }
+      ]
+    },
+    {
+      "key": "v3f2",
+      "options": [
+        {
+          "id": "a",
+          "text": "I stay calm when conversations become difficult."
+        },
+        {
+          "id": "b",
+          "text": "I am comfortable taking the lead in a discussion."
+        },
+        {
+          "id": "c",
+          "text": "I adjust quickly when circumstances change."
+        },
+        {
+          "id": "d",
+          "text": "I stay productive without someone checking on me."
+        }
+      ]
+    },
+    {
+      "key": "v3f3",
+      "options": [
+        {
+          "id": "a",
+          "text": "I enjoy meeting and talking with new people."
+        },
+        {
+          "id": "b",
+          "text": "I reliably finish commitments I make."
+        },
+        {
+          "id": "c",
+          "text": "I create momentum when there is no obvious next step."
+        },
+        {
+          "id": "d",
+          "text": "I can keep working a lead after several setbacks."
+        }
+      ]
+    },
+    {
+      "key": "v3f4",
+      "options": [
+        {
+          "id": "a",
+          "text": "I like keeping records and next steps organized."
+        },
+        {
+          "id": "b",
+          "text": "I can ask directly for a decision when the time is right."
+        },
+        {
+          "id": "c",
+          "text": "I recover quickly from rejection."
+        },
+        {
+          "id": "d",
+          "text": "I find another approach when the first one fails."
+        }
+      ]
+    },
+    {
+      "key": "v3f5",
+      "options": [
+        {
+          "id": "a",
+          "text": "I set my own priorities and get moving."
+        },
+        {
+          "id": "b",
+          "text": "I build rapport quickly with different personalities."
+        },
+        {
+          "id": "c",
+          "text": "I notice unfinished responsibilities and close the loop."
+        },
+        {
+          "id": "d",
+          "text": "I pursue worthwhile opportunities proactively."
+        }
+      ]
+    },
+    {
+      "key": "v3f6",
+      "options": [
+        {
+          "id": "a",
+          "text": "I stay with important goals for a long time."
+        },
+        {
+          "id": "b",
+          "text": "I am comfortable respectfully challenging someone."
+        },
+        {
+          "id": "c",
+          "text": "I keep a clear system for people I need to follow up with."
+        },
+        {
+          "id": "d",
+          "text": "I remain level-headed under pressure."
+        }
+      ]
+    },
+    {
+      "key": "v3f7",
+      "options": [
+        {
+          "id": "a",
+          "text": "I adapt my communication to the person in front of me."
+        },
+        {
+          "id": "b",
+          "text": "I can work independently for long stretches."
+        },
+        {
+          "id": "c",
+          "text": "I enjoy frequent interaction throughout my day."
+        },
+        {
+          "id": "d",
+          "text": "I follow through even on tasks nobody is checking."
+        }
+      ]
+    },
+    {
+      "key": "v3f8",
+      "options": [
+        {
+          "id": "a",
+          "text": "I look for productive work instead of waiting for assignments."
+        },
+        {
+          "id": "b",
+          "text": "I keep trying after hearing no."
+        },
+        {
+          "id": "c",
+          "text": "I am comfortable guiding a conversation toward a decision."
+        },
+        {
+          "id": "d",
+          "text": "I keep information organized so others can rely on it."
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "key": "v3s1",
+      "prompt": "You finish your planned work earlier than expected. What are you most likely to do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Review active opportunities and choose useful follow-up to advance."
+        },
+        {
+          "id": "b",
+          "text": "Clean up records and make sure every next step is documented."
+        },
+        {
+          "id": "c",
+          "text": "Reach out to people and create additional conversations."
+        },
+        {
+          "id": "d",
+          "text": "Review recent results and adjust tomorrow's plan."
+        }
+      ]
+    },
+    {
+      "key": "v3s2",
+      "prompt": "A prospect has been polite but noncommittal after several conversations. What feels most natural?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ask a direct question to understand what is preventing a decision."
+        },
+        {
+          "id": "b",
+          "text": "Keep a thoughtful follow-up cadence and stay patient."
+        },
+        {
+          "id": "c",
+          "text": "Try a different communication angle based on what you have learned."
+        },
+        {
+          "id": "d",
+          "text": "Make sure the notes and next action are clear before moving on."
+        }
+      ]
+    },
+    {
+      "key": "v3s3",
+      "prompt": "You have a difficult conversation and the other person becomes irritated. What do you tend to do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stay calm and focus on understanding the concern."
+        },
+        {
+          "id": "b",
+          "text": "Address the issue directly while staying respectful."
+        },
+        {
+          "id": "c",
+          "text": "Change the approach and see whether another angle works better."
+        },
+        {
+          "id": "d",
+          "text": "Give the situation some space and follow up at an appropriate time."
+        }
+      ]
+    },
+    {
+      "key": "v3s4",
+      "prompt": "You have several follow-ups due and a new opportunity appears. What do you naturally prioritize?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Handle the time-sensitive new opportunity, then return to the list."
+        },
+        {
+          "id": "b",
+          "text": "Work the committed follow-ups first unless the new item is truly urgent."
+        },
+        {
+          "id": "c",
+          "text": "Quickly rank everything by potential impact and work from the top."
+        },
+        {
+          "id": "d",
+          "text": "Contact the people most likely to respond and build momentum."
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "Field Agent": [
+      {
+        "key": "v3rf1",
+        "prompt": "You knock on a door and the homeowner seems skeptical about why you are there. What feels most natural?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Introduce myself simply, acknowledge the interruption, and ask a low-pressure question."
+          },
+          {
+            "id": "b",
+            "text": "Be direct about why I am there and quickly determine whether there is interest."
+          },
+          {
+            "id": "c",
+            "text": "Read their reaction and adjust my tone before asking anything further."
+          },
+          {
+            "id": "d",
+            "text": "Respect the hesitation, leave a clear way to reconnect, and document the follow-up."
+          }
+        ]
+      },
+      {
+        "key": "v3rf2",
+        "prompt": "You have been knocking for an hour with very few conversations. What do you naturally do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Keep going and focus on completing the activity I committed to."
+          },
+          {
+            "id": "b",
+            "text": "Change my opening or approach and test whether response improves."
+          },
+          {
+            "id": "c",
+            "text": "Review the route and move toward the highest-priority properties."
+          },
+          {
+            "id": "d",
+            "text": "Reset my energy and make the next interaction feel like the first one."
+          }
+        ]
+      },
+      {
+        "key": "v3rf3",
+        "prompt": "You meet a homeowner who is not ready to talk but may be interested later. What do you do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask permission for a specific follow-up and record it immediately."
+          },
+          {
+            "id": "b",
+            "text": "Try to understand one useful detail before ending the conversation."
+          },
+          {
+            "id": "c",
+            "text": "Leave the door open and make sure they feel comfortable reconnecting."
+          },
+          {
+            "id": "d",
+            "text": "Set a follow-up and continue working the rest of the area."
+          }
+        ]
+      }
+    ],
+    "Acquisitions": [
+      {
+        "key": "v3ra1",
+        "prompt": "A homeowner is interested but says they need time to think. What feels most natural?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask what specifically they still need to think through."
+          },
+          {
+            "id": "b",
+            "text": "Agree on a specific follow-up time and keep the relationship moving."
+          },
+          {
+            "id": "c",
+            "text": "Revisit what they want and make sure the conversation still addresses it."
+          },
+          {
+            "id": "d",
+            "text": "Give them room while writing down what matters for the next conversation."
+          }
+        ]
+      },
+      {
+        "key": "v3ra2",
+        "prompt": "Several homeowners are due for follow-up and a new person wants to talk. What do you do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Quickly judge what is most urgent and reorder the day."
+          },
+          {
+            "id": "b",
+            "text": "Respond to the new person quickly, then return to the follow-ups you already promised."
+          },
+          {
+            "id": "c",
+            "text": "Stick to the follow-up list unless the new person truly needs you right now."
+          },
+          {
+            "id": "d",
+            "text": "Make contact right away because a timely reply matters."
+          }
+        ]
+      },
+      {
+        "key": "v3ra3",
+        "prompt": "A homeowner strongly disagrees with the number you shared. What is your first instinct?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ask questions to understand what is driving the reaction."
+          },
+          {
+            "id": "b",
+            "text": "Go back to what they want and see whether another path still helps."
+          },
+          {
+            "id": "c",
+            "text": "Explain the reasoning clearly and ask what would help the conversation continue."
+          },
+          {
+            "id": "d",
+            "text": "Keep the relationship intact and set a thoughtful follow-up."
+          }
+        ]
+      }
+    ],
+    "Virtual Closer": [
+      {
+        "key": "v3rv1",
+        "prompt": "An offer was sent two days ago and the seller has not responded. What feels most natural?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Call with a direct but low-pressure question about what is holding things up."
+          },
+          {
+            "id": "b",
+            "text": "Use a planned call and text sequence and continue until there is clarity."
+          },
+          {
+            "id": "c",
+            "text": "Change the message angle to make it easier for the seller to respond."
+          },
+          {
+            "id": "d",
+            "text": "Review the prior conversation first so the follow-up is highly relevant."
+          }
+        ]
+      },
+      {
+        "key": "v3rv2",
+        "prompt": "The seller wants a price above what you are allowed to offer. What do you do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Explore the reasons behind the number and stay within the approved range."
+          },
+          {
+            "id": "b",
+            "text": "Look for concerns other than price that may open another path."
+          },
+          {
+            "id": "c",
+            "text": "Clearly explain the limit and escalate only when there is a justified reason."
+          },
+          {
+            "id": "d",
+            "text": "Keep the conversation moving without promising something you cannot authorize."
+          }
+        ]
+      },
+      {
+        "key": "v3rv3",
+        "prompt": "A seller seems close to signing but wants to see the property with someone first. What do you do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Set a clear local appointment and define what happens immediately afterward."
+          },
+          {
+            "id": "b",
+            "text": "Ask what they hope the visit will resolve so the appointment has a purpose."
+          },
+          {
+            "id": "c",
+            "text": "Coordinate the appointment quickly and keep ownership of the follow-up."
+          },
+          {
+            "id": "d",
+            "text": "Confirm the concern, schedule the visit, and keep momentum without pressure."
+          }
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "key": "v3k1",
+      "text": "I sometimes need a reminder for something I intended to finish."
+    },
+    {
+      "key": "v3k2",
+      "text": "I can stay productive when nobody is checking on me."
+    },
+    {
+      "key": "v3k3",
+      "text": "Rejection can occasionally affect my energy."
+    },
+    {
+      "key": "v3k4",
+      "text": "I enjoy initiating conversations with people I do not know."
+    },
+    {
+      "key": "v3k5",
+      "text": "I usually remember every commitment without any system or reminder."
+    },
+    {
+      "key": "v3k6",
+      "text": "I occasionally work better when expectations are clearly reinforced."
+    },
+    {
+      "key": "v3k7",
+      "text": "A difficult interaction rarely affects me at all."
+    },
+    {
+      "key": "v3k8",
+      "text": "I sometimes prefer familiar people over starting conversations with strangers."
+    }
+  ],
+  "attention": {
+    "key": "v3a1",
+    "text": "For this question, choose Disagree.",
+    "scale": [
+      "Strongly disagree",
+      "Disagree",
+      "Neutral",
+      "Agree",
+      "Strongly agree"
+    ]
+  },
+  "work_sample_prompt": "A homeowner texts you: \"That's way lower than I expected.\" Write what you'd say back, or how you'd handle this response. No real estate experience is needed.",
+  "voice_prompt": "Optional: record up to 60 seconds introducing yourself to a homeowner who asked about selling. You can skip this. No real estate experience is needed."
+}
