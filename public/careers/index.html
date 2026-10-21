@@ -176,6 +176,26 @@
   .consent a{color:var(--orange);font-weight:600}
   .secure{display:flex;align-items:center;gap:8px;justify-content:center;color:var(--muted);font-size:13px;margin-top:16px}
   .secure svg{width:14px;height:14px}
+  .roles.binary{grid-template-columns:1fr 1fr}
+  .roles.hours{grid-template-columns:1fr}
+  .wizard-bar{display:none}
+  .phone-only{display:none}
+  .qstep{scroll-margin-top:84px}
+  #wiz-label{display:none;margin-top:10px}
+  .time-note{font-size:14px;color:var(--muted);margin:-6px 0 16px}
+  @media(min-width:701px){
+    .roles.hours{grid-template-columns:repeat(3,1fr)}
+    .pair{display:grid;grid-template-columns:1fr 1fr;gap:13px;align-items:end}
+  }
+  @media(max-width:700px){
+    .qstep{display:none}
+    .qstep.active{display:block}
+    .wizard-bar{display:flex;gap:10px;margin-top:4px}
+    .phone-only{display:block}
+    #wiz-label{display:block}
+    .wizard-bar .btn{flex:1;min-height:52px}
+    .field input,.field textarea,.field select{font-size:16px}
+  }
 
   /* ---------- Result screen ---------- */
   .screen{display:none}
@@ -305,7 +325,7 @@ fbq('track','PageView');
         </div>
         <div class="ri">
           <h4><span class="dot"></span>Acquisitions</h4>
-          <p>Talk with motivated sellers, build trust, follow up, negotiate, and help move qualified opportunities toward an agreement.</p>
+          <p id="role-acquisitions-copy">Talk with homeowners, follow up, and build trust. No real estate experience is needed.</p>
         </div>
         <div class="ri wide">
           <h4><span class="dot"></span>Virtual Closer <small style="color:var(--orange);font-size:11px;margin-left:4px">EXPERIENCE REQUIRED</small></h4>
@@ -328,133 +348,216 @@ fbq('track','PageView');
 
     <!-- ---- Application form ---- -->
     <div class="card next-card">
+      <p class="time-note">The application, questionnaire, and Team & Position Assessment take about 10 minutes.</p>
+      <p class="time-note phone-only">Each question is its own screen, and your progress is saved in this browser.</p>
 
       <div class="section-head" style="margin-top:0">
         <span class="diamond"></span>
         <h3>About You</h3>
         <span class="step">Step 1 of 3</span>
       </div>
-      <div class="field-row">
+      <div class="pair">
+      <div class="qstep">
         <div class="field">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
           <label>Full Name</label>
-          <input id="app-name" type="text" placeholder="First and last name">
+          <input id="app-name" type="text" autocomplete="name" placeholder="First and last name">
         </div>
+      </div>
+      <div class="qstep">
         <div class="field">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
           <label>Phone</label>
-          <input id="app-phone" type="tel" placeholder="(___) ___-____">
+          <input id="app-phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(___) ___-____">
         </div>
       </div>
-      <div class="field">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
-        <label>Email</label>
-        <input id="app-email" type="email" placeholder="you@email.com">
       </div>
-      <div class="field-row">
+      <div class="qstep">
         <div class="field">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-          <label>City You're Located In</label>
-          <input id="app-city" type="text" placeholder="e.g. Houston">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          <label>Email</label>
+          <input id="app-email" type="email" autocomplete="email" inputmode="email" placeholder="you@email.com">
+        </div>
+      </div>
+      <div class="qstep">
+        <div class="field-row">
+          <div class="field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <label>City You're Located In</label>
+            <input id="app-city" type="text" autocomplete="address-level2" placeholder="e.g. Houston">
+          </div>
+          <div class="field no-icon">
+            <label>State</label>
+            <input id="app-state" type="text" autocomplete="address-level1" placeholder="e.g. TX">
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="section-head">
+          <span class="diamond"></span>
+          <h3>The Role</h3>
+          <span class="step">Step 2 of 3</span>
+        </div>
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          <label>Position You're Applying For</label>
+          <select id="app-position" class="empty">
+            <option value="" disabled selected hidden>Select a position...</option>
+            <option value="Field Agent">Field Agent</option>
+            <option value="Acquisitions">Acquisitions</option>
+            <option value="Virtual Closer">Virtual Closer — Experience Required</option>
+          </select>
+        </div>
+        <p id="acq-note" class="card-intro" hidden>No real estate experience is needed for Acquisitions.</p>
+      </div>
+
+      <div class="qstep">
+        <div class="role-group">
+          <label>Availability</label>
+          <div class="roles">
+            <label class="role"><input type="radio" name="availability" value="Full-time"><span>Full-time</span></label>
+            <label class="role"><input type="radio" name="availability" value="Part-time"><span>Part-time</span></label>
+            <label class="role"><input type="radio" name="availability" value="Either"><span>Open to either</span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="role-group">
+          <label>Experience in sales or real estate</label>
+          <div class="roles">
+            <label class="role"><input type="radio" name="experience" value="New"><span>Just starting</span></label>
+            <label class="role"><input type="radio" name="experience" value="1-3 years"><span>1–3 years</span></label>
+            <label class="role"><input type="radio" name="experience" value="3+ years"><span>3+ years</span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <label class="toggle">
+          <input id="app-transport" type="checkbox">
+          <span>I have reliable transportation
+            <small>Needed for in-person neighborhood work.</small>
+          </span>
+        </label>
+      </div>
+
+      <div class="qstep">
+        <div class="section-head">
+          <span class="diamond"></span>
+          <h3>Practical questions</h3>
+        </div>
+        <p class="card-intro">Answer honestly. These help us understand the work. They do not decide the application by themselves.</p>
+        <div class="role-group">
+          <label>This work is 100% commission as a 1099 independent contractor. Are you comfortable with that?</label>
+          <div class="roles binary">
+            <label class="role"><input type="radio" name="screening_commission" value="yes"><span>Yes</span></label>
+            <label class="role"><input type="radio" name="screening_commission" value="no"><span>No</span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="role-group">
+          <label>Can you spend 4 or more hours a day calling and texting homeowners?</label>
+          <div class="roles binary">
+            <label class="role"><input type="radio" name="screening_calling" value="yes"><span>Yes</span></label>
+            <label class="role"><input type="radio" name="screening_calling" value="no"><span>No</span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="role-group">
+          <label>About how many hours a week can you put into this?</label>
+          <div class="roles hours">
+            <label class="role"><input type="radio" name="screening_hours" value="under_10"><span>Under 10</span></label>
+            <label class="role"><input type="radio" name="screening_hours" value="10_19"><span>10–19</span></label>
+            <label class="role"><input type="radio" name="screening_hours" value="20_29"><span>20–29</span></label>
+            <label class="role"><input type="radio" name="screening_hours" value="30_39"><span>30–39</span></label>
+            <label class="role"><input type="radio" name="screening_hours" value="40_plus"><span>40 or more</span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="field no-icon">
+          <label>What is the earliest date you could start?</label>
+          <input id="screen-start" type="date">
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="role-group">
+          <label>Do you live in the Houston area?</label>
+          <div class="roles binary">
+            <label class="role"><input type="radio" name="screening_houston" value="yes"><span>Yes</span></label>
+            <label class="role"><input type="radio" name="screening_houston" value="no"><span>No</span></label>
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="section-head">
+          <span class="diamond"></span>
+          <h3>Your Story</h3>
+          <span class="step">Step 3 of 3</span>
+        </div>
+        <label id="resume-label" style="display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-bottom:6px">Resume</label>
+        <div id="drop" class="drop">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <p>Tap to upload your resume or drag it here</p>
+          <small id="resume-hint">PDF, DOC, or DOCX</small>
+          <input id="file-input" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
+        </div>
+        <div id="resume-chip"></div>
+        <div class="or-link">
+          <div class="field no-icon">
+            <label>Or paste a link to your resume (Drive, Dropbox)</label>
+            <input id="resume-link" type="url" placeholder="https://...">
+          </div>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="field no-icon">
+          <label>Tell us about you</label>
+          <textarea id="app-cover" placeholder="Why do you want to join CashAsIs, what are you great at, and what are you looking for? A short note in your own words goes a long way."></textarea>
+        </div>
+      </div>
+
+      <div class="qstep">
+        <div class="field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <label>LinkedIn, portfolio, or social link (optional)</label>
+          <input id="app-link" type="url" placeholder="https://...">
         </div>
         <div class="field no-icon">
-          <label>State</label>
-          <input id="app-state" type="text" placeholder="e.g. TX">
+          <label>How did you hear about us? (optional)</label>
+          <input id="app-source" type="text" placeholder="Instagram, a friend, Indeed, etc.">
         </div>
       </div>
 
-      <div class="section-head">
-        <span class="diamond"></span>
-        <h3>The Role</h3>
-        <span class="step">Step 2 of 3</span>
-      </div>
-      <div class="field">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-        <label>Position You're Applying For</label>
-        <select id="app-position" class="empty">
-          <option value="" disabled selected hidden>Select a position...</option>
-          <option value="Field Agent">Field Agent</option>
-          <option value="Acquisitions">Acquisitions</option>
-          <option value="Virtual Closer">Virtual Closer — Experience Required</option>
-        </select>
-      </div>
-
-      <div class="role-group">
-        <label>Availability</label>
-        <div class="roles">
-          <label class="role"><input type="radio" name="availability" value="Full-time"><span>Full-time</span></label>
-          <label class="role"><input type="radio" name="availability" value="Part-time"><span>Part-time</span></label>
-          <label class="role"><input type="radio" name="availability" value="Either"><span>Open to either</span></label>
+      <div class="qstep">
+        <label class="consent">
+          <input id="consent" type="checkbox">
+          <span>I confirm the information above is accurate and agree to be contacted by phone, text, and email about my application. See our <a href="/terms" target="_blank">Terms</a> and <a href="/privacy" target="_blank">Privacy Policy</a>. <strong>Msg rates may apply.</strong></span>
+        </label>
+        <button id="submit-btn" class="btn btn-orange btn-block" type="button">
+          Submit Application
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px;height:18px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <div class="secure">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Your info is private and only used for hiring.
         </div>
       </div>
-
-      <div class="role-group">
-        <label>Experience in sales or real estate</label>
-        <div class="roles">
-          <label class="role"><input type="radio" name="experience" value="New"><span>Just starting</span></label>
-          <label class="role"><input type="radio" name="experience" value="1-3 years"><span>1–3 years</span></label>
-          <label class="role"><input type="radio" name="experience" value="3+ years"><span>3+ years</span></label>
-        </div>
+      <div class="wizard-bar">
+        <button id="wiz-back" class="btn btn-ghost" type="button">Back</button>
+        <button id="wiz-next" class="btn btn-orange" type="button">Next</button>
       </div>
-
-      <label class="toggle">
-        <input id="app-transport" type="checkbox">
-        <span>I have reliable transportation
-          <small>Required for local field work such as Field Agent and field-based Acquisitions.</small>
-        </span>
-      </label>
-
-      <div class="section-head">
-        <span class="diamond"></span>
-        <h3>Your Story</h3>
-        <span class="step">Step 3 of 3</span>
-      </div>
-
-      <label style="display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-bottom:6px">Resume</label>
-      <div id="drop" class="drop">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-        <p>Tap to upload your resume or drag it here</p>
-        <small>PDF, DOC, or DOCX</small>
-        <input id="file-input" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
-      </div>
-      <div id="resume-chip"></div>
-      <div class="or-link">
-        <div class="field no-icon">
-          <label>Or paste a link to your resume (Drive, Dropbox)</label>
-          <input id="resume-link" type="url" placeholder="https://...">
-        </div>
-      </div>
-
-      <div class="field no-icon" style="margin-top:13px">
-        <label>Tell us about you</label>
-        <textarea id="app-cover" placeholder="Why do you want to join CashAsIs, what are you great at, and what are you looking for? A short note in your own words goes a long way."></textarea>
-      </div>
-
-      <div class="field">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-        <label>LinkedIn, portfolio, or social link (optional)</label>
-        <input id="app-link" type="url" placeholder="https://...">
-      </div>
-
-      <div class="field no-icon">
-        <label>How did you hear about us? (optional)</label>
-        <input id="app-source" type="text" placeholder="Instagram, a friend, Indeed, etc.">
-      </div>
-
-      <label class="consent">
-        <input id="consent" type="checkbox">
-        <span>I confirm the information above is accurate and agree to be contacted by phone, text, and email about my application. See our <a href="/terms" target="_blank">Terms</a> and <a href="/privacy" target="_blank">Privacy Policy</a>. <strong>Msg rates may apply.</strong></span>
-      </label>
-
-      <button id="submit-btn" class="btn btn-orange btn-block">
-        Submit Application
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px;height:18px"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </button>
-
-      <div class="secure">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-        Your info is private and only used for hiring.
-      </div>
+      <p class="time-note" id="wiz-label"></p>
     </div>
   </div>
 
@@ -479,7 +582,7 @@ fbq('track','PageView');
       <p class="reason" id="success-reason">Thanks for applying. We review every application that comes in.</p>
       <div class="next">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
-        <p><strong>Next step:</strong> Complete the short candidate questionnaire so we can learn how you think and work. After that, qualified applicants will be directed to the behavioral assessment.</p>
+        <p id="success-next"><strong>Next step:</strong> Complete the short questionnaire, then the Team & Position Assessment. The whole application takes about 10 minutes.</p>
       </div>
       <a class="btn btn-orange btn-block" href="/careers/questionnaire/">Continue to Candidate Questionnaire</a>
     </div>
@@ -543,29 +646,25 @@ fbq('track','PageView');
 </footer>
 
 <script>
-/* ============================================================
-   WIRING NOTES  ->  hand this section to Claude Code / Railway
-   ------------------------------------------------------------
-   This page only collects + displays. POST the payload below to
-   your intake endpoint, which creates the applicant in the CRM,
-   uploads the resume to storage, tags it, and notifies the team.
-
-   FLOW:
-   1. Page POSTs the payload to CAREERS_ENDPOINT.
-   2. Endpoint stores resume (base64), creates applicant contact,
-      tags by position, and pings the hiring channel.
-   3. Endpoint returns { ok: true }.  Page shows the success screen.
-
-   TO GO LIVE: set DEMO = false and fill in the endpoint URL.
-   ============================================================ */
-const CAREERS_ENDPOINT = "https://mzqzmnrmjdjzuxgrdzcd.supabase.co/functions/v1/careers-intake"; // Supabase hiring intake
-const DEMO = false; // live -> posts to GHL
+/* Application posts only to the Supabase careers-intake function.
+   Do not send applicant data to GoHighLevel. */
+const CAREERS_ENDPOINT = "https://mzqzmnrmjdjzuxgrdzcd.supabase.co/functions/v1/careers-intake";
+const LIVE = /(^|\.)cashasis\.com$/.test(location.hostname);
+const DRAFT_KEY = 'cashasis_application_draft_v3';
 
 /* ---- select placeholder color state ---- */
 const positionSel = document.getElementById('app-position');
 positionSel.addEventListener('change', () => {
   positionSel.classList.toggle('empty', positionSel.value === '');
+  syncPosition();
+  saveDraft();
 });
+function syncPosition(){
+  const acq = positionSel.value === 'Acquisitions';
+  document.getElementById('acq-note').hidden = !acq;
+  document.getElementById('resume-label').textContent = acq ? 'Resume (optional)' : 'Resume';
+  document.getElementById('resume-hint').textContent = acq ? 'Optional for Acquisitions. PDF, DOC, or DOCX.' : 'PDF, DOC, or DOCX';
+}
 
 /* ---- resume upload (single file, base64) ---- */
 let resume = null; // {name, size, dataUrl}
@@ -635,7 +734,13 @@ function buildPayload(){
     resume_data_url: resume ? resume.dataUrl : '',
     brand: 'Cash As-Is',
     source: 'cashasis-careers',
-    tags: 'careers, applicant, needs-review'
+    screening: {
+      commission_1099: (document.querySelector('input[name="screening_commission"]:checked') || {}).value || '',
+      calling_4h: (document.querySelector('input[name="screening_calling"]:checked') || {}).value || '',
+      hours_per_week: (document.querySelector('input[name="screening_hours"]:checked') || {}).value || '',
+      earliest_start: document.getElementById('screen-start').value,
+      houston_area: (document.querySelector('input[name="screening_houston"]:checked') || {}).value || ''
+    }
   };
 }
 
@@ -648,41 +753,147 @@ async function submitApplication(){
     alert('Please add your name, phone, and email.'); return;
   }
   if(!p.position){ alert('Please choose the position you are applying for.'); return; }
-  if(!p.resume_filename && !p.resume_link){ alert('Please upload your resume or paste a link to it.'); return; }
+  if(!p.availability){ alert('Please choose your availability.'); return; }
+  if(!p.experience){ alert('Please choose your experience level.'); return; }
+  if(!p.screening.commission_1099 || !p.screening.calling_4h || !p.screening.hours_per_week || !p.screening.earliest_start || !p.screening.houston_area){
+    alert('Please answer each practical question.'); return;
+  }
+  if(p.position !== 'Acquisitions' && !p.resume_filename && !p.resume_link){ alert('Please upload your resume or paste a link to it.'); return; }
   if(!p.cover_letter){ alert('Please add a short note in the "Tell us about you" box.'); return; }
   if(!document.getElementById('consent').checked){ alert('Please agree to be contacted before submitting.'); return; }
+  if(!p.city || !p.state){ alert('Please add your city and state.'); return; }
 
   show('screen-loading');
 
-  if(DEMO){
-    // ---- DEMO STUB: remove when the endpoint is live ----
-    setTimeout(() => {
-      document.getElementById('success-reason').textContent =
-        `Thanks for applying for the ${p.role.position} role. We review every application that comes in.`;
-      show('screen-success');
-    }, 1600);
-    return;
-  }
-
   try{
-    const res = await fetch(CAREERS_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(p)
-    });
-    const data = await res.json().catch(() => ({}));
-    if(!res.ok || !data.ok) throw new Error(data.error || 'bad status');
+    let data = { ok: true, candidate_id: 'preview' };
+    if(LIVE){
+      const res = await fetch(CAREERS_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(p)
+      });
+      data = await res.json().catch(() => ({}));
+      if(!res.ok || !data.ok) throw new Error(data.error || 'bad status');
+    }
     sessionStorage.setItem('cashasis_candidate_id', data.candidate_id);
     sessionStorage.setItem('cashasis_candidate_position', p.position);
+    localStorage.setItem('cashasis_candidate_id', data.candidate_id);
+    localStorage.setItem('cashasis_candidate_position', p.position);
+    localStorage.removeItem(DRAFT_KEY);
     document.getElementById('success-reason').textContent =
-      `Thanks for applying for the ${p.position} role. Your application is saved. Next, complete the short candidate questionnaire.`;
+      `Thanks for applying for the ${p.position} role. Your application is saved. Next, complete the short questionnaire, then the Team & Position Assessment.`;
+    const next = document.getElementById('success-next');
+    next.innerHTML = '<strong>Next step:</strong> Complete the short questionnaire, then the Team & Position Assessment. The whole application takes about 10 minutes.';
+    if(p.position === 'Acquisitions') next.innerHTML += ' No real estate experience is needed.';
     show('screen-success');
   }catch(err){
     console.error(err);
-    alert('Something went wrong submitting your application. Please try again or call us.');
+    alert(err.message && err.message !== 'bad status' ? err.message : 'Something went wrong submitting your application. Please try again or call us.');
     show('screen-form');
   }
 }
+
+const steps = [...document.querySelectorAll('#screen-form .qstep')];
+let stepIndex = 0;
+function radioValue(name){ return (document.querySelector('input[name="'+name+'"]:checked') || {}).value || ''; }
+function setRadio(name, value){
+  const el = document.querySelector('input[name="'+name+'"][value="'+value+'"]');
+  if(el) el.checked = true;
+}
+function saveDraft(){
+  localStorage.setItem(DRAFT_KEY, JSON.stringify({
+    step: stepIndex,
+    name: document.getElementById('app-name').value,
+    phone: document.getElementById('app-phone').value,
+    email: document.getElementById('app-email').value,
+    city: document.getElementById('app-city').value,
+    state: document.getElementById('app-state').value,
+    position: positionSel.value,
+    availability: radioValue('availability'),
+    experience: radioValue('experience'),
+    transport: document.getElementById('app-transport').checked,
+    commission: radioValue('screening_commission'),
+    calling: radioValue('screening_calling'),
+    hours: radioValue('screening_hours'),
+    start: document.getElementById('screen-start').value,
+    houston: radioValue('screening_houston'),
+    resumeLink: document.getElementById('resume-link').value,
+    cover: document.getElementById('app-cover').value,
+    link: document.getElementById('app-link').value,
+    source: document.getElementById('app-source').value,
+    consent: document.getElementById('consent').checked
+  }));
+}
+function restoreDraft(){
+  let data = null;
+  try { data = JSON.parse(localStorage.getItem(DRAFT_KEY) || 'null'); } catch(err) {}
+  if(!data) return;
+  document.getElementById('app-name').value = data.name || '';
+  document.getElementById('app-phone').value = data.phone || '';
+  document.getElementById('app-email').value = data.email || '';
+  document.getElementById('app-city').value = data.city || '';
+  document.getElementById('app-state').value = data.state || '';
+  if(data.position){ positionSel.value = data.position; positionSel.classList.remove('empty'); }
+  setRadio('availability', data.availability);
+  setRadio('experience', data.experience);
+  document.getElementById('app-transport').checked = !!data.transport;
+  setRadio('screening_commission', data.commission);
+  setRadio('screening_calling', data.calling);
+  setRadio('screening_hours', data.hours);
+  document.getElementById('screen-start').value = data.start || '';
+  setRadio('screening_houston', data.houston);
+  document.getElementById('resume-link').value = data.resumeLink || '';
+  document.getElementById('app-cover').value = data.cover || '';
+  document.getElementById('app-link').value = data.link || '';
+  document.getElementById('app-source').value = data.source || '';
+  document.getElementById('consent').checked = !!data.consent;
+  stepIndex = Math.min(data.step || 0, steps.length - 1);
+}
+function renderStep(){
+  steps.forEach((el, i) => el.classList.toggle('active', i === stepIndex));
+  document.getElementById('wiz-label').textContent = 'Question ' + (stepIndex + 1) + ' of ' + steps.length;
+  document.getElementById('wiz-back').disabled = stepIndex === 0;
+  document.getElementById('wiz-next').hidden = stepIndex === steps.length - 1;
+}
+function stepMessage(index){
+  const el = steps[index];
+  if(el.querySelector('#app-name') && !document.getElementById('app-name').value.trim()) return 'Please add your name.';
+  if(el.querySelector('#app-phone') && !document.getElementById('app-phone').value.trim()) return 'Please add your phone.';
+  if(el.querySelector('#app-email') && !document.getElementById('app-email').value.includes('@')) return 'Please add a valid email.';
+  if(el.querySelector('#app-city') && (!document.getElementById('app-city').value.trim() || !document.getElementById('app-state').value.trim())) return 'Please add your city and state.';
+  if(el.querySelector('#app-position') && !positionSel.value) return 'Please choose a position.';
+  if(el.querySelector('input[name="availability"]') && !radioValue('availability')) return 'Please choose your availability.';
+  if(el.querySelector('input[name="experience"]') && !radioValue('experience')) return 'Please choose your experience.';
+  if(el.querySelector('input[name="screening_commission"]') && !radioValue('screening_commission')) return 'Please answer this question.';
+  if(el.querySelector('input[name="screening_calling"]') && !radioValue('screening_calling')) return 'Please answer this question.';
+  if(el.querySelector('input[name="screening_hours"]') && !radioValue('screening_hours')) return 'Please answer this question.';
+  if(el.querySelector('#screen-start') && !document.getElementById('screen-start').value) return 'Please choose a start date.';
+  if(el.querySelector('input[name="screening_houston"]') && !radioValue('screening_houston')) return 'Please answer this question.';
+  if(el.querySelector('#file-input') && positionSel.value !== 'Acquisitions' && !resume && !document.getElementById('resume-link').value.trim()) return 'Please upload your resume or paste a link to it.';
+  if(el.querySelector('#app-cover') && !document.getElementById('app-cover').value.trim()) return 'Please add a short note.';
+  if(el.querySelector('#consent') && !document.getElementById('consent').checked) return 'Please agree to be contacted before submitting.';
+  return '';
+}
+document.getElementById('wiz-next').addEventListener('click', () => {
+  const message = stepMessage(stepIndex);
+  if(message){ alert(message); return; }
+  stepIndex = Math.min(steps.length - 1, stepIndex + 1);
+  saveDraft();
+  renderStep();
+  document.querySelector('#screen-form .qstep.active')?.scrollIntoView({behavior:'smooth', block:'start'});
+});
+document.getElementById('wiz-back').addEventListener('click', () => {
+  stepIndex = Math.max(0, stepIndex - 1);
+  saveDraft();
+  renderStep();
+  document.querySelector('#screen-form .qstep.active')?.scrollIntoView({behavior:'smooth', block:'start'});
+});
+document.getElementById('screen-form').addEventListener('input', saveDraft);
+document.getElementById('screen-form').addEventListener('change', saveDraft);
+restoreDraft();
+syncPosition();
+renderStep();
 
 /* ---- reset ---- */
 function resetForm(){

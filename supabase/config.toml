@@ -1,0 +1,17 @@
+# Local function settings only. This file does not link or deploy the project.
+# Public career endpoints must keep verify_jwt = false, matching production.
+# hiring-admin keeps verify_jwt = true and the hiring_admins allowlist.
+
+project_id = "cashasis-hiring-functions"
+
+[functions.careers-intake]
+verify_jwt = false
+
+[functions.careers-questionnaire]
+verify_jwt = false
+
+[functions.careers-team-assessment-v2]
+verify_jwt = false
+
+[functions.hiring-admin]
+verify_jwt = true
