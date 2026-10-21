@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W43",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-10-20T13:58:07.501382+00:00",
-  "lastSuccessfulReview": "2026-10-20T13:58:07.501382+00:00",
+  "lastAttempt": "2026-10-21T14:24:30.000Z",
+  "lastSuccessfulReview": "2026-10-21T14:24:30.000Z",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -481,14 +481,47 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=59VtJGt36QYPULfjDUaRfQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "lastCrawlTime": "2026-09-04T20:07:12Z",
+          "googleCanonical": "https://www.cashasis.com/blog/",
+          "userCanonical": "https://www.cashasis.com/blog/",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-04T18:49:51.651501+00:00",
-      "lastSuccessfulInspection": "2026-10-14T14:58:57.538893+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/act-early-before-foreclosure/",
@@ -1268,14 +1301,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WH62dea_MLC83r3c2F6hUw&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-04T18:50:11.585827+00:00",
-      "lastSuccessfulInspection": "2026-10-14T14:59:18.299867+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
@@ -1860,14 +1926,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=HGvxG0PfT11oFWnI8mYXVA&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T14:59:41.330801+00:00",
-      "lastSuccessfulInspection": "2026-10-14T14:59:41.330801+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/sell-fire-damaged-house-as-is-houston/",
@@ -2298,14 +2397,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=29_Gnm4MASz4Wld1HlMaBA&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-04T18:50:24.826797+00:00",
-      "lastSuccessfulInspection": "2026-10-14T14:59:58.387329+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-back-taxes-humble-tx/",
@@ -2580,14 +2712,47 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2czof4l1ybINuN-KLWdn0Q&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "lastCrawlTime": "2026-10-06T01:30:13Z",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:00:17.762819+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:17.762819+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-during-divorce-texas/",
@@ -3564,14 +3729,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7aYU37K9xpGTmhgU8AeZPw&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "lastCrawlTime": "2026-10-17T14:10:48Z",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.437307+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:03.437307+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
@@ -4399,14 +4597,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=G-0n9QDe9wsmO_AvKm6CUw&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "lastCrawlTime": "2026-10-17T12:55:47Z",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
+          "userCanonical": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:01:51.999688+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:51.999688+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/sell-property-with-back-taxes/",
@@ -4790,14 +5021,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Qr_mB-SpN3mgAObChsWLyQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.552892+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:18.552892+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
@@ -4817,14 +5081,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gsf-PHtrBQ3GIDhOd54Feg&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.32682+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:18.32682+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/sell-vacant-house-montgomery-county/",
@@ -5183,14 +5480,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lSeFZsnX1GkF6bDdXUj2fg&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.062303+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:32.062303+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
@@ -5577,14 +5907,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-cUK3uG88Otq3e-YBDsuPw&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/compare-the-net/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/compare-the-net/",
+          "verdict": "NEUTRAL",
+          "coverageState": "Discovered - currently not indexed",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:02:45.774871+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:45.774871+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/fix-it-or-sell-it/",
@@ -5793,14 +6156,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JBp7qoCjnwZJYsWlboH8zw&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.425205+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:03:01.425205+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
@@ -5874,14 +6270,47 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=nnUGtCIdOUcEG9HCAU_N9A&utm_medium=link&utm_source=api"
+        },
+        {
+          "url": "https://www.cashasis.com/traditional-sale-requirements/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/traditional-sale-requirements/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "firstSuccessfulInspection": "2026-10-14T15:03:07.921777+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:03:07.921777+00:00",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/understanding-your-cash-offer/",
@@ -5997,10 +6426,25 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=UIjNEHd6GjT9K0lhAoj9aw&utm_medium=link&utm_source=api",
           "source": "google_url_inspection",
           "inspectedAt": "2026-10-18T14:13:41.883Z"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-18T14:13:35.685420+00:00",
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
       "technicalEvidence": {
         "slug": "selling-pre-1978-houston-house-lead-paint",
         "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
@@ -6028,13 +6472,29 @@
       },
       "recordPath": "automation/blog-publisher/records/selling-pre-1978-houston-house-lead-paint.json",
       "firstSuccessfulInspection": "2026-10-18T14:13:41.775653+00:00",
-      "lastSuccessfulInspection": "2026-10-18T14:13:41.883Z",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "lastAttempt": "2026-10-18T14:13:41.883Z",
       "nextReviewAfter": "2026-10-21",
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "nextReviewAt": "2026-10-21T14:12:33.936000+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
@@ -6069,10 +6529,25 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8uSUlFiS08dl-mWGI_oiPQ&utm_medium=link&utm_source=api",
           "source": "google_url_inspection",
           "inspectedAt": "2026-10-18T14:14:02.455Z"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-18T14:13:35.685420+00:00",
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
       "technicalEvidence": {
         "slug": "termite-report-before-selling-houston-house",
         "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
@@ -6100,13 +6575,29 @@
       },
       "recordPath": "automation/blog-publisher/records/termite-report-before-selling-houston-house.json",
       "firstSuccessfulInspection": "2026-10-18T14:14:02.242784+00:00",
-      "lastSuccessfulInspection": "2026-10-18T14:14:02.455Z",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "lastAttempt": "2026-10-18T14:14:02.455Z",
       "nextReviewAfter": "2026-10-21",
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "nextReviewAt": "2026-10-21T14:12:33.936000+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
@@ -6141,10 +6632,25 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=doUiwDcT0WrjUUP7Ery8bg&utm_medium=link&utm_source=api",
           "source": "google_url_inspection",
           "inspectedAt": "2026-10-18T14:13:51.746Z"
+        },
+        {
+          "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:23:30.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "googleCanonical": null,
+          "userCanonical": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-18T14:13:35.685420+00:00",
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
       "technicalEvidence": {
         "slug": "houston-flood-map-vs-house-flood-history",
         "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
@@ -6172,13 +6678,29 @@
       },
       "recordPath": "automation/blog-publisher/records/houston-flood-map-vs-house-flood-history.json",
       "firstSuccessfulInspection": "2026-10-18T14:13:51.619425+00:00",
-      "lastSuccessfulInspection": "2026-10-18T14:13:51.746Z",
+      "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "lastAttempt": "2026-10-18T14:13:51.746Z",
       "nextReviewAfter": "2026-10-21",
       "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "nextReviewAt": "2026-10-21T14:12:33.936000+00:00",
-      "excluded": false
+      "excluded": false,
+      "lastAttemptAt": "2026-10-21T14:23:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production-equivalent Astro build plus live production eligibility check",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "exists": true,
+          "canonical": true,
+          "noindexAbsent": true,
+          "sitemap": true,
+          "meaningfulInternalLinks": true,
+          "sellerConversionPath": true
+        }
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
@@ -6542,6 +7064,180 @@
       "firstSuccessfulInspection": "2026-10-20T13:58:06.752Z",
       "lastSuccessfulInspection": "2026-10-20T13:58:06.752Z",
       "nextReviewAt": "2026-10-23T13:55:13.710000+00:00"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+      "publishedAt": "2026-10-21T14:21:04.022Z",
+      "firstSeenAt": "2026-10-21T14:22:30.000Z",
+      "ageBasis": "publication",
+      "history": [
+        {
+          "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:22:45.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null
+        }
+      ],
+      "excluded": false,
+      "eligibleInventorySource": "Current exact-commit production sitemap",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "lastAttemptAt": "2026-10-21T14:22:45.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production deployment",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        }
+      },
+      "recordPath": "automation/blog-publisher/records/selling-houston-house-roof-damage-repair-or-as-is.json",
+      "firstSuccessfulInspection": "2026-10-21T14:22:45.000Z",
+      "lastSuccessfulInspection": "2026-10-21T14:22:45.000Z",
+      "nextReviewAt": "2026-10-24T14:22:45.000Z"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+      "publishedAt": "2026-10-21T14:21:04.022Z",
+      "firstSeenAt": "2026-10-21T14:22:30.000Z",
+      "ageBasis": "publication",
+      "history": [
+        {
+          "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:22:45.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null
+        }
+      ],
+      "excluded": false,
+      "eligibleInventorySource": "Current exact-commit production sitemap",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "lastAttemptAt": "2026-10-21T14:22:45.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production deployment",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        }
+      },
+      "recordPath": "automation/blog-publisher/records/selling-houston-house-sewer-line-problem.json",
+      "firstSuccessfulInspection": "2026-10-21T14:22:45.000Z",
+      "lastSuccessfulInspection": "2026-10-21T14:22:45.000Z",
+      "nextReviewAt": "2026-10-24T14:22:45.000Z"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "publishedAt": "2026-10-21T14:21:04.022Z",
+      "firstSeenAt": "2026-10-21T14:22:30.000Z",
+      "ageBasis": "publication",
+      "history": [
+        {
+          "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-21T14:22:45.000Z",
+          "siteUrl": "https://www.cashasis.com/",
+          "inspectionUrl": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "lastCrawlTime": null,
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "referringUrls": [],
+          "googleCanonical": null,
+          "userCanonical": null
+        }
+      ],
+      "excluded": false,
+      "eligibleInventorySource": "Current exact-commit production sitemap",
+      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "lastAttemptAt": "2026-10-21T14:22:45.000Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalIssueConfirmed": false,
+      "technicalQA": {
+        "source": "Exact production deployment",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+        "http": 200,
+        "checks": {
+          "canonical": true,
+          "metadata": true,
+          "sharing": true,
+          "indexability": true,
+          "schema": true,
+          "faq": true,
+          "image": true,
+          "internalLinks": true,
+          "sellerPath": true,
+          "sitemap": true,
+          "rss": true,
+          "blogCard": true,
+          "robotsCrawlable": true,
+          "tracking": true,
+          "mobileTestedHTMLParity": true
+        }
+      },
+      "recordPath": "automation/blog-publisher/records/how-to-verify-cash-home-buyer-texas.json",
+      "firstSuccessfulInspection": "2026-10-21T14:22:45.000Z",
+      "lastSuccessfulInspection": "2026-10-21T14:22:45.000Z",
+      "nextReviewAt": "2026-10-24T14:22:45.000Z"
     }
   ],
   "notifications": [],
@@ -6582,26 +7278,33 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-10-16",
-  "inspectionCallsUsed": 6,
+  "settledThrough": "2026-10-19",
+  "inspectionCallsUsed": 19,
   "lastRunMonitoring": {
-    "runId": "native-daily-20261020T133354Z",
-    "actualInspectionCalls": 6,
-    "eligibleURLsReconciled": 177,
-    "dueURLsInspected": 3,
+    "runId": "native-daily-20261021T134423Z",
+    "actualInspectionCalls": 19,
+    "eligibleURLsReconciled": 180,
+    "dueURLsInspected": 16,
     "dueTechnicalChecks": "pass",
     "newPublicationInspections": 3,
     "weeklyReportDue": false,
-    "weeklyPriorReportDelivery": "Confirmed from actual prior owner-facing response; no duplicate sent",
     "monthlyReportDue": false,
     "backlogCount": 0,
-    "ownerNotification": "none: routine success and normal initial discovery; no confirmed persistent failure/lead change/sustained gain",
-    "monitoringEvidence": "automation/blog-publisher/runs/2026-10-20.json",
-    "completedAt": "2026-10-20T13:58:07.501382+00:00",
-    "bookkeepingCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df",
-    "bookkeepingDeployId": "6ad773b8242b1829db9e9b68",
-    "bookkeepingDeployCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df",
-    "bookkeepingDeployReadyVerifiedAt": "2026-10-20T14:00:16.456Z"
+    "indexedCoverageSnapshot": {
+      "allEligible": {
+        "indexed": 154,
+        "total": 180
+      },
+      "blogArticles": {
+        "indexed": 139,
+        "total": 161
+      },
+      "basis": "latest retained Google URL Inspection results; sitemap also includes non-blog pages"
+    },
+    "ownerNotification": "none: routine success and normal initial discovery; no confirmed persistent failure, organic lead change or sustained ranking gain",
+    "monitoringEvidence": "automation/blog-publisher/runs/2026-10-21.json",
+    "completedAt": "2026-10-21T14:24:30.000Z",
+    "bookkeepingCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4"
   },
-  "now": "2026-10-20T13:58:07.501382+00:00"
+  "now": "2026-10-21T14:24:30.000Z"
 }
