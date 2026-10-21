@@ -491,6 +491,36 @@
       "publishedAt": "2026-10-20T13:55:13.710Z",
       "verifiedAt": "2026-10-20T13:59:23.569Z",
       "evidenceCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df"
+    },
+    {
+      "slug": "selling-houston-house-roof-damage-repair-or-as-is",
+      "intentKey": "houston-roof-age-leak-storm-damage-repair-claim-as-is-decision",
+      "day": "2026-10-21",
+      "runId": "native-daily-20261021T134423Z",
+      "fence": 13,
+      "status": "reserved",
+      "reservedAt": "2026-10-21T13:49:10.000Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-house-sewer-line-problem",
+      "intentKey": "houston-private-sewer-line-backup-scope-repair-as-is-sale",
+      "day": "2026-10-21",
+      "runId": "native-daily-20261021T134423Z",
+      "fence": 13,
+      "status": "reserved",
+      "reservedAt": "2026-10-21T13:49:10.000Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "how-to-verify-cash-home-buyer-texas",
+      "intentKey": "texas-seller-verify-cash-home-buyer-entity-funds-title-closing",
+      "day": "2026-10-21",
+      "runId": "native-daily-20261021T134423Z",
+      "fence": 13,
+      "status": "reserved",
+      "reservedAt": "2026-10-21T13:49:10.000Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
