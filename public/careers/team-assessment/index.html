@@ -139,7 +139,7 @@ function render() {
     body = '<div class="opts">' + item.scale.map((label, index) => button(label, 'choice' + (pick.value === index + 1 ? ' on' : ''), 'data-value="' + (index + 1) + '"')).join('') + '</div>';
   } else if (item.kind === 'work') {
     title = item.prompt;
-    hint = 'A couple of sentences is enough. Write the text you would actually send.';
+    hint = 'A couple of sentences is enough. You can write the reply, or describe how you would handle it.';
     body = '<textarea id="work-text">' + esc(work.text) + '</textarea>';
   } else {
     title = item.prompt;
@@ -204,7 +204,7 @@ function goForward() {
   const err = document.getElementById('err');
   if (item.kind === 'work') {
     work.text = document.getElementById('work-text').value.trim();
-    if (work.text.length < 20) { err.textContent = 'Please write at least a sentence.'; return; }
+    if (work.text.length < 20) { err.textContent = "Please write what you'd say back, or how you'd handle this response."; return; }
     saveDraft();
     advance();
     return;
@@ -301,7 +301,7 @@ function payload() {
   return body;
 }
 async function submit() {
-  if (position === 'Acquisitions' && work.text.trim().length < 20) { step = sequence.findIndex(item => item.kind === 'work'); render(); document.getElementById('err').textContent = 'Please write the homeowner reply before submitting.'; return; }
+  if (position === 'Acquisitions' && work.text.trim().length < 20) { step = sequence.findIndex(item => item.kind === 'work'); render(); document.getElementById('err').textContent = "Please write what you'd say back, or how you'd handle this response."; return; }
   const forward = document.getElementById('forward');
   if (forward) { forward.disabled = true; forward.textContent = 'Saving…'; }
   try {

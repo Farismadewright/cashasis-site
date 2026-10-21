@@ -26,7 +26,7 @@ export const DIMENSIONS = [
 ];
 
 export const WORK_SAMPLE_PROMPT =
-  'A homeowner texts you: "That\'s way lower than I expected." Write the short text you would send back. No real estate experience is needed.';
+  'A homeowner texts you: "That\'s way lower than I expected." Write what you\'d say back, or how you\'d handle this response. No real estate experience is needed.';
 export const VOICE_PROMPT =
   "Optional: record up to 60 seconds introducing yourself to a homeowner who asked about selling. You can skip this. No real estate experience is needed.";
 
@@ -507,13 +507,13 @@ export function buildScreening(input, now = new Date()) {
 }
 
 const PUSHY = /\b(act now|right now|today only|last chance|take it or leave it|final offer|you(?:'ll| will) regret|must decide|have to decide|limited time|sign now|sign today|or else|stupid|idiot)\b/i;
-const EMPATHY = /\b(understand|heard you|i hear|sorry|makes sense|appreciate|thanks|thank you|thank|i get it|sounds like|frustrating|disappointing|tough|that is hard|that's hard|i can see)\b/i;
-const CURIOUS = /\?|\b(what|why|how|which|when|tell me|help me understand|curious)\b/i;
+const EMPATHY = /\b(understand|heard you|i hear|sorry|makes sense|appreciate|thanks|thank you|thank|i get it|sounds like|frustrating|disappointing|disappointed|tough|that is hard|that's hard|i can see|acknowledge|acknowledged|acknowledging|acknowledgment|acknowledgement|validate|validated|validating|empathize|empathise|empathy|empathetic|listen|listened|listening|feelings|how they feel|how they're feeling|how they are feeling)\b/i;
+const CURIOUS = /\?|\b(what|why|how|which|when|tell me|help me understand|curious|ask|asks|asked|asking|question|questions|find out|wondering|learn more|wanted to know)\b/i;
 
 export function scoreWorkSample(text, pasted = false) {
   const raw = String(text || "").trim();
   if (raw.length < 20 || raw.length > 2000) {
-    return { ok: false, error: "Please write a short reply, at least a sentence." };
+    return { ok: false, error: "Please write at least a sentence: what you'd say back, or how you'd handle this response." };
   }
   const letters = raw.replace(/[^A-Za-z]/g, "");
   const upper = letters.replace(/[^A-Z]/g, "").length;
@@ -539,7 +539,7 @@ export function scoreWorkSample(text, pasted = false) {
       max: 4,
       points,
       flags,
-      rubric: "Simple text check for a calm tone, a question or curious phrase, an acknowledgment, and the absence of pressure. It never accepts or rejects an applicant by itself.",
+      rubric: "Simple text check for a calm tone, curiosity, and empathy, with no pressure. A direct reply or a description of how they would handle it can both earn the points. It never accepts or rejects an applicant by itself.",
     },
   };
 }

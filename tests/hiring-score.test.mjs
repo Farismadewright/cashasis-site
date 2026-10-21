@@ -144,16 +144,26 @@ test("screening flags never become a rejection", () => {
   assert.equal(buildScreening({ commission_1099: "maybe" }, now).ok, false);
 });
 
-test("work sample rubric scores tone and stays optional for storage", () => {
+test("work sample rubric scores a direct reply and a handling description", () => {
   const strong = scoreWorkSample("I understand this is disappointing. What were you hoping for?");
   assert.equal(strong.ok, true);
   assert.equal(strong.value.score, 4);
+  assert.deepEqual(strong.value.points, { calm: 1, curious: 1, empathetic: 1, not_pushy: 1 });
+  assert.match(strong.value.prompt, /Write what you'd say back, or how you'd handle this response\./);
+  const handling = scoreWorkSample("I would listen first and find out the reason they are disappointed, without any pressure.");
+  assert.equal(handling.ok, true);
+  assert.equal(handling.value.score, 4);
+  assert.deepEqual(handling.value.points, { calm: 1, curious: 1, empathetic: 1, not_pushy: 1 });
+  const described = scoreWorkSample("I'd stay calm, acknowledge their feelings, and ask about the number they had in mind.");
+  assert.equal(described.value.score, 4);
   const pushy = scoreWorkSample("This is the final offer. Take it or leave it!!");
   assert.equal(pushy.ok, true);
   assert.equal(pushy.value.score, 0);
+  assert.deepEqual(pushy.value.points, { calm: 0, curious: 0, empathetic: 0, not_pushy: 0 });
   assert.equal(scoreWorkSample("too short").ok, false);
   const pasted = scoreWorkSample("I hear you. What feels off about that number?", true);
   assert.equal(pasted.value.pasted, true);
+  assert.equal(pasted.value.score, 4);
   assert.ok(pasted.value.flags.includes("likely_pasted"));
 });
 

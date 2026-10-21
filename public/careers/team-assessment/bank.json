@@ -511,6 +511,6 @@
       "Strongly agree"
     ]
   },
-  "work_sample_prompt": "A homeowner texts you: \"That's way lower than I expected.\" Write the short text you would send back. No real estate experience is needed.",
+  "work_sample_prompt": "A homeowner texts you: \"That's way lower than I expected.\" Write what you'd say back, or how you'd handle this response. No real estate experience is needed.",
   "voice_prompt": "Optional: record up to 60 seconds introducing yourself to a homeowner who asked about selling. You can skip this. No real estate experience is needed."
 }
