@@ -3,8 +3,8 @@
     "runId": "native-daily-20261021T134423Z",
     "fence": 13,
     "issuedAt": "2026-10-21T13:44:23.000Z",
-    "expiresAt": "2026-10-21T15:34:23.000Z",
-    "releasedAt": null
+    "expiresAt": "2026-10-21T14:30:30.000Z",
+    "releasedAt": "2026-10-21T14:30:30.000Z"
   },
   "ledger": [
     {
@@ -498,7 +498,7 @@
       "day": "2026-10-21",
       "runId": "native-daily-20261021T134423Z",
       "fence": 13,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-21T13:49:10.000Z",
       "validationOnly": false,
       "previewCommit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
@@ -511,7 +511,15 @@
         "day": "2026-10-21",
         "errors": [],
         "checkedAt": "2026-10-21T14:20:00.000Z"
-      }
+      },
+      "commit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
+      "deployId": "6ad8ca27f71c98250d513c9b",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+      "publishedAt": "2026-10-21T14:21:04.022Z",
+      "verifiedAt": "2026-10-21T14:22:30.000Z",
+      "evidenceCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
+      "bookkeepingDeployId": "6ad8cc43f71c98250d51a4e1",
+      "monitoringCommit": "3074fe7007df585c9cda4c99bb8634db38b64cf1"
     },
     {
       "slug": "selling-houston-house-sewer-line-problem",
@@ -519,7 +527,7 @@
       "day": "2026-10-21",
       "runId": "native-daily-20261021T134423Z",
       "fence": 13,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-21T13:49:10.000Z",
       "validationOnly": false,
       "previewCommit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
@@ -532,7 +540,15 @@
         "day": "2026-10-21",
         "errors": [],
         "checkedAt": "2026-10-21T14:20:00.000Z"
-      }
+      },
+      "commit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
+      "deployId": "6ad8ca27f71c98250d513c9b",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+      "publishedAt": "2026-10-21T14:21:04.022Z",
+      "verifiedAt": "2026-10-21T14:22:30.000Z",
+      "evidenceCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
+      "bookkeepingDeployId": "6ad8cc43f71c98250d51a4e1",
+      "monitoringCommit": "3074fe7007df585c9cda4c99bb8634db38b64cf1"
     },
     {
       "slug": "how-to-verify-cash-home-buyer-texas",
@@ -540,7 +556,7 @@
       "day": "2026-10-21",
       "runId": "native-daily-20261021T134423Z",
       "fence": 13,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-21T13:49:10.000Z",
       "validationOnly": false,
       "previewCommit": "0ab63a9bc5e74f15e93e56e0707a51f6b9f8eb42",
@@ -553,22 +569,32 @@
         "day": "2026-10-21",
         "errors": [],
         "checkedAt": "2026-10-21T14:20:00.000Z"
-      }
+      },
+      "commit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
+      "deployId": "6ad8ca27f71c98250d513c9b",
+      "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "publishedAt": "2026-10-21T14:21:04.022Z",
+      "verifiedAt": "2026-10-21T14:22:30.000Z",
+      "evidenceCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
+      "bookkeepingDeployId": "6ad8cc43f71c98250d51a4e1",
+      "monitoringCommit": "3074fe7007df585c9cda4c99bb8634db38b64cf1"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261020T133354Z",
-    "fence": 12,
+    "runId": "native-daily-20261021T134423Z",
+    "fence": 13,
     "status": "pass",
-    "day": "2026-10-20",
+    "day": "2026-10-21",
     "published": 3,
     "held": 0,
-    "productionCommit": "50d6ce2f26a64e8249e3afc9832afa3acd12a843",
-    "deployId": "6ad7729f0fdb0c464fb94995",
-    "evidence": "automation/blog-publisher/runs/2026-10-20.json",
-    "bookkeepingCommit": "b33dde9857e81e6bd304d18d578c5a4ce95a15df",
-    "completedAt": "2026-10-20T13:59:23.569Z"
+    "productionCommit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
+    "deployId": "6ad8ca27f71c98250d513c9b",
+    "evidence": "automation/blog-publisher/runs/2026-10-21.json",
+    "bookkeepingCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
+    "bookkeepingDeployId": "6ad8cc43f71c98250d51a4e1",
+    "monitoringCommit": "3074fe7007df585c9cda4c99bb8634db38b64cf1",
+    "completedAt": "2026-10-21T14:30:30.000Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
