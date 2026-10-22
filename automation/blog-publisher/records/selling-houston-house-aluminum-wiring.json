@@ -1,0 +1,230 @@
+{
+  "title": "Selling a Houston House With Aluminum Wiring: What to Gather",
+  "description": "Suspect aluminum wiring in a Houston house? Get a qualified assessment, clarify any past repair scope and compare documented work with a current-condition sale.",
+  "pubDate": "2026-10-22T13:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Houston",
+    "electrical condition",
+    "seller records"
+  ],
+  "primaryKeyword": "selling Houston house with aluminum wiring",
+  "supportingKeywords": [
+    "aluminum wiring seller records",
+    "sell house with electrical problems Houston",
+    "aluminum wiring repair before sale"
+  ],
+  "image": "/images/selling-houston-house-aluminum-wiring.png",
+  "imageAlt": "Illustrative older Houston brick house with closed electrical panel and Old Wiring Sell As-Is headline beside official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Can I ask for an as-is offer before rewiring the house?",
+      "a": "Yes. Share the known condition and available reports when requesting an evaluation. A proposal depends on the actual house and written terms; an as-is sale does not make an electrical hazard disappear."
+    },
+    {
+      "q": "Does aluminum anywhere in the electrical system mean the same problem?",
+      "a": "No. The CPSC repair publication addresses particular aluminum branch-circuit wiring and distinguishes it from larger conductors and copper-clad aluminum. Have a qualified electrician identify the actual system."
+    },
+    {
+      "q": "Does a new panel prove all aluminum wiring was repaired?",
+      "a": "No. A panel invoice describes only its stated scope. Ask whether the branch circuits, connections and other affected locations were evaluated or remediated."
+    },
+    {
+      "q": "Should I open outlets or the panel to identify the wiring myself?",
+      "a": "No. This guide does not recommend opening electrical equipment. Arrange a qualified electrician's assessment and seek urgent help for active electrical danger."
+    }
+  ],
+  "runId": "native-daily-20261022T131801Z",
+  "fence": 15,
+  "day": "2026-10-22",
+  "slug": "selling-houston-house-aluminum-wiring",
+  "intentKey": "houston-seller-aluminum-branch-wiring-identification-remediation-records-sale",
+  "status": "draft",
+  "nearestOverlaps": [
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/blog/selling-pre-1978-houston-house-lead-paint/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+  ],
+  "substantiveDifference": "First dedicated aluminum branch-wiring identification, past-remediation scope and electrician-record handoff guide. Existing major-repair and lead-paint pages do not distinguish a new panel from branch-connection remediation or electrical assessment scope.",
+  "sources": [
+    {
+      "url": "https://www.cpsc.gov/s3fs-public/AL_0.pdf",
+      "title": "CPSC Publication 516: Repairing Aluminum Wiring",
+      "publicationDate": "2011-06",
+      "reportingPeriod": "Guidance accessed 2026-10-22",
+      "geography": "Texas / United States safety guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Certain aluminum branch-circuit connections present overheating hazards; distinguish them from large conductors and copper-clad aluminum. Qualified professional remediation and scope records matter.",
+      "accessedAt": "2026-10-22",
+      "verifiedAt": "2026-10-22T13:32:38.713683+00:00",
+      "method": "Primary-source native web reading and claim-by-claim comparison; historical publication dates stated where relevant."
+    },
+    {
+      "url": "https://www.tdlr.texas.gov/electricians/",
+      "title": "TDLR Electricians",
+      "publicationDate": null,
+      "reportingPeriod": "Guidance accessed 2026-10-22",
+      "geography": "Texas / United States safety guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Non-exempt electrical work requires a licensed electrician through a licensed electrical contractor; confirm applicable requirements.",
+      "accessedAt": "2026-10-22",
+      "verifiedAt": "2026-10-22T13:32:38.713683+00:00",
+      "method": "Primary-source native web reading and claim-by-claim comparison; historical publication dates stated where relevant."
+    }
+  ],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work/existing allowances only. No purchase, subscription, credits or paid API used."
+  },
+  "externalApiUsed": false,
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+  "imageSha256": "e938198f227903966532b1518139542ff94d3e5c1cc5fad9c2632d0678a0be04",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "OLD WIRING?|SELL AS-IS?",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-92efc6f5-aead-4714-98c0-2e507724cf11.png",
+    "backgroundSha256": "b908669a6bd7a27c073c5dec2c15fc765b1a4780f6b7977dbff1e704f6098196",
+    "illustrative": true,
+    "visualReview": "Full-size thumbnails and 360/390/768/1366 article screenshots reviewed: readable minimal headline, official transparent logo without block, no clipping, exact dimensions.",
+    "backgroundPrompt": "Use case: photorealistic-natural. Asset: original illustrative property background for seller blog thumbnail, landscape 1536x1024. Fictional older Houston brick ranch house on RIGHT in realistic daylight, with closed neutral electrical panel and a small bundle of unconnected gray insulated cable on a workbench at lower right as conceptual foreground. No exposed energized conductors, sparks, fire, people or diagrams. LEFT half dark quiet shaded negative space for later typography. Natural editorial photograph, no text, labels, logos, address, watermark.",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    }
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "recent14DayMessages": 500,
+    "inboundMessages": 118,
+    "screenedMessages": 112,
+    "keywordScreen": {
+      "price": {
+        "messages": 18,
+        "distinctSellers": 14
+      },
+      "condition": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "timing": {
+        "messages": 2,
+        "distinctSellers": 1
+      },
+      "tenant": {
+        "messages": 8,
+        "distinctSellers": 5
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen, not representative or context-validated. No topic-specific recurring concern claimed. No raw private text, IDs, addresses, amounts or identifying details retained.",
+    "topicOrigin": "Distinct editorial coverage gap; no private seller story."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "Post-publication inspection pending; reporting optional",
+      "source": "Google URL Inspection via existing approved connection"
+    },
+    "GA4Measurement": {
+      "originalOrganicLandingSessions": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "attributionGaps": "No settled new-article data; existing attribution code preserved; no fake lead submitted."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-22T13:32:38.713683+00:00",
+      "source": "Astro build, output validator, structured metadata/link checks, mobile harness and visual review",
+      "details": {
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "internalLinks": [
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/blog/fix-it-first-or-sell-as-is/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-aluminum-wiring&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=selling-houston-house-aluminum-wiring&utm_term=post"
+        ],
+        "mobileWidths": [
+          360,
+          390,
+          768,
+          1366
+        ],
+        "originality12WordShinglesMax": 3,
+        "nearestShingleMatches": [
+          [
+            3,
+            "selling-houston-house-sewer-line-problem"
+          ],
+          [
+            3,
+            "selling-houston-house-roof-damage-repair-or-as-is"
+          ],
+          [
+            0,
+            "when-to-transfer-utilities-selling-houston-house"
+          ]
+        ],
+        "sitemap": true,
+        "rss": true,
+        "semanticDifference": "First dedicated aluminum branch-wiring identification, past-remediation scope and electrician-record handoff guide. Existing major-repair and lead-paint pages do not distinguish a new panel from branch-connection remediation or electrical assessment scope."
+      }
+    }
+  }
+}
