@@ -41,7 +41,7 @@
   "day": "2026-10-22",
   "slug": "selling-houston-house-neglected-pool",
   "intentKey": "houston-seller-neglected-pool-assessment-repair-removal-as-is-choice",
-  "status": "draft",
+  "status": "preview",
   "nearestOverlaps": [
     "/blog/sell-house-needs-major-repairs-houston/",
     "/blog/vacant-house-insurance-while-selling-houston/",
@@ -74,8 +74,10 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pending",
+    "conversion": "pass",
+    "render": "pass"
   },
   "cost": {
     "currency": "USD",
@@ -150,7 +152,7 @@
       "sellerConversionPath",
       "factualSources"
     ],
-    "previewNoindex": "pending",
+    "previewNoindex": "pass; exact-commit preview HTTP X-Robots-Tag noindex verified",
     "productionIndexability": "pending",
     "searchConsoleMonitoring": {
       "availability": "Post-publication inspection pending; reporting optional",
@@ -213,5 +215,33 @@
         "semanticDifference": "First dedicated neglected-pool assessment, optional inspection limits and repair/removal/current-condition comparison. Existing vacancy and major-repair guides do not address pool-shell/subsurface leak exclusions, equipment versus shell scope or removal records."
       }
     }
+  },
+  "preview": {
+    "slug": "selling-houston-house-neglected-pool",
+    "url": "https://6ada109eb56be863ff50aa10--cashasis-blog.netlify.app/blog/selling-houston-house-neglected-pool/",
+    "verifiedAt": "2026-10-22T13:35:33.146781+00:00",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "metaRobots": null,
+    "robotsAllowed": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+    "sitemap": true,
+    "rss": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "heroDimensions": "1200x630",
+    "imageHash": "0f1eba2b8e03dd20223f11b6533f11e1049d2f429286406a4c84d3fa1d3ea307",
+    "internalLinks": 19,
+    "sellerCTA": "pass",
+    "metadata": "pass",
+    "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+    "localOutputParity": true,
+    "commit": "a75ff4350267d6438f2a5387a6ba315aabedc7a9",
+    "deployId": "6ada109eb56be863ff50aa10",
+    "exactCommit": true
   }
 }

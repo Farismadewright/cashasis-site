@@ -41,7 +41,7 @@
   "day": "2026-10-22",
   "slug": "foundation-report-before-selling-houston-house",
   "intentKey": "houston-seller-foundation-visual-opinion-engineering-repair-bid-record-distinction",
-  "status": "draft",
+  "status": "preview",
   "nearestOverlaps": [
     "/blog/sell-house-foundation-problems-houston/",
     "/blog/sell-house-foundation-problems-houston-question/",
@@ -74,8 +74,10 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pending",
+    "conversion": "pass",
+    "render": "pass"
   },
   "cost": {
     "currency": "USD",
@@ -150,7 +152,7 @@
       "sellerConversionPath",
       "factualSources"
     ],
-    "previewNoindex": "pending",
+    "previewNoindex": "pass; exact-commit preview HTTP X-Robots-Tag noindex verified",
     "productionIndexability": "pending",
     "searchConsoleMonitoring": {
       "availability": "Post-publication inspection pending; reporting optional",
@@ -213,5 +215,33 @@
         "semanticDifference": "Narrow document-purpose decision before authorizing work: distinguishes visual inspection opinion, engineering evaluation, contractor repair proposal and warranty records. Existing foundation-sale pages answer the broad can-I-sell/repair-cost question; this guide avoids retargeting that broad intent and links to the existing foundation page."
       }
     }
+  },
+  "preview": {
+    "slug": "foundation-report-before-selling-houston-house",
+    "url": "https://6ada109eb56be863ff50aa10--cashasis-blog.netlify.app/blog/foundation-report-before-selling-houston-house/",
+    "verifiedAt": "2026-10-22T13:35:33.146781+00:00",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "metaRobots": null,
+    "robotsAllowed": true,
+    "canonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+    "sitemap": true,
+    "rss": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "heroDimensions": "1200x630",
+    "imageHash": "5689d4c7ecedd55f7a744753af61fa2d735a4c9f733fc09b4ea51b91bcedcf8c",
+    "internalLinks": 18,
+    "sellerCTA": "pass",
+    "metadata": "pass",
+    "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+    "localOutputParity": true,
+    "commit": "a75ff4350267d6438f2a5387a6ba315aabedc7a9",
+    "deployId": "6ada109eb56be863ff50aa10",
+    "exactCommit": true
   }
 }
