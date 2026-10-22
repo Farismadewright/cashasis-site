@@ -7204,7 +7204,7 @@
           "userCanonical": null
         }
       ],
-      "excluded": false,
+      "excluded": true,
       "eligibleInventorySource": "Current exact-commit production sitemap",
       "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "lastAttemptAt": "2026-10-21T14:22:45.000Z",
@@ -7237,7 +7237,10 @@
       "recordPath": "automation/blog-publisher/records/how-to-verify-cash-home-buyer-texas.json",
       "firstSuccessfulInspection": "2026-10-21T14:22:45.000Z",
       "lastSuccessfulInspection": "2026-10-21T14:22:45.000Z",
-      "nextReviewAt": "2026-10-24T14:22:45.000Z"
+      "nextReviewAt": null,
+      "exclusionReason": "Owner-requested withdrawal; expected 404, do not promote, index or republish",
+      "withdrawnAt": "2026-10-22T00:42:45.889Z",
+      "withdrawalCommit": "1322f879097cfd278ec0b0008b5717201e809d2e"
     }
   ],
   "notifications": [],
