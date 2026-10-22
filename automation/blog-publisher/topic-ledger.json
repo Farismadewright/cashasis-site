@@ -459,6 +459,11 @@
     "deployId": "6ad8ca27f71c98250d513c9b",
     "pr": 18,
     "publishedAt": "2026-10-21T14:21:04.022Z",
-    "imageSha256": "7a6bfd81a70216543e3798b887acf00c970718623a2d879824c6d8115757a81e"
+    "imageSha256": "7a6bfd81a70216543e3798b887acf00c970718623a2d879824c6d8115757a81e",
+    "visibility": "withdrawn",
+    "withdrawnAt": "2026-10-22T00:41:24.381Z",
+    "republishRequiresOwnerRequest": true,
+    "withdrawalReason": "Owner requested removal",
+    "countOriginalPublicationTowardDailyCap": true
   }
 ]
