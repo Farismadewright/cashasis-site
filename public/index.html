@@ -37,7 +37,12 @@ header{position:sticky;top:0;z-index:50;background:rgba(250,247,242,.88);backdro
 header.scrolled{border-bottom-color:var(--line)}
 nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0;position:relative}
 .logo{display:flex;align-items:center;flex:none}
-.logo .lockup{height:50px;width:auto}
+.logo .lockup{height:62px;width:auto}
+header .wrap{max-width:1320px}
+.nav-search{flex:0 1 0px;width:0;min-width:0;overflow:hidden;opacity:0;pointer-events:none;display:flex;justify-content:center;transition:opacity .25s}
+header.scrolled .nav-search{flex:1 1 auto;width:auto;max-width:380px;overflow:visible;opacity:1;pointer-events:auto}
+header.scrolled .btn-phone .pn{display:none}
+header.scrolled .btn-phone{padding:10px 12px}
 .nav-links{display:flex;gap:22px;align-items:center}
 .nav-links a{color:var(--ink);font-weight:600;font-size:14.5px}
 .nav-links a:hover{color:var(--orange)}
@@ -54,13 +59,13 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;paddi
 .nav-offer{padding:11px 16px;font-size:14px}
 
 .hero{padding:14px 14px 0}
-.hero-card{position:relative;border-radius:32px;overflow:hidden;min-height:640px;background:#001947;color:#fff;display:flex;flex-direction:column;justify-content:flex-end}
-.hero-video{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
-.hero-video iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);min-width:100%;min-height:100%;width:auto;height:auto;aspect-ratio:16/9;border:0}
-.hero-card::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,15,46,.62) 0%,rgba(0,15,46,.38) 42%,rgba(0,15,46,.82) 100%)}
-.hero-inner{position:relative;z-index:2;text-align:center;padding:72px 24px 28px;display:flex;flex-direction:column;align-items:center}
-.hero-h1{font-weight:700;font-size:15px;line-height:1.3;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin:0 0 16px;text-shadow:0 1px 12px rgba(0,15,46,.45)}
-.rot-h1{display:block;font-family:var(--display);font-weight:900;font-size:clamp(40px,5.2vw,76px);line-height:1.08;letter-spacing:-.04em;max-width:1100px;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.25)}
+.hero-card{position:relative;border-radius:32px;overflow:hidden;min-height:700px;background:#001947;color:#fff;display:flex;flex-direction:column;justify-content:space-between}
+.hero-photo{position:absolute;inset:0;z-index:0;margin:0;pointer-events:none}
+.hero-photo img{width:100%;height:100%;object-fit:cover}
+.hero-card::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,15,46,.62) 0%,rgba(0,15,46,.35) 45%,rgba(0,15,46,.8) 100%);pointer-events:none}
+.hero-inner{position:relative;z-index:2;text-align:center;padding:78px 24px 18px;display:flex;flex-direction:column;align-items:center}
+.hero-h1{display:inline-block;background:var(--orange);color:#fff;font-weight:800;font-size:14px;line-height:1.3;letter-spacing:.08em;text-transform:uppercase;padding:7px 16px;border-radius:999px;margin:0 0 22px}
+.rot-h1{display:block;font-family:var(--display);font-weight:900;font-size:clamp(40px,5.4vw,84px);line-height:1.05;letter-spacing:-.04em;max-width:1100px;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.25)}
 .rot-h1 .o{color:var(--orange)}
 .vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .hl,.l1,.l2{display:block}
@@ -95,11 +100,27 @@ nav{display:flex;align-items:center;justify-content:space-between;gap:16px;paddi
 .ac-list .ac-item:hover,.ac-list .ac-item.active,.ac-list .ac-item[aria-selected="true"]{background:#FFE9DA!important;color:#0E1A33!important;box-shadow:inset 4px 0 0 #FB6200!important;font-weight:700!important}
 .micro{font-size:13.5px;color:rgba(255,255,255,.88);display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:14px}
 .micro span+span::before{content:"";display:inline-block;width:1px;height:12px;background:rgba(255,255,255,.45);margin-right:14px;vertical-align:-1px}
-.hero-recall{margin-top:14px;display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;font-family:var(--display);font-weight:800;font-size:18px}
+.addr{position:relative;display:flex;align-items:center;background:#fff;border-radius:999px;padding:7px 7px 7px 20px;box-shadow:0 16px 40px -24px rgba(0,0,0,.55);width:100%;max-width:600px;color:var(--ink)}
+.addr .pin{width:18px;height:18px;flex:none;fill:none;stroke:#5E6577;stroke-width:1.8}
+.addr input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:17px;padding:12px 10px;color:var(--ink);width:100%}
+.addr .btn,.addr .go{background:var(--orange);color:#fff;font-weight:700;border-radius:999px;padding:14px 22px;white-space:nowrap;box-shadow:0 10px 24px -12px rgba(251,98,0,.8);text-decoration:none}
+.addr .btn:hover,.addr .go:hover{background:var(--orange-d);transform:none}
+.addr.nav-form{max-width:380px;padding:3px 3px 3px 14px;box-shadow:none;background:var(--bg2)}
+.addr.nav-form input{font-size:14px;padding:8px 10px}
+.addr.nav-form .go{padding:8px 16px;font-size:13.5px;box-shadow:none}
+.addr.shake{animation:shake .4s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.hero .addr .ac-list{top:auto;bottom:calc(100% + 6px);z-index:6}
+.hero-recall{margin-top:16px;display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;font-family:var(--display);font-weight:800;font-size:20px}
 .hero-recall a{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:8px 16px;color:#fff}
 .hero-recall .o{color:var(--orange)}
 .stats{position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);text-align:center;padding:8px 28px 32px;gap:10px}
-.stat b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(26px,3vw,38px)}
+.stat b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(28px,3vw,40px)}
+.lead-shell{display:none;position:fixed;inset:0;z-index:80;background:rgba(0,15,46,.62);align-items:flex-start;justify-content:center;padding:28px 16px;overflow:auto}
+.lead-shell.open,.lead-shell:target{display:flex}
+.lead-dialog{position:relative;width:min(640px,100%);margin:28px auto}
+.lead-x{position:absolute;top:10px;right:10px;z-index:4;width:36px;height:36px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;font-size:26px;line-height:1;font-weight:700;box-shadow:var(--shadow-sm)}
+.lead-dialog .offer-card{width:100%}
 .stat small{font-size:13px;opacity:.85}
 .secure{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-size:13px;padding:14px 0 0}
 .secure svg{width:16px;height:16px}
@@ -288,7 +309,16 @@ footer{background:var(--bg2);color:var(--muted);border-top:1px solid var(--line)
   .cmp-row{grid-template-columns:1fr;gap:4px}
 }
 @media(max-width:760px){
-  .logo .lockup{height:40px}
+  .logo .lockup{height:46px}
+  .nav-search{display:none!important}
+  .hero-card{min-height:0;border-radius:24px}
+  .hero-inner{padding:36px 14px 16px}
+  .hero .addr{flex-wrap:wrap;border-radius:22px;padding:8px;gap:6px}
+  .hero .addr .pin{margin-left:8px}
+  .hero .addr input{flex:1 1 calc(100% - 36px);font-size:16px}
+  .hero .addr .btn{flex:1 1 100%;width:100%;padding:14px}
+  .w{white-space:normal}
+  .hero-recall{font-size:16px}
   .nav-links{display:none;position:absolute;top:100%;left:-24px;right:-24px;background:var(--bg);flex-direction:column;align-items:stretch;gap:0;padding:8px 24px 18px;border-bottom:1px solid var(--line);box-shadow:var(--shadow-sm)}
   .nav-links.open{display:flex}
   .nav-links a{padding:12px 0;border-bottom:1px solid var(--line)}
@@ -297,8 +327,8 @@ footer{background:var(--bg2);color:var(--muted);border-top:1px solid var(--line)
   .features-inner,.trust-row,.posts,.rev-grid,.field-row,.cao-frow{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr}
   .foot-bottom{flex-direction:column}
-  .hero-h1{font-size:13px}
-  .rot-h1{font-size:38px}
+  .hero-h1{font-size:12px;letter-spacing:.06em;padding:6px 12px;margin-bottom:16px}
+  .rot-h1{font-size:40px}
   .bb{padding:28px 20px;box-shadow:8px 8px 0 var(--orange)}
   section{padding:64px 0}
 }
@@ -350,10 +380,17 @@ fbq('track','PageView');
 </head>
 <body>
 
-<header>
+<header id="top">
   <div class="wrap">
     <nav>
       <a href="/" class="logo" aria-label="CashAsIs home"><img class="lockup" src="/images/cashasis-logo-navy-transparent.png" alt="CashAsIs - We Buy Houses As-Is"></a>
+      <div class="nav-search">
+        <div class="addr nav-form" id="navAddr">
+          <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <input id="nav-address" type="text" placeholder="Enter your property address" aria-label="Property address" autocomplete="street-address">
+          <a class="go" href="#lead-shell" id="navGo">Go</a>
+        </div>
+      </div>
       <a class="phone-mini" href="tel:+13465846365" aria-label="Call CashAsIs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></a>
       <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
       <div class="nav-links" id="navLinks">
@@ -362,7 +399,7 @@ fbq('track','PageView');
         <a href="#about">About Us</a>
         <a href="#reviews">Reviews</a>
         <a href="/blog">Resources</a>
-        <a href="tel:+13465846365" class="btn btn-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg> (346) 584-6365</a>
+        <a href="tel:+13465846365" class="btn btn-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg><span class="pn">(346) 584-6365</span></a>
         <a href="#" class="btn btn-orange nav-offer" data-cao-open>Get My Offer</a>
       </div>
     </nav>
@@ -371,9 +408,11 @@ fbq('track','PageView');
 
 <div class="hero">
   <div class="hero-card">
-    <div class="hero-video">
-      <iframe src="https://player.vimeo.com/video/1199953523?background=1&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" title="trusted_buyers"></iframe>
-    </div>
+    <picture class="hero-photo">
+      <source type="image/avif" srcset="/images/hero-house-800.avif 800w, /images/hero-house.avif 1600w" sizes="100vw">
+      <source type="image/webp" srcset="/images/hero-house-800.webp 800w, /images/hero-house.webp 1600w" sizes="100vw">
+      <img src="/images/hero-house.webp" alt="" width="1600" height="1066" fetchpriority="high" decoding="async">
+    </picture>
     <div class="hero-inner">
       <h1 class="hero-h1">Need To Sell Your House Fast?</h1>
       <div class="rot-h1" role="text">
@@ -383,63 +422,13 @@ fbq('track','PageView');
       </div>
       <p class="any">Any condition. Any situation.</p>
       <p class="sub">We Buy Houses As-Is. No Repairs. No Fees. Close On Your Timeline.</p>
-      <div class="offer-card" id="caoCard">
-        <div class="cao-prog" id="caoProg"><span id="caoBar"></span></div>
-        <div class="cao-pane active" data-pane="1">
-          <h2>Get Your Cash Offer Today</h2>
-          <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
-          <form id="leadForm">
-          <div class="field">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <input type="text" name="address" placeholder="Enter your property address" required>
-          </div>
-          <div class="field-row">
-            <div class="field">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-              <input type="text" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="field">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
-              <input type="tel" name="phone" placeholder="Phone Number" required>
-            </div>
-          </div>
-          <div class="field">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
-            <input type="email" name="email" placeholder="Email Address" required>
-          </div>
-          <label class="consent">
-            <input type="checkbox" name="consent" required>
-            <span>By submitting, I consent to receive calls, emails &amp; texts (SMS/MMS) from CashAsIs / Mr. Wright Properties at the info provided. Msg &amp; data rates may apply. Reply <strong>STOP</strong> to opt out. Not a condition of purchase. <a href="/privacy">Privacy Policy</a> &amp; <a href="/terms">Terms</a>.</span>
-          </label>
-          <button type="submit" class="btn btn-orange btn-block">Get my cash offer</button>
-        <input type="hidden" name="condition">
-          <input type="hidden" name="timeline">
-          <input type="hidden" name="source" value="cashasis">
-        </form>
-        </div>
-        <div class="cao-pane" data-pane="2">
-          <h4 class="cao-q">What's the condition of your property?</h4>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Move-In Ready"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>Move-In Ready</b><small>Clean, no major issues</small></span></button>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Needs Work"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>Needs Work</b><small>Some repairs needed</small></span></button>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Heavily Distressed"><span class="dia" style="--d:#e23b3b"></span><span class="txt"><b>Heavily Distressed</b><small>Major repairs or damage</small></span></button>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Vacant / Abandoned"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Vacant / Abandoned</b><small>No one living there</small></span></button>
-        </div>
-        <div class="cao-pane" data-pane="3">
-          <h4 class="cao-q">What's your ideal timeline to close?</h4>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="ASAP"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>ASAP</b><small>As fast as possible</small></span></button>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="30 Days"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>30 Days</b><small>Within a month</small></span></button>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="60-90 Days"><span class="dia" style="--d:#16a34a"></span><span class="txt"><b>60-90 Days</b><small>I have some time</small></span></button>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="Just Exploring"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Just Exploring</b><small>No rush right now</small></span></button>
-          <button type="button" class="cao-back" id="caoBack">&larr; Back</button>
-        </div>
-        <div class="cao-pane cao-done" data-pane="4">
-          <div class="cao-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg></div>
-        <h4>You're All Set!</h4>
-        <p>We will review your property and reach out within <b>24 hours</b> with your cash offer. No pressure, no obligation.</p>
-        </div>
+      <div class="addr" id="heroAddr">
+        <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <input id="prop-address" type="text" placeholder="Enter your property address" aria-label="Property address" autocomplete="street-address">
+        <a class="btn btn-orange" href="#lead-shell" id="heroGo">Get my cash offer</a>
       </div>
       <p class="micro"><span>Takes 30 seconds</span><span>No obligation</span><span>No pressure</span></p>
-      <div class="hero-recall"><a href="/">cashasis.com</a><a href="tel:+13465846365">(346) 584-6365</a></div>
+      <div class="hero-recall"><a href="/"><span class="o">cashasis</span>.com</a><a href="tel:+13465846365">(346) 584-6365</a></div>
     </div>
     <div class="stats">
       <div class="stat"><b>24 hrs</b><small>Real cash offer, no obligation</small></div>
@@ -645,7 +634,7 @@ fbq('track','PageView');
       <p class="ugly-card">Any Condition.<br>Any Situation.<br><span class="orange">We Can Help.</span></p>
     </div>
     <div class="ugly-visual">
-      <img class="ugly-photo" src="/assets/ce790012ce3c.png" alt="Distressed house we buy as-is">
+      <img class="ugly-photo" src="/assets/ce790012ce3c.png" alt="Distressed house we buy as-is" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
@@ -740,12 +729,12 @@ fbq('track','PageView');
       <a class="pill" href="/blog/">All resources</a>
     </div>
     <div class="posts">
-      <a class="post" href="/blog/hcad-tax-value-vs-cash-offer-harris-county/"><img src="/images/hcad-tax-value-vs-cash-offer-harris-county.png" alt="HCAD value compared with a cash offer"><h3>HCAD Value vs. a Cash Offer: A Harris County Seller's Guide</h3><span class="read">Read &rarr;</span></a>
-      <a class="post" href="/blog/selling-houston-area-house-private-water-well/"><img src="/images/selling-houston-area-house-private-water-well.png" alt="House with a private water well"><h3>Selling a Houston-Area House With a Private Water Well</h3><span class="read">Read &rarr;</span></a>
-      <a class="post" href="/blog/when-to-transfer-utilities-selling-houston-house/"><img src="/images/when-to-transfer-utilities-selling-houston-house.png" alt="Utilities at a Houston house"><h3>Selling a Houston House: When Should Utilities Transfer?</h3><span class="read">Read &rarr;</span></a>
-      <a class="post" href="/blog/mold-remediation-certificate-selling-texas-house/"><img src="/images/mold-remediation-certificate-selling-texas-house.png" alt="Mold remediation paperwork"><h3>Selling a Texas House After Mold Work: Check the Certificate</h3><span class="read">Read &rarr;</span></a>
-      <a class="post" href="/blog/replace-air-conditioner-before-selling-houston-house/"><img src="/images/replace-air-conditioner-before-selling-houston-house.png" alt="Air conditioner on a Houston house"><h3>Replace the AC Before Selling a Houston House? Compare First</h3><span class="read">Read &rarr;</span></a>
-      <a class="post" href="/blog/selling-houston-house-from-out-of-state-signing/"><img src="/images/selling-houston-house-from-out-of-state-signing.png" alt="Signing documents away from the house"><h3>Selling a Houston House From Out of State: Plan the Signing</h3><span class="read">Read &rarr;</span></a>
+      <a class="post" href="/blog/hcad-tax-value-vs-cash-offer-harris-county/"><img loading="lazy" decoding="async" src="/images/hcad-tax-value-vs-cash-offer-harris-county.png" alt="HCAD value compared with a cash offer"><h3>HCAD Value vs. a Cash Offer: A Harris County Seller's Guide</h3><span class="read">Read &rarr;</span></a>
+      <a class="post" href="/blog/selling-houston-area-house-private-water-well/"><img loading="lazy" decoding="async" src="/images/selling-houston-area-house-private-water-well.png" alt="House with a private water well"><h3>Selling a Houston-Area House With a Private Water Well</h3><span class="read">Read &rarr;</span></a>
+      <a class="post" href="/blog/when-to-transfer-utilities-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/when-to-transfer-utilities-selling-houston-house.png" alt="Utilities at a Houston house"><h3>Selling a Houston House: When Should Utilities Transfer?</h3><span class="read">Read &rarr;</span></a>
+      <a class="post" href="/blog/mold-remediation-certificate-selling-texas-house/"><img loading="lazy" decoding="async" src="/images/mold-remediation-certificate-selling-texas-house.png" alt="Mold remediation paperwork"><h3>Selling a Texas House After Mold Work: Check the Certificate</h3><span class="read">Read &rarr;</span></a>
+      <a class="post" href="/blog/replace-air-conditioner-before-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/replace-air-conditioner-before-selling-houston-house.png" alt="Air conditioner on a Houston house"><h3>Replace the AC Before Selling a Houston House? Compare First</h3><span class="read">Read &rarr;</span></a>
+      <a class="post" href="/blog/selling-houston-house-from-out-of-state-signing/"><img loading="lazy" decoding="async" src="/images/selling-houston-house-from-out-of-state-signing.png" alt="Signing documents away from the house"><h3>Selling a Houston House From Out of State: Plan the Signing</h3><span class="read">Read &rarr;</span></a>
     </div>
     <div class="pills">
       <a class="pill" href="/blog/inherited-property-cashasis-options/">Inherited</a>
@@ -885,6 +874,66 @@ fbq('track','PageView');
   </div>
 </footer>
 
+<div class="lead-shell" id="lead-shell">
+  <div class="lead-dialog" role="dialog" aria-modal="true" aria-label="Get your cash offer">
+    <a class="lead-x" href="#top" id="leadClose" aria-label="Close">&times;</a>
+    <div class="offer-card" id="caoCard">
+        <div class="cao-prog" id="caoProg"><span id="caoBar"></span></div>
+        <div class="cao-pane active" data-pane="1">
+          <h2>Get Your Cash Offer Today</h2>
+          <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
+          <form id="leadForm">
+          <div class="field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <input type="text" name="address" placeholder="Enter your property address" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+          </div>
+          <div class="field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            <input type="email" name="email" placeholder="Email Address" required>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span>By submitting, I consent to receive calls, emails &amp; texts (SMS/MMS) from CashAsIs / Mr. Wright Properties at the info provided. Msg &amp; data rates may apply. Reply <strong>STOP</strong> to opt out. Not a condition of purchase. <a href="/privacy">Privacy Policy</a> &amp; <a href="/terms">Terms</a>.</span>
+          </label>
+          <button type="submit" class="btn btn-orange btn-block">Get my cash offer</button>
+        <input type="hidden" name="condition">
+          <input type="hidden" name="timeline">
+          <input type="hidden" name="source" value="cashasis">
+        </form>
+        </div>
+        <div class="cao-pane" data-pane="2">
+          <h4 class="cao-q">What's the condition of your property?</h4>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Move-In Ready"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>Move-In Ready</b><small>Clean, no major issues</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Needs Work"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>Needs Work</b><small>Some repairs needed</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Heavily Distressed"><span class="dia" style="--d:#e23b3b"></span><span class="txt"><b>Heavily Distressed</b><small>Major repairs or damage</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Vacant / Abandoned"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Vacant / Abandoned</b><small>No one living there</small></span></button>
+        </div>
+        <div class="cao-pane" data-pane="3">
+          <h4 class="cao-q">What's your ideal timeline to close?</h4>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="ASAP"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>ASAP</b><small>As fast as possible</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="30 Days"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>30 Days</b><small>Within a month</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="60-90 Days"><span class="dia" style="--d:#16a34a"></span><span class="txt"><b>60-90 Days</b><small>I have some time</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="Just Exploring"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Just Exploring</b><small>No rush right now</small></span></button>
+          <button type="button" class="cao-back" id="caoBack">&larr; Back</button>
+        </div>
+        <div class="cao-pane cao-done" data-pane="4">
+          <div class="cao-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg></div>
+        <h4>You're All Set!</h4>
+        <p>We will review your property and reach out within <b>24 hours</b> with your cash offer. No pressure, no obligation.</p>
+        </div>
+      </div>
+  </div>
+</div>
 <script>
 (function(){
   var h=document.querySelector('.rot-h1');
@@ -941,6 +990,58 @@ fbq('track','PageView');
   var prev=document.querySelector('[data-story-prev]'), next=document.querySelector('[data-story-next]');
   if(prev) prev.addEventListener('click',function(){nudge(-1);});
   if(next) next.addEventListener('click',function(){nudge(1);});
+
+  function openLead(addr){
+    var form=document.getElementById('leadForm');
+    var field=form&&form.querySelector('input[name="address"]');
+    if(field) field.value=addr||'';
+    var shell=document.getElementById('lead-shell');
+    if(!shell) return;
+    shell.classList.add('open');
+    shell.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    if(field){ try{ field.focus({preventScroll:true}); }catch(err){} }
+  }
+  function closeLead(){
+    var shell=document.getElementById('lead-shell');
+    if(!shell) return;
+    shell.classList.remove('open');
+    shell.setAttribute('aria-hidden','true');
+    document.body.style.overflow='';
+    if(location.hash==='#lead-shell' || location.hash==='#top'){
+      try{ history.replaceState(null,'',location.pathname+location.search); }catch(err){}
+    }
+  }
+  function bindAddr(boxId, inputId, goId){
+    var box=document.getElementById(boxId);
+    var input=document.getElementById(inputId);
+    var go=document.getElementById(goId);
+    if(!go) return;
+    go.addEventListener('click',function(e){
+      var v=(input&&input.value||'').trim();
+      if(!v){
+        e.preventDefault();
+        if(box){ box.classList.remove('shake'); void box.offsetWidth; box.classList.add('shake'); }
+        if(input) input.focus();
+        return;
+      }
+      e.preventDefault();
+      openLead(v);
+    });
+    if(input) input.addEventListener('keydown',function(e){
+      if(e.key!=='Enter') return;
+      if(input.getAttribute('aria-expanded')==='true') return;
+      e.preventDefault();
+      go.click();
+    });
+  }
+  bindAddr('heroAddr','prop-address','heroGo');
+  bindAddr('navAddr','nav-address','navGo');
+  var leadClose=document.getElementById('leadClose');
+  if(leadClose) leadClose.addEventListener('click',function(e){ e.preventDefault(); closeLead(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeLead(); });
+  var leadShell=document.getElementById('lead-shell');
+  if(leadShell) leadShell.addEventListener('click',function(e){ if(e.target===leadShell) closeLead(); });
 })();
 </script>
 
