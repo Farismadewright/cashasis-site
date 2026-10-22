@@ -41,7 +41,7 @@
   "day": "2026-10-22",
   "slug": "selling-houston-house-aluminum-wiring",
   "intentKey": "houston-seller-aluminum-branch-wiring-identification-remediation-records-sale",
-  "status": "preview",
+  "status": "published",
   "nearestOverlaps": [
     "/blog/sell-house-needs-major-repairs-houston/",
     "/blog/selling-pre-1978-houston-house-lead-paint/",
@@ -88,7 +88,7 @@
     "links": "pass",
     "mobile": "pass",
     "preview": "pass",
-    "deploy": "pending",
+    "deploy": "pass",
     "conversion": "pass",
     "render": "pass"
   },
@@ -99,8 +99,8 @@
     "note": "Native Work/existing allowances only. No purchase, subscription, credits or paid API used."
   },
   "externalApiUsed": false,
-  "commit": null,
-  "deployId": null,
+  "commit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+  "deployId": "6ada1202ab4f23f3f0732f5c",
   "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
   "imageSha256": "e938198f227903966532b1518139542ff94d3e5c1cc5fad9c2632d0678a0be04",
   "thumbnail": {
@@ -166,10 +166,28 @@
       "factualSources"
     ],
     "previewNoindex": "pass; exact-commit preview HTTP X-Robots-Tag noindex verified",
-    "productionIndexability": "pending",
+    "productionIndexability": "pass; HTTP200, robots crawlable, no meta/header noindex, self-canonical, sitemap/RSS eligible",
     "searchConsoleMonitoring": {
-      "availability": "Post-publication inspection pending; reporting optional",
-      "source": "Google URL Inspection via existing approved connection"
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-22T13:40:55.179367+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fbSE-zB9DdU48e8xXVUJoQ&utm_medium=link&utm_source=api",
+      "availability": "available; initial Google discovery observation, not rejection",
+      "canonicalURL": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+      "nextReview": "2026-10-25",
+      "nextReviewBasis": "Central publication date +3 days; existing-run planner re-evaluates",
+      "queries": null,
+      "impressions": null,
+      "clicks": null,
+      "ctr": null,
+      "position": null
     },
     "GA4Measurement": {
       "originalOrganicLandingSessions": null,
@@ -231,8 +249,8 @@
   },
   "preview": {
     "slug": "selling-houston-house-aluminum-wiring",
-    "url": "https://6ada109eb56be863ff50aa10--cashasis-blog.netlify.app/blog/selling-houston-house-aluminum-wiring/",
-    "verifiedAt": "2026-10-22T13:35:33.146781+00:00",
+    "url": "https://6ada117823bbfe3f6f14f84f--cashasis-blog.netlify.app/blog/selling-houston-house-aluminum-wiring/",
+    "verifiedAt": "2026-10-22T13:37:26.940687+00:00",
     "httpStatus": 200,
     "xRobotsTag": "noindex",
     "metaRobots": null,
@@ -253,8 +271,40 @@
     "metadata": "pass",
     "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
     "localOutputParity": true,
-    "commit": "a75ff4350267d6438f2a5387a6ba315aabedc7a9",
-    "deployId": "6ada109eb56be863ff50aa10",
+    "commit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
+    "deployId": "6ada117823bbfe3f6f14f84f",
     "exactCommit": true
+  },
+  "publication": {
+    "slug": "selling-houston-house-aluminum-wiring",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+    "verifiedAt": "2026-10-22T13:40:31.520050+00:00",
+    "httpStatus": 200,
+    "xRobotsTag": null,
+    "metaRobots": null,
+    "robotsAllowed": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+    "sitemap": true,
+    "rss": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "heroDimensions": "1200x630",
+    "imageHash": "e938198f227903966532b1518139542ff94d3e5c1cc5fad9c2632d0678a0be04",
+    "internalLinks": 19,
+    "sellerCTA": "pass",
+    "metadata": "pass",
+    "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+    "localOutputParity": true,
+    "pr": 20,
+    "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
+    "previewDeployId": "6ada117823bbfe3f6f14f84f",
+    "productionCommit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+    "productionDeployId": "6ada1202ab4f23f3f0732f5c",
+    "publishedAt": "2026-10-22T13:39:55.374Z",
+    "exactCommitReady": true
   }
 }

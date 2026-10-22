@@ -1,0 +1,657 @@
+{
+  "runId": "native-daily-20261022T131801Z",
+  "fence": 15,
+  "day": "2026-10-22",
+  "status": "pass",
+  "published": 3,
+  "held": 0,
+  "externalPaidApiSpendUSD": 0,
+  "completedAt": "2026-10-22T13:43:06.697161+00:00",
+  "articles": [
+    {
+      "slug": "selling-houston-house-neglected-pool",
+      "title": "Selling a Houston House With a Neglected Pool: Compare First",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+      "image": "https://www.cashasis.com/images/selling-houston-house-neglected-pool.png",
+      "imageSha256": "0f1eba2b8e03dd20223f11b6533f11e1049d2f429286406a4c84d3fa1d3ea307",
+      "googleInspection": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-22T13:40:55.083043+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3wmYzz_OqvZoFQ4PwnGtFA&utm_medium=link&utm_source=api"
+      },
+      "social": "draft_only"
+    },
+    {
+      "slug": "selling-houston-house-aluminum-wiring",
+      "title": "Selling a Houston House With Aluminum Wiring: What to Gather",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+      "image": "https://www.cashasis.com/images/selling-houston-house-aluminum-wiring.png",
+      "imageSha256": "e938198f227903966532b1518139542ff94d3e5c1cc5fad9c2632d0678a0be04",
+      "googleInspection": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-22T13:40:55.179367+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fbSE-zB9DdU48e8xXVUJoQ&utm_medium=link&utm_source=api"
+      },
+      "social": "draft_only"
+    },
+    {
+      "slug": "foundation-report-before-selling-houston-house",
+      "title": "Foundation Report Before Selling in Houston: What Does It Answer?",
+      "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+      "image": "https://www.cashasis.com/images/foundation-report-before-selling-houston-house.png",
+      "imageSha256": "5689d4c7ecedd55f7a744753af61fa2d735a4c9f733fc09b4ea51b91bcedcf8c",
+      "googleInspection": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-22T13:40:55.188848+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=e6SZCex7x708szIOuw42Xg&utm_medium=link&utm_source=api"
+      },
+      "social": "draft_only"
+    }
+  ],
+  "publication": {
+    "pr": 20,
+    "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
+    "previewDeployId": "6ada117823bbfe3f6f14f84f",
+    "productionCommit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+    "productionDeployId": "6ada1202ab4f23f3f0732f5c",
+    "publishedAt": "2026-10-22T13:39:55.374Z",
+    "verifiedAt": "2026-10-22T13:40:31.520050+00:00",
+    "exactCommitReady": true
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-22",
+    "errors": [],
+    "checkedAt": "2026-10-22T13:39:10.292Z"
+  },
+  "previewQA": {
+    "mode": "preview",
+    "origin": "https://6ada117823bbfe3f6f14f84f--cashasis-blog.netlify.app",
+    "checkedAt": "2026-10-22T13:37:26.940687+00:00",
+    "articles": [
+      {
+        "slug": "selling-houston-house-neglected-pool",
+        "url": "https://6ada117823bbfe3f6f14f84f--cashasis-blog.netlify.app/blog/selling-houston-house-neglected-pool/",
+        "verifiedAt": "2026-10-22T13:37:26.940687+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": "noindex",
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "0f1eba2b8e03dd20223f11b6533f11e1049d2f429286406a4c84d3fa1d3ea307",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "selling-houston-house-aluminum-wiring",
+        "url": "https://6ada117823bbfe3f6f14f84f--cashasis-blog.netlify.app/blog/selling-houston-house-aluminum-wiring/",
+        "verifiedAt": "2026-10-22T13:37:26.940687+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": "noindex",
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "e938198f227903966532b1518139542ff94d3e5c1cc5fad9c2632d0678a0be04",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "foundation-report-before-selling-houston-house",
+        "url": "https://6ada117823bbfe3f6f14f84f--cashasis-blog.netlify.app/blog/foundation-report-before-selling-houston-house/",
+        "verifiedAt": "2026-10-22T13:37:26.940687+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": "noindex",
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "5689d4c7ecedd55f7a744753af61fa2d735a4c9f733fc09b4ea51b91bcedcf8c",
+        "internalLinks": 18,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+        "localOutputParity": true
+      }
+    ],
+    "protectedAssetByteParity": true,
+    "result": "pass"
+  },
+  "productionQA": {
+    "mode": "production",
+    "origin": "https://www.cashasis.com",
+    "checkedAt": "2026-10-22T13:40:31.520050+00:00",
+    "articles": [
+      {
+        "slug": "selling-houston-house-neglected-pool",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "verifiedAt": "2026-10-22T13:40:31.520050+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": null,
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "0f1eba2b8e03dd20223f11b6533f11e1049d2f429286406a4c84d3fa1d3ea307",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "selling-houston-house-aluminum-wiring",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "verifiedAt": "2026-10-22T13:40:31.520050+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": null,
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "e938198f227903966532b1518139542ff94d3e5c1cc5fad9c2632d0678a0be04",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "foundation-report-before-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "verifiedAt": "2026-10-22T13:40:31.520050+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": null,
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "5689d4c7ecedd55f7a744753af61fa2d735a4c9f733fc09b4ea51b91bcedcf8c",
+        "internalLinks": 18,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+        "localOutputParity": true
+      }
+    ],
+    "protectedAssetByteParity": true,
+    "result": "pass"
+  },
+  "withdrawnArticleSafeguards": [
+    {
+      "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+      "httpStatus": 404,
+      "excludedFromBlogRssSitemap": true,
+      "checkedAt": "2026-10-22T13:43:06.697161+00:00"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "httpStatus": 404,
+      "excludedFromBlogRssSitemap": true,
+      "checkedAt": "2026-10-22T13:43:06.697161+00:00"
+    }
+  ],
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "recent14DayMessages": 500,
+    "inboundMessages": 118,
+    "screenedMessages": 112,
+    "keywordScreen": {
+      "price": {
+        "messages": 18,
+        "distinctSellers": 14
+      },
+      "condition": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "timing": {
+        "messages": 2,
+        "distinctSellers": 1
+      },
+      "tenant": {
+        "messages": 8,
+        "distinctSellers": 5
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen, not representative or context-validated. No topic-specific recurring concern claimed. No raw private text, IDs, addresses, amounts or identifying details retained.",
+    "topicOrigin": "Distinct editorial coverage gap; no private seller story."
+  },
+  "monitoring": {
+    "coverage": {
+      "eligibleSitemapURLs": 182,
+      "eligibleBlogArticles": 163,
+      "eligibleURLsWithRetainedInspectionEvidence": 182,
+      "latestEvidenceCounts": {
+        "indexed": 154,
+        "not_indexed": 28
+      },
+      "latestBlogEvidenceCounts": {
+        "indexed": 139,
+        "not_indexed": 24
+      },
+      "inspectedThisRun": 6,
+      "observationDateRange": [
+        "2026-10-04T18:51:07.839038+00:00",
+        "2026-10-22T13:40:55.188848+00:00"
+      ],
+      "note": "Mixed observation dates, not a fresh complete inspection of every URL. Sitemap includes blog and non-blog pages. Impressions are not index counts; unknown is not rejection."
+    },
+    "dueRechecks": [
+      {
+        "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "checkedAt": "2026-10-22T13:37:58.261182+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "technicalEligible": true,
+        "noindex": false,
+        "sitemap": true,
+        "structuredData": true,
+        "internalLinks": true,
+        "sellerPath": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "checkedAt": "2026-10-22T13:37:58.140796+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "technicalEligible": true,
+        "noindex": false,
+        "sitemap": true,
+        "structuredData": true,
+        "internalLinks": true,
+        "sellerPath": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "checkedAt": "2026-10-22T13:37:58.216451+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "technicalEligible": true,
+        "noindex": false,
+        "sitemap": true,
+        "structuredData": true,
+        "internalLinks": true,
+        "sellerPath": true
+      }
+    ],
+    "inspections": [
+      {
+        "id": "89454a90-3e3e-4ccc-a4cd-3417a4197e5d",
+        "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-22T13:40:55.188848+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=e6SZCex7x708szIOuw42Xg&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "0587c3f8-930f-4019-ae52-0bf845a07ad6",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-22T13:40:55.179367+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fbSE-zB9DdU48e8xXVUJoQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "998e35cb-951d-4e9b-b89b-abab1f59251a",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-22T13:40:55.083043+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3wmYzz_OqvZoFQ4PwnGtFA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "fbb92b18-3712-41d9-8ef2-8c48f7865348",
+        "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-22T13:35:04.328004+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=FrADEN3B-nDeABIgRa3ejw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "1f19aa81-23c9-4612-82ec-f798e5393e82",
+        "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-22T13:35:04.320758+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mj6D4gAxfr5W1ZgLdfukHg&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "ce9f0bfd-8984-40c4-8e68-d097618faecf",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-22T13:35:04.317203+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mTK1Ec9VwFdCCUkfT0tvdw&utm_medium=link&utm_source=api"
+      }
+    ],
+    "deferredInspections": 0,
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "actionableAlert": false
+  },
+  "gscSearchPerformance": {
+    "settledThrough": "2026-10-20",
+    "range": [
+      "2026-09-22",
+      "2026-10-19"
+    ],
+    "siteTotals": {
+      "clicks": 6,
+      "impressions": 667,
+      "ctrPercent": 0.9,
+      "avgPositionWeighted": 43.42
+    },
+    "coverage": {
+      "rowsReturned": 237,
+      "rowsTotal": 237,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7646,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2354,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 6,
+        "impressions": 667,
+        "ctrPercent": 0.9,
+        "avgPositionWeighted": 43.42
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-21",
+      "settledThrough": "2026-10-20",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-22",
+        "dataState": "all"
+      }
+    },
+    "directionalPosition11to30Opportunities": [
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 16.2
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast in missouri city"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 22.5
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+          "sell my house fast tomball tx"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/",
+          "inherited a house full of stuff"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "we buy houses missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 15.2
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/",
+          "sell fire damage house"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "sell my house fast cypress"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 17.666666666666668
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "we buy houses cypress"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 28.333333333333332
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "cash home buyers katy tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 16.666666666666664
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "cash home buyers missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 15
+      }
+    ],
+    "note": "Small query samples; do not sum truncated/privacy-filtered rows or infer a sustained ranking gain. Existing-page editorial opportunities retained before more city pages; no unauthorized live rewrite."
+  },
+  "analytics": {
+    "GA4": "Not queried today; optional, weekly W43 already delivered. No settled new-article data.",
+    "organicSellerLead": null,
+    "qualifiedSeller": null,
+    "agreement": null,
+    "fundedRetainedGP": null
+  },
+  "acquisitionEvidence": {
+    "workflow": "Existing Lead Acquisition Engine / COO reads this repository intent map and run evidence; no unsolicited message or separate dashboard.",
+    "recommendations": [
+      "Review Missouri City query/snippet alignment on the existing primary page; current top exact fast-sale query has only about10impressions, so evidence is directional.",
+      "Review existing broad foundation primary/support hierarchy rather than create more foundation/city synonym pages.",
+      "Retain the established seller-conversion path; downstream organic seller outcomes remain unverified."
+    ],
+    "handoffStatus": "evidence_persisted_in_existing_shared_workflow; no claim that another agent has reviewed it"
+  },
+  "commands": {
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "pages": 187,
+      "note": "Description-length failure corrected before successful full build; no protected-source change."
+    },
+    "outputValidation": {
+      "command": "python automation/blog-publisher/scripts/validate_output.py . <each of3slugs>",
+      "exitCode": 0
+    },
+    "mobile": {
+      "command": "mobile_qa.cjs with Chromium; each of3articles at360/390/768/1366 plus visual review",
+      "exitCode": 0
+    },
+    "unitTests": {
+      "pythonPublisherGate": {
+        "tests": 5,
+        "passed": 5,
+        "exitCode": 0
+      },
+      "nodeBlogAttributionBuildOutput": {
+        "tests": 27,
+        "passed": 27,
+        "exitCode": 0,
+        "note": "Initial clone lacked historical baseline object; fetched exact baseline commit and reran successfully without source changes."
+      }
+    },
+    "releaseGate": {
+      "allowed": true,
+      "day": "2026-10-22",
+      "errors": [],
+      "checkedAt": "2026-10-22T13:39:10.292Z"
+    },
+    "protectedAssetParity": "Remote article output/CSS/attribution JS equals reviewed local build; PR13-file allowlist verified; homepage/calculator sources match protected baseline."
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Routine success and normal initial discovery delays; suppressed per monitoring policy."
+  },
+  "scheduleChanged": false
+}

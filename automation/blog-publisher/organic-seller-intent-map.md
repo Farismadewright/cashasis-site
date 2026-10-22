@@ -99,3 +99,11 @@ All three passed exact-preview noindex, production indexability, canonical, site
 
 
 Owner withdrawal 2026-10-21: `/blog/how-to-verify-cash-home-buyer-texas/` is withdrawn from publishing and promotion. Do not republish this article or its search intent without a specific owner request. Historical publication still counts toward the original daily cap. Source and image retained for rollback.
+
+
+## October22,2026 distinct seller-support additions
+- `https://www.cashasis.com/blog/selling-houston-house-neglected-pool/` → `houston-seller-neglected-pool-assessment-repair-removal-as-is-choice`. First dedicated neglected-pool assessment, optional inspection limits and repair/removal/current-condition comparison. Existing vacancy and major-repair guides do not address pool-shell/subsurface leak exclusions, equipment versus shell scope or removal records.
+- `https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/` → `houston-seller-aluminum-branch-wiring-identification-remediation-records-sale`. First dedicated aluminum branch-wiring identification, past-remediation scope and electrician-record handoff guide. Existing major-repair and lead-paint pages do not distinguish a new panel from branch-connection remediation or electrical assessment scope.
+- `https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/` → `houston-seller-foundation-visual-opinion-engineering-repair-bid-record-distinction`. Narrow document-purpose decision before authorizing work: distinguishes visual inspection opinion, engineering evaluation, contractor repair proposal and warranty records. Existing foundation-sale pages answer the broad can-I-sell/repair-cost question; this guide avoids retargeting that broad intent and links to the existing foundation page.
+
+Evidence: `runs/2026-10-22.json`. All3 exact-preview/production/local seller-path gates passed. Initial Google unknown statuses are normal discovery observations. Read-only GSC Sep22–Oct19: property totals667impressions/6clicks/0.9%CTR/43.42average position; small Missouri City and other11–30 samples remain editorial review opportunities, not proof of ranking gains. No new city variants, unauthorized rewrites, manual indexing, social publication or inferred seller leads/funded GP. Existing W43 weekly receipt preserved; no duplicate dashboard or unsolicited handoff message.

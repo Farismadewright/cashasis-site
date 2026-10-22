@@ -465,5 +465,59 @@
     "republishRequiresOwnerRequest": true,
     "withdrawalReason": "Owner requested removal",
     "countOriginalPublicationTowardDailyCap": true
+  },
+  {
+    "runId": "native-daily-20261022T131801Z",
+    "day": "2026-10-22",
+    "slug": "selling-houston-house-neglected-pool",
+    "intentKey": "houston-seller-neglected-pool-assessment-repair-removal-as-is-choice",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+    "nearestOverlaps": [
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/vacant-house-insurance-while-selling-houston/",
+      "/blog/cash-offer-vs-listing-house-houston/"
+    ],
+    "substantiveDifference": "First dedicated neglected-pool assessment, optional inspection limits and repair/removal/current-condition comparison. Existing vacancy and major-repair guides do not address pool-shell/subsurface leak exclusions, equipment versus shell scope or removal records.",
+    "commit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+    "deployId": "6ada1202ab4f23f3f0732f5c",
+    "pr": 20,
+    "publishedAt": "2026-10-22T13:39:55.374Z"
+  },
+  {
+    "runId": "native-daily-20261022T131801Z",
+    "day": "2026-10-22",
+    "slug": "selling-houston-house-aluminum-wiring",
+    "intentKey": "houston-seller-aluminum-branch-wiring-identification-remediation-records-sale",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+    "nearestOverlaps": [
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/selling-pre-1978-houston-house-lead-paint/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+    ],
+    "substantiveDifference": "First dedicated aluminum branch-wiring identification, past-remediation scope and electrician-record handoff guide. Existing major-repair and lead-paint pages do not distinguish a new panel from branch-connection remediation or electrical assessment scope.",
+    "commit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+    "deployId": "6ada1202ab4f23f3f0732f5c",
+    "pr": 20,
+    "publishedAt": "2026-10-22T13:39:55.374Z"
+  },
+  {
+    "runId": "native-daily-20261022T131801Z",
+    "day": "2026-10-22",
+    "slug": "foundation-report-before-selling-houston-house",
+    "intentKey": "houston-seller-foundation-visual-opinion-engineering-repair-bid-record-distinction",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+    "nearestOverlaps": [
+      "/blog/sell-house-foundation-problems-houston/",
+      "/blog/sell-house-foundation-problems-houston-question/",
+      "/blog/sell-house-needs-major-repairs-houston/"
+    ],
+    "substantiveDifference": "Narrow document-purpose decision before authorizing work: distinguishes visual inspection opinion, engineering evaluation, contractor repair proposal and warranty records. Existing foundation-sale pages answer the broad can-I-sell/repair-cost question; this guide avoids retargeting that broad intent and links to the existing foundation page.",
+    "commit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+    "deployId": "6ada1202ab4f23f3f0732f5c",
+    "pr": 20,
+    "publishedAt": "2026-10-22T13:39:55.374Z"
   }
 ]
