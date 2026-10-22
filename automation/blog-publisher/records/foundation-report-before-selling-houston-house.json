@@ -1,0 +1,247 @@
+{
+  "title": "Foundation Report Before Selling in Houston: What Does It Answer?",
+  "description": "Before approving foundation work on a Houston house, distinguish a visual inspection, engineering evaluation and repair bid, then compare your selling options.",
+  "pubDate": "2026-10-22T13:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Houston",
+    "foundation reports",
+    "repair decisions"
+  ],
+  "primaryKeyword": "foundation report before selling Houston house",
+  "supportingKeywords": [
+    "foundation inspection versus repair estimate",
+    "foundation engineering report seller",
+    "foundation repair records house sale"
+  ],
+  "image": "/images/foundation-report-before-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston brick house with subtle mortar crack and blank assessment clipboard beside Foundation Report What Next headline and official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Is a foundation repair estimate the same as an engineering evaluation?",
+      "a": "No. Read who prepared the document, the question they evaluated, their methods and the work or conclusions included. A proposal to install repairs and an independent evaluation serve different purposes."
+    },
+    {
+      "q": "Does every Texas home inspection include elevation measurements?",
+      "a": "No. TREC explains that its minimum foundation standards do not require specialized elevation tools or load and deflection testing. Additional services may have a different agreed scope."
+    },
+    {
+      "q": "Does an old foundation warranty prove the house has no current issue?",
+      "a": "No. Review the actual warranty, covered work, transfer conditions and current observations. A warranty is not a substitute for an appropriate current assessment."
+    },
+    {
+      "q": "Can Cash As-Is review a house before foundation repairs are finished?",
+      "a": "You can request an evaluation in its current condition and provide existing reports. Any proposed purchase depends on the property and written terms; needed safety, title or other transaction requirements still apply."
+    }
+  ],
+  "runId": "native-daily-20261022T131801Z",
+  "fence": 15,
+  "day": "2026-10-22",
+  "slug": "foundation-report-before-selling-houston-house",
+  "intentKey": "houston-seller-foundation-visual-opinion-engineering-repair-bid-record-distinction",
+  "status": "preview",
+  "nearestOverlaps": [
+    "/blog/sell-house-foundation-problems-houston/",
+    "/blog/sell-house-foundation-problems-houston-question/",
+    "/blog/sell-house-needs-major-repairs-houston/"
+  ],
+  "substantiveDifference": "Narrow document-purpose decision before authorizing work: distinguishes visual inspection opinion, engineering evaluation, contractor repair proposal and warranty records. Existing foundation-sale pages answer the broad can-I-sell/repair-cost question; this guide avoids retargeting that broad intent and links to the existing foundation page.",
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/article/reporting-visible-and-present-indications-adverse-performance-foundation",
+      "title": "TREC: Reporting Visible and Present Indications of Adverse Performance of a Foundation",
+      "publicationDate": "2025-04-29",
+      "reportingPeriod": "Guidance accessed 2026-10-22",
+      "geography": "Texas / United States safety guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Home inspectors provide written visual performance opinions; tools/elevation readings are not required by minimum standards; the inspection role differs from structural engineering.",
+      "accessedAt": "2026-10-22",
+      "verifiedAt": "2026-10-22T13:32:38.713683+00:00",
+      "method": "Primary-source native web reading and claim-by-claim comparison; historical publication dates stated where relevant."
+    }
+  ],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pass",
+    "deploy": "pending",
+    "conversion": "pass",
+    "render": "pass"
+  },
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work/existing allowances only. No purchase, subscription, credits or paid API used."
+  },
+  "externalApiUsed": false,
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+  "imageSha256": "5689d4c7ecedd55f7a744753af61fa2d735a4c9f733fc09b4ea51b91bcedcf8c",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "FOUNDATION|REPORT?|WHAT NEXT?",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-b703358e-99e8-4d20-ac0e-195f4e726b3b.png",
+    "backgroundSha256": "b19fde7251d1baed960891d9e28e75fff7abeba5a29fc9ac788473148bbeebcf",
+    "illustrative": true,
+    "visualReview": "Full-size thumbnails and 360/390/768/1366 article screenshots reviewed: readable minimal headline, official transparent logo without block, no clipping, exact dimensions.",
+    "backgroundPrompt": "Use case: photorealistic-natural. Asset: original illustrative property background for seller blog thumbnail, landscape 1536x1024. Fictional Houston-area brick house on RIGHT with a subtle stepped mortar crack near a window, ordinary condition, daylight. A plain clipboard with blank paper and small measuring level on porch in lower RIGHT foreground suggests assessment. LEFT half quiet shaded trees and lawn negative space for later typography. No people, text, visible writing, logo, address, watermark, exaggerated structural collapse or invented data chart.",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    }
+  },
+  "sellerVoice": {
+    "mode": "read_only",
+    "sampleMessages": 500,
+    "recent14DayMessages": 500,
+    "inboundMessages": 118,
+    "screenedMessages": 112,
+    "keywordScreen": {
+      "price": {
+        "messages": 18,
+        "distinctSellers": 14
+      },
+      "condition": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "timing": {
+        "messages": 2,
+        "distinctSellers": 1
+      },
+      "tenant": {
+        "messages": 8,
+        "distinctSellers": 5
+      }
+    },
+    "limitations": "Bounded anonymous keyword screen, not representative or context-validated. No topic-specific recurring concern claimed. No raw private text, IDs, addresses, amounts or identifying details retained.",
+    "topicOrigin": "Distinct editorial coverage gap; no private seller story."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pass; exact-commit preview HTTP X-Robots-Tag noindex verified",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "Post-publication inspection pending; reporting optional",
+      "source": "Google URL Inspection via existing approved connection"
+    },
+    "GA4Measurement": {
+      "originalOrganicLandingSessions": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "attributionGaps": "No settled new-article data; existing attribution code preserved; no fake lead submitted."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "status": "pass",
+      "checkedAt": "2026-10-22T13:32:38.713683+00:00",
+      "source": "Astro build, output validator, structured metadata/link checks, mobile harness and visual review",
+      "details": {
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "internalLinks": [
+          "/blog/sell-house-foundation-problems-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/fix-it-or-sell-it/"
+        ],
+        "attributedCTAs": [
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=foundation-report-before-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=foundation-report-before-selling-houston-house&utm_term=post"
+        ],
+        "mobileWidths": [
+          360,
+          390,
+          768,
+          1366
+        ],
+        "originality12WordShinglesMax": 1,
+        "nearestShingleMatches": [
+          [
+            1,
+            "how-to-verify-cash-home-buyer-texas"
+          ],
+          [
+            1,
+            "existing-survey-when-selling-texas-house"
+          ],
+          [
+            0,
+            "when-to-transfer-utilities-selling-houston-house"
+          ]
+        ],
+        "sitemap": true,
+        "rss": true,
+        "semanticDifference": "Narrow document-purpose decision before authorizing work: distinguishes visual inspection opinion, engineering evaluation, contractor repair proposal and warranty records. Existing foundation-sale pages answer the broad can-I-sell/repair-cost question; this guide avoids retargeting that broad intent and links to the existing foundation page."
+      }
+    }
+  },
+  "preview": {
+    "slug": "foundation-report-before-selling-houston-house",
+    "url": "https://6ada109eb56be863ff50aa10--cashasis-blog.netlify.app/blog/foundation-report-before-selling-houston-house/",
+    "verifiedAt": "2026-10-22T13:35:33.146781+00:00",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "metaRobots": null,
+    "robotsAllowed": true,
+    "canonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+    "sitemap": true,
+    "rss": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "heroDimensions": "1200x630",
+    "imageHash": "5689d4c7ecedd55f7a744753af61fa2d735a4c9f733fc09b4ea51b91bcedcf8c",
+    "internalLinks": 18,
+    "sellerCTA": "pass",
+    "metadata": "pass",
+    "mobileDesktopLayout": "pass; remote article output, CSS and attribution scripts equal the locally rendered and visually reviewed build",
+    "localOutputParity": true,
+    "commit": "a75ff4350267d6438f2a5387a6ba315aabedc7a9",
+    "deployId": "6ada109eb56be863ff50aa10",
+    "exactCommit": true
+  }
+}
