@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W43",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-10-21T14:24:30.000Z",
-  "lastSuccessfulReview": "2026-10-21T14:24:30.000Z",
+  "lastAttempt": "2026-10-22T13:43:06.697161+00:00",
+  "lastSuccessfulReview": "2026-10-22T13:43:06.697161+00:00",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -6723,6 +6723,19 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0nfcNSwAz7J_iJ4WQmR-bw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-22T13:35:04.328004+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=FrADEN3B-nDeABIgRa3ejw&utm_medium=link&utm_source=api"
         }
       ],
       "ageBasis": "publication",
@@ -6732,7 +6745,7 @@
       "lastAttemptAt": "2026-10-19T14:08:31.782Z",
       "recordPath": "automation/blog-publisher/records/mold-remediation-certificate-selling-texas-house.json",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
+      "technicalVerifiedAt": "2026-10-22T13:37:58.261182+00:00",
       "technicalQA": {
         "technicalEligible": true,
         "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
@@ -6754,7 +6767,10 @@
       },
       "firstSuccessfulInspection": "2026-10-19T14:08:31.782Z",
       "lastSuccessfulInspection": "2026-10-19T14:08:31.782Z",
-      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00"
+      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-26"
     },
     {
       "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
@@ -6777,6 +6793,19 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=RfIRf6zPHU8vxnS7DeH4CQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-22T13:35:04.320758+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mj6D4gAxfr5W1ZgLdfukHg&utm_medium=link&utm_source=api"
         }
       ],
       "ageBasis": "publication",
@@ -6786,7 +6815,7 @@
       "lastAttemptAt": "2026-10-19T14:08:20.667Z",
       "recordPath": "automation/blog-publisher/records/replace-air-conditioner-before-selling-houston-house.json",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
+      "technicalVerifiedAt": "2026-10-22T13:37:58.140796+00:00",
       "technicalQA": {
         "technicalEligible": true,
         "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
@@ -6808,7 +6837,10 @@
       },
       "firstSuccessfulInspection": "2026-10-19T14:08:20.667Z",
       "lastSuccessfulInspection": "2026-10-19T14:08:20.667Z",
-      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00"
+      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-26"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
@@ -6831,6 +6863,19 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=O26rn2lEqwDyKN3VZSA0aA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-22T13:35:04.317203+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mTK1Ec9VwFdCCUkfT0tvdw&utm_medium=link&utm_source=api"
         }
       ],
       "ageBasis": "publication",
@@ -6840,7 +6885,7 @@
       "lastAttemptAt": "2026-10-19T14:08:02.281Z",
       "recordPath": "automation/blog-publisher/records/selling-houston-house-from-out-of-state-signing.json",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
+      "technicalVerifiedAt": "2026-10-22T13:37:58.216451+00:00",
       "technicalQA": {
         "technicalEligible": true,
         "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
@@ -6862,7 +6907,10 @@
       },
       "firstSuccessfulInspection": "2026-10-19T14:08:02.281Z",
       "lastSuccessfulInspection": "2026-10-19T14:08:02.281Z",
-      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00"
+      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-26"
     },
     {
       "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
@@ -7241,6 +7289,78 @@
       "exclusionReason": "Owner-requested withdrawal; expected 404, do not promote, index or republish",
       "withdrawnAt": "2026-10-22T00:42:45.889Z",
       "withdrawalCommit": "1322f879097cfd278ec0b0008b5717201e809d2e"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+      "publishedAt": "2026-10-22T13:39:55.374Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-22T13:40:55.083043+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3wmYzz_OqvZoFQ4PwnGtFA&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-22T13:40:31.520050+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-25"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+      "publishedAt": "2026-10-22T13:39:55.374Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-22T13:40:55.179367+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fbSE-zB9DdU48e8xXVUJoQ&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-22T13:40:31.520050+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-25"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+      "publishedAt": "2026-10-22T13:39:55.374Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-22T13:40:55.188848+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=e6SZCex7x708szIOuw42Xg&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-22T13:40:31.520050+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-25"
     }
   ],
   "notifications": [],
@@ -7281,8 +7401,8 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-10-19",
-  "inspectionCallsUsed": 19,
+  "settledThrough": "2026-10-20",
+  "inspectionCallsUsed": 6,
   "lastRunMonitoring": {
     "runId": "native-daily-20261021T134423Z",
     "actualInspectionCalls": 19,
@@ -7312,5 +7432,41 @@
     "bookkeepingDeployCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
     "bookkeepingDeployReadyVerifiedAt": "2026-10-21T14:30:10.000Z"
   },
-  "now": "2026-10-21T14:24:30.000Z"
+  "now": "2026-10-22T13:43:06.697161+00:00",
+  "lastRunId": "native-daily-20261022T131801Z",
+  "coverage": {
+    "eligibleSitemapURLs": 182,
+    "eligibleBlogArticles": 163,
+    "eligibleURLsWithRetainedInspectionEvidence": 182,
+    "latestEvidenceCounts": {
+      "indexed": 154,
+      "not_indexed": 28
+    },
+    "latestBlogEvidenceCounts": {
+      "indexed": 139,
+      "not_indexed": 24
+    },
+    "inspectedThisRun": 6,
+    "observationDateRange": [
+      "2026-10-04T18:51:07.839038+00:00",
+      "2026-10-22T13:40:55.188848+00:00"
+    ],
+    "note": "Mixed observation dates, not a fresh complete inspection of every URL. Sitemap includes blog and non-blog pages. Impressions are not index counts; unknown is not rejection."
+  },
+  "lastRun": {
+    "runId": "native-daily-20261022T131801Z",
+    "published": 3,
+    "held": 0,
+    "inspectionCalls": 6,
+    "deferredInspections": 0,
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "alertSent": false,
+    "evidence": "automation/blog-publisher/runs/2026-10-22.json"
+  },
+  "pendingInspectionQueue": [],
+  "notificationSuppression": {
+    "at": "2026-10-22T13:43:06.697161+00:00",
+    "reason": "Routine success; normal initial Google discovery delays; no confirmed persistent regression, sustained ranking alert or validated organic lead change."
+  }
 }
