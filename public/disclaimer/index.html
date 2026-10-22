@@ -11,27 +11,28 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-<style>
-:root{--navy:#0D1B2A;--orange:#F26D21;--teal:#1B6F7A;--ink:#0D1B2A;--muted:#5a6675;--line:#e6e9ef}
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+
+:root{--navy:#001947;--orange:#FB6200;--teal:#D95400;--ink:#001947;--muted:#5a6675;--line:#e6e9ef}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:#f7f9fb;line-height:1.6;-webkit-font-smoothing:antialiased}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:#FAF7F2;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
-.legal-nav{display:flex;align-items:center;justify-content:space-between;padding:14px 30px;background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.legal-nav{display:flex;align-items:center;justify-content:space-between;padding:12px 30px;background:rgba(250,247,242,.92);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid transparent;position:sticky;top:0;z-index:20}
 .brand{display:flex;align-items:center;gap:11px}
 .brand img{width:40px;height:40px}
 .brand .wm{font-weight:800;font-size:22px;letter-spacing:-.03em;line-height:1}
 .brand .wm .n{color:var(--navy)}.brand .wm .o{color:var(--orange)}
 .brand .sub{font-size:9px;letter-spacing:.18em;color:#8a93a1;font-weight:700;margin-top:3px;text-transform:uppercase}
-.back{border:1.5px solid var(--orange);color:var(--orange);border-radius:30px;padding:9px 18px;font-weight:700;font-size:13.5px;display:inline-flex;gap:7px;align-items:center;transition:.15s}
-.back:hover{background:var(--orange);color:#fff}
-.legal-hero{background:var(--navy);color:#fff;padding:48px 30px}
+.back{border:1.5px solid var(--orange);color:#fff;background:var(--orange);border-radius:999px;padding:9px 18px;font-weight:700;font-size:13.5px;display:inline-flex;gap:7px;align-items:center;transition:.15s}
+.back:hover{background:#D95400;color:#fff}
+.legal-hero{background:transparent;color:var(--ink);padding:48px 30px 8px}
 .legal-hero .in{max-width:1080px;margin:0 auto;text-align:center}
-.badge{display:inline-flex;align-items:center;gap:7px;background:rgba(242,109,33,.16);border:1px solid rgba(242,109,33,.55);color:var(--orange);font-weight:800;font-size:11px;letter-spacing:.13em;text-transform:uppercase;padding:6px 14px;border-radius:30px;margin-bottom:16px}
-.legal-hero h1{font-size:clamp(30px,4.6vw,46px);font-weight:800;letter-spacing:-.02em;margin-bottom:10px}
-.legal-hero .meta{color:#9aa6b5;font-size:13.5px}
-.legal-hero .meta b{color:#cdd5e0}
+.badge{display:inline-flex;align-items:center;gap:7px;background:#FFE9DA;border:0;color:#D95400;font-weight:800;font-size:11px;letter-spacing:.13em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:16px}
+.legal-hero h1{font-family:'Poppins',Inter,sans-serif;font-size:clamp(30px,4.6vw,46px);font-weight:800;letter-spacing:-.03em;margin-bottom:10px;color:#001947}
+.legal-hero .meta{color:#5E6577;font-size:13.5px}
+.legal-hero .meta b{color:#001947}
 .legal-wrap{max-width:760px;margin:0 auto;padding:42px 24px 56px}
-.legal-card{background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:0 24px 60px -34px rgba(13,27,42,.45);padding:12px 36px 30px}
+.legal-card{background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:0 24px 60px -34px rgba(14,26,51,.28);padding:12px 36px 30px}
 .sec{padding:24px 0;border-bottom:1px solid var(--line)}
 .sec:last-child{border-bottom:none}
 .sec h2{font-size:18px;font-weight:800;display:flex;align-items:center;gap:11px;margin-bottom:12px}
@@ -43,38 +44,38 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%}
 .sec a{color:var(--teal);font-weight:700}.sec strong{color:var(--ink);font-weight:700}
 .note{background:#fbf1e9;border:1px solid #f3d9c7;border-radius:10px;padding:15px 17px;font-size:14px;color:#5a4633;margin:4px 0}
 .note .hot{color:var(--orange);font-weight:800}.note a{color:var(--teal);font-weight:700}
-.callout{background:linear-gradient(160deg,#13263c,#0a1521);border-radius:14px;padding:24px 26px;margin-top:22px;color:#fff;text-align:center}
+.callout{background:#001947;border-radius:18px;padding:24px 26px;margin-top:22px;color:#fff;text-align:center}
 .callout p{font-size:14.5px;color:#cdd5e0;margin-bottom:16px}.callout p b{color:#fff}
-.cbtn{display:inline-flex;align-items:center;gap:8px;background:var(--orange);color:#fff;font-weight:800;font-size:15px;padding:14px 28px;border-radius:30px;transition:.15s}
-.cbtn:hover{background:#d95c14}
-.legal-foot{background:var(--navy);color:#8a93a1;text-align:center;padding:26px 20px;font-size:12.5px}
+.cbtn{display:inline-flex;align-items:center;gap:8px;background:var(--orange);color:#fff;font-weight:800;font-size:15px;padding:14px 28px;border-radius:999px;transition:.15s}
+.cbtn:hover{background:#D95400}
+.legal-foot{background:#F3EEE6;color:#5E6577;text-align:center;padding:26px 20px;font-size:12.5px}
 .legal-foot .links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:12px}
-.legal-foot a:hover{color:#fff}.legal-foot a.active{color:var(--orange);font-weight:700}
+.legal-foot a:hover{color:#001947}.legal-foot a.active{color:var(--orange);font-weight:700}
 @media(max-width:600px){.legal-card{padding:8px 20px 22px}.legal-nav{padding:12px 16px}.brand .wm{font-size:19px}}
   /* ---------- Footer ---------- */
-  footer{background:var(--navy);color:#cdd5e0}
+  footer{background:#F3EEE6;color:#5E6577;border-top:1px solid #E7E0D5}
   footer .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
   footer .logo{display:flex;align-items:center;gap:12px}
   footer .logo .lock{display:flex;flex-direction:column;line-height:1}
   footer .logo .name{font-weight:800;font-size:25px;letter-spacing:-.035em}
-  footer .logo .name .navy{color:#fff}
-  footer .logo .name .orange{color:var(--orange)}
+  footer .logo .name .navy{color:#001947}
+  footer .logo .name{font-family:'Poppins',Inter,sans-serif}footer .logo .name .orange{color:var(--orange)}
   footer .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
   footer .logo .sub::before,footer .logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
   .foot-grid{display:grid;grid-template-columns:1.3fr 1.4fr 1.2fr 1fr;gap:36px;padding:54px 0 30px;align-items:start}
   .foot-blurb{font-size:14px;line-height:1.6;max-width:280px;margin-top:18px}
-  .foot-col h4{color:#fff;font-size:14px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px;font-weight:700}
+  .foot-col h4{color:#001947;font-family:'Poppins',Inter,sans-serif;font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:16px;font-weight:800}
   .foot-contact{display:flex;flex-direction:column;gap:12px;font-size:14.5px}
   .foot-contact a{display:flex;align-items:center;gap:11px;transition:color .15s}
-  .foot-contact a:hover{color:#fff}
+  .foot-contact a:hover{color:#FB6200}
   .foot-contact svg{width:17px;height:17px;color:var(--orange);flex:none}
   .socials{display:flex;gap:12px}
-  .socials a{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:background .15s,transform .15s}
+  .socials a{width:38px;height:38px;border-radius:50%;background:#fff;border:1px solid #E7E0D5;display:flex;align-items:center;justify-content:center;transition:background .15s,transform .15s}
   .socials a:hover{background:var(--orange);transform:translateY(-2px)}
-  .socials svg{width:18px;height:18px;color:#fff}
-  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding:20px 0;display:flex;justify-content:space-between;align-items:center;font-size:13.5px}
+  .socials svg{width:18px;height:18px;color:#001947}
+  .foot-bottom{border-top:1px solid #E7E0D5;padding:20px 0;display:flex;justify-content:space-between;align-items:center;font-size:13.5px}
   .foot-bottom .links{display:flex;gap:26px}
-  .foot-bottom a:hover{color:#fff}
+  .foot-bottom a:hover{color:#FB6200}
   @media(max-width:980px){
     .foot-grid{grid-template-columns:1fr 1fr;gap:32px}
   }
