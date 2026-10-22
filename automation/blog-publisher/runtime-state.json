@@ -590,9 +590,20 @@
       "day": "2026-10-22",
       "runId": "native-daily-20261022T131801Z",
       "fence": 15,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-22T13:21:44.109Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
+      "previewDeployId": "6ada117823bbfe3f6f14f84f",
+      "previewVerifiedAt": "2026-10-22T13:39:10.292Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-22",
+        "errors": [],
+        "checkedAt": "2026-10-22T13:39:10.292Z"
+      },
+      "pr": 20
     },
     {
       "slug": "selling-houston-house-aluminum-wiring",
@@ -600,9 +611,20 @@
       "day": "2026-10-22",
       "runId": "native-daily-20261022T131801Z",
       "fence": 15,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-22T13:21:44.109Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
+      "previewDeployId": "6ada117823bbfe3f6f14f84f",
+      "previewVerifiedAt": "2026-10-22T13:39:10.292Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-22",
+        "errors": [],
+        "checkedAt": "2026-10-22T13:39:10.292Z"
+      },
+      "pr": 20
     },
     {
       "slug": "foundation-report-before-selling-houston-house",
@@ -610,9 +632,20 @@
       "day": "2026-10-22",
       "runId": "native-daily-20261022T131801Z",
       "fence": 15,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-22T13:21:44.109Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
+      "previewDeployId": "6ada117823bbfe3f6f14f84f",
+      "previewVerifiedAt": "2026-10-22T13:39:10.292Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-22",
+        "errors": [],
+        "checkedAt": "2026-10-22T13:39:10.292Z"
+      },
+      "pr": 20
     }
   ],
   "externalApiSpendLimitUSD": 0,
