@@ -583,6 +583,36 @@
       "withdrawalCommit": "1322f879097cfd278ec0b0008b5717201e809d2e",
       "withdrawalDeployId": "6ad95bfe1ebf1e08c09508b4",
       "republishRequiresOwnerRequest": true
+    },
+    {
+      "slug": "selling-houston-house-neglected-pool",
+      "intentKey": "houston-seller-neglected-pool-assessment-repair-removal-as-is-choice",
+      "day": "2026-10-22",
+      "runId": "native-daily-20261022T131801Z",
+      "fence": 15,
+      "status": "reserved",
+      "reservedAt": "2026-10-22T13:21:44.109Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-house-aluminum-wiring",
+      "intentKey": "houston-seller-aluminum-branch-wiring-identification-remediation-records-sale",
+      "day": "2026-10-22",
+      "runId": "native-daily-20261022T131801Z",
+      "fence": 15,
+      "status": "reserved",
+      "reservedAt": "2026-10-22T13:21:44.109Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "foundation-report-before-selling-houston-house",
+      "intentKey": "houston-seller-foundation-visual-opinion-engineering-repair-bid-record-distinction",
+      "day": "2026-10-22",
+      "runId": "native-daily-20261022T131801Z",
+      "fence": 15,
+      "status": "reserved",
+      "reservedAt": "2026-10-22T13:21:44.109Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
