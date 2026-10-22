@@ -4,7 +4,7 @@
     "fence": 15,
     "issuedAt": "2026-10-22T13:18:59.928Z",
     "expiresAt": "2026-10-22T15:13:59.928Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-22T13:47:07.425Z"
   },
   "ledger": [
     {
@@ -590,7 +590,7 @@
       "day": "2026-10-22",
       "runId": "native-daily-20261022T131801Z",
       "fence": 15,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-22T13:21:44.109Z",
       "validationOnly": false,
       "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
@@ -603,7 +603,15 @@
         "errors": [],
         "checkedAt": "2026-10-22T13:39:10.292Z"
       },
-      "pr": 20
+      "pr": 20,
+      "commit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+      "deployId": "6ada1202ab4f23f3f0732f5c",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+      "publishedAt": "2026-10-22T13:39:55.374Z",
+      "verifiedAt": "2026-10-22T13:47:07.425Z",
+      "evidenceCommit": "4c9924878f542e6696982cac46729964a05422b8",
+      "bookkeepingDeployId": "6ada13314ad223a2ef8f0712",
+      "monitoringCommit": "b48437b0d5e8c0774e988b4364b0e688fb0b4521"
     },
     {
       "slug": "selling-houston-house-aluminum-wiring",
@@ -611,7 +619,7 @@
       "day": "2026-10-22",
       "runId": "native-daily-20261022T131801Z",
       "fence": 15,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-22T13:21:44.109Z",
       "validationOnly": false,
       "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
@@ -624,7 +632,15 @@
         "errors": [],
         "checkedAt": "2026-10-22T13:39:10.292Z"
       },
-      "pr": 20
+      "pr": 20,
+      "commit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+      "deployId": "6ada1202ab4f23f3f0732f5c",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+      "publishedAt": "2026-10-22T13:39:55.374Z",
+      "verifiedAt": "2026-10-22T13:47:07.425Z",
+      "evidenceCommit": "4c9924878f542e6696982cac46729964a05422b8",
+      "bookkeepingDeployId": "6ada13314ad223a2ef8f0712",
+      "monitoringCommit": "b48437b0d5e8c0774e988b4364b0e688fb0b4521"
     },
     {
       "slug": "foundation-report-before-selling-houston-house",
@@ -632,7 +648,7 @@
       "day": "2026-10-22",
       "runId": "native-daily-20261022T131801Z",
       "fence": 15,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-22T13:21:44.109Z",
       "validationOnly": false,
       "previewCommit": "757d9a8955f243fe6ae9b8a14f5ed4afa9a5d162",
@@ -645,24 +661,36 @@
         "errors": [],
         "checkedAt": "2026-10-22T13:39:10.292Z"
       },
-      "pr": 20
+      "pr": 20,
+      "commit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+      "deployId": "6ada1202ab4f23f3f0732f5c",
+      "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+      "publishedAt": "2026-10-22T13:39:55.374Z",
+      "verifiedAt": "2026-10-22T13:47:07.425Z",
+      "evidenceCommit": "4c9924878f542e6696982cac46729964a05422b8",
+      "bookkeepingDeployId": "6ada13314ad223a2ef8f0712",
+      "monitoringCommit": "b48437b0d5e8c0774e988b4364b0e688fb0b4521"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261021T134423Z",
-    "fence": 13,
+    "runId": "native-daily-20261022T131801Z",
+    "fence": 15,
     "status": "pass",
-    "day": "2026-10-21",
+    "day": "2026-10-22",
     "published": 3,
     "held": 0,
-    "productionCommit": "9df737bdfcebc8a64a757853976bdb64fd767f8a",
-    "deployId": "6ad8ca27f71c98250d513c9b",
-    "evidence": "automation/blog-publisher/runs/2026-10-21.json",
-    "bookkeepingCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
-    "bookkeepingDeployId": "6ad8cc43f71c98250d51a4e1",
-    "monitoringCommit": "3074fe7007df585c9cda4c99bb8634db38b64cf1",
-    "completedAt": "2026-10-21T14:30:30.000Z"
+    "productionCommit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
+    "deployId": "6ada1202ab4f23f3f0732f5c",
+    "evidence": "automation/blog-publisher/runs/2026-10-22.json",
+    "bookkeepingCommit": "4c9924878f542e6696982cac46729964a05422b8",
+    "bookkeepingDeployId": "6ada13314ad223a2ef8f0712",
+    "monitoringCommit": "b48437b0d5e8c0774e988b4364b0e688fb0b4521",
+    "completedAt": "2026-10-22T13:47:07.425Z",
+    "externalPaidApiSpendUSD": 0,
+    "inspectionCalls": 6,
+    "notificationSent": false,
+    "finalLiveCheck": "HTTP200/canonical/indexability/heroOG/sellerCTA pass for all3 after bookkeeping deployment"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
