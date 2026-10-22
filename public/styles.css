@@ -14,7 +14,8 @@ h1,h2,h3{font-family:var(--display);letter-spacing:-.03em;line-height:1.08}
 .legal-nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 28px;background:rgba(250,247,242,.9);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid transparent;position:sticky;top:0;z-index:20}
 .legal-nav.scrolled,.legal-nav:hover{border-bottom-color:var(--line)}
 .brand{display:flex;align-items:center;gap:11px}
-.brand img{height:46px;width:auto}
+.brand picture{display:block;line-height:0}
+.brand img{height:54px;width:auto}
 .brand .wm{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.03em;line-height:1}
 .brand .wm .n{color:var(--navy)}.brand .wm .o{color:var(--orange)}
 .brand .sub{font-size:9px;letter-spacing:.18em;color:#8a93a1;font-weight:700;margin-top:3px;text-transform:uppercase}
@@ -44,7 +45,8 @@ footer .frecall b{font-family:var(--display);font-weight:900;font-size:clamp(24p
 footer .frecall b i{font-style:normal;color:var(--orange)}
 footer .frecall a.tel{font-family:var(--display);font-weight:800;font-size:clamp(18px,2vw,26px);color:#fff;background:var(--orange);border-radius:999px;padding:10px 18px}
 footer .logo{display:flex;align-items:center;gap:12px}
-footer .foot-logo{height:54px;width:auto}
+footer .logo picture{display:block;line-height:0}
+footer .foot-logo{height:48px;width:auto}
 footer .logo .lock{display:flex;flex-direction:column;line-height:1}
 footer .logo .name{font-family:var(--display);font-weight:800;font-size:25px;letter-spacing:-.035em}
 footer .logo .name .navy{color:var(--navy)}

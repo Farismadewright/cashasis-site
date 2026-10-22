@@ -37,7 +37,8 @@ header{position:sticky;top:0;z-index:50;background:rgba(250,247,242,.88);backdro
 header.scrolled{border-bottom-color:var(--line)}
 nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0;position:relative}
 .logo{display:flex;align-items:center;flex:none}
-.logo .lockup{height:62px;width:auto}
+.logo picture{display:block;line-height:0}
+.logo .lockup{height:54px;width:auto}
 header .wrap{max-width:1320px}
 .nav-search{flex:0 1 0px;width:0;min-width:0;overflow:hidden;opacity:0;pointer-events:none;display:flex;justify-content:center;transition:opacity .25s}
 header.scrolled .nav-search{flex:1 1 auto;width:auto;max-width:380px;overflow:visible;opacity:1;pointer-events:auto}
@@ -244,7 +245,7 @@ footer{background:var(--bg2);color:var(--muted);border-top:1px solid var(--line)
 .frecall b{font-family:var(--display);font-weight:900;font-size:clamp(24px,3vw,36px);color:#fff}
 .frecall i{font-style:normal;color:var(--orange)}
 .frecall a.tel{font-family:var(--display);font-weight:800;color:#fff;background:var(--orange);border-radius:999px;padding:10px 18px;font-size:clamp(18px,2vw,26px)}
-.foot-logo{height:54px;width:auto}
+.foot-logo{height:48px;width:auto}
 .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1.4fr .7fr;gap:28px;padding:28px 0}
 .foot-blurb{font-size:14.5px;margin-top:14px;max-width:280px}
 .foot-col h4{color:var(--navy);font-family:var(--display);font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
@@ -309,7 +310,8 @@ footer{background:var(--bg2);color:var(--muted);border-top:1px solid var(--line)
   .cmp-row{grid-template-columns:1fr;gap:4px}
 }
 @media(max-width:760px){
-  .logo .lockup{height:46px}
+  .logo .lockup{height:38px}
+  .foot-logo{height:40px}
   .nav-search{display:none!important}
   .hero-card{min-height:0;border-radius:24px}
   .hero-inner{padding:36px 14px 16px}
@@ -383,7 +385,7 @@ fbq('track','PageView');
 <header id="top">
   <div class="wrap">
     <nav>
-      <a href="/" class="logo" aria-label="CashAsIs home"><img class="lockup" src="/images/cashasis-logo-navy-transparent.png" alt="CashAsIs - We Buy Houses As-Is"></a>
+      <a href="/" class="logo" aria-label="CashAsIs home"><picture><source type="image/webp" srcset="/images/cashasis-wordmark.webp"><img class="lockup" src="/images/cashasis-wordmark.png" alt="CashAsIs - We Buy Houses As-Is" width="446" height="112"></picture></a>
       <div class="nav-search">
         <div class="addr nav-form" id="navAddr">
           <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
@@ -828,7 +830,7 @@ fbq('track','PageView');
     <div class="frecall"><b><i>cashasis</i>.com</b><a class="tel" href="tel:+13465846365">(346) 584-6365</a></div>
     <div class="foot-grid">
       <div>
-        <a href="/" class="logo"><img class="foot-logo" src="/images/cashasis-logo-navy-transparent.png" alt="CashAsIs - We Buy Houses As-Is"></a>
+        <a href="/" class="logo"><picture><source type="image/webp" srcset="/images/cashasis-wordmark.webp"><img class="foot-logo" src="/images/cashasis-wordmark.png" alt="CashAsIs - We Buy Houses As-Is" width="446" height="112"></picture></a>
         <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
       </div>
       <div class="foot-col">
