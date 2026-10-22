@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "How Texas Sellers Can Verify a Cash Home Buyer"
 description: "Before signing a Texas cash house offer, verify the buyer's identity, entity, funds, title company, written terms and closing contacts with this checklist."
 pubDate: "2026-10-21T12:00:00Z"

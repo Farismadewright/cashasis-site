@@ -303,5 +303,10 @@
     "internalLinks": "pass",
     "sellerCTA": "pass",
     "mobileDesktopLayout": "pass"
-  }
+  },
+  "visibility": "withdrawn",
+  "withdrawnAt": "2026-10-22T00:41:24.380Z",
+  "republishRequiresOwnerRequest": true,
+  "withdrawalReason": "Owner requested removal",
+  "countOriginalPublicationTowardDailyCap": true
 }

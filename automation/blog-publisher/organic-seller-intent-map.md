@@ -96,3 +96,6 @@ Read-only GSC query/page reviewSep20–Oct17 remains small-sample: Missouri City
 - `https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/` → `texas-seller-verify-cash-home-buyer-entity-funds-title-closing`. First seller-side multi-source verification workflow before signing: legal entity, funding evidence, licensed neutral closing channel and written-term consistency. It explicitly states Cash As-Is wholesale agreements may use neither earnest money nor option fee.
 
 All three passed exact-preview noindex, production indexability, canonical, sitemap/RSS, schema, image, internal-link and attributed seller-CTA checks. Immediate Google URL Inspection returned normal new-page `URL is unknown to Google` for each; no rejection or indexing guarantee is inferred. No manual indexing request or social post was made.
+
+
+Owner withdrawal 2026-10-21: `/blog/how-to-verify-cash-home-buyer-texas/` is withdrawn from publishing and promotion. Do not republish this article or its search intent without a specific owner request. Historical publication still counts toward the original daily cap. Source and image retained for rollback.
