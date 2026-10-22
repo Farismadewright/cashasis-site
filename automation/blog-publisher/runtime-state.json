@@ -3,8 +3,8 @@
     "runId": "owner-withdraw-buyer-2026-10-22T004057131Z",
     "fence": 14,
     "issuedAt": "2026-10-22T00:40:57.131Z",
-    "expiresAt": "2026-10-22T01:40:57.131Z",
-    "releasedAt": null
+    "expiresAt": "2026-10-22T00:43:41.866Z",
+    "releasedAt": "2026-10-22T00:43:41.866Z"
   },
   "ledger": [
     {
@@ -577,7 +577,12 @@
       "verifiedAt": "2026-10-21T14:22:30.000Z",
       "evidenceCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
       "bookkeepingDeployId": "6ad8cc43f71c98250d51a4e1",
-      "monitoringCommit": "3074fe7007df585c9cda4c99bb8634db38b64cf1"
+      "monitoringCommit": "3074fe7007df585c9cda4c99bb8634db38b64cf1",
+      "visibility": "withdrawn",
+      "withdrawnAt": "2026-10-22T00:43:41.866Z",
+      "withdrawalCommit": "1322f879097cfd278ec0b0008b5717201e809d2e",
+      "withdrawalDeployId": "6ad95bfe1ebf1e08c09508b4",
+      "republishRequiresOwnerRequest": true
     }
   ],
   "externalApiSpendLimitUSD": 0,
@@ -606,16 +611,15 @@
     "articlesPublished": 0
   },
   "lastWithdrawal": {
-    "runId": "owner-withdrawal-earnest-option-20261016",
-    "fence": 8,
-    "slug": "earnest-money-option-fee-texas-cash-sale",
+    "runId": "owner-withdraw-buyer-2026-10-22T004057131Z",
+    "fence": 14,
+    "slug": "how-to-verify-cash-home-buyer-texas",
     "requestedBy": "owner",
-    "reason": "Cash As-Is wholesale agreements often omit both earnest money and option fees; owner requested removal.",
     "status": "pass",
-    "at": "2026-10-16T14:57:03.702Z",
-    "pr": 11,
-    "commit": "eeb5233894780c38f19495385a58bde5ebd63c6d",
-    "deployId": "6ad23aceb317167b4b7771d2",
+    "at": "2026-10-22T00:43:41.866Z",
+    "pr": 19,
+    "commit": "1322f879097cfd278ec0b0008b5717201e809d2e",
+    "deployId": "6ad95bfe1ebf1e08c09508b4",
     "checks": {
       "cleanAstroBuild": "pass",
       "exactPreviewReady": "pass",
