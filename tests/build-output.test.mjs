@@ -5,7 +5,7 @@ test('build postprocessor idempotent',()=>{const before=targets.map(f=>fs.readFi
 // Visual facelift (approved): these two files are no longer frozen to 290fa66.
 // The pin is the facelift source. Head, tracking, form fields, and routes stay covered by verify_against_baseline.py.
 const visualPins={
-  'public/index.html':'7f44e378340f8e41b99c5ea33adace0174ab313819c3fa6d4558b6792a0b402c',
+  'public/index.html':'5ec5e8fa8a58d3e8fff8073330ee48afd39a86075217e9c156e8f3ced9202c8e',
   'src/pages/fix-it-or-sell-it.astro':'f0b90367373b214362fe9b20c411598cd2d5468c88ae8b4a636d46384d193d44'
 };
 test('homepage and calculator source files match the visual facelift pin',()=>{for(const [f,hex] of Object.entries(visualPins))assert.equal(createHash('sha256').update(fs.readFileSync(f)).digest('hex'),hex,f);});
