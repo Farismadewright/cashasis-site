@@ -4,9 +4,9 @@ test('generated capture injected once, forms instrumented, inline scripts parse'
 test('build postprocessor idempotent',()=>{const before=targets.map(f=>fs.readFileSync(f,'utf8'));execFileSync('node',['scripts/inject-attribution.mjs']);assert.deepEqual(targets.map(f=>fs.readFileSync(f,'utf8')),before);});
 // Visual facelift (approved): these two files are no longer frozen to 290fa66.
 // The pin is the facelift source. Head, tracking, form fields, and routes stay covered by verify_against_baseline.py.
-// Homepage pin includes the hero rotation list, the share-card meta tags, and the production-host analytics gate.
+// Homepage pin includes the hero rotation list, the share-card meta tags, the production-host analytics gate, and the step 2 condition copy.
 const visualPins={
-  'public/index.html':'cb48418001439b21ab28d5a3e20a00f7b1b973773c7ce5a9d01be3e131fbc782',
+  'public/index.html':'1ef0748f7ad97e36f472d42ef6cc328f368aa4074465fc6ce81d033799aa1887',
   'src/pages/fix-it-or-sell-it.astro':'f0b90367373b214362fe9b20c411598cd2d5468c88ae8b4a636d46384d193d44'
 };
 test('homepage and calculator source files match the visual facelift pin',()=>{for(const [f,hex] of Object.entries(visualPins))assert.equal(createHash('sha256').update(fs.readFileSync(f)).digest('hex'),hex,f);});
