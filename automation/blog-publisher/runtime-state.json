@@ -670,6 +670,36 @@
       "evidenceCommit": "4c9924878f542e6696982cac46729964a05422b8",
       "bookkeepingDeployId": "6ada13314ad223a2ef8f0712",
       "monitoringCommit": "b48437b0d5e8c0774e988b4364b0e688fb0b4521"
+    },
+    {
+      "slug": "property-tax-proration-selling-houston-house",
+      "intentKey": "houston-seller-current-year-tax-proration-estimate-final-bill-reconciliation",
+      "day": "2026-10-23",
+      "runId": "native-daily-20261023T130501Z",
+      "fence": 16,
+      "status": "reserved",
+      "reservedAt": "2026-10-23T13:09:01.556Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-house-reverse-mortgage",
+      "intentKey": "houston-owner-reverse-mortgage-hecm-payoff-sale-proposal-net-equity",
+      "day": "2026-10-23",
+      "runId": "native-daily-20261023T130501Z",
+      "fence": 16,
+      "status": "reserved",
+      "reservedAt": "2026-10-23T13:09:01.556Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-house-suspected-asbestos",
+      "intentKey": "houston-seller-suspected-asbestos-material-disturbance-assessment-sale-choice",
+      "day": "2026-10-23",
+      "runId": "native-daily-20261023T130501Z",
+      "fence": 16,
+      "status": "reserved",
+      "reservedAt": "2026-10-23T13:09:01.556Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
