@@ -62,7 +62,7 @@ header.scrolled .btn-phone{padding:10px 12px}
 .hero{padding:14px 14px 0}
 .hero-card{position:relative;border-radius:32px;overflow:hidden;min-height:700px;background:#001947;color:#fff;display:flex;flex-direction:column;justify-content:space-between}
 .hero-photo{position:absolute;inset:0;z-index:0;margin:0;pointer-events:none}
-.hero-photo img{width:100%;height:100%;object-fit:cover}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:right center}
 .hero-card::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,15,46,.62) 0%,rgba(0,15,46,.35) 45%,rgba(0,15,46,.8) 100%);pointer-events:none}
 .hero-inner{position:relative;z-index:2;text-align:center;padding:78px 24px 18px;display:flex;flex-direction:column;align-items:center}
 .hero-h1{display:inline-block;background:var(--orange);color:#fff;font-weight:800;font-size:14px;line-height:1.3;letter-spacing:.08em;text-transform:uppercase;padding:7px 16px;border-radius:999px;margin:0 0 22px}
@@ -110,6 +110,15 @@ header.scrolled .btn-phone{padding:10px 12px}
 .addr.shake{animation:shake .4s}
 @keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
 .hero .addr .ac-list{top:auto;bottom:calc(100% + 6px);z-index:6}
+@media(min-width:900px){
+  .hero-inner{align-self:flex-start;align-items:flex-start;text-align:left;width:min(720px,62%);padding:68px 20px 18px 56px}
+  .rot-h1{font-size:clamp(44px,4.2vw,52px);line-height:1.05;max-width:100%}
+  .hero .addr{width:100%;max-width:560px}
+  .hero .sub{max-width:100%}
+}
+@media(max-width:899px){
+  .hero-photo img{object-position:72% bottom}
+}
 .stats{position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);text-align:center;padding:8px 28px 32px;gap:10px}
 .stat b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(28px,3vw,40px)}
 .lead-shell{display:none;position:fixed;inset:0;z-index:80;background:rgba(0,15,46,.62);align-items:flex-start;justify-content:center;padding:28px 16px;overflow:auto}
@@ -407,7 +416,7 @@ fbq('track','PageView');
     <picture class="hero-photo">
       <source type="image/avif" srcset="/images/hero-house-800.avif 800w, /images/hero-house.avif 1600w" sizes="100vw">
       <source type="image/webp" srcset="/images/hero-house-800.webp 800w, /images/hero-house.webp 1600w" sizes="100vw">
-      <img src="/images/hero-house.webp" alt="" width="1600" height="1066" fetchpriority="high" decoding="async">
+      <img src="/images/hero-house.webp" alt="" width="1600" height="900" fetchpriority="high" decoding="async">
     </picture>
     <div class="hero-inner">
       <h1 class="hero-h1">Need To Sell Your House Fast?</h1>
