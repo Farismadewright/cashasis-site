@@ -1,0 +1,949 @@
+{
+  "runId": "native-daily-20261023T130501Z",
+  "fence": 16,
+  "day": "2026-10-23",
+  "status": "pass",
+  "published": 3,
+  "held": 0,
+  "externalPaidApiSpendUSD": 0,
+  "completedAt": "2026-10-23T13:41:29.950773+00:00",
+  "articles": [
+    {
+      "slug": "property-tax-proration-selling-houston-house",
+      "title": "Property Tax Proration When Selling a Houston House",
+      "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+      "image": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png",
+      "imageSha256": "9ea6a7d85e8ab926e256235295fe5bfd88d6b373c3797a59d6090e9cca207242",
+      "googleInspection": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-23T13:32:56.257389+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5MRsGyIeP0A2WR6nYEij9Q&utm_medium=link&utm_source=api"
+      },
+      "social": "draft_only"
+    },
+    {
+      "slug": "selling-houston-house-reverse-mortgage",
+      "title": "Selling a Houston House With a Reverse Mortgage",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+      "image": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png",
+      "imageSha256": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
+      "googleInspection": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-23T13:32:56.350642+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2J3ND0OMCfPXKar1WAhCMg&utm_medium=link&utm_source=api"
+      },
+      "social": "draft_only"
+    },
+    {
+      "slug": "selling-houston-house-suspected-asbestos",
+      "title": "Selling a Houston House With Suspected Asbestos",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+      "image": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png",
+      "imageSha256": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
+      "googleInspection": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-10-23T13:32:56.13494+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vMIGaA5MsSZsEWr8JHf_Ng&utm_medium=link&utm_source=api"
+      },
+      "social": "draft_only"
+    }
+  ],
+  "publication": {
+    "pr": 24,
+    "previewCommit": "e051f5e7cfe4f37e968318f6d115fed575fc099f",
+    "previewDeployId": "6adb60c6d90f1fde37e4cf45",
+    "productionCommit": "8a1339862839f534e734a70d37da429f13e89a23",
+    "productionDeployId": "6adb61b404a11d91ae2bb6ce",
+    "publishedAt": "2026-10-23T13:32:10.290Z",
+    "verifiedAt": "2026-10-23T13:33:29.202066+00:00",
+    "exactCommitReady": true
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-23",
+    "errors": [],
+    "checkedAt": "2026-10-23T13:31:25.989Z"
+  },
+  "previewQA": {
+    "mode": "preview",
+    "origin": "https://6adb60c6d90f1fde37e4cf45--cashasis-blog.netlify.app",
+    "checkedAt": "2026-10-23T13:30:40.729690+00:00",
+    "articles": [
+      {
+        "slug": "property-tax-proration-selling-houston-house",
+        "url": "https://6adb60c6d90f1fde37e4cf45--cashasis-blog.netlify.app/blog/property-tax-proration-selling-houston-house/",
+        "verifiedAt": "2026-10-23T13:30:40.661482+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": "noindex",
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "9ea6a7d85e8ab926e256235295fe5bfd88d6b373c3797a59d6090e9cca207242",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "selling-houston-house-reverse-mortgage",
+        "url": "https://6adb60c6d90f1fde37e4cf45--cashasis-blog.netlify.app/blog/selling-houston-house-reverse-mortgage/",
+        "verifiedAt": "2026-10-23T13:30:40.728979+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": "noindex",
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "selling-houston-house-suspected-asbestos",
+        "url": "https://6adb60c6d90f1fde37e4cf45--cashasis-blog.netlify.app/blog/selling-houston-house-suspected-asbestos/",
+        "verifiedAt": "2026-10-23T13:30:40.701392+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": "noindex",
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+        "localOutputParity": true
+      }
+    ],
+    "protectedAssetByteParity": true,
+    "result": "pass"
+  },
+  "productionQA": {
+    "mode": "production",
+    "origin": "https://www.cashasis.com",
+    "checkedAt": "2026-10-23T13:33:29.202066+00:00",
+    "articles": [
+      {
+        "slug": "property-tax-proration-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "verifiedAt": "2026-10-23T13:33:29.195737+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": null,
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "9ea6a7d85e8ab926e256235295fe5bfd88d6b373c3797a59d6090e9cca207242",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "selling-houston-house-reverse-mortgage",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "verifiedAt": "2026-10-23T13:33:29.171238+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": null,
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+        "localOutputParity": true
+      },
+      {
+        "slug": "selling-houston-house-suspected-asbestos",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "verifiedAt": "2026-10-23T13:33:29.201313+00:00",
+        "httpStatus": 200,
+        "xRobotsTag": null,
+        "metaRobots": null,
+        "robotsAllowed": true,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "sitemap": true,
+        "rss": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "heroDimensions": "1200x630",
+        "imageHash": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
+        "internalLinks": 19,
+        "sellerCTA": "pass",
+        "metadata": "pass",
+        "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+        "localOutputParity": true
+      }
+    ],
+    "protectedAssetByteParity": true,
+    "result": "pass"
+  },
+  "withdrawnArticleSafeguards": [
+    {
+      "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+      "httpStatus": 404,
+      "excludedFromBlogRssSitemap": true,
+      "checkedAt": "2026-10-23T13:41:29.950773+00:00"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "httpStatus": 404,
+      "excludedFromBlogRssSitemap": true,
+      "checkedAt": "2026-10-23T13:41:29.950773+00:00"
+    }
+  ],
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "recent14DayMessages": 0,
+    "inboundMessages": 215,
+    "screenedMessages": 211,
+    "sampleMonths": [
+      "2026-06"
+    ],
+    "keywordScreen": {
+      "price": {
+        "messages": 31,
+        "distinctSellers": 17
+      },
+      "condition": {
+        "messages": 3,
+        "distinctSellers": 3
+      },
+      "timing": {
+        "messages": 10,
+        "distinctSellers": 6
+      },
+      "tax": {
+        "messages": 11,
+        "distinctSellers": 9
+      },
+      "tenants": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "mode": "read_only",
+    "limitations": "Export returned historical messages; recent-date query returned no messages. Current seller-theme evidence unavailable. Historical keyword screen only, not context-validated recurrence or representative demand. New topics selected as distinct editorial gaps, not claimed CRM recurrence. No raw private text, identifiers, addresses, amounts or unique stories retained."
+  },
+  "monitoring": {
+    "coverage": {
+      "eligibleSitemapURLs": 194,
+      "eligibleBlogArticles": 166,
+      "eligibleURLsWithRetainedInspectionEvidence": 194,
+      "latestEvidenceCounts": {
+        "indexed": 166,
+        "not_indexed": 28
+      },
+      "latestBlogEvidenceCounts": {
+        "indexed": 142,
+        "not_indexed": 24
+      },
+      "inspectedThisRun": 15,
+      "observationDateRange": [
+        "2026-10-04T18:51:07.839038+00:00",
+        "2026-10-23T13:36:43.187942+00:00"
+      ],
+      "note": "Mixed observation dates, not a fresh complete inspection of every URL. Nine existing non-blog pages were newly reconciled into coverage, not published today or claimed as new indexing gains. Impressions are not index counts; unknown is not rejection."
+    },
+    "dueRechecks": [
+      {
+        "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "checkedAt": "2026-10-23T13:21:35.868242+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "noindex": false,
+        "sitemap": true,
+        "internalLinks": "pass",
+        "sellerPath": "pass",
+        "schema": "pass"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "checkedAt": "2026-10-23T13:21:35.924794+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "noindex": false,
+        "sitemap": true,
+        "internalLinks": "pass",
+        "sellerPath": "pass",
+        "schema": "pass"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "checkedAt": "2026-10-23T13:21:35.844378+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "noindex": false,
+        "sitemap": true,
+        "internalLinks": "pass",
+        "sellerPath": "pass",
+        "schema": "pass"
+      }
+    ],
+    "inspections": [
+      {
+        "id": "61120435-2317-48ab-9833-9584475d2a3b",
+        "url": "https://www.cashasis.com/terms/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-16T01:42:55+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:43.187942+00:00",
+        "google_canonical": "https://www.cashasis.com/terms/",
+        "user_canonical": "https://www.cashasis.com/terms",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ztW0VBwCvSGBrPOZTQKKzQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "02c8fda7-d05e-49ca-8c3f-58858bcf84c5",
+        "url": "https://www.cashasis.com/referrals/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-08T15:13:07+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:43.152266+00:00",
+        "google_canonical": "https://www.cashasis.com/referrals/",
+        "user_canonical": "https://www.cashasis.com/referrals",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=F1WXOKm7kRKF28ZbYAKwFw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "b37aedb1-011d-41fd-baf8-84bc8ac854ab",
+        "url": "https://www.cashasis.com/sms-tcpa/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-15T18:12:56+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:43.121214+00:00",
+        "google_canonical": "https://www.cashasis.com/sms-tcpa/",
+        "user_canonical": "https://www.cashasis.com/sms-tcpa",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hJ79k65ksCIT8MXhkXBeqw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "dbb8742d-5f08-4027-b39c-8026a4ef862f",
+        "url": "https://www.cashasis.com/privacy/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-17T01:52:54+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:36.456291+00:00",
+        "google_canonical": "https://www.cashasis.com/privacy/",
+        "user_canonical": "https://www.cashasis.com/privacy",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9sUG4_mJjvIwJDGsr8VtHQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "a88bd17b-1227-4498-a03e-c438f047f43b",
+        "url": "https://www.cashasis.com/careers/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-09-25T09:49:23+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:36.4319+00:00",
+        "google_canonical": "https://www.cashasis.com/careers/",
+        "user_canonical": "https://www.cashasis.com/careers",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3Hx4G1AzFd-XmmzFfcTv0g&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "1723cb8f-3edf-43da-b380-33e1caa1ab19",
+        "url": "https://www.cashasis.com/lending-partners/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-12T10:12:19+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:36.41887+00:00",
+        "google_canonical": "https://www.cashasis.com/lending-partners/",
+        "user_canonical": "https://www.cashasis.com/lending-partners",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=IgagkapaFl7DeDhX4h3CFA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "e6c46a5d-9a2d-482d-8117-b807ca7be5f6",
+        "url": "https://www.cashasis.com/accessibility/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-08T02:57:52+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:36.403309+00:00",
+        "google_canonical": "https://www.cashasis.com/accessibility/",
+        "user_canonical": "https://www.cashasis.com/accessibility",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6Jyr1HbEJ_EjJxref5eGLQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "7ffed21a-4323-4abc-94b5-14a887599810",
+        "url": "https://www.cashasis.com/disclaimer/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-16T23:22:54+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:36:36.400928+00:00",
+        "google_canonical": "https://www.cashasis.com/disclaimer/",
+        "user_canonical": "https://www.cashasis.com/disclaimer",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Dr3d60hzlVhYWog7M90-0g&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "afb1c456-d39d-4031-8882-d659bf44beec",
+        "url": "https://www.cashasis.com/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-18T00:27:27+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:35:05.593948+00:00",
+        "google_canonical": "https://www.cashasis.com/",
+        "user_canonical": "https://www.cashasis.com/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OwphyYGJxQioesNprqbDPw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "a077240a-a5e6-428f-9af4-052553e4fe77",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-23T13:32:56.350642+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2J3ND0OMCfPXKar1WAhCMg&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "9bb05cd8-0c5a-42ca-b443-d9ca2cbcaed7",
+        "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-23T13:32:56.257389+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5MRsGyIeP0A2WR6nYEij9Q&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "c3d4b2c6-774d-4b6a-83f0-22934b680232",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-23T13:32:56.13494+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vMIGaA5MsSZsEWr8JHf_Ng&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "a0398f33-2fcb-4298-9928-82e9224882db",
+        "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T11:16:04+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:18:51.766349+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "user_canonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OSwOy0Q1raUyZWxKhOp5Jw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "4db7f36c-bf94-4ca8-935c-443e25b2c778",
+        "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T09:18:34+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:18:51.745056+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "user_canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_28uWs4EkYrZnY8u_MTvqA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "35afce25-951a-442e-9c41-421051e93fa4",
+        "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T06:09:31+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-23T13:18:51.647771+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=D2nPMIcWfALeEbro1yTK1Q&utm_medium=link&utm_source=api"
+      }
+    ],
+    "deferredInspections": 0,
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "actionableAlert": false,
+    "existingNonBlogInventoryReconciled": [
+      {
+        "url": "https://www.cashasis.com/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/",
+        "canonicalVariantVerifiedSameContent": false,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:22.289020+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:22.289037+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/accessibility/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/accessibility",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:28.784216+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:28.784234+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/careers/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/careers",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:28.761011+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:28.761077+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/disclaimer/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/disclaimer",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:28.744070+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:28.744111+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/lending-partners/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/lending-partners",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:28.702503+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:28.702522+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/privacy/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/privacy",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:33.989485+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:33.989501+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/referrals/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/referrals",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:41.752237+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:41.752256+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/sms-tcpa/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/sms-tcpa",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:41.728139+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:41.728165+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      },
+      {
+        "url": "https://www.cashasis.com/terms/",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/terms",
+        "canonicalVariantVerifiedSameContent": true,
+        "technicalEligible": true,
+        "robotsAllowed": true,
+        "metaRobots": null,
+        "xRobotsTag": null,
+        "sitemap": true,
+        "technicalVerifiedAt": "2026-10-23T13:38:41.692279+00:00",
+        "publishedAt": null,
+        "firstSeenAt": "2026-10-23T13:38:41.692300+00:00",
+        "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently."
+      }
+    ],
+    "inspectionCalls": 15
+  },
+  "gscSearchPerformance": {
+    "settledThrough": "2026-10-21",
+    "range": [
+      "2026-09-23",
+      "2026-10-20"
+    ],
+    "siteTotals": {
+      "clicks": 6,
+      "impressions": 696,
+      "ctrPercent": 0.86,
+      "avgPositionWeighted": 42.22
+    },
+    "coverage": {
+      "rowsReturned": 238,
+      "rowsTotal": 238,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7557,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2443,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 6,
+        "impressions": 696,
+        "ctrPercent": 0.86,
+        "avgPositionWeighted": 42.22
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-22",
+      "settledThrough": "2026-10-21",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-23",
+        "dataState": "all"
+      }
+    },
+    "directionalPosition11to30Opportunities": [
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 16.153846153846153
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "we buy houses missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 14.333333333333334
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "sell my house fast in missouri city"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 18.75
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
+          "sell my house fast tomball tx"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/",
+          "inherited a house full of stuff"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "cash home buyers missouri city tx"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 14.5
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "we buy houses missouri city"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 11.25
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/",
+          "sell fire damage house"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "sell my house fast cypress"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 17.666666666666668
+      },
+      {
+        "keys": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "we buy houses cypress"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 28.333333333333332
+      }
+    ],
+    "note": "Small query samples; no sustained ranking gain inferred. Existing primary-page query/snippet/link improvements remain priorities over city variants. No unauthorized live rewrite."
+  },
+  "analytics": {
+    "GA4": "Not re-queried today; optional. Existing W43 receipt and owner on-demand review retained; no settled new-article outcomes.",
+    "organicSellerLead": null,
+    "qualifiedSeller": null,
+    "agreement": null,
+    "fundedRetainedGP": null
+  },
+  "acquisitionEvidence": {
+    "workflow": "Existing repository intent map and run evidence for Lead Acquisition Engine / COO; no separate dashboard or unsolicited message.",
+    "recommendations": [
+      "Review Missouri City existing primary query/snippet alignment: exact fast-sale query13impressions/position16.15 is directional, not proof of stable ranking.",
+      "Review existing primary/support internal links and seller path before more city pages; new guides answer distinct uncovered questions.",
+      "Current CRM-theme freshness unavailable; June historical screen not treated as current seller demand."
+    ],
+    "handoffStatus": "public-safe evidence persisted in existing shared workflow; no claim that another agent reviewed it"
+  },
+  "commands": {
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "pages": 190,
+      "note": "Overlong descriptions corrected; final reverse thumbnail shortened to two lines after card-badge review, followed by full build and affected visual checks."
+    },
+    "outputValidation": {
+      "command": "validate_output.py for each3slug",
+      "exitCode": 0
+    },
+    "mobile": {
+      "widths": [
+        360,
+        390,
+        768,
+        1366
+      ],
+      "articles": 3,
+      "cardsWidths": [
+        390,
+        1366
+      ],
+      "pass": true,
+      "visualReview": true
+    },
+    "unitTests": {
+      "pythonPublisherGate": {
+        "tests": 5,
+        "passed": 5,
+        "exitCode": 0
+      },
+      "nodeBlogAttributionBuildOutput": {
+        "tests": 27,
+        "passed": 27,
+        "exitCode": 0
+      }
+    },
+    "releaseGate": {
+      "allowed": true,
+      "day": "2026-10-23",
+      "errors": [],
+      "checkedAt": "2026-10-23T13:31:25.989Z"
+    },
+    "protectedSources": "13-file content/image/record/social/generated-allowlist PR; homepage and calculator match current approved facelift pins; remote article/CSS/tracking parity passed"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Routine success, normal initial discovery delays and no actionable confirmed regression; suppressed by owner monitoring policy."
+  },
+  "scheduleChanged": false
+}

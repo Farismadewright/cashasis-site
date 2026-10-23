@@ -519,5 +519,59 @@
     "deployId": "6ada1202ab4f23f3f0732f5c",
     "pr": 20,
     "publishedAt": "2026-10-22T13:39:55.374Z"
+  },
+  {
+    "runId": "native-daily-20261023T130501Z",
+    "day": "2026-10-23",
+    "slug": "property-tax-proration-selling-houston-house",
+    "intentKey": "houston-seller-current-year-tax-proration-estimate-final-bill-reconciliation",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+    "nearestOverlaps": [
+      "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+      "/blog/sell-house-behind-on-taxes-houston/",
+      "/blog/what-happens-back-taxes-when-you-sell/"
+    ],
+    "substantiveDifference": "First current-year tax allocation worksheet: distinguishes estimated/final bill, delinquency, payments and lender escrow; verifies a labeled proceeds calculation. Existing county-value and back-tax pages do not explain this tax-period reconciliation. No new tax-debt/city synonym page.",
+    "commit": "8a1339862839f534e734a70d37da429f13e89a23",
+    "deployId": "6adb61b404a11d91ae2bb6ce",
+    "pr": 24,
+    "publishedAt": "2026-10-23T13:32:10.290Z"
+  },
+  {
+    "runId": "native-daily-20261023T130501Z",
+    "day": "2026-10-23",
+    "slug": "selling-houston-house-reverse-mortgage",
+    "intentKey": "houston-owner-reverse-mortgage-hecm-payoff-sale-proposal-net-equity",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+    "nearestOverlaps": [
+      "/blog/how-cash-offer-house-works-houston/",
+      "/blog/sell-house-title-problems-houston/",
+      "/blog/sell-inherited-house-houston/"
+    ],
+    "substantiveDifference": "First reverse-mortgage/HECM-specific sale plan: product identification, payoff coordination, notices and conditional shortfall approval. Generic cash-process/title/inheritance pages and validation-only generic payoff PR7 do not answer these HECM decisions. PR7 remains unmerged.",
+    "commit": "8a1339862839f534e734a70d37da429f13e89a23",
+    "deployId": "6adb61b404a11d91ae2bb6ce",
+    "pr": 24,
+    "publishedAt": "2026-10-23T13:32:10.290Z"
+  },
+  {
+    "runId": "native-daily-20261023T130501Z",
+    "day": "2026-10-23",
+    "slug": "selling-houston-house-suspected-asbestos",
+    "intentKey": "houston-seller-suspected-asbestos-material-disturbance-assessment-sale-choice",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+    "nearestOverlaps": [
+      "/blog/selling-pre-1978-houston-house-lead-paint/",
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+    ],
+    "substantiveDifference": "First suspected-asbestos seller decision: separates visual suspicion, assessed locations, disturbance risk, professional project scope and sale choices. Existing lead-paint page addresses a different material and federal handoff; generic repairs/disclosure pages do not answer asbestos decisions.",
+    "commit": "8a1339862839f534e734a70d37da429f13e89a23",
+    "deployId": "6adb61b404a11d91ae2bb6ce",
+    "pr": 24,
+    "publishedAt": "2026-10-23T13:32:10.290Z"
   }
 ]
