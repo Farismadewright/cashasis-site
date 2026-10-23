@@ -36,3 +36,5 @@ A Tomball-area acreage property should not be evaluated exactly like a standard 
 Tell CashAsIs about both the structure and the land. If you know the acreage, access arrangement, utilities, or restrictions, include them; if not, start with the address.
 
 See [Tomball cash-sale guide](/blog/sell-house-fast-tomball-tx/). A direct evaluation can begin before you spend money clearing, renovating, or preparing the property for our purchase.
+
+Selling a house on a standard lot instead? See [cash home buyers in Tomball](/blog/sell-house-fast-tomball-tx/), or our [Montgomery County guide](/blog/sell-house-fast-montgomery-county-tx/) if the property is across the county line.

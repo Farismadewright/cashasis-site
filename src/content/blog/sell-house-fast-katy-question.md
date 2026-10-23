@@ -27,3 +27,5 @@ Have the address, ownership information, occupancy status, basic condition, and 
 ## Fast does not have to mean rushed
 
 The useful goal is a closing schedule that matches the seller's situation. Some owners want the earliest practical date; others need time to move, coordinate an estate, communicate with tenants, or line up another property. CashAsIs can evaluate the house first and then discuss timing around the actual transaction. That is more useful than advertising one generic number of days for every Katy property.
+
+For county details, neighborhoods, and what to gather, see our main guide to [cash home buyers in Katy, TX](/blog/sell-house-fast-katy-tx/).

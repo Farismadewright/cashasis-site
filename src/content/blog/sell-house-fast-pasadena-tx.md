@@ -1,6 +1,6 @@
 ---
 title: "Sell My House Fast in Pasadena, TX | CashAsIs"
-description: "Sell your Pasadena property directly to CashAsIs. Request a cash offer before repairs, renovations, or public showings."
+description: "We buy houses in Pasadena, Texas for cash, as-is. Older homes, rentals, inherited and vacant houses. No repairs or showings. Request an offer."
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
@@ -13,6 +13,14 @@ faq:
     a: "CashAsIs evaluates properties in Pasadena and the greater Houston area for direct cash purchases."
   - q: "Can I request an offer before making repairs?"
     a: "Yes. CashAsIs evaluates properties in their current condition, so you can contact us before renovating for our purchase."
+  - q: "Do you buy houses in Pasadena, Texas or Pasadena, California?"
+    a: "CashAsIs buys houses in Pasadena, Texas, the Harris County city southeast of Houston, and in the surrounding Houston area. We do not buy in Pasadena, California."
+  - q: "Can I sell an older Pasadena house as-is, even if it was built before 1978?"
+    a: "Yes, you can ask us to review it. Older systems, dated finishes, and deferred maintenance are part of our evaluation. For homes built before 1978, federal lead-based paint disclosure rules generally still apply, and the title company and purchase agreement will address them."
+  - q: "What happens to unpaid property taxes when I sell my Pasadena house?"
+    a: "Unpaid Harris County, city, and school district taxes are usually identified by the title company and paid from the sale proceeds at closing, together with any penalties and interest owed."
+  - q: "Can I sell a Pasadena rental house with tenants still living in it?"
+    a: "Yes, you can ask us to review it. Share the lease terms, rent status, and deposit information. Whether the house is sold with tenants in place or after they move out is something we agree on in writing before closing."
 ---
 If you are searching **sell my house fast Pasadena**, **cash home buyers Pasadena**, or **we buy houses Pasadena**, you are probably trying to find a buyer who can look at the property you actually have—not the version you would have after months of preparation.
 
@@ -57,6 +65,33 @@ County, neighborhood, property type, lot size, condition, and repair scope can a
 That property-specific approach is important for both conventional houses and difficult properties.
 
 If the property is inherited, see [Sell an Inherited House in Houston](/blog/sell-inherited-house-houston/). If it has major repair needs, see [Sell a Houston House That Needs Major Repairs](/blog/sell-house-needs-major-repairs-houston/).
+
+## We buy houses in Pasadena, Texas: 77502, 77503, 77504, 77505, and 77506
+
+This page is about Pasadena, Texas, the Harris County city southeast of Houston, not Pasadena, California. We review houses across Pasadena's ZIP codes, including neighborhoods along Spencer Highway, Red Bluff Road, Fairmont Parkway, and Burke Road.
+
+Much of Pasadena was built during the growth years after World War II, so many houses here are older and long-owned. That often means original plumbing, older electrical, roofs near the end of their life, or a house that has been a rental for years. Those are exactly the situations where an as-is sale is worth comparing with fixing the house up first.
+
+Because Pasadena is in Harris County, the house is valued by the Harris Central Appraisal District. Our guide to [HCAD values vs. a cash offer](/blog/hcad-tax-value-vs-cash-offer-harris-county/) explains why the appraisal number and an offer are rarely the same.
+
+## Older Pasadena houses: what to tell us
+
+You do not need to fix these first, but sharing them early leads to a clearer offer:
+
+- **Built before 1978?** Federal lead-based paint disclosure rules apply to most older homes. See [selling a pre-1978 Houston house with possible lead paint](/blog/selling-pre-1978-houston-house-lead-paint/).
+- **Older wiring:** see [selling a Houston house with aluminum wiring](/blog/selling-houston-house-aluminum-wiring/).
+- **Sewer line trouble:** see [selling a Houston house with a sewer line problem](/blog/selling-houston-house-sewer-line-problem/).
+- **Roof damage:** see [whether to repair the roof or sell as-is](/blog/selling-houston-house-roof-damage-repair-or-as-is/).
+- **Foundation movement:** see [selling a house with foundation problems in Houston](/blog/sell-house-foundation-problems-houston/).
+- **Open code violations:** see [selling a house with code violations in Houston](/blog/sell-house-code-violations-houston/).
+
+## Behind on taxes or mortgage payments in Pasadena?
+
+Harris County foreclosure sales are held on the first Tuesday of the month at the Bayou City Event Center, 9401 Knight Road, Houston. If you are behind on the mortgage, read [how to stop foreclosure in the Houston area](/blog/stop-foreclosure-houston/). If property taxes are the problem, see [selling a Pasadena house with back taxes](/blog/sell-house-back-taxes-pasadena-tx/).
+
+CashAsIs is a property buyer, not a lender, law firm, or foreclosure-relief service, and we cannot guarantee that a foreclosure will be postponed or stopped.
+
+Selling nearby? See [sell my house fast in Baytown](/blog/sell-house-fast-baytown-tx/), [sell my house fast in Pearland](/blog/sell-house-fast-pearland-tx/), or our [Harris County cash home buyer guide](/blog/sell-house-fast-harris-county-tx/).
 
 ## Get a CashAsIs offer for your Pasadena property
 

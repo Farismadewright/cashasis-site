@@ -133,6 +133,8 @@ Title reviews ownership and items that need to be addressed for closing. The clo
 
 If you want the full breakdown, see [What Happens After You Sign?](/after-you-sign/).
 
+Selling in the Houston area? Our guide to [selling a house as-is in Houston](/blog/sell-house-as-is-houston/) covers local conditions, what to disclose, and what to gather first.
+
 ## Why we called it CashAsIs
 
 Because those are the two ideas we wanted sellers to understand before anything else:
