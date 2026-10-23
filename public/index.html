@@ -189,11 +189,12 @@ html.js .hiw-card.open.playing .step-bar span{animation:stepfill 4.5s linear for
 .steps-stage{position:relative;border-radius:28px;overflow:hidden;min-height:520px;background:#10264d}
 .steps-stage picture{position:absolute;inset:0;margin:0;transition:opacity .4s ease}
 .steps-stage picture img{width:100%;height:100%;object-fit:cover;display:block}
-.bg-kitchen{opacity:0}
-.steps-stage[data-step="2"] .bg-house{opacity:0}
-.steps-stage[data-step="2"] .bg-kitchen{opacity:1}
+.bg-kitchen,.bg-room{opacity:0}
+.steps-stage[data-step="2"] .bg-house,.steps-stage[data-step="3"] .bg-house{opacity:0}
+.steps-stage[data-step="2"] .bg-room{opacity:1}
+.steps-stage[data-step="3"] .bg-kitchen{opacity:1}
 .glass{position:absolute;left:18px;right:18px;bottom:18px;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-radius:18px;padding:14px 16px;box-shadow:0 16px 40px -24px rgba(0,0,0,.45);opacity:0;transform:translateY(16px);transition:opacity .4s ease,transform .4s ease}
-.steps-stage[data-step="1"] .scene-1,.steps-stage[data-step="2"] .scene-2,.steps-stage[data-step="3"] .scene-3{opacity:1;transform:none}
+.steps-stage[data-step="1"] .scene-1,.steps-stage[data-step="2"] .scene-cond,.steps-stage[data-step="3"] .scene-2,.steps-stage[data-step="4"] .scene-3{opacity:1;transform:none}
 .glass-pill{display:flex;align-items:center;gap:8px;background:#fff;border-radius:999px;padding:10px 14px;font-weight:700;color:var(--navy);box-shadow:0 8px 20px -16px rgba(14,26,51,.6)}
 .glass-pill svg{width:16px;height:16px;flex:none;fill:none;stroke:#5E6577;stroke-width:1.8}
 .ticks{list-style:none;margin-top:8px}
@@ -201,18 +202,34 @@ html.js .hiw-card.open.playing .step-bar span{animation:stepfill 4.5s linear for
 .ticks li::before{content:"";width:16px;height:16px;border-radius:50%;border:1.5px solid var(--orange);flex:none;background:var(--orange);box-shadow:inset 0 0 0 3px #fff}
 html.js .steps-stage:not(.play) .ticks li{opacity:.45}
 html.js .steps-stage:not(.play) .ticks li::before{border-color:#c9c3b8;background:#fff;box-shadow:none}
-html.js .steps-stage.play[data-step="1"] .ticks li{opacity:.45;animation:tickin .4s ease forwards}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(1){animation-delay:.35s}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(2){animation-delay:1.15s}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(3){animation-delay:1.95s}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(4){animation-delay:2.75s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li{opacity:.45;animation:tickin .4s ease forwards}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(1){animation-delay:.35s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(2){animation-delay:1.15s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(3){animation-delay:1.95s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(4){animation-delay:2.75s}
 @keyframes tickin{to{opacity:1}}
-html.js .steps-stage.play[data-step="1"] .ticks li::before{animation:tickbox .35s ease forwards}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(1)::before{animation-delay:.35s}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(2)::before{animation-delay:1.15s}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(3)::before{animation-delay:1.95s}
-html.js .steps-stage.play[data-step="1"] .ticks li:nth-child(4)::before{animation-delay:2.75s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li::before{animation:tickbox .35s ease forwards}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(1)::before{animation-delay:.35s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(2)::before{animation-delay:1.15s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(3)::before{animation-delay:1.95s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(4)::before{animation-delay:2.75s}
 @keyframes tickbox{to{border-color:var(--orange);background:var(--orange);box-shadow:inset 0 0 0 3px #fff}}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li{opacity:.45;animation:tickin .4s ease forwards}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(1){animation-delay:.55s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(2){animation-delay:1.35s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(3){animation-delay:2.15s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li::before{animation:tickbox .35s ease forwards}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(1)::before{animation-delay:.55s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(2)::before{animation-delay:1.35s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(3)::before{animation-delay:2.15s}
+.scene-cond b{display:block;color:var(--navy);font-size:16px}
+.cond-photos{display:flex;gap:8px;margin-top:10px}
+.cond-photos img{width:84px;height:64px;object-fit:cover;border-radius:10px;flex:none;background:#efeae3}
+html.js .steps-stage.play[data-step="2"] .cond-photos img{opacity:0;transform:translateY(10px);animation:thumbin .4s ease forwards}
+html.js .steps-stage.play[data-step="2"] .cond-photos img:nth-child(1){animation-delay:.2s}
+html.js .steps-stage.play[data-step="2"] .cond-photos img:nth-child(2){animation-delay:.85s}
+html.js .steps-stage.play[data-step="2"] .cond-photos img:nth-child(3){animation-delay:1.5s}
+@keyframes thumbin{to{opacity:1;transform:none}}
 .scene-2{left:auto;width:min(230px,72%);padding:16px 18px}
 .scene-2 b{display:block;color:var(--navy);font-size:16px}
 .scene-2 span{color:var(--muted);font-size:13.5px}
@@ -323,7 +340,7 @@ html.js .tl.inview .tl-trad .tl-item:nth-child(7),html.js .tl.inview .tl-trad .t
 .calc-card li span:last-child{color:var(--navy);font-weight:650}
 .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .post{background:#fff;border:0;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 16px 36px -30px rgba(14,26,51,.55)}
-.post img{aspect-ratio:16/10;object-fit:cover;width:100%}
+.post img{aspect-ratio:1200/630;object-fit:cover;width:100%;height:auto}
 .post small{display:block;color:var(--muted);font-size:12px;padding:12px 14px 0}
 .post h3{font-size:16px;font-weight:700;padding:6px 14px 0;color:var(--navy);letter-spacing:-.02em}
 .post .read{color:var(--orange);font-weight:800;font-size:14px;padding:10px 14px 16px}
@@ -712,6 +729,11 @@ fbq('track','PageView');
           <source type="image/webp" srcset="/images/hero-house-800.webp 800w, /images/hero-house.webp 1600w" sizes="(max-width: 980px) 100vw, 560px">
           <img src="/images/hero-house-800.webp" alt="" width="1600" height="900" loading="lazy" decoding="async">
         </picture>
+        <picture class="bg-room">
+          <source type="image/avif" srcset="/images/benefit-asis-640.avif 640w, /images/benefit-asis.avif 960w" sizes="(max-width: 980px) 100vw, 560px">
+          <source type="image/webp" srcset="/images/benefit-asis-640.webp 640w, /images/benefit-asis.webp 960w" sizes="(max-width: 980px) 100vw, 560px">
+          <img src="/images/benefit-asis.webp" alt="Dated living room in a house that can sell as-is" width="960" height="720" loading="lazy" decoding="async">
+        </picture>
         <picture class="bg-kitchen">
           <source type="image/avif" srcset="/images/steps-kitchen-800.avif 800w, /images/steps-kitchen.avif 1600w" sizes="(max-width: 980px) 100vw, 560px">
           <source type="image/webp" srcset="/images/steps-kitchen-800.webp 800w, /images/steps-kitchen.webp 1600w" sizes="(max-width: 980px) 100vw, 560px">
@@ -724,6 +746,19 @@ fbq('track','PageView');
             <li>Checking recent sales nearby</li>
             <li>Reviewing condition and repairs</li>
             <li>Preparing your cash offer</li>
+          </ul>
+        </div>
+        <div class="glass scene-cond">
+          <b>Condition</b>
+          <div class="cond-photos">
+            <img src="/images/benefit-asis-640.webp" alt="Living room" width="960" height="720" loading="lazy" decoding="async">
+            <img src="/images/steps-kitchen-800.webp" alt="Kitchen" width="1600" height="1200" loading="lazy" decoding="async">
+            <img src="/images/sit-foundation-640.webp" alt="Brick foundation" width="960" height="720" loading="lazy" decoding="async">
+          </div>
+          <ul class="ticks">
+            <li>Roof</li>
+            <li>Kitchen</li>
+            <li>Foundation</li>
           </ul>
         </div>
         <div class="glass scene-2"><b>Reviewing comps</b><span>Recent sales near the property</span></div>
@@ -739,14 +774,20 @@ fbq('track','PageView');
       <p class="steps-note"><b>Close on your timeline.</b>As little as 7 days. No repairs. No fees.</p>
     </div>
     <div class="steps-copy">
-      <p class="eyebrow">Simple as 1-2-3</p>
-      <h2 class="how-title">Get Your Cash Offer in 3 Simple Steps</h2>
+      <p class="eyebrow">Simple as 1-2-3-4</p>
+      <h2 class="how-title">Get Your Cash Offer in 4 Simple Steps</h2>
       <p class="how-sub">No agents, no repairs, no headaches. We've made selling your house ridiculously simple.</p>
       <div class="hiw-grid">
         <div class="hiw-card open">
           <div class="hiw-num" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></div>
           <h3>Tell Us About Your Property</h3>
           <p>Fill out our quick form, it takes less than 30 seconds. No cleanup or prep needed.</p>
+          <div class="step-bar" aria-hidden="true"><span></span></div>
+        </div>
+        <div class="hiw-card">
+          <div class="hiw-num" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M4 7h3l1.2-2h7.6L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3"/></svg></div>
+          <h3>Show Us Your House Condition</h3>
+          <p>Share a few photos or a quick walkthrough of the condition, as-is. No cleaning, no repairs, no judgment.</p>
           <div class="step-bar" aria-hidden="true"><span></span></div>
         </div>
         <div class="hiw-card">
@@ -861,9 +902,9 @@ fbq('track','PageView');
 <section class="life-band reveal" aria-label="A home bought as-is">
   <div class="wrap">
     <picture>
-      <source type="image/avif" srcset="/images/life-band-800.avif 800w, /images/life-band.avif 1280w" sizes="(max-width: 1180px) 100vw, 1132px">
-      <source type="image/webp" srcset="/images/life-band-800.webp 800w, /images/life-band.webp 1280w" sizes="(max-width: 1180px) 100vw, 1132px">
-      <img src="/images/life-band-800.webp" alt="Dated brick ranch with a navy and orange Bought By cashasis.com yard sign" width="1280" height="720" loading="lazy" decoding="async">
+      <source type="image/avif" srcset="/images/life-band-800.avif 800w, /images/life-band.avif 1180w" sizes="(max-width: 1180px) 100vw, 1132px">
+      <source type="image/webp" srcset="/images/life-band-800.webp 800w, /images/life-band.webp 1180w" sizes="(max-width: 1180px) 100vw, 1132px">
+      <img src="/images/life-band-800.webp" alt="Couple beside a brick ranch with the navy and orange Bought By cashasis.com sold sign" width="1180" height="664" loading="lazy" decoding="async">
     </picture>
   </div>
 </section>
@@ -964,12 +1005,12 @@ fbq('track','PageView');
       <a class="pill" href="/blog/">All resources</a>
     </div>
     <div class="posts stagger">
-      <a class="post reveal" href="/blog/hcad-tax-value-vs-cash-offer-harris-county/"><img loading="lazy" decoding="async" src="/images/hcad-tax-value-vs-cash-offer-harris-county.png" alt="HCAD value compared with a cash offer"><h3>HCAD Value vs. a Cash Offer: A Harris County Seller's Guide</h3><span class="read">Read &rarr;</span></a>
-      <a class="post reveal" href="/blog/selling-houston-area-house-private-water-well/"><img loading="lazy" decoding="async" src="/images/selling-houston-area-house-private-water-well.png" alt="House with a private water well"><h3>Selling a Houston-Area House With a Private Water Well</h3><span class="read">Read &rarr;</span></a>
-      <a class="post reveal" href="/blog/when-to-transfer-utilities-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/when-to-transfer-utilities-selling-houston-house.png" alt="Utilities at a Houston house"><h3>Selling a Houston House: When Should Utilities Transfer?</h3><span class="read">Read &rarr;</span></a>
-      <a class="post reveal" href="/blog/mold-remediation-certificate-selling-texas-house/"><img loading="lazy" decoding="async" src="/images/mold-remediation-certificate-selling-texas-house.png" alt="Mold remediation paperwork"><h3>Selling a Texas House After Mold Work: Check the Certificate</h3><span class="read">Read &rarr;</span></a>
-      <a class="post reveal" href="/blog/replace-air-conditioner-before-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/replace-air-conditioner-before-selling-houston-house.png" alt="Air conditioner on a Houston house"><h3>Replace the AC Before Selling a Houston House? Compare First</h3><span class="read">Read &rarr;</span></a>
-      <a class="post reveal" href="/blog/selling-houston-house-from-out-of-state-signing/"><img loading="lazy" decoding="async" src="/images/selling-houston-house-from-out-of-state-signing.png" alt="Signing documents away from the house"><h3>Selling a Houston House From Out of State: Plan the Signing</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/hcad-tax-value-vs-cash-offer-harris-county/"><img loading="lazy" decoding="async" src="/images/hcad-tax-value-vs-cash-offer-harris-county.png" alt="HCAD value compared with a cash offer" width="1200" height="630"><h3>HCAD Value vs. a Cash Offer: A Harris County Seller's Guide</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/selling-houston-area-house-private-water-well/"><img loading="lazy" decoding="async" src="/images/selling-houston-area-house-private-water-well.png" alt="House with a private water well" width="1200" height="630"><h3>Selling a Houston-Area House With a Private Water Well</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/when-to-transfer-utilities-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/when-to-transfer-utilities-selling-houston-house.png" alt="Utilities at a Houston house" width="1200" height="630"><h3>Selling a Houston House: When Should Utilities Transfer?</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/mold-remediation-certificate-selling-texas-house/"><img loading="lazy" decoding="async" src="/images/mold-remediation-certificate-selling-texas-house.png" alt="Mold remediation paperwork" width="1200" height="630"><h3>Selling a Texas House After Mold Work: Check the Certificate</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/replace-air-conditioner-before-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/replace-air-conditioner-before-selling-houston-house.png" alt="Air conditioner on a Houston house" width="1200" height="630"><h3>Replace the AC Before Selling a Houston House? Compare First</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/selling-houston-house-from-out-of-state-signing/"><img loading="lazy" decoding="async" src="/images/selling-houston-house-from-out-of-state-signing.png" alt="Signing documents away from the house" width="1200" height="630"><h3>Selling a Houston House From Out of State: Plan the Signing</h3><span class="read">Read &rarr;</span></a>
     </div>
     <div class="pills">
       <a class="pill" href="/blog/inherited-property-cashasis-options/">Inherited</a>
