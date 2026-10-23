@@ -12,3 +12,9 @@
 # That redirect rule lives on the MAIN site's config, not this one.
 
 # Deploy refresh marker: 2026-10-14 seller tool previews
+
+# SEO batch 1: legacy sitemap path still submitted in Search Console (old Yoast-style URL) -> Astro sitemap index
+[[redirects]]
+  from = "/sitemap_index.xml"
+  to = "/sitemap-index.xml"
+  status = 301

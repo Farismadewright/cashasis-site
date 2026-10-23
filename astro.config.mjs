@@ -6,6 +6,19 @@ import sitemap from '@astrojs/sitemap';
 // then update it to https://cashasis.com once the domain is connected.
 export default defineConfig({
   site: 'https://www.cashasis.com',
-  integrations: [sitemap({ filter: (page) => !page.includes('/review-tools/') })],
+  integrations: [sitemap({
+    filter: (page) => !page.includes('/review-tools/'),
+    customPages: [
+      'https://www.cashasis.com/',
+      'https://www.cashasis.com/careers/',
+      'https://www.cashasis.com/referrals/',
+      'https://www.cashasis.com/lending-partners/',
+      'https://www.cashasis.com/privacy/',
+      'https://www.cashasis.com/terms/',
+      'https://www.cashasis.com/sms-tcpa/',
+      'https://www.cashasis.com/disclaimer/',
+      'https://www.cashasis.com/accessibility/',
+    ],
+  })],
   build: { format: 'directory' },
 });
