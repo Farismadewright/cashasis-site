@@ -127,19 +127,16 @@ header.scrolled .btn-phone{padding:10px 12px}
 @media(max-width:899px){
   .hero-photo img{object-position:72% bottom}
 }
-.stats{position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);text-align:center;padding:8px 28px 32px;gap:10px}
-.stat b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(28px,3vw,40px)}
 .lead-shell{display:none;position:fixed;inset:0;z-index:80;background:rgba(0,15,46,.62);align-items:flex-start;justify-content:center;padding:28px 16px;overflow:auto}
 .lead-shell.open,.lead-shell:target{display:flex}
 .lead-dialog{position:relative;width:min(640px,100%);margin:28px auto}
 .lead-x{position:absolute;top:10px;right:10px;z-index:4;width:36px;height:36px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;font-size:26px;line-height:1;font-weight:700;box-shadow:var(--shadow-sm)}
 .lead-dialog .offer-card{width:100%}
-.stat small{font-size:13px;opacity:.85}
 .secure{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-size:13px;padding:14px 0 0}
 .secure svg{width:16px;height:16px}
 
 
-.trust{padding:64px 0 12px}
+.trust{padding:48px 0 9px}
 .features-inner,.trust-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .feature,.tcard{background:#fff;border:0;border-radius:22px;padding:0 0 16px;display:flex;flex-direction:column;gap:0;align-items:stretch;overflow:hidden;box-shadow:0 16px 36px -28px rgba(14,26,51,.45)}
 .feature + .feature{border-left:0}
@@ -150,11 +147,7 @@ header.scrolled .btn-phone{padding:10px 12px}
 .feature .ic svg,.tcard .ic svg{width:22px;height:22px}
 .feature h3,.tcard h3{font-family:var(--display);font-size:16px;font-weight:700;letter-spacing:-.02em;color:var(--navy)}
 .feature p,.tcard p{font-size:14.5px;color:var(--muted);margin-top:4px;line-height:1.45}
-.badges{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:28px 0 0}
-.badges span{display:inline-flex;align-items:center;gap:8px;background:#fff;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:800;letter-spacing:.14em;color:var(--navy)}
-.badges span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--orange)}
-
-section{padding:84px 0}
+section{padding:63px 0}
 .eyebrow{font-family:var(--display);font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:12px}
 .lede,.how-sub{color:var(--muted);font-size:17px;max-width:480px;margin-top:14px;line-height:1.5}
 .row-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:28px}
@@ -249,8 +242,6 @@ html.js .steps-stage.play[data-step="2"] .cond-photos img:nth-child(3){animation
 .ex-flag{display:inline-block;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:2px 8px}
 .ex-price{display:block;font-family:var(--display);font-weight:800;font-size:26px;color:var(--navy);letter-spacing:-.03em}
 .ex-row small{color:var(--muted);font-size:12px}
-.steps-note{margin-top:14px;color:var(--muted);font-size:15px;line-height:1.45}
-.steps-note b{display:block;color:var(--navy);font-size:16px;margin-bottom:2px}
 .tl{display:grid;grid-template-columns:.82fr 1.18fr;gap:36px;align-items:center;margin-top:28px}
 .tl-lead h3{font-size:clamp(28px,3vw,40px);letter-spacing:-.03em;margin-bottom:10px}
 .tl-lead p{color:var(--muted);max-width:360px;margin-bottom:16px}
@@ -312,25 +303,7 @@ html.js .tl.inview .tl-trad .tl-item:nth-child(7),html.js .tl.inview .tl-trad .t
 .check img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 .check-label{display:flex;align-items:center;gap:8px;padding:10px 12px}
 .check svg{width:16px;height:16px;color:var(--orange);flex:none}
-.life-band{padding:10px 0}
-.life-band img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:32px}
-.areas-photo{grid-column:1 / -1;display:block;border-radius:20px;overflow:hidden;line-height:0}
-.areas-photo img{width:100%;height:auto;aspect-ratio:21/9;object-fit:cover}
-.faq-photo{display:block;width:min(280px,100%);margin-top:22px;border-radius:20px;overflow:hidden;line-height:0}
-.faq-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
-.calc-photo{display:block;max-width:440px;margin-top:18px;border-radius:20px;overflow:hidden;line-height:0}
-.calc-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 .ugly-card,.callout-line{font-family:var(--display);font-weight:800;font-size:22px;color:var(--navy);margin-top:18px;letter-spacing:-.03em}
-.brandband{padding-top:0}
-.bb{border-radius:32px;background:var(--navy);color:#fff;border:0;padding:32px 36px;display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center;box-shadow:none}
-.bb-logo{background:#fff;border-radius:16px;padding:10px 14px;display:block;line-height:0}
-.bb-logo img{height:44px;width:auto}
-.bb h2{font-weight:800;font-size:clamp(28px,3.2vw,44px);line-height:1;color:#fff;letter-spacing:-.04em}
-.bb h2 .dot{color:var(--orange)}
-.bb p{color:rgba(255,255,255,.78);font-size:16px;margin-top:8px;max-width:460px}
-.bigphone{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;background:var(--orange);color:#fff;border-radius:999px;padding:12px 22px;text-align:center;line-height:1.05;font-family:var(--display);font-weight:800;font-size:clamp(18px,2vw,24px);transition:background-color .25s ease,color .25s ease}
-.bigphone:hover{background:var(--orange-d)}
-.bigphone small{display:block;font-family:'Inter',sans-serif;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:4px}
 
 .rev-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px}
 .rev-card{background:#fff;border:0;border-radius:24px;padding:22px;box-shadow:0 16px 36px -28px rgba(14,26,51,.55)}
@@ -342,10 +315,6 @@ html.js .tl.inview .tl-trad .tl-item:nth-child(7),html.js .tl.inview .tl-trad .t
 .rev-stars svg{width:15px;height:15px;color:var(--orange);flex:none}
 .rev-card p{font-size:15px;color:var(--ink);line-height:1.5}
 
-.ready{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-.calc-card{background:#fff;border:0;border-radius:28px;padding:8px 22px 22px;box-shadow:0 16px 36px -28px rgba(14,26,51,.5)}
-.calc-card li{display:flex;justify-content:space-between;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);font-size:15px;color:var(--muted)}
-.calc-card li span:last-child{color:var(--navy);font-weight:650}
 .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .post{background:#fff;border:0;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 16px 36px -30px rgba(14,26,51,.55)}
 .post img{aspect-ratio:1200/630;object-fit:cover;width:100%;height:auto}
@@ -355,13 +324,7 @@ html.js .tl.inview .tl-trad .tl-item:nth-child(7),html.js .tl.inview .tl-trad .t
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .pill{border:0;background:#fff;border-radius:999px;padding:8px 14px;font-size:13.5px;font-weight:650;transition:background-color .25s ease,color .25s ease}
 .pill:hover{background:var(--orange);color:#fff}
-.areas{background:var(--navy);color:#fff;border-radius:32px;padding:42px;display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:center}
-.areas h2{color:#fff}
-.areas p{color:rgba(255,255,255,.78);margin-top:10px}
-.areas .pill{background:rgba(255,255,255,.08);color:#fff}
-.areas .pill:hover{background:var(--orange)}
 .faq-layout{display:grid;grid-template-columns:minmax(240px,.78fr) 1.22fr;gap:48px;align-items:start}
-.faq-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .faq-list{display:grid;gap:10px;margin-top:0}
 .faq2{background:#fff;border:0;border-radius:18px;padding:16px 18px;box-shadow:0 10px 28px -22px rgba(14,26,51,.55)}
 .faq2 summary{font-family:var(--display);font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--navy);letter-spacing:-.02em}
@@ -379,11 +342,6 @@ html.js .tl.inview .tl-trad .tl-item:nth-child(7),html.js .tl.inview .tl-trad .t
 .cta-photo img{width:100%;height:auto;aspect-ratio:4/3;transform:rotate(-7deg);filter:drop-shadow(0 22px 28px rgba(14,26,51,.22))}
 .cta-card .secure{justify-content:flex-start;color:var(--muted);padding-top:16px}
 footer{background:transparent;color:var(--muted);border-top:0;padding:8px 0 0}
-.frecall{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;background:transparent;color:var(--navy);border-radius:0;padding:8px 0 18px;margin-bottom:0;border-bottom:1px solid var(--line)}
-.frecall b{font-family:var(--display);font-weight:900;font-size:clamp(24px,3vw,36px);color:var(--navy)}
-.frecall i{font-style:normal;color:var(--orange)}
-.frecall a.tel{font-family:var(--display);font-weight:800;color:#fff;background:var(--orange);border-radius:999px;padding:10px 18px;font-size:clamp(18px,2vw,26px);transition:background-color .25s ease}
-.frecall a.tel:hover{background:var(--orange-d)}
 .foot-logo{height:48px;width:auto}
 .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1.4fr .7fr;gap:28px;padding:32px 0 8px}
 .foot-blurb{font-size:14.5px;margin-top:14px;max-width:280px;line-height:1.5}
@@ -406,9 +364,9 @@ html.js .stagger > .reveal.in:nth-child(4){transition-delay:240ms}
 html.js .stagger > .reveal.in:nth-child(5){transition-delay:320ms}
 html.js .stagger > .reveal.in:nth-child(6){transition-delay:400ms}
 html.js .stagger > .reveal.in:nth-child(7){transition-delay:480ms}
-.feature,.rev-card,.faq2,.post,.vid-card,.check,.cmp-cashitem,.cmp-traditem,.calc-card{transition:transform .25s ease,box-shadow .25s ease}
-.feature:hover,.rev-card:hover,.faq2:hover,.post:hover,.vid-card:hover,.check:hover,.cmp-cashitem:hover,.cmp-traditem:hover,.calc-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(14,26,51,.4)}
-html.js .reveal.in.feature:hover,html.js .reveal.in.rev-card:hover,html.js .reveal.in.faq2:hover,html.js .reveal.in.post:hover,html.js .reveal.in.vid-card:hover,html.js .reveal.in.check:hover,html.js .reveal.in.cmp-cashitem:hover,html.js .reveal.in.cmp-traditem:hover,html.js .reveal.in.calc-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(14,26,51,.4);transition:opacity .6s ease-out,transform .25s ease,box-shadow .25s ease}
+.feature,.rev-card,.faq2,.post,.vid-card,.check,.cmp-cashitem,.cmp-traditem{transition:transform .25s ease,box-shadow .25s ease}
+.feature:hover,.rev-card:hover,.faq2:hover,.post:hover,.vid-card:hover,.check:hover,.cmp-cashitem:hover,.cmp-traditem:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(14,26,51,.4)}
+html.js .reveal.in.feature:hover,html.js .reveal.in.rev-card:hover,html.js .reveal.in.faq2:hover,html.js .reveal.in.post:hover,html.js .reveal.in.vid-card:hover,html.js .reveal.in.check:hover,html.js .reveal.in.cmp-cashitem:hover,html.js .reveal.in.cmp-traditem:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(14,26,51,.4);transition:opacity .6s ease-out,transform .25s ease,box-shadow .25s ease}
 .logo .name{font-family:var(--display);font-weight:800;font-size:24px}
 .logo .name .navy{color:var(--navy)}
 .logo .name .orange{color:var(--orange)}
@@ -456,10 +414,9 @@ html.js .reveal.in.feature:hover,html.js .reveal.in.rev-card:hover,html.js .reve
   .features-inner,.trust-row,.posts,.rev-grid{grid-template-columns:1fr 1fr}
   .feature + .feature{border-left:0}
   .vid-card{flex-basis:78%}
-  .split,.ugly,.ready,.bb,.areas,.faq-layout,.cta-card,.cmp-board,.tl{grid-template-columns:1fr}
+  .split,.ugly,.faq-layout,.cta-card,.cmp-board,.tl{grid-template-columns:1fr}
   .ugly{padding:22px}
   .steps-stage{min-height:420px}
-  .stats{grid-template-columns:1fr 1fr;row-gap:16px}
   .cmp-head{display:none}
   .cmp-row{grid-template-columns:1fr;gap:4px}
 }
@@ -484,9 +441,6 @@ html.js .reveal.in.feature:hover,html.js .reveal.in.rev-card:hover,html.js .reve
   .foot-bottom{flex-direction:column}
   .hero-h1{font-size:12px;letter-spacing:.06em;padding:6px 12px;margin-bottom:16px}
   .rot-h1{font-size:40px}
-  .bb{padding:24px 18px;grid-template-columns:1fr}
-  .bb-logo{justify-self:start}
-  .bigphone{justify-self:start}
   .cta-card{padding:22px 16px}
   .cta-card .addr{flex-wrap:wrap;border-radius:22px;padding:8px;gap:6px}
   .cta-card .addr input{flex:1 1 calc(100% - 36px);font-size:16px}
@@ -497,8 +451,7 @@ html.js .reveal.in.feature:hover,html.js .reveal.in.rev-card:hover,html.js .reve
   .polaroid{transform:rotate(-4deg);margin-top:18px}
   .faq-layout{gap:22px}
   .checks{grid-template-columns:1fr 1fr}
-  .life-band img{border-radius:24px}
-  section{padding:56px 0}
+  section{padding:42px 0}
 }
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
@@ -604,12 +557,6 @@ fbq('track','PageView');
       </div>
       <p class="sub">We Buy Houses As-Is. No Repairs. No Fees. Close On Your Timeline.</p>
     </div>
-    <div class="stats">
-      <div class="stat"><b>24 hrs</b><small>Real cash offer, no obligation</small></div>
-      <div class="stat"><b>7 days</b><small>Close in as little as</small></div>
-      <div class="stat"><b>$0</b><small>No commissions. No hidden costs.</small></div>
-      <div class="stat"><b>As-Is</b><small>Any condition. Any situation.</small></div>
-    </div>
   </div>
 </div>
 
@@ -661,7 +608,6 @@ fbq('track','PageView');
         </div>
       </div>
     </div>
-    <div class="badges"><span>NO REPAIRS</span><span>NO FEES</span><span>NO PRESSURE</span></div>
   </div>
 </section>
 
@@ -779,7 +725,6 @@ fbq('track','PageView');
           </div>
         </div>
       </div>
-      <p class="steps-note"><b>Close on your timeline.</b>As little as 7 days. No repairs. No fees.</p>
     </div>
     <div class="steps-copy">
       <p class="eyebrow">Simple as 1-2-3-4</p>
@@ -828,7 +773,6 @@ fbq('track','PageView');
       <div class="tl-lead">
         <h3>Close on your timeline.</h3>
         <p>Get a cash offer within 24 hours and close in as little as 7 days.</p>
-        <a href="#" class="btn btn-orange" data-cao-open>Get My Offer <span>&rarr;</span></a>
         <div class="polaroid">
           <picture>
             <source type="image/avif" srcset="/images/cta-keys-800.avif 800w, /images/cta-keys.avif 1600w" sizes="300px">
@@ -907,29 +851,6 @@ fbq('track','PageView');
   </div>
 </section>
 
-<section class="life-band reveal" aria-label="A home bought as-is">
-  <div class="wrap">
-    <picture>
-      <source type="image/avif" srcset="/images/life-band-800.avif 800w, /images/life-band.avif 1180w" sizes="(max-width: 1180px) 100vw, 1132px">
-      <source type="image/webp" srcset="/images/life-band-800.webp 800w, /images/life-band.webp 1180w" sizes="(max-width: 1180px) 100vw, 1132px">
-      <img src="/images/life-band-800.webp" alt="Couple beside a brick ranch with the navy and orange Bought By cashasis.com sold sign" width="1180" height="664" loading="lazy" decoding="async">
-    </picture>
-  </div>
-</section>
-
-<section class="brandband reveal">
-  <div class="wrap">
-    <div class="bb">
-      <picture class="bb-logo"><source type="image/webp" srcset="/images/cashasis-wordmark-com.webp"><img src="/images/cashasis-wordmark-com.png" alt="" width="498" height="104"></picture>
-      <div>
-        <h2>cashasis<span class="dot">.</span>com</h2>
-        <p>We buy houses as-is. No repairs. No fees. Close on your timeline.</p>
-      </div>
-      <a class="bigphone" href="tel:+13465846365"><small>Talk to a buyer</small>(346) 584-6365</a>
-    </div>
-  </div>
-</section>
-
 <section class="how reveal" id="reviews">
   <div class="wrap">
     <p class="eyebrow">Verified reviews</p>
@@ -976,34 +897,6 @@ fbq('track','PageView');
 </section>
 
 <section class="reveal">
-  <div class="wrap ready">
-    <div>
-      <p class="eyebrow">Not ready to sell yet?</p>
-      <h2>Run the numbers first.</h2>
-      <p class="lede">See what a retail repair list can cost, or read how Harris County tax value compares with a cash offer.</p>
-      <picture class="calc-photo">
-        <source type="image/avif" srcset="/images/benefit-asis-640.avif 640w, /images/benefit-asis.avif 960w" sizes="(max-width: 760px) 92vw, 440px">
-        <source type="image/webp" srcset="/images/benefit-asis-640.webp 640w, /images/benefit-asis.webp 960w" sizes="(max-width: 760px) 92vw, 440px">
-        <img src="/images/benefit-asis-640.webp" alt="Dated living room with worn carpet and wood paneling" width="960" height="720" loading="lazy" decoding="async">
-      </picture>
-      <div class="pills">
-        <a class="pill" href="/fix-it-or-sell-it/">Repair Cost Calculator</a>
-        <a class="pill" href="/blog/hcad-tax-value-vs-cash-offer-harris-county/">HCAD value vs. a cash offer</a>
-      </div>
-    </div>
-    <div class="calc-card" aria-hidden="true">
-      <ul>
-        <li><span>Roof</span><span>Retail range</span></li>
-        <li><span>HVAC</span><span>Retail range</span></li>
-        <li><span>Foundation</span><span>Retail range</span></li>
-        <li><span>Kitchen</span><span>Retail range</span></li>
-      </ul>
-      <a class="btn btn-orange btn-block" href="/fix-it-or-sell-it/" style="margin-top:14px">Open the calculator</a>
-    </div>
-  </div>
-</section>
-
-<section class="reveal">
   <div class="wrap">
     <div class="row-head">
       <div>
@@ -1031,54 +924,12 @@ fbq('track','PageView');
   </div>
 </section>
 
-<section class="reveal">
-  <div class="wrap">
-    <div class="areas">
-      <picture class="areas-photo">
-        <source type="image/avif" srcset="/images/areas-street-800.avif 800w, /images/areas-street.avif 1280w" sizes="(max-width: 1180px) 92vw, 1040px">
-        <source type="image/webp" srcset="/images/areas-street-800.webp 800w, /images/areas-street.webp 1280w" sizes="(max-width: 1180px) 92vw, 1040px">
-        <img src="/images/areas-street-800.webp" alt="Older brick ranch houses along a tree-lined street" width="1280" height="720" loading="lazy" decoding="async">
-      </picture>
-      <div>
-        <p class="eyebrow">Where we buy</p>
-        <h2>Houston and the surrounding counties.</h2>
-        <p>We buy throughout the local area and surrounding communities. Not sure if we cover yours? Reach out and we'll let you know.</p>
-      </div>
-      <div class="pills">
-        <a class="pill" href="/blog/we-buy-houses-houston/">Houston</a>
-        <a class="pill" href="/blog/sell-inherited-house-harris-county/">Harris County</a>
-        <a class="pill" href="/blog/sell-probate-house-fort-bend-county/">Fort Bend</a>
-        <a class="pill" href="/blog/sell-vacant-house-montgomery-county/">Montgomery</a>
-        <a class="pill" href="/blog/sell-inherited-house-katy-tx/">Katy</a>
-        <a class="pill" href="/blog/sell-inherited-house-sugar-land/">Sugar Land</a>
-        <a class="pill" href="/blog/sell-inherited-house-pearland-tx/">Pearland</a>
-        <a class="pill" href="/blog/sell-rental-with-tenants-cypress-tx/">Cypress</a>
-        <a class="pill" href="/blog/sell-vacant-house-spring-tx/">Spring</a>
-        <a class="pill" href="/blog/sell-vacant-house-humble-tx/">Humble</a>
-        <a class="pill" href="/blog/sell-vacant-house-baytown-tx/">Baytown</a>
-        <a class="pill" href="/blog/sell-vacant-house-pasadena-tx/">Pasadena</a>
-        <a class="pill" href="/blog/sell-vacant-house-tomball-tx/">Tomball</a>
-        <a class="pill" href="/blog/sell-vacant-house-missouri-city-tx/">Missouri City</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="how reveal" id="faq">
   <div class="wrap faq-layout">
     <div class="faq-intro">
       <p class="eyebrow">Questions &amp; answers</p>
       <h2 class="how-title">Frequently Asked Questions</h2>
       <p class="how-sub">Everything you need to know about selling your house for cash, no fluff.</p>
-      <div class="faq-actions">
-        <a class="btn btn-phone" href="tel:+13465846365">Call us</a>
-        <a href="#" class="btn btn-orange" data-cao-open>Get my offer</a>
-      </div>
-      <picture class="faq-photo">
-        <source type="image/avif" srcset="/images/benefit-fees-640.avif 640w, /images/benefit-fees.avif 960w" sizes="280px">
-        <source type="image/webp" srcset="/images/benefit-fees-640.webp 640w, /images/benefit-fees.webp 960w" sizes="280px">
-        <img src="/images/benefit-fees-640.webp" alt="Homeowner holding house keys on a front porch" width="960" height="720" loading="lazy" decoding="async">
-      </picture>
     </div>
     <div class="faq-list stagger">
       <details class="faq2 reveal">
@@ -1138,7 +989,6 @@ fbq('track','PageView');
 
 <footer id="contact">
   <div class="wrap">
-    <div class="frecall"><b><i>cashasis</i>.com</b><a class="tel" href="tel:+13465846365">(346) 584-6365</a></div>
     <div class="foot-grid">
       <div>
         <a href="/" class="logo"><picture><source type="image/webp" srcset="/images/cashasis-wordmark-com.webp"><img class="foot-logo" src="/images/cashasis-wordmark-com.png" alt="CashAsIs - We Buy Houses As-Is" width="498" height="104"></picture></a>
