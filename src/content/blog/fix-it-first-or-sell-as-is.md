@@ -193,4 +193,6 @@ Then choose the route that makes the most sense for you.
 
 If you haven't seen what selling as-is actually means, start with our guide: [Selling As-Is? Here's What That Actually Means](/blog/selling-as-is-what-it-actually-means/).
 
+If the property is in or near Houston, start with our guide to [selling a house as-is in Houston](/blog/sell-house-as-is-houston/).
+
 > **Before you turn the property into a project, find out whether you need the project at all.**

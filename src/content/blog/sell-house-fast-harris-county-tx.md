@@ -71,4 +71,6 @@ Tell us about the Harris County property as it sits today and what you are tryin
 
 Use the guide that matches the property: [sell preforeclosure house harris county](/blog/sell-preforeclosure-house-harris-county/) · [sell probate house harris county](/blog/sell-probate-house-harris-county/) · [sell inherited house harris county](/blog/sell-inherited-house-harris-county/) · [sell house back taxes harris county](/blog/sell-house-back-taxes-harris-county/) · [sell house liens harris county](/blog/sell-house-liens-harris-county/) · [sell code violation house harris county](/blog/sell-code-violation-house-harris-county/).
 
+Harris County city guides: [Katy](/blog/sell-house-fast-katy-tx/) · [Cypress](/blog/sell-house-fast-cypress-tx/) · [Tomball](/blog/sell-house-fast-tomball-tx/) · [Spring](/blog/sell-house-fast-spring-tx/) · [Humble](/blog/sell-house-fast-humble-tx/) · [Pasadena](/blog/sell-house-fast-pasadena-tx/) · [Baytown](/blog/sell-house-fast-baytown-tx/). Want to skip repairs? See how to [sell a house as-is in Houston](/blog/sell-house-as-is-houston/).
+
 You can also return to our [Houston seller hub](/blog/sell-my-house-fast-houston/) for broader CashAsIs resources.

@@ -51,6 +51,8 @@ Before spending money on paint, flooring, roofing, cleanout, landscaping, founda
 
 Read [what selling as-is actually means](/blog/selling-as-is-what-it-actually-means/) and [what you may be able to skip in an as-is cash sale](/blog/what-can-you-skip-selling-cash-as-is/).
 
+Ready to skip repairs and cleanout? Here is how to [sell my house as-is in Houston](/blog/sell-house-as-is-houston/).
+
 If timing is your biggest concern, visit [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/). If repairs are the issue, visit [Sell House Without Repairs Houston](/blog/sell-house-without-repairs-houston/).
 
 ## Let us be a resource

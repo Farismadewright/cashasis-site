@@ -220,3 +220,5 @@ Because selling a property shouldn't always require turning it into a retail lis
 > **If you want to sell the property, start with a buyer—not a marketing campaign.**
 
 Learn more about [what selling as-is actually means](/blog/selling-as-is-what-it-actually-means/) or compare [fixing the property first versus selling it as-is](/blog/fix-it-first-or-sell-as-is/).
+
+Houston-area seller? Read how to [sell a Houston house as-is](/blog/sell-house-as-is-houston/).
