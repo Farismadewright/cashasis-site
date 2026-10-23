@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W43",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-10-22T13:43:06.697161+00:00",
-  "lastSuccessfulReview": "2026-10-22T13:43:06.697161+00:00",
+  "lastAttempt": "2026-10-23T13:41:29.950773+00:00",
+  "lastSuccessfulReview": "2026-10-23T13:41:29.950773+00:00",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -6934,6 +6934,19 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=b2-uFBj1Cd8hWTxZVESVqA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:18:51.766349+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+          "userCanonical": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+          "lastCrawlTime": "2026-10-23T11:16:04+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OSwOy0Q1raUyZWxKhOp5Jw&utm_medium=link&utm_source=api"
         }
       ],
       "excluded": false,
@@ -6941,7 +6954,7 @@
       "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
       "lastAttemptAt": "2026-10-20T13:57:38.328Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-20T13:56:10.251703+00:00",
+      "technicalVerifiedAt": "2026-10-23T13:21:35.868242+00:00",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
         "technicalEligible": true,
@@ -6977,7 +6990,10 @@
       "recordPath": "automation/blog-publisher/records/hcad-tax-value-vs-cash-offer-harris-county.json",
       "firstSuccessfulInspection": "2026-10-20T13:57:38.328Z",
       "lastSuccessfulInspection": "2026-10-20T13:57:38.328Z",
-      "nextReviewAt": "2026-10-23T13:55:13.710000+00:00"
+      "nextReviewAt": "2026-10-23T13:55:13.710000+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-11-20"
     },
     {
       "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
@@ -7001,6 +7017,19 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hH7yRkoOlLwBExkICzfDjw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:18:51.745056+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+          "userCanonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+          "lastCrawlTime": "2026-10-23T09:18:34+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_28uWs4EkYrZnY8u_MTvqA&utm_medium=link&utm_source=api"
         }
       ],
       "excluded": false,
@@ -7008,7 +7037,7 @@
       "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
       "lastAttemptAt": "2026-10-20T13:57:52.422Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-20T13:56:10.251703+00:00",
+      "technicalVerifiedAt": "2026-10-23T13:21:35.844378+00:00",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
         "technicalEligible": true,
@@ -7044,7 +7073,10 @@
       "recordPath": "automation/blog-publisher/records/when-to-transfer-utilities-selling-houston-house.json",
       "firstSuccessfulInspection": "2026-10-20T13:57:52.422Z",
       "lastSuccessfulInspection": "2026-10-20T13:57:52.422Z",
-      "nextReviewAt": "2026-10-23T13:55:13.710000+00:00"
+      "nextReviewAt": "2026-10-23T13:55:13.710000+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-11-20"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
@@ -7068,6 +7100,19 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ZykuHlqH2YX4nw6R2XmWCw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:18:51.647771+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+          "lastCrawlTime": "2026-10-23T06:09:31+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=D2nPMIcWfALeEbro1yTK1Q&utm_medium=link&utm_source=api"
         }
       ],
       "excluded": false,
@@ -7075,7 +7120,7 @@
       "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
       "lastAttemptAt": "2026-10-20T13:58:06.752Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-20T13:56:10.251703+00:00",
+      "technicalVerifiedAt": "2026-10-23T13:21:35.924794+00:00",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
         "technicalEligible": true,
@@ -7111,7 +7156,10 @@
       "recordPath": "automation/blog-publisher/records/selling-houston-area-house-private-water-well.json",
       "firstSuccessfulInspection": "2026-10-20T13:58:06.752Z",
       "lastSuccessfulInspection": "2026-10-20T13:58:06.752Z",
-      "nextReviewAt": "2026-10-23T13:55:13.710000+00:00"
+      "nextReviewAt": "2026-10-23T13:55:13.710000+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-11-20"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
@@ -7361,6 +7409,366 @@
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-25"
+    },
+    {
+      "url": "https://www.cashasis.com/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/",
+      "canonicalVariantVerifiedSameContent": false,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:22.289020+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:22.289037+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:35:05.593948+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/",
+          "userCanonical": "https://www.cashasis.com/",
+          "lastCrawlTime": "2026-10-18T00:27:27+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OwphyYGJxQioesNprqbDPw&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/accessibility/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/accessibility",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:28.784216+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:28.784234+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:36.403309+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/accessibility/",
+          "userCanonical": "https://www.cashasis.com/accessibility",
+          "lastCrawlTime": "2026-10-08T02:57:52+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6Jyr1HbEJ_EjJxref5eGLQ&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/careers/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/careers",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:28.761011+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:28.761077+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:36.4319+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/careers/",
+          "userCanonical": "https://www.cashasis.com/careers",
+          "lastCrawlTime": "2026-09-25T09:49:23+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3Hx4G1AzFd-XmmzFfcTv0g&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/disclaimer/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/disclaimer",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:28.744070+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:28.744111+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:36.400928+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/disclaimer/",
+          "userCanonical": "https://www.cashasis.com/disclaimer",
+          "lastCrawlTime": "2026-10-16T23:22:54+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Dr3d60hzlVhYWog7M90-0g&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/lending-partners/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/lending-partners",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:28.702503+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:28.702522+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:36.41887+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/lending-partners/",
+          "userCanonical": "https://www.cashasis.com/lending-partners",
+          "lastCrawlTime": "2026-10-12T10:12:19+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=IgagkapaFl7DeDhX4h3CFA&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/privacy/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/privacy",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:33.989485+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:33.989501+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:36.456291+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/privacy/",
+          "userCanonical": "https://www.cashasis.com/privacy",
+          "lastCrawlTime": "2026-10-17T01:52:54+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9sUG4_mJjvIwJDGsr8VtHQ&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/referrals/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/referrals",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:41.752237+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:41.752256+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:43.152266+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/referrals/",
+          "userCanonical": "https://www.cashasis.com/referrals",
+          "lastCrawlTime": "2026-10-08T15:13:07+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=F1WXOKm7kRKF28ZbYAKwFw&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/sms-tcpa/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/sms-tcpa",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:41.728139+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:41.728165+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:43.121214+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/sms-tcpa/",
+          "userCanonical": "https://www.cashasis.com/sms-tcpa",
+          "lastCrawlTime": "2026-10-15T18:12:56+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hJ79k65ksCIT8MXhkXBeqw&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/terms/",
+      "httpStatus": 200,
+      "canonical": "https://www.cashasis.com/terms",
+      "canonicalVariantVerifiedSameContent": true,
+      "technicalEligible": true,
+      "robotsAllowed": true,
+      "metaRobots": null,
+      "xRobotsTag": null,
+      "sitemap": true,
+      "technicalVerifiedAt": "2026-10-23T13:38:41.692279+00:00",
+      "publishedAt": null,
+      "firstSeenAt": "2026-10-23T13:38:41.692300+00:00",
+      "note": "Existing non-blog page first reconciled from current production sitemap; not created or published by this run. Where declared canonical omits trailing slash, both forms were verified HTTP200 with identical HTML; Google-selected canonical retained independently.",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:36:43.187942+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/terms/",
+          "userCanonical": "https://www.cashasis.com/terms",
+          "lastCrawlTime": "2026-10-16T01:42:55+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ztW0VBwCvSGBrPOZTQKKzQ&utm_medium=link&utm_source=api"
+        }
+      ],
+      "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
+      "nextReview": "2026-11-20"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+      "publishedAt": "2026-10-23T13:32:10.290Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:32:56.257389+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5MRsGyIeP0A2WR6nYEij9Q&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-23T13:33:29.195737+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-26"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+      "publishedAt": "2026-10-23T13:32:10.290Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:32:56.350642+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2J3ND0OMCfPXKar1WAhCMg&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-23T13:33:29.171238+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-26"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+      "publishedAt": "2026-10-23T13:32:10.290Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-23T13:32:56.13494+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vMIGaA5MsSZsEWr8JHf_Ng&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-23T13:33:29.201313+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-26"
     }
   ],
   "notifications": [],
@@ -7401,8 +7809,8 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-10-20",
-  "inspectionCallsUsed": 6,
+  "settledThrough": "2026-10-21",
+  "inspectionCallsUsed": 15,
   "lastRunMonitoring": {
     "runId": "native-daily-20261021T134423Z",
     "actualInspectionCalls": 19,
@@ -7432,41 +7840,41 @@
     "bookkeepingDeployCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
     "bookkeepingDeployReadyVerifiedAt": "2026-10-21T14:30:10.000Z"
   },
-  "now": "2026-10-22T13:43:06.697161+00:00",
-  "lastRunId": "native-daily-20261022T131801Z",
+  "now": "2026-10-23T13:41:29.950773+00:00",
+  "lastRunId": "native-daily-20261023T130501Z",
   "coverage": {
-    "eligibleSitemapURLs": 182,
-    "eligibleBlogArticles": 163,
-    "eligibleURLsWithRetainedInspectionEvidence": 182,
+    "eligibleSitemapURLs": 194,
+    "eligibleBlogArticles": 166,
+    "eligibleURLsWithRetainedInspectionEvidence": 194,
     "latestEvidenceCounts": {
-      "indexed": 154,
+      "indexed": 166,
       "not_indexed": 28
     },
     "latestBlogEvidenceCounts": {
-      "indexed": 139,
+      "indexed": 142,
       "not_indexed": 24
     },
-    "inspectedThisRun": 6,
+    "inspectedThisRun": 15,
     "observationDateRange": [
       "2026-10-04T18:51:07.839038+00:00",
-      "2026-10-22T13:40:55.188848+00:00"
+      "2026-10-23T13:36:43.187942+00:00"
     ],
-    "note": "Mixed observation dates, not a fresh complete inspection of every URL. Sitemap includes blog and non-blog pages. Impressions are not index counts; unknown is not rejection."
+    "note": "Mixed observation dates, not a fresh complete inspection of every URL. Nine existing non-blog pages were newly reconciled into coverage, not published today or claimed as new indexing gains. Impressions are not index counts; unknown is not rejection."
   },
   "lastRun": {
-    "runId": "native-daily-20261022T131801Z",
+    "runId": "native-daily-20261023T130501Z",
     "published": 3,
     "held": 0,
-    "inspectionCalls": 6,
+    "inspectionCalls": 15,
     "deferredInspections": 0,
     "weeklyReviewDue": false,
     "monthlyReviewDue": false,
     "alertSent": false,
-    "evidence": "automation/blog-publisher/runs/2026-10-22.json"
+    "evidence": "automation/blog-publisher/runs/2026-10-23.json"
   },
   "pendingInspectionQueue": [],
   "notificationSuppression": {
-    "at": "2026-10-22T13:43:06.697161+00:00",
-    "reason": "Routine success; normal initial Google discovery delays; no confirmed persistent regression, sustained ranking alert or validated organic lead change."
+    "at": "2026-10-23T13:41:29.950773+00:00",
+    "reason": "Routine success and normal initial discovery delays; three older URLs now indexed. No sustained ranking or verified organic seller-lead change requiring an alert."
   }
 }
