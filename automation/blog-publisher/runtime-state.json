@@ -677,9 +677,20 @@
       "day": "2026-10-23",
       "runId": "native-daily-20261023T130501Z",
       "fence": 16,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-23T13:09:01.556Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "e051f5e7cfe4f37e968318f6d115fed575fc099f",
+      "previewDeployId": "6adb60c6d90f1fde37e4cf45",
+      "previewVerifiedAt": "2026-10-23T13:31:27.066Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-23",
+        "errors": [],
+        "checkedAt": "2026-10-23T13:31:25.989Z"
+      },
+      "pr": 24
     },
     {
       "slug": "selling-houston-house-reverse-mortgage",
@@ -687,9 +698,20 @@
       "day": "2026-10-23",
       "runId": "native-daily-20261023T130501Z",
       "fence": 16,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-23T13:09:01.556Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "e051f5e7cfe4f37e968318f6d115fed575fc099f",
+      "previewDeployId": "6adb60c6d90f1fde37e4cf45",
+      "previewVerifiedAt": "2026-10-23T13:31:27.066Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-23",
+        "errors": [],
+        "checkedAt": "2026-10-23T13:31:25.989Z"
+      },
+      "pr": 24
     },
     {
       "slug": "selling-houston-house-suspected-asbestos",
@@ -697,9 +719,20 @@
       "day": "2026-10-23",
       "runId": "native-daily-20261023T130501Z",
       "fence": 16,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-23T13:09:01.556Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "e051f5e7cfe4f37e968318f6d115fed575fc099f",
+      "previewDeployId": "6adb60c6d90f1fde37e4cf45",
+      "previewVerifiedAt": "2026-10-23T13:31:27.066Z",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-23",
+        "errors": [],
+        "checkedAt": "2026-10-23T13:31:25.989Z"
+      },
+      "pr": 24
     }
   ],
   "externalApiSpendLimitUSD": 0,
