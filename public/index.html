@@ -13,376 +13,458 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --navy:#0D1B2A;
-    --navy-soft:#142436;
-    --orange:#F26D21;
-    --orange-dark:#d95c14;
-    --teal:#1B6F7A;
-    --ink:#0D1B2A;
-    --muted:#5a6675;
-    --line:#e6e9ef;
-    --bg:#ffffff;
-    --bg-alt:#f4f6f9;
-    --radius:14px;
-    --shadow:0 18px 50px -20px rgba(13,27,42,.35);
-    --shadow-sm:0 8px 24px -14px rgba(13,27,42,.4);
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{
-    font-family:'Inter',system-ui,sans-serif;
-    color:var(--ink);
-    background:var(--bg);
-    line-height:1.55;
-    -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
-  a{text-decoration:none;color:inherit}
-  img{max-width:100%;display:block}
-  h1,h2,h3{line-height:1.1;letter-spacing:-.01em}
-  .orange{color:var(--orange)}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Rubik+Dirt&family=Dancing+Script:wght@600&family=Archivo+Black&family=Special+Elite&family=Stardos+Stencil:wght@700&display=swap');
+:root{
+  --bg:#FAF7F2;--bg2:#F3EEE6;--card:#fff;--line:#E7E0D5;
+  --ink:#0E1A33;--muted:#5E6577;--navy:#001947;--navy-d:#000F2E;
+  --orange:#FB6200;--orange-d:#D95400;--orange-soft:#FFE9DA;--teal:#001947;
+  --radius:18px;
+  --shadow:0 24px 60px -30px rgba(14,26,51,.35);--shadow-sm:0 8px 24px -14px rgba(14,26,51,.28);
+  --display:'Poppins','Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:var(--display);line-height:1.05;letter-spacing:-.03em}
+h2{font-size:clamp(32px,4.4vw,54px);font-weight:800;color:var(--navy)}
+.orange{color:var(--orange)}
+button{font:inherit;cursor:pointer}
 
-  /* ---------- Logo ---------- */
-  .logo{display:flex;align-items:center;gap:12px}
-  .logo .markimg{width:46px;height:46px;flex:none;object-fit:contain}
-  .logo .lockup{height:62px;width:auto;display:block}
-  .logo .lock{display:flex;flex-direction:column;line-height:1}
-  .logo .name{font-weight:800;font-size:25px;letter-spacing:-.035em}
-  .logo .name .navy{color:#fff}
-  .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
-  .logo .sub::before,.logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
+header{position:sticky;top:0;z-index:50;background:rgba(250,247,242,.88);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid transparent}
+header.scrolled{border-bottom-color:var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0;position:relative}
+.logo{display:flex;align-items:center;flex:none}
+.logo picture{display:block;line-height:0}
+.logo .lockup{height:52px;width:auto}
+header .wrap{max-width:1320px}
+.nav-search{flex:0 1 0px;width:0;min-width:0;overflow:hidden;opacity:0;pointer-events:none;display:flex;justify-content:center;transition:opacity .25s}
+header.scrolled .nav-search{flex:1 1 auto;width:auto;max-width:380px;overflow:visible;opacity:1;pointer-events:auto}
+header.scrolled .btn-phone .pn{display:none}
+header.scrolled .btn-phone{padding:10px 12px}
+.nav-links{display:flex;gap:22px;align-items:center;flex:none}
+.nav-links a{color:var(--ink);font-weight:600;font-size:14.5px;transition:color .25s ease;white-space:nowrap}
+.nav-links a:hover{color:var(--orange)}
+.nav-toggle{display:none;background:#fff;border:1px solid var(--line);border-radius:12px;cursor:pointer;padding:10px;width:44px;height:44px}
+.nav-toggle span{display:block;width:18px;height:2px;background:var(--ink);margin:4px 0;border-radius:2px}
+.phone-mini{display:none;width:44px;height:44px;border-radius:999px;border:1.5px solid var(--orange);align-items:center;justify-content:center;color:var(--orange)}
+.phone-mini svg{width:18px;height:18px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;font-size:15px;border:none;cursor:pointer;border-radius:999px;padding:14px 22px;transition:background-color .25s ease,color .25s ease,box-shadow .25s ease,border-color .25s ease;font-family:inherit;text-align:center}
+.btn-orange{background:var(--orange);color:#fff;box-shadow:0 10px 24px -12px rgba(251,98,0,.85)}
+.btn-orange:hover{background:var(--orange-d)}
+.btn-phone{border:1.5px solid var(--orange);color:var(--navy);background:#fff;border-radius:999px;font-size:14.5px;padding:10px 16px;box-shadow:none}
+.btn-phone:hover{background:var(--orange);color:#fff}
+.btn-block{width:100%}
+.nav-offer{padding:11px 16px;font-size:14px}
 
-  /* ---------- Buttons ---------- */
-  .btn{
-    display:inline-flex;align-items:center;justify-content:center;gap:9px;
-    font-weight:700;font-size:15px;border:none;cursor:pointer;border-radius:10px;
-    padding:15px 26px;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;
-    font-family:inherit;
-  }
-  .btn-orange{background:var(--orange);color:#fff}
-  .btn-orange:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 14px 28px -12px rgba(242,109,33,.7)}
-  .btn-phone{
-    border:1.5px solid var(--orange);color:#fff;background:transparent;
-    border-radius:40px;font-size:16px;padding:11px 22px;
-  }
-  .btn-phone:hover{background:var(--orange);transform:translateY(-2px)}
-  .btn-block{width:100%}
+.hero{padding:14px 14px 0}
+.hero-card{position:relative;border-radius:32px;overflow:hidden;min-height:700px;background:#001947;color:#fff;display:flex;flex-direction:column;justify-content:space-between}
+.hero-photo{position:absolute;inset:0;z-index:0;margin:0;pointer-events:none}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:right center}
+.hero-card::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,15,46,.62) 0%,rgba(0,15,46,.35) 45%,rgba(0,15,46,.8) 100%);pointer-events:none}
+.hero-inner{position:relative;z-index:2;text-align:center;padding:78px 24px 18px;display:flex;flex-direction:column;align-items:center}
+.hero-h1{display:inline-block;background:var(--orange);color:#fff;font-weight:800;font-size:14px;line-height:1.3;letter-spacing:.08em;text-transform:uppercase;padding:7px 16px;border-radius:999px;margin:0 0 22px}
+.rot-h1{display:block;font-family:var(--display);font-weight:900;font-size:clamp(40px,5.4vw,84px);line-height:1.05;letter-spacing:-.04em;max-width:1100px;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.25)}
+.rot-h1 .o{color:var(--orange)}
+.vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.hl,.l1,.l2{display:block}
+.l2{margin-top:.08em}
+.art{display:inline-block;transition:opacity .35s ease}
+.art.fade{opacity:0}
+.slot{display:inline-block;position:relative;vertical-align:baseline;border-bottom:.07em solid var(--orange);margin:0 .08em;text-align:center;max-width:100%}
+.w{position:absolute;left:0;right:0;bottom:.06em;line-height:1.05;opacity:0;transform:translateY(.35em);transition:opacity .45s ease,transform .45s cubic-bezier(.2,.7,.2,1);color:#fff;white-space:nowrap}
+.w.on{opacity:1;transform:none}
+.w.out{opacity:0;transform:translateY(-.35em)}
+.w1{font-family:'Rubik Dirt',var(--display);font-weight:400}
+.w2{font-family:'Dancing Script',cursive;font-weight:600;font-size:1.12em}
+.w3{font-family:'Archivo Black',var(--display);font-size:.96em;letter-spacing:-.02em}
+.w4{font-family:'Special Elite',monospace;font-size:.82em}
+.w5{font-family:'Stardos Stencil',var(--display);font-size:.96em}
+.any{font-family:var(--display);font-weight:800;font-size:clamp(11px,1.2vw,16px);margin:12px 0 20px}
+.hero .sub{font-size:14px;font-weight:600;opacity:.95;margin:14px 0 0;max-width:720px;line-height:1.45}
+.offer-card{background:#fff;color:var(--ink);border-radius:24px;padding:22px 22px 18px;box-shadow:var(--shadow);width:min(640px,100%);text-align:left}
+.offer-card h2{text-align:center;font-size:26px;font-weight:800;margin-bottom:4px;color:var(--navy)}
+.offer-card p.sub{text-align:center;color:var(--muted);font-size:14px;margin:0 0 14px;font-weight:500}
+.field{position:relative;display:flex;align-items:center;gap:8px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:0 14px;margin-bottom:10px}
+.field svg{width:18px;height:18px;flex:none;color:var(--muted)}
+.field input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:16px;padding:13px 4px;color:var(--ink);width:100%}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.field-row .field{margin-bottom:10px}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:12px;line-height:1.45;color:var(--muted);margin:4px 0 12px}
+.consent input{margin-top:2px;accent-color:var(--orange);flex:none}
+.consent a{color:var(--orange-d);font-weight:700}
+.ac-list{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-sm);z-index:30;overflow:hidden;display:none}
+.ac-list.show{display:block}
+.ac-item{padding:11px 14px;cursor:pointer;font-size:14px;color:var(--ink)}
+.ac-list .ac-item:hover,.ac-list .ac-item.active,.ac-list .ac-item[aria-selected="true"]{background:#FFE9DA!important;color:#0E1A33!important;box-shadow:inset 4px 0 0 #FB6200!important;font-weight:700!important}
+.addr{position:relative;display:flex;align-items:center;background:#fff;border-radius:999px;padding:7px 7px 7px 20px;box-shadow:0 16px 40px -24px rgba(0,0,0,.55);width:100%;max-width:600px;color:var(--ink)}
+.addr .pin{width:18px;height:18px;flex:none;fill:none;stroke:#5E6577;stroke-width:1.8}
+.addr input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;font-size:17px;padding:12px 10px;color:var(--ink);width:100%}
+.addr .btn,.addr .go{background:var(--orange);color:#fff;font-weight:700;border-radius:999px;padding:14px 22px;white-space:nowrap;box-shadow:0 10px 24px -12px rgba(251,98,0,.8);text-decoration:none}
+.addr .btn:hover,.addr .go:hover{background:var(--orange-d);transform:none}
+.addr.nav-form{max-width:380px;padding:3px 3px 3px 14px;box-shadow:none;background:var(--bg2)}
+.addr.nav-form input{font-size:14px;padding:8px 10px}
+.addr.nav-form .go{padding:8px 16px;font-size:13.5px;box-shadow:none}
+.addr.shake{animation:shake .4s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.hero .addr .ac-list{top:auto;bottom:calc(100% + 6px);z-index:6}
+@media(min-width:900px) and (max-width:1100px){
+  .nav-search{display:none!important}
+  .logo .lockup{height:42px}
+  .nav-links{gap:10px}
+  .nav-links a{font-size:13px}
+  .nav-offer{padding:9px 12px;font-size:13px}
+  header .btn-phone{padding:8px 10px;font-size:13px}
+}
+@media(min-width:900px){
+  .hero-inner{align-self:flex-start;align-items:flex-start;text-align:left;width:min(720px,62%);padding:68px 20px 18px 56px}
+  .rot-h1{font-size:clamp(44px,4.2vw,52px);line-height:1.05;max-width:100%}
+  .hero .addr{width:100%;max-width:560px}
+  .hero .sub{max-width:100%}
+}
+@media(max-width:899px){
+  .hero-photo img{object-position:72% bottom}
+}
+.lead-shell{display:none;position:fixed;inset:0;z-index:80;background:rgba(0,15,46,.62);align-items:flex-start;justify-content:center;padding:28px 16px;overflow:auto}
+.lead-shell.open,.lead-shell:target{display:flex}
+.lead-dialog{position:relative;width:min(640px,100%);margin:28px auto}
+.lead-x{position:absolute;top:10px;right:10px;z-index:4;width:36px;height:36px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;font-size:26px;line-height:1;font-weight:700;box-shadow:var(--shadow-sm)}
+.lead-dialog .offer-card{width:100%}
+.secure{display:flex;align-items:center;justify-content:center;gap:8px;color:var(--muted);font-size:13px;padding:14px 0 0}
+.secure svg{width:16px;height:16px}
 
-  /* ---------- Nav ---------- */
-  header{background:var(--navy);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.06)}
-  nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
-  .nav-links{display:flex;gap:30px;align-items:center}
-  .nav-links a{color:#cdd5e0;font-weight:500;font-size:15px;transition:color .15s}
-  .nav-links a:hover{color:#fff}
-  .nav-toggle{display:none;background:none;border:none;cursor:pointer;padding:6px}
-  .nav-toggle span{display:block;width:24px;height:2px;background:#fff;margin:5px 0;border-radius:2px}
 
-  /* ---------- Hero ---------- */
-  .hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
-  .hero-video{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;filter:saturate(.85) contrast(1.02)}
-  .hero-video iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:auto;height:auto;min-width:100%;min-height:100%;aspect-ratio:16/9;border:0}
-  .hero::before{
-    content:"";position:absolute;inset:0;z-index:1;
-    background:
-      radial-gradient(66% 96% at 50% 50%, rgba(13,27,42,.10) 0%, rgba(11,22,36,.42) 40%, rgba(7,15,27,.80) 74%, rgba(5,11,20,.96) 100%);
-  }
-  
-  .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .9fr;gap:48px;align-items:center;padding:70px 0 64px}
-  .hero h1{font-size:clamp(38px,5vw,58px);font-weight:800;margin-bottom:20px}
-  .hero .lead{font-size:20px;font-weight:500;color:#dfe5ee;max-width:430px;margin-bottom:34px;line-height:1.45}
-  .hero .lead strong{color:#fff;font-weight:700}
-  .trust{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-  .trust .item{display:flex;align-items:center;gap:9px;font-weight:600;font-size:14px;letter-spacing:.02em}
-  .trust .dot{width:5px;height:5px;border-radius:50%;background:var(--orange)}
-  .trust svg{width:24px;height:24px;color:var(--teal)}
+.trust{padding:48px 0 9px}
+.features-inner,.trust-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.feature,.tcard{background:#fff;border:0;border-radius:22px;padding:0 0 16px;display:flex;flex-direction:column;gap:0;align-items:stretch;overflow:hidden;box-shadow:0 16px 36px -28px rgba(14,26,51,.45)}
+.feature + .feature{border-left:0}
+.feat-photo{display:block;line-height:0}
+.feat-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.feat-body{display:flex;gap:12px;align-items:flex-start;padding:14px 14px 0}
+.feature .ic,.tcard .ic{width:40px;height:40px;border-radius:12px;background:var(--bg);display:grid;place-items:center;flex:none;color:var(--orange)}
+.feature .ic svg,.tcard .ic svg{width:22px;height:22px}
+.feature h3,.tcard h3{font-family:var(--display);font-size:16px;font-weight:700;letter-spacing:-.02em;color:var(--navy)}
+.feature p,.tcard p{font-size:14.5px;color:var(--muted);margin-top:4px;line-height:1.45}
+section{padding:63px 0}
+.eyebrow{font-family:var(--display);font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:12px}
+.lede,.how-sub{color:var(--muted);font-size:17px;max-width:480px;margin-top:14px;line-height:1.5}
+.row-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:28px}
+.vid-grid{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:6px 2px 18px}
+.vid-grid::-webkit-scrollbar{display:none}
+.vid-card{flex:0 0 calc((100% - 32px)/3);scroll-snap-align:start;min-width:280px;background:#fff;border-radius:28px;padding:10px 10px 18px}
+.vid-thumb{position:relative;aspect-ratio:16/10;border-radius:20px;overflow:hidden;cursor:pointer;background:var(--navy)}
+.vid-poster{width:100%;height:100%;object-fit:cover}
+.vid-play{position:absolute;left:14px;bottom:14px;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.94);display:grid;place-items:center;color:var(--navy)}
+.vid-play svg{width:18px;height:18px;margin-left:2px}
+.vid-body{padding:14px 8px 0}
+.vid-body h3{font-size:17px;font-weight:700;letter-spacing:-.02em;margin-bottom:6px}
+.vid-body p{font-size:14.5px;color:var(--muted);line-height:1.45}
+.arrows{display:flex;gap:8px}
+.arrows button{width:44px;height:44px;border-radius:999px;background:#fff;border:0;font-size:18px;color:var(--navy);transition:background-color .25s ease,color .25s ease}
+.arrows button:hover{background:var(--navy);color:#fff}
 
-  /* Hero form */
-  .offer-card{background:#fff;color:var(--ink);border-radius:18px;padding:30px 28px;box-shadow:0 30px 60px -25px rgba(0,0,0,.6)}
-  .offer-card h2{text-align:center;font-size:25px;font-weight:800;margin-bottom:6px}
-  .offer-card p.sub{text-align:center;color:var(--muted);font-size:14px;margin-bottom:20px}
-  .field{position:relative;margin-bottom:13px}
-  .field svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:18px;height:18px;color:#9aa4b2}
-  /* autocomplete dropdown */
-  .ac-list{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow-sm);z-index:20;overflow:hidden;display:none}
-  .ac-list.show{display:block}
-  .ac-item{padding:11px 14px;font-size:14px;cursor:pointer;border-bottom:1px solid var(--line)}
-  .ac-item:last-child{border-bottom:none}
-  .ac-list .ac-item:hover,.ac-list .ac-item.active,.ac-list .ac-item[aria-selected="true"]{background:#dbeafe!important;color:#0D1B2A!important;box-shadow:inset 4px 0 0 #F26D21!important;font-weight:800!important}
-  .field input{
-    width:100%;padding:14px 14px 14px 42px;border:1.5px solid var(--line);border-radius:10px;
-    font-family:inherit;font-size:15px;color:var(--ink);transition:border .15s,box-shadow .15s;
-  }
-  .field input::placeholder{color:#9aa4b2}
-  .field input:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(242,109,33,.12)}
-  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:13px}
-  .consent{display:flex;gap:10px;align-items:flex-start;background:#fbf4ee;border:1px solid #f3d9c7;border-radius:9px;padding:11px 13px;margin:2px 0 14px;cursor:pointer}
-  .consent input{margin-top:2px;width:15px;height:15px;flex:none;accent-color:var(--orange)}
-  .consent span{font-size:11px;line-height:1.45;color:#6a7482}
-  .consent strong{color:var(--ink);font-weight:700}
-  .consent a{color:var(--orange);font-weight:600}
-  .secure{display:flex;align-items:center;gap:8px;justify-content:center;color:#cdd5e0;font-size:13px;margin-top:18px;position:relative;z-index:2}
-  .secure svg{width:14px;height:14px}
+.how-title{margin-bottom:0}
+.split,.steps-layout{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hiw-grid{display:flex;flex-direction:column;margin-top:10px}
+.hiw-card{background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 0;display:grid;grid-template-columns:40px 1fr;gap:4px 14px;align-items:start}
+.hiw-card:last-of-type{border-bottom:0}
+.hiw-num{grid-row:1 / span 2;width:40px;height:40px;border-radius:12px;background:#fff;display:grid;place-items:center;font-family:var(--display);font-weight:800;color:var(--navy)}
+.hiw-card.open .hiw-num,.step.open .num{background:var(--orange);color:#fff}
+.hiw-card h3{grid-column:2;font-size:18px;font-weight:700;letter-spacing:-.02em;align-self:center}
+.hiw-card p{grid-column:2;color:var(--muted);font-size:15.5px;display:block;line-height:1.5}
+.step-bar{grid-column:2}
+.hiw-card{cursor:pointer}
+.hiw-num svg{width:18px;height:18px;display:block}
+.step-bar{display:none;height:3px;border-radius:99px;background:#E7E1D8;margin-top:10px;overflow:hidden}
+.step-bar span{display:block;height:100%;width:100%;transform:scaleX(0);transform-origin:left center;background:var(--orange)}
+html.js .hiw-card p,html.js .step-bar{display:none}
+html.js .hiw-card.open p{display:block}
+html.js .hiw-card.open .step-bar{display:block}
+html.js .hiw-card.open.playing .step-bar span{animation:stepfill 4.5s linear forwards}
+@keyframes stepfill{to{transform:scaleX(1)}}
+.hiw-tag{margin-top:10px;color:var(--muted)}
+.hiw-cta{margin-top:22px}
+.steps-visual{min-height:0}
+.steps-stage{position:relative;border-radius:28px;overflow:hidden;min-height:520px;background:#10264d}
+.steps-stage picture{position:absolute;inset:0;margin:0;transition:opacity .4s ease}
+.steps-stage picture img{width:100%;height:100%;object-fit:cover;display:block}
+.bg-kitchen,.bg-room{opacity:0}
+.steps-stage[data-step="2"] .bg-house,.steps-stage[data-step="3"] .bg-house{opacity:0}
+.steps-stage[data-step="2"] .bg-room{opacity:1}
+.steps-stage[data-step="3"] .bg-kitchen{opacity:1}
+.glass{position:absolute;left:18px;right:18px;bottom:18px;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-radius:18px;padding:14px 16px;box-shadow:0 16px 40px -24px rgba(0,0,0,.45);opacity:0;transform:translateY(16px);transition:opacity .4s ease,transform .4s ease}
+.steps-stage[data-step="1"] .scene-1,.steps-stage[data-step="2"] .scene-cond,.steps-stage[data-step="3"] .scene-2,.steps-stage[data-step="4"] .scene-3{opacity:1;transform:none}
+.glass-pill{display:flex;align-items:center;gap:8px;background:#fff;border-radius:999px;padding:10px 14px;font-weight:700;color:var(--navy);box-shadow:0 8px 20px -16px rgba(14,26,51,.6)}
+.glass-pill svg{width:16px;height:16px;flex:none;fill:none;stroke:#5E6577;stroke-width:1.8}
+.ticks{list-style:none;margin-top:8px}
+.ticks li{display:flex;align-items:center;gap:10px;padding:7px 2px;font-weight:650;color:var(--navy);opacity:1}
+.ticks li::before{content:"";width:16px;height:16px;border-radius:50%;border:1.5px solid var(--orange);flex:none;background:var(--orange);box-shadow:inset 0 0 0 3px #fff}
+html.js .steps-stage:not(.play) .ticks li{opacity:.45}
+html.js .steps-stage:not(.play) .ticks li::before{border-color:#c9c3b8;background:#fff;box-shadow:none}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li{opacity:.45;animation:tickin .4s ease forwards}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(1){animation-delay:.35s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(2){animation-delay:1.15s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(3){animation-delay:1.95s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(4){animation-delay:2.75s}
+@keyframes tickin{to{opacity:1}}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li::before{animation:tickbox .35s ease forwards}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(1)::before{animation-delay:.35s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(2)::before{animation-delay:1.15s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(3)::before{animation-delay:1.95s}
+html.js .steps-stage.play[data-step="1"] .scene-1 .ticks li:nth-child(4)::before{animation-delay:2.75s}
+@keyframes tickbox{to{border-color:var(--orange);background:var(--orange);box-shadow:inset 0 0 0 3px #fff}}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li{opacity:.45;animation:tickin .4s ease forwards}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(1){animation-delay:.55s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(2){animation-delay:1.35s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(3){animation-delay:2.15s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li::before{animation:tickbox .35s ease forwards}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(1)::before{animation-delay:.55s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(2)::before{animation-delay:1.35s}
+html.js .steps-stage.play[data-step="2"] .scene-cond .ticks li:nth-child(3)::before{animation-delay:2.15s}
+.scene-cond b{display:block;color:var(--navy);font-size:16px}
+.cond-photos{display:flex;gap:8px;margin-top:10px}
+.cond-photos img{width:84px;height:64px;object-fit:cover;border-radius:10px;flex:none;background:#efeae3}
+html.js .steps-stage.play[data-step="2"] .cond-photos img{opacity:0;transform:translateY(10px);animation:thumbin .4s ease forwards}
+html.js .steps-stage.play[data-step="2"] .cond-photos img:nth-child(1){animation-delay:.2s}
+html.js .steps-stage.play[data-step="2"] .cond-photos img:nth-child(2){animation-delay:.85s}
+html.js .steps-stage.play[data-step="2"] .cond-photos img:nth-child(3){animation-delay:1.5s}
+@keyframes thumbin{to{opacity:1;transform:none}}
+.scene-2{left:auto;width:min(230px,72%);padding:16px 18px}
+.scene-2 b{display:block;color:var(--navy);font-size:16px}
+.scene-2 span{color:var(--muted);font-size:13.5px}
+.scene-3{background:#fff}
+.scene-3 .hi{color:var(--muted);font-size:13px;margin-bottom:2px}
+.scene-3 strong{display:block;color:var(--navy);font-size:18px;letter-spacing:-.02em;margin-bottom:10px}
+.ex-row{display:flex;gap:12px;align-items:center;background:var(--bg);border-radius:14px;padding:10px}
+.ex-row img{width:72px;height:54px;object-fit:cover;border-radius:8px;flex:none}
+.ex-flag{display:inline-block;background:var(--orange);color:#fff;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:2px 8px}
+.ex-price{display:block;font-family:var(--display);font-weight:800;font-size:26px;color:var(--navy);letter-spacing:-.03em}
+.ex-row small{color:var(--muted);font-size:12px}
+.tl{display:grid;grid-template-columns:.82fr 1.18fr;gap:36px;align-items:center;margin-top:28px}
+.tl-lead h3{font-size:clamp(28px,3vw,40px);letter-spacing:-.03em;margin-bottom:10px}
+.tl-lead p{color:var(--muted);max-width:360px;margin-bottom:16px}
+.polaroid{width:min(300px,100%);margin-top:28px;transform:rotate(-8deg)}
+.polaroid img{width:100%;height:auto;display:block;filter:drop-shadow(0 18px 24px rgba(14,26,51,.2))}
+.script{font-family:'Dancing Script',cursive;font-weight:600;font-size:30px;color:var(--navy);text-align:center;margin-top:4px}
+.tl-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+.tl-col h3{font-size:22px;margin-bottom:10px}
+.tl-cash h3{color:var(--navy)}
+.tl-trad h3{color:#8b93a3;font-weight:700}
+.tl-item{border-radius:14px;padding:12px 14px;margin-bottom:8px}
+.tl-cash .tl-item{background:#fff;border:1px solid #FFE0CC}
+.tl-trad .tl-item{background:#EFEAE3;color:var(--muted)}
+.tl-item b{display:block;color:var(--navy);font-size:14.5px}
+.tl-trad .tl-item b{color:#5c6570;font-weight:650}
+.tl-item em{font-style:normal;font-size:12.5px;color:var(--muted)}
+.tl-cash{position:relative}
+.tl-cash::before{content:"";position:absolute;inset:-8px;border-radius:22px;box-shadow:0 0 0 2px var(--orange),0 18px 40px -20px rgba(251,98,0,.65);opacity:1;pointer-events:none;transition:opacity .5s ease}
+html.js .tl-cash::before{opacity:0}
+html.js .tl.lit .tl-cash::before{opacity:1}
+.tl-bar{height:6px;border-radius:99px;background:rgba(14,26,51,.08);margin-top:8px;overflow:hidden}
+.tl-bar i{display:block;height:100%;width:100%;border-radius:99px;background:#c9c3b8;transform:scaleX(var(--w));transform-origin:left center}
+.tl-cash .tl-bar i{background:var(--orange)}
+html.js .tl-item{opacity:0;transform:translateY(18px)}
+html.js .tl-bar i{transform:scaleX(0)}
+html.js .tl.inview .tl-item{opacity:1;transform:none;transition:opacity .55s ease-out,transform .55s ease-out}
+html.js .tl.inview .tl-bar i{transform:scaleX(var(--w));transition:transform 1.05s cubic-bezier(.2,.7,.2,1)}
+html.js .tl.inview .tl-cash .tl-item:nth-child(2),html.js .tl.inview .tl-cash .tl-item:nth-child(2) .tl-bar i{transition-delay:.08s}
+html.js .tl.inview .tl-cash .tl-item:nth-child(3),html.js .tl.inview .tl-cash .tl-item:nth-child(3) .tl-bar i{transition-delay:.24s}
+html.js .tl.inview .tl-cash .tl-item:nth-child(4),html.js .tl.inview .tl-cash .tl-item:nth-child(4) .tl-bar i{transition-delay:.4s}
+html.js .tl.inview .tl-trad .tl-item:nth-child(2),html.js .tl.inview .tl-trad .tl-item:nth-child(2) .tl-bar i{transition-delay:.16s}
+html.js .tl.inview .tl-trad .tl-item:nth-child(3),html.js .tl.inview .tl-trad .tl-item:nth-child(3) .tl-bar i{transition-delay:.36s}
+html.js .tl.inview .tl-trad .tl-item:nth-child(4),html.js .tl.inview .tl-trad .tl-item:nth-child(4) .tl-bar i{transition-delay:.56s}
+html.js .tl.inview .tl-trad .tl-item:nth-child(5),html.js .tl.inview .tl-trad .tl-item:nth-child(5) .tl-bar i{transition-delay:.76s}
+html.js .tl.inview .tl-trad .tl-item:nth-child(6),html.js .tl.inview .tl-trad .tl-item:nth-child(6) .tl-bar i{transition-delay:.96s}
+html.js .tl.inview .tl-trad .tl-item:nth-child(7),html.js .tl.inview .tl-trad .tl-item:nth-child(7) .tl-bar i{transition-delay:1.16s}
+.tl-empty{height:46px;border-radius:14px;margin-bottom:8px;background:repeating-linear-gradient(-45deg,#f3efe8,#f3efe8 6px,#efeae3 6px,#efeae3 12px)}
 
-  /* ---------- Features strip ---------- */
-  .features{margin:-36px auto 0;position:relative;z-index:5}
-  .features-inner{
-    background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);
-    display:grid;grid-template-columns:repeat(4,1fr);padding:8px;
-  }
-  .feature{display:flex;gap:14px;padding:22px 20px;align-items:flex-start;border-right:1px solid var(--line)}
-  .feature:last-child{border-right:none}
-  .feature .ic{flex:none;width:48px;height:48px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center}
-  .feature .ic svg{width:24px;height:24px;color:#fff}
-  .feature h3{font-size:16px;font-weight:700;margin-bottom:4px}
-  .feature p{font-size:13.5px;color:var(--muted);line-height:1.4}
+.cmp-board{margin-top:36px;display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.cmp-col{display:flex;flex-direction:column;gap:12px}
+.cmp-col h3{font-size:26px;font-weight:800;letter-spacing:-.03em;margin:0 0 6px}
+.cmp-col.cash h3{color:var(--navy)}
+.cmp-col.trad h3{color:#8b93a3;font-weight:700}
+.cmp-cashitem,.cmp-traditem{border-radius:18px;padding:16px 18px;display:flex;flex-direction:column;gap:3px}
+.cmp-cashitem{background:#fff;border:1px solid #FFE0CC;box-shadow:0 14px 30px -24px rgba(251,98,0,.7)}
+.cmp-cashitem b,.cmp-traditem b{font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:800}
+.cmp-cashitem b{color:var(--orange-d)}
+.cmp-cashitem span{color:var(--navy);font-weight:700;font-size:16.5px}
+.cmp-traditem{background:#EFEAE3}
+.cmp-traditem b{color:#8b93a3}
+.cmp-traditem span{color:var(--muted);font-size:16px}
+.cmp-cta{margin-top:28px}
 
-  /* ---------- Section base ---------- */
-  section{padding:50px 0}
-  .eyebrow-h{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:30px}
-  .eyebrow-h::before,.eyebrow-h::after{content:"";height:3px;width:34px;background:var(--orange);border-radius:2px}
-  .eyebrow-h h2{font-size:clamp(28px,3.4vw,38px);font-weight:800;text-align:center}
+.ugly{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center;background:#fff;border-radius:32px;padding:28px}
+.ugly-photo{width:100%;border-radius:24px;aspect-ratio:4/3;object-fit:cover;background:var(--bg2)}
+.checks{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.check{display:flex;flex-direction:column;align-items:stretch;gap:0;background:#fff;border:0;border-radius:16px;padding:0;overflow:hidden;font-weight:700;font-size:14px;box-shadow:0 12px 28px -22px rgba(14,26,51,.45)}
+.check picture{display:block;line-height:0}
+.check img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.check-label{display:flex;align-items:center;gap:8px;padding:10px 12px}
+.check svg{width:16px;height:16px;color:var(--orange);flex:none}
+.ugly-card,.callout-line{font-family:var(--display);font-weight:800;font-size:22px;color:var(--navy);margin-top:18px;letter-spacing:-.03em}
 
-  /* ---------- Ugly ones ---------- */
-  .ugly{display:grid;grid-template-columns:1fr 1.05fr;gap:54px;align-items:center}
-  .ugly h2{font-size:clamp(30px,3.6vw,40px);font-weight:800;margin-bottom:18px}
-  .ugly h2 .bar{display:block;width:64px;height:4px;background:var(--orange);border-radius:3px;margin-top:14px}
-  .ugly p.intro{color:var(--muted);font-size:16px;max-width:420px;margin-bottom:24px}
-  .checks{display:grid;grid-template-columns:1fr 1fr;gap:13px 22px}
-  .check{display:flex;align-items:center;gap:10px;font-weight:600;font-size:15.5px}
-  .check svg{width:20px;height:20px;color:var(--orange);flex:none}
-  .ugly-visual{
-    position:relative;border-radius:16px;min-height:340px;overflow:hidden;
-    background:#2f2a24;box-shadow:var(--shadow);
-  }
-  .ugly-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
-  .ugly-visual::before{
-    content:"";position:absolute;inset:0;z-index:1;
-    background:linear-gradient(transparent 45%, rgba(8,16,28,.55));
-  }
-  /* simple house line art */
-  .ugly-visual .house{position:absolute;right:8%;top:50%;transform:translateY(-50%);width:62%;opacity:.9;color:rgba(255,255,255,.16)}
-  .ugly-card{
-    position:absolute;left:26px;bottom:26px;z-index:2;background:var(--navy);color:#fff;
-    padding:20px 24px;border-radius:12px;font-size:21px;font-weight:800;line-height:1.25;box-shadow:var(--shadow-sm);
-  }
+.rev-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px}
+.rev-card{background:#fff;border:0;border-radius:24px;padding:22px;box-shadow:0 16px 36px -28px rgba(14,26,51,.55)}
+.rev-head{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+.rev-av{width:36px;height:36px;border-radius:50%;color:#fff;display:grid;place-items:center;font-weight:800}
+.rev-name{font-weight:700}.rev-time{font-size:12px;color:var(--muted)}
+.rev-g{margin-left:auto;font-size:11px;font-weight:800;letter-spacing:.04em;color:#3c4043;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px 8px}
+.rev-stars{display:flex;gap:2px;margin-bottom:10px;color:var(--orange)}
+.rev-stars svg{width:15px;height:15px;color:var(--orange);flex:none}
+.rev-card p{font-size:15px;color:var(--ink);line-height:1.5}
 
-  /* ---------- How it works ---------- */
-  .how{background:var(--bg-alt)}
-  .how-eyebrow{text-align:center;color:var(--orange);font-weight:800;font-size:13px;letter-spacing:.18em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:14px}
-  .how-eyebrow::before{content:"";width:26px;height:3px;background:var(--orange);border-radius:2px}
-  .how-title{text-align:center;font-size:clamp(30px,3.8vw,44px);font-weight:800;letter-spacing:-.02em;margin-bottom:14px}
-  .how-sub{text-align:center;color:var(--muted);font-size:16px;max-width:520px;margin:0 auto 32px;line-height:1.5}
-  .hiw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;position:relative}
-  .hiw-grid::before{content:"";position:absolute;top:66px;left:17%;right:17%;height:2px;background:linear-gradient(90deg,var(--orange),var(--teal));opacity:.35;z-index:0}
-  .hiw-card{position:relative;z-index:1;background:#fff;border:1px solid var(--line);border-radius:16px;padding:46px 30px 34px;text-align:center;box-shadow:0 10px 30px -18px rgba(13,27,42,.4);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
-  .hiw-card:hover{transform:translateY(-8px);box-shadow:0 30px 52px -22px rgba(13,27,42,.55);border-color:#f3d9c7}
-  .hiw-card.featured{border-color:var(--orange)}
-  .hiw-num{width:46px;height:46px;border-radius:50%;background:var(--orange);color:#fff;font-weight:800;font-size:19px;display:flex;align-items:center;justify-content:center;margin:0 auto 22px;box-shadow:0 8px 18px -8px rgba(242,109,33,.8)}
-  .hiw-card h3{font-size:19px;font-weight:800;margin-bottom:12px}
-  .hiw-card p{font-size:14.5px;color:var(--muted);line-height:1.55;max-width:260px;margin:0 auto}
-  .hiw-tag{text-align:center;color:var(--muted);font-size:16px;margin:30px 0 22px}
-  .hiw-tag strong{color:var(--ink);font-weight:800}
-  .hiw-cta{text-align:center}
-  .hiw-cta .btn{font-size:17px;padding:17px 40px;border-radius:40px;gap:8px}
-  .hiw-micro{color:var(--muted);font-size:13px;margin-top:14px}
-  /* compare */
-  .compare{background:var(--navy);color:#fff}
-  .compare .how-title{color:#fff}
-  .compare .how-sub{color:#b9c2cf}
-  .cmp{max-width:780px;margin:46px auto 0;border:1px solid rgba(255,255,255,.12);border-radius:14px;overflow:hidden;background:rgba(255,255,255,.03)}
-  .cmp-head{display:grid;grid-template-columns:1.25fr 1fr 1fr;background:rgba(255,255,255,.05);padding:15px 22px;font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:#8c99a8}
-  .cmp-head .cs{color:var(--orange);display:flex;align-items:center;gap:8px}
-  .cmp-row{display:grid;grid-template-columns:1.25fr 1fr 1fr;padding:14px 22px;align-items:center;border-top:1px solid rgba(255,255,255,.07);font-size:14px}
-  .cmp-row:nth-child(even){background:rgba(255,255,255,.025)}
-  .cmp-label{font-weight:700;color:#e2e8f0}
-  .cmp-trad{display:flex;align-items:center;gap:9px;color:#aeb8c6}
-  .cmp-cash{display:flex;align-items:center;gap:9px;color:#fff;font-weight:700}
-  .cmp-x{color:#e2574f;flex:none}.cmp-c{color:#3fbf6a;flex:none}
-  .cmp-x svg,.cmp-c svg{width:16px;height:16px;display:block}
-  /* faq redesign */
-  .faq-list{margin:30px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start}
-  .faq2{background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 6px 18px -14px rgba(13,27,42,.4);transition:box-shadow .2s ease,transform .2s ease}
-  .faq2:hover{box-shadow:0 16px 34px -20px rgba(13,27,42,.55);transform:translateY(-2px)}
-  .faq2 summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:700;font-size:14.5px;display:flex;align-items:center;justify-content:space-between;gap:14px}
-  .faq2 summary::-webkit-details-marker{display:none}
-  .faq2 .pl{flex:none;width:24px;height:24px;border-radius:50%;background:rgba(242,109,33,.12);color:var(--orange);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;line-height:1;transition:transform .2s}
-  .faq2[open] .pl{transform:rotate(45deg)}
-  .faq2[open] summary{color:var(--orange)}
-  .faq2 .ans2{padding:0 18px 18px;color:var(--muted);font-size:14.5px;line-height:1.6}
-  /* video testimonials */
-  .vid-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-  .vid-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(13,27,42,.4);transition:transform .25s ease,box-shadow .25s ease}
-  .vid-card:hover{transform:translateY(-8px);box-shadow:0 30px 52px -22px rgba(13,27,42,.55)}
-  .vid-thumb{position:relative;aspect-ratio:16/9;cursor:pointer;overflow:hidden}
-  .vid-thumb video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-  .vid-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-  .vid-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:58px;height:58px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px -6px rgba(242,109,33,.85);transition:transform .2s}
-  .vid-card:hover .vid-play{transform:translate(-50%,-50%) scale(1.09)}
-  .vid-play svg{width:22px;height:22px;color:#fff;margin-left:3px}
-  .vid-body{padding:18px 18px 20px}
-  .vid-body h3{font-size:16px;font-weight:800;margin-bottom:7px}
-  .vid-loc{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--teal);font-weight:700;margin-bottom:9px}
-  .vid-loc svg{width:13px;height:13px}
-  .vid-body p{font-size:13.5px;color:var(--muted);line-height:1.5}
-  /* google reviews */
-  .rev-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-  .rev-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 20px;box-shadow:0 10px 30px -18px rgba(13,27,42,.4);transition:transform .25s ease,box-shadow .25s ease}
-  .rev-card:hover{transform:translateY(-8px);box-shadow:0 30px 52px -22px rgba(13,27,42,.55)}
-  .rev-head{display:flex;align-items:center;gap:11px;margin-bottom:12px}
-  .rev-av{width:38px;height:38px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:16px;flex:none}
-  .rev-name{font-weight:700;font-size:14.5px;line-height:1.15}
-  .rev-time{font-size:12px;color:var(--muted)}
-  .rev-g{margin-left:auto;font-size:11px;color:#9aa4b2;font-weight:700;letter-spacing:.02em}
-  .rev-stars{display:flex;gap:2px;margin-bottom:10px}
-  .rev-stars svg{width:15px;height:15px;color:var(--orange)}
-  .rev-card p{font-size:13.5px;color:#46566a;line-height:1.55}
-  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;position:relative}
-  .step{text-align:center;padding:0 14px;position:relative}
-  .step .badge{
-    position:absolute;left:50%;top:-2px;transform:translateX(-44px);
-    width:26px;height:26px;border-radius:50%;background:var(--orange);color:#fff;
-    font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;z-index:3;
-  }
-  .step .circle{
-    width:72px;height:72px;border-radius:50%;background:var(--navy);margin:0 auto 18px;
-    display:flex;align-items:center;justify-content:center;position:relative;
-  }
-  .step .circle svg{width:34px;height:34px;color:#fff}
-  .step h3{font-size:17px;font-weight:700;margin-bottom:6px}
-  .step p{font-size:14px;color:var(--muted);max-width:200px;margin:0 auto}
-  .step .arrow{position:absolute;right:-22px;top:24px;color:#c2cad6}
-  .step:last-child .arrow{display:none}
-  .step .arrow svg{width:22px;height:22px}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.post{background:#fff;border:0;border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 16px 36px -30px rgba(14,26,51,.55)}
+.post img{aspect-ratio:1200/630;object-fit:cover;width:100%;height:auto}
+.post small{display:block;color:var(--muted);font-size:12px;padding:12px 14px 0}
+.post h3{font-size:16px;font-weight:700;padding:6px 14px 0;color:var(--navy);letter-spacing:-.02em}
+.post .read{color:var(--orange);font-weight:800;font-size:14px;padding:10px 14px 16px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.pill{border:0;background:#fff;border-radius:999px;padding:8px 14px;font-size:13.5px;font-weight:650;transition:background-color .25s ease,color .25s ease}
+.pill:hover{background:var(--orange);color:#fff}
+.faq-layout{display:grid;grid-template-columns:minmax(240px,.78fr) 1.22fr;gap:48px;align-items:start}
+.faq-list{display:grid;gap:10px;margin-top:0}
+.faq2{background:#fff;border:0;border-radius:18px;padding:16px 18px;box-shadow:0 10px 28px -22px rgba(14,26,51,.55)}
+.faq2 summary{font-family:var(--display);font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--navy);letter-spacing:-.02em}
+.faq2 summary::-webkit-details-marker{display:none}
+.faq2 .ans2{color:var(--muted);padding-top:10px;font-size:15px;line-height:1.5}
+.faq2 .pl{flex:none;width:28px;height:28px;border-radius:50%;background:var(--bg);color:var(--navy);display:grid;place-items:center;font-weight:500;font-size:20px;line-height:1;transition:transform .2s}
+.faq2[open] .pl{transform:rotate(45deg)}
+.cta-card{background:#fff;color:var(--ink);border-radius:32px;padding:36px 36px 36px 44px;display:grid;grid-template-columns:1.05fr .95fr;gap:12px;align-items:center;text-align:left}
+.cta-card h2{color:var(--navy)}
+.cta-card h2 .o{color:var(--orange)}
+.cta-card .cta-copy > p{margin:12px 0 18px;color:var(--muted);max-width:460px}
+.cta-card .addr{max-width:520px}
+.cta-photo{display:flex;justify-content:center;align-items:center;padding:18px 0}
+.cta-photo picture{display:block;width:min(380px,100%)}
+.cta-photo img{width:100%;height:auto;aspect-ratio:4/3;transform:rotate(-7deg);filter:drop-shadow(0 22px 28px rgba(14,26,51,.22))}
+.cta-card .secure{justify-content:flex-start;color:var(--muted);padding-top:16px}
+footer{background:transparent;color:var(--muted);border-top:0;padding:8px 0 0}
+.foot-logo{height:48px;width:auto}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1.4fr .7fr;gap:28px;padding:32px 0 8px}
+.foot-blurb{font-size:14.5px;margin-top:14px;max-width:280px;line-height:1.5}
+.foot-col h4{color:var(--navy);font-family:var(--display);font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:12px}
+.foot-contact{display:flex;flex-direction:column;gap:10px}
+.foot-contact a:hover{color:var(--orange)}
+.socials{display:flex;gap:10px}
+.socials a{width:38px;height:38px;border-radius:50%;background:#fff;border:0;display:grid;place-items:center}
+.socials a:hover{background:var(--orange)}
+.socials a:hover svg{color:#fff}
+.socials svg{width:18px;height:18px}
+.foot-bottom{border-top:1px solid var(--line);padding:16px 0 28px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13.5px}
+.foot-bottom .links{display:flex;gap:18px;flex-wrap:wrap}
+.foot-bottom a:hover{color:var(--orange)}
+html.js .reveal{opacity:0;transform:translateY(24px)}
+html.js .reveal.in{opacity:1;transform:none;transition:opacity .6s ease-out,transform .6s ease-out}
+html.js .stagger > .reveal.in:nth-child(2){transition-delay:80ms}
+html.js .stagger > .reveal.in:nth-child(3){transition-delay:160ms}
+html.js .stagger > .reveal.in:nth-child(4){transition-delay:240ms}
+html.js .stagger > .reveal.in:nth-child(5){transition-delay:320ms}
+html.js .stagger > .reveal.in:nth-child(6){transition-delay:400ms}
+html.js .stagger > .reveal.in:nth-child(7){transition-delay:480ms}
+.feature,.rev-card,.faq2,.post,.vid-card,.check,.cmp-cashitem,.cmp-traditem{transition:transform .25s ease,box-shadow .25s ease}
+.feature:hover,.rev-card:hover,.faq2:hover,.post:hover,.vid-card:hover,.check:hover,.cmp-cashitem:hover,.cmp-traditem:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(14,26,51,.4)}
+html.js .reveal.in.feature:hover,html.js .reveal.in.rev-card:hover,html.js .reveal.in.faq2:hover,html.js .reveal.in.post:hover,html.js .reveal.in.vid-card:hover,html.js .reveal.in.check:hover,html.js .reveal.in.cmp-cashitem:hover,html.js .reveal.in.cmp-traditem:hover{transform:translateY(-4px);box-shadow:0 18px 40px -22px rgba(14,26,51,.4);transition:opacity .6s ease-out,transform .25s ease,box-shadow .25s ease}
+.logo .name{font-family:var(--display);font-weight:800;font-size:24px}
+.logo .name .navy{color:var(--navy)}
+.logo .name .orange{color:var(--orange)}
+.logo .sub{font-size:9px;letter-spacing:.18em;color:#8a93a1;font-weight:700}
 
-  /* ---------- Testimonials ---------- */
-  .tcards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-  .tcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 24px;box-shadow:var(--shadow-sm)}
-  .stars{display:flex;gap:3px;margin-bottom:14px}
-  .stars svg{width:18px;height:18px;color:var(--orange)}
-  .tcard .quote{font-size:15.5px;color:#2d3a4a;margin-bottom:18px;line-height:1.5}
-  .tcard .who{font-weight:700;font-size:15px}
-  .tcard .city{font-size:13px;color:var(--muted)}
+.cao-prog{height:5px;background:rgba(14,26,51,.08);border-radius:999px;overflow:hidden;margin:0 0 14px;visibility:hidden}
+.cao-prog span{display:block;height:100%;width:0;background:var(--orange);transition:width .35s}
+.offer-card .cao-q{margin:4px 0 12px;font-size:18px;font-weight:800;color:var(--navy)}
+.cao-modal{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;background:rgba(0,15,46,.62);padding:20px}
+.cao-modal.open{display:flex}
+.cao-box{width:100%;max-width:560px;background:#fff;border-radius:22px;overflow:hidden;box-shadow:var(--shadow);position:relative}
+.cao-close{position:absolute;top:10px;right:12px;background:none;border:0;color:var(--navy);font-size:28px;cursor:pointer;z-index:2}
+.cao-head{background:#fff;padding:24px 24px 0;border-bottom:0}
+.cao-title{color:var(--navy);font-size:26px;font-weight:800;margin:0}
+.cao-step{color:var(--muted);font-size:14px;font-weight:600;margin:6px 0 14px}
+.cao-bar{height:4px;background:var(--bg2);margin:0 -24px}
+.cao-bar span{display:block;height:100%;background:var(--orange);transition:width .3s}
+.cao-body{padding:18px 22px 24px;max-height:calc(100vh - 140px);overflow-y:auto}
+.cao-pane{display:none}
+.cao-pane.active{display:block}
+.cao-opt{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:14px 14px;margin-bottom:10px;border:1.5px solid var(--line);border-radius:14px;background:#fff;cursor:pointer;font-family:inherit}
+.cao-opt:hover{border-color:var(--orange)}
+.cao-opt .dia{width:14px;height:14px;flex:none;background:var(--d);transform:rotate(45deg);border-radius:3px}
+.cao-opt .txt b{display:block;color:var(--navy);font-size:15px}
+.cao-opt .txt small{display:block;color:var(--muted);font-size:13px}
+.cao-back{margin-top:6px;background:var(--bg2);border:0;color:var(--ink);font-weight:700;padding:10px 18px;border-radius:999px;cursor:pointer}
+.cao-done{text-align:center;padding:12px 0}
+.cao-check{width:68px;height:68px;border-radius:50%;border:3px solid var(--orange);color:var(--orange);display:flex;align-items:center;justify-content:center;margin:0 auto 14px}
+.cao-check svg{width:32px;height:32px}
+.cao-done h4{font-size:26px;font-weight:800;color:var(--navy);margin-bottom:8px}
+.cao-done p{color:var(--muted)}
+.cao-f{margin-bottom:12px;position:relative}
+.cao-f label{display:block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.cao-f input{width:100%;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;font:inherit;font-size:15px}
+.cao-f input:focus{outline:none;border-color:var(--navy)}
+.cao-frow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.cao-consent{display:flex;gap:8px;align-items:flex-start;background:var(--bg);border-radius:12px;padding:12px;margin:4px 0 14px;font-size:11.5px;line-height:1.45;color:var(--muted)}
+.cao-consent a{color:var(--orange-d);font-weight:700}
+.cao-next{width:100%;border:0;background:var(--orange);color:#fff;font-weight:800;font-size:16px;padding:14px;border-radius:999px;cursor:pointer}
+.cao-foot{text-align:center;font-size:12px;color:var(--muted);margin-top:12px}
+.cao-foot b{color:var(--navy)}
+.cao-f .ac-list{z-index:1100}
 
-  /* ---------- FAQ ---------- */
-  .faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-  .faq{border:1px solid var(--line);border-radius:10px;background:#fff;overflow:hidden}
-  .faq summary{
-    list-style:none;cursor:pointer;padding:17px 20px;font-weight:600;font-size:15.5px;
-    display:flex;align-items:center;justify-content:space-between;gap:12px;
-  }
-  .faq summary::-webkit-details-marker{display:none}
-  .faq summary .chev{transition:transform .2s;flex:none;color:var(--muted)}
-  .faq summary .chev svg{width:18px;height:18px;display:block}
-  .faq[open] summary .chev{transform:rotate(180deg)}
-  .faq[open] summary{color:var(--orange)}
-  .faq .ans{padding:0 20px 18px;color:var(--muted);font-size:14.5px;line-height:1.55}
-
-  /* ---------- Footer ---------- */
-  footer{background:var(--navy);color:#cdd5e0}
-  .foot-grid{display:grid;grid-template-columns:1.3fr 1.4fr 1.2fr 1fr;gap:36px;padding:54px 0 30px;align-items:start}
-  .foot-blurb{font-size:14px;line-height:1.6;max-width:280px;margin-top:18px}
-  .foot-col h4{color:#fff;font-size:14px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px;font-weight:700}
-  .foot-contact{display:flex;flex-direction:column;gap:12px;font-size:14.5px}
-  .foot-contact a{display:flex;align-items:center;gap:11px;transition:color .15s}
-  .foot-contact a:hover{color:#fff}
-  .foot-contact svg{width:17px;height:17px;color:var(--orange);flex:none}
-  .socials{display:flex;gap:12px}
-  .socials a{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:background .15s,transform .15s}
-  .socials a:hover{background:var(--orange);transform:translateY(-2px)}
-  .socials svg{width:18px;height:18px;color:#fff}
-  .foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding:20px 0;display:flex;justify-content:space-between;align-items:center;font-size:13.5px}
-  .foot-bottom .links{display:flex;gap:26px}
-  .foot-bottom a:hover{color:#fff}
-
-  /* ---------- Responsive ---------- */
-  @media(max-width:980px){
-    .hero-grid{grid-template-columns:1fr;gap:36px;padding:48px 0}
-    .features-inner{grid-template-columns:1fr 1fr}
-    .feature:nth-child(2){border-right:none}
-    .ugly{grid-template-columns:1fr;gap:34px}
-    .steps{grid-template-columns:1fr 1fr;gap:40px 10px}
-    .step .arrow{display:none}
-    .hiw-grid{grid-template-columns:1fr;gap:18px}
-    .hiw-grid::before{display:none}
-    .vid-grid{grid-template-columns:1fr 1fr}
-    .rev-grid{grid-template-columns:1fr 1fr}
-    .tcards{grid-template-columns:1fr}
-    .vid-grid{grid-template-columns:1fr}
-    .rev-grid{grid-template-columns:1fr}
-    .faq-list{grid-template-columns:1fr 1fr}
-    .cmp-head{display:none}
-    .cmp-row{grid-template-columns:1fr;gap:6px;padding:16px 18px}
-    .cmp-label{font-size:15px;margin-bottom:2px}
-    .faq-grid{grid-template-columns:1fr}
-    .foot-grid{grid-template-columns:1fr 1fr;gap:32px}
-  }
-  @media(max-width:680px){
-    .logo .lockup{height:48px}
-    .nav-links{
-      display:none;position:absolute;top:100%;left:0;right:0;background:var(--navy);
-      flex-direction:column;align-items:flex-start;gap:0;padding:8px 24px 20px;border-bottom:1px solid rgba(255,255,255,.08);
-    }
-    .nav-links.open{display:flex}
-    .nav-links a{padding:11px 0;width:100%;border-bottom:1px solid rgba(255,255,255,.06)}
-    .nav-links .btn-phone{margin-top:12px;border-bottom:none}
-    .nav-toggle{display:block}
-    .features-inner{grid-template-columns:1fr}
-    .feature{border-right:none;border-bottom:1px solid var(--line)}
-    .feature:last-child{border-bottom:none}
-    .field-row{grid-template-columns:1fr}
-    .checks{grid-template-columns:1fr}
-    .steps{grid-template-columns:1fr}
-    .foot-grid{grid-template-columns:1fr}
-    .foot-bottom{flex-direction:column;gap:12px;text-align:center}
-  }
-
-  /* ===== cash-offer modal ===== */
-  .cao-modal{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;background:rgba(5,11,20,.72);padding:20px}
-  .cao-modal.open{display:flex}
-  .cao-prog{height:5px;background:rgba(13,27,42,.10);border-radius:999px;overflow:hidden;margin:0 0 20px;visibility:hidden}
-  .cao-prog span{display:block;height:100%;width:0;background:var(--orange,#F26D21);transition:width .35s ease}
-  .offer-card .cao-done{padding:8px 0 4px}
-  .offer-card .cao-q{margin-top:2px}
-  .cao-box{width:100%;max-width:560px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45);position:relative;animation:caoIn .25s ease}
-  @keyframes caoIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-  .cao-close{position:absolute;top:12px;right:16px;background:none;border:0;color:rgba(255,255,255,.7);font-size:28px;line-height:1;cursor:pointer;z-index:2}
-  .cao-close:hover{color:#fff}
-  .cao-head{background:var(--navy,#0D1B2A);padding:26px 28px 0}
-  .cao-title{color:#fff;font-size:26px;font-weight:800;margin:0;line-height:1.1}
-  .cao-step{color:rgba(255,255,255,.55);font-size:14px;font-weight:600;margin:6px 0 18px}
-  .cao-bar{height:4px;background:rgba(255,255,255,.15);margin:0 -28px}
-  .cao-bar span{display:block;height:100%;background:var(--orange,#F26D21);transition:width .3s ease}
-  .cao-body{padding:24px 28px 28px;max-height:calc(100vh - 140px);overflow-y:auto}
-  .cao-q{font-size:18px;font-weight:800;color:var(--navy,#0D1B2A);margin:0 0 16px}
-  .cao-pane{display:none}
-  .cao-pane.active{display:block;animation:caoIn .22s ease}
-  .cao-opt{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:16px 18px;margin-bottom:12px;border:1.5px solid rgba(13,27,42,.12);border-radius:12px;background:#fff;cursor:pointer;transition:all .15s;font-family:inherit}
-  .cao-opt:hover{border-color:var(--orange,#F26D21);box-shadow:0 6px 16px rgba(13,27,42,.07)}
-  .cao-opt .dia{width:16px;height:16px;flex:0 0 auto;background:var(--d);transform:rotate(45deg);border-radius:3px}
-  .cao-opt .txt b{display:block;color:var(--navy,#0D1B2A);font-size:16px;font-weight:800}
-  .cao-opt .txt small{display:block;color:#64748b;font-size:13px;margin-top:2px}
-  .cao-back{margin-top:6px;background:#eef1f5;border:0;color:#475569;font-weight:700;padding:10px 20px;border-radius:999px;cursor:pointer;font-family:inherit;font-size:14px}
-  .cao-back:hover{background:#e2e7ee}
-  .cao-done{text-align:center;padding:18px 0 6px}
-  .cao-check{width:74px;height:74px;border-radius:50%;border:3px solid var(--orange,#F26D21);color:var(--orange,#F26D21);display:flex;align-items:center;justify-content:center;margin:0 auto 18px}
-  .cao-check svg{width:36px;height:36px}
-  .cao-done h4{font-size:26px;font-weight:800;color:var(--navy,#0D1B2A);margin:0 0 12px}
-  .cao-done p{color:#475569;font-size:16px;line-height:1.6;max-width:430px;margin:0 auto}
-  .cao-f{margin-bottom:14px;position:relative}.cao-f .ac-list{z-index:1100;top:calc(100% + 3px);box-shadow:0 12px 28px rgba(13,27,42,.18)}
-  .cao-f label{display:block;font-size:11.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:#64748b;margin-bottom:6px}
-  .cao-f input{width:100%;border:1.5px solid rgba(13,27,42,.14);border-radius:10px;padding:13px 14px;font-size:15px;font-family:inherit;color:var(--navy,#0D1B2A);background:#fff;box-sizing:border-box}
-  .cao-f input:focus{outline:none;border-color:var(--orange,#F26D21)}
-  .cao-frow{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-  .cao-consent{display:flex;gap:9px;align-items:flex-start;background:#f6f8fa;border-radius:10px;padding:12px 13px;margin:4px 0 16px;font-size:11.5px;line-height:1.5;color:#64748b}
-  .cao-consent input{margin-top:2px;flex:0 0 auto;width:15px;height:15px;accent-color:var(--orange,#F26D21)}
-  .cao-consent a{color:var(--orange,#F26D21);font-weight:600;text-decoration:none}
-  .cao-next{width:100%;border:0;background:var(--orange,#F26D21);color:#fff;font-weight:800;font-size:16px;padding:15px;border-radius:999px;cursor:pointer;font-family:inherit}
-  .cao-next:hover{filter:brightness(.96)}
-  .cao-foot{text-align:center;font-size:12px;color:#64748b;margin:14px 0 0}
-  .cao-foot b{color:var(--navy,#0D1B2A)}
-  @media(max-width:480px){.cao-frow{grid-template-columns:1fr}}
-  @media(max-width:560px){.cao-title{font-size:22px}.cao-done h4{font-size:22px}}
+@media(max-width:980px){
+  .features-inner,.trust-row,.posts,.rev-grid{grid-template-columns:1fr 1fr}
+  .feature + .feature{border-left:0}
+  .vid-card{flex-basis:78%}
+  .split,.ugly,.faq-layout,.cta-card,.cmp-board,.tl{grid-template-columns:1fr}
+  .ugly{padding:22px}
+  .steps-stage{min-height:420px}
+  .cmp-head{display:none}
+  .cmp-row{grid-template-columns:1fr;gap:4px}
+}
+@media(max-width:760px){
+  .logo .lockup{height:36px}
+  .foot-logo{height:36px}
+  .nav-search{display:none!important}
+  .hero-card{min-height:0;border-radius:24px}
+  .hero-inner{padding:36px 14px 16px}
+  .hero .addr{flex-wrap:wrap;border-radius:22px;padding:8px;gap:6px}
+  .hero .addr .pin{margin-left:8px}
+  .hero .addr input{flex:1 1 calc(100% - 36px);font-size:16px}
+  .hero .addr .btn{flex:1 1 100%;width:100%;padding:14px}
+  .w{white-space:normal}
+  .nav-links{display:none;position:absolute;top:100%;left:-24px;right:-24px;background:var(--bg);flex-direction:column;align-items:stretch;gap:0;padding:8px 24px 18px;border-bottom:1px solid var(--line);box-shadow:var(--shadow-sm)}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:12px 0;border-bottom:1px solid var(--line)}
+  .nav-toggle{display:block}
+  .phone-mini{display:inline-flex}
+  .features-inner,.trust-row,.posts,.rev-grid,.field-row,.cao-frow{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .foot-bottom{flex-direction:column}
+  .hero-h1{font-size:12px;letter-spacing:.06em;padding:6px 12px;margin-bottom:16px}
+  .rot-h1{font-size:40px}
+  .cta-card{padding:22px 16px}
+  .cta-card .addr{flex-wrap:wrap;border-radius:22px;padding:8px;gap:6px}
+  .cta-card .addr input{flex:1 1 calc(100% - 36px);font-size:16px}
+  .cta-card .addr .btn{flex:1 1 100%;width:100%;padding:14px}
+  .cta-photo picture{width:min(280px,86%)}
+  .cta-photo img{transform:none}
+  .tl-cols{gap:8px}
+  .polaroid{transform:rotate(-4deg);margin-top:18px}
+  .faq-layout{gap:22px}
+  .checks{grid-template-columns:1fr 1fr}
+  section{padding:42px 0}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+  .w,.art,.slot{transition:none!important}
+  html.js .hiw-card p{display:block!important}
+  html.js .step-bar{display:none!important}
+  html.js .reveal,html.js .tl-item{opacity:1!important;transform:none!important}
+  html.js .tl-bar i{transform:scaleX(var(--w))!important}
+  html.js .tl-cash::before{opacity:1!important}
+  html.js .ticks li{opacity:1!important}
+  html.js .ticks li::before{border-color:var(--orange)!important;background:var(--orange)!important;box-shadow:inset 0 0 0 3px #fff!important}
+}
 </style>
 <meta name="description" content="We buy houses as-is in your area and surrounding communities. No repairs, no fees, no pressure. Get a fair cash offer in 24 hours.">
 <link rel="canonical" href="https://www.cashasis.com/">
@@ -427,240 +509,158 @@ fbq('track','PageView');
 </head>
 <body>
 
-<!-- ============ NAV ============ -->
-<header>
+<header id="top">
   <div class="wrap">
     <nav>
-      <a href="#" class="logo" aria-label="CashAsIs home"><img class="lockup" src="/images/cashasis-logo-white.png" alt="CashAsIs - We Buy Houses As-Is"></a>
+      <a href="/" class="logo" aria-label="CashAsIs home"><picture><source type="image/webp" srcset="/images/cashasis-wordmark-com.webp"><img class="lockup" src="/images/cashasis-wordmark-com.png" alt="CashAsIs - We Buy Houses As-Is" width="498" height="104"></picture></a>
+      <div class="nav-search">
+        <div class="addr nav-form" id="navAddr">
+          <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <input id="nav-address" type="text" placeholder="Enter your property address" aria-label="Property address" autocomplete="street-address">
+          <a class="go" href="#lead-shell" id="navGo">Go</a>
+        </div>
+      </div>
+      <a class="phone-mini" href="tel:+13465846365" aria-label="Call CashAsIs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></a>
       <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
       <div class="nav-links" id="navLinks">
         <a href="#how">How It Works</a>
         <a href="#compare">Compare</a>
         <a href="#about">About Us</a>
         <a href="#reviews">Reviews</a>
-        
         <a href="/blog">Resources</a>
-        
-        <a href="tel:+13465846365" class="btn btn-phone">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
-          (346) 584-6365
-        </a>
+        <a href="tel:+13465846365" class="btn btn-phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg><span class="pn">(346) 584-6365</span></a>
+        <a href="#" class="btn btn-orange nav-offer" data-cao-open>Get My Offer</a>
       </div>
     </nav>
   </div>
 </header>
 
-<!-- ============ HERO ============ -->
 <div class="hero">
-  <div class="hero-video">
-    <iframe src="https://player.vimeo.com/video/1199953523?background=1&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" title="trusted_buyers"></iframe>
+  <div class="hero-card">
+    <picture class="hero-photo">
+      <source type="image/avif" srcset="/images/hero-house-800.avif 800w, /images/hero-house.avif 1600w" sizes="100vw">
+      <source type="image/webp" srcset="/images/hero-house-800.webp 800w, /images/hero-house.webp 1600w" sizes="100vw">
+      <img src="/images/hero-house.webp" alt="" width="1600" height="900" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="hero-inner">
+      <h1 class="hero-h1">Need To Sell Your House Fast?</h1>
+      <div class="rot-h1" role="text">
+        <span class="vh">Got an old, ugly, inherited, foreclosure, tenant-occupied or tax-delinquent house? Get cash as-is.</span>
+        <span class="hl" aria-hidden="true"><span class="l1">Got <span class="art">an</span>&nbsp;<span class="slot" aria-live="off"><span class="w w1 on" data-art="an">old, ugly</span><span class="w w2" data-art="a">facing foreclosure</span><span class="w w3" data-art="an">inherited</span><span class="w w4" data-art="a">tenant occupied</span><span class="w w5" data-art="a">tax delinquent</span></span> house?</span>
+        <span class="l2">Get <span class="o">cash as-is.</span></span></span>
+      </div>
+      <p class="any">Any condition. Any situation.</p>
+      <div class="addr" id="heroAddr">
+        <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <input id="prop-address" type="text" placeholder="Enter your property address" aria-label="Property address" autocomplete="street-address">
+        <a class="btn btn-orange" href="#lead-shell" id="heroGo">Get my cash offer</a>
+      </div>
+      <p class="sub">We Buy Houses As-Is. No Repairs. No Fees. Close On Your Timeline.</p>
+    </div>
   </div>
+</div>
+
+<section class="trust reveal">
   <div class="wrap">
-    <div class="hero-grid">
+    <div class="features-inner stagger">
+      <div class="feature reveal">
+        <picture class="feat-photo">
+          <source type="image/avif" srcset="/images/benefit-offer-640.avif 640w, /images/benefit-offer.avif 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <source type="image/webp" srcset="/images/benefit-offer-640.webp 640w, /images/benefit-offer.webp 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <img src="/images/benefit-offer-640.webp" alt="Homeowners reviewing a cash offer at the kitchen table" width="960" height="720" loading="lazy" decoding="async">
+        </picture>
+        <div class="feat-body">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div><h3>Real Cash Offers</h3><p>Get a fair, no-obligation cash offer in 24 hours.</p></div>
+        </div>
+      </div>
+      <div class="feature reveal">
+        <picture class="feat-photo">
+          <source type="image/avif" srcset="/images/benefit-asis-640.avif 640w, /images/benefit-asis.avif 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <source type="image/webp" srcset="/images/benefit-asis-640.webp 640w, /images/benefit-asis.webp 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <img src="/images/benefit-asis-640.webp" alt="Lived-in living room in a house that can sell as-is" width="960" height="720" loading="lazy" decoding="async">
+        </picture>
+        <div class="feat-body">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg></div>
+          <div><h3>Sell As-Is</h3><p>We buy houses in any condition. No repairs.</p></div>
+        </div>
+      </div>
+      <div class="feature reveal">
+        <picture class="feat-photo">
+          <source type="image/avif" srcset="/images/benefit-close-640.avif 640w, /images/benefit-close.avif 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <source type="image/webp" srcset="/images/benefit-close-640.webp 640w, /images/benefit-close.webp 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <img src="/images/benefit-close-640.webp" alt="House keys and a calendar on a kitchen table" width="960" height="720" loading="lazy" decoding="async">
+        </picture>
+        <div class="feat-body">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+          <div><h3>Close Fast</h3><p>Close on your timeline. As little as 7 days.</p></div>
+        </div>
+      </div>
+      <div class="feature reveal">
+        <picture class="feat-photo">
+          <source type="image/avif" srcset="/images/benefit-fees-640.avif 640w, /images/benefit-fees.avif 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <source type="image/webp" srcset="/images/benefit-fees-640.webp 640w, /images/benefit-fees.webp 960w" sizes="(max-width: 760px) 92vw, (max-width: 980px) 46vw, 250px">
+          <img src="/images/benefit-fees-640.webp" alt="Homeowner on a porch holding keys after selling" width="960" height="720" loading="lazy" decoding="async">
+        </picture>
+        <div class="feat-body">
+          <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5a2.5 2.5 0 0 0-2.5-1.5c-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.9 2.5 2-1 2-2.5 2a2.5 2.5 0 0 1-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg></div>
+          <div><h3>No Fees</h3><p>No commissions. No hidden costs.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stories" class="reveal">
+  <div class="wrap">
+    <div class="row-head">
       <div>
-        <h1>Need To Sell<br>Your House <span class="orange">Fast?</span></h1>
-        <p class="lead"><strong>We Buy Houses As-Is.</strong><br>No Repairs. No Fees.<br>Close On Your Timeline.</p>
-        <div class="trust">
-          <span class="item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"/></svg>
-            NO REPAIRS
-          </span>
-          <span class="dot"></span>
-          <span class="item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5a2.5 2 0 0 0-2.5-1.5c-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.9 2.5 2-1 2-2.5 2a2.5 2 0 0 1-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg>
-            NO FEES
-          </span>
-          <span class="dot"></span>
-          <span class="item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg>
-            NO PRESSURE
-          </span>
-        </div>
+        <p class="eyebrow">Real sellers. Real closings. No games.</p>
+        <h2 class="how-title">Watch How Homeowners Sold Fast</h2>
+        <p class="how-sub">Real people. Real situations. No scripts, no actors, just homeowners who needed to move on and did.</p>
       </div>
-
-      <div class="offer-card" id="caoCard">
-        <div class="cao-prog" id="caoProg"><span id="caoBar"></span></div>
-        <div class="cao-pane active" data-pane="1">
-          <h2>Get Your Cash Offer Today</h2>
-          <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
-          <form id="leadForm">
-          <div class="field">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <input type="text" name="address" placeholder="Property Address" required>
-          </div>
-          <div class="field-row">
-            <div class="field">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-              <input type="text" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="field">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
-              <input type="tel" name="phone" placeholder="Phone Number" required>
-            </div>
-          </div>
-          <div class="field">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
-            <input type="email" name="email" placeholder="Email Address" required>
-          </div>
-          <label class="consent">
-            <input type="checkbox" name="consent" required>
-            <span>By submitting, I consent to receive calls, emails &amp; texts (SMS/MMS) from CashAsIs / Mr. Wright Properties at the info provided. Msg &amp; data rates may apply. Reply <strong>STOP</strong> to opt out. Not a condition of purchase. <a href="/privacy">Privacy Policy</a> &amp; <a href="/terms">Terms</a>.</span>
-          </label>
-          <button type="submit" class="btn btn-orange btn-block">GET MY CASH OFFER</button>
-        <input type="hidden" name="condition">
-          <input type="hidden" name="timeline">
-          <input type="hidden" name="source" value="cashasis">
-        </form>
-        </div>
-        <div class="cao-pane" data-pane="2">
-          <h4 class="cao-q">What's the condition of your property?</h4>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Move-In Ready"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>Move-In Ready</b><small>Clean, no major issues</small></span></button>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Needs Work"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>Needs Work</b><small>Some repairs needed</small></span></button>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Heavily Distressed"><span class="dia" style="--d:#e23b3b"></span><span class="txt"><b>Heavily Distressed</b><small>Major repairs or damage</small></span></button>
-          <button type="button" class="cao-opt" data-field="condition" data-val="Vacant / Abandoned"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Vacant / Abandoned</b><small>No one living there</small></span></button>
-        </div>
-        <div class="cao-pane" data-pane="3">
-          <h4 class="cao-q">What's your ideal timeline to close?</h4>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="ASAP"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>ASAP</b><small>As fast as possible</small></span></button>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="30 Days"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>30 Days</b><small>Within a month</small></span></button>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="60-90 Days"><span class="dia" style="--d:#16a34a"></span><span class="txt"><b>60-90 Days</b><small>I have some time</small></span></button>
-          <button type="button" class="cao-opt" data-field="timeline" data-val="Just Exploring"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Just Exploring</b><small>No rush right now</small></span></button>
-          <button type="button" class="cao-back" id="caoBack">&larr; Back</button>
-        </div>
-        <div class="cao-pane cao-done" data-pane="4">
-          <div class="cao-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg></div>
-        <h4>You're All Set!</h4>
-        <p>We will review your property and reach out within <b>24 hours</b> with your cash offer. No pressure, no obligation.</p>
-        </div>
+      <div class="arrows">
+        <button type="button" data-story-prev aria-label="Previous stories">&larr;</button>
+        <button type="button" data-story-next aria-label="Next stories">&rarr;</button>
       </div>
     </div>
-  </div>
-  <div class="wrap">
-    <p class="secure">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-      Your information is 100% secure and never shared.
-    </p>
-  </div>
-</div>
-
-<!-- ============ FEATURES STRIP ============ -->
-<div class="wrap features">
-  <div class="features-inner">
-    <div class="feature">
-      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-      <div><h3>Real Cash Offers</h3><p>Get a fair, no-obligation cash offer in 24 hours.</p></div>
-    </div>
-    <div class="feature">
-      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg></div>
-      <div><h3>Sell As-Is</h3><p>We buy houses in any condition. No repairs.</p></div>
-    </div>
-    <div class="feature">
-      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
-      <div><h3>Close Fast</h3><p>Close on your timeline. As little as 7 days.</p></div>
-    </div>
-    <div class="feature">
-      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5a2.5 2 0 0 0-2.5-1.5c-1.5 0-2.5.8-2.5 2s1 1.7 2.5 2 2.5.9 2.5 2-1 2-2.5 2a2.5 2 0 0 1-2.5-1.5M12 6.5v1.5M12 16v1.5"/></svg></div>
-      <div><h3>No Fees</h3><p>No commissions. No hidden costs.</p></div>
-    </div>
-  </div>
-</div>
-
-<!-- ============ UGLY ONES ============ -->
-<section id="about">
-  <div class="wrap ugly">
-    <div>
-      <h2>We Buy<br><span class="orange">Even The Ugly Ones.</span><span class="bar"></span></h2>
-      <p class="intro">No matter the condition, situation, or reason, we've got you covered.</p>
-      <div class="checks">
-        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Foundation Issues</span>
-        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Vacant Houses</span>
-        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Fire Damage</span>
-        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Problem Tenants</span>
-        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Inherited Properties</span>
-        <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>And More...</span>
-      </div>
-    </div>
-    <div class="ugly-visual">
-      <img class="ugly-photo" src="/assets/ce790012ce3c.png" alt="Distressed house we buy as-is">
-      <div class="ugly-card">Any Condition.<br>Any Situation.<br><span class="orange">We Can Help.</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ HOW IT WORKS ============ -->
-<section class="how" id="how">
-  <div class="wrap">
-    <p class="how-eyebrow">Simple as 1-2-3</p>
-    <h2 class="how-title">Get Your Cash Offer in 3 Simple Steps</h2>
-    <p class="how-sub">No agents, no repairs, no headaches. We've made selling your house ridiculously simple.</p>
-    <div class="hiw-grid">
-      <div class="hiw-card">
-        <div class="hiw-num">1</div>
-        <h3>Tell Us About Your Property</h3>
-        <p>Fill out our quick form, it takes less than 30 seconds. No cleanup or prep needed.</p>
-      </div>
-      <div class="hiw-card">
-        <div class="hiw-num">2</div>
-        <h3>We Review &amp; Analyze</h3>
-        <p>Mr. Wright personally reviews your property details and your situation. We do the research so you don't have to.</p>
-      </div>
-      <div class="hiw-card featured">
-        <div class="hiw-num">3</div>
-        <h3>You Get a Real Cash Offer</h3>
-        <p>We present a real, no-obligation cash offer within 24 hours. You decide what works, zero pressure, ever.</p>
-      </div>
-    </div>
-    <p class="hiw-tag">No pressure. No obligations. <strong>Just options.</strong></p>
-    <div class="hiw-cta">
-      <a href="#" class="btn btn-orange" data-cao-open>Get My Offer <span>&rarr;</span></a>
-      <p class="hiw-micro">Takes 30 seconds &nbsp;&middot;&nbsp; No obligation &nbsp;&middot;&nbsp; No pressure</p>
-    </div>
-  </div>
-</section>
-
-<!-- ============ VIDEO TESTIMONIALS ============ -->
-<section id="stories">
-  <div class="wrap">
-    <p class="how-eyebrow">Real sellers. Real closings. No games.</p>
-    <h2 class="how-title">Watch How Homeowners Sold Fast</h2>
-    <p class="how-sub">Real people. Real situations. No scripts, no actors, just homeowners who needed to move on and did.</p>
-    <div class="vid-grid">
-      <div class="vid-card">
+    <div class="vid-grid stagger">
+      <div class="vid-card reveal">
         <div class="vid-thumb" data-video="1201084643" data-h="11bc3640d6" style="background:linear-gradient(135deg,#24384f,#0d1b2a)"><img class="vid-poster" src="https://i.vimeocdn.com/video/2168347366-2d78062a754e9504d405bea5b568ea60e8dd4ce9594ee8a58d67e0da18fd324d-d_1280?region=us" alt="Sold Fast, Closed in Record Time — CashAsIs seller testimonial" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
         <div class="vid-body">
           <h3>Sold Fast, Closed in Record Time</h3>
           <p>Mr. Wright was polite and professional through the whole process. We both lived up to our obligations and closed in record time. I'd do business with him again.</p>
         </div>
       </div>
-      <div class="vid-card">
+      <div class="vid-card reveal">
         <div class="vid-thumb" data-video="1201084770" data-h="c0b694d618" style="background:linear-gradient(135deg,#1d3b3f,#0d1b2a)"><img class="vid-poster" src="https://i.vimeocdn.com/video/2168347532-dde05fe904d553184761a7427d7cb89b541b8661785f70fd3da9826882a2ca11-d_1280?region=us" alt="Had Back Taxes, Handled It All — CashAsIs seller testimonial" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
         <div class="vid-body">
           <h3>Had Back Taxes — Handled It All</h3>
           <p>Mr. Wright stayed in contact for over a year, then helped me handle the back taxes I owed on the property. Great working with him — I'd do it again.</p>
         </div>
       </div>
-      <div class="vid-card">
+      <div class="vid-card reveal">
         <div class="vid-thumb" data-video="1201084692" data-h="13bf8e7a0d" style="background:linear-gradient(135deg,#3a2c22,#0d1b2a)"><img class="vid-poster" src="https://i.vimeocdn.com/video/2168347416-fb82813f34c96d0b1db5eb4006a50a02c3eed22511f1ce6e22371c68359449fc-d_1280?region=us" alt="Sold Our Late Son’s Home — CashAsIs seller testimonial" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
         <div class="vid-body">
           <h3>Sold Our Late Son’s Home</h3>
           <p>We finally felt ready to sell our son's property. Mr. Wright's integrity came through, we closed with no surprises, and we couldn't be more pleased.</p>
         </div>
       </div>
-      <div class="vid-card">
+      <div class="vid-card reveal">
         <div class="vid-thumb" data-video="1201084786" data-h="5921c0723f" style="background:linear-gradient(135deg,#2b2f48,#0d1b2a)"><img class="vid-poster" src="https://i.vimeocdn.com/video/2168347539-e4f36d51268270aeb02686863416779c7359b96dbfb9fd49016448ff7986eb19-d_1280?region=us" alt="Foreclosure Stopped — CashAsIs seller testimonial" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
         <div class="vid-body">
           <h3>Foreclosure Stopped!</h3>
           <p>I just sold a property... all-cash, straightforward, transparent... paperwork done fast.</p>
         </div>
       </div>
-      <div class="vid-card">
+      <div class="vid-card reveal">
         <div class="vid-thumb" data-video="1201084523" data-h="a6f57c571d" style="background:linear-gradient(135deg,#203a4a,#0d1b2a)"><img class="vid-poster" src="https://i.vimeocdn.com/video/2168347242-6365ec67cb5bc49a5f608006b3b18be685394b6ee728e9528d34b6f153104246-d_1280?region=us" alt="Closed My Mother’s Estate — CashAsIs seller testimonial" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
         <div class="vid-body">
           <h3>Closed My Mother’s Estate</h3>
           <p>I just finished closing on my mother's house after she passed. Mr. Wright was helpful and persistent — if you need a good job done, just call him.</p>
         </div>
       </div>
-      <div class="vid-card">
+      <div class="vid-card reveal">
         <div class="vid-thumb" data-video="1201084795" data-h="f116166581" style="background:linear-gradient(135deg,#3a2230,#0d1b2a)"><img class="vid-poster" src="https://i.vimeocdn.com/video/2168347549-419e67128071d0e85ba7a86cf0d1f22c09edca11158a8ecbf00d37107ae090a3-d_1280?region=us" alt="Inherited Mom’s House — CashAsIs seller testimonial" loading="lazy"><span class="vid-play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
         <div class="vid-body">
           <h3>Inherited Mom’s House, Felt Heard</h3>
@@ -668,20 +668,195 @@ fbq('track','PageView');
         </div>
       </div>
     </div>
-    <div class="hiw-cta" style="margin-top:42px">
+    <div class="hiw-cta">
       <a href="#" class="btn btn-orange" data-cao-open>Get My Offer <span>&rarr;</span></a>
-      <p class="hiw-micro">Takes 30 seconds &nbsp;&middot;&nbsp; No obligation &nbsp;&middot;&nbsp; No pressure</p>
     </div>
   </div>
 </section>
 
-<!-- ============ REVIEWS ============ -->
-<section class="how" id="reviews">
+<section class="how" id="how">
+  <div class="wrap split steps-layout">
+    <div class="steps-visual">
+      <div class="steps-stage" data-step="1">
+        <picture class="bg-house">
+          <source type="image/avif" srcset="/images/hero-house-800.avif 800w, /images/hero-house.avif 1600w" sizes="(max-width: 980px) 100vw, 560px">
+          <source type="image/webp" srcset="/images/hero-house-800.webp 800w, /images/hero-house.webp 1600w" sizes="(max-width: 980px) 100vw, 560px">
+          <img src="/images/hero-house-800.webp" alt="" width="1600" height="900" loading="lazy" decoding="async">
+        </picture>
+        <picture class="bg-room">
+          <source type="image/avif" srcset="/images/benefit-asis-640.avif 640w, /images/benefit-asis.avif 960w" sizes="(max-width: 980px) 100vw, 560px">
+          <source type="image/webp" srcset="/images/benefit-asis-640.webp 640w, /images/benefit-asis.webp 960w" sizes="(max-width: 980px) 100vw, 560px">
+          <img src="/images/benefit-asis.webp" alt="Dated living room in a house that can sell as-is" width="960" height="720" loading="lazy" decoding="async">
+        </picture>
+        <picture class="bg-kitchen">
+          <source type="image/avif" srcset="/images/steps-kitchen-800.avif 800w, /images/steps-kitchen.avif 1600w" sizes="(max-width: 980px) 100vw, 560px">
+          <source type="image/webp" srcset="/images/steps-kitchen-800.webp 800w, /images/steps-kitchen.webp 1600w" sizes="(max-width: 980px) 100vw, 560px">
+          <img src="/images/steps-kitchen.webp" alt="Homeowners reviewing a cash offer for their house at the kitchen table" width="1600" height="1200" loading="lazy" decoding="async">
+        </picture>
+        <div class="glass scene-1">
+          <div class="glass-pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>1234 Main St, Houston, TX</div>
+          <ul class="ticks">
+            <li>Looking up your property</li>
+            <li>Checking recent sales nearby</li>
+            <li>Reviewing condition and repairs</li>
+            <li>Preparing your cash offer</li>
+          </ul>
+        </div>
+        <div class="glass scene-cond">
+          <b>Condition</b>
+          <div class="cond-photos">
+            <img src="/images/benefit-asis-640.webp" alt="Living room" width="960" height="720" loading="lazy" decoding="async">
+            <img src="/images/steps-kitchen-800.webp" alt="Kitchen" width="1600" height="1200" loading="lazy" decoding="async">
+            <img src="/images/sit-foundation-640.webp" alt="Brick foundation" width="960" height="720" loading="lazy" decoding="async">
+          </div>
+          <ul class="ticks">
+            <li>Roof</li>
+            <li>Kitchen</li>
+            <li>Foundation</li>
+          </ul>
+        </div>
+        <div class="glass scene-2"><b>Reviewing comps</b><span>Recent sales near the property</span></div>
+        <div class="glass scene-3">
+          <p class="hi">Hi there!</p>
+          <strong>Your cash offer is ready</strong>
+          <div class="ex-row">
+            <img src="/images/hero-house-800.webp" alt="" width="800" height="450">
+            <div><span class="ex-flag">Example</span><span class="ex-price">$240,000</span><small>Example only. Not a cash offer.</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="steps-copy">
+      <p class="eyebrow">Simple as 1-2-3-4</p>
+      <h2 class="how-title">Get Your Cash Offer in 4 Simple Steps</h2>
+      <p class="how-sub">No agents, no repairs, no headaches. We've made selling your house ridiculously simple.</p>
+      <div class="hiw-grid">
+        <div class="hiw-card open">
+          <div class="hiw-num" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></div>
+          <h3>Tell Us About Your Property</h3>
+          <p>Fill out our quick form, it takes less than 30 seconds. No cleanup or prep needed.</p>
+          <div class="step-bar" aria-hidden="true"><span></span></div>
+        </div>
+        <div class="hiw-card">
+          <div class="hiw-num" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M4 7h3l1.2-2h7.6L17 7h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3"/></svg></div>
+          <h3>Show Us Your House Condition</h3>
+          <p>Share a few photos of the condition, as-is. No cleaning, no repairs, no judgment.</p>
+          <div class="step-bar" aria-hidden="true"><span></span></div>
+        </div>
+        <div class="hiw-card">
+          <div class="hiw-num" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1Z"/></svg></div>
+          <h3>We Review &amp; Analyze</h3>
+          <p>Mr. Wright personally reviews your property details and your situation. We do the research so you don't have to.</p>
+          <div class="step-bar" aria-hidden="true"><span></span></div>
+        </div>
+        <div class="hiw-card">
+          <div class="hiw-num" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+          <h3>You Get a Real Cash Offer</h3>
+          <p>We present a real, no-obligation cash offer within 24 hours. You decide what works, zero pressure, ever.</p>
+          <div class="step-bar" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+      <p class="hiw-tag">No pressure. No obligations. <strong>Just options.</strong></p>
+      <div class="hiw-cta">
+        <a href="#" class="btn btn-orange" data-cao-open>Get My Offer <span>&rarr;</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how compare" id="compare">
   <div class="wrap">
-    <p class="how-eyebrow">Verified reviews</p>
+    <p class="eyebrow">Side by side</p>
+    <h2 class="how-title">Cash Sale vs. Traditional Listing</h2>
+    <p class="how-sub">See why thousands of homeowners choose a direct cash sale over the traditional route.</p>
+    <div class="tl">
+      <div class="tl-lead">
+        <h3>Close on your timeline.</h3>
+        <p>Get a cash offer within 24 hours and close in as little as 7 days.</p>
+        <div class="polaroid">
+          <picture>
+            <source type="image/avif" srcset="/images/cta-keys-800.avif 800w, /images/cta-keys.avif 1600w" sizes="300px">
+            <source type="image/webp" srcset="/images/cta-keys-800.webp 800w, /images/cta-keys.webp 1600w" sizes="300px">
+            <img src="/images/cta-keys.webp" alt="Family holding house keys on their first day in a new home" width="1600" height="1200" loading="lazy" decoding="async">
+          </picture>
+          <p class="script">Sold. On our timeline.</p>
+        </div>
+      </div>
+      <div class="tl-cols">
+        <div class="tl-col tl-cash">
+          <h3>Cash As-Is</h3>
+          <div class="tl-item"><b>Get your cash offer</b><em>within 24 hrs</em><div class="tl-bar"><i style="--w:.14"></i></div></div>
+          <div class="tl-item"><b>Pick your closing date</b><div class="tl-bar"><i style="--w:.22"></i></div></div>
+          <div class="tl-item"><b>Close and get paid</b><em>in as little as 7 days</em><div class="tl-bar"><i style="--w:.28"></i></div></div>
+          <div class="tl-empty" aria-hidden="true"></div>
+          <div class="tl-empty" aria-hidden="true"></div>
+          <div class="tl-empty" aria-hidden="true"></div>
+        </div>
+        <div class="tl-col tl-trad">
+          <h3>Traditional</h3>
+          <div class="tl-item"><b>Find an agent</b><em>~10 days</em><div class="tl-bar"><i style="--w:.22"></i></div></div>
+          <div class="tl-item"><b>Make repairs for listing</b><em>~2 weeks</em><div class="tl-bar"><i style="--w:.34"></i></div></div>
+          <div class="tl-item"><b>Stage and prepare</b><em>~5 days</em><div class="tl-bar"><i style="--w:.16"></i></div></div>
+          <div class="tl-item"><b>List on the MLS and find a buyer</b><em>~45 days</em><div class="tl-bar"><i style="--w:1"></i></div></div>
+          <div class="tl-item"><b>Buyer contract to closing</b><em>30-45 days</em><div class="tl-bar"><i style="--w:.82"></i></div></div>
+          <div class="tl-item"><b>Pay commissions and move out</b><div class="tl-bar"><i style="--w:.48"></i></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="cmp-board">
+      <div class="cmp-col cash stagger">
+        <h3>CashAsIs Cash Sale</h3>
+        <div class="cmp-cashitem reveal"><b>Time to Close</b><span>Close in as few as 7 days</span></div>
+        <div class="cmp-cashitem reveal"><b>Commissions &amp; Fees</b><span>Zero fees or commissions</span></div>
+        <div class="cmp-cashitem reveal"><b>Repairs Required</b><span>Sell completely as-is</span></div>
+        <div class="cmp-cashitem reveal"><b>Showings &amp; Open Houses</b><span>No showings, ever</span></div>
+        <div class="cmp-cashitem reveal"><b>Deal Certainty</b><span>Cash is guaranteed</span></div>
+        <div class="cmp-cashitem reveal"><b>Closing Date</b><span>You pick the date</span></div>
+      </div>
+      <div class="cmp-col trad stagger">
+        <h3>Traditional Listing</h3>
+        <div class="cmp-traditem reveal"><b>Time to Close</b><span>3-6 months on market</span></div>
+        <div class="cmp-traditem reveal"><b>Commissions &amp; Fees</b><span>5-6% agent commissions</span></div>
+        <div class="cmp-traditem reveal"><b>Repairs Required</b><span>Fix up before listing</span></div>
+        <div class="cmp-traditem reveal"><b>Showings &amp; Open Houses</b><span>Strangers in your home</span></div>
+        <div class="cmp-traditem reveal"><b>Deal Certainty</b><span>Buyers fall through</span></div>
+        <div class="cmp-traditem reveal"><b>Closing Date</b><span>Bank &amp; buyer control it</span></div>
+      </div>
+    </div>
+    <div class="hiw-cta cmp-cta">
+      <a href="#" class="btn btn-orange" data-cao-open>Get My Offer <span>&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <div class="wrap ugly">
+    <div>
+      <p class="eyebrow">Any situation</p>
+      <h2>We Buy<br><span class="orange">Even The Ugly Ones.</span></h2>
+      <p class="lede">No matter the condition, situation, or reason, we've got you covered.</p>
+      <div class="checks stagger">
+        <span class="check reveal"><picture><source type="image/avif" srcset="/images/sit-foundation-640.avif 640w, /images/sit-foundation.avif 960w" sizes="(max-width: 760px) 44vw, 220px"><source type="image/webp" srcset="/images/sit-foundation-640.webp 640w, /images/sit-foundation.webp 960w" sizes="(max-width: 760px) 44vw, 220px"><img src="/images/sit-foundation-640.webp" alt="Hairline crack in the brick of an older house" width="960" height="720" loading="lazy" decoding="async"></picture><span class="check-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Foundation Issues</span></span>
+        <span class="check reveal"><picture><source type="image/avif" srcset="/images/sit-vacant-640.avif 640w, /images/sit-vacant.avif 960w" sizes="(max-width: 760px) 44vw, 220px"><source type="image/webp" srcset="/images/sit-vacant-640.webp 640w, /images/sit-vacant.webp 960w" sizes="(max-width: 760px) 44vw, 220px"><img src="/images/sit-vacant-640.webp" alt="Vacant dated ranch house with a quiet front yard" width="960" height="720" loading="lazy" decoding="async"></picture><span class="check-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Vacant Houses</span></span>
+        <span class="check reveal"><picture><source type="image/avif" srcset="/images/sit-fire-640.avif 640w, /images/sit-fire.avif 960w" sizes="(max-width: 760px) 44vw, 220px"><source type="image/webp" srcset="/images/sit-fire-640.webp 640w, /images/sit-fire.webp 960w" sizes="(max-width: 760px) 44vw, 220px"><img src="/images/sit-fire-640.webp" alt="Room corner with light soot staining above the baseboard" width="960" height="720" loading="lazy" decoding="async"></picture><span class="check-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Fire Damage</span></span>
+        <span class="check reveal"><picture><source type="image/avif" srcset="/images/sit-tenant-640.avif 640w, /images/sit-tenant.avif 960w" sizes="(max-width: 760px) 44vw, 220px"><source type="image/webp" srcset="/images/sit-tenant-640.webp 640w, /images/sit-tenant.webp 960w" sizes="(max-width: 760px) 44vw, 220px"><img src="/images/sit-tenant-640.webp" alt="Older duplex with two front doors" width="960" height="720" loading="lazy" decoding="async"></picture><span class="check-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Problem Tenants</span></span>
+        <span class="check reveal"><picture><source type="image/avif" srcset="/images/sit-inherited-640.avif 640w, /images/sit-inherited.avif 960w" sizes="(max-width: 760px) 44vw, 220px"><source type="image/webp" srcset="/images/sit-inherited-640.webp 640w, /images/sit-inherited.webp 960w" sizes="(max-width: 760px) 44vw, 220px"><img src="/images/sit-inherited-640.webp" alt="Older family home with a front porch" width="960" height="720" loading="lazy" decoding="async"></picture><span class="check-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>Inherited Properties</span></span>
+        <span class="check reveal"><picture><source type="image/avif" srcset="/images/benefit-asis-640.avif 640w, /images/benefit-asis.avif 960w" sizes="(max-width: 760px) 44vw, 220px"><source type="image/webp" srcset="/images/benefit-asis-640.webp 640w, /images/benefit-asis.webp 960w" sizes="(max-width: 760px) 44vw, 220px"><img src="/images/benefit-asis-640.webp" alt="Dated living room in a house sold as-is" width="960" height="720" loading="lazy" decoding="async"></picture><span class="check-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m5 12 5 5L20 7"/></svg>And More...</span></span>
+      </div>
+      <p class="ugly-card">Any Condition.<br>Any Situation.<br><span class="orange">We Can Help.</span></p>
+    </div>
+    <div class="ugly-visual">
+      <img class="ugly-photo" src="/assets/ce790012ce3c.png" alt="Distressed house we buy as-is" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<section class="how reveal" id="reviews">
+  <div class="wrap">
+    <p class="eyebrow">Verified reviews</p>
     <h2 class="how-title">What Sellers Are Saying</h2>
-    <div class="rev-grid" style="margin-top:40px">
-      <div class="rev-card">
+    <div class="rev-grid stagger" style="margin-top:40px">
+      <div class="rev-card reveal">
         <div class="rev-head">
           <div class="rev-av" style="background:#2f7de1">J</div>
           <div><div class="rev-name">Josie P.</div><div class="rev-time">4 months ago</div></div>
@@ -690,7 +865,7 @@ fbq('track','PageView');
         <div class="rev-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg></div>
         <p>"CashAsIs made selling our house stress-free. Their team was courteous and knowledgeable, guiding us every step of the way. Highly recommend."</p>
       </div>
-      <div class="rev-card">
+      <div class="rev-card reveal">
         <div class="rev-head">
           <div class="rev-av" style="background:#e23b3b">D</div>
           <div><div class="rev-name">Dan Portillo</div><div class="rev-time">4 months ago</div></div>
@@ -699,7 +874,7 @@ fbq('track','PageView');
         <div class="rev-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg></div>
         <p>"Choosing CashAsIs was the best decision we made. Incredibly responsive and helpful. Impressed by their professionalism and integrity every step."</p>
       </div>
-      <div class="rev-card">
+      <div class="rev-card reveal">
         <div class="rev-head">
           <div class="rev-av" style="background:#2fa84f">E</div>
           <div><div class="rev-name">Eddie Gonzales</div><div class="rev-time">5 months ago</div></div>
@@ -708,7 +883,7 @@ fbq('track','PageView');
         <div class="rev-stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.4 3.3L6.8 14l-5-4.9 7-.9Z"/></svg></div>
         <p>"I highly recommend CashAsIs to anyone looking to sell fast. Excellent customer service and a fair price. Selling literally couldn't have been easier!"</p>
       </div>
-      <div class="rev-card">
+      <div class="rev-card reveal">
         <div class="rev-head">
           <div class="rev-av" style="background:#8b3fd1">M</div>
           <div><div class="rev-name">Malbec G.</div><div class="rev-time">1 year ago</div></div>
@@ -721,80 +896,63 @@ fbq('track','PageView');
   </div>
 </section>
 
-<!-- ============ COMPARE ============ -->
-<section class="how compare" id="compare">
+<section class="reveal">
   <div class="wrap">
-    <p class="how-eyebrow">Side by side</p>
-    <h2 class="how-title">Cash Sale vs. Traditional Listing</h2>
-    <p class="how-sub">See why thousands of homeowners choose a direct cash sale over the traditional route.</p>
-    <div class="cmp">
-      <div class="cmp-head"><span></span><span>Traditional Listing</span><span class="cs"><svg viewBox="0 0 24 24" fill="#F26D21" width="11" height="11" style="transform:rotate(45deg)"><rect x="5" y="5" width="14" height="14" rx="3"/></svg> CashAsIs Cash Sale</span></div>
-      <div class="cmp-row">
-        <span class="cmp-label">Time to Close</span>
-        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>3-6 months on market</span>
-        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Close in as few as 7 days</span>
+    <div class="row-head">
+      <div>
+        <p class="eyebrow">From the desk</p>
+        <h2>Guides for Houston sellers</h2>
       </div>
-      <div class="cmp-row">
-        <span class="cmp-label">Commissions & Fees</span>
-        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>5-6% agent commissions</span>
-        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Zero fees or commissions</span>
-      </div>
-      <div class="cmp-row">
-        <span class="cmp-label">Repairs Required</span>
-        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Fix up before listing</span>
-        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Sell completely as-is</span>
-      </div>
-      <div class="cmp-row">
-        <span class="cmp-label">Showings & Open Houses</span>
-        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Strangers in your home</span>
-        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>No showings, ever</span>
-      </div>
-      <div class="cmp-row">
-        <span class="cmp-label">Deal Certainty</span>
-        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Buyers fall through</span>
-        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>Cash is guaranteed</span>
-      </div>
-      <div class="cmp-row">
-        <span class="cmp-label">Closing Date</span>
-        <span class="cmp-trad"><span class="cmp-x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M6 6l12 12M18 6 6 18"/></svg></span>Bank & buyer control it</span>
-        <span class="cmp-cash"><span class="cmp-c"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="m5 12 5 5L20 7"/></svg></span>You pick the date</span>
-      </div>
+      <a class="pill" href="/blog/">All resources</a>
     </div>
-    <div class="hiw-cta" style="margin-top:38px">
-      <a href="#" class="btn btn-orange" data-cao-open>Get My Offer <span>&rarr;</span></a>
-      <p class="hiw-micro">Takes 30 seconds &nbsp;&middot;&nbsp; No obligation &nbsp;&middot;&nbsp; No pressure</p>
+    <div class="posts stagger">
+      <a class="post reveal" href="/blog/hcad-tax-value-vs-cash-offer-harris-county/"><img loading="lazy" decoding="async" src="/images/hcad-tax-value-vs-cash-offer-harris-county.png" alt="HCAD value compared with a cash offer" width="1200" height="630"><h3>HCAD Value vs. a Cash Offer: A Harris County Seller's Guide</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/selling-houston-area-house-private-water-well/"><img loading="lazy" decoding="async" src="/images/selling-houston-area-house-private-water-well.png" alt="House with a private water well" width="1200" height="630"><h3>Selling a Houston-Area House With a Private Water Well</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/when-to-transfer-utilities-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/when-to-transfer-utilities-selling-houston-house.png" alt="Utilities at a Houston house" width="1200" height="630"><h3>Selling a Houston House: When Should Utilities Transfer?</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/mold-remediation-certificate-selling-texas-house/"><img loading="lazy" decoding="async" src="/images/mold-remediation-certificate-selling-texas-house.png" alt="Mold remediation paperwork" width="1200" height="630"><h3>Selling a Texas House After Mold Work: Check the Certificate</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/replace-air-conditioner-before-selling-houston-house/"><img loading="lazy" decoding="async" src="/images/replace-air-conditioner-before-selling-houston-house.png" alt="Air conditioner on a Houston house" width="1200" height="630"><h3>Replace the AC Before Selling a Houston House? Compare First</h3><span class="read">Read &rarr;</span></a>
+      <a class="post reveal" href="/blog/selling-houston-house-from-out-of-state-signing/"><img loading="lazy" decoding="async" src="/images/selling-houston-house-from-out-of-state-signing.png" alt="Signing documents away from the house" width="1200" height="630"><h3>Selling a Houston House From Out of State: Plan the Signing</h3><span class="read">Read &rarr;</span></a>
+    </div>
+    <div class="pills">
+      <a class="pill" href="/blog/inherited-property-cashasis-options/">Inherited</a>
+      <a class="pill" href="/blog/sell-house-behind-on-taxes-houston/">Back taxes</a>
+      <a class="pill" href="/blog/options-before-foreclosure-sale/">Foreclosure</a>
+      <a class="pill" href="/blog/vacant-house-insurance-while-selling-houston/">Vacant</a>
+      <a class="pill" href="/blog/sell-house-with-tenants-houston/">Tenants</a>
+      <a class="pill" href="/blog/sell-house-needs-major-repairs-houston/">Major repairs</a>
     </div>
   </div>
 </section>
 
-<!-- ============ FAQ ============ -->
-<section class="how" id="faq">
-  <div class="wrap">
-    <p class="how-eyebrow">Questions &amp; answers</p>
-    <h2 class="how-title">Frequently Asked Questions</h2>
-    <p class="how-sub">Everything you need to know about selling your house for cash, no fluff.</p>
-    <div class="faq-list">
-      <details class="faq2">
+<section class="how reveal" id="faq">
+  <div class="wrap faq-layout">
+    <div class="faq-intro">
+      <p class="eyebrow">Questions &amp; answers</p>
+      <h2 class="how-title">Frequently Asked Questions</h2>
+      <p class="how-sub">Everything you need to know about selling your house for cash, no fluff.</p>
+    </div>
+    <div class="faq-list stagger">
+      <details class="faq2 reveal">
         <summary>How quickly can you close?<span class="pl">+</span></summary>
         <div class="ans2">We can close in as little as 7 days. If you need more time, that's fine too. You choose the closing date that works for you.</div>
       </details>
-      <details class="faq2">
+      <details class="faq2 reveal">
         <summary>Do I need to clean or make repairs before selling?<span class="pl">+</span></summary>
         <div class="ans2">No. Sell completely as-is. Leave behind whatever you don't want, skip the cleanup, and never lift a hammer. We handle it from there.</div>
       </details>
-      <details class="faq2">
+      <details class="faq2 reveal">
         <summary>Is this a real offer or just an estimate?<span class="pl">+</span></summary>
         <div class="ans2">It's a real, no-obligation cash offer based on your actual property and situation, not a vague online estimate.</div>
       </details>
-      <details class="faq2">
+      <details class="faq2 reveal">
         <summary>Are there any fees or commissions?<span class="pl">+</span></summary>
         <div class="ans2">None. No agent commissions, no listing fees, and no hidden costs. The offer we present is what you walk away with.</div>
       </details>
-      <details class="faq2">
+      <details class="faq2 reveal">
         <summary>What if I'm behind on payments or in foreclosure?<span class="pl">+</span></summary>
         <div class="ans2">We can still help. We've worked with sellers behind on payments and facing foreclosure, and we move quickly to beat tight deadlines.</div>
       </details>
-      <details class="faq2">
+      <details class="faq2 reveal">
         <summary>What areas do you buy in?<span class="pl">+</span></summary>
         <div class="ans2">We buy throughout the local area and surrounding communities. Not sure if we cover yours? Reach out and we'll let you know.</div>
       </details>
@@ -802,17 +960,38 @@ fbq('track','PageView');
   </div>
 </section>
 
-<!-- ============ FOOTER ============ -->
+<section class="reveal">
+  <div class="wrap">
+    <div class="cta-card">
+      <div class="cta-copy">
+        <h2>Get Your <span class="o">Cash Offer</span> Today</h2>
+        <p>Fill out the form and we'll be in touch within 24 hours.</p>
+        <div class="addr" id="ctaAddr">
+          <svg class="pin" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <input id="cta-address" type="text" placeholder="Enter your property address" aria-label="Property address" autocomplete="street-address">
+          <a class="btn btn-orange" href="#lead-shell" id="ctaGo" data-cao-open>Get my cash offer</a>
+        </div>
+        <p class="secure">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Your information is 100% secure and never shared.
+        </p>
+      </div>
+      <div class="cta-photo">
+        <picture>
+          <source type="image/avif" srcset="/images/cta-keys-800.avif 800w, /images/cta-keys.avif 1600w" sizes="(max-width: 760px) 80vw, 380px">
+          <source type="image/webp" srcset="/images/cta-keys-800.webp 800w, /images/cta-keys.webp 1600w" sizes="(max-width: 760px) 80vw, 380px">
+          <img src="/images/cta-keys.webp" alt="Family holding house keys on their first day in a new home" width="1600" height="1200" loading="lazy" decoding="async">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer id="contact">
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="/" class="logo">
-          <span class="lock">
-            <span class="name"><span class="navy">cash</span><span class="orange">asis</span></span>
-            <span class="sub">WE BUY HOUSES AS-IS</span>
-          </span>
-        </a>
+        <a href="/" class="logo"><picture><source type="image/webp" srcset="/images/cashasis-wordmark-com.webp"><img class="foot-logo" src="/images/cashasis-wordmark-com.png" alt="CashAsIs - We Buy Houses As-Is" width="498" height="104"></picture></a>
         <p class="foot-blurb">We buy houses as-is in your area and surrounding communities. Get a fair cash offer today with no hassle and no pressure.</p>
       </div>
       <div class="foot-col">
@@ -842,7 +1021,6 @@ fbq('track','PageView');
         <div class="socials">
           <a href="https://www.facebook.com/cashasis/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.9 3.78-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94Z"/></svg></a>
           <a href="https://www.instagram.com/cashasisproperties/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
-          
         </div>
       </div>
     </div>
@@ -858,6 +1036,241 @@ fbq('track','PageView');
     </div>
   </div>
 </footer>
+
+<div class="lead-shell" id="lead-shell">
+  <div class="lead-dialog" role="dialog" aria-modal="true" aria-label="Get your cash offer">
+    <a class="lead-x" href="#top" id="leadClose" aria-label="Close">&times;</a>
+    <div class="offer-card" id="caoCard">
+        <div class="cao-prog" id="caoProg"><span id="caoBar"></span></div>
+        <div class="cao-pane active" data-pane="1">
+          <h2>Get Your Cash Offer Today</h2>
+          <p class="sub">Fill out the form and we'll be in touch within 24 hours.</p>
+          <form id="leadForm">
+          <div class="field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <input type="text" name="address" placeholder="Enter your property address" required>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="field">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+          </div>
+          <div class="field">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+            <input type="email" name="email" placeholder="Email Address" required>
+          </div>
+          <label class="consent">
+            <input type="checkbox" name="consent" required>
+            <span>By submitting, I consent to receive calls, emails &amp; texts (SMS/MMS) from CashAsIs / Mr. Wright Properties at the info provided. Msg &amp; data rates may apply. Reply <strong>STOP</strong> to opt out. Not a condition of purchase. <a href="/privacy">Privacy Policy</a> &amp; <a href="/terms">Terms</a>.</span>
+          </label>
+          <button type="submit" class="btn btn-orange btn-block">Get my cash offer</button>
+        <input type="hidden" name="condition">
+          <input type="hidden" name="timeline">
+          <input type="hidden" name="source" value="cashasis">
+        </form>
+        </div>
+        <div class="cao-pane" data-pane="2">
+          <h4 class="cao-q">What's the condition of your property?</h4>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Move-In Ready"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>Move-In Ready</b><small>Clean, no major issues</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Needs Work"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>Needs Work</b><small>Some repairs needed</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Heavily Distressed"><span class="dia" style="--d:#e23b3b"></span><span class="txt"><b>Heavily Distressed</b><small>Major repairs or damage</small></span></button>
+          <button type="button" class="cao-opt" data-field="condition" data-val="Vacant / Abandoned"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Vacant / Abandoned</b><small>No one living there</small></span></button>
+        </div>
+        <div class="cao-pane" data-pane="3">
+          <h4 class="cao-q">What's your ideal timeline to close?</h4>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="ASAP"><span class="dia" style="--d:#F26D21"></span><span class="txt"><b>ASAP</b><small>As fast as possible</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="30 Days"><span class="dia" style="--d:#0d9488"></span><span class="txt"><b>30 Days</b><small>Within a month</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="60-90 Days"><span class="dia" style="--d:#16a34a"></span><span class="txt"><b>60-90 Days</b><small>I have some time</small></span></button>
+          <button type="button" class="cao-opt" data-field="timeline" data-val="Just Exploring"><span class="dia" style="--d:#64748b"></span><span class="txt"><b>Just Exploring</b><small>No rush right now</small></span></button>
+          <button type="button" class="cao-back" id="caoBack">&larr; Back</button>
+        </div>
+        <div class="cao-pane cao-done" data-pane="4">
+          <div class="cao-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg></div>
+        <h4>You're All Set!</h4>
+        <p>We will review your property and reach out within <b>24 hours</b> with your cash offer. No pressure, no obligation.</p>
+        </div>
+      </div>
+  </div>
+</div>
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  var h=document.querySelector('.rot-h1');
+  if(h){
+    var slot=h.querySelector('.slot'), words=[].slice.call(slot.querySelectorAll('.w')), art=h.querySelector('.art');
+    var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var i=0;
+    function measure(){
+      var line=h.querySelector('.l1'); var maxW=line.getBoundingClientRect().width;
+      var W=0,H=0;
+      words.forEach(function(w){
+        var m=w.cloneNode(true);
+        m.className=w.className.replace(/\b(on|out)\b/g,'');
+        m.style.position='absolute'; m.style.visibility='hidden'; m.style.opacity='1'; m.style.transform='none';
+        m.style.left='0'; m.style.right='auto'; m.style.bottom='auto'; m.style.whiteSpace='nowrap'; m.style.display='inline-block';
+        slot.appendChild(m); var r=m.getBoundingClientRect();
+        if(r.width>maxW){m.style.whiteSpace='normal'; m.style.width=maxW+'px'; r=m.getBoundingClientRect();}
+        W=Math.max(W,Math.min(r.width,maxW)); H=Math.max(H,r.height); m.remove();
+      });
+      slot.style.width=Math.ceil(W+8)+'px'; slot.style.height=Math.ceil(H)+'px';
+    }
+    function go(){
+      var cur=words[i]; i=(i+1)%words.length; var nx=words[i];
+      cur.classList.remove('on'); cur.classList.add('out');
+      art.classList.add('fade');
+      setTimeout(function(){art.textContent=nx.getAttribute('data-art'); art.classList.remove('fade');},220);
+      nx.classList.remove('out'); void nx.offsetWidth; nx.classList.add('on');
+      setTimeout(function(){cur.classList.remove('out');},500);
+    }
+    var freeze=new URLSearchParams(location.search).get('freeze');
+    function hold(){
+      var k=words.findIndex(function(w){return w.textContent.trim().toLowerCase()===freeze.toLowerCase();});
+      if(k<0) return false;
+      words.forEach(function(w){w.style.transition='none'; w.classList.remove('on'); w.classList.remove('out');});
+      words[k].classList.add('on'); art.textContent=words[k].getAttribute('data-art'); i=k; return true;
+    }
+    (document.fonts?document.fonts.ready:Promise.resolve()).then(function(){
+      measure(); var frozen=freeze&&hold(); window.__heroReady=true;
+      if(!reduce&&!frozen) setInterval(go,2500);
+    });
+    addEventListener('resize',measure);
+  }
+  var header=document.querySelector('header');
+  if(header) addEventListener('scroll',function(){header.classList.toggle('scrolled',scrollY>8);},{passive:true});
+  (function(){
+    var cards=[].slice.call(document.querySelectorAll('#how .hiw-card'));
+    var stage=document.querySelector('.steps-stage');
+    if(!cards.length) return;
+    var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var idx=0, timer=null, seen=false;
+    function show(n){
+      idx=(n+cards.length)%cards.length;
+      cards.forEach(function(c,i){
+        c.classList.toggle('open', i===idx);
+        c.classList.remove('playing');
+      });
+      if(stage){
+        stage.setAttribute('data-step', String(idx+1));
+        stage.classList.remove('play');
+      }
+      clearTimeout(timer);
+      if(!reduce && seen){
+        void cards[idx].offsetWidth;
+        cards[idx].classList.add('playing');
+        if(stage) stage.classList.add('play');
+        timer=setTimeout(function(){show(idx+1);},4500);
+      }
+    }
+    cards.forEach(function(card,i){
+      card.setAttribute('tabindex','0');
+      card.addEventListener('click',function(){show(i);});
+      card.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();show(i);}});
+    });
+    var how=document.getElementById('how');
+    function watch(el, on){
+      if(!el) return;
+      if(!('IntersectionObserver' in window)){on(true);return;}
+      new IntersectionObserver(function(ents){on(ents[0].isIntersecting);},{threshold:.25}).observe(el);
+    }
+    watch(how, function(on){
+      seen=on;
+      if(on) show(idx);
+      else {
+        clearTimeout(timer);
+        cards.forEach(function(c){c.classList.remove('playing');});
+        if(stage) stage.classList.remove('play');
+      }
+    });
+    var tl=document.querySelector('.tl');
+    watch(tl, function(on){
+      if(!on || !tl || tl.classList.contains('inview')) return;
+      tl.classList.add('inview');
+      if(reduce) tl.classList.add('lit');
+      else setTimeout(function(){tl.classList.add('lit');},2400);
+    });
+  })();
+  (function(){
+    var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var nodes=[].slice.call(document.querySelectorAll('.reveal'));
+    if(!nodes.length) return;
+    if(reduce || !('IntersectionObserver' in window)){
+      nodes.forEach(function(n){n.classList.add('in');});
+      return;
+    }
+    var io=new IntersectionObserver(function(ents){
+      ents.forEach(function(ent){
+        if(!ent.isIntersecting) return;
+        ent.target.classList.add('in');
+        io.unobserve(ent.target);
+      });
+    },{threshold:0,rootMargin:'0px 0px -8% 0px'});
+    nodes.forEach(function(n){io.observe(n);});
+  })();
+  var grid=document.querySelector('#stories .vid-grid');
+  function nudge(dir){ if(grid) grid.scrollBy({left:dir*Math.max(280,grid.clientWidth*0.8),behavior:'smooth'}); }
+  var prev=document.querySelector('[data-story-prev]'), next=document.querySelector('[data-story-next]');
+  if(prev) prev.addEventListener('click',function(){nudge(-1);});
+  if(next) next.addEventListener('click',function(){nudge(1);});
+
+  function openLead(addr){
+    var form=document.getElementById('leadForm');
+    var field=form&&form.querySelector('input[name="address"]');
+    if(field) field.value=addr||'';
+    var shell=document.getElementById('lead-shell');
+    if(!shell) return;
+    shell.classList.add('open');
+    shell.setAttribute('aria-hidden','false');
+    document.body.style.overflow='hidden';
+    if(field){ try{ field.focus({preventScroll:true}); }catch(err){} }
+  }
+  function closeLead(){
+    var shell=document.getElementById('lead-shell');
+    if(!shell) return;
+    shell.classList.remove('open');
+    shell.setAttribute('aria-hidden','true');
+    document.body.style.overflow='';
+    if(location.hash==='#lead-shell' || location.hash==='#top'){
+      try{ history.replaceState(null,'',location.pathname+location.search); }catch(err){}
+    }
+  }
+  function bindAddr(boxId, inputId, goId){
+    var box=document.getElementById(boxId);
+    var input=document.getElementById(inputId);
+    var go=document.getElementById(goId);
+    if(!go) return;
+    go.addEventListener('click',function(e){
+      var v=(input&&input.value||'').trim();
+      if(!v){
+        e.preventDefault();
+        if(box){ box.classList.remove('shake'); void box.offsetWidth; box.classList.add('shake'); }
+        if(input) input.focus();
+        return;
+      }
+      e.preventDefault();
+      openLead(v);
+    });
+    if(input) input.addEventListener('keydown',function(e){
+      if(e.key!=='Enter') return;
+      if(input.getAttribute('aria-expanded')==='true') return;
+      e.preventDefault();
+      go.click();
+    });
+  }
+  bindAddr('heroAddr','prop-address','heroGo');
+  bindAddr('navAddr','nav-address','navGo');
+  bindAddr('ctaAddr','cta-address','ctaGo');
+  var leadClose=document.getElementById('leadClose');
+  if(leadClose) leadClose.addEventListener('click',function(e){ e.preventDefault(); closeLead(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeLead(); });
+  var leadShell=document.getElementById('lead-shell');
+  if(leadShell) leadShell.addEventListener('click',function(e){ if(e.target===leadShell) closeLead(); });
+})();
+</script>
 
 <script>
   // Mobile nav

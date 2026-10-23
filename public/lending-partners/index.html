@@ -33,19 +33,20 @@ fbq('track','PageView');
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
   :root{
-    --navy:#0D1B2A;
+    --navy:#001947;
     --navy-soft:#142436;
-    --orange:#F26D21;
-    --orange-dk:#d95c14;
+    --orange:#FB6200;
+    --orange-dk:#D95400;
     --ink:#1f2b3a;
     --muted:#5b6b7c;
     --line:rgba(13,27,42,.10);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{font-family:'Inter',system-ui,sans-serif;color:#1f2b3a;background:#fff;line-height:1.5;-webkit-font-smoothing:antialiased}
+  body{font-family:'Inter',system-ui,sans-serif;color:#0E1A33;background:#FAF7F2;line-height:1.5;-webkit-font-smoothing:antialiased}
   .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
   a{color:inherit;text-decoration:none}
   .orange{color:var(--orange)}
@@ -60,18 +61,18 @@ fbq('track','PageView');
   .btn-ghost:hover{border-color:var(--orange);color:var(--orange)}
 
   /* ---- nav ---- */
-  nav{position:sticky;top:0;z-index:50;background:var(--navy);display:flex;align-items:center;justify-content:space-between;padding:16px 24px}
+  nav{position:sticky;top:0;z-index:50;background:rgba(250,247,242,.92);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid #E7E0D5;display:flex;align-items:center;justify-content:space-between;padding:16px 24px}
   nav .logo .lock{display:flex;flex-direction:column;line-height:1}
   nav .logo .name{font-weight:900;font-size:22px;letter-spacing:-.5px}
-  nav .logo .name .navy{color:#fff}
+  nav .logo .name .navy{color:var(--navy)}
   nav .logo .sub{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-top:5px}
   /* normalized header wordmark — matches blog/legal .brand .wm (white on dark) */
   .brand{display:flex;align-items:center;gap:11px}
   .brand .wm{font-weight:800;font-size:22px;letter-spacing:-.03em;line-height:1}
-  .brand .wm .n{color:#fff}
+  .brand .wm .n{color:var(--navy)}
   .brand .wm .o{color:var(--orange)}
-  .brand .sub{font-size:9px;letter-spacing:.18em;color:rgba(255,255,255,.6);font-weight:700;margin-top:3px;text-transform:uppercase}
-  .nav-cta{display:inline-flex;align-items:center;gap:8px;color:#fff;font-weight:700;font-size:15px}
+  .brand .sub{font-size:9px;letter-spacing:.18em;color:#5E6577;font-weight:700;margin-top:3px;text-transform:uppercase}
+  .nav-cta{display:inline-flex;align-items:center;gap:8px;color:var(--navy);font-weight:700;font-size:15px}
   .nav-cta svg{width:18px;height:18px;color:var(--orange)}
 
   /* ---- hero ---- */

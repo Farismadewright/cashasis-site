@@ -11,14 +11,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
   :root{
-    --navy:#0D1B2A;
+    --navy:#001947;
     --navy-soft:#142436;
-    --orange:#F26D21;
-    --orange-dark:#d95c14;
-    --teal:#1B6F7A;
-    --ink:#0D1B2A;
+    --orange:#FB6200;
+    --orange-dark:#D95400;
+    --teal:#D95400;
+    --ink:#001947;
     --muted:#5a6675;
     --line:#e6e9ef;
     --bg:#ffffff;
@@ -36,7 +37,7 @@
   body{
     font-family:'Inter',system-ui,sans-serif;
     color:var(--ink);
-    background:var(--bg-alt);
+    background:#FAF7F2;
     line-height:1.55;
     -webkit-font-smoothing:antialiased;
   }
@@ -50,15 +51,16 @@
   .logo{display:flex;align-items:center;gap:12px}
   .logo .lock{display:flex;flex-direction:column;line-height:1}
   .logo .name{font-weight:800;font-size:24px;letter-spacing:-.035em}
-  .logo .name .navy{color:#fff}
+  .logo .name .navy{color:var(--navy)}
+  footer .logo .name .navy{color:#fff}
   .logo .sub{font-weight:600;font-size:9px;letter-spacing:.22em;color:#aeb8c6;display:flex;align-items:center;gap:6px;margin-top:3px}
   .logo .sub::before,.logo .sub::after{content:"";height:1px;width:14px;background:#3a4a5e}
   /* normalized header wordmark — matches blog/legal .brand .wm (white on dark) */
   .brand{display:flex;align-items:center;gap:11px}
   .brand .wm{font-weight:800;font-size:22px;letter-spacing:-.03em;line-height:1}
-  .brand .wm .n{color:#fff}
+  .brand .wm .n{color:var(--navy)}
   .brand .wm .o{color:var(--orange)}
-  .brand .sub{font-size:9px;letter-spacing:.18em;color:rgba(255,255,255,.6);font-weight:700;margin-top:3px;text-transform:uppercase}
+  .brand .sub{font-size:9px;letter-spacing:.18em;color:#5E6577;font-weight:700;margin-top:3px;text-transform:uppercase}
 
   /* ---------- Buttons ---------- */
   .btn{
@@ -75,9 +77,9 @@
   .btn:disabled{opacity:.55;cursor:not-allowed;transform:none;box-shadow:none}
 
   /* ---------- Nav ---------- */
-  header{background:var(--navy);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.06)}
+  header{background:rgba(250,247,242,.92);backdrop-filter:saturate(1.4) blur(14px);position:sticky;top:0;z-index:50;border-bottom:1px solid #E7E0D5}
   nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;max-width:760px;margin:0 auto;padding-left:24px;padding-right:24px}
-  .nav-cta{color:#cdd5e0;font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px}
+  .nav-cta{color:var(--navy);font-weight:700;font-size:14px;display:flex;align-items:center;gap:8px}
   .nav-cta svg{width:18px;height:18px;color:var(--orange)}
 
   /* ---------- Hero ---------- */
