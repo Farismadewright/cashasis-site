@@ -36,3 +36,5 @@ The estate may still be establishing authority to sell while the family is decid
 Tell us who is handling the estate, whether the property is occupied, and what you know about the probate matter. Title and estate requirements still must be satisfied before closing.
 
 See [Fort Bend County cash-sale guide](/blog/sell-house-fast-fort-bend-county-tx/) and [Houston probate guide](/blog/sell-probate-house-houston/).
+
+If the estate property is in Missouri City, see [selling a Missouri City house for cash](/blog/sell-house-fast-missouri-city-tx/).

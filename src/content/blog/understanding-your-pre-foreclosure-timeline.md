@@ -42,4 +42,6 @@ We can review the property and let you know what we can offer.
 
 **The sooner we have the information, the more time there is to get the purchase completed if you decide to sell.**
 
+For Houston-specific sale locations and a checklist, see [Houston foreclosure options](/blog/stop-foreclosure-houston/).
+
 > CashAsIs is a property buyer, not a lender, law firm, or foreclosure-relief service. For questions about your loan or foreclosure rights, contact your mortgage servicer or a qualified professional.

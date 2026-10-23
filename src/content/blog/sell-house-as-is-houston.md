@@ -13,6 +13,10 @@ faq:
     a: "No. CashAsIs evaluates Houston-area properties in their current condition, including properties needing repairs, updating, or cleanout."
   - q: "Am I obligated if I request an offer?"
     a: "No. Requesting an offer does not require you to accept it."
+  - q: "What does selling a house as-is in Houston mean?"
+    a: "It means the buyer purchases the property in its current condition, without asking you to make repairs, renovate, or clean it out first. You still need to answer disclosure questions truthfully, and title and closing steps still apply."
+  - q: "Can I sell my Houston house as-is if it has foundation, fire, or flood damage?"
+    a: "Yes, you can ask CashAsIs to review it. Damage is part of our evaluation rather than a reason to avoid requesting an offer, and requesting an offer does not obligate you to accept it."
 ---
 
 If you searched **sell house as is Houston**, you are probably looking for a simpler way to handle a Houston property—not another project to manage.
@@ -52,6 +56,16 @@ Before spending money on paint, flooring, roofing, cleanout, landscaping, founda
 Read [what selling as-is actually means](/blog/selling-as-is-what-it-actually-means/) and [what you may be able to skip in an as-is cash sale](/blog/what-can-you-skip-selling-cash-as-is/).
 
 If timing is your biggest concern, visit [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/). If repairs are the issue, visit [Sell House Without Repairs Houston](/blog/sell-house-without-repairs-houston/).
+
+## Houston property conditions we buy as-is
+
+- Foundation movement or cracks: see [selling a house with foundation problems in Houston](/blog/sell-house-foundation-problems-houston/).
+- Fire damage: see [selling a fire-damaged house in Houston](/blog/sell-fire-damaged-house-houston/).
+- Flood damage: see [selling a flood-damaged house in Houston](/blog/sell-flood-damaged-house-houston/).
+- Open code violations: see [selling a house with code violations in Houston](/blog/sell-house-code-violations-houston/).
+- Tenants still in place: see [selling a house with tenants in Houston](/blog/sell-house-with-tenants-houston/).
+
+"As-is" does not remove a seller's disclosure duties. See the [Texas as-is sale seller disclosure checklist](/blog/texas-as-is-sale-seller-disclosure-checklist/).
 
 ## Let us be a resource
 

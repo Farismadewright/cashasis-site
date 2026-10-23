@@ -58,6 +58,8 @@ That property-specific approach is important for both conventional houses and di
 
 If the property is inherited, see [Sell an Inherited House in Houston](/blog/sell-inherited-house-houston/). If it has major repair needs, see [Sell a Houston House That Needs Major Repairs](/blog/sell-house-needs-major-repairs-houston/).
 
+If your Katy-area property is on the Fort Bend County side, see [we buy houses in Fort Bend County](/blog/sell-house-fast-fort-bend-county-tx/).
+
 ## Get a CashAsIs offer for your Katy property
 
 You do not need to make the house perfect before starting.

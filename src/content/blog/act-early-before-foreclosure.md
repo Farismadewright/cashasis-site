@@ -68,4 +68,6 @@ We'll review the property and let you know what we can offer.
 
 **You decide whether the offer works. Starting early simply gives you more time to make that decision and, if you choose to sell, more time to get the purchase completed.**
 
+See also: [options to stop a Houston foreclosure](/blog/stop-foreclosure-houston/).
+
 > CashAsIs is a property buyer, not a lender, law firm, or foreclosure-relief service. Questions about your mortgage, foreclosure rights, or available loss-mitigation options should be directed to your mortgage servicer or a qualified professional.
