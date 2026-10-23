@@ -1,0 +1,300 @@
+{
+  "title": "Selling a Houston House With Suspected Asbestos",
+  "description": "Suspect asbestos in an older Houston house? Avoid disturbing materials, clarify professional findings and compare a defined work plan with selling as-is.",
+  "pubDate": "2026-10-23T13:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Houston",
+    "older houses",
+    "sell as is"
+  ],
+  "primaryKeyword": "selling Houston house with suspected asbestos",
+  "supportingKeywords": [
+    "asbestos before selling house Houston",
+    "old floor tile house sale",
+    "asbestos assessment versus removal"
+  ],
+  "image": "/images/selling-houston-house-suspected-asbestos.png",
+  "imageAlt": "Illustrative older Houston house with intact vintage floor tiles visible through a doorway, Asbestos Sell As-Is headline and transparent Cash As-Is logo; not a material diagnosis",
+  "faq": [
+    {
+      "q": "Can I identify asbestos from a house's age or a photo of the floor?",
+      "a": "No. EPA guidance says appearance generally cannot establish whether a material contains asbestos. Treat a suspicion as unconfirmed and obtain appropriate professional advice before disturbing it."
+    },
+    {
+      "q": "Should I remove old tile to make the house easier to sell?",
+      "a": "Do not disturb suspected material merely for marketing. Clarify the condition and appropriate professional scope first, then compare a defined work plan with a current-condition sale."
+    },
+    {
+      "q": "Does selling as-is mean the material has been made safe?",
+      "a": "No. A purchase agreement is not a health assessment, remediation record or permission to disturb material. Known facts, safe access and transaction responsibilities still need to be addressed."
+    },
+    {
+      "q": "Can Cash As-Is review the house before I fund removal?",
+      "a": "You can request a review with an accurate account of the known condition and any reports. Whether Cash As-Is can buy and on what terms depends on the property and actual transaction; no removal-cost or acceptance guarantee is implied."
+    }
+  ],
+  "runId": "native-daily-20261023T130501Z",
+  "fence": 16,
+  "day": "2026-10-23",
+  "slug": "selling-houston-house-suspected-asbestos",
+  "intentKey": "houston-seller-suspected-asbestos-material-disturbance-assessment-sale-choice",
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/selling-pre-1978-houston-house-lead-paint/",
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+  ],
+  "substantiveDifference": "First suspected-asbestos seller decision: separates visual suspicion, assessed locations, disturbance risk, professional project scope and sale choices. Existing lead-paint page addresses a different material and federal handoff; generic repairs/disclosure pages do not answer asbestos decisions.",
+  "sources": [
+    {
+      "url": "https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos",
+      "title": "US EPA: Protect Your Family from Exposures to Asbestos",
+      "publicationDate": null,
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Appearance generally cannot identify asbestos. Professional assessment/sampling is recommended where appropriate; avoid disturbing suspected materials; repair and removal have distinct scopes. No DIY procedure or safety clearance provided.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    },
+    {
+      "url": "https://www.dshs.texas.gov/asbestos-program",
+      "title": "Texas DSHS: Asbestos Program",
+      "publicationDate": null,
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Program provides licensing/licensee search, regional inspectors and renovation/maintenance/demolition decision resources. Actual building/project applicability must be verified; no universal single-family licensing or survey mandate asserted.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    }
+  ],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending",
+    "render": "pass",
+    "conversion": "pass"
+  },
+  "imageSha256": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing allowances only; no subscriptions, credits, paid APIs or new provider purchased."
+  },
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "ASBESTOS?|SELL AS-IS?",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-c1cf5a90-c51f-4bf9-b716-f7f315c1088d.png",
+    "backgroundSha256": "085b046757e198986c08c46d6413285c58b71badf4d7c24ed39ddc0ec00a8873",
+    "backgroundPrompt": "Use case: photorealistic-natural. Original realistic editorial image for seller blog thumbnail, landscape1536x1024. Fictional older Houston brick house on RIGHT, view through a clean open doorway into an empty room with intact vintage resilient square floor tiles; no broken tile, debris, dust, tools, workers or implied laboratory diagnosis. Natural daylight, realistic ordinary wear. LEFT half quiet shaded exterior wall/trees negative space for later typography. No text, logos, address, watermark, people or safety equipment. This is conceptual older material, not a claimed actual asbestos identification. Wide1200x630crop.",
+    "illustrative": true,
+    "visualReview": "Full-size1200x630 and article/card mobile/desktop reviewed: exact transparent official logo, minimal readable headline, no block or clipping, safe table scrolling."
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "recent14DayMessages": 0,
+    "inboundMessages": 215,
+    "screenedMessages": 211,
+    "sampleMonths": [
+      "2026-06"
+    ],
+    "keywordScreen": {
+      "price": {
+        "messages": 31,
+        "distinctSellers": 17
+      },
+      "condition": {
+        "messages": 3,
+        "distinctSellers": 3
+      },
+      "timing": {
+        "messages": 10,
+        "distinctSellers": 6
+      },
+      "tax": {
+        "messages": 11,
+        "distinctSellers": 9
+      },
+      "tenants": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "mode": "read_only",
+    "limitations": "Export returned historical messages; recent-date query returned no messages. Current seller-theme evidence unavailable. Historical keyword screen only, not context-validated recurrence or representative demand. New topics selected as distinct editorial gaps, not claimed CRM recurrence. No raw private text, identifiers, addresses, amounts or unique stories retained."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "Post-publication inspection pending; optional reporting"
+    },
+    "GA4Measurement": {
+      "originalOrganicLandingSessions": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No settled new-article data; existing attribution preserved; no fake lead submitted."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "checkedAt": "2026-10-23T13:23:22.028404+00:00",
+      "status": "pass",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "internalLinks": [
+        "/blog/cash-offer-vs-listing-house-houston/",
+        "/blog/sell-house-needs-major-repairs-houston/",
+        "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+      ],
+      "originality12WordShinglesMax": 2,
+      "nearestShingleMatches": [
+        [
+          2,
+          "selling-houston-house-neglected-pool"
+        ],
+        [
+          2,
+          "replace-air-conditioner-before-selling-houston-house"
+        ],
+        [
+          2,
+          "hcad-tax-value-vs-cash-offer-harris-county"
+        ]
+      ],
+      "sitemap": true,
+      "rss": true,
+      "mobileWidths": [
+        360,
+        390,
+        768,
+        1366
+      ],
+      "mobileEvidence": {
+        "passed": true,
+        "results": [
+          {
+            "width": 360,
+            "scroll": 360,
+            "body": 274,
+            "table": 317.015625,
+            "tableScrollSafe": true,
+            "image": 274,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png"
+          },
+          {
+            "width": 390,
+            "scroll": 390,
+            "body": 304,
+            "table": 317.015625,
+            "tableScrollSafe": true,
+            "image": 304,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png"
+          },
+          {
+            "width": 768,
+            "scroll": 768,
+            "body": 638,
+            "table": 638,
+            "tableScrollSafe": true,
+            "image": 638,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png"
+          },
+          {
+            "width": 1366,
+            "scroll": 1366,
+            "body": 638,
+            "table": 638,
+            "tableScrollSafe": true,
+            "image": 638,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png"
+          }
+        ]
+      },
+      "cardEvidence": [
+        {
+          "slug": "selling-houston-house-suspected-asbestos",
+          "width": 342,
+          "x": 24,
+          "imageWidth": 1200,
+          "alt": "Illustrative older Houston house with intact vintage floor tiles visible through a doorway, Asbestos Sell As-Is headline and transparent Cash As-Is logo; not a material diagnosis"
+        },
+        {
+          "slug": "selling-houston-house-suspected-asbestos",
+          "width": 342.65625,
+          "x": 147,
+          "imageWidth": 1200,
+          "alt": "Illustrative older Houston house with intact vintage floor tiles visible through a doorway, Asbestos Sell As-Is headline and transparent Cash As-Is logo; not a material diagnosis"
+        }
+      ],
+      "visualReviewedAt": "2026-10-23T13:24:33.574045+00:00"
+    }
+  }
+}

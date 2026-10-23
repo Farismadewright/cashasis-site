@@ -1,0 +1,313 @@
+{
+  "title": "Selling a Houston House With a Reverse Mortgage",
+  "description": "A reverse mortgage does not automatically prevent a house sale. Check the loan type, dated payoff and expected proceeds before choosing a Houston offer.",
+  "pubDate": "2026-10-23T13:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Houston",
+    "reverse mortgage",
+    "seller proceeds"
+  ],
+  "primaryKeyword": "selling Houston house with reverse mortgage",
+  "supportingKeywords": [
+    "reverse mortgage payoff house sale",
+    "HECM sale proceeds",
+    "cash offer reverse mortgage Houston"
+  ],
+  "image": "/images/selling-houston-house-reverse-mortgage.png",
+  "imageAlt": "Illustrative established Houston brick home with porch chairs and Reverse Loan Sell As-Is headline beside the transparent official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Can I sell a house while it has a reverse mortgage?",
+      "a": "A sale may be possible, but the reverse mortgage must be addressed. CFPB guidance explains that selling triggers repayment of the borrowed money, interest and fees. Confirm your loan type and the servicer's actual payoff requirements."
+    },
+    {
+      "q": "Is my statement balance enough to calculate what I receive?",
+      "a": "Use a dated payoff and a complete seller-proceeds estimate. A statement balance alone may not include every amount needed for repayment through the expected closing date."
+    },
+    {
+      "q": "Does an as-is offer guarantee the lender will accept less than the payoff?",
+      "a": "No. A buyer's proposal is not lender approval or a release. HECM guidance includes conditional rules; ask the servicer and your advisers what applies before relying on a proposed shortfall sale."
+    },
+    {
+      "q": "What if I already received a due-and-payable notice?",
+      "a": "Contact the servicer promptly and seek appropriate housing or legal advice. Share the notice through a secure channel with the closing team. Do not assume an offer or signed agreement pauses a deadline."
+    }
+  ],
+  "runId": "native-daily-20261023T130501Z",
+  "fence": 16,
+  "day": "2026-10-23",
+  "slug": "selling-houston-house-reverse-mortgage",
+  "intentKey": "houston-owner-reverse-mortgage-hecm-payoff-sale-proposal-net-equity",
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/how-cash-offer-house-works-houston/",
+    "/blog/sell-house-title-problems-houston/",
+    "/blog/sell-inherited-house-houston/"
+  ],
+  "substantiveDifference": "First reverse-mortgage/HECM-specific sale plan: product identification, payoff coordination, notices and conditional shortfall approval. Generic cash-process/title/inheritance pages and validation-only generic payoff PR7 do not answer these HECM decisions. PR7 remains unmerged.",
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-have-reverse-mortgage-and-i-want-sell-my-home-en-2095/",
+      "title": "CFPB: Reverse mortgage and selling a home",
+      "publicationDate": "2024-09-13",
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Selling requires repayment of principal, interest and fees; guidance is HECM-specific and conditional shortfall rules cannot be treated as blanket lender approval.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/",
+      "title": "CFPB: Reverse mortgage loans",
+      "publicationDate": "2026-09-25",
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Repayment can be triggered by sale, principal-residence changes and unmet property obligations; servicer and professional review of actual notices is required.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-payoff-amount-and-is-it-the-same-as-my-current-balance-en-205/",
+      "title": "CFPB: Payoff amount versus current balance",
+      "publicationDate": "2026-08-31",
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Payoff includes amounts needed through a specified repayment date and differs from a monthly balance. Confirm actual servicer instructions.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    }
+  ],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending",
+    "render": "pass",
+    "conversion": "pass"
+  },
+  "imageSha256": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing allowances only; no subscriptions, credits, paid APIs or new provider purchased."
+  },
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "REVERSE LOAN|SELL AS-IS?",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-1867319e-abb2-4e90-98fc-81db6d6c218a.png",
+    "backgroundSha256": "4e86b1e0fe1aace5864c81771aa3791ad5e4816aaf55e381d45551dce1275fa8",
+    "backgroundPrompt": "Use case: photorealistic-natural. Original illustrative property photo for Houston seller guide thumbnail, landscape1536x1024. Fictional established Houston brick ranch house on RIGHT, welcoming porch with empty chairs and maintained mature garden, ordinary lived-in condition in natural afternoon light. No people. LEFT half dark quiet shaded foliage/lawn negative space for later branding and headline. No text, logos, watermark, address, lender signs, money piles, elderly stereotypes or exaggerated distress. Keep house legible after1200x630wide crop.",
+    "illustrative": true,
+    "visualReview": "Full-size1200x630 and article/card mobile/desktop reviewed: exact transparent official logo, minimal readable headline, no block or clipping, safe table scrolling."
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "recent14DayMessages": 0,
+    "inboundMessages": 215,
+    "screenedMessages": 211,
+    "sampleMonths": [
+      "2026-06"
+    ],
+    "keywordScreen": {
+      "price": {
+        "messages": 31,
+        "distinctSellers": 17
+      },
+      "condition": {
+        "messages": 3,
+        "distinctSellers": 3
+      },
+      "timing": {
+        "messages": 10,
+        "distinctSellers": 6
+      },
+      "tax": {
+        "messages": 11,
+        "distinctSellers": 9
+      },
+      "tenants": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "mode": "read_only",
+    "limitations": "Export returned historical messages; recent-date query returned no messages. Current seller-theme evidence unavailable. Historical keyword screen only, not context-validated recurrence or representative demand. New topics selected as distinct editorial gaps, not claimed CRM recurrence. No raw private text, identifiers, addresses, amounts or unique stories retained."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "Post-publication inspection pending; optional reporting"
+    },
+    "GA4Measurement": {
+      "originalOrganicLandingSessions": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No settled new-article data; existing attribution preserved; no fake lead submitted."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "checkedAt": "2026-10-23T13:23:22.028404+00:00",
+      "status": "pass",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "internalLinks": [
+        "/blog/sell-inherited-house-houston/",
+        "/blog/cash-offer-vs-listing-house-houston/",
+        "/blog/sell-house-needs-major-repairs-houston/"
+      ],
+      "originality12WordShinglesMax": 2,
+      "nearestShingleMatches": [
+        [
+          2,
+          "how-to-verify-cash-home-buyer-texas"
+        ],
+        [
+          2,
+          "foundation-report-before-selling-houston-house"
+        ],
+        [
+          2,
+          "existing-survey-when-selling-texas-house"
+        ]
+      ],
+      "sitemap": true,
+      "rss": true,
+      "mobileWidths": [
+        360,
+        390,
+        768,
+        1366
+      ],
+      "mobileEvidence": {
+        "passed": true,
+        "results": [
+          {
+            "width": 360,
+            "scroll": 360,
+            "body": 274,
+            "table": 292.640625,
+            "tableScrollSafe": true,
+            "image": 274,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png"
+          },
+          {
+            "width": 390,
+            "scroll": 390,
+            "body": 304,
+            "table": 304,
+            "tableScrollSafe": true,
+            "image": 304,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png"
+          },
+          {
+            "width": 768,
+            "scroll": 768,
+            "body": 638,
+            "table": 638,
+            "tableScrollSafe": true,
+            "image": 638,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png"
+          },
+          {
+            "width": 1366,
+            "scroll": 1366,
+            "body": 638,
+            "table": 638,
+            "tableScrollSafe": true,
+            "image": 638,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+            "og": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png"
+          }
+        ]
+      },
+      "cardEvidence": [
+        {
+          "slug": "selling-houston-house-reverse-mortgage",
+          "width": 342,
+          "x": 24,
+          "imageWidth": 1200,
+          "alt": "Illustrative established Houston brick home with porch chairs and Reverse Loan Sell As-Is headline beside the transparent official Cash As-Is logo"
+        },
+        {
+          "slug": "selling-houston-house-reverse-mortgage",
+          "width": 342.65625,
+          "x": 876.328125,
+          "imageWidth": 1200,
+          "alt": "Illustrative established Houston brick home with porch chairs and Reverse Loan Sell As-Is headline beside the transparent official Cash As-Is logo"
+        }
+      ],
+      "visualReviewedAt": "2026-10-23T13:24:33.573730+00:00"
+    }
+  }
+}

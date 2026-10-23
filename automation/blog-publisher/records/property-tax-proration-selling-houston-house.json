@@ -1,0 +1,336 @@
+{
+  "title": "Property Tax Proration When Selling a Houston House",
+  "description": "Check current-year tax prorations before selling a Houston house. Separate estimates from final bills and back taxes, then compare actual seller proceeds.",
+  "pubDate": "2026-10-23T13:00:00Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "5 min read",
+  "tags": [
+    "Houston",
+    "property taxes",
+    "seller proceeds"
+  ],
+  "primaryKeyword": "property tax proration selling Houston house",
+  "supportingKeywords": [
+    "estimated taxes at closing Texas",
+    "seller tax credit closing statement",
+    "current year taxes versus back taxes"
+  ],
+  "image": "/images/property-tax-proration-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston brick house with a blank folder and calculator beside the Selling Soon Check Taxes headline and transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Is a property-tax proration the same as paying back taxes?",
+      "a": "No. A proration allocates an agreed share of a tax period between the parties. Delinquent balances, penalties and other charges are separate items that the closing team must reconcile."
+    },
+    {
+      "q": "Does the number on my closing estimate have to be the final tax bill?",
+      "a": "No. Ask whether the figure is based on a current bill or an estimate, which tax year and accounts it covers, and how the signed agreement handles a later difference."
+    },
+    {
+      "q": "Who gets charged for the closing day?",
+      "a": "Do not assume a universal allocation. Ask the closing professional to identify the dates, day-count method and tax allocation required by your actual agreement."
+    },
+    {
+      "q": "Does a cash buyer's offer remove all property-tax deductions?",
+      "a": "No. Compare the actual written terms and estimated seller proceeds. A buyer paying specified closing expenses does not automatically mean all property taxes, liens or loan obligations disappear."
+    }
+  ],
+  "runId": "native-daily-20261023T130501Z",
+  "fence": 16,
+  "day": "2026-10-23",
+  "slug": "property-tax-proration-selling-houston-house",
+  "intentKey": "houston-seller-current-year-tax-proration-estimate-final-bill-reconciliation",
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+    "/blog/sell-house-behind-on-taxes-houston/",
+    "/blog/what-happens-back-taxes-when-you-sell/"
+  ],
+  "substantiveDifference": "First current-year tax allocation worksheet: distinguishes estimated/final bill, delinquency, payments and lender escrow; verifies a labeled proceeds calculation. Existing county-value and back-tax pages do not explain this tax-period reconciliation. No new tax-debt/city synonym page.",
+  "sources": [
+    {
+      "url": "https://comptroller.texas.gov/taxes/property-tax/bills/",
+      "title": "Texas Comptroller: Property Tax Bills",
+      "publicationDate": null,
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Current bill contents distinguish property values, exemptions, rates, amount due and tax periods; delinquent bills separately identify years and charges. Article does not prescribe a universal closing-day allocation.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    },
+    {
+      "url": "https://comptroller.texas.gov/taxes/property-tax/exemptions/",
+      "title": "Texas Comptroller: Property Tax Exemptions",
+      "publicationDate": null,
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Qualifying partial/total exemptions reduce taxable value; appraisal districts handle applications and determine qualification.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/20-18.pdf",
+      "title": "TREC public resale form20-18, paragraph13 (dated example)",
+      "publicationDate": "2024-11-04",
+      "accessedAt": "2026-10-23",
+      "verifiedAt": "2026-10-23T13:23:22.028404+00:00",
+      "reportingPeriod": "Guidance accessed2026-10-23; dates labeled where available",
+      "geography": "Texas / US consumer guidance",
+      "unit": null,
+      "figure": null,
+      "claim": "Official dated sample supports the concept of contractual tax proration and estimated-versus-final reconciliation. Used as background verification only; article does not claim this is the current form or the Cash As-Is agreement, or prescribe its allocation rules.",
+      "method": "Read relevant primary-source text in native web and checked article/FAQ claims; no market statistics invented."
+    }
+  ],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending",
+    "render": "pass",
+    "conversion": "pass"
+  },
+  "imageSha256": "9ea6a7d85e8ab926e256235295fe5bfd88d6b373c3797a59d6090e9cca207242",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpend": 0,
+    "note": "Native Work and existing allowances only; no subscriptions, credits, paid APIs or new provider purchased."
+  },
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "SELLING SOON?|CHECK TAXES",
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "generationMode": "built_in_native_imagegen",
+    "backgroundPath": "exec-0965272e-aa0e-497a-843d-5bfb78cf1473.png",
+    "backgroundSha256": "246f5cc4c9b2688b674f3f0075d0a676ced5eab66469e86893165213984f8da9",
+    "backgroundPrompt": "Use case: photorealistic-natural. Original editorial property background for Cash As-Is seller blog thumbnail, landscape1536x1024. Fictional modest Houston-area single-story brick house on RIGHT half in soft daylight; subtle ordinary front lawn and shaded trees. Blank paper folder and simple calculator on porch at lower RIGHT as small conceptual tax-estimate prop, no visible writing or numbers. LEFT half quiet darker shaded trees/yard negative space for approved typography later. No people, logos, text, watermark, address, for-sale sign or chart. Realistic property, no artificial damage.",
+    "illustrative": true,
+    "visualReview": "Full-size1200x630 and article/card mobile/desktop reviewed: exact transparent official logo, minimal readable headline, no block or clipping, safe table scrolling."
+  },
+  "sellerVoice": {
+    "sampleMessages": 500,
+    "recent14DayMessages": 0,
+    "inboundMessages": 215,
+    "screenedMessages": 211,
+    "sampleMonths": [
+      "2026-06"
+    ],
+    "keywordScreen": {
+      "price": {
+        "messages": 31,
+        "distinctSellers": 17
+      },
+      "condition": {
+        "messages": 3,
+        "distinctSellers": 3
+      },
+      "timing": {
+        "messages": 10,
+        "distinctSellers": 6
+      },
+      "tax": {
+        "messages": 11,
+        "distinctSellers": 9
+      },
+      "tenants": {
+        "messages": 1,
+        "distinctSellers": 1
+      }
+    },
+    "mode": "read_only",
+    "limitations": "Export returned historical messages; recent-date query returned no messages. Current seller-theme evidence unavailable. Historical keyword screen only, not context-validated recurrence or representative demand. New topics selected as distinct editorial gaps, not claimed CRM recurrence. No raw private text, identifiers, addresses, amounts or unique stories retained."
+  },
+  "seoLifecycle": {
+    "requiredLocalGates": [
+      "indexability",
+      "robotsNoindex",
+      "canonical",
+      "sitemapEligibility",
+      "contentQuality",
+      "specificSearchIntent",
+      "duplicateContent",
+      "cannibalization",
+      "meaningfulInternalLinks",
+      "sellerConversionPath",
+      "factualSources"
+    ],
+    "previewNoindex": "pending",
+    "productionIndexability": "pending",
+    "searchConsoleMonitoring": {
+      "availability": "Post-publication inspection pending; optional reporting"
+    },
+    "GA4Measurement": {
+      "originalOrganicLandingSessions": null,
+      "deduplicatedValidatedSellerLeads": null,
+      "reportingPeriod": null,
+      "attributionGaps": "No settled new-article data; existing attribution preserved; no fake lead submitted."
+    },
+    "businessOutcomes": {
+      "validatedSellerLead": null,
+      "qualifiedSeller": null,
+      "agreement": null,
+      "fundedRetainedGP": null
+    },
+    "localQA": {
+      "checkedAt": "2026-10-23T13:23:22.028404+00:00",
+      "status": "pass",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "internalLinks": [
+        "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+        "/blog/sell-house-behind-on-taxes-houston/",
+        "/blog/cash-offer-vs-listing-house-houston/"
+      ],
+      "originality12WordShinglesMax": 3,
+      "nearestShingleMatches": [
+        [
+          3,
+          "replace-air-conditioner-before-selling-houston-house"
+        ],
+        [
+          3,
+          "hcad-tax-value-vs-cash-offer-harris-county"
+        ],
+        [
+          2,
+          "selling-houston-house-neglected-pool"
+        ]
+      ],
+      "sitemap": true,
+      "rss": true,
+      "mobileWidths": [
+        360,
+        390,
+        768,
+        1366
+      ],
+      "mobileEvidence": {
+        "passed": true,
+        "results": [
+          {
+            "width": 360,
+            "scroll": 360,
+            "body": 274,
+            "table": 276.03125,
+            "tableScrollSafe": true,
+            "image": 274,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+            "og": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png"
+          },
+          {
+            "width": 390,
+            "scroll": 390,
+            "body": 304,
+            "table": 304,
+            "tableScrollSafe": true,
+            "image": 304,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+            "og": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png"
+          },
+          {
+            "width": 768,
+            "scroll": 768,
+            "body": 638,
+            "table": 638,
+            "tableScrollSafe": true,
+            "image": 638,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+            "og": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png"
+          },
+          {
+            "width": 1366,
+            "scroll": 1366,
+            "body": 638,
+            "table": 638,
+            "tableScrollSafe": true,
+            "image": 638,
+            "imageLoaded": 1200,
+            "h1s": 1,
+            "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+            "og": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png"
+          }
+        ]
+      },
+      "cardEvidence": [
+        {
+          "slug": "property-tax-proration-selling-houston-house",
+          "width": 342,
+          "x": 24,
+          "imageWidth": 1200,
+          "alt": "Illustrative Houston brick house with a blank folder and calculator beside the Selling Soon Check Taxes headline and transparent Cash As-Is logo"
+        },
+        {
+          "slug": "property-tax-proration-selling-houston-house",
+          "width": 342.671875,
+          "x": 511.65625,
+          "imageWidth": 1200,
+          "alt": "Illustrative Houston brick house with a blank folder and calculator beside the Selling Soon Check Taxes headline and transparent Cash As-Is logo"
+        }
+      ],
+      "visualReviewedAt": "2026-10-23T13:24:33.573302+00:00"
+    }
+  },
+  "calculation": {
+    "kind": "hypothetical_not_market_data",
+    "annualTaxAssumptions": [
+      3650,
+      4380
+    ],
+    "daysAllocated": 180,
+    "dayBasis": 365,
+    "shares": [
+      1800,
+      2160
+    ],
+    "price": 180000,
+    "payoff": 115000,
+    "otherSellerItems": 2200,
+    "proceeds": [
+      61000,
+      60640
+    ],
+    "difference": 360,
+    "arithmeticVerified": true,
+    "notContractualAllocationRule": true
+  }
+}
