@@ -99,4 +99,6 @@ We'll review it and give you a no-obligation offer.
 
 **Don't fix it. Don't clean it. Don't prep it. Let us see the property exactly as it sits.**
 
+Is the vacant property in the Houston area? See how to [sell a house as-is in Houston](/blog/sell-house-as-is-houston/).
+
 > CashAsIs buys properties as-is, but remaining personal property, title requirements, access, and closing conditions should be agreed upon for each specific transaction.
