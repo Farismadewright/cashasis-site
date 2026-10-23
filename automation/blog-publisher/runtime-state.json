@@ -4,7 +4,7 @@
     "fence": 16,
     "issuedAt": "2026-10-23T13:06:04.346Z",
     "expiresAt": "2026-10-23T15:01:04.346Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-23T13:44:38.875Z"
   },
   "ledger": [
     {
@@ -677,7 +677,7 @@
       "day": "2026-10-23",
       "runId": "native-daily-20261023T130501Z",
       "fence": 16,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-23T13:09:01.556Z",
       "validationOnly": false,
       "previewCommit": "e051f5e7cfe4f37e968318f6d115fed575fc099f",
@@ -690,7 +690,15 @@
         "errors": [],
         "checkedAt": "2026-10-23T13:31:25.989Z"
       },
-      "pr": 24
+      "pr": 24,
+      "commit": "8a1339862839f534e734a70d37da429f13e89a23",
+      "deployId": "6adb61b404a11d91ae2bb6ce",
+      "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+      "publishedAt": "2026-10-23T13:32:10.290Z",
+      "verifiedAt": "2026-10-23T13:44:38.397Z",
+      "evidenceCommit": "dfa494b368037772be2050b8711e3527d8f4f04b",
+      "bookkeepingDeployId": "6adb6471f4e7f0ae0d2d4718",
+      "monitoringCommit": "3dc27bcffadfde266aa6dc9d55005271198660c2"
     },
     {
       "slug": "selling-houston-house-reverse-mortgage",
@@ -698,7 +706,7 @@
       "day": "2026-10-23",
       "runId": "native-daily-20261023T130501Z",
       "fence": 16,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-23T13:09:01.556Z",
       "validationOnly": false,
       "previewCommit": "e051f5e7cfe4f37e968318f6d115fed575fc099f",
@@ -711,7 +719,15 @@
         "errors": [],
         "checkedAt": "2026-10-23T13:31:25.989Z"
       },
-      "pr": 24
+      "pr": 24,
+      "commit": "8a1339862839f534e734a70d37da429f13e89a23",
+      "deployId": "6adb61b404a11d91ae2bb6ce",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+      "publishedAt": "2026-10-23T13:32:10.290Z",
+      "verifiedAt": "2026-10-23T13:44:38.397Z",
+      "evidenceCommit": "dfa494b368037772be2050b8711e3527d8f4f04b",
+      "bookkeepingDeployId": "6adb6471f4e7f0ae0d2d4718",
+      "monitoringCommit": "3dc27bcffadfde266aa6dc9d55005271198660c2"
     },
     {
       "slug": "selling-houston-house-suspected-asbestos",
@@ -719,7 +735,7 @@
       "day": "2026-10-23",
       "runId": "native-daily-20261023T130501Z",
       "fence": 16,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-23T13:09:01.556Z",
       "validationOnly": false,
       "previewCommit": "e051f5e7cfe4f37e968318f6d115fed575fc099f",
@@ -732,28 +748,37 @@
         "errors": [],
         "checkedAt": "2026-10-23T13:31:25.989Z"
       },
-      "pr": 24
+      "pr": 24,
+      "commit": "8a1339862839f534e734a70d37da429f13e89a23",
+      "deployId": "6adb61b404a11d91ae2bb6ce",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+      "publishedAt": "2026-10-23T13:32:10.290Z",
+      "verifiedAt": "2026-10-23T13:44:38.397Z",
+      "evidenceCommit": "dfa494b368037772be2050b8711e3527d8f4f04b",
+      "bookkeepingDeployId": "6adb6471f4e7f0ae0d2d4718",
+      "monitoringCommit": "3dc27bcffadfde266aa6dc9d55005271198660c2"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261022T131801Z",
-    "fence": 15,
+    "runId": "native-daily-20261023T130501Z",
+    "fence": 16,
     "status": "pass",
-    "day": "2026-10-22",
+    "day": "2026-10-23",
     "published": 3,
     "held": 0,
-    "productionCommit": "1f5c12bbf03184b49cbcefb060772d3c1d0a135a",
-    "deployId": "6ada1202ab4f23f3f0732f5c",
-    "evidence": "automation/blog-publisher/runs/2026-10-22.json",
-    "bookkeepingCommit": "4c9924878f542e6696982cac46729964a05422b8",
-    "bookkeepingDeployId": "6ada13314ad223a2ef8f0712",
-    "monitoringCommit": "b48437b0d5e8c0774e988b4364b0e688fb0b4521",
-    "completedAt": "2026-10-22T13:47:07.425Z",
+    "productionCommit": "8a1339862839f534e734a70d37da429f13e89a23",
+    "deployId": "6adb61b404a11d91ae2bb6ce",
+    "evidence": "automation/blog-publisher/runs/2026-10-23.json",
+    "bookkeepingCommit": "dfa494b368037772be2050b8711e3527d8f4f04b",
+    "bookkeepingDeployId": "6adb6471f4e7f0ae0d2d4718",
+    "monitoringCommit": "3dc27bcffadfde266aa6dc9d55005271198660c2",
+    "completedAt": "2026-10-23T13:44:38.875Z",
     "externalPaidApiSpendUSD": 0,
-    "inspectionCalls": 6,
+    "inspectionCalls": 15,
     "notificationSent": false,
-    "finalLiveCheck": "HTTP200/canonical/indexability/heroOG/sellerCTA pass for all3 after bookkeeping deployment"
+    "finalLiveCheck": "HTTP200/canonical/indexability/heroOG/sellerCTA pass for all3 after exact-commit bookkeeping deployment",
+    "finalLiveCheckAt": "2026-10-23T13:44:38.397Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
