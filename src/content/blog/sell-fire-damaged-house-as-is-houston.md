@@ -27,3 +27,5 @@ A burned area may be only one part of the repair scope. Smoke can affect finishe
 ## Insurance and the property sale are separate decisions
 
 If an insurance claim exists, keep the claim documents and tell us its status. A seller should understand any obligations connected with insurance proceeds, lenders, repairs, or closing before assuming how a sale will interact with the claim. CashAsIs can focus on evaluating the real estate in its current condition while the seller, insurer, lender, title company, and appropriate professionals handle their respective parts of the transaction.
+
+For other kinds of damage and what an as-is sale covers, see our main guide to [selling a house as-is in Houston](/blog/sell-house-as-is-houston/).

@@ -235,3 +235,5 @@ Whatever the condition or situation, start with the property the way it sits.
 Want to compare the repair decision first? Read [Fix It First or Sell As-Is?](/blog/fix-it-first-or-sell-as-is/).
 
 Want to understand the CashAsIs concept from the beginning? Read [Selling As-Is? Here's What That Actually Means](/blog/selling-as-is-what-it-actually-means/).
+
+Own a house in the Houston area? See how to [sell your Houston house as-is](/blog/sell-house-as-is-houston/).

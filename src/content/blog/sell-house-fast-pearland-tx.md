@@ -1,6 +1,6 @@
 ---
 title: "Sell My House Fast in Pearland, TX | CashAsIs"
-description: "Sell your Pearland property directly to CashAsIs. Request a cash offer before repairs, renovations, or public showings."
+description: "We buy houses in Pearland, TX for cash, as-is, in 77581 and 77584 including Shadow Creek Ranch. No repairs or showings. Request an offer."
 pubDate: 2026-10-03
 author: "CashAsIs"
 category: "Houston Area"
@@ -13,6 +13,14 @@ faq:
     a: "CashAsIs evaluates properties in Pearland and the greater Houston area for direct cash purchases."
   - q: "Can I request an offer before making repairs?"
     a: "Yes. CashAsIs evaluates properties in their current condition, so you can contact us before renovating for our purchase."
+  - q: "Is my Pearland house in Brazoria, Harris, or Fort Bend County?"
+    a: "Most of Pearland is in Brazoria County, with smaller parts in Harris County to the north and Fort Bend County to the west. The county controls which appraisal district and tax records apply, so share the address and we will review the correct records."
+  - q: "Do you buy houses in Shadow Creek Ranch and other Pearland neighborhoods?"
+    a: "Yes, CashAsIs reviews houses across Pearland, including the Shadow Creek Ranch area and older neighborhoods in the 77581 and 77584 ZIP codes. Any offer depends on the specific property, its condition, and its title."
+  - q: "Where are foreclosure sales held for Pearland homes?"
+    a: "For most Pearland addresses, which are in Brazoria County, trustee sales are held on the first Tuesday of the month at the Brazoria County Courthouse in Angleton. Harris and Fort Bend County addresses follow those counties' sale locations. Always confirm the date and place on your own notice of sale."
+  - q: "Can I sell a Pearland house with flood or foundation problems as-is?"
+    a: "Yes, you can ask CashAsIs to review it. Flood history and foundation movement are part of our evaluation, and requesting an offer does not obligate you to accept it. You still need to answer disclosure questions truthfully."
 ---
 If you are searching **sell my house fast Pearland**, **cash home buyers Pearland**, or **we buy houses Pearland**, you are probably trying to find a buyer who can look at the property you actually have—not the version you would have after months of preparation.
 
@@ -57,6 +65,42 @@ County, neighborhood, property type, lot size, condition, and repair scope can a
 That property-specific approach is important for both conventional houses and difficult properties.
 
 If the property is inherited, see [Sell an Inherited House in Houston](/blog/sell-inherited-house-houston/). If it has major repair needs, see [Sell a Houston House That Needs Major Repairs](/blog/sell-house-needs-major-repairs-houston/).
+
+## We buy houses in Pearland, TX, across Brazoria, Harris, and Fort Bend County
+
+Most of Pearland is in Brazoria County, a smaller northern part is in Harris County, and a small western part is in Fort Bend County. That split matters when you sell, because it decides which appraisal district values the house (Brazoria Central, Harris Central, or Fort Bend Central) and which county records the title company searches.
+
+We review houses in both main Pearland ZIP codes: 77581 on the east and central side, and 77584 on the west side, including the Shadow Creek Ranch area. That covers older homes near Main Street and Broadway as well as newer subdivisions with an HOA and MUD taxes.
+
+Clear Creek and its tributaries run through the area, so flood history is worth sharing up front. If a house has had water in it, tell us what happened and what was repaired.
+
+To get started, it helps to know:
+
+- The address and, if you know it, which county it is in.
+- Known condition issues, including roof, foundation, plumbing, HVAC, or past water intrusion.
+- The HOA name, if there is one.
+- Whether the house is occupied, vacant, or rented.
+- Who is on the deed and roughly what is owed on any mortgage.
+
+## Behind on payments? Where Pearland-area foreclosure sales happen
+
+Texas foreclosure sales take place on the first Tuesday of the month, and the location depends on the county:
+
+- **Brazoria County,** which covers most Pearland addresses: in the corridor outside Room 108 of the Brazoria County Courthouse in Angleton, according to the [Brazoria County Clerk](https://www.brazoriacountyclerktx.gov/search-records/land-vitals-assumed-names). Notices must be posted 21 days before the sale.
+- **Harris County:** Bayou City Event Center, 9401 Knight Road, Houston.
+- **Fort Bend County:** see our [Fort Bend County guide](/blog/sell-house-fast-fort-bend-county-tx/).
+
+Your own notice of sale controls the date, time, and place. If you are behind and thinking about selling, start early and read [how to stop foreclosure in the Houston area](/blog/stop-foreclosure-houston/).
+
+CashAsIs is a property buyer, not a lender, law firm, or foreclosure-relief service, and we cannot guarantee that a foreclosure will be postponed or stopped.
+
+## Pearland property situations we review
+
+- **Foundation movement:** see [selling a house with foundation problems in Houston](/blog/sell-house-foundation-problems-houston/).
+- **Flood damage:** see [selling a flood-damaged house in Houston](/blog/sell-flood-damaged-house-houston/).
+- **A house you no longer want to fix:** see how to [sell a house as-is in the Houston area](/blog/sell-house-as-is-houston/).
+
+Selling nearby? See [sell my house fast in Pasadena](/blog/sell-house-fast-pasadena-tx/).
 
 ## Get a CashAsIs offer for your Pearland property
 

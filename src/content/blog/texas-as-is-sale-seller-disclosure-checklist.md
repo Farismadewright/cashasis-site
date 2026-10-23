@@ -75,3 +75,5 @@ Listing may fit an owner who wants to pursue retail buyers and can manage prepar
 You can tell CashAsIs about the condition, occupancy and questions you still need to resolve. There is no need to describe an imperfect house as perfect to start the conversation.
 
 Ask what information matters to evaluating the property, then keep required disclosure and closing steps on their own checklist. That gives you a clearer basis for deciding whether a direct purchase meets your needs, without promising a particular legal result or requiring you to guess about the house.
+
+For the full process in the Houston area, see our guide to [selling a house as-is in Houston](/blog/sell-house-as-is-houston/).
