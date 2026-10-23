@@ -41,7 +41,7 @@
   "day": "2026-10-23",
   "slug": "selling-houston-house-suspected-asbestos",
   "intentKey": "houston-seller-suspected-asbestos-material-disturbance-assessment-sale-choice",
-  "status": "draft",
+  "status": "preview",
   "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
   "commit": null,
   "deployId": null,
@@ -90,7 +90,7 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
+    "preview": "pass",
     "deploy": "pending",
     "render": "pass",
     "conversion": "pass"
@@ -171,7 +171,7 @@
       "sellerConversionPath",
       "factualSources"
     ],
-    "previewNoindex": "pending",
+    "previewNoindex": "pass; HTTP X-Robots-Tag noindex on exact-commit preview",
     "productionIndexability": "pending",
     "searchConsoleMonitoring": {
       "availability": "Post-publication inspection pending; optional reporting"
@@ -296,5 +296,33 @@
       ],
       "visualReviewedAt": "2026-10-23T13:24:33.574045+00:00"
     }
+  },
+  "preview": {
+    "slug": "selling-houston-house-suspected-asbestos",
+    "url": "https://6adb6021bbc8e4b9e7a2dc73--cashasis-blog.netlify.app/blog/selling-houston-house-suspected-asbestos/",
+    "verifiedAt": "2026-10-23T13:26:39.280876+00:00",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "metaRobots": null,
+    "robotsAllowed": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+    "sitemap": true,
+    "rss": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "heroDimensions": "1200x630",
+    "imageHash": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
+    "internalLinks": 19,
+    "sellerCTA": "pass",
+    "metadata": "pass",
+    "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+    "localOutputParity": true,
+    "commit": "d2319f932dc337781ec3fa3cb159a4ae951f3c55",
+    "deployId": "6adb6021bbc8e4b9e7a2dc73",
+    "exactCommit": true
   }
 }

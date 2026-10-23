@@ -41,7 +41,7 @@
   "day": "2026-10-23",
   "slug": "selling-houston-house-reverse-mortgage",
   "intentKey": "houston-owner-reverse-mortgage-hecm-payoff-sale-proposal-net-equity",
-  "status": "draft",
+  "status": "preview",
   "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
   "commit": null,
   "deployId": null,
@@ -103,7 +103,7 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
+    "preview": "pass",
     "deploy": "pending",
     "render": "pass",
     "conversion": "pass"
@@ -184,7 +184,7 @@
       "sellerConversionPath",
       "factualSources"
     ],
-    "previewNoindex": "pending",
+    "previewNoindex": "pass; HTTP X-Robots-Tag noindex on exact-commit preview",
     "productionIndexability": "pending",
     "searchConsoleMonitoring": {
       "availability": "Post-publication inspection pending; optional reporting"
@@ -309,5 +309,33 @@
       ],
       "visualReviewedAt": "2026-10-23T13:24:33.573730+00:00"
     }
+  },
+  "preview": {
+    "slug": "selling-houston-house-reverse-mortgage",
+    "url": "https://6adb6021bbc8e4b9e7a2dc73--cashasis-blog.netlify.app/blog/selling-houston-house-reverse-mortgage/",
+    "verifiedAt": "2026-10-23T13:26:39.277751+00:00",
+    "httpStatus": 200,
+    "xRobotsTag": "noindex",
+    "metaRobots": null,
+    "robotsAllowed": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+    "sitemap": true,
+    "rss": true,
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "heroDimensions": "1200x630",
+    "imageHash": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
+    "internalLinks": 19,
+    "sellerCTA": "pass",
+    "metadata": "pass",
+    "mobileDesktopLayout": "pass; article markup/CSS/tracking byte parity with local reviewed mobile/desktop build",
+    "localOutputParity": true,
+    "commit": "d2319f932dc337781ec3fa3cb159a4ae951f3c55",
+    "deployId": "6adb6021bbc8e4b9e7a2dc73",
+    "exactCommit": true
   }
 }
