@@ -51,6 +51,8 @@ Before spending money on paint, flooring, roofing, cleanout, landscaping, founda
 
 Read [what selling as-is actually means](/blog/selling-as-is-what-it-actually-means/) and [what you may be able to skip in an as-is cash sale](/blog/what-can-you-skip-selling-cash-as-is/).
 
+Want to sell without fixing anything first? Here is how to [sell my house as-is in Houston](/blog/sell-house-as-is-houston/).
+
 If timing is your biggest concern, visit [Sell My House Fast Houston](/blog/sell-my-house-fast-houston/). If repairs are the issue, visit [Sell House Without Repairs Houston](/blog/sell-house-without-repairs-houston/).
 
 ## Let us be a resource
@@ -71,3 +73,5 @@ CashAsIs also serves property owners throughout the Houston metro. If your prope
 County guides: [Harris County](/blog/sell-house-fast-harris-county-tx/) · [Fort Bend County](/blog/sell-house-fast-fort-bend-county-tx/) · [Montgomery County](/blog/sell-house-fast-montgomery-county-tx/).
 
 For situation-specific help, see our guides for [inherited properties](/blog/sell-inherited-house-houston/), [probate](/blog/sell-probate-house-houston/), [tenants](/blog/sell-house-with-tenants-houston/), [major repairs](/blog/sell-house-needs-major-repairs-houston/), [title problems](/blog/sell-house-title-problems-houston/), and [code violations](/blog/sell-house-code-violations-houston/).
+
+Behind on mortgage payments? See [how to stop foreclosure in Houston](/blog/stop-foreclosure-houston/).

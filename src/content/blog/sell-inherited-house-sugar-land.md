@@ -27,3 +27,5 @@ Families sometimes assume a well-located Sugar Land property must be renovated b
 ## Preserve the important information before clearing the property
 
 Before a cleanout, set aside estate documents, prior surveys, title papers, mortgage statements, tax records, insurance information, repair receipts, warranties, keys, and family items that should not be discarded. If several heirs are involved, agree on what is being removed before a hauling crew arrives. A careful first pass protects valuable information while allowing the real-estate decision to move forward.
+
+For other Fort Bend County options, see our [Fort Bend County house buying guide](/blog/sell-house-fast-fort-bend-county-tx/).

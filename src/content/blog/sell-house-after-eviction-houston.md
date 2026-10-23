@@ -43,6 +43,8 @@ What a direct CashAsIs sale can remove is much of the **retail preparation** lay
 - No agent commission paid to us as the direct buyer.
 - A transaction coordinated through the appropriate title/closing process.
 
+After an eviction, many owners choose to [sell the house as-is in Houston](/blog/sell-house-as-is-houston/) instead of starting another make-ready.
+
 ## We evaluate the actual Houston property
 
 Condition matters. Location matters. Repair scope matters. Occupancy and title can matter. That is why we do not treat every distressed property like the same online calculator result.

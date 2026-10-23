@@ -88,4 +88,6 @@ We'll review the property and let you know what we can offer.
 
 **The earlier we know the deadline, the more time there is to complete title and closing if you decide to sell.**
 
+If the property is in the Houston area, see [how to stop foreclosure in Houston](/blog/stop-foreclosure-houston/).
+
 > CashAsIs is a property buyer, not a lender, law firm, or foreclosure-relief service. A purchase is not complete until closing, and CashAsIs does not guarantee that a foreclosure will be postponed or stopped. Questions about your mortgage or foreclosure rights should be directed to your mortgage servicer or a qualified professional.

@@ -84,4 +84,6 @@ We'll review the property and let you know what we can offer.
 
 **You decide whether the offer works for you. Getting the number earlier simply gives you another option to evaluate while there is still time.**
 
+Houston-area homeowner? Our [guide to stopping foreclosure in Houston](/blog/stop-foreclosure-houston/) covers where Harris County foreclosure sales are held and what to gather first.
+
 > CashAsIs is a property buyer, not a lender, law firm, or foreclosure-relief service. We do not determine eligibility for mortgage assistance or guarantee that a foreclosure will be postponed or stopped. Contact your mortgage servicer or a qualified professional for questions about your loan, legal rights, or foreclosure-prevention programs.

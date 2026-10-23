@@ -79,4 +79,6 @@ We'll review the property and let you know what we can offer.
 
 **If selling is still an option, don't wait until the last minute to find out whether the numbers work.**
 
+Houston homeowners can review [your real options to stop foreclosure in Houston](/blog/stop-foreclosure-houston/).
+
 > CashAsIs is a property buyer, not a lender, law firm, or foreclosure-relief service. A purchase is not complete until closing, and CashAsIs does not guarantee that a foreclosure will be postponed or stopped. Contact your mortgage servicer or a qualified professional for questions about your loan, legal rights, or foreclosure-prevention programs.
