@@ -764,9 +764,21 @@
       "day": "2026-10-24",
       "runId": "native-daily-20261024T131106Z",
       "fence": 17,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-24T13:15:15.969Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "previewCommit": "f4ad18917c5b00a080b75364695695ea4d13dce3",
+      "previewDeployId": "6adcb106782eba472902e338",
+      "previewVerifiedAt": "2026-10-24T13:23:41.558591+00:00",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-24",
+        "errors": [],
+        "checkedAt": "2026-10-24T13:24:13.058Z"
+      },
+      "pr": 30,
+      "commit": "54e5d669570bab5f84a693ae25b66a02c1c354a7"
     }
   ],
   "externalApiSpendLimitUSD": 0,
