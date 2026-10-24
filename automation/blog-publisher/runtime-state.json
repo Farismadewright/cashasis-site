@@ -4,7 +4,7 @@
     "fence": 17,
     "issuedAt": "2026-10-24T13:12:06.691Z",
     "expiresAt": "2026-10-24T15:07:06.691Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-24T13:29:09.958Z"
   },
   "ledger": [
     {
@@ -764,7 +764,7 @@
       "day": "2026-10-24",
       "runId": "native-daily-20261024T131106Z",
       "fence": 17,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-24T13:15:15.969Z",
       "validationOnly": false,
       "previewCommit": "f4ad18917c5b00a080b75364695695ea4d13dce3",
@@ -778,29 +778,43 @@
         "checkedAt": "2026-10-24T13:24:13.058Z"
       },
       "pr": 30,
-      "commit": "54e5d669570bab5f84a693ae25b66a02c1c354a7"
+      "commit": "54e5d669570bab5f84a693ae25b66a02c1c354a7",
+      "deployId": "6adcb1813195872cc46e3389",
+      "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+      "publishedAt": "2026-10-24T13:24:51.879Z",
+      "verifiedAt": "2026-10-24T13:28:56.910Z",
+      "evidenceCommit": "b9488033433b76c866a898b49bec1d2c24d8292b",
+      "bookkeepingDeployId": "6adcb262a3df51462dfdf5af",
+      "monitoringCommit": "3d255fa5a35e3b24afa2048525ddafa20f39540b"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261023T130501Z",
-    "fence": 16,
+    "runId": "native-daily-20261024T131106Z",
+    "fence": 17,
     "status": "pass",
-    "day": "2026-10-23",
-    "published": 3,
-    "held": 0,
-    "productionCommit": "8a1339862839f534e734a70d37da429f13e89a23",
-    "deployId": "6adb61b404a11d91ae2bb6ce",
-    "evidence": "automation/blog-publisher/runs/2026-10-23.json",
-    "bookkeepingCommit": "dfa494b368037772be2050b8711e3527d8f4f04b",
-    "bookkeepingDeployId": "6adb6471f4e7f0ae0d2d4718",
-    "monitoringCommit": "3dc27bcffadfde266aa6dc9d55005271198660c2",
-    "completedAt": "2026-10-23T13:44:38.875Z",
+    "day": "2026-10-24",
+    "published": 1,
+    "held": 2,
+    "heldScope": "Two topic candidates held before generation; not failed published articles or reserved slots",
+    "productionCommit": "54e5d669570bab5f84a693ae25b66a02c1c354a7",
+    "deployId": "6adcb1813195872cc46e3389",
+    "evidence": "automation/blog-publisher/runs/2026-10-24.json",
+    "bookkeepingCommit": "b9488033433b76c866a898b49bec1d2c24d8292b",
+    "bookkeepingDeployId": "6adcb262a3df51462dfdf5af",
+    "monitoringCommit": "3d255fa5a35e3b24afa2048525ddafa20f39540b",
+    "completedAt": "2026-10-24T13:29:09.958Z",
     "externalPaidApiSpendUSD": 0,
-    "inspectionCalls": 15,
+    "inspectionCalls": 6,
     "notificationSent": false,
-    "finalLiveCheck": "HTTP200/canonical/indexability/heroOG/sellerCTA pass for all3 after exact-commit bookkeeping deployment",
-    "finalLiveCheckAt": "2026-10-23T13:44:38.397Z"
+    "finalLiveCheck": {
+      "result": "pass",
+      "HTTP": 200,
+      "canonical": true,
+      "heroOG": true,
+      "attributedCTA": true,
+      "checkedAt": "2026-10-24T13:28:56.910Z"
+    }
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
