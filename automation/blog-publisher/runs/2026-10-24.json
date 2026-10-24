@@ -1,0 +1,587 @@
+{
+  "runId": "native-daily-20261024T131106Z",
+  "fence": 17,
+  "day": "2026-10-24",
+  "status": "pass",
+  "published": 1,
+  "held": 2,
+  "heldScope": "Two editorial topic candidates; no articles/images generated or slots reserved for them. Not technical failures.",
+  "heldCandidates": [
+    {
+      "candidate": "Seller occupancy after closing",
+      "status": "editorial_hold_before_generation",
+      "reason": "Existing utilities/possession and signing guides cover adjacent handoff questions. Require a distinct contribution and contract-specific review before implying a Cash As-Is leaseback arrangement."
+    },
+    {
+      "candidate": "Appliances and fixtures in an as-is sale",
+      "status": "editorial_hold_before_generation",
+      "reason": "Existing inherited belongings/cleanout coverage overlaps seller contents; require stronger distinct value and actual-contract qualification before another page. No synonym/contents rewrite published."
+    }
+  ],
+  "articles": [
+    {
+      "slug": "paid-off-mortgage-lien-release-houston",
+      "title": "Paid-Off Mortgage Still on Title? A Houston Seller's Guide",
+      "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+      "image": "/images/paid-off-mortgage-lien-release-houston.png",
+      "imageSha256": "6265bd9e82e3a4dd67c9e3acf4bfd3c09c7577b9737125d7ae45ca7bea1c2d41",
+      "social": "draft_only"
+    }
+  ],
+  "publication": {
+    "result": "pass",
+    "mode": "production",
+    "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+    "origin": "https://www.cashasis.com",
+    "verifiedAt": "2026-10-24T13:25:49.946591+00:00",
+    "http200": true,
+    "noindexPreview": false,
+    "canonical": true,
+    "OGXHero": true,
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "visibleFAQMatches": 4,
+    "internalLinks": [
+      [
+        "/",
+        200
+      ],
+      [
+        "/accessibility",
+        200
+      ],
+      [
+        "/blog/",
+        200
+      ],
+      [
+        "/blog/cash-offer-vs-listing-house-houston/",
+        200
+      ],
+      [
+        "/blog/protect-house-sale-proceeds-wire-fraud/",
+        200
+      ],
+      [
+        "/blog/sell-house-title-problems-houston/",
+        200
+      ],
+      [
+        "/careers",
+        200
+      ],
+      [
+        "/disclaimer",
+        200
+      ],
+      [
+        "/fix-it-or-sell-it/",
+        200
+      ],
+      [
+        "/lending-partners",
+        200
+      ],
+      [
+        "/privacy",
+        200
+      ],
+      [
+        "/referrals",
+        200
+      ],
+      [
+        "/sms-tcpa",
+        200
+      ],
+      [
+        "/terms",
+        200
+      ]
+    ],
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "testedBuildByteParity": true,
+    "pr": 30,
+    "productionCommit": "54e5d669570bab5f84a693ae25b66a02c1c354a7",
+    "productionDeployId": "6adcb1813195872cc46e3389",
+    "publishedAt": "2026-10-24T13:24:51.879Z",
+    "exactCommitReady": true
+  },
+  "preview": {
+    "result": "pass",
+    "mode": "preview",
+    "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+    "origin": "https://6adcb106782eba472902e338--cashasis-blog.netlify.app",
+    "verifiedAt": "2026-10-24T13:23:41.558591+00:00",
+    "http200": true,
+    "noindexPreview": true,
+    "canonical": true,
+    "OGXHero": true,
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "visibleFAQMatches": 4,
+    "internalLinks": [
+      [
+        "/",
+        200
+      ],
+      [
+        "/accessibility",
+        200
+      ],
+      [
+        "/blog/",
+        200
+      ],
+      [
+        "/blog/cash-offer-vs-listing-house-houston/",
+        200
+      ],
+      [
+        "/blog/protect-house-sale-proceeds-wire-fraud/",
+        200
+      ],
+      [
+        "/blog/sell-house-title-problems-houston/",
+        200
+      ],
+      [
+        "/careers",
+        200
+      ],
+      [
+        "/disclaimer",
+        200
+      ],
+      [
+        "/fix-it-or-sell-it/",
+        200
+      ],
+      [
+        "/lending-partners",
+        200
+      ],
+      [
+        "/privacy",
+        200
+      ],
+      [
+        "/referrals",
+        200
+      ],
+      [
+        "/sms-tcpa",
+        200
+      ],
+      [
+        "/terms",
+        200
+      ]
+    ],
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "testedBuildByteParity": true,
+    "commit": "f4ad18917c5b00a080b75364695695ea4d13dce3",
+    "deployId": "6adcb106782eba472902e338",
+    "exactCommitReady": true
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-24",
+    "errors": [],
+    "checkedAt": "2026-10-24T13:24:13.058Z"
+  },
+  "monitoring": {
+    "coverage": {
+      "eligibleSitemapURLs": 195,
+      "eligibleBlogArticles": 167,
+      "eligibleURLsWithRetainedInspectionEvidence": 195,
+      "latestEvidenceCounts": {
+        "indexed": 171,
+        "not_indexed": 24
+      },
+      "latestBlogEvidenceCounts": {
+        "indexed": 147,
+        "not_indexed": 20
+      },
+      "inspectedThisRun": 6,
+      "observationDateRange": [
+        "2026-10-04T18:51:07.839038+00:00",
+        "2026-10-24T13:25:38.037928+00:00"
+      ],
+      "note": "Mixed observation dates; not a fresh full-site inspection. Actual Google Inspection evidence, not impressions or tracker-pending counts."
+    },
+    "inspectionCalls": 6,
+    "inspections": [
+      {
+        "id": "0ba16ad6-e98b-4229-bd87-7b7c37017ba7",
+        "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-24T13:25:38.037928+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lLAUNYZJE9xfj2P1GdomGg&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "2347c682-c810-435b-b9eb-c3931f1b8566",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T05:02:30+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-24T13:21:47.133846+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ZNF3E32nRZl3v0sy3wYtdA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "01dd4a9a-c98c-40c5-be6d-792398b8fed8",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T04:54:33+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-24T13:21:47.120162+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=nYzx7q3wrX8thZZH0ShQJw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "637ae23f-e542-466e-aa7e-c9d203ea8601",
+        "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T06:51:23+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-24T13:21:47.101392+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "user_canonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=F7KH280x0Obng-v5k6dqCw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "4706a190-353e-43f1-9dc5-394ef5be2ecd",
+        "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T04:06:08+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-24T13:21:47.057386+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Fj6NGDY2QqA2PPEInx3fiQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "7c6d0cf9-55b2-4079-acf7-1a813f45b913",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-24T06:39:29+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-24T13:21:47.006266+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8SP0QczgSmMLSYu23AkBgw&utm_medium=link&utm_source=api"
+      }
+    ],
+    "dueTechnicalQA": [
+      {
+        "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-24T13:19:58.036231+00:00",
+        "httpStatus": 200,
+        "canonical": true,
+        "sitemap": true,
+        "internalLinksChecked": 3,
+        "sellerPath": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-24T13:19:50.729492+00:00",
+        "httpStatus": 200,
+        "canonical": true,
+        "sitemap": true,
+        "internalLinksChecked": 2,
+        "sellerPath": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-24T13:19:50.748248+00:00",
+        "httpStatus": 200,
+        "canonical": true,
+        "sitemap": true,
+        "internalLinksChecked": 2,
+        "sellerPath": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-24T13:19:50.512310+00:00",
+        "httpStatus": 200,
+        "canonical": true,
+        "sitemap": true,
+        "internalLinksChecked": 2,
+        "sellerPath": true
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-24T13:19:58.140411+00:00",
+        "httpStatus": 200,
+        "canonical": true,
+        "sitemap": true,
+        "internalLinksChecked": 3,
+        "sellerPath": true
+      }
+    ],
+    "deferredInspections": 0,
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "normalInitialDiscovery": true
+  },
+  "sellerVoice": {
+    "access": "read-only",
+    "sampleCount": 100,
+    "inboundCount": 46,
+    "dateRange": [
+      "2026-10-23T21:24:05.135Z",
+      "2026-10-24T03:11:50.065Z"
+    ],
+    "counts": {
+      "price": {
+        "messages": 5,
+        "distinctSellers": 4,
+        "keywordScreenOnly": true
+      },
+      "timing": {
+        "messages": 2,
+        "distinctSellers": 2,
+        "keywordScreenOnly": true
+      },
+      "condition": {
+        "messages": 3,
+        "distinctSellers": 3,
+        "keywordScreenOnly": true
+      }
+    },
+    "limitation": "Bounded current sample; keyword screening only, not contextual proof of recurring concern. Topic selected from uncovered editorial intent; no seller story or private detail used."
+  },
+  "gsc": {
+    "range": [
+      "2026-09-24",
+      "2026-10-21"
+    ],
+    "settledThrough": "2026-10-22",
+    "coverage": {
+      "rowsReturned": 240,
+      "rowsTotal": 240,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7458,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2542,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 6,
+        "impressions": 716,
+        "ctrPercent": 0.84,
+        "avgPositionWeighted": 41.63
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 240,
+      "hasMore": false,
+      "note": "Showing all 240 rows."
+    },
+    "existingPageOpportunities": [
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 16.153846153846153
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 16.090909090909093
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 14.333333333333334
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "inherited a house full of stuff",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "cash home buyers missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 14.5
+      },
+      {
+        "keys": [
+          "sell fire damage house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 22.5
+      },
+      {
+        "keys": [
+          "we buy houses missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 11.25
+      }
+    ],
+    "interpretation": "Small samples are directional; prioritize query/snippet/internal-link review of existing Missouri City/Katy/Tomball primary pages before city variants. No unsupported sustained gain or live rewrite."
+  },
+  "GA4": "Optional; not queried this run, no new organic seller-lead or downstream outcome inferred.",
+  "organicSellerLeads": null,
+  "fundedRetainedGP": null,
+  "acquisitionHandoff": {
+    "workflow": "Existing repository organic-seller-intent-map and run evidence for Lead Acquisition Engine/COO",
+    "status": "Evidence saved; no claim another agent reviewed it and no unsolicited external message"
+  },
+  "withdrawnURLChecks": [
+    {
+      "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+      "httpStatus": 404,
+      "excludedFromSitemapRssBlog": true,
+      "checkedAt": "2026-10-24T13:27:10.195678+00:00"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "httpStatus": 404,
+      "excludedFromSitemapRssBlog": true,
+      "checkedAt": "2026-10-24T13:27:10.195678+00:00"
+    }
+  ],
+  "commands": {
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "pages": 191,
+      "attributionPages": 204,
+      "DNIpages": 194,
+      "sellerForms": 2
+    },
+    "outputValidation": {
+      "exitCode": 0
+    },
+    "unitTests": {
+      "node": 27,
+      "python": 5,
+      "passed": 32,
+      "failed": 0
+    },
+    "mobile": {
+      "widths": [
+        360,
+        390,
+        768,
+        1366
+      ],
+      "passed": true,
+      "visualReview": true,
+      "cards": [
+        390,
+        1366
+      ]
+    },
+    "protectedSources": "Only article/image/record/social/generated published-path allowlist changed; no homepage/CSS/layout/forms/SEO/tracking/dependencies edits."
+  },
+  "externalPaidApiSpendUSD": 0,
+  "notification": {
+    "sent": false,
+    "reason": "Routine success and normal initial indexing; no actionable failure or sustained ranking/verified-lead change."
+  },
+  "scheduleChanged": false,
+  "completedAt": "2026-10-24T13:27:10.195678+00:00",
+  "limitations": [
+    "Two candidates held before creation rather than padding the daily quota.",
+    "Initial pre-ready preview HTTP500 resolved after exact deploy became ready; final full preview and production QA passed.",
+    "Native existing allowances used; no paid APIs/services or upgrades."
+  ]
+}

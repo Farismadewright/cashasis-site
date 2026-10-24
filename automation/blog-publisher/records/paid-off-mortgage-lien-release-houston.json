@@ -41,7 +41,7 @@
   "fence": 17,
   "day": "2026-10-24",
   "intentKey": "houston-paid-off-mortgage-recorded-release-match-before-sale",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
   "externalApiUsed": false,
   "costUSD": 0,
@@ -51,8 +51,8 @@
     "note": "External paid API spend zero; native existing allowances only."
   },
   "imageSha256": "6265bd9e82e3a4dd67c9e3acf4bfd3c09c7577b9737125d7ae45ca7bea1c2d41",
-  "commit": null,
-  "deployId": null,
+  "commit": "54e5d669570bab5f84a693ae25b66a02c1c354a7",
+  "deployId": "6adcb1813195872cc46e3389",
   "nearestOverlaps": [
     "sell-house-title-problems-houston",
     "sell-house-with-liens-houston",
@@ -129,7 +129,7 @@
       1200,
       630
     ],
-    "visualReview": "Full size and article/card review; correct transparent logo, no logo panel; no AI logo."
+    "visualReview": "Full image, article360/390/768/1366 and actual post-card390/1366 reviewed; headline clear of badge, logo transparent."
   },
   "sellerVoice": {
     "access": "read-only",
@@ -169,8 +169,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
   "seoLifecycle": {
     "specificSellerIntent": "houston-paid-off-mortgage-recorded-release-match-before-sale",
@@ -178,8 +178,20 @@
     "duplicateCannibalizationReview": "pass",
     "meaningfulInternalLinks": "Title-problem hub, cash/listing and payment-security guides; automatic blog-card inbound link",
     "sellerConversionPath": "Existing attributed layout cash-offer CTA",
-    "productionIndexability": "pending live verification",
-    "searchConsoleMonitoring": "pending first live inspection",
+    "productionIndexability": "pass: HTTP200, crawlable, no noindex, self-canonical, sitemap/RSS",
+    "searchConsoleMonitoring": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-24T13:25:38.037928+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lLAUNYZJE9xfj2P1GdomGg&utm_medium=link&utm_source=api"
+    },
     "GA4Measurement": "Optional; not queried today, no new organic outcome inferred"
   },
   "mobileEvidence": {
@@ -192,5 +204,184 @@
     "articleAndCardVisualReview": true,
     "tablesOverflowSafe": true,
     "FAQOpens": true
-  }
+  },
+  "preview": {
+    "result": "pass",
+    "mode": "preview",
+    "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+    "origin": "https://6adcb106782eba472902e338--cashasis-blog.netlify.app",
+    "verifiedAt": "2026-10-24T13:23:41.558591+00:00",
+    "http200": true,
+    "noindexPreview": true,
+    "canonical": true,
+    "OGXHero": true,
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "visibleFAQMatches": 4,
+    "internalLinks": [
+      [
+        "/",
+        200
+      ],
+      [
+        "/accessibility",
+        200
+      ],
+      [
+        "/blog/",
+        200
+      ],
+      [
+        "/blog/cash-offer-vs-listing-house-houston/",
+        200
+      ],
+      [
+        "/blog/protect-house-sale-proceeds-wire-fraud/",
+        200
+      ],
+      [
+        "/blog/sell-house-title-problems-houston/",
+        200
+      ],
+      [
+        "/careers",
+        200
+      ],
+      [
+        "/disclaimer",
+        200
+      ],
+      [
+        "/fix-it-or-sell-it/",
+        200
+      ],
+      [
+        "/lending-partners",
+        200
+      ],
+      [
+        "/privacy",
+        200
+      ],
+      [
+        "/referrals",
+        200
+      ],
+      [
+        "/sms-tcpa",
+        200
+      ],
+      [
+        "/terms",
+        200
+      ]
+    ],
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "testedBuildByteParity": true,
+    "commit": "f4ad18917c5b00a080b75364695695ea4d13dce3",
+    "deployId": "6adcb106782eba472902e338",
+    "exactCommitReady": true
+  },
+  "publication": {
+    "result": "pass",
+    "mode": "production",
+    "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+    "origin": "https://www.cashasis.com",
+    "verifiedAt": "2026-10-24T13:25:49.946591+00:00",
+    "http200": true,
+    "noindexPreview": false,
+    "canonical": true,
+    "OGXHero": true,
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "visibleFAQMatches": 4,
+    "internalLinks": [
+      [
+        "/",
+        200
+      ],
+      [
+        "/accessibility",
+        200
+      ],
+      [
+        "/blog/",
+        200
+      ],
+      [
+        "/blog/cash-offer-vs-listing-house-houston/",
+        200
+      ],
+      [
+        "/blog/protect-house-sale-proceeds-wire-fraud/",
+        200
+      ],
+      [
+        "/blog/sell-house-title-problems-houston/",
+        200
+      ],
+      [
+        "/careers",
+        200
+      ],
+      [
+        "/disclaimer",
+        200
+      ],
+      [
+        "/fix-it-or-sell-it/",
+        200
+      ],
+      [
+        "/lending-partners",
+        200
+      ],
+      [
+        "/privacy",
+        200
+      ],
+      [
+        "/referrals",
+        200
+      ],
+      [
+        "/sms-tcpa",
+        200
+      ],
+      [
+        "/terms",
+        200
+      ]
+    ],
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "testedBuildByteParity": true,
+    "pr": 30,
+    "productionCommit": "54e5d669570bab5f84a693ae25b66a02c1c354a7",
+    "productionDeployId": "6adcb1813195872cc46e3389",
+    "publishedAt": "2026-10-24T13:24:51.879Z",
+    "exactCommitReady": true
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-24",
+    "errors": [],
+    "checkedAt": "2026-10-24T13:24:13.058Z"
+  },
+  "nextIndexingReview": "2026-10-27"
 }
