@@ -11,6 +11,44 @@ const cors = {
   "Content-Type": "application/json",
 };
 
+// ---- Source tracking: validate and store UTM attribution. Never blocks an application. ----
+// Free-form on purpose (new channels need no deploy); value shape is capped and sanitized.
+function cleanTag(v: unknown, max: number): string | null {
+  if (typeof v !== "string") return null;
+  const s = v.normalize("NFKC").replace(/[\u0000-\u001f\u007f]/g, "").trim().toLowerCase()
+    .replace(/\s+/g, "-").replace(/[^a-z0-9_.-]/g, "").slice(0, max);
+  if (!/^[a-z0-9]/.test(s) || /\d{10,}/.test(s)) return null; // must start alphanumeric; no phone/ID-like runs
+  return s;
+}
+function cleanLanding(v: unknown): string | null {
+  if (typeof v !== "string" || v.length > 500) return null;
+  try {
+    const u = new URL(v);
+    if (u.protocol !== "https:" || !/^(www\.)?cashasis\.com$/.test(u.hostname)) return null;
+    return (u.origin + u.pathname).slice(0, 300); // drop query/hash
+  } catch { return null; }
+}
+function cleanTouchAt(v: unknown, now: number): string | null {
+  const t = Date.parse(typeof v === "string" ? v : "");
+  if (!Number.isFinite(t) || t > now + 5 * 60_000 || t < now - 35 * 86_400_000) return null;
+  return new Date(t).toISOString();
+}
+function readAttribution(raw: unknown, now: number) {
+  try {
+    const a = raw && typeof raw === "object" && !Array.isArray(raw) ? raw as Record<string, unknown> : {};
+    return {
+      utm_source: cleanTag(a.utm_source, 60),
+      utm_medium: cleanTag(a.utm_medium, 60),
+      utm_campaign: cleanTag(a.utm_campaign, 80),
+      utm_content: cleanTag(a.utm_content, 80),
+      landing_url: cleanLanding(a.landing_url),
+      first_touch_at: cleanTouchAt(a.first_touch_at, now),
+    };
+  } catch {
+    return { utm_source: null, utm_medium: null, utm_campaign: null, utm_content: null, landing_url: null, first_touch_at: null };
+  }
+}
+
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
   if (req.method !== "POST") return new Response(JSON.stringify({ ok: false, error: "Method not allowed" }), { status: 405, headers: cors });
@@ -36,6 +74,7 @@ Deno.serve(async (req) => {
 
     const supabase = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
     const brand = p.brand === "Neighborly Offer" ? "Neighborly Offer" : "Cash As-Is";
+    const attribution = readAttribution(p.attribution, Date.now());
 
     const { data: candidate, error } = await supabase.from("hiring_candidates").insert({
       brand,
@@ -55,7 +94,8 @@ Deno.serve(async (req) => {
       heard_from: String(p.heard_from || "").trim().slice(0, 300) || null,
       resume_link: String(p.resume_link || "").trim().slice(0, 1000) || null,
       screening: screening.value,
-      source: "cashasis-careers",
+      source: "cashasis-careers", // constant; never taken from the client
+      ...attribution,
       stage: "questionnaire_pending",
     }).select("id,position,brand").single();
 

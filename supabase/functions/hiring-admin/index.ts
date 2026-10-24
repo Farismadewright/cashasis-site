@@ -90,7 +90,7 @@ Deno.serve(async (req) => {
           : (p ? interviewGuide(p.scores, c.position, p.response_quality) : []);
         return new Response(JSON.stringify({ ok: true, candidate: c, questionnaire: q || [], profile: p, assessment: a || [], review: r, resume_url, audio_url, signals, interview_questions }), { headers: cors });
       }
-      const { data: list, error } = await admin.from("hiring_candidates").select("id,brand,full_name,email,phone,city,state,position,stage,experience,availability,created_at,questionnaire_completed_at").order("created_at", { ascending: false }).limit(250);
+      const { data: list, error } = await admin.from("hiring_candidates").select("id,brand,full_name,email,phone,city,state,position,stage,experience,availability,created_at,questionnaire_completed_at,heard_from,utm_source,utm_medium,utm_campaign,utm_content,landing_url,first_touch_at").order("created_at", { ascending: false }).limit(250);
       if (error) throw error;
       const ids = (list || []).map((x: { id: string }) => x.id);
       const { data: profiles } = ids.length
