@@ -757,6 +757,16 @@
       "evidenceCommit": "dfa494b368037772be2050b8711e3527d8f4f04b",
       "bookkeepingDeployId": "6adb6471f4e7f0ae0d2d4718",
       "monitoringCommit": "3dc27bcffadfde266aa6dc9d55005271198660c2"
+    },
+    {
+      "slug": "paid-off-mortgage-lien-release-houston",
+      "intentKey": "houston-paid-off-mortgage-recorded-release-match-before-sale",
+      "day": "2026-10-24",
+      "runId": "native-daily-20261024T131106Z",
+      "fence": 17,
+      "status": "reserved",
+      "reservedAt": "2026-10-24T13:15:15.969Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
