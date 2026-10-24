@@ -716,6 +716,38 @@ function show(id){
   window.scrollTo({top:0, behavior:'smooth'});
 }
 
+/* ---- source tracking: utm_* from /js/cashasis-attribution.js (30-day, localStorage) plus a ?src= alias ---- */
+const SRC_KEY = 'cashasis_careers_src_v1', SRC_TTL = 30*24*60*60*1000;
+function readSrcAlias(){
+  try{
+    const q = new URLSearchParams(location.search);
+    const gpc = navigator.globalPrivacyControl === true;
+    const v = (q.get('src') || '').trim().toLowerCase();
+    if(/^[a-z0-9][a-z0-9_.-]{0,59}$/.test(v) && !q.get('utm_source')){
+      if(!gpc) localStorage.setItem(SRC_KEY, JSON.stringify({v:v, at:Date.now()}));
+      return {v:v, fresh:true};
+    }
+    if(gpc) return {v:'', fresh:false};
+    const s = JSON.parse(localStorage.getItem(SRC_KEY) || 'null');
+    return (s && /^[a-z0-9][a-z0-9_.-]{0,59}$/.test(s.v || '') && Date.now() - s.at < SRC_TTL) ? {v:s.v, fresh:false} : {v:'', fresh:false};
+  }catch(e){ return {v:'', fresh:false}; }
+}
+const SRC_ALIAS = readSrcAlias(); // read once at load so a ?src= click is captured on landing
+function attributionFields(){
+  const out = {};
+  try{
+    const ev = (window.cashasisAttribution && window.cashasisAttribution.evidence) || null;
+    const first = ev && ev.first || null, latest = ev && ev.latest || null;
+    const tagged = (latest && latest.utm_source) ? latest : ((first && first.utm_source) ? first : null);
+    if(SRC_ALIAS.fresh && SRC_ALIAS.v){ out.utm_source = SRC_ALIAS.v; }       // this click's ?src= beats an older stored tag
+    else if(tagged){ ['utm_source','utm_medium','utm_campaign','utm_content'].forEach(k => { if(tagged[k]) out[k] = tagged[k]; }); }
+    else if(SRC_ALIAS.v){ out.utm_source = SRC_ALIAS.v; }
+    out.landing_url = (tagged && tagged.url) || (first && first.url) || '';    // origin + path only (query is stripped by the loader)
+    out.first_touch_at = (first && first.at) || '';
+  }catch(e){}
+  return out;
+}
+
 /* ---- payload ---- */
 function buildPayload(){
   var _n = document.getElementById('app-name').value.trim();
@@ -740,6 +772,7 @@ function buildPayload(){
     resume_data_url: resume ? resume.dataUrl : '',
     brand: 'Cash As-Is',
     source: 'cashasis-careers',
+    attribution: attributionFields(),
     screening: {
       commission_1099: (document.querySelector('input[name="screening_commission"]:checked') || {}).value || '',
       calling_4h: (document.querySelector('input[name="screening_calling"]:checked') || {}).value || '',
