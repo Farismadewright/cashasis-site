@@ -1,0 +1,196 @@
+{
+  "title": "Paid-Off Mortgage Still on Title? A Houston Seller's Guide",
+  "description": "Paid off your Houston mortgage but an old lien still appears? Gather payoff records, check the recorded release and plan your sale without guessing.",
+  "pubDate": "2026-10-24T13:11:06Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "tags": [
+    "Houston",
+    "mortgage lien release",
+    "seller title preparation"
+  ],
+  "primaryKeyword": "paid off mortgage lien release Houston",
+  "supportingKeywords": [
+    "old mortgage still on title",
+    "Harris County recorded mortgage release",
+    "selling house after mortgage payoff"
+  ],
+  "image": "/images/paid-off-mortgage-lien-release-houston.png",
+  "imageAlt": "Illustrative Houston brick house and closed document folder with the headline Paid Off Lien Check and transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does a zero mortgage balance prove that the lien release is recorded?",
+      "a": "No. A paid loan and the recording of its release are separate things to verify. Keep the payoff evidence and ask the closing team to match the recorded release to the mortgage on your property."
+    },
+    {
+      "q": "Where can a Harris County seller look for real-property documents?",
+      "a": "The Harris County Clerk provides a Real Property Document Search Portal. Its online results have recording delays and completeness limitations, so a missing result is a reason to follow up, not a final title conclusion."
+    },
+    {
+      "q": "Should I pay an old mortgage again because it appears in a title review?",
+      "a": "Do not assume a historical mortgage entry means a new payment is due. Give the closing team your payoff records and ask it to identify the exact unresolved item and appropriate next step."
+    },
+    {
+      "q": "Can I request a Cash As-Is offer while a release is being checked?",
+      "a": "Yes. Explain that an old mortgage release is under review. Cash As-Is can evaluate the property's current condition while the title professionals determine closing requirements; an offer does not remove a lien or guarantee closing."
+    }
+  ],
+  "slug": "paid-off-mortgage-lien-release-houston",
+  "runId": "native-daily-20261024T131106Z",
+  "fence": 17,
+  "day": "2026-10-24",
+  "intentKey": "houston-paid-off-mortgage-recorded-release-match-before-sale",
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+  "externalApiUsed": false,
+  "costUSD": 0,
+  "cost": {
+    "currency": "USD",
+    "actual": 0,
+    "note": "External paid API spend zero; native existing allowances only."
+  },
+  "imageSha256": "6265bd9e82e3a4dd67c9e3acf4bfd3c09c7577b9737125d7ae45ca7bea1c2d41",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "sell-house-title-problems-houston",
+    "sell-house-with-liens-houston",
+    "selling-houston-house-reverse-mortgage"
+  ],
+  "substantiveDifference": "Recorded-release matching for an already paid mortgage, not negotiating unpaid liens, paying a current loan, general title trouble or choosing a cash buyer. Adds a payoff/release document packet, Harris County search limitations and a review handoff. Supports the existing title-problem primary page.",
+  "originalityEvidence": {
+    "method": "Manual full inventory/ledger/open-PR semantic review plus 12-word shingles",
+    "maximumMatches": [
+      {
+        "slug": "selling-houston-house-neglected-pool",
+        "shared12WordShingles": 2
+      },
+      {
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "shared12WordShingles": 1
+      },
+      {
+        "slug": "property-tax-proration-selling-houston-house",
+        "shared12WordShingles": 1
+      },
+      {
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "shared12WordShingles": 1
+      },
+      {
+        "slug": "selling-houston-house-suspected-asbestos",
+        "shared12WordShingles": 1
+      }
+    ],
+    "pendingPR27": "Local city/as-is hub/meta work; no paid-off release topic",
+    "primaryURL": "/blog/sell-house-title-problems-houston/"
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/after-i-have-paid-off-my-mortgage-how-do-i-check-if-my-lien-was-released-en-206/",
+      "title": "After paying off a mortgage, checking the lien release",
+      "publicationDate": "2024-09-13",
+      "verifiedAt": "2026-10-24T13:19:00.384827+00:00",
+      "accessedAt": "2026-10-24T13:19:00.384827+00:00",
+      "claim": "Payment and recorded release are separate evidence; property-record/company follow-up; recording can lag payoff.",
+      "geography": "US general guidance",
+      "figure": null,
+      "method": "Read full primary-source page; no universal deadline inferred."
+    },
+    {
+      "url": "https://www.cclerk.hctx.net/Applications/WebSearch/RP.aspx",
+      "title": "Harris County Clerk Real Property Document Search",
+      "publicationDate": null,
+      "verifiedAt": "2026-10-24T13:19:00.384827+00:00",
+      "accessedAt": "2026-10-24T13:19:00.384827+00:00",
+      "claim": "Actual search fields and online processing/completeness caveats; wrong-county searches do not establish title.",
+      "geography": "Harris County Texas",
+      "figure": null,
+      "method": "Read official live portal instructions; no private record searched or purchased."
+    }
+  ],
+  "imageProvenance": {
+    "provider": "native imagegen",
+    "original": true,
+    "backgroundSha256": "376a550e4d6f8db0f2e45edca0c6319ed90cddd5893d23970ba0a21b69bc877d",
+    "prompt": "Photorealistic editorial illustration for a Houston house seller guide. A modest weathered single-story tan brick Houston ranch house on the right two thirds, covered front porch, mature oak and realistic Texas suburban vegetation. A closed plain document folder without writing rests on the porch side table, subtle paperwork theme, not a listing. Wide landscape composition with dark shaded foliage and generous uncluttered negative space on left for later deterministic brand overlay. Natural daylight, honest realistic condition, no dramatic damage. No people, no addresses, no numbers, no readable paperwork, no text, no lettering, no logos, no watermark. Original fictional illustrative property, not a real customer house.",
+    "illustrative": true,
+    "renderer": "locked render_thumbnail.mjs",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logoVariant": "white",
+    "headline": "PAID OFF?|LIEN CHECK",
+    "size": [
+      1200,
+      630
+    ],
+    "visualReview": "Full size and article/card review; correct transparent logo, no logo panel; no AI logo."
+  },
+  "sellerVoice": {
+    "access": "read-only",
+    "sampleCount": 100,
+    "inboundCount": 46,
+    "dateRange": [
+      "2026-10-23T21:24:05.135Z",
+      "2026-10-24T03:11:50.065Z"
+    ],
+    "counts": {
+      "price": {
+        "messages": 5,
+        "distinctSellers": 4,
+        "keywordScreenOnly": true
+      },
+      "timing": {
+        "messages": 2,
+        "distinctSellers": 2,
+        "keywordScreenOnly": true
+      },
+      "condition": {
+        "messages": 3,
+        "distinctSellers": 3,
+        "keywordScreenOnly": true
+      }
+    },
+    "limitation": "Bounded current sample; keyword screening only, not contextual proof of recurring concern. Topic selected from uncovered editorial intent; no seller story or private detail used."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "seoLifecycle": {
+    "specificSellerIntent": "houston-paid-off-mortgage-recorded-release-match-before-sale",
+    "contentQuality": "Direct answer, practical document packet, fair sale routes; no individual legal determination or promised deadline.",
+    "duplicateCannibalizationReview": "pass",
+    "meaningfulInternalLinks": "Title-problem hub, cash/listing and payment-security guides; automatic blog-card inbound link",
+    "sellerConversionPath": "Existing attributed layout cash-offer CTA",
+    "productionIndexability": "pending live verification",
+    "searchConsoleMonitoring": "pending first live inspection",
+    "GA4Measurement": "Optional; not queried today, no new organic outcome inferred"
+  },
+  "mobileEvidence": {
+    "widths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "articleAndCardVisualReview": true,
+    "tablesOverflowSafe": true,
+    "FAQOpens": true
+  }
+}
