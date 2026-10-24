@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W43",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-10-23T13:41:29.950773+00:00",
-  "lastSuccessfulReview": "2026-10-23T13:41:29.950773+00:00",
+  "lastAttempt": "2026-10-24T13:26:27.793Z",
+  "lastSuccessfulReview": "2026-10-24T13:26:27.793Z",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -70,10 +70,23 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ffbr9hYSwVY1xugSef4b8w&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-24T13:21:47.133846+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
+          "lastCrawlTime": "2026-10-23T05:02:30+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ZNF3E32nRZl3v0sy3wYtdA&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-20T13:50:25.342914+00:00",
+      "technicalVerifiedAt": "2026-10-24T13:19:50.748248+00:00",
       "recordPath": "automation/blog-publisher/records/selling-houston-house-open-insurance-claim.json",
       "ageBasis": "publication",
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -118,7 +131,10 @@
           "/fix-it-or-sell-it/": 200
         },
         "linksHTTP200": true
-      }
+      },
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-11-21"
     },
     {
       "url": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
@@ -182,10 +198,23 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8dCeyZCd0_PUtZx0vct2Hw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-24T13:21:47.101392+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+          "userCanonical": "https://www.cashasis.com/blog/houston-house-unpermitted-addition-records/",
+          "lastCrawlTime": "2026-10-23T06:51:23+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=F7KH280x0Obng-v5k6dqCw&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-20T13:50:25.342914+00:00",
+      "technicalVerifiedAt": "2026-10-24T13:19:58.036231+00:00",
       "recordPath": "automation/blog-publisher/records/houston-house-unpermitted-addition-records.json",
       "ageBasis": "publication",
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -230,7 +259,10 @@
           "/fix-it-or-sell-it/": 200
         },
         "linksHTTP200": true
-      }
+      },
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-11-21"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
@@ -294,10 +326,23 @@
           "googleCanonical": null,
           "userCanonical": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=E0cKMv2AWqWWAHhEqCvZdw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-24T13:21:47.057386+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+          "lastCrawlTime": "2026-10-23T04:06:08+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Fj6NGDY2QqA2PPEInx3fiQ&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-20T13:50:25.342914+00:00",
+      "technicalVerifiedAt": "2026-10-24T13:19:50.729492+00:00",
       "recordPath": "automation/blog-publisher/records/selling-fort-bend-house-septic-system.json",
       "ageBasis": "publication",
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -342,7 +387,10 @@
           "/fix-it-or-sell-it/": 200
         },
         "linksHTTP200": true
-      }
+      },
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-11-21"
     },
     {
       "url": "https://www.cashasis.com/3-things-sellers-dont-think-about/",
@@ -7182,6 +7230,19 @@
           "referringUrls": [],
           "googleCanonical": null,
           "userCanonical": null
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-24T13:21:47.006266+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+          "lastCrawlTime": "2026-10-24T06:39:29+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8SP0QczgSmMLSYu23AkBgw&utm_medium=link&utm_source=api"
         }
       ],
       "excluded": false,
@@ -7189,7 +7250,7 @@
       "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "lastAttemptAt": "2026-10-21T14:22:45.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-24T13:19:50.512310+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production deployment",
@@ -7217,7 +7278,9 @@
       "recordPath": "automation/blog-publisher/records/selling-houston-house-roof-damage-repair-or-as-is.json",
       "firstSuccessfulInspection": "2026-10-21T14:22:45.000Z",
       "lastSuccessfulInspection": "2026-10-21T14:22:45.000Z",
-      "nextReviewAt": "2026-10-24T14:22:45.000Z"
+      "nextReviewAt": "2026-10-24T14:22:45.000Z",
+      "technicalIssue": null,
+      "nextReview": "2026-11-21"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
@@ -7240,6 +7303,19 @@
           "referringUrls": [],
           "googleCanonical": null,
           "userCanonical": null
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-24T13:21:47.120162+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-sewer-line-problem/",
+          "lastCrawlTime": "2026-10-23T04:54:33+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=nYzx7q3wrX8thZZH0ShQJw&utm_medium=link&utm_source=api"
         }
       ],
       "excluded": false,
@@ -7247,7 +7323,7 @@
       "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
       "lastAttemptAt": "2026-10-21T14:22:45.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-24T13:19:58.140411+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production deployment",
@@ -7275,7 +7351,9 @@
       "recordPath": "automation/blog-publisher/records/selling-houston-house-sewer-line-problem.json",
       "firstSuccessfulInspection": "2026-10-21T14:22:45.000Z",
       "lastSuccessfulInspection": "2026-10-21T14:22:45.000Z",
-      "nextReviewAt": "2026-10-24T14:22:45.000Z"
+      "nextReviewAt": "2026-10-24T14:22:45.000Z",
+      "technicalIssue": null,
+      "nextReview": "2026-11-21"
     },
     {
       "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
@@ -7769,6 +7847,30 @@
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-26"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+      "publishedAt": "2026-10-24T13:24:51.879Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-24T13:25:38.037928+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lLAUNYZJE9xfj2P1GdomGg&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "technicalVerifiedAt": "2026-10-24T13:25:49.946591+00:00",
+      "nextReview": "2026-10-27"
     }
   ],
   "notifications": [],
@@ -7809,8 +7911,8 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-10-21",
-  "inspectionCallsUsed": 15,
+  "settledThrough": "2026-10-22",
+  "inspectionCallsUsed": 6,
   "lastRunMonitoring": {
     "runId": "native-daily-20261021T134423Z",
     "actualInspectionCalls": 19,
@@ -7840,41 +7942,41 @@
     "bookkeepingDeployCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
     "bookkeepingDeployReadyVerifiedAt": "2026-10-21T14:30:10.000Z"
   },
-  "now": "2026-10-23T13:41:29.950773+00:00",
-  "lastRunId": "native-daily-20261023T130501Z",
+  "now": "2026-10-24T13:26:27.793Z",
+  "lastRunId": "native-daily-20261024T131106Z",
   "coverage": {
-    "eligibleSitemapURLs": 194,
-    "eligibleBlogArticles": 166,
-    "eligibleURLsWithRetainedInspectionEvidence": 194,
+    "eligibleSitemapURLs": 195,
+    "eligibleBlogArticles": 167,
+    "eligibleURLsWithRetainedInspectionEvidence": 195,
     "latestEvidenceCounts": {
-      "indexed": 166,
-      "not_indexed": 28
-    },
-    "latestBlogEvidenceCounts": {
-      "indexed": 142,
+      "indexed": 171,
       "not_indexed": 24
     },
-    "inspectedThisRun": 15,
+    "latestBlogEvidenceCounts": {
+      "indexed": 147,
+      "not_indexed": 20
+    },
+    "inspectedThisRun": 6,
     "observationDateRange": [
       "2026-10-04T18:51:07.839038+00:00",
-      "2026-10-23T13:36:43.187942+00:00"
+      "2026-10-24T13:25:38.037928+00:00"
     ],
-    "note": "Mixed observation dates, not a fresh complete inspection of every URL. Nine existing non-blog pages were newly reconciled into coverage, not published today or claimed as new indexing gains. Impressions are not index counts; unknown is not rejection."
+    "note": "Mixed observation dates; not a fresh full-site inspection. Actual Google Inspection evidence, not impressions or tracker-pending counts."
   },
   "lastRun": {
-    "runId": "native-daily-20261023T130501Z",
-    "published": 3,
-    "held": 0,
-    "inspectionCalls": 15,
+    "runId": "native-daily-20261024T131106Z",
+    "published": 1,
+    "heldCandidates": 2,
+    "inspectionCalls": 6,
     "deferredInspections": 0,
     "weeklyReviewDue": false,
     "monthlyReviewDue": false,
     "alertSent": false,
-    "evidence": "automation/blog-publisher/runs/2026-10-23.json"
+    "evidence": "automation/blog-publisher/runs/2026-10-24.json"
   },
   "pendingInspectionQueue": [],
   "notificationSuppression": {
-    "at": "2026-10-23T13:41:29.950773+00:00",
-    "reason": "Routine success and normal initial discovery delays; three older URLs now indexed. No sustained ranking or verified organic seller-lead change requiring an alert."
+    "at": "2026-10-24T13:26:27.793Z",
+    "reason": "Routine safe publication, normal new URL discovery and expected indexed follow-ups; no actionable failure, sustained ranking gain or verified organic lead change."
   }
 }
