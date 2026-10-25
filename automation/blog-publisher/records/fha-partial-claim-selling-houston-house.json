@@ -1,0 +1,249 @@
+{
+  "title": "Selling a Houston House With an FHA Partial Claim",
+  "description": "Had FHA mortgage assistance? Check for a separate partial-claim payoff before estimating your Houston house-sale proceeds or promising a closing date.",
+  "primaryKeyword": "selling Houston house FHA partial claim",
+  "supportingKeywords": [
+    "HUD partial claim payoff selling house",
+    "FHA subordinate mortgage seller proceeds",
+    "partial claim versus mortgage balance"
+  ],
+  "pubDate": "2026-10-25T13:07:13Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "tags": [
+    "Houston",
+    "seller preparation",
+    "selling Houston house FHA partial claim"
+  ],
+  "image": "/images/fha-partial-claim-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston-area house with the headline FHA CLAIM? CHECK PAYOFF and official transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does every FHA loan have a partial claim?",
+      "a": "Do not assume one exists solely because the loan is FHA-insured. Ask your servicer and closing team to review your actual assistance and loan documents."
+    },
+    {
+      "q": "Is an FHA partial claim the same as mortgage forgiveness?",
+      "a": "HUD describes the standalone partial claim as an interest-free subordinate lien with repayment triggers, including a sale. Review the actual obligation instead of assuming it was forgiven."
+    },
+    {
+      "q": "Can I estimate sale proceeds from my first-mortgage statement alone?",
+      "a": "Not reliably when a separate obligation may exist. Have the closing team reconcile all required payoffs and confirm which amounts are already included."
+    },
+    {
+      "q": "Can Cash As-Is evaluate my house while the payoff is being checked?",
+      "a": "Yes. Explain the assistance arrangement when requesting a property review. An evaluation does not cancel debt, establish relief eligibility or guarantee a closing date."
+    }
+  ],
+  "slug": "fha-partial-claim-selling-houston-house",
+  "runId": "native-daily-20261025T130713Z",
+  "fence": 18,
+  "day": "2026-10-25",
+  "intentKey": "houston-fha-standalone-partial-claim-separate-payoff-seller-net",
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+  "nearestOverlaps": [
+    "selling-houston-house-reverse-mortgage",
+    "sell-house-with-liens-houston",
+    "paid-off-mortgage-lien-release-houston"
+  ],
+  "substantiveDifference": "Standalone FHA loss-mitigation subordinate debt, its separate payoff and seller-net arithmetic; not HECM rules, disputed liens or a loan already paid off.",
+  "intentMapping": {
+    "primaryURL": "/blog/sell-house-with-liens-houston/",
+    "role": "distinct supporting education"
+  },
+  "sources": [
+    {
+      "url": "https://www.hud.gov/helping-americans/fha-loss-mitigation",
+      "title": "FHA loss mitigation",
+      "claim": "Standalone partial claim is interest-free subordinate debt; sale can trigger repayment; home retention review and counseling are alternatives to assuming a sale is necessary.",
+      "verifiedAt": "2026-10-25T13:15:21.991427+00:00",
+      "accessedAt": "2026-10-25T13:15:21.991427+00:00",
+      "publicationDate": null,
+      "geography": "US federal",
+      "reportingPeriod": null,
+      "figure": null,
+      "method": "Read actual current primary-source content; no personal eligibility determination."
+    },
+    {
+      "url": "https://www.hud.gov/helping-americans/mortgage-servicing-contractors",
+      "title": "Secretary-held mortgage servicing",
+      "claim": "Official partial-claim payoff/documentation routes, authorized third parties and specific warning against wire instructions for Secretary-held liens.",
+      "verifiedAt": "2026-10-25T13:15:21.991427+00:00",
+      "accessedAt": "2026-10-25T13:15:21.991427+00:00",
+      "publicationDate": null,
+      "geography": "US federal",
+      "reportingPeriod": null,
+      "figure": null,
+      "method": "Read actual current primary-source content; no personal eligibility determination."
+    }
+  ],
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "imageSha256": "e48cfaf8a960feeadaa0667a70a9fe581f7b371e6cd24a2adb9cde75fce87d9d",
+  "imageProvenance": {
+    "provider": "native imagegen",
+    "original": true,
+    "illustrative": true,
+    "prompt": "Photorealistic editorial property illustration for a Cash As-Is Houston seller guide. Subject: a modest red brick Houston ranch with slightly weathered front trim, a covered walkway and a plain closed folder on the porch. Wide landscape composition, house on the right two thirds, dark shaded uncluttered foliage and generous negative space on left for later deterministic brand overlay. Natural Texas daylight, real materials, honest ordinary condition, balanced realistic geometry. Original fictional property, no seller case or real listing represented. No people, no addresses, no text, no letters, no numbers, no readable paperwork, no signs, no logos, no watermark. Do not add a logo or title; a separate approved renderer does that.",
+    "backgroundSha256": "91834b5ed8230e59afab0d33c68616bfb294381f52025705a984b2d2510b7398",
+    "template": "left-photo-transparent-v2",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "headline": "FHA CLAIM?|CHECK PAYOFF",
+    "logo": "official white/orange transparent",
+    "size": [
+      1200,
+      630
+    ],
+    "visualReview": "Full1200x630 image plus mobile/desktop article and actual post card; exact logo alpha, readable headline, no logo panel, no text obscured by card badge."
+  },
+  "sellerVoice": {
+    "access": "read-only",
+    "sampleCount": 100,
+    "inboundCount": 25,
+    "dateRange": [
+      "2026-10-24T15:01:45.655Z",
+      "2026-10-25T02:11:09.999Z"
+    ],
+    "counts": {
+      "price": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "timing": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "condition": {
+        "messages": 0,
+        "distinctSellers": 0
+      }
+    },
+    "limitation": "Bounded keyword screen only, not verified recurring contextual demand. No private details/stories/quotes retained; topics selected from uncovered seller decisions."
+  },
+  "externalApiUsed": false,
+  "costUSD": 0,
+  "cost": {
+    "currency": "USD",
+    "actual": 0,
+    "note": "External paid APIs zero; existing native allowances only."
+  },
+  "commit": null,
+  "deployId": null,
+  "originalityEvidence": {
+    "method": "Manual semantic comparison of current article/static inventory, intent map, full ledger and openPR27; supplemental12-word shingles",
+    "nearestTextMatches": [
+      {
+        "slug": "foundation-report-before-selling-houston-house",
+        "shared12WordShingles": 2
+      },
+      {
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "shared12WordShingles": 1
+      },
+      {
+        "slug": "selling-houston-house-reverse-mortgage",
+        "shared12WordShingles": 1
+      },
+      {
+        "slug": "how-to-verify-cash-home-buyer-texas",
+        "shared12WordShingles": 1
+      },
+      {
+        "slug": "existing-survey-when-selling-texas-house",
+        "shared12WordShingles": 1
+      }
+    ],
+    "pendingPR27": "Local city/as-is hub/meta changes; no matching supporting question."
+  },
+  "mobileEvidence": {
+    "widths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 274,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/fha-partial-claim-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 304,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/fha-partial-claim-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/fha-partial-claim-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 638,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/fha-partial-claim-selling-houston-house.png"
+      }
+    ],
+    "articleAndActualCardVisualReview": true,
+    "cardsWidths": [
+      390,
+      1366
+    ]
+  },
+  "seoLifecycle": {
+    "specificSearchIntent": "houston-fha-standalone-partial-claim-separate-payoff-seller-net",
+    "duplicateCannibalizationReview": "pass; distinct supporting question, manual differences retained",
+    "internalLinks": "Upward primary/problem page and relevant supporting guides; automatic blog-card inbound path",
+    "sellerPath": "Existing ctaLink attribution preserved and checked",
+    "indexingEligibility": "Local canonical/noindex/schema/image/sitemap/RSS verified; exact production check pending",
+    "GoogleMonitoring": "pending publication inspection; reporting optional",
+    "GA4": "Not queried today; no new organic lead or funded GP inferred"
+  }
+}
