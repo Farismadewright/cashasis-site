@@ -786,6 +786,36 @@
       "evidenceCommit": "b9488033433b76c866a898b49bec1d2c24d8292b",
       "bookkeepingDeployId": "6adcb262a3df51462dfdf5af",
       "monitoringCommit": "3d255fa5a35e3b24afa2048525ddafa20f39540b"
+    },
+    {
+      "slug": "fha-partial-claim-selling-houston-house",
+      "intentKey": "houston-fha-standalone-partial-claim-separate-payoff-seller-net",
+      "day": "2026-10-25",
+      "runId": "native-daily-20261025T130713Z",
+      "fence": 18,
+      "status": "reserved",
+      "reservedAt": "2026-10-25T13:10:19.564Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "mortgage-escrow-refund-after-selling-houston-house",
+      "intentKey": "houston-seller-mortgage-escrow-refund-versus-closing-cash-netting",
+      "day": "2026-10-25",
+      "runId": "native-daily-20261025T130713Z",
+      "fence": 18,
+      "status": "reserved",
+      "reservedAt": "2026-10-25T13:10:19.564Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "water-district-notice-selling-houston-area-house",
+      "intentKey": "houston-harris-fort-bend-seller-water-district-notice-source-identification",
+      "day": "2026-10-25",
+      "runId": "native-daily-20261025T130713Z",
+      "fence": 18,
+      "status": "reserved",
+      "reservedAt": "2026-10-25T13:10:19.564Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
