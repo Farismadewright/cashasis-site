@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W43",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-10-24T13:26:27.793Z",
-  "lastSuccessfulReview": "2026-10-24T13:26:27.793Z",
+  "lastAttempt": "2026-10-25T13:31:31.603Z",
+  "lastSuccessfulReview": "2026-10-25T13:31:31.603Z",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -544,6 +544,19 @@
           "userCanonical": "https://www.cashasis.com/blog/",
           "robotsTxtState": "ALLOWED",
           "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:14.44081+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/",
+          "userCanonical": "https://www.cashasis.com/blog/",
+          "lastCrawlTime": "2026-09-04T20:07:12+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sRrB0ZK-KWk8xHHNRKTnQA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -554,7 +567,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:19.226359+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -569,6 +582,30 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/3-things-sellers-dont-think-about/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/accessibility",
+            "httpStatus": 200
+          },
+          {
+            "path": "/after-you-sign/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -1364,6 +1401,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:14.491435+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Discovered - currently not indexed",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TxbaHthHUq_XT3jV5Uo84Q&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -1374,7 +1424,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:13.534179+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -1389,6 +1439,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/cash-house-sale-timeline-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-behind-on-taxes-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -1989,6 +2059,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:14.651487+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_4RRtU9XN9nWoBwXeYhzVw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -1999,7 +2082,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:13.470235+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -2014,6 +2097,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-code-violations-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-harris-county-tx/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -2460,6 +2563,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:14.560909+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_rFx_qlrwptIZ2prPVjEfQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -2470,7 +2586,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:13.542093+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -2485,6 +2601,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-behind-on-taxes-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-harris-county-tx/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -2775,6 +2911,19 @@
           "userCanonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
           "robotsTxtState": "ALLOWED",
           "pageFetchState": "SUCCESSFUL"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:21.07242+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+          "lastCrawlTime": "2026-10-06T01:30:13+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YqxTnaqmkpBdBLqkSwZMXA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -2785,7 +2934,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:16.144435+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -2800,6 +2949,13 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": false,
+        "checked": [],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -5084,6 +5240,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:21.227602+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Discovered - currently not indexed",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YclMGy4GhVze8Jrv_9LiVg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -5094,7 +5263,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:25.519338+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -5109,6 +5278,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-humble-tx/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-vacant-house-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -5144,6 +5333,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:21.133299+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YjH32yoD9WuQSL-Zh8ZEfQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -5154,7 +5356,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:25.518253+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -5169,6 +5371,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-missouri-city-tx/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-vacant-house-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -5543,6 +5765,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:21.38139+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=HVD5OW7zIei5nE9PFev0Hw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -5553,7 +5788,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:19.223494+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -5568,6 +5803,13 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": false,
+        "checked": [],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -5970,6 +6212,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:27.901806+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0oGXHnDOR2sDu7k8ZIAgrQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -5980,7 +6235,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:33.318200+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -5995,6 +6250,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/the-cost-of-waiting/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/understanding-your-cash-offer/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/your-price-isnt-your-take-home/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -6219,6 +6494,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:27.816986+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6I8sOz9_HlIvxCsiSL4tRw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -6229,7 +6517,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:33.370444+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -6244,6 +6532,22 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/after-you-sign/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/why-sell-as-is/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -6333,6 +6637,19 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:28.014001+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Discovered - currently not indexed",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=s65Uo-5BSrYTU_YNWDJv5g&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Current exact-commit production sitemap",
@@ -6343,7 +6660,7 @@
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:39.110601+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "source": "Exact production-equivalent Astro build plus live production eligibility check",
@@ -6358,6 +6675,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-01",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/compare-the-net/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/the-cost-of-waiting/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/understanding-your-cash-offer/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -6489,10 +6826,23 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:21.245136+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+          "lastCrawlTime": "2026-10-23T04:57:26+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=s_kG6bDuIXmoclte-a_3gw&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:21.606209+00:00",
       "technicalEvidence": {
         "slug": "selling-pre-1978-houston-house-lead-paint",
         "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
@@ -6542,6 +6892,22 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-22",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/fix-it-or-sell-it/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -6592,10 +6958,23 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:27.690647+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+          "userCanonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+          "lastCrawlTime": "2026-10-23T04:10:50+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=K1iCeBbcUJi74Np9ROCKNw&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:33.162532+00:00",
       "technicalEvidence": {
         "slug": "termite-report-before-selling-houston-house",
         "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
@@ -6645,6 +7024,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-22",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/blog/cash-offer-vs-listing-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-needs-major-repairs-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -6695,10 +7094,23 @@
           "userCanonical": null,
           "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:14.489941+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+          "userCanonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+          "lastCrawlTime": "2026-10-23T04:20:06+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=EG7ryFnu8f9YP3y2984YIA&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "technicalVerifiedAt": "2026-10-25T13:18:13.490196+00:00",
       "technicalEvidence": {
         "slug": "houston-flood-map-vs-house-flood-history",
         "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
@@ -6748,6 +7160,26 @@
           "meaningfulInternalLinks": true,
           "sellerConversionPath": true
         }
+      },
+      "technicalIssue": null,
+      "nextReview": "2026-11-22",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/blog/sell-flood-damaged-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/selling-houston-house-open-insurance-claim/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       }
     },
     {
@@ -7432,13 +7864,44 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3wmYzz_OqvZoFQ4PwnGtFA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:34.599353+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+          "lastCrawlTime": "2026-10-23T05:38:25+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Tqy4ktT4aDUXjO2s_CdIQA&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-22T13:40:31.520050+00:00",
+      "technicalVerifiedAt": "2026-10-25T13:18:45.798404+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-25"
+      "nextReview": "2026-11-22",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/blog/cash-offer-vs-listing-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-needs-major-repairs-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/vacant-house-insurance-while-selling-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
@@ -7456,13 +7919,44 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fbSE-zB9DdU48e8xXVUJoQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:34.329919+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+          "lastCrawlTime": "2026-10-23T06:54:05+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_N0q_kqM0Utqg5CYNB__Ow&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-22T13:40:31.520050+00:00",
+      "technicalVerifiedAt": "2026-10-25T13:18:45.626242+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-25"
+      "nextReview": "2026-11-22",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/blog/fix-it-first-or-sell-as-is/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-needs-major-repairs-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
@@ -7480,13 +7974,44 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=e6SZCex7x708szIOuw42Xg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:19:27.962121+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+          "userCanonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+          "lastCrawlTime": "2026-10-24T06:39:26+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=46fKEAXohlVoqqAQE7ZmEA&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-22T13:40:31.520050+00:00",
+      "technicalVerifiedAt": "2026-10-25T13:18:39.078096+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-25"
+      "nextReview": "2026-11-22",
+      "linkReview": {
+        "relativeBodyLinks": true,
+        "checked": [
+          {
+            "path": "/blog/cash-offer-vs-listing-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-foundation-problems-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/fix-it-or-sell-it/",
+            "httpStatus": 200
+          }
+        ],
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      }
     },
     {
       "url": "https://www.cashasis.com/",
@@ -7871,6 +8396,78 @@
       "technicalIssue": null,
       "technicalVerifiedAt": "2026-10-24T13:25:49.946591+00:00",
       "nextReview": "2026-10-27"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+      "publishedAt": "2026-10-25T13:29:40.885Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:30:09.678983+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=VcbOOpJigIjbMTtlhxGFiA&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-25T13:30:43.223832+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-28"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+      "publishedAt": "2026-10-25T13:29:40.885Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:30:09.503631+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JLuamqqMkMh5UofYk9mCQg&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-25T13:30:43.223832+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-28"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+      "publishedAt": "2026-10-25T13:29:40.885Z",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-25T13:30:09.413594+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=b91U26UaHYQ057inmMTCCQ&utm_medium=link&utm_source=api"
+        }
+      ],
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-25T13:30:43.223832+00:00",
+      "technicalIssueConfirmed": false,
+      "technicalIssue": null,
+      "nextReview": "2026-10-28"
     }
   ],
   "notifications": [],
@@ -7911,8 +8508,8 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-10-22",
-  "inspectionCallsUsed": 6,
+  "settledThrough": "2026-10-23",
+  "inspectionCallsUsed": 20,
   "lastRunMonitoring": {
     "runId": "native-daily-20261021T134423Z",
     "actualInspectionCalls": 19,
@@ -7942,41 +8539,41 @@
     "bookkeepingDeployCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
     "bookkeepingDeployReadyVerifiedAt": "2026-10-21T14:30:10.000Z"
   },
-  "now": "2026-10-24T13:26:27.793Z",
-  "lastRunId": "native-daily-20261024T131106Z",
+  "now": "2026-10-25T13:31:31.603Z",
+  "lastRunId": "native-daily-20261025T130713Z",
   "coverage": {
-    "eligibleSitemapURLs": 195,
-    "eligibleBlogArticles": 167,
-    "eligibleURLsWithRetainedInspectionEvidence": 195,
+    "eligibleSitemapURLs": 198,
+    "eligibleBlogArticles": 170,
+    "eligibleURLsWithRetainedInspectionEvidence": 198,
     "latestEvidenceCounts": {
-      "indexed": 171,
-      "not_indexed": 24
+      "indexed": 177,
+      "not_indexed": 21
     },
     "latestBlogEvidenceCounts": {
-      "indexed": 147,
-      "not_indexed": 20
+      "indexed": 153,
+      "not_indexed": 17
     },
-    "inspectedThisRun": 6,
+    "inspectedThisRun": 20,
     "observationDateRange": [
       "2026-10-04T18:51:07.839038+00:00",
-      "2026-10-24T13:25:38.037928+00:00"
+      "2026-10-25T13:30:09.678983+00:00"
     ],
-    "note": "Mixed observation dates; not a fresh full-site inspection. Actual Google Inspection evidence, not impressions or tracker-pending counts."
+    "note": "Mixed actual observation dates; not a fresh complete-site census. Blog/non-blog separated. New unknown/pending states are not rejections; impressions are not indexed counts."
   },
   "lastRun": {
-    "runId": "native-daily-20261024T131106Z",
-    "published": 1,
-    "heldCandidates": 2,
-    "inspectionCalls": 6,
+    "runId": "native-daily-20261025T130713Z",
+    "published": 3,
+    "held": 0,
+    "inspectionCalls": 20,
     "deferredInspections": 0,
     "weeklyReviewDue": false,
     "monthlyReviewDue": false,
     "alertSent": false,
-    "evidence": "automation/blog-publisher/runs/2026-10-24.json"
+    "evidence": "automation/blog-publisher/runs/2026-10-25.json"
   },
   "pendingInspectionQueue": [],
   "notificationSuppression": {
-    "at": "2026-10-24T13:26:27.793Z",
-    "reason": "Routine safe publication, normal new URL discovery and expected indexed follow-ups; no actionable failure, sustained ranking gain or verified organic lead change."
+    "at": "2026-10-25T13:31:31.603Z",
+    "reason": "Routine publication, expected indexed follow-ups and new-page discovery; unchanged legacy watch-list observations have no newly confirmed planner alert/regression. No sustained comparable ranking gain or verified organic-lead change."
   }
 }
