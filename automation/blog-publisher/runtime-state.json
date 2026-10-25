@@ -793,9 +793,21 @@
       "day": "2026-10-25",
       "runId": "native-daily-20261025T130713Z",
       "fence": 18,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-25T13:10:19.564Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 33,
+      "previewCommit": "00775e60c21af8e5ae737298df12cda38d38ceb2",
+      "previewDeployId": "6ade037c2a38df36a1edc108",
+      "previewVerifiedAt": "2026-10-25T13:28:03.587306+00:00",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-25",
+        "errors": [],
+        "checkedAt": "2026-10-25T13:28:59.296Z"
+      },
+      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726"
     },
     {
       "slug": "mortgage-escrow-refund-after-selling-houston-house",
@@ -803,9 +815,21 @@
       "day": "2026-10-25",
       "runId": "native-daily-20261025T130713Z",
       "fence": 18,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-25T13:10:19.564Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 33,
+      "previewCommit": "00775e60c21af8e5ae737298df12cda38d38ceb2",
+      "previewDeployId": "6ade037c2a38df36a1edc108",
+      "previewVerifiedAt": "2026-10-25T13:28:03.587306+00:00",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-25",
+        "errors": [],
+        "checkedAt": "2026-10-25T13:28:59.296Z"
+      },
+      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726"
     },
     {
       "slug": "water-district-notice-selling-houston-area-house",
@@ -813,9 +837,21 @@
       "day": "2026-10-25",
       "runId": "native-daily-20261025T130713Z",
       "fence": 18,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-25T13:10:19.564Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 33,
+      "previewCommit": "00775e60c21af8e5ae737298df12cda38d38ceb2",
+      "previewDeployId": "6ade037c2a38df36a1edc108",
+      "previewVerifiedAt": "2026-10-25T13:28:03.587306+00:00",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "day": "2026-10-25",
+        "errors": [],
+        "checkedAt": "2026-10-25T13:28:59.296Z"
+      },
+      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726"
     }
   ],
   "externalApiSpendLimitUSD": 0,
