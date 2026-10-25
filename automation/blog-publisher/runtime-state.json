@@ -4,7 +4,7 @@
     "fence": 18,
     "issuedAt": "2026-10-25T13:08:35.409Z",
     "expiresAt": "2026-10-25T15:03:35.409Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-25T13:36:01.710Z"
   },
   "ledger": [
     {
@@ -793,7 +793,7 @@
       "day": "2026-10-25",
       "runId": "native-daily-20261025T130713Z",
       "fence": 18,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-25T13:10:19.564Z",
       "validationOnly": false,
       "pr": 33,
@@ -807,7 +807,14 @@
         "errors": [],
         "checkedAt": "2026-10-25T13:28:59.296Z"
       },
-      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726"
+      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+      "deployId": "6ade041f9f077a0f8375cbe3",
+      "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+      "publishedAt": "2026-10-25T13:29:40.885Z",
+      "verifiedAt": "2026-10-25T13:35:18.786367+00:00",
+      "evidenceCommit": "8ae5313cd8f25a0b6525c04027bafcecf7720297",
+      "bookkeepingDeployId": "6ade0561e85a3f21ab1d548c",
+      "monitoringCommit": "3d84f738747455e115d17ebea21763c3d3c35707"
     },
     {
       "slug": "mortgage-escrow-refund-after-selling-houston-house",
@@ -815,7 +822,7 @@
       "day": "2026-10-25",
       "runId": "native-daily-20261025T130713Z",
       "fence": 18,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-25T13:10:19.564Z",
       "validationOnly": false,
       "pr": 33,
@@ -829,7 +836,14 @@
         "errors": [],
         "checkedAt": "2026-10-25T13:28:59.296Z"
       },
-      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726"
+      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+      "deployId": "6ade041f9f077a0f8375cbe3",
+      "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+      "publishedAt": "2026-10-25T13:29:40.885Z",
+      "verifiedAt": "2026-10-25T13:35:18.786367+00:00",
+      "evidenceCommit": "8ae5313cd8f25a0b6525c04027bafcecf7720297",
+      "bookkeepingDeployId": "6ade0561e85a3f21ab1d548c",
+      "monitoringCommit": "3d84f738747455e115d17ebea21763c3d3c35707"
     },
     {
       "slug": "water-district-notice-selling-houston-area-house",
@@ -837,7 +851,7 @@
       "day": "2026-10-25",
       "runId": "native-daily-20261025T130713Z",
       "fence": 18,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-25T13:10:19.564Z",
       "validationOnly": false,
       "pr": 33,
@@ -851,35 +865,60 @@
         "errors": [],
         "checkedAt": "2026-10-25T13:28:59.296Z"
       },
-      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726"
+      "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+      "deployId": "6ade041f9f077a0f8375cbe3",
+      "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+      "publishedAt": "2026-10-25T13:29:40.885Z",
+      "verifiedAt": "2026-10-25T13:35:18.786367+00:00",
+      "evidenceCommit": "8ae5313cd8f25a0b6525c04027bafcecf7720297",
+      "bookkeepingDeployId": "6ade0561e85a3f21ab1d548c",
+      "monitoringCommit": "3d84f738747455e115d17ebea21763c3d3c35707"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261024T131106Z",
-    "fence": 17,
+    "runId": "native-daily-20261025T130713Z",
+    "fence": 18,
     "status": "pass",
-    "day": "2026-10-24",
-    "published": 1,
-    "held": 2,
-    "heldScope": "Two topic candidates held before generation; not failed published articles or reserved slots",
-    "productionCommit": "54e5d669570bab5f84a693ae25b66a02c1c354a7",
-    "deployId": "6adcb1813195872cc46e3389",
-    "evidence": "automation/blog-publisher/runs/2026-10-24.json",
-    "bookkeepingCommit": "b9488033433b76c866a898b49bec1d2c24d8292b",
-    "bookkeepingDeployId": "6adcb262a3df51462dfdf5af",
-    "monitoringCommit": "3d255fa5a35e3b24afa2048525ddafa20f39540b",
-    "completedAt": "2026-10-24T13:29:09.958Z",
+    "day": "2026-10-25",
+    "published": 3,
+    "held": 0,
+    "productionCommit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+    "deployId": "6ade041f9f077a0f8375cbe3",
+    "evidence": "automation/blog-publisher/runs/2026-10-25.json",
+    "bookkeepingCommit": "8ae5313cd8f25a0b6525c04027bafcecf7720297",
+    "bookkeepingDeployId": "6ade0561e85a3f21ab1d548c",
+    "monitoringCommit": "3d84f738747455e115d17ebea21763c3d3c35707",
+    "completedAt": "2026-10-25T13:36:01.710Z",
     "externalPaidApiSpendUSD": 0,
-    "inspectionCalls": 6,
+    "inspectionCalls": 20,
     "notificationSent": false,
     "finalLiveCheck": {
       "result": "pass",
-      "HTTP": 200,
-      "canonical": true,
-      "heroOG": true,
-      "attributedCTA": true,
-      "checkedAt": "2026-10-24T13:28:56.910Z"
+      "checkedAt": "2026-10-25T13:35:18.786367+00:00",
+      "articles": [
+        {
+          "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+          "HTTP": 200,
+          "canonical": true,
+          "heroOGX": true,
+          "attributedCTA": true
+        },
+        {
+          "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+          "HTTP": 200,
+          "canonical": true,
+          "heroOGX": true,
+          "attributedCTA": true
+        },
+        {
+          "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+          "HTTP": 200,
+          "canonical": true,
+          "heroOGX": true,
+          "attributedCTA": true
+        }
+      ]
     }
   },
   "lastRecovery": {
