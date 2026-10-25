@@ -41,7 +41,7 @@
   "fence": 18,
   "day": "2026-10-25",
   "intentKey": "houston-seller-mortgage-escrow-refund-versus-closing-cash-netting",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
   "nearestOverlaps": [
     "property-tax-proration-selling-houston-house",
@@ -78,8 +78,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
   "imageSha256": "6b86f3195861edff2325e2fe42b7919f0167af6ed29c4a7c0e8be596d361204f",
   "imageProvenance": {
@@ -134,8 +134,8 @@
     "actual": 0,
     "note": "External paid APIs zero; existing native allowances only."
   },
-  "commit": null,
-  "deployId": null,
+  "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+  "deployId": "6ade041f9f077a0f8375cbe3",
   "originalityEvidence": {
     "method": "Manual semantic comparison of current article/static inventory, intent map, full ledger and openPR27; supplemental12-word shingles",
     "nearestTextMatches": [
@@ -230,8 +230,145 @@
     "duplicateCannibalizationReview": "pass; distinct supporting question, manual differences retained",
     "internalLinks": "Upward primary/problem page and relevant supporting guides; automatic blog-card inbound path",
     "sellerPath": "Existing ctaLink attribution preserved and checked",
-    "indexingEligibility": "Local canonical/noindex/schema/image/sitemap/RSS verified; exact production check pending",
-    "GoogleMonitoring": "pending publication inspection; reporting optional",
+    "indexingEligibility": "pass: productionHTTP200, crawlable robots/no noindex, correct canonical, sitemap/RSS, schema, image and seller path",
+    "GoogleMonitoring": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-10-25T13:30:09.413594+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=b91U26UaHYQ057inmMTCCQ&utm_medium=link&utm_source=api"
+    },
     "GA4": "Not queried today; no new organic lead or funded GP inferred"
+  },
+  "preview": {
+    "commit": "00775e60c21af8e5ae737298df12cda38d38ceb2",
+    "deployId": "6ade037c2a38df36a1edc108",
+    "verifiedAt": "2026-10-25T13:28:03.587306+00:00",
+    "exactCommitReady": true,
+    "noindex": true
+  },
+  "publication": {
+    "slug": "mortgage-escrow-refund-after-selling-houston-house",
+    "result": "pass",
+    "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+    "http200": true,
+    "previewNoindex": false,
+    "productionIndexable": true,
+    "canonical": true,
+    "OGXHero": true,
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "visibleFAQMatches": 4,
+    "attributedCTA": true,
+    "internalLinks": [
+      [
+        "/",
+        200
+      ],
+      [
+        "/accessibility",
+        200
+      ],
+      [
+        "/blog/",
+        200
+      ],
+      [
+        "/blog/cash-offer-vs-listing-house-houston/",
+        200
+      ],
+      [
+        "/blog/paid-off-mortgage-lien-release-houston/",
+        200
+      ],
+      [
+        "/blog/property-tax-proration-selling-houston-house/",
+        200
+      ],
+      [
+        "/careers",
+        200
+      ],
+      [
+        "/disclaimer",
+        200
+      ],
+      [
+        "/fix-it-or-sell-it/",
+        200
+      ],
+      [
+        "/lending-partners",
+        200
+      ],
+      [
+        "/privacy",
+        200
+      ],
+      [
+        "/referrals",
+        200
+      ],
+      [
+        "/sms-tcpa",
+        200
+      ],
+      [
+        "/terms",
+        200
+      ]
+    ],
+    "sitemapRSS": true,
+    "testedBuildByteParity": true,
+    "publishedAt": "2026-10-25T13:29:40.885Z",
+    "verifiedAt": "2026-10-25T13:30:43.223832+00:00",
+    "pr": 33,
+    "productionCommit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+    "productionDeployId": "6ade041f9f077a0f8375cbe3",
+    "exactCommitReady": true
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-25",
+    "errors": [],
+    "checkedAt": "2026-10-25T13:28:59.296Z"
+  },
+  "nextIndexingReview": "2026-10-28",
+  "commands": {
+    "fullBuild": {
+      "exitCode": 0,
+      "pages": 194,
+      "attributionPages": 207,
+      "DNIpages": 197,
+      "sellerForms": 2
+    },
+    "outputValidation": {
+      "exitCode": 0
+    },
+    "unitTests": {
+      "nodePassed": 27,
+      "pythonPassed": 5,
+      "failed": 0
+    }
+  },
+  "calculationEvidence": {
+    "type": "hypothetical accounting comparison, constant other variables",
+    "separateRefund": "42000+1800=43800",
+    "netting": "43800+0=43800",
+    "doubleCountOverstatement": 1800,
+    "recalculated": true
   }
 }

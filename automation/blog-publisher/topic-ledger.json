@@ -591,5 +591,59 @@
     "deployId": "6adcb1813195872cc46e3389",
     "pr": 30,
     "publishedAt": "2026-10-24T13:24:51.879Z"
+  },
+  {
+    "runId": "native-daily-20261025T130713Z",
+    "day": "2026-10-25",
+    "slug": "fha-partial-claim-selling-houston-house",
+    "intentKey": "houston-fha-standalone-partial-claim-separate-payoff-seller-net",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+    "nearestOverlaps": [
+      "selling-houston-house-reverse-mortgage",
+      "sell-house-with-liens-houston",
+      "paid-off-mortgage-lien-release-houston"
+    ],
+    "substantiveDifference": "Standalone FHA loss-mitigation subordinate debt, its separate payoff and seller-net arithmetic; not HECM rules, disputed liens or a loan already paid off.",
+    "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+    "deployId": "6ade041f9f077a0f8375cbe3",
+    "pr": 33,
+    "publishedAt": "2026-10-25T13:29:40.885Z"
+  },
+  {
+    "runId": "native-daily-20261025T130713Z",
+    "day": "2026-10-25",
+    "slug": "mortgage-escrow-refund-after-selling-houston-house",
+    "intentKey": "houston-seller-mortgage-escrow-refund-versus-closing-cash-netting",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+    "nearestOverlaps": [
+      "property-tax-proration-selling-houston-house",
+      "paid-off-mortgage-lien-release-houston",
+      "cash-offer-vs-listing-house-houston"
+    ],
+    "substantiveDifference": "Mortgage servicer escrow reconciliation and cash availability after payoff, not tax allocation between buyer/seller, recorded lien release or a generic net-proceeds comparison.",
+    "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+    "deployId": "6ade041f9f077a0f8375cbe3",
+    "pr": 33,
+    "publishedAt": "2026-10-25T13:29:40.885Z"
+  },
+  {
+    "runId": "native-daily-20261025T130713Z",
+    "day": "2026-10-25",
+    "slug": "water-district-notice-selling-houston-area-house",
+    "intentKey": "houston-harris-fort-bend-seller-water-district-notice-source-identification",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+    "nearestOverlaps": [
+      "hoa-resale-documents-texas-house-sale",
+      "sell-house-fast-fort-bend-county-tx",
+      "when-to-transfer-utilities-selling-houston-house"
+    ],
+    "substantiveDifference": "Correct district identification and official purchaser-notice sourcing, not HOA resale certificates, tax payoff, utility-service transfer or another city acquisition page.",
+    "commit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+    "deployId": "6ade041f9f077a0f8375cbe3",
+    "pr": 33,
+    "publishedAt": "2026-10-25T13:29:40.885Z"
   }
 ]

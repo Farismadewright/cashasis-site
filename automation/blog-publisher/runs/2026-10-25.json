@@ -1,0 +1,1604 @@
+{
+  "runId": "native-daily-20261025T130713Z",
+  "fence": 18,
+  "day": "2026-10-25",
+  "status": "pass",
+  "published": 3,
+  "held": 0,
+  "articles": [
+    {
+      "slug": "fha-partial-claim-selling-houston-house",
+      "title": "Selling a Houston House With an FHA Partial Claim",
+      "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+      "image": "/images/fha-partial-claim-selling-houston-house.png",
+      "imageSha256": "e48cfaf8a960feeadaa0667a70a9fe581f7b371e6cd24a2adb9cde75fce87d9d",
+      "social": "draft_only",
+      "record": "automation/blog-publisher/records/fha-partial-claim-selling-houston-house.json"
+    },
+    {
+      "slug": "mortgage-escrow-refund-after-selling-houston-house",
+      "title": "Mortgage Escrow Refund After Selling a Houston House",
+      "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+      "image": "/images/mortgage-escrow-refund-after-selling-houston-house.png",
+      "imageSha256": "6b86f3195861edff2325e2fe42b7919f0167af6ed29c4a7c0e8be596d361204f",
+      "social": "draft_only",
+      "record": "automation/blog-publisher/records/mortgage-escrow-refund-after-selling-houston-house.json"
+    },
+    {
+      "slug": "water-district-notice-selling-houston-area-house",
+      "title": "Selling a Houston-Area House in a MUD: Find the Notice",
+      "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+      "image": "/images/water-district-notice-selling-houston-area-house.png",
+      "imageSha256": "41a08086aef000a1c1422b96e2722b440ab084c67f85669cfe7c2951906cacd1",
+      "social": "draft_only",
+      "record": "automation/blog-publisher/records/water-district-notice-selling-houston-area-house.json"
+    }
+  ],
+  "publication": {
+    "pr": 33,
+    "previewCommit": "00775e60c21af8e5ae737298df12cda38d38ceb2",
+    "previewDeployId": "6ade037c2a38df36a1edc108",
+    "productionCommit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
+    "productionDeployId": "6ade041f9f077a0f8375cbe3",
+    "publishedAt": "2026-10-25T13:29:40.885Z",
+    "verifiedAt": "2026-10-25T13:30:43.223832+00:00",
+    "exactCommitReady": true
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-25",
+    "errors": [],
+    "checkedAt": "2026-10-25T13:28:59.296Z"
+  },
+  "previewQA": {
+    "result": "pass",
+    "mode": "preview",
+    "origin": "https://6ade037c2a38df36a1edc108--cashasis-blog.netlify.app",
+    "checkedAt": "2026-10-25T13:28:03.587306+00:00",
+    "articles": [
+      {
+        "slug": "fha-partial-claim-selling-houston-house",
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "http200": true,
+        "previewNoindex": true,
+        "productionIndexable": false,
+        "canonical": true,
+        "OGXHero": true,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQMatches": 4,
+        "attributedCTA": true,
+        "internalLinks": [
+          [
+            "/",
+            200
+          ],
+          [
+            "/accessibility",
+            200
+          ],
+          [
+            "/blog/",
+            200
+          ],
+          [
+            "/blog/cash-offer-vs-listing-house-houston/",
+            200
+          ],
+          [
+            "/blog/protect-house-sale-proceeds-wire-fraud/",
+            200
+          ],
+          [
+            "/blog/sell-house-with-liens-houston/",
+            200
+          ],
+          [
+            "/careers",
+            200
+          ],
+          [
+            "/disclaimer",
+            200
+          ],
+          [
+            "/fix-it-or-sell-it/",
+            200
+          ],
+          [
+            "/lending-partners",
+            200
+          ],
+          [
+            "/privacy",
+            200
+          ],
+          [
+            "/referrals",
+            200
+          ],
+          [
+            "/sms-tcpa",
+            200
+          ],
+          [
+            "/terms",
+            200
+          ]
+        ],
+        "sitemapRSS": true,
+        "testedBuildByteParity": true
+      },
+      {
+        "slug": "mortgage-escrow-refund-after-selling-houston-house",
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+        "http200": true,
+        "previewNoindex": true,
+        "productionIndexable": false,
+        "canonical": true,
+        "OGXHero": true,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQMatches": 4,
+        "attributedCTA": true,
+        "internalLinks": [
+          [
+            "/",
+            200
+          ],
+          [
+            "/accessibility",
+            200
+          ],
+          [
+            "/blog/",
+            200
+          ],
+          [
+            "/blog/cash-offer-vs-listing-house-houston/",
+            200
+          ],
+          [
+            "/blog/paid-off-mortgage-lien-release-houston/",
+            200
+          ],
+          [
+            "/blog/property-tax-proration-selling-houston-house/",
+            200
+          ],
+          [
+            "/careers",
+            200
+          ],
+          [
+            "/disclaimer",
+            200
+          ],
+          [
+            "/fix-it-or-sell-it/",
+            200
+          ],
+          [
+            "/lending-partners",
+            200
+          ],
+          [
+            "/privacy",
+            200
+          ],
+          [
+            "/referrals",
+            200
+          ],
+          [
+            "/sms-tcpa",
+            200
+          ],
+          [
+            "/terms",
+            200
+          ]
+        ],
+        "sitemapRSS": true,
+        "testedBuildByteParity": true
+      },
+      {
+        "slug": "water-district-notice-selling-houston-area-house",
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+        "http200": true,
+        "previewNoindex": true,
+        "productionIndexable": false,
+        "canonical": true,
+        "OGXHero": true,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQMatches": 4,
+        "attributedCTA": true,
+        "internalLinks": [
+          [
+            "/",
+            200
+          ],
+          [
+            "/accessibility",
+            200
+          ],
+          [
+            "/blog/",
+            200
+          ],
+          [
+            "/blog/hoa-resale-documents-texas-house-sale/",
+            200
+          ],
+          [
+            "/blog/sell-house-fast-fort-bend-county-tx/",
+            200
+          ],
+          [
+            "/blog/when-to-transfer-utilities-selling-houston-house/",
+            200
+          ],
+          [
+            "/careers",
+            200
+          ],
+          [
+            "/disclaimer",
+            200
+          ],
+          [
+            "/fix-it-or-sell-it/",
+            200
+          ],
+          [
+            "/lending-partners",
+            200
+          ],
+          [
+            "/privacy",
+            200
+          ],
+          [
+            "/referrals",
+            200
+          ],
+          [
+            "/sms-tcpa",
+            200
+          ],
+          [
+            "/terms",
+            200
+          ]
+        ],
+        "sitemapRSS": true,
+        "testedBuildByteParity": true
+      }
+    ]
+  },
+  "productionQA": {
+    "result": "pass",
+    "mode": "production",
+    "origin": "https://www.cashasis.com",
+    "checkedAt": "2026-10-25T13:30:43.223832+00:00",
+    "articles": [
+      {
+        "slug": "fha-partial-claim-selling-houston-house",
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "http200": true,
+        "previewNoindex": false,
+        "productionIndexable": true,
+        "canonical": true,
+        "OGXHero": true,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQMatches": 4,
+        "attributedCTA": true,
+        "internalLinks": [
+          [
+            "/",
+            200
+          ],
+          [
+            "/accessibility",
+            200
+          ],
+          [
+            "/blog/",
+            200
+          ],
+          [
+            "/blog/cash-offer-vs-listing-house-houston/",
+            200
+          ],
+          [
+            "/blog/protect-house-sale-proceeds-wire-fraud/",
+            200
+          ],
+          [
+            "/blog/sell-house-with-liens-houston/",
+            200
+          ],
+          [
+            "/careers",
+            200
+          ],
+          [
+            "/disclaimer",
+            200
+          ],
+          [
+            "/fix-it-or-sell-it/",
+            200
+          ],
+          [
+            "/lending-partners",
+            200
+          ],
+          [
+            "/privacy",
+            200
+          ],
+          [
+            "/referrals",
+            200
+          ],
+          [
+            "/sms-tcpa",
+            200
+          ],
+          [
+            "/terms",
+            200
+          ]
+        ],
+        "sitemapRSS": true,
+        "testedBuildByteParity": true
+      },
+      {
+        "slug": "mortgage-escrow-refund-after-selling-houston-house",
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+        "http200": true,
+        "previewNoindex": false,
+        "productionIndexable": true,
+        "canonical": true,
+        "OGXHero": true,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQMatches": 4,
+        "attributedCTA": true,
+        "internalLinks": [
+          [
+            "/",
+            200
+          ],
+          [
+            "/accessibility",
+            200
+          ],
+          [
+            "/blog/",
+            200
+          ],
+          [
+            "/blog/cash-offer-vs-listing-house-houston/",
+            200
+          ],
+          [
+            "/blog/paid-off-mortgage-lien-release-houston/",
+            200
+          ],
+          [
+            "/blog/property-tax-proration-selling-houston-house/",
+            200
+          ],
+          [
+            "/careers",
+            200
+          ],
+          [
+            "/disclaimer",
+            200
+          ],
+          [
+            "/fix-it-or-sell-it/",
+            200
+          ],
+          [
+            "/lending-partners",
+            200
+          ],
+          [
+            "/privacy",
+            200
+          ],
+          [
+            "/referrals",
+            200
+          ],
+          [
+            "/sms-tcpa",
+            200
+          ],
+          [
+            "/terms",
+            200
+          ]
+        ],
+        "sitemapRSS": true,
+        "testedBuildByteParity": true
+      },
+      {
+        "slug": "water-district-notice-selling-houston-area-house",
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+        "http200": true,
+        "previewNoindex": false,
+        "productionIndexable": true,
+        "canonical": true,
+        "OGXHero": true,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQMatches": 4,
+        "attributedCTA": true,
+        "internalLinks": [
+          [
+            "/",
+            200
+          ],
+          [
+            "/accessibility",
+            200
+          ],
+          [
+            "/blog/",
+            200
+          ],
+          [
+            "/blog/hoa-resale-documents-texas-house-sale/",
+            200
+          ],
+          [
+            "/blog/sell-house-fast-fort-bend-county-tx/",
+            200
+          ],
+          [
+            "/blog/when-to-transfer-utilities-selling-houston-house/",
+            200
+          ],
+          [
+            "/careers",
+            200
+          ],
+          [
+            "/disclaimer",
+            200
+          ],
+          [
+            "/fix-it-or-sell-it/",
+            200
+          ],
+          [
+            "/lending-partners",
+            200
+          ],
+          [
+            "/privacy",
+            200
+          ],
+          [
+            "/referrals",
+            200
+          ],
+          [
+            "/sms-tcpa",
+            200
+          ],
+          [
+            "/terms",
+            200
+          ]
+        ],
+        "sitemapRSS": true,
+        "testedBuildByteParity": true
+      }
+    ]
+  },
+  "monitoring": {
+    "coverage": {
+      "eligibleSitemapURLs": 198,
+      "eligibleBlogArticles": 170,
+      "eligibleURLsWithRetainedInspectionEvidence": 198,
+      "latestEvidenceCounts": {
+        "indexed": 177,
+        "not_indexed": 21
+      },
+      "latestBlogEvidenceCounts": {
+        "indexed": 153,
+        "not_indexed": 17
+      },
+      "inspectedThisRun": 20,
+      "observationDateRange": [
+        "2026-10-04T18:51:07.839038+00:00",
+        "2026-10-25T13:30:09.678983+00:00"
+      ],
+      "note": "Mixed actual observation dates; not a fresh complete-site census. Blog/non-blog separated. New unknown/pending states are not rejections; impressions are not indexed counts."
+    },
+    "inspectionCalls": 20,
+    "actualInspections": [
+      {
+        "id": "4c083b26-b95f-4bfa-968e-b8638d80143a",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T05:38:25+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:34.599353+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Tqy4ktT4aDUXjO2s_CdIQA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "6ea72326-2adc-4cea-93c5-9da079a9b0a4",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T06:54:05+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:34.329919+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_N0q_kqM0Utqg5CYNB__Ow&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "110f1c53-cec5-4e82-8340-6a0c09fa6b20",
+        "url": "https://www.cashasis.com/traditional-sale-requirements/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-25T13:19:28.014001+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=s65Uo-5BSrYTU_YNWDJv5g&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "912ce6d5-7829-49e3-8123-1e93e65768d7",
+        "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-24T06:39:26+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:27.962121+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "user_canonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=46fKEAXohlVoqqAQE7ZmEA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "8932a1c4-883b-48bb-bc69-8cc693ba4896",
+        "url": "https://www.cashasis.com/compare-the-net/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:19:27.901806+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0oGXHnDOR2sDu7k8ZIAgrQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "890cc541-cfae-48d8-8d68-bca427f2aee2",
+        "url": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:19:27.816986+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6I8sOz9_HlIvxCsiSL4tRw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "3c24b75c-fba5-4d80-af76-c38bbf86b5b8",
+        "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T04:10:50+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:27.690647+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "user_canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=K1iCeBbcUJi74Np9ROCKNw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "53129ef5-adb6-43be-9b46-a77f9ed934e3",
+        "url": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:19:21.38139+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=HVD5OW7zIei5nE9PFev0Hw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "5485b03b-ddee-4a1b-8815-c2d247af4da7",
+        "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T04:57:26+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:21.245136+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "user_canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=s_kG6bDuIXmoclte-a_3gw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "2a740ffe-74c9-4d1a-aca4-9e30598ae862",
+        "url": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-25T13:19:21.227602+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YclMGy4GhVze8Jrv_9LiVg&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "d2849dd0-2078-4033-bba9-e60873433b4f",
+        "url": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:19:21.133299+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YjH32yoD9WuQSL-Zh8ZEfQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "7b30d5bf-10fe-4dbb-b21d-550f47af29d7",
+        "url": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Crawled - currently not indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-06T01:30:13+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:21.07242+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+        "user_canonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YqxTnaqmkpBdBLqkSwZMXA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "0be150b7-b168-4658-97cd-92a860bf5277",
+        "url": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:19:14.651487+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_4RRtU9XN9nWoBwXeYhzVw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "41e0bdba-d459-4517-9bdd-47e915e5ae70",
+        "url": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:19:14.560909+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_rFx_qlrwptIZ2prPVjEfQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "8274596b-b1b7-4fee-a082-82920e2e4b6e",
+        "url": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Discovered - currently not indexed",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "requested_at": "2026-10-25T13:19:14.491435+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TxbaHthHUq_XT3jV5Uo84Q&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "e2d4f258-4fd1-46d7-a131-dda015610327",
+        "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-10-23T04:20:06+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:14.489941+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "user_canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=EG7ryFnu8f9YP3y2984YIA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "40ed24fa-1080-458f-91d1-8e4861a1b702",
+        "url": "https://www.cashasis.com/blog/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "Crawled - currently not indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-09-04T20:07:12+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-10-25T13:19:14.44081+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/",
+        "user_canonical": "https://www.cashasis.com/blog/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sRrB0ZK-KWk8xHHNRKTnQA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "06a52878-f1c2-4c24-a3f0-735c35e66e5b",
+        "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:30:09.678983+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=VcbOOpJigIjbMTtlhxGFiA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "bfc9e3fb-0b49-4e75-948e-9f446477cc5d",
+        "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:30:09.503631+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JLuamqqMkMh5UofYk9mCQg&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "a9344abc-d82b-42ad-86c0-6ecb27311e26",
+        "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-25T13:30:09.413594+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=b91U26UaHYQ057inmMTCCQ&utm_medium=link&utm_source=api"
+      }
+    ],
+    "dueTechnicalQA": [
+      {
+        "url": "https://www.cashasis.com/blog/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:19.226359+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [],
+        "internalLinksChecked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/3-things-sellers-dont-think-about/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/accessibility",
+            "httpStatus": 200
+          },
+          {
+            "path": "/after-you-sign/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Houston Home Selling Guide | CashAsIs Blog",
+        "bodyWordCount": 7353,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:13.490196+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/blog/sell-flood-damaged-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/selling-houston-house-open-insurance-claim/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Houston Flood Maps vs. House Flood History: A Seller Guide",
+        "bodyWordCount": 706,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:13.534179+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/cash-house-sale-timeline-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-behind-on-taxes-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "How to Make a Cash House Sale Move Faster in Houston",
+        "bodyWordCount": 548,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:13.470235+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-code-violations-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-harris-county-tx/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Sell a House With Code Violations in Harris County | CashAsIs",
+        "bodyWordCount": 215,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:13.542093+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-behind-on-taxes-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-harris-county-tx/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Can I Sell a House With Back Taxes in Harris County?",
+        "bodyWordCount": 502,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:16.144435+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [],
+        "hasRelativeBodyLinks": false,
+        "sellerPath": true,
+        "title": "Selling the House in a Detroit Divorce: A Calm Way Through",
+        "bodyWordCount": 596,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:25.519338+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-humble-tx/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-vacant-house-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Sell a Vacant House in Humble, TX | CashAsIs",
+        "bodyWordCount": 321,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:25.518253+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-fast-missouri-city-tx/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-vacant-house-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Sell a Vacant House in Missouri City, TX | CashAsIs",
+        "bodyWordCount": 231,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:21.606209+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-pre-1978-houston-house-lead-paint/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/fix-it-or-sell-it/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Selling a Pre-1978 Houston House: Lead-Paint Paperwork",
+        "bodyWordCount": 665,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:19.223494+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [],
+        "hasRelativeBodyLinks": false,
+        "sellerPath": true,
+        "title": "How to Stop Foreclosure in Detroit: Your Real Options",
+        "bodyWordCount": 531,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:33.162532+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/blog/cash-offer-vs-listing-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-needs-major-repairs-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Termite Report Before Selling a Houston House: What It Means",
+        "bodyWordCount": 677,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/compare-the-net/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:33.318200+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/compare-the-net/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/the-cost-of-waiting/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/understanding-your-cash-offer/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/your-price-isnt-your-take-home/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "A Bigger Offer Doesn't Always Mean a Bigger Check",
+        "bodyWordCount": 502,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:33.370444+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage",
+          "VideoObject"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/after-you-sign/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/why-sell-as-is/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Seller Story: A Straightforward Cash Sale When Time Mattered",
+        "bodyWordCount": 230,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/traditional-sale-requirements/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:39.110601+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/traditional-sale-requirements/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/compare-the-net/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/the-cost-of-waiting/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/understanding-your-cash-offer/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "What Does a Traditional Property Sale Actually Require?",
+        "bodyWordCount": 567,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:39.078096+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/blog/cash-offer-vs-listing-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-foundation-problems-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/fix-it-or-sell-it/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Foundation Report Before Selling in Houston: What Does It Answer?",
+        "bodyWordCount": 768,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:45.626242+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/blog/fix-it-first-or-sell-as-is/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-needs-major-repairs-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Selling a Houston House With Aluminum Wiring: What to Gather",
+        "bodyWordCount": 774,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "technicalEligible": true,
+        "technicalVerifiedAt": "2026-10-25T13:18:45.798404+00:00",
+        "httpStatus": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-neglected-pool/",
+        "sitemap": true,
+        "robotsAllowed": true,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "internalLinksChecked": [
+          {
+            "path": "/blog/cash-offer-vs-listing-house-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/sell-house-needs-major-repairs-houston/",
+            "httpStatus": 200
+          },
+          {
+            "path": "/blog/vacant-house-insurance-while-selling-houston/",
+            "httpStatus": 200
+          }
+        ],
+        "hasRelativeBodyLinks": true,
+        "sellerPath": true,
+        "title": "Selling a Houston House With a Neglected Pool: Compare First",
+        "bodyWordCount": 750,
+        "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
+      }
+    ],
+    "deferredInspections": 0,
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "notificationCandidates": 0,
+    "legacyWatchList": "Blog hub and older unresolved URLs remain monitored. Hub Google last crawl isSeptember4, before currentOctober improvements; status is not evidence Google has reviewed current revision. Legacy publication dates remain unknown, with first_seen_only age basis. No blind indexing requests or rewritten/duplicated city pages."
+  },
+  "sellerVoice": {
+    "access": "read-only",
+    "sampleCount": 100,
+    "inboundCount": 25,
+    "dateRange": [
+      "2026-10-24T15:01:45.655Z",
+      "2026-10-25T02:11:09.999Z"
+    ],
+    "counts": {
+      "price": {
+        "messages": 2,
+        "distinctSellers": 2
+      },
+      "timing": {
+        "messages": 1,
+        "distinctSellers": 1
+      },
+      "condition": {
+        "messages": 0,
+        "distinctSellers": 0
+      }
+    },
+    "limitation": "Bounded keyword screen only, not verified recurring contextual demand. No private details/stories/quotes retained; topics selected from uncovered seller decisions."
+  },
+  "gsc": {
+    "range": [
+      "2026-09-25",
+      "2026-10-22"
+    ],
+    "settledThrough": "2026-10-23",
+    "coverage": {
+      "rowsReturned": 241,
+      "rowsTotal": 241,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7346,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2654,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 6,
+        "impressions": 746,
+        "ctrPercent": 0.8,
+        "avgPositionWeighted": 41.45
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 241,
+      "hasMore": false,
+      "note": "Showing all 241 rows."
+    },
+    "existingPageOpportunities": [
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 15.857142857142858
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 16.090909090909093
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 14.333333333333334
+      },
+      {
+        "keys": [
+          "sell fire damage house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 21.166666666666668
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "inherited a house full of stuff",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      }
+    ],
+    "interpretation": "Existing Missouri City primary query/snippet/internal-link review takes priority over city variants. Current samples are directional; no stable ranking gain inferred from shifting28day windows."
+  },
+  "GA4": "Optional, not queried today; no new organic seller lead or downstream outcome inferred.",
+  "organicSellerLeads": null,
+  "qualifiedSellers": null,
+  "agreements": null,
+  "fundedRetainedGP": null,
+  "acquisitionHandoff": {
+    "workflow": "Existing repository organic-seller-intent-map and public-safe run evidence for Lead Acquisition Engine/COO",
+    "status": "Evidence saved; no claim another agent reviewed it and no unsolicited message",
+    "editorialReviewCandidates": [
+      "Existing hub/directory utility and discovery; do not treat old crawl as current content evaluation.",
+      "Sparse city/code pages and existing primary/support intent overlap; propose scoped changes with approval/rollback rather than more length.",
+      "Two monitored legacyDetroit guides have no relative body links in the sampled article body; review service relevance and useful links rather than expanding that geography."
+    ]
+  },
+  "withdrawnURLChecks": [
+    {
+      "url": "https://www.cashasis.com/blog/earnest-money-option-fee-texas-cash-sale/",
+      "httpStatus": 404,
+      "excludedFromBlogRssSitemap": true,
+      "checkedAt": "2026-10-25T13:33:05.016100+00:00"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/how-to-verify-cash-home-buyer-texas/",
+      "httpStatus": 404,
+      "excludedFromBlogRssSitemap": true,
+      "checkedAt": "2026-10-25T13:33:05.016100+00:00"
+    }
+  ],
+  "commands": {
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "pages": 194,
+      "attributionPages": 207,
+      "DNIpages": 197,
+      "sellerForms": 2
+    },
+    "outputValidation": {
+      "articles": 3,
+      "exitCode": 0
+    },
+    "unitTests": {
+      "node": 27,
+      "python": 5,
+      "passed": 32,
+      "failed": 0
+    },
+    "mobile": {
+      "articles": 3,
+      "widths": [
+        360,
+        390,
+        768,
+        1366
+      ],
+      "cardsWidths": [
+        390,
+        1366
+      ],
+      "passed": true,
+      "visualReview": true
+    },
+    "protectedSources": "13-file allowlist exactly3new articles/images/records/social drafts plus generated published-path list; no homepage/CSS/layout/form/tracking/dependency/Netlify changes. All3 preview and production HTML/CSS match mobile-tested build."
+  },
+  "externalPaidApiSpendUSD": 0,
+  "socialPublication": "none; all draft_only",
+  "notification": {
+    "sent": false,
+    "reason": "Routine success, normal new URL discovery and unchanged legacy watch-list; no new confirmed planner alert, sustained ranking gain or verified lead change."
+  },
+  "scheduleChanged": false,
+  "completedAt": "2026-10-25T13:33:05.016100+00:00",
+  "limitations": [
+    "CLI push had no credentials; authorized existing GitHub connector completed the upload and normal PR merge.",
+    "Transient workspace transfer interruptions resolved with a buffered transfer; all uploaded blobs matched exact local Git SHAs before preview. No deploy or content gate bypassed.",
+    "Mixed-date Google indexing coverage is not a fresh full-site census.",
+    "Current anonymous CRM keyword sample is not proof of recurring contextual demand."
+  ]
+}
