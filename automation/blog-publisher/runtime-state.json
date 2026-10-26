@@ -880,9 +880,19 @@
       "day": "2026-10-26",
       "runId": "native-daily-20261026T140506Z",
       "fence": 19,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-26T14:11:52.381Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 34,
+      "previewCommit": "68f1e5bd75cd89d592ad774158f21fc027aae379",
+      "previewDeployId": "6adf658b4ec64b4c43a7e551",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "checkedAt": "2026-10-26T14:40:39.478Z"
+      },
+      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5"
     },
     {
       "slug": "selling-houston-house-mortgage-forbearance",
@@ -890,9 +900,19 @@
       "day": "2026-10-26",
       "runId": "native-daily-20261026T140506Z",
       "fence": 19,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-26T14:11:52.381Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 34,
+      "previewCommit": "68f1e5bd75cd89d592ad774158f21fc027aae379",
+      "previewDeployId": "6adf658b4ec64b4c43a7e551",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "checkedAt": "2026-10-26T14:40:39.478Z"
+      },
+      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5"
     },
     {
       "slug": "federal-tax-lien-selling-houston-house",
@@ -900,9 +920,19 @@
       "day": "2026-10-26",
       "runId": "native-daily-20261026T140506Z",
       "fence": 19,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-26T14:11:52.381Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 34,
+      "previewCommit": "68f1e5bd75cd89d592ad774158f21fc027aae379",
+      "previewDeployId": "6adf658b4ec64b4c43a7e551",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "checkedAt": "2026-10-26T14:40:39.478Z"
+      },
+      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5"
     }
   ],
   "externalApiSpendLimitUSD": 0,
