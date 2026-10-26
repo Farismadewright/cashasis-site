@@ -3,10 +3,10 @@
   "activatedAt": "2026-10-17T18:28:08.220Z",
   "firstWeeklyPeriod": "2026-W43",
   "firstMonthlyPeriod": "2026-10",
-  "lastWeeklyKey": "2026-W43",
+  "lastWeeklyKey": "2026-W44",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-10-25T13:31:31.603Z",
-  "lastSuccessfulReview": "2026-10-25T13:31:31.603Z",
+  "lastAttempt": "2026-10-26T14:45:10.752984+00:00",
+  "lastSuccessfulReview": "2026-10-26T14:45:10.752984+00:00",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -89,8 +89,8 @@
       "technicalVerifiedAt": "2026-10-24T13:19:50.748248+00:00",
       "recordPath": "automation/blog-publisher/records/selling-houston-house-open-insurance-claim.json",
       "ageBasis": "publication",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-17T13:39:17.592673+00:00",
       "lastSuccessfulInspection": "2026-10-20T13:52:16.759Z",
       "nextReviewAt": "2026-10-24T13:38:06.899000+00:00",
@@ -217,8 +217,8 @@
       "technicalVerifiedAt": "2026-10-24T13:19:58.036231+00:00",
       "recordPath": "automation/blog-publisher/records/houston-house-unpermitted-addition-records.json",
       "ageBasis": "publication",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-17T13:39:28.903218+00:00",
       "lastSuccessfulInspection": "2026-10-20T13:52:02.370Z",
       "nextReviewAt": "2026-10-24T13:38:06.899000+00:00",
@@ -345,8 +345,8 @@
       "technicalVerifiedAt": "2026-10-24T13:19:50.729492+00:00",
       "recordPath": "automation/blog-publisher/records/selling-fort-bend-house-septic-system.json",
       "ageBasis": "publication",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-17T13:39:02.304214+00:00",
       "lastSuccessfulInspection": "2026-10-20T13:52:31.079Z",
       "nextReviewAt": "2026-10-24T13:38:06.899000+00:00",
@@ -412,8 +412,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=M75u4YORrqbD6Kwn2AaWVg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:58:57.673894+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.673894+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.673894+00:00",
@@ -439,8 +439,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9F3gytpaFKzyLx6HB87E1Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:58:57.671502+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.671502+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.671502+00:00",
@@ -559,8 +559,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sRrB0ZK-KWk8xHHNRKTnQA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:49:51.651501+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -628,8 +628,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=igiAxaQgbVIUM-d6OgYRxQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:58:57.726673+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.726673+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.726673+00:00",
@@ -655,8 +655,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gtSqBAsB3U8uZkzBfh2f0w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:04.441988+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.441988+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.441988+00:00",
@@ -734,8 +734,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5B0iz0tgDzbjqYGu_jJaPw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:49:58.24292+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.462949+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.462949+00:00",
@@ -761,8 +761,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hlWA2lQumywxIXEAlk-QGA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:04.480871+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.480871+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.480871+00:00",
@@ -801,8 +801,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=KhbcyG6kixPhv2qNBjM-nQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:49:02.892302+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.390359+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.390359+00:00",
@@ -828,8 +828,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=iPuYtSVBZ__tupjyO4u1iA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:04.576632+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.576632+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.576632+00:00",
@@ -868,8 +868,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=U1yISo3IGI5i2ylubGUXVg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-08T13:27:46.682357+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.402989+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.402989+00:00",
@@ -895,8 +895,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=tqHde8b9p-5fFkO66_yukQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.301894+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.301894+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.301894+00:00",
@@ -922,8 +922,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zBRh_5d_pICrO5zcW9Vj8w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.397972+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.397972+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.397972+00:00",
@@ -949,8 +949,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cHzLQ5IHpIcFAIjxSEE5_A&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.32901+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.32901+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.329010+00:00",
@@ -976,8 +976,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=oZHmdO3O5IkEsJ4Z4kbvDg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.516638+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.516638+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.516638+00:00",
@@ -1003,8 +1003,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TVFzCthVP60Sq06k5D_DSA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:17.97069+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:17.97069+00:00",
       "nextReviewAt": "2026-11-11T14:59:17.970690+00:00",
@@ -1051,8 +1051,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/existing-survey-when-selling-texas-house.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-16T14:05:40.429068+00:00",
       "lastSuccessfulInspection": "2026-10-19T14:00:37.829Z",
       "nextReviewAt": "2026-11-16T14:00:37.829000+00:00",
@@ -1101,8 +1101,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gxcAnLMbc9JVyCqKc-KVsA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:18.048246+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:18.048246+00:00",
       "nextReviewAt": "2026-11-11T14:59:18.048246+00:00",
@@ -1149,8 +1149,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/hoa-resale-documents-texas-house-sale.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-16T14:05:51.943787+00:00",
       "lastSuccessfulInspection": "2026-10-19T14:00:26.219Z",
       "nextReviewAt": "2026-11-16T14:00:26.219000+00:00",
@@ -1232,8 +1232,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/houston-september-2026-market-selling-timeline.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.868623+00:00",
       "technicalEvidence": {
@@ -1283,8 +1283,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TjsqiB-3VZkGInu1OERwqw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:18.284366+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:18.284366+00:00",
       "nextReviewAt": "2026-11-11T14:59:18.284366+00:00",
@@ -1416,8 +1416,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TxbaHthHUq_XT3jV5Uo84Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:11.585827+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -1481,8 +1481,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2hIgKwiUhfIZJHKyRWCSLA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:24.767332+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:24.767332+00:00",
       "nextReviewAt": "2026-11-11T14:59:24.767332+00:00",
@@ -1521,8 +1521,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=avIzJWiJKknCxLPJzHnUgQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:51:01.09635+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:24.882152+00:00",
       "nextReviewAt": "2026-11-11T14:59:24.882152+00:00",
@@ -1548,8 +1548,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zzC9k7MZE-cXvu6J-uQq5g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:24.959935+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:24.959935+00:00",
       "nextReviewAt": "2026-11-11T14:59:24.959935+00:00",
@@ -1575,8 +1575,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Krlo0kCa1ztebU0RGiEwog&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:25.013742+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:25.013742+00:00",
       "nextReviewAt": "2026-11-11T14:59:25.013742+00:00",
@@ -1602,8 +1602,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mRrsR9hlOmQuqFCFe4Ns4g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:25.144478+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:25.144478+00:00",
       "nextReviewAt": "2026-11-11T14:59:25.144478+00:00",
@@ -1629,8 +1629,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rhd0YAEp3KDZCSl5Wo0aUg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:34.576648+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.576648+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.576648+00:00",
@@ -1656,8 +1656,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=KxJc0YAPb7dIhsecTXKL4A&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:34.386587+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.386587+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.386587+00:00",
@@ -1683,8 +1683,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=y87RSoRnENdx6H_eFj6J2g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:34.429204+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.429204+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.429204+00:00",
@@ -1742,8 +1742,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/protect-house-sale-proceeds-wire-fraud.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.962669+00:00",
       "technicalEvidence": {
@@ -1824,8 +1824,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/security-deposit-when-selling-texas-rental.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.969574+00:00",
       "technicalEvidence": {
@@ -1913,8 +1913,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5AoqGSTAMypKfkmlETCNrg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:51.460238+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.75232+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.752320+00:00",
@@ -1940,8 +1940,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=npArqGSgfzlhAP48XYFGLA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:59.206468+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:59.206468+00:00",
       "nextReviewAt": "2026-11-11T14:59:59.206468+00:00",
@@ -2019,8 +2019,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5i7BOShgHbiv8IWsgrvD1Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:18.180424+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:41.401864+00:00",
       "nextReviewAt": "2026-11-11T14:59:41.401864+00:00",
@@ -2074,8 +2074,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_4RRtU9XN9nWoBwXeYhzVw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:41.330801+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -2139,8 +2139,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=X-VOmBaJkOI6-DZ-FcnWJw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:41.332134+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:41.332134+00:00",
       "nextReviewAt": "2026-11-11T14:59:41.332134+00:00",
@@ -2166,8 +2166,8 @@
           "inspectionResultLink": null
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:51:07.839038+00:00",
       "lastSuccessfulInspection": "2026-10-04T18:51:07.839038+00:00",
       "nextReviewAt": "2026-11-01T18:51:07.839038+00:00",
@@ -2232,8 +2232,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OD7gLm2ovSMrxvSbTrEiJQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:38.105733+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:48.01893+00:00",
       "nextReviewAt": "2026-11-11T14:59:48.018930+00:00",
@@ -2272,8 +2272,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=G-4MNZ4QBUOiCXAIBkVPKw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:44.887083+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:48.101085+00:00",
       "nextReviewAt": "2026-11-11T14:59:48.101085+00:00",
@@ -2299,8 +2299,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GesCjo7Lif3tt9L8MI409Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:48.197642+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:48.197642+00:00",
       "nextReviewAt": "2026-11-11T14:59:48.197642+00:00",
@@ -2326,8 +2326,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=XXlY_83PxRgJGq-Wq5PO7Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:54.643283+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:54.643283+00:00",
       "nextReviewAt": "2026-11-11T14:59:54.643283+00:00",
@@ -2418,8 +2418,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YLX9XZaidFwC25h99IzLoQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:04.917247+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:54.731907+00:00",
       "nextReviewAt": "2026-11-11T14:59:54.731907+00:00",
@@ -2445,8 +2445,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ZspvdYXYxQ18sqxUBoP4dw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:55.016278+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:55.016278+00:00",
       "nextReviewAt": "2026-11-11T14:59:55.016278+00:00",
@@ -2578,8 +2578,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_rFx_qlrwptIZ2prPVjEfQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:24.826797+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -2643,8 +2643,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=A5jwgKCG76whcs4ranag2g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:01.660548+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:01.660548+00:00",
       "nextReviewAt": "2026-11-11T15:00:01.660548+00:00",
@@ -2670,8 +2670,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=DnjBun6GbhU7raJc-EOKcg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:01.660569+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:01.660569+00:00",
       "nextReviewAt": "2026-11-11T15:00:01.660569+00:00",
@@ -2697,8 +2697,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fKZ3V5pYxH6QZjrItN1uKA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:01.761244+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:01.761244+00:00",
       "nextReviewAt": "2026-11-11T15:00:01.761244+00:00",
@@ -2724,8 +2724,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=4wPVfjVUAIoOL_hLMuTwHw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:05.242886+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:05.242886+00:00",
       "nextReviewAt": "2026-11-11T15:00:05.242886+00:00",
@@ -2790,8 +2790,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Q0sBIkXGBkyufDK--Rn7FA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-06T12:47:00.72946+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:06.177277+00:00",
       "nextReviewAt": "2026-11-11T15:00:06.177277+00:00",
@@ -2817,8 +2817,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=103X786NIX1iOpN6UUQhtg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:08.624133+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:08.624133+00:00",
       "nextReviewAt": "2026-11-11T15:00:08.624133+00:00",
@@ -2844,8 +2844,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=R8-r8EiIpnA8LhIVhVytOg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:09.111889+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:09.111889+00:00",
       "nextReviewAt": "2026-11-11T15:00:09.111889+00:00",
@@ -2871,8 +2871,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=C-hvWIFPspq6Z_vmvHkAKA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:09.146266+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:09.146266+00:00",
       "nextReviewAt": "2026-11-11T15:00:09.146266+00:00",
@@ -2926,8 +2926,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YqxTnaqmkpBdBLqkSwZMXA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:17.762819+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -2978,8 +2978,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=jkd6_TnUciU_MEGOKylZ6A&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:18.496013+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:18.496013+00:00",
       "nextReviewAt": "2026-11-11T15:00:18.496013+00:00",
@@ -3005,8 +3005,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=a9-niDA2HPTo-PiZMt29tg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:17.844218+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:17.844218+00:00",
       "nextReviewAt": "2026-11-11T15:00:17.844218+00:00",
@@ -3032,8 +3032,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=z0fngSKs3EPRcepSwfXLIw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:18.035398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:18.035398+00:00",
       "nextReviewAt": "2026-11-11T15:00:18.035398+00:00",
@@ -3072,8 +3072,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=LEAbyfRg2ZSUnYTnLsuiKg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.349724+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.653973+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.653973+00:00",
@@ -3112,8 +3112,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WWndujir34VMNc4ST9Xj1Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.255398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:18.030433+00:00",
       "nextReviewAt": "2026-11-11T15:00:18.030433+00:00",
@@ -3139,8 +3139,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=tVaQYUO-aVcBNJ4z1UEJyA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:24.657173+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.657173+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.657173+00:00",
@@ -3166,8 +3166,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Qif4hi60kE018jfU85wjzw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:24.652026+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.652026+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.652026+00:00",
@@ -3206,8 +3206,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zEi3tSdJJNY8TXxTQRSWmQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:49:27.728898+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.905604+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.905604+00:00",
@@ -3233,8 +3233,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=bubCjQcJVrt70BNopUwVoA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:24.783174+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.783174+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.783174+00:00",
@@ -3260,8 +3260,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Kj8IMi2CJQOXVXddgL0qrg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:25.454115+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:25.454115+00:00",
       "nextReviewAt": "2026-11-11T15:00:25.454115+00:00",
@@ -3287,8 +3287,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fi6crxNxGnQIPGR0d6L9lw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.600288+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.600288+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.600288+00:00",
@@ -3314,8 +3314,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=xsJjKsn1_DRmEcqTCe-S8w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.619662+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.619662+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.619662+00:00",
@@ -3341,8 +3341,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=jOzcVs2INyroqn7hsCqUEw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.72079+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.72079+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.720790+00:00",
@@ -3368,8 +3368,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=m05V_P3B1gfDu3V3YVfecQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.614721+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.614721+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.614721+00:00",
@@ -3395,8 +3395,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=wWAQTjIIRhFa2p8wplkinw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:32.45208+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:32.45208+00:00",
       "nextReviewAt": "2026-11-11T15:00:32.452080+00:00",
@@ -3435,8 +3435,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7J4j2MIgxVrtjqvpa2j8lA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.165401+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:38.347123+00:00",
       "nextReviewAt": "2026-11-11T15:00:38.347123+00:00",
@@ -3462,8 +3462,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=j9XGd9nfo7sTap-brFkc9w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.054962+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:39.054962+00:00",
       "nextReviewAt": "2026-11-11T15:00:39.054962+00:00",
@@ -3489,8 +3489,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=T3Be1urY-hB9kk59rECg6Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:38.445872+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:38.445872+00:00",
       "nextReviewAt": "2026-11-11T15:00:38.445872+00:00",
@@ -3516,8 +3516,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=bLX0f_wl9aArHmV6skMRCw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.123114+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:39.123114+00:00",
       "nextReviewAt": "2026-11-11T15:00:39.123114+00:00",
@@ -3543,8 +3543,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=VX-31P53dUyJrZeV5_8Y3w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.361042+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:39.361042+00:00",
       "nextReviewAt": "2026-11-11T15:00:39.361042+00:00",
@@ -3570,8 +3570,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=L0tw2LgeS-a5HvUCG_2PHA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:45.234785+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:45.234785+00:00",
       "nextReviewAt": "2026-11-11T15:00:45.234785+00:00",
@@ -3597,8 +3597,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gJQOpdqXsB9ESNTtv6vRWg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:45.312663+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:45.312663+00:00",
       "nextReviewAt": "2026-11-11T15:00:45.312663+00:00",
@@ -3624,8 +3624,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8CZXPv7WEHUqA0O80_P7Uw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.067809+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:46.067809+00:00",
       "nextReviewAt": "2026-11-11T15:00:46.067809+00:00",
@@ -3651,8 +3651,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=roK2lfWByA2k8dERQmEPEg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.070418+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:46.070418+00:00",
       "nextReviewAt": "2026-11-11T15:00:46.070418+00:00",
@@ -3678,8 +3678,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=eV3uUdRSrYmItYkNSdTBEw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.049429+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:46.049429+00:00",
       "nextReviewAt": "2026-11-11T15:00:46.049429+00:00",
@@ -3705,8 +3705,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=SFNLmuRE6O9oBgyR0ACpfQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.371108+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.371108+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.371108+00:00",
@@ -3732,8 +3732,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=MDP6gMHgKYM3cLO1YJduVA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.558129+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.558129+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.558129+00:00",
@@ -3759,8 +3759,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=dMFZRbjTirS52-IXr_QW4Q&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.365092+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.365092+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.365092+00:00",
@@ -3786,8 +3786,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=BEYb5-pd7kwdEPv8e89mkQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.425103+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.425103+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.425103+00:00",
@@ -3813,8 +3813,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Yo1xvKu_T5TYDyfJEAldRQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.58837+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.58837+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.588370+00:00",
@@ -3858,8 +3858,8 @@
           "source": "google_url_inspection"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.978201+00:00",
       "technicalEvidence": {
@@ -3908,8 +3908,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OAG464ontoWCKiRJPvYHLA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.143926+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:03.143926+00:00",
       "nextReviewAt": "2026-11-11T15:01:03.143926+00:00",
@@ -3950,8 +3950,8 @@
           "pageFetchState": "SUCCESSFUL"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.437307+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -3995,8 +3995,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zLp7CHfcAJ0qZWxLSw5B3A&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.56699+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:03.56699+00:00",
       "nextReviewAt": "2026-11-11T15:01:03.566990+00:00",
@@ -4022,8 +4022,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=VxwNUnV7wVHlcRVG0MQLPQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.520596+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:03.520596+00:00",
       "nextReviewAt": "2026-11-11T15:01:03.520596+00:00",
@@ -4049,8 +4049,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=H6syPiBPlLDlLS0PrXiiHA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.031651+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:10.031651+00:00",
       "nextReviewAt": "2026-11-11T15:01:10.031651+00:00",
@@ -4076,8 +4076,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JBPVfVGB8cEjXYEbt3h4pQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.391352+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:10.391352+00:00",
       "nextReviewAt": "2026-11-11T15:01:10.391352+00:00",
@@ -4103,8 +4103,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=S0PnT5KadJD-lOcXzbi_yA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.250415+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:10.250415+00:00",
       "nextReviewAt": "2026-11-11T15:01:10.250415+00:00",
@@ -4130,8 +4130,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=f_lHp90vNNwSOWrLILMaIA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:12.134662+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:12.134662+00:00",
       "nextReviewAt": "2026-11-11T15:01:12.134662+00:00",
@@ -4157,8 +4157,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=N623pDHjj21DfKVRmIgw5A&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:15.748374+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:15.748374+00:00",
       "nextReviewAt": "2026-11-11T15:01:15.748374+00:00",
@@ -4184,8 +4184,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=s2rrhyVEC2_ObrzzCwo5ng&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:16.930712+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:16.930712+00:00",
       "nextReviewAt": "2026-11-11T15:01:16.930712+00:00",
@@ -4211,8 +4211,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vVrB2oCGcf0gAPJCGMNW7w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:16.906927+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:16.906927+00:00",
       "nextReviewAt": "2026-11-11T15:01:16.906927+00:00",
@@ -4238,8 +4238,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=AKIdaOhX__-_9LHyrddypg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:17.307394+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:17.307394+00:00",
       "nextReviewAt": "2026-11-11T15:01:17.307394+00:00",
@@ -4265,8 +4265,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cxw96RUcvvQQpDY2ci1cfA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:19.398429+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:19.398429+00:00",
       "nextReviewAt": "2026-11-11T15:01:19.398429+00:00",
@@ -4318,8 +4318,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=4MaC6cQ5RHEyxfo18t2pbw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-08T13:28:00.549344+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:22.584474+00:00",
       "nextReviewAt": "2026-11-11T15:01:22.584474+00:00",
@@ -4345,8 +4345,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=L7_gALyvrMzCRiVyfF_CzA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.570239+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:23.570239+00:00",
       "nextReviewAt": "2026-11-11T15:01:23.570239+00:00",
@@ -4372,8 +4372,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hvZzAZZtye2BRy8kW4UmFQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.660916+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:23.660916+00:00",
       "nextReviewAt": "2026-11-11T15:01:23.660916+00:00",
@@ -4399,8 +4399,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ksz4e3PoeLD8vyRFFZIsFA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.971666+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:23.971666+00:00",
       "nextReviewAt": "2026-11-11T15:01:23.971666+00:00",
@@ -4426,8 +4426,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=jG3EvS5E57ARGz1xJZhDEQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:26.418864+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:26.418864+00:00",
       "nextReviewAt": "2026-11-11T15:01:26.418864+00:00",
@@ -4453,8 +4453,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gi5Q7LUuzofWHdxWO7Ur_g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:29.46314+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:29.46314+00:00",
       "nextReviewAt": "2026-11-11T15:01:29.463140+00:00",
@@ -4480,8 +4480,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=h1kIG737iaHCupUBIwZVdA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.50688+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.50688+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.506880+00:00",
@@ -4507,8 +4507,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=UdaTgAP3Lt4WlXn1inVZnQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.356879+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.356879+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.356879+00:00",
@@ -4534,8 +4534,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3uAKESYyIEnGDXtWzQh3Jg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.31048+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.31048+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.310480+00:00",
@@ -4561,8 +4561,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=BlL5GUG5B6R1Vf0e2-7f7w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.427901+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.427901+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.427901+00:00",
@@ -4588,8 +4588,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=J__Zcy5-e8IZXjitCGqv-w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.207684+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.207684+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.207684+00:00",
@@ -4641,8 +4641,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Vja528Tb5Q93jvMx07jMnA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.239905+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.258859+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.258859+00:00",
@@ -4668,8 +4668,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GvV64--OAKSYXM25IHtQ4g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.15035+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.15035+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.150350+00:00",
@@ -4695,8 +4695,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=NKL3KKusxVJ0fw-BnaTTWQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.276625+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.276625+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.276625+00:00",
@@ -4722,8 +4722,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=aQiL8IFovu05C1A8Pjkqcw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.306319+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.306319+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.306319+00:00",
@@ -4749,8 +4749,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lckFlLRiGM-TkUaX9YSB_g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.677567+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.677567+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.677567+00:00",
@@ -4776,8 +4776,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mVtqWDP52gdbKBttgn_tkg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.182931+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.182931+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.182931+00:00",
@@ -4818,8 +4818,8 @@
           "pageFetchState": "SUCCESSFUL"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:51.999688+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -4863,8 +4863,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7Af-qi5vo5o-ZCev7HN-Ew&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.09309+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.09309+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.093090+00:00",
@@ -4890,8 +4890,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=4ryyQ4gZO3AM0BZCstg7pw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.342094+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.342094+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.342094+00:00",
@@ -4917,8 +4917,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=wumy0hhPupmxofkHfI19Fg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.461609+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.461609+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.461609+00:00",
@@ -4944,8 +4944,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vkyFTL54j-BwzCFiw5ZU-g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:58.861693+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:58.861693+00:00",
       "nextReviewAt": "2026-11-11T15:01:58.861693+00:00",
@@ -4971,8 +4971,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=98fUpMXHWRi0AIDy3zgSfA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:58.891813+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:58.891813+00:00",
       "nextReviewAt": "2026-11-11T15:01:58.891813+00:00",
@@ -4998,8 +4998,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gf-ZBrzB8818vqYWoA_EWg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:59.001349+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:59.001349+00:00",
       "nextReviewAt": "2026-11-11T15:01:59.001349+00:00",
@@ -5025,8 +5025,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zChX7n1E7rrxOv4-xD4aCg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:59.117894+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:59.117894+00:00",
       "nextReviewAt": "2026-11-11T15:01:59.117894+00:00",
@@ -5052,8 +5052,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ERxAibKifyk9ZXc82FzpoA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:59.22757+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:59.22757+00:00",
       "nextReviewAt": "2026-11-11T15:01:59.227570+00:00",
@@ -5079,8 +5079,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2tU3wZGDm-tbAHLEvosY7w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:05.786196+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.786196+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.786196+00:00",
@@ -5106,8 +5106,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=MPeuUZ38AOkrCqjeaH7N0g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:05.705133+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.705133+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.705133+00:00",
@@ -5133,8 +5133,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7yEEVgAcBsygp9yj10eKQQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:05.859203+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.859203+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.859203+00:00",
@@ -5160,8 +5160,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=nS2uO0XzBm-5ANYk51N8TA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:08.927398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:08.927398+00:00",
       "nextReviewAt": "2026-11-11T15:02:08.927398+00:00",
@@ -5200,8 +5200,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hmuml5K-qzu04j7y0L2SRw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-06T12:47:13.030853+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.933156+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.933156+00:00",
@@ -5255,8 +5255,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YclMGy4GhVze8Jrv_9LiVg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.552892+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -5348,8 +5348,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YjH32yoD9WuQSL-Zh8ZEfQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.32682+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -5413,8 +5413,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7CJkaRlEpGMvIfGFGzVjFA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.416767+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:18.416767+00:00",
       "nextReviewAt": "2026-11-11T15:02:18.416767+00:00",
@@ -5440,8 +5440,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3D56S-F3Updft9sYnhPNoA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.356688+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:18.356688+00:00",
       "nextReviewAt": "2026-11-11T15:02:18.356688+00:00",
@@ -5467,8 +5467,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6IfZssaVC8zrsp7uFgOuxA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.428937+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:18.428937+00:00",
       "nextReviewAt": "2026-11-11T15:02:18.428937+00:00",
@@ -5494,8 +5494,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=62XpAlaX93rKOObjXYkwRg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.280676+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.280676+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.280676+00:00",
@@ -5521,8 +5521,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0vfeW1wuSZy_V1jJa5fibg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.140283+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.140283+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.140283+00:00",
@@ -5548,8 +5548,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Q3XkWtR1_Di3o6cAj5g_Mw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.374398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.374398+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.374398+00:00",
@@ -5607,8 +5607,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/selling-houston-house-solar-panels-contract-checklist.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.945643+00:00",
       "technicalEvidence": {
@@ -5658,8 +5658,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lk0bNHIO20wMJKfAlRGVWA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.381303+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.381303+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.381303+00:00",
@@ -5698,8 +5698,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ncDjdeQmV-rlTDhjkF0_Tw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:31.474033+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.440461+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.440461+00:00",
@@ -5725,8 +5725,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Il49KoUpCHclufp-EG5ThA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.130675+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.130675+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.130675+00:00",
@@ -5780,8 +5780,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=HVD5OW7zIei5nE9PFev0Hw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.062303+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -5832,8 +5832,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mg6oy5C_pw5Rx35Wpk_hIg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.478656+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.478656+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.478656+00:00",
@@ -5859,8 +5859,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=tuYOawCWvBaVd7Mogqng2g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.179374+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.179374+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.179374+00:00",
@@ -5918,8 +5918,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/texas-as-is-sale-seller-disclosure-checklist.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.973937+00:00",
       "technicalEvidence": {
@@ -5968,8 +5968,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sdZ0NPEt09DZLh67fmrjLw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.14447+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.14447+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.144470+00:00",
@@ -6027,8 +6027,8 @@
         }
       ],
       "recordPath": "automation/blog-publisher/records/vacant-house-insurance-while-selling-houston.json",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.953091+00:00",
       "technicalEvidence": {
@@ -6091,8 +6091,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=XJ7gkT06qlPnAl0_fQ3Okw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.385071+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:38.9639+00:00",
       "nextReviewAt": "2026-11-11T15:02:38.963900+00:00",
@@ -6118,8 +6118,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=pE6BccWvOMpzHDK84BY-OA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:47.921308+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:47.921308+00:00",
       "nextReviewAt": "2026-11-11T15:02:47.921308+00:00",
@@ -6145,8 +6145,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9nNlfS5gMblweCY1eCgY6w&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:38.951976+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:38.951976+00:00",
       "nextReviewAt": "2026-11-11T15:02:38.951976+00:00",
@@ -6172,8 +6172,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=PAXZKYHQg3MvBt_nsETvjw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:39.305528+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:39.305528+00:00",
       "nextReviewAt": "2026-11-11T15:02:39.305528+00:00",
@@ -6227,8 +6227,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0oGXHnDOR2sDu7k8ZIAgrQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:45.774871+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -6292,8 +6292,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=RSbUO-apn0KrAb0LdA98Lw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:48.706742+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:48.706742+00:00",
       "nextReviewAt": "2026-11-11T15:02:48.706742+00:00",
@@ -6319,8 +6319,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1O1E2s9V9gWeyUNNeggVvw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:45.794889+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:45.794889+00:00",
       "nextReviewAt": "2026-11-11T15:02:45.794889+00:00",
@@ -6346,8 +6346,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0ODcFjU3Uz4SLtKjGmYgwQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:49.20504+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:49.20504+00:00",
       "nextReviewAt": "2026-11-11T15:02:49.205040+00:00",
@@ -6373,8 +6373,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Rrl6wyiYeobclep7qeikhg&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:52.408895+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:52.408895+00:00",
       "nextReviewAt": "2026-11-11T15:02:52.408895+00:00",
@@ -6400,8 +6400,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=oGyPcqGxkhuqlfSj2ySvCA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.194897+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.194897+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.194897+00:00",
@@ -6427,8 +6427,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1C15JMf9IPp9vywmq8sxog&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.118914+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.118914+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.118914+00:00",
@@ -6454,8 +6454,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=wZO2sBlz9KHQpH0-0aQU_A&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.287926+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.287926+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.287926+00:00",
@@ -6509,8 +6509,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6I8sOz9_HlIvxCsiSL4tRw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.425205+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -6570,8 +6570,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8NHuJAUeNTZd3XB3HR5nPQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.292563+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.292563+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.292563+00:00",
@@ -6597,8 +6597,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=NJnBpdWZDKIzBY37kQWHEA&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:07.862888+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:07.862888+00:00",
       "nextReviewAt": "2026-11-11T15:03:07.862888+00:00",
@@ -6652,8 +6652,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=s65Uo-5BSrYTU_YNWDJv5g&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:07.921777+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-10-21T14:02:25.785425+00:00",
@@ -6717,8 +6717,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gsqdGa095B8hw4K-gXK2Ng&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:08.184343+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:08.184343+00:00",
       "nextReviewAt": "2026-11-11T15:03:08.184343+00:00",
@@ -6744,8 +6744,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=CJwmc0CwM9gwdewEp0LoCw&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:08.033716+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:08.033716+00:00",
       "nextReviewAt": "2026-11-11T15:03:08.033716+00:00",
@@ -6771,8 +6771,8 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=aOicJBu605ZkX9axGrXwsQ&utm_medium=link&utm_source=api"
         }
       ],
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:08.194451+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:08.194451+00:00",
       "nextReviewAt": "2026-11-11T15:03:08.194451+00:00",
@@ -6873,8 +6873,8 @@
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "lastAttempt": "2026-10-18T14:13:41.883Z",
       "nextReviewAfter": "2026-10-21",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "nextReviewAt": "2026-10-21T14:12:33.936000+00:00",
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
@@ -7005,8 +7005,8 @@
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "lastAttempt": "2026-10-18T14:14:02.455Z",
       "nextReviewAfter": "2026-10-21",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "nextReviewAt": "2026-10-21T14:12:33.936000+00:00",
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
@@ -7141,8 +7141,8 @@
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "lastAttempt": "2026-10-18T14:13:51.746Z",
       "nextReviewAfter": "2026-10-21",
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "nextReviewAt": "2026-10-21T14:12:33.936000+00:00",
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
@@ -7216,38 +7216,66 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=FrADEN3B-nDeABIgRa3ejw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:39:01.583998+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+          "userCanonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+          "lastCrawlTime": "2026-10-24T04:54:08+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=aL9b-adXL2ZboXs9VSJMFA&utm_medium=link&utm_source=api"
         }
       ],
       "ageBasis": "publication",
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
-      "lastAttemptAt": "2026-10-19T14:08:31.782Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "lastAttemptAt": "2026-10-26T14:39:01.583998+00:00",
       "recordPath": "automation/blog-publisher/records/mold-remediation-certificate-selling-texas-house.json",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-22T13:37:58.261182+00:00",
+      "technicalVerifiedAt": "2026-10-26T14:37:25.688510+00:00",
       "technicalQA": {
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
-        "httpStatus": 200,
+        "slug": "mold-remediation-certificate-selling-texas-house",
+        "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
         "canonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
-        "schemaTypes": [
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/mold-remediation-certificate-selling-texas-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
+        "imageAlt": "Illustrative Houston brick house with a sheltered side entry and the headline Past Mold Sale Records with the official transparent Cash As-Is logo",
+        "schema": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
         ],
-        "sitemap": true,
-        "rss": true,
-        "internalLinks": [
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
           "/blog/texas-as-is-sale-seller-disclosure-checklist/",
           "/blog/selling-houston-house-open-insurance-claim/",
           "/blog/sell-house-needs-major-repairs-houston/"
         ],
-        "ctaCount": 2
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:37:25.688510+00:00",
+        "result": "pass"
       },
       "firstSuccessfulInspection": "2026-10-19T14:08:31.782Z",
-      "lastSuccessfulInspection": "2026-10-19T14:08:31.782Z",
-      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00",
+      "lastSuccessfulInspection": "2026-10-26T14:39:01.583998+00:00",
+      "nextReviewAt": "2026-11-23T14:39:01.583998+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-26"
@@ -7286,38 +7314,65 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mj6D4gAxfr5W1ZgLdfukHg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:39:01.575044+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+          "userCanonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+          "lastCrawlTime": "2026-10-23T06:07:41+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6iYDYuFfVlNa8s0V6Q1TQg&utm_medium=link&utm_source=api"
         }
       ],
       "ageBasis": "publication",
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
-      "lastAttemptAt": "2026-10-19T14:08:20.667Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "lastAttemptAt": "2026-10-26T14:39:01.575044+00:00",
       "recordPath": "automation/blog-publisher/records/replace-air-conditioner-before-selling-houston-house.json",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-22T13:37:58.140796+00:00",
+      "technicalVerifiedAt": "2026-10-26T14:37:37.997571+00:00",
       "technicalQA": {
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
-        "httpStatus": 200,
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
         "canonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
-        "schemaTypes": [
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/replace-air-conditioner-before-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
+        "imageAlt": "Illustrative Houston brick house with an outdoor air conditioner and the headline AC Trouble Seller Guide beneath the official Cash As-Is logo",
+        "schema": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
         ],
-        "sitemap": true,
-        "rss": true,
-        "internalLinks": [
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
           "/blog/sell-house-needs-major-repairs-houston/",
-          "/fix-it-or-sell-it/",
           "/blog/cash-offer-vs-listing-house-houston/"
         ],
-        "ctaCount": 2
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:37:37.997571+00:00",
+        "result": "pass"
       },
       "firstSuccessfulInspection": "2026-10-19T14:08:20.667Z",
-      "lastSuccessfulInspection": "2026-10-19T14:08:20.667Z",
-      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00",
+      "lastSuccessfulInspection": "2026-10-26T14:39:01.575044+00:00",
+      "nextReviewAt": "2026-11-23T14:39:01.575044+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-26"
@@ -7356,38 +7411,66 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mTK1Ec9VwFdCCUkfT0tvdw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:39:01.511986+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+          "lastCrawlTime": "2026-10-24T06:40:58+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mAaxfYk7wlfPcV2jJAdDRg&utm_medium=link&utm_source=api"
         }
       ],
       "ageBasis": "publication",
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
-      "lastAttemptAt": "2026-10-19T14:08:02.281Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "lastAttemptAt": "2026-10-26T14:39:01.511986+00:00",
       "recordPath": "automation/blog-publisher/records/selling-houston-house-from-out-of-state-signing.json",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-22T13:37:58.216451+00:00",
+      "technicalVerifiedAt": "2026-10-26T14:37:51.345932+00:00",
       "technicalQA": {
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-10-19T14:07:08.356830+00:00",
-        "httpStatus": 200,
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
         "canonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
-        "schemaTypes": [
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-from-out-of-state-signing.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
+        "imageAlt": "Illustrative Houston red brick ranch and empty front walkway with the headline Out of State Signing Guide and the official Cash As-Is logo",
+        "schema": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
         ],
-        "sitemap": true,
-        "rss": true,
-        "internalLinks": [
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
           "/blog/how-cash-offer-house-works-houston/",
           "/blog/dont-live-in-area-vacant-property-risk/",
           "/blog/protect-house-sale-proceeds-wire-fraud/"
         ],
-        "ctaCount": 2
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:37:51.345932+00:00",
+        "result": "pass"
       },
       "firstSuccessfulInspection": "2026-10-19T14:08:02.281Z",
-      "lastSuccessfulInspection": "2026-10-19T14:08:02.281Z",
-      "nextReviewAt": "2026-10-22T14:06:14.465000+00:00",
+      "lastSuccessfulInspection": "2026-10-26T14:39:01.511986+00:00",
+      "nextReviewAt": "2026-11-23T14:39:01.511986+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-26"
@@ -7430,8 +7513,8 @@
         }
       ],
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "lastAttemptAt": "2026-10-20T13:57:38.328Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-23T13:21:35.868242+00:00",
@@ -7513,8 +7596,8 @@
         }
       ],
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "lastAttemptAt": "2026-10-20T13:57:52.422Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-23T13:21:35.844378+00:00",
@@ -7596,8 +7679,8 @@
         }
       ],
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-20T13:58:07.501382+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "lastAttemptAt": "2026-10-20T13:58:06.752Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-23T13:21:35.924794+00:00",
@@ -7678,8 +7761,8 @@
         }
       ],
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "lastAttemptAt": "2026-10-21T14:22:45.000Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-24T13:19:50.512310+00:00",
@@ -7751,8 +7834,8 @@
         }
       ],
       "excluded": false,
-      "eligibleInventorySource": "Current exact-commit production sitemap",
-      "inventoryVerifiedAt": "2026-10-21T14:24:30.000Z",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
       "lastAttemptAt": "2026-10-21T14:22:45.000Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-24T13:19:58.140411+00:00",
@@ -7901,7 +7984,10 @@
           }
         ],
         "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
-      }
+      },
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
@@ -7956,7 +8042,10 @@
           }
         ],
         "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
-      }
+      },
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
@@ -8011,7 +8100,10 @@
           }
         ],
         "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
-      }
+      },
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/",
@@ -8043,7 +8135,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/accessibility/",
@@ -8075,7 +8170,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/careers/",
@@ -8107,7 +8205,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/disclaimer/",
@@ -8139,7 +8240,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/lending-partners/",
@@ -8171,7 +8275,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/privacy/",
@@ -8203,7 +8310,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/referrals/",
@@ -8235,7 +8345,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/sms-tcpa/",
@@ -8267,7 +8380,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/terms/",
@@ -8299,7 +8415,10 @@
         }
       ],
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
-      "nextReview": "2026-11-20"
+      "nextReview": "2026-11-20",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
@@ -8317,13 +8436,67 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5MRsGyIeP0A2WR6nYEij9Q&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:39:01.599009+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=4LsXtUSWwxMmsEJg3-Qcqw&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-23T13:33:29.195737+00:00",
+      "technicalVerifiedAt": "2026-10-26T14:38:03.303441+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-26"
+      "nextReview": "2026-10-26",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "lastSuccessfulInspection": "2026-10-26T14:39:01.599009+00:00",
+      "lastAttemptAt": "2026-10-26T14:39:01.599009+00:00",
+      "firstSuccessfulInspection": "2026-10-26T14:39:01.599009+00:00",
+      "technicalQA": {
+        "slug": "property-tax-proration-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "9ea6a7d85e8ab926e256235295fe5bfd88d6b373c3797a59d6090e9cca207242",
+        "imageAlt": "Illustrative Houston brick house with a blank folder and calculator beside the Selling Soon Check Taxes headline and transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+          "/blog/sell-house-behind-on-taxes-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:38:03.303441+00:00",
+        "result": "pass"
+      },
+      "nextReviewAt": "2026-10-30T13:32:10.290000+00:00"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
@@ -8341,13 +8514,67 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2J3ND0OMCfPXKar1WAhCMg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:39:01.570639+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zg8UB8Sx5cuTfwpmJtAc-g&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-23T13:33:29.171238+00:00",
+      "technicalVerifiedAt": "2026-10-26T14:38:16.334831+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-26"
+      "nextReview": "2026-10-26",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "lastSuccessfulInspection": "2026-10-26T14:39:01.570639+00:00",
+      "lastAttemptAt": "2026-10-26T14:39:01.570639+00:00",
+      "firstSuccessfulInspection": "2026-10-26T14:39:01.570639+00:00",
+      "technicalQA": {
+        "slug": "selling-houston-house-reverse-mortgage",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
+        "imageAlt": "Illustrative established Houston brick home with porch chairs and Reverse Loan Sell As-Is headline beside the transparent official Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/sell-inherited-house-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:38:16.334831+00:00",
+        "result": "pass"
+      },
+      "nextReviewAt": "2026-10-30T13:32:10.290000+00:00"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
@@ -8365,13 +8592,67 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vMIGaA5MsSZsEWr8JHf_Ng&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:39:08.29698+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gauUtNOm4sTFEvd80pLTCg&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-23T13:33:29.201313+00:00",
+      "technicalVerifiedAt": "2026-10-26T14:38:23.851305+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-26"
+      "nextReview": "2026-10-26",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "lastSuccessfulInspection": "2026-10-26T14:39:08.29698+00:00",
+      "lastAttemptAt": "2026-10-26T14:39:08.29698+00:00",
+      "firstSuccessfulInspection": "2026-10-26T14:39:08.29698+00:00",
+      "technicalQA": {
+        "slug": "selling-houston-house-suspected-asbestos",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
+        "imageAlt": "Illustrative older Houston house with intact vintage floor tiles visible through a doorway, Asbestos Sell As-Is headline and transparent Cash As-Is logo; not a material diagnosis",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:38:23.851305+00:00",
+        "result": "pass"
+      },
+      "nextReviewAt": "2026-10-30T13:32:10.290000+00:00"
     },
     {
       "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
@@ -8395,7 +8676,10 @@
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "technicalVerifiedAt": "2026-10-24T13:25:49.946591+00:00",
-      "nextReview": "2026-10-27"
+      "nextReview": "2026-10-27",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
@@ -8419,7 +8703,10 @@
       "technicalVerifiedAt": "2026-10-25T13:30:43.223832+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-28"
+      "nextReview": "2026-10-28",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
@@ -8443,7 +8730,10 @@
       "technicalVerifiedAt": "2026-10-25T13:30:43.223832+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-28"
+      "nextReview": "2026-10-28",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
     },
     {
       "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
@@ -8467,7 +8757,206 @@
       "technicalVerifiedAt": "2026-10-25T13:30:43.223832+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
-      "nextReview": "2026-10-28"
+      "nextReview": "2026-10-28",
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+      "publishedAt": "2026-10-26T14:41:24.210Z",
+      "firstSeenAt": "2026-10-26T14:45:10.752984+00:00",
+      "ageBasis": "publication",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:45:05.412659+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=XcwDh770l1rsu5sF1vx5PA&utm_medium=link&utm_source=api"
+        }
+      ],
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "lastSuccessfulInspection": "2026-10-26T14:45:05.412659+00:00",
+      "lastAttemptAt": "2026-10-26T14:45:05.412659+00:00",
+      "firstSuccessfulInspection": "2026-10-26T14:45:05.412659+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-26T14:43:17.743953+00:00",
+      "technicalQA": {
+        "slug": "federal-tax-lien-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/federal-tax-lien-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "96b7f89af7b25813f0ae3e7a640208931de04cc500a7ee250b5dc34735cd72c9",
+        "imageAlt": "Illustrative Houston-area house with the headline IRS TAX LIEN? SALE OPTIONS and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
+          "/blog/sell-house-behind-on-taxes-houston/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:43:17.743953+00:00",
+        "result": "pass"
+      },
+      "technicalIssue": null,
+      "technicalIssueConfirmed": false,
+      "nextReviewAt": "2026-10-29T14:41:24.210000+00:00"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+      "publishedAt": "2026-10-26T14:41:24.210Z",
+      "firstSeenAt": "2026-10-26T14:45:10.752984+00:00",
+      "ageBasis": "publication",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:45:05.48787+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=BqOI_1RYkol9f8Wj5-vKZw&utm_medium=link&utm_source=api"
+        }
+      ],
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "lastSuccessfulInspection": "2026-10-26T14:45:05.48787+00:00",
+      "lastAttemptAt": "2026-10-26T14:45:05.48787+00:00",
+      "firstSuccessfulInspection": "2026-10-26T14:45:05.48787+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-26T14:42:53.372651+00:00",
+      "technicalQA": {
+        "slug": "power-of-attorney-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/power-of-attorney-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "59d8ed1c937395dadf634dd543afc6cb3d3be104ac6544e5f6d481d406328d5f",
+        "imageAlt": "Illustrative Houston-area house with the headline USING A POA? CHECK FIRST and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/selling-houston-house-from-out-of-state-signing/",
+          "/blog/sell-house-multiple-owners-heirs-houston/",
+          "/blog/sell-house-title-problems-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:42:53.372651+00:00",
+        "result": "pass"
+      },
+      "technicalIssue": null,
+      "technicalIssueConfirmed": false,
+      "nextReviewAt": "2026-10-29T14:41:24.210000+00:00"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+      "publishedAt": "2026-10-26T14:41:24.210Z",
+      "firstSeenAt": "2026-10-26T14:45:10.752984+00:00",
+      "ageBasis": "publication",
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-26T14:45:05.436869+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WcA_nzFmDfyzcsaKTE7qVw&utm_medium=link&utm_source=api"
+        }
+      ],
+      "excluded": false,
+      "inventoryVerifiedAt": "2026-10-26T14:45:10.752984+00:00",
+      "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
+      "lastSuccessfulInspection": "2026-10-26T14:45:05.436869+00:00",
+      "lastAttemptAt": "2026-10-26T14:45:05.436869+00:00",
+      "firstSuccessfulInspection": "2026-10-26T14:45:05.436869+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-10-26T14:43:04.977230+00:00",
+      "technicalQA": {
+        "slug": "selling-houston-house-mortgage-forbearance",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-mortgage-forbearance.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "04046dd03a051bbbdf3d84492e56840ba00e4a77d9dfce689e522c3321e97d55",
+        "imageAlt": "Illustrative Houston-area house with the headline PAYMENT PAUSE? SALE PLAN and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
+          "/blog/fha-partial-claim-selling-houston-house/",
+          "/blog/stop-foreclosure-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:43:04.977230+00:00",
+        "result": "pass"
+      },
+      "technicalIssue": null,
+      "technicalIssueConfirmed": false,
+      "nextReviewAt": "2026-10-29T14:41:24.210000+00:00"
     }
   ],
   "notifications": [],
@@ -8483,6 +8972,14 @@
         "deliveredDate": "2026-10-19",
         "deliveryEvidence": "The actual October19 owner-facing response and full weekly summary are visible in this conversation; exact response timestamp unavailable.",
         "deliveryConfirmedAt": "2026-10-20T13:58:07.501382+00:00"
+      },
+      "2026-W44": {
+        "kind": "weekly",
+        "status": "review_complete",
+        "completedAt": "2026-10-26T14:45:10.752984+00:00",
+        "record": "automation/blog-publisher/runs/2026-W44-weekly.json",
+        "deliveryStatus": "pending_owner_response",
+        "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e"
       }
     },
     "monthly": {}
@@ -8508,57 +9005,38 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-10-23",
-  "inspectionCallsUsed": 20,
+  "settledThrough": "2026-10-24",
+  "inspectionCallsUsed": 9,
   "lastRunMonitoring": {
-    "runId": "native-daily-20261021T134423Z",
-    "actualInspectionCalls": 19,
-    "eligibleURLsReconciled": 180,
-    "dueURLsInspected": 16,
-    "dueTechnicalChecks": "pass",
+    "runId": "native-daily-20261026T140506Z",
+    "inspections": 9,
+    "dueRechecks": 6,
     "newPublicationInspections": 3,
-    "weeklyReportDue": false,
-    "monthlyReportDue": false,
-    "backlogCount": 0,
-    "indexedCoverageSnapshot": {
-      "allEligible": {
-        "indexed": 154,
-        "total": 180
-      },
-      "blogArticles": {
-        "indexed": 139,
-        "total": 161
-      },
-      "basis": "latest retained Google URL Inspection results; sitemap also includes non-blog pages"
-    },
-    "ownerNotification": "none: routine success and normal initial discovery; no confirmed persistent failure, organic lead change or sustained ranking gain",
-    "monitoringEvidence": "automation/blog-publisher/runs/2026-10-21.json",
-    "completedAt": "2026-10-21T14:24:30.000Z",
-    "bookkeepingCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
-    "bookkeepingDeployId": "6ad8cc43f71c98250d51a4e1",
-    "bookkeepingDeployCommit": "df80cbbc8faf77a125be8c758c735d830a80d1a4",
-    "bookkeepingDeployReadyVerifiedAt": "2026-10-21T14:30:10.000Z"
+    "dueNewlyIndexed": 3,
+    "localQA": "pass",
+    "persistentProblemAlerts": 0,
+    "completedAt": "2026-10-26T14:45:10.752984+00:00"
   },
-  "now": "2026-10-25T13:31:31.603Z",
-  "lastRunId": "native-daily-20261025T130713Z",
+  "now": "2026-10-26T14:45:10.752984+00:00",
+  "lastRunId": "native-daily-20261026T140506Z",
   "coverage": {
-    "eligibleSitemapURLs": 198,
-    "eligibleBlogArticles": 170,
-    "eligibleURLsWithRetainedInspectionEvidence": 198,
+    "eligibleSitemapURLs": 201,
+    "eligibleBlogArticles": 173,
+    "eligibleURLsWithRetainedInspectionEvidence": 201,
     "latestEvidenceCounts": {
-      "indexed": 177,
+      "indexed": 180,
       "not_indexed": 21
     },
     "latestBlogEvidenceCounts": {
-      "indexed": 153,
+      "indexed": 156,
       "not_indexed": 17
     },
-    "inspectedThisRun": 20,
+    "inspectedThisRun": 9,
     "observationDateRange": [
-      "2026-10-04T18:51:07.839038+00:00",
-      "2026-10-25T13:30:09.678983+00:00"
+      "2026-10-04T18:49:51.651501+00:00",
+      "2026-10-26T14:45:05.48787+00:00"
     ],
-    "note": "Mixed actual observation dates; not a fresh complete-site census. Blog/non-blog separated. New unknown/pending states are not rejections; impressions are not indexed counts."
+    "note": "Latest retained actual Google observations have mixed dates; not a fresh complete-site census. Blog and non-blog separated. Initial unknown and pending are not rejections; impressions are not indexed counts."
   },
   "lastRun": {
     "runId": "native-daily-20261025T130713Z",
