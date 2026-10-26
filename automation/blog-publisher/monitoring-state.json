@@ -8978,8 +8978,10 @@
         "status": "review_complete",
         "completedAt": "2026-10-26T14:45:10.752984+00:00",
         "record": "automation/blog-publisher/runs/2026-W44-weekly.json",
-        "deliveryStatus": "pending_owner_response",
-        "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e"
+        "deliveryStatus": "delivered_in_owner_commentary",
+        "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
+        "deliveredAt": "2026-10-26T14:47:21.984Z",
+        "deliveryEvidence": "Owner-facing commentary delivered Oct18–24 matched GSC/GA4 comparison, mixed-date blog/site indexing coverage, weekly publication/withdrawal/held counts and Missouri City opportunity."
       }
     },
     "monthly": {}
