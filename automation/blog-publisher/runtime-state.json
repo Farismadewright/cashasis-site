@@ -4,7 +4,7 @@
     "fence": 19,
     "issuedAt": "2026-10-26T14:07:03.269Z",
     "expiresAt": "2026-10-26T16:02:03.269Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-26T14:48:50.738Z"
   },
   "ledger": [
     {
@@ -880,7 +880,7 @@
       "day": "2026-10-26",
       "runId": "native-daily-20261026T140506Z",
       "fence": 19,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-26T14:11:52.381Z",
       "validationOnly": false,
       "pr": 34,
@@ -892,7 +892,14 @@
         "errors": [],
         "checkedAt": "2026-10-26T14:40:39.478Z"
       },
-      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5"
+      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+      "deployId": "6adf6667ff273d61e2f16d5d",
+      "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+      "publishedAt": "2026-10-26T14:41:24.210Z",
+      "verifiedAt": "2026-10-26T14:47:49.417462+00:00",
+      "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
+      "bookkeepingDeployId": "6adf67b46c8f10e1b1594a38",
+      "monitoringCommit": "054c01a8b7166a4351968b731bf8dafe3c495911"
     },
     {
       "slug": "selling-houston-house-mortgage-forbearance",
@@ -900,7 +907,7 @@
       "day": "2026-10-26",
       "runId": "native-daily-20261026T140506Z",
       "fence": 19,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-26T14:11:52.381Z",
       "validationOnly": false,
       "pr": 34,
@@ -912,7 +919,14 @@
         "errors": [],
         "checkedAt": "2026-10-26T14:40:39.478Z"
       },
-      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5"
+      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+      "deployId": "6adf6667ff273d61e2f16d5d",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+      "publishedAt": "2026-10-26T14:41:24.210Z",
+      "verifiedAt": "2026-10-26T14:47:49.417462+00:00",
+      "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
+      "bookkeepingDeployId": "6adf67b46c8f10e1b1594a38",
+      "monitoringCommit": "054c01a8b7166a4351968b731bf8dafe3c495911"
     },
     {
       "slug": "federal-tax-lien-selling-houston-house",
@@ -920,7 +934,7 @@
       "day": "2026-10-26",
       "runId": "native-daily-20261026T140506Z",
       "fence": 19,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-26T14:11:52.381Z",
       "validationOnly": false,
       "pr": 34,
@@ -932,47 +946,56 @@
         "errors": [],
         "checkedAt": "2026-10-26T14:40:39.478Z"
       },
-      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5"
+      "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+      "deployId": "6adf6667ff273d61e2f16d5d",
+      "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+      "publishedAt": "2026-10-26T14:41:24.210Z",
+      "verifiedAt": "2026-10-26T14:47:49.417462+00:00",
+      "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
+      "bookkeepingDeployId": "6adf67b46c8f10e1b1594a38",
+      "monitoringCommit": "054c01a8b7166a4351968b731bf8dafe3c495911"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261025T130713Z",
-    "fence": 18,
+    "runId": "native-daily-20261026T140506Z",
+    "fence": 19,
     "status": "pass",
-    "day": "2026-10-25",
+    "day": "2026-10-26",
     "published": 3,
     "held": 0,
-    "productionCommit": "cf7fc0097c2de0b5ede71da44dda047d4995e726",
-    "deployId": "6ade041f9f077a0f8375cbe3",
-    "evidence": "automation/blog-publisher/runs/2026-10-25.json",
-    "bookkeepingCommit": "8ae5313cd8f25a0b6525c04027bafcecf7720297",
-    "bookkeepingDeployId": "6ade0561e85a3f21ab1d548c",
-    "monitoringCommit": "3d84f738747455e115d17ebea21763c3d3c35707",
-    "completedAt": "2026-10-25T13:36:01.710Z",
+    "productionCommit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+    "deployId": "6adf6667ff273d61e2f16d5d",
+    "evidence": "automation/blog-publisher/runs/2026-10-26.json",
+    "bookkeepingCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
+    "bookkeepingDeployId": "6adf67b46c8f10e1b1594a38",
+    "monitoringCommit": "054c01a8b7166a4351968b731bf8dafe3c495911",
+    "completedAt": "2026-10-26T14:48:50.738Z",
     "externalPaidApiSpendUSD": 0,
-    "inspectionCalls": 20,
-    "notificationSent": false,
+    "inspectionCalls": 9,
+    "weeklyReport": "automation/blog-publisher/runs/2026-W44-weekly.json",
+    "notificationSent": true,
+    "notificationKind": "requested_weekly_review",
     "finalLiveCheck": {
       "result": "pass",
-      "checkedAt": "2026-10-25T13:35:18.786367+00:00",
+      "checkedAt": "2026-10-26T14:47:49.417462+00:00",
       "articles": [
         {
-          "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+          "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
           "HTTP": 200,
           "canonical": true,
           "heroOGX": true,
           "attributedCTA": true
         },
         {
-          "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+          "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
           "HTTP": 200,
           "canonical": true,
           "heroOGX": true,
           "attributedCTA": true
         },
         {
-          "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+          "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
           "HTTP": 200,
           "canonical": true,
           "heroOGX": true,
