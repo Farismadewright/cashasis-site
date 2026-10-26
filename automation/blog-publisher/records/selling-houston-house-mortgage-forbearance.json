@@ -67,7 +67,7 @@
   "imageAlt": "Illustrative Houston-area house with the headline PAYMENT PAUSE? SALE PLAN and official transparent Cash As-Is logo",
   "runId": "native-daily-20261026T140506Z",
   "fence": 19,
-  "status": "draft",
+  "status": "published",
   "externalApiUsed": false,
   "checks": {
     "privacy": "pass",
@@ -80,7 +80,9 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
+    "preview": "pass",
+    "deploy": "pass",
+    "productionIndexability": "pass"
   },
   "cost": {
     "currency": "USD",
@@ -161,8 +163,8 @@
   },
   "day": "2026-10-26",
   "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
-  "commit": null,
-  "deployId": null,
+  "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+  "deployId": "6adf6667ff273d61e2f16d5d",
   "mobileEvidence": {
     "passed": true,
     "results": [
@@ -268,5 +270,97 @@
     "indexabilityExpected": "production self canonical, robots allowed and sitemap/RSS eligible; must verify after deployment",
     "sellerConversionPath": "existing attributed cash-offer CTA preserved",
     "reportingOptional": true
-  }
+  },
+  "previewCommit": "68f1e5bd75cd89d592ad774158f21fc027aae379",
+  "previewDeployId": "6adf658b4ec64b4c43a7e551",
+  "previewEvidence": {
+    "slug": "selling-houston-house-mortgage-forbearance",
+    "url": "https://6adf658b4ec64b4c43a7e551--cashasis-blog.netlify.app/blog/selling-houston-house-mortgage-forbearance/",
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+    "HTTP": 200,
+    "noindex": true,
+    "indexable": false,
+    "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-mortgage-forbearance.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "04046dd03a051bbbdf3d84492e56840ba00e4a77d9dfce689e522c3321e97d55",
+    "imageAlt": "Illustrative Houston-area house with the headline PAYMENT PAUSE? SALE PLAN and official transparent Cash As-Is logo",
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "visibleFAQCount": 4,
+    "internalLinks": 13,
+    "meaningfulBodyLinks": [
+      "/blog/fha-partial-claim-selling-houston-house/",
+      "/blog/stop-foreclosure-houston/"
+    ],
+    "attributedCTA": true,
+    "sitemap": true,
+    "RSS": true,
+    "blogInboundLink": true,
+    "HTMLCSSMatchMobileTestedBuild": true,
+    "checkedAt": "2026-10-26T14:39:28.569007+00:00",
+    "result": "pass"
+  },
+  "pr": 34,
+  "publishedAt": "2026-10-26T14:41:24.210Z",
+  "verifiedAt": "2026-10-26T14:43:04.977230+00:00",
+  "productionEvidence": {
+    "slug": "selling-houston-house-mortgage-forbearance",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+    "HTTP": 200,
+    "noindex": false,
+    "indexable": true,
+    "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-mortgage-forbearance.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "04046dd03a051bbbdf3d84492e56840ba00e4a77d9dfce689e522c3321e97d55",
+    "imageAlt": "Illustrative Houston-area house with the headline PAYMENT PAUSE? SALE PLAN and official transparent Cash As-Is logo",
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "visibleFAQCount": 4,
+    "internalLinks": 13,
+    "meaningfulBodyLinks": [
+      "/blog/fha-partial-claim-selling-houston-house/",
+      "/blog/stop-foreclosure-houston/"
+    ],
+    "attributedCTA": true,
+    "sitemap": true,
+    "RSS": true,
+    "blogInboundLink": true,
+    "HTMLCSSMatchMobileTestedBuild": true,
+    "checkedAt": "2026-10-26T14:43:04.977230+00:00",
+    "result": "pass"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-26",
+    "errors": []
+  },
+  "googleInspection": {
+    "id": "d8ca3c41-6682-42be-8c93-47a513ad2f1f",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+    "last_crawl_time": null,
+    "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawled_as": null,
+    "requested_at": "2026-10-26T14:45:05.436869+00:00",
+    "google_canonical": null,
+    "user_canonical": null,
+    "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WcA_nzFmDfyzcsaKTE7qVw&utm_medium=link&utm_source=api"
+  },
+  "sourceClaimReviewCompletedAt": "2026-10-26T14:45:10.752984+00:00"
 }

@@ -645,5 +645,59 @@
     "deployId": "6ade041f9f077a0f8375cbe3",
     "pr": 33,
     "publishedAt": "2026-10-25T13:29:40.885Z"
+  },
+  {
+    "runId": "native-daily-20261026T140506Z",
+    "day": "2026-10-26",
+    "slug": "power-of-attorney-selling-houston-house",
+    "intentKey": "houston-seller-poa-agent-authority-document-review-before-sale",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+    "nearestOverlaps": [
+      "selling-houston-house-from-out-of-state-signing",
+      "sell-house-multiple-owners-heirs-houston",
+      "sell-house-title-problems-houston"
+    ],
+    "substantiveDifference": "Living-owner agent authority and document-review handoff, rather than remote signing logistics, heir authority or generic title problems.",
+    "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+    "deployId": "6adf6667ff273d61e2f16d5d",
+    "pr": 34,
+    "publishedAt": "2026-10-26T14:41:24.210Z"
+  },
+  {
+    "runId": "native-daily-20261026T140506Z",
+    "day": "2026-10-26",
+    "slug": "selling-houston-house-mortgage-forbearance",
+    "intentKey": "houston-seller-forbearance-payment-pause-repayment-plan-sale-payoff-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+    "nearestOverlaps": [
+      "fha-partial-claim-selling-houston-house",
+      "stop-foreclosure-houston",
+      "sell-before-foreclosure-texas"
+    ],
+    "substantiveDifference": "Payment-pause documentation, repayment transition and sale-payoff coordination, not foreclosure rescue or FHA subordinate-debt payoff instructions.",
+    "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+    "deployId": "6adf6667ff273d61e2f16d5d",
+    "pr": 34,
+    "publishedAt": "2026-10-26T14:41:24.210Z"
+  },
+  {
+    "runId": "native-daily-20261026T140506Z",
+    "day": "2026-10-26",
+    "slug": "federal-tax-lien-selling-houston-house",
+    "intentKey": "houston-seller-irs-federal-lien-release-vs-specific-property-discharge-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+    "nearestOverlaps": [
+      "sell-house-tax-lien-texas",
+      "sell-house-with-liens-houston",
+      "sell-house-behind-on-taxes-houston"
+    ],
+    "substantiveDifference": "IRS federal lien release versus specific-property discharge and professional coordination, not county back taxes, tax-sale deadlines or broad lien marketing.",
+    "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+    "deployId": "6adf6667ff273d61e2f16d5d",
+    "pr": 34,
+    "publishedAt": "2026-10-26T14:41:24.210Z"
   }
 ]

@@ -1,0 +1,659 @@
+{
+  "runId": "native-daily-20261026T140506Z",
+  "fence": 19,
+  "day": "2026-10-26",
+  "status": "pass",
+  "published": 3,
+  "held": 0,
+  "pr": 34,
+  "previewCommit": "68f1e5bd75cd89d592ad774158f21fc027aae379",
+  "previewDeployId": "6adf658b4ec64b4c43a7e551",
+  "productionCommit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+  "productionDeploy": {
+    "id": "6adf6667ff273d61e2f16d5d",
+    "commit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
+    "state": "ready",
+    "context": "production",
+    "publishedAt": "2026-10-26T14:41:24.210Z"
+  },
+  "articles": [
+    {
+      "slug": "power-of-attorney-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+      "record": "automation/blog-publisher/records/power-of-attorney-selling-houston-house.json",
+      "googleInspection": {
+        "id": "15ba782f-9e61-4c1d-90d5-8e647ed78d9f",
+        "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-26T14:45:05.48787+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=BqOI_1RYkol9f8Wj5-vKZw&utm_medium=link&utm_source=api"
+      }
+    },
+    {
+      "slug": "selling-houston-house-mortgage-forbearance",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+      "record": "automation/blog-publisher/records/selling-houston-house-mortgage-forbearance.json",
+      "googleInspection": {
+        "id": "d8ca3c41-6682-42be-8c93-47a513ad2f1f",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-26T14:45:05.436869+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WcA_nzFmDfyzcsaKTE7qVw&utm_medium=link&utm_source=api"
+      }
+    },
+    {
+      "slug": "federal-tax-lien-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+      "record": "automation/blog-publisher/records/federal-tax-lien-selling-houston-house.json",
+      "googleInspection": {
+        "id": "def1c92d-1de3-4e6a-80a1-2ef5a22757c8",
+        "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-26T14:45:05.412659+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=XcwDh770l1rsu5sF1vx5PA&utm_medium=link&utm_source=api"
+      }
+    }
+  ],
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-26",
+    "errors": []
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "astroPages": 197,
+    "attributionPages": 210,
+    "DNIpages": 200,
+    "nodeTests": {
+      "passed": 27,
+      "failed": 0
+    },
+    "publisherGateUnitTests": {
+      "passed": 5,
+      "failed": 0
+    },
+    "validator": "pass"
+  },
+  "previewChecks": {
+    "result": "pass",
+    "context": "preview",
+    "articles": [
+      {
+        "slug": "power-of-attorney-selling-houston-house",
+        "url": "https://6adf658b4ec64b4c43a7e551--cashasis-blog.netlify.app/blog/power-of-attorney-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": true,
+        "indexable": false,
+        "heroOGXImage": "https://www.cashasis.com/images/power-of-attorney-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "59d8ed1c937395dadf634dd543afc6cb3d3be104ac6544e5f6d481d406328d5f",
+        "imageAlt": "Illustrative Houston-area house with the headline USING A POA? CHECK FIRST and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/selling-houston-house-from-out-of-state-signing/",
+          "/blog/sell-house-multiple-owners-heirs-houston/",
+          "/blog/sell-house-title-problems-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:39:16.649128+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "selling-houston-house-mortgage-forbearance",
+        "url": "https://6adf658b4ec64b4c43a7e551--cashasis-blog.netlify.app/blog/selling-houston-house-mortgage-forbearance/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+        "HTTP": 200,
+        "noindex": true,
+        "indexable": false,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-mortgage-forbearance.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "04046dd03a051bbbdf3d84492e56840ba00e4a77d9dfce689e522c3321e97d55",
+        "imageAlt": "Illustrative Houston-area house with the headline PAYMENT PAUSE? SALE PLAN and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
+          "/blog/fha-partial-claim-selling-houston-house/",
+          "/blog/stop-foreclosure-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:39:28.569007+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "federal-tax-lien-selling-houston-house",
+        "url": "https://6adf658b4ec64b4c43a7e551--cashasis-blog.netlify.app/blog/federal-tax-lien-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": true,
+        "indexable": false,
+        "heroOGXImage": "https://www.cashasis.com/images/federal-tax-lien-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "96b7f89af7b25813f0ae3e7a640208931de04cc500a7ee250b5dc34735cd72c9",
+        "imageAlt": "Illustrative Houston-area house with the headline IRS TAX LIEN? SALE OPTIONS and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
+          "/blog/sell-house-behind-on-taxes-houston/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:39:40.407252+00:00",
+        "result": "pass"
+      }
+    ]
+  },
+  "productionChecks": {
+    "result": "pass",
+    "context": "production",
+    "articles": [
+      {
+        "slug": "power-of-attorney-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/power-of-attorney-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "59d8ed1c937395dadf634dd543afc6cb3d3be104ac6544e5f6d481d406328d5f",
+        "imageAlt": "Illustrative Houston-area house with the headline USING A POA? CHECK FIRST and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/selling-houston-house-from-out-of-state-signing/",
+          "/blog/sell-house-multiple-owners-heirs-houston/",
+          "/blog/sell-house-title-problems-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:42:53.372651+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "selling-houston-house-mortgage-forbearance",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-mortgage-forbearance.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "04046dd03a051bbbdf3d84492e56840ba00e4a77d9dfce689e522c3321e97d55",
+        "imageAlt": "Illustrative Houston-area house with the headline PAYMENT PAUSE? SALE PLAN and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
+          "/blog/fha-partial-claim-selling-houston-house/",
+          "/blog/stop-foreclosure-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:43:04.977230+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "federal-tax-lien-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/federal-tax-lien-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "96b7f89af7b25813f0ae3e7a640208931de04cc500a7ee250b5dc34735cd72c9",
+        "imageAlt": "Illustrative Houston-area house with the headline IRS TAX LIEN? SALE OPTIONS and official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
+          "/blog/sell-house-behind-on-taxes-houston/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:43:17.743953+00:00",
+        "result": "pass"
+      }
+    ]
+  },
+  "dueChecks": {
+    "result": "pass",
+    "context": "production",
+    "articles": [
+      {
+        "slug": "mold-remediation-certificate-selling-texas-house",
+        "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "canonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/mold-remediation-certificate-selling-texas-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "97e3de9a3f48bdbe50032fb5d945addbf68f6a44652ee6c7e27a8d5c7ec93e6f",
+        "imageAlt": "Illustrative Houston brick house with a sheltered side entry and the headline Past Mold Sale Records with the official transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "/blog/selling-houston-house-open-insurance-claim/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:37:25.688510+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "replace-air-conditioner-before-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/replace-air-conditioner-before-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "5bb830cd168bf9fe983509679b6cd88ec34a0e2245d6944a4f2515706a9ce610",
+        "imageAlt": "Illustrative Houston brick house with an outdoor air conditioner and the headline AC Trouble Seller Guide beneath the official Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 13,
+        "meaningfulBodyLinks": [
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:37:37.997571+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-from-out-of-state-signing.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "2f4230b19bd147c7ee6c9376a1347140910acd80bf363f1a8d0664e19a94bbab",
+        "imageAlt": "Illustrative Houston red brick ranch and empty front walkway with the headline Out of State Signing Guide and the official Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/how-cash-offer-house-works-houston/",
+          "/blog/dont-live-in-area-vacant-property-risk/",
+          "/blog/protect-house-sale-proceeds-wire-fraud/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:37:51.345932+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "property-tax-proration-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "9ea6a7d85e8ab926e256235295fe5bfd88d6b373c3797a59d6090e9cca207242",
+        "imageAlt": "Illustrative Houston brick house with a blank folder and calculator beside the Selling Soon Check Taxes headline and transparent Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+          "/blog/sell-house-behind-on-taxes-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:38:03.303441+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "selling-houston-house-reverse-mortgage",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
+        "imageAlt": "Illustrative established Houston brick home with porch chairs and Reverse Loan Sell As-Is headline beside the transparent official Cash As-Is logo",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/sell-inherited-house-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:38:16.334831+00:00",
+        "result": "pass"
+      },
+      {
+        "slug": "selling-houston-house-suspected-asbestos",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "HTTP": 200,
+        "noindex": false,
+        "indexable": true,
+        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
+        "imageAlt": "Illustrative older Houston house with intact vintage floor tiles visible through a doorway, Asbestos Sell As-Is headline and transparent Cash As-Is logo; not a material diagnosis",
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQCount": 4,
+        "internalLinks": 14,
+        "meaningfulBodyLinks": [
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+        ],
+        "attributedCTA": true,
+        "sitemap": true,
+        "RSS": true,
+        "blogInboundLink": true,
+        "HTMLCSSMatchMobileTestedBuild": true,
+        "checkedAt": "2026-10-26T14:38:23.851305+00:00",
+        "result": "pass"
+      }
+    ]
+  },
+  "dueInspections": {
+    "siteUrl": "https://www.cashasis.com/",
+    "count": 6,
+    "succeeded": 6,
+    "failed": 0,
+    "skipped": 0,
+    "quotaExhausted": false,
+    "quota": {
+      "count": 103,
+      "limit": 2000,
+      "remaining": 1897
+    },
+    "results": [
+      {
+        "url": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-24T04:54:08Z",
+        "googleCanonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "userCanonical": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=aL9b-adXL2ZboXs9VSJMFA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-23T06:07:41Z",
+        "googleCanonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "userCanonical": "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6iYDYuFfVlNa8s0V6Q1TQg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-10-24T06:40:58Z",
+        "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mAaxfYk7wlfPcV2jJAdDRg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=4LsXtUSWwxMmsEJg3-Qcqw&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zg8UB8Sx5cuTfwpmJtAc-g&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": null,
+        "userCanonical": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gauUtNOm4sTFEvd80pLTCg&utm_medium=link&utm_source=api"
+      }
+    ]
+  },
+  "inspectionCalls": 9,
+  "monitoringCoverage": {
+    "eligibleSitemapURLs": 201,
+    "eligibleBlogArticles": 173,
+    "eligibleURLsWithRetainedInspectionEvidence": 201,
+    "latestEvidenceCounts": {
+      "indexed": 180,
+      "not_indexed": 21
+    },
+    "latestBlogEvidenceCounts": {
+      "indexed": 156,
+      "not_indexed": 17
+    },
+    "inspectedThisRun": 9,
+    "observationDateRange": [
+      "2026-10-04T18:49:51.651501+00:00",
+      "2026-10-26T14:45:05.48787+00:00"
+    ],
+    "note": "Latest retained actual Google observations have mixed dates; not a fresh complete-site census. Blog and non-blog separated. Initial unknown and pending are not rejections; impressions are not indexed counts."
+  },
+  "weeklyReport": "automation/blog-publisher/runs/2026-W44-weekly.json",
+  "sellerVoice": {
+    "access": "read_only",
+    "sampleMessages": 100,
+    "inboundMessages": 28,
+    "sampleRange": [
+      "2026-10-24T15:03:01.953Z",
+      "2026-10-26T03:29:24.767Z"
+    ],
+    "aggregateKeywordSignals": {
+      "price": {
+        "messages": 3,
+        "distinctConversations": 3
+      },
+      "timing": {
+        "messages": 1,
+        "distinctConversations": 1
+      }
+    },
+    "limitation": "Keyword signals only; not enough to assert that these specific topics recur. Topics selected from uncovered seller-support intent, not fabricated CRM stories. No private text, identifiers or amounts retained."
+  },
+  "externalPaidApiSpendUSD": 0,
+  "socialStatus": "draft_only",
+  "designChanged": false,
+  "scheduleChanged": false,
+  "withdrawnURLsPreserved": true,
+  "completedAt": "2026-10-26T14:45:10.752984+00:00",
+  "limitations": [
+    "New Google unknown observations are not rejection; retained index totals mix actual observation dates.",
+    "No verified organic seller/downstream financial outcome."
+  ],
+  "corrections": [
+    {
+      "scope": "thumbnail headline fitting",
+      "detail": "Shortened forbearance headline within the approved deterministic template; no template/assets changed."
+    },
+    {
+      "scope": "QA tooling",
+      "detail": "Waited for completed build before mobile rerun; awaited lazy card image decode. Final build/mobile/cards/preview/production passed."
+    }
+  ]
+}
