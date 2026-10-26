@@ -873,6 +873,36 @@
       "evidenceCommit": "8ae5313cd8f25a0b6525c04027bafcecf7720297",
       "bookkeepingDeployId": "6ade0561e85a3f21ab1d548c",
       "monitoringCommit": "3d84f738747455e115d17ebea21763c3d3c35707"
+    },
+    {
+      "slug": "power-of-attorney-selling-houston-house",
+      "intentKey": "houston-seller-poa-agent-authority-document-review-before-sale",
+      "day": "2026-10-26",
+      "runId": "native-daily-20261026T140506Z",
+      "fence": 19,
+      "status": "reserved",
+      "reservedAt": "2026-10-26T14:11:52.381Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-house-mortgage-forbearance",
+      "intentKey": "houston-seller-forbearance-payment-pause-repayment-plan-sale-payoff-review",
+      "day": "2026-10-26",
+      "runId": "native-daily-20261026T140506Z",
+      "fence": 19,
+      "status": "reserved",
+      "reservedAt": "2026-10-26T14:11:52.381Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "federal-tax-lien-selling-houston-house",
+      "intentKey": "houston-seller-irs-federal-lien-release-vs-specific-property-discharge-review",
+      "day": "2026-10-26",
+      "runId": "native-daily-20261026T140506Z",
+      "fence": 19,
+      "status": "reserved",
+      "reservedAt": "2026-10-26T14:11:52.381Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
