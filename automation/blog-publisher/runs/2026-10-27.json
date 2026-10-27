@@ -1,0 +1,785 @@
+{
+  "runId": "native-daily-20261027T132126Z",
+  "fence": 20,
+  "day": "2026-10-27",
+  "status": "pass",
+  "published": 1,
+  "held": 2,
+  "heldScope": "Editorial candidates held before generation; not failed completed articles.",
+  "heldCandidates": [
+    {
+      "candidate": "Boundary survey preparation",
+      "reason": "Existing survey-acceptance guide already addresses changed fences, document packet and professional review; no distinct answer established."
+    },
+    {
+      "candidate": "Foundation warranty transfer",
+      "reason": "Existing foundation-report guide explicitly addresses warranty scope and transfer conditions; no distinct new contribution established."
+    }
+  ],
+  "article": {
+    "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "record": "automation/blog-publisher/records/manufactured-house-land-ownership-records-houston.json",
+    "googleInspection": {
+      "id": "48478a7b-df32-416c-9674-a7b0e0713db6",
+      "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawled_as": null,
+      "requested_at": "2026-10-27T13:34:54.248619+00:00",
+      "google_canonical": null,
+      "user_canonical": null,
+      "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cQ5lG1j7uAHzmJdWVq8hxQ&utm_medium=link&utm_source=api"
+    }
+  },
+  "pr": 35,
+  "previewCommit": "77df8c40bbf95d89efcb1b21ec41965685955797",
+  "previewDeployId": "6ae0a7442e94dd3e8c1dff9e",
+  "previewQA": {
+    "result": "pass",
+    "url": "https://6ae0a7442e94dd3e8c1dff9e--cashasis-blog.netlify.app/blog/manufactured-house-land-ownership-records-houston/",
+    "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "HTTP": 200,
+    "noindex": true,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/existing-survey-when-selling-texas-house/",
+      "/blog/sell-house-title-problems-houston/"
+    ],
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-27T13:31:23.130657+00:00"
+  },
+  "productionCommit": "be7e38f2cc20be59924843ce8c089060ebaea485",
+  "productionDeploy": {
+    "id": "6ae0a7ccdfe14124102e1af6",
+    "commit": "be7e38f2cc20be59924843ce8c089060ebaea485",
+    "state": "ready",
+    "publishedAt": "2026-10-27T13:32:34.743Z"
+  },
+  "productionQA": {
+    "result": "pass",
+    "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "HTTP": 200,
+    "noindex": false,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/existing-survey-when-selling-texas-house/",
+      "/blog/sell-house-title-problems-houston/"
+    ],
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-27T13:34:20.058315+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-27",
+    "errors": []
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "astroPages": 198,
+    "attributionPages": 211,
+    "DNIPages": 201,
+    "nodeTestsPassed": 27,
+    "initialCorrection": "Description shortened from163characters to fit schema; final build passed."
+  },
+  "mobile": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+        "og": "https://www.cashasis.com/images/manufactured-house-land-ownership-records-houston.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+        "og": "https://www.cashasis.com/images/manufactured-house-land-ownership-records-houston.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+        "og": "https://www.cashasis.com/images/manufactured-house-land-ownership-records-houston.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+        "og": "https://www.cashasis.com/images/manufactured-house-land-ownership-records-houston.png"
+      }
+    ]
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 14,
+    "limitation": "Bounded anonymous read-only sample; no claim that manufactured-property concerns recur. No raw messages retained."
+  },
+  "dueQA": {
+    "result": "pass",
+    "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+    "canonical": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+    "HTTP": 200,
+    "noindex": false,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/cash-offer-vs-listing-house-houston/",
+      "/blog/protect-house-sale-proceeds-wire-fraud/",
+      "/blog/sell-house-title-problems-houston/"
+    ],
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-27T13:31:21.313977+00:00"
+  },
+  "monitoringCoverage": {
+    "eligibleSitemapURLs": 202,
+    "eligibleBlogArticles": 174,
+    "eligibleURLsWithRetainedInspectionEvidence": 202,
+    "latestEvidenceCounts": {
+      "indexed": 181,
+      "not_indexed": 21
+    },
+    "latestBlogEvidenceCounts": {
+      "indexed": 157,
+      "not_indexed": 17
+    },
+    "inspectedThisRun": 2,
+    "observationDateRange": [
+      "2026-10-04T18:49:51.651501+00:00",
+      "2026-10-27T13:34:54.248619+00:00"
+    ],
+    "note": "Mixed actual observation dates, not a fresh complete-site census; new unknown status is not rejection."
+  },
+  "inspectionCalls": 2,
+  "sourceOpportunityReview": {
+    "coverage": {
+      "rowsReturned": 247,
+      "rowsTotal": 247,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7337,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2663,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 4,
+        "impressions": 781,
+        "ctrPercent": 0.51,
+        "avgPositionWeighted": 41.57
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "opportunities": [
+      {
+        "keys": [
+          "cash home buyers missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 17.2
+      },
+      {
+        "keys": [
+          "inherited a house full of stuff",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "sell fire damage house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 21.166666666666668
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 16.53846153846154
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 13
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 16.875
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 14.4
+      }
+    ],
+    "complete": true
+  },
+  "GSC": {
+    "siteUrl": "https://www.cashasis.com/",
+    "range": {
+      "startDate": "2026-09-27",
+      "endDate": "2026-10-24",
+      "days": 28
+    },
+    "comparison": {
+      "startDate": "2026-08-30",
+      "endDate": "2026-09-26"
+    },
+    "current": {
+      "clicks": 4,
+      "impressions": 781,
+      "ctr": 0.5121638924455826,
+      "avgPosition": 41.571062740076826
+    },
+    "previous": {
+      "clicks": 4,
+      "impressions": 97,
+      "ctr": 4.123711340206185,
+      "avgPosition": 31.721649484536083
+    },
+    "deltas": {
+      "clicks": 0,
+      "impressions": 684,
+      "ctrPoints": -3.6115474477606027,
+      "positionDelta": 9.849413255540743
+    },
+    "ordering": {
+      "dailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      },
+      "previousDailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      }
+    },
+    "dailyRows": [
+      {
+        "date": "2026-09-27",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 31.5
+      },
+      {
+        "date": "2026-09-28",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-29",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "date": "2026-09-30",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 20.333333333333332
+      },
+      {
+        "date": "2026-10-01",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 24
+      },
+      {
+        "date": "2026-10-02",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "date": "2026-10-03",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50,
+        "position": 1
+      },
+      {
+        "date": "2026-10-04",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 41.333333333333336
+      },
+      {
+        "date": "2026-10-05",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33333333333333,
+        "position": 21.666666666666668
+      },
+      {
+        "date": "2026-10-06",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "date": "2026-10-07",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 15.571428571428571
+      },
+      {
+        "date": "2026-10-08",
+        "clicks": 0,
+        "impressions": 71,
+        "ctr": 0,
+        "position": 47.88732394366197
+      },
+      {
+        "date": "2026-10-09",
+        "clicks": 1,
+        "impressions": 93,
+        "ctr": 1.0752688172043012,
+        "position": 59.25806451612903
+      },
+      {
+        "date": "2026-10-10",
+        "clicks": 0,
+        "impressions": 54,
+        "ctr": 0,
+        "position": 38.7037037037037
+      },
+      {
+        "date": "2026-10-11",
+        "clicks": 0,
+        "impressions": 53,
+        "ctr": 0,
+        "position": 57.924528301886795
+      },
+      {
+        "date": "2026-10-12",
+        "clicks": 0,
+        "impressions": 44,
+        "ctr": 0,
+        "position": 47.02272727272727
+      },
+      {
+        "date": "2026-10-13",
+        "clicks": 0,
+        "impressions": 112,
+        "ctr": 0,
+        "position": 36.651785714285715
+      },
+      {
+        "date": "2026-10-14",
+        "clicks": 0,
+        "impressions": 60,
+        "ctr": 0,
+        "position": 48.7
+      },
+      {
+        "date": "2026-10-15",
+        "clicks": 0,
+        "impressions": 41,
+        "ctr": 0,
+        "position": 37.5609756097561
+      },
+      {
+        "date": "2026-10-16",
+        "clicks": 0,
+        "impressions": 42,
+        "ctr": 0,
+        "position": 35.976190476190474
+      },
+      {
+        "date": "2026-10-17",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 32.81818181818181
+      },
+      {
+        "date": "2026-10-18",
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 44.05555555555556
+      },
+      {
+        "date": "2026-10-19",
+        "clicks": 1,
+        "impressions": 20,
+        "ctr": 5,
+        "position": 31.05
+      },
+      {
+        "date": "2026-10-20",
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0,
+        "position": 14.266666666666667
+      },
+      {
+        "date": "2026-10-21",
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 22.727272727272727
+      },
+      {
+        "date": "2026-10-22",
+        "clicks": 0,
+        "impressions": 31,
+        "ctr": 0,
+        "position": 37.58064516129032
+      },
+      {
+        "date": "2026-10-23",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 35.72727272727273
+      },
+      {
+        "date": "2026-10-24",
+        "clicks": 0,
+        "impressions": 33,
+        "ctr": 0,
+        "position": 38.90909090909091
+      }
+    ],
+    "previousDailyRows": [
+      {
+        "date": "2026-08-30",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 57.2
+      },
+      {
+        "date": "2026-08-31",
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 38.3125
+      },
+      {
+        "date": "2026-09-01",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 45
+      },
+      {
+        "date": "2026-09-02",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 32.83333333333333
+      },
+      {
+        "date": "2026-09-03",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-04",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-05",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-06",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 56.333333333333336
+      },
+      {
+        "date": "2026-09-07",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 43.1
+      },
+      {
+        "date": "2026-09-08",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 55
+      },
+      {
+        "date": "2026-09-09",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 50.42857142857143
+      },
+      {
+        "date": "2026-09-10",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "date": "2026-09-11",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-12",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 6.6
+      },
+      {
+        "date": "2026-09-13",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 37.6
+      },
+      {
+        "date": "2026-09-14",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 59.5
+      },
+      {
+        "date": "2026-09-15",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 30
+      },
+      {
+        "date": "2026-09-16",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 27
+      },
+      {
+        "date": "2026-09-17",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-09-18",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 28
+      },
+      {
+        "date": "2026-09-19",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9.333333333333334
+      },
+      {
+        "date": "2026-09-20",
+        "clicks": 1,
+        "impressions": 4,
+        "ctr": 25,
+        "position": 4.75
+      },
+      {
+        "date": "2026-09-21",
+        "clicks": 1,
+        "impressions": 5,
+        "ctr": 20,
+        "position": 2.6
+      },
+      {
+        "date": "2026-09-22",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "date": "2026-09-23",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 39.5
+      },
+      {
+        "date": "2026-09-24",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 48
+      },
+      {
+        "date": "2026-09-25",
+        "clicks": 2,
+        "impressions": 7,
+        "ctr": 28.57142857142857,
+        "position": 17
+      },
+      {
+        "date": "2026-09-26",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      }
+    ],
+    "dataSource": "api",
+    "settledThrough": "2026-10-25",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-26",
+      "settledThrough": "2026-10-25",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-18",
+        "endDate": "2026-10-27",
+        "dataState": "all"
+      }
+    }
+  },
+  "weeklyReport": "Already delivered2026-W44; not repeated.",
+  "analytics": "No new settled conversion review due; no organic seller or funded-GP inference.",
+  "externalPaidApiSpendUSD": 0,
+  "socialStatus": "draft_only",
+  "designChanged": false,
+  "scheduleChanged": false,
+  "notifications": {
+    "sent": false,
+    "reason": "Routine successful publication; early unknown is normal. No actionable new exception or period report due."
+  },
+  "completedAt": "2026-10-27T13:34:59.782845+00:00"
+}

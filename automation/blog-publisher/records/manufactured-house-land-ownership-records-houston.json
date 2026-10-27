@@ -46,10 +46,10 @@
     "existing-survey-when-selling-texas-house"
   ],
   "substantiveDifference": "First manufactured-unit ownership-versus-land record and real-property-election preparation guide; not generic title or survey advice.",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
-  "commit": null,
-  "deployId": null,
+  "commit": "be7e38f2cc20be59924843ce8c089060ebaea485",
+  "deployId": "6ae0a7ccdfe14124102e1af6",
   "externalApiUsed": false,
   "sources": [
     {
@@ -77,7 +77,9 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
+    "preview": "pass",
+    "deploy": "pass",
+    "productionIndexability": "pass"
   },
   "imageSha256": "14e24d5533d76d8b3d296fdf8bcad650d6d29f00f41294374dd386146a788cde",
   "imageProvenance": {
@@ -189,5 +191,82 @@
       "when-to-transfer-utilities-selling-houston-house"
     ],
     "semanticReview": "Inventory, primary/support map and PR27 checked; no existing manufactured-unit record guide. Existing survey/title guides linked upward; no new commercial synonym."
+  },
+  "preview": {
+    "result": "pass",
+    "url": "https://6ae0a7442e94dd3e8c1dff9e--cashasis-blog.netlify.app/blog/manufactured-house-land-ownership-records-houston/",
+    "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "HTTP": 200,
+    "noindex": true,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/existing-survey-when-selling-texas-house/",
+      "/blog/sell-house-title-problems-houston/"
+    ],
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-27T13:31:23.130657+00:00"
+  },
+  "pr": 35,
+  "publishedAt": "2026-10-27T13:32:34.743Z",
+  "verifiedAt": "2026-10-27T13:34:20.058315+00:00",
+  "productionEvidence": {
+    "result": "pass",
+    "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "HTTP": 200,
+    "noindex": false,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/existing-survey-when-selling-texas-house/",
+      "/blog/sell-house-title-problems-houston/"
+    ],
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-27T13:34:20.058315+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-27",
+    "errors": []
+  },
+  "googleInspection": {
+    "id": "48478a7b-df32-416c-9674-a7b0e0713db6",
+    "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+    "last_crawl_time": null,
+    "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawled_as": null,
+    "requested_at": "2026-10-27T13:34:54.248619+00:00",
+    "google_canonical": null,
+    "user_canonical": null,
+    "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cQ5lG1j7uAHzmJdWVq8hxQ&utm_medium=link&utm_source=api"
   }
 }

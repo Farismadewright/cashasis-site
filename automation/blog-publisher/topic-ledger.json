@@ -699,5 +699,22 @@
     "deployId": "6adf6667ff273d61e2f16d5d",
     "pr": 34,
     "publishedAt": "2026-10-26T14:41:24.210Z"
+  },
+  {
+    "runId": "native-daily-20261027T132126Z",
+    "day": "2026-10-27",
+    "slug": "manufactured-house-land-ownership-records-houston",
+    "intentKey": "houston-area-manufactured-house-land-versus-unit-statement-ownership-record-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+    "nearestOverlaps": [
+      "sell-house-title-problems-houston",
+      "existing-survey-when-selling-texas-house"
+    ],
+    "substantiveDifference": "First manufactured-unit ownership-versus-land record and real-property-election preparation guide; not generic title or survey advice.",
+    "commit": "be7e38f2cc20be59924843ce8c089060ebaea485",
+    "deployId": "6ae0a7ccdfe14124102e1af6",
+    "pr": 35,
+    "publishedAt": "2026-10-27T13:32:34.743Z"
   }
 ]
