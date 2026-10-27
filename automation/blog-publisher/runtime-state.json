@@ -961,9 +961,13 @@
       "day": "2026-10-27",
       "runId": "native-daily-20261027T132126Z",
       "fence": 20,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-27T13:24:07.242Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 35,
+      "commit": "be7e38f2cc20be59924843ce8c089060ebaea485",
+      "previewCommit": "77df8c40bbf95d89efcb1b21ec41965685955797",
+      "previewDeployId": "6ae0a7442e94dd3e8c1dff9e"
     }
   ],
   "externalApiSpendLimitUSD": 0,
