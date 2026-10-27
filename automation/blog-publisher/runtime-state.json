@@ -4,7 +4,7 @@
     "fence": 20,
     "issuedAt": "2026-10-27T13:23:21.784Z",
     "expiresAt": "2026-10-27T15:18:21.784Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-27T13:36:42.380Z"
   },
   "ledger": [
     {
@@ -961,62 +961,49 @@
       "day": "2026-10-27",
       "runId": "native-daily-20261027T132126Z",
       "fence": 20,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-27T13:24:07.242Z",
       "validationOnly": false,
       "pr": 35,
       "commit": "be7e38f2cc20be59924843ce8c089060ebaea485",
       "previewCommit": "77df8c40bbf95d89efcb1b21ec41965685955797",
-      "previewDeployId": "6ae0a7442e94dd3e8c1dff9e"
+      "previewDeployId": "6ae0a7442e94dd3e8c1dff9e",
+      "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+      "deployId": "6ae0a7ccdfe14124102e1af6",
+      "publishedAt": "2026-10-27T13:32:34.743Z",
+      "verifiedAt": "2026-10-27T13:36:20.285741+00:00",
+      "evidenceCommit": "ebb4a8c8f7ddc9961cce3e23356e166b2a10a9ca",
+      "bookkeepingDeployId": "6ae0a8a01b84dec94f17d4a4",
+      "monitoringCommit": "5946b4078040ea22b821cfe8923bc11d79687e51"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261026T140506Z",
-    "fence": 19,
+    "runId": "native-daily-20261027T132126Z",
+    "fence": 20,
     "status": "pass",
-    "day": "2026-10-26",
-    "published": 3,
-    "held": 0,
-    "productionCommit": "c792c17a315111a3f552d30d17b8c80f3306d3a5",
-    "deployId": "6adf6667ff273d61e2f16d5d",
-    "evidence": "automation/blog-publisher/runs/2026-10-26.json",
-    "bookkeepingCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
-    "bookkeepingDeployId": "6adf67b46c8f10e1b1594a38",
-    "monitoringCommit": "054c01a8b7166a4351968b731bf8dafe3c495911",
-    "completedAt": "2026-10-26T14:48:50.738Z",
+    "day": "2026-10-27",
+    "published": 1,
+    "held": 2,
+    "heldScope": "Two overlapping editorial candidates held before generation, not deployment failures.",
+    "productionCommit": "be7e38f2cc20be59924843ce8c089060ebaea485",
+    "deployId": "6ae0a7ccdfe14124102e1af6",
+    "evidence": "automation/blog-publisher/runs/2026-10-27.json",
+    "bookkeepingCommit": "ebb4a8c8f7ddc9961cce3e23356e166b2a10a9ca",
+    "bookkeepingDeployId": "6ae0a8a01b84dec94f17d4a4",
+    "monitoringCommit": "5946b4078040ea22b821cfe8923bc11d79687e51",
+    "inspectionCalls": 2,
     "externalPaidApiSpendUSD": 0,
-    "inspectionCalls": 9,
-    "weeklyReport": "automation/blog-publisher/runs/2026-W44-weekly.json",
-    "notificationSent": true,
-    "notificationKind": "requested_weekly_review",
+    "notificationSent": false,
     "finalLiveCheck": {
       "result": "pass",
-      "checkedAt": "2026-10-26T14:47:49.417462+00:00",
-      "articles": [
-        {
-          "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
-          "HTTP": 200,
-          "canonical": true,
-          "heroOGX": true,
-          "attributedCTA": true
-        },
-        {
-          "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
-          "HTTP": 200,
-          "canonical": true,
-          "heroOGX": true,
-          "attributedCTA": true
-        },
-        {
-          "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
-          "HTTP": 200,
-          "canonical": true,
-          "heroOGX": true,
-          "attributedCTA": true
-        }
-      ]
-    }
+      "HTTP": 200,
+      "canonical": true,
+      "heroOG": true,
+      "attributedCTA": true,
+      "checkedAt": "2026-10-27T13:36:20.285741+00:00"
+    },
+    "completedAt": "2026-10-27T13:36:42.380Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
