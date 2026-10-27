@@ -954,6 +954,16 @@
       "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
       "bookkeepingDeployId": "6adf67b46c8f10e1b1594a38",
       "monitoringCommit": "054c01a8b7166a4351968b731bf8dafe3c495911"
+    },
+    {
+      "slug": "manufactured-house-land-ownership-records-houston",
+      "intentKey": "houston-area-manufactured-house-land-versus-unit-statement-ownership-record-review",
+      "day": "2026-10-27",
+      "runId": "native-daily-20261027T132126Z",
+      "fence": 20,
+      "status": "reserved",
+      "reservedAt": "2026-10-27T13:24:07.242Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
