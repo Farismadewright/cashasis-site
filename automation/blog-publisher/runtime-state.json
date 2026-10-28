@@ -982,9 +982,19 @@
       "day": "2026-10-28",
       "runId": "native-daily-20261028T135210Z",
       "fence": 21,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-28T13:56:07.249Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 36,
+      "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+      "previewCommit": "2dbe4f1335bbf6449c39926705befbf95a874e87",
+      "previewDeployId": "6ae20168764fcf7a4c9d1180",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "checkedAt": "2026-10-28T14:09:57.547Z",
+        "errors": []
+      }
     },
     {
       "slug": "selling-house-houston-historic-district",
@@ -992,9 +1002,19 @@
       "day": "2026-10-28",
       "runId": "native-daily-20261028T135210Z",
       "fence": 21,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-28T13:56:07.249Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 36,
+      "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+      "previewCommit": "2dbe4f1335bbf6449c39926705befbf95a874e87",
+      "previewDeployId": "6ae20168764fcf7a4c9d1180",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "checkedAt": "2026-10-28T14:09:57.547Z",
+        "errors": []
+      }
     },
     {
       "slug": "selling-houston-house-tobacco-smoke-odor",
@@ -1002,9 +1022,19 @@
       "day": "2026-10-28",
       "runId": "native-daily-20261028T135210Z",
       "fence": 21,
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-28T13:56:07.249Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 36,
+      "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+      "previewCommit": "2dbe4f1335bbf6449c39926705befbf95a874e87",
+      "previewDeployId": "6ae20168764fcf7a4c9d1180",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "checkedAt": "2026-10-28T14:09:57.547Z",
+        "errors": []
+      }
     }
   ],
   "externalApiSpendLimitUSD": 0,
