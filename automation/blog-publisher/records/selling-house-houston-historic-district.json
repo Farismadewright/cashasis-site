@@ -47,10 +47,10 @@
     "sell-house-needs-major-repairs-houston"
   ],
   "substantiveDifference": "First City-designated historic-property classification and preservation review before optional presale exterior work; not ordinary permit retrieval or generic repairs.",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
-  "commit": null,
-  "deployId": null,
+  "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+  "deployId": "6ae20236081763b645cadf19",
   "externalApiUsed": false,
   "sources": [
     {
@@ -58,7 +58,7 @@
       "title": "Houston Office of Preservation: Plan a Project",
       "claim": "Verify district and contributing/noncontributing or landmark designation and contact staff early.",
       "verifiedAt": "2026-10-28T14:05:06.478471+00:00",
-      "accessedAt": "2026-10-28T14:05:06.478471+00:00",
+      "accessedAt": "2026-10-28",
       "publicationDate": null,
       "reportingPeriod": null,
       "geography": "City of Houston",
@@ -71,7 +71,7 @@
       "title": "Houston Certificate of Appropriateness guidance",
       "claim": "Exterior alterations can require COA; ordinary maintenance distinction and separate permitting remain property/project-specific.",
       "verifiedAt": "2026-10-28T14:05:06.478471+00:00",
-      "accessedAt": "2026-10-28T14:05:06.478471+00:00",
+      "accessedAt": "2026-10-28",
       "publicationDate": null,
       "reportingPeriod": null,
       "geography": "City of Houston",
@@ -91,7 +91,9 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
+    "preview": "pass",
+    "deploy": "pass",
+    "productionIndexability": "pass"
   },
   "imageSha256": "30ba8ae36f9a3367f0e3cd80bb841003f7f9915ac8da0d5d4975f5d0f8251ea2",
   "imageProvenance": {
@@ -221,5 +223,88 @@
       ]
     ],
     "manualReview": "Current174blog inventory, static seller pages, keyword map, ledger and pending PR27 reviewed. Distinct narrow seller question; no city/synonym swap. Withdrawn intents excluded."
+  },
+  "previewEvidence": {
+    "result": "pass",
+    "url": "https://6ae20168764fcf7a4c9d1180--cashasis-blog.netlify.app/blog/selling-house-houston-historic-district/",
+    "canonical": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+    "HTTP": 200,
+    "noindex": true,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/houston-house-unpermitted-addition-records/",
+      "/blog/sell-house-code-violations-houston/",
+      "/blog/sell-house-needs-major-repairs-houston/"
+    ],
+    "navLinksHTTP200": true,
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-28T14:08:47.499160+00:00"
+  },
+  "previewCommit": "2dbe4f1335bbf6449c39926705befbf95a874e87",
+  "previewDeployId": "6ae20168764fcf7a4c9d1180",
+  "pr": 36,
+  "publishedAt": "2026-10-28T14:10:41.587Z",
+  "verifiedAt": "2026-10-28T14:12:23.631144+00:00",
+  "productionEvidence": {
+    "result": "pass",
+    "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+    "canonical": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+    "HTTP": 200,
+    "noindex": false,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/houston-house-unpermitted-addition-records/",
+      "/blog/sell-house-code-violations-houston/",
+      "/blog/sell-house-needs-major-repairs-houston/"
+    ],
+    "navLinksHTTP200": true,
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-28T14:12:23.631144+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-28",
+    "errors": []
+  },
+  "googleInspection": {
+    "id": "ca855a9d-3ca9-4fb9-9a34-d4a015f0fd83",
+    "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+    "last_crawl_time": null,
+    "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawled_as": null,
+    "requested_at": "2026-10-28T14:14:23.560301+00:00",
+    "google_canonical": null,
+    "user_canonical": null,
+    "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=CvXyXtyyGbabrcV1lWibSA&utm_medium=link&utm_source=api"
   }
 }

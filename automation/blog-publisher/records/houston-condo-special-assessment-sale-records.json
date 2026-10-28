@@ -46,10 +46,10 @@
     "sell-house-with-liens-houston"
   ],
   "substantiveDifference": "Condominium-specific association certificate, unpaid assessment and future project distinctions; current HOA guide expressly excludes condos.",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
-  "commit": null,
-  "deployId": null,
+  "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+  "deployId": "6ae20236081763b645cadf19",
   "externalApiUsed": false,
   "sources": [
     {
@@ -57,7 +57,7 @@
       "title": "TREC condominium resale certificate32-5",
       "claim": "Association prepares and signs the condo certificate; effective2024-11-25.",
       "verifiedAt": "2026-10-28T14:05:06.478471+00:00",
-      "accessedAt": "2026-10-28T14:05:06.478471+00:00",
+      "accessedAt": "2026-10-28",
       "publicationDate": null,
       "reportingPeriod": null,
       "geography": "Texas",
@@ -70,7 +70,7 @@
       "title": "TREC condominium certificate32-5 PDF",
       "claim": "Separate fields for periodic dues, unpaid assessments, approved capital expenditures, reserves, other balances and transfer costs.",
       "verifiedAt": "2026-10-28T14:05:06.478471+00:00",
-      "accessedAt": "2026-10-28T14:05:06.478471+00:00",
+      "accessedAt": "2026-10-28",
       "publicationDate": null,
       "reportingPeriod": null,
       "geography": "Texas",
@@ -90,7 +90,9 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
+    "preview": "pass",
+    "deploy": "pass",
+    "productionIndexability": "pass"
   },
   "imageSha256": "56158e6fdf38fea8a74257481112c43db611c22ab059ee527b6a1a824519f8cb",
   "imageProvenance": {
@@ -220,5 +222,86 @@
       ]
     ],
     "manualReview": "Current174blog inventory, static seller pages, keyword map, ledger and pending PR27 reviewed. Distinct narrow seller question; no city/synonym swap. Withdrawn intents excluded."
+  },
+  "previewEvidence": {
+    "result": "pass",
+    "url": "https://6ae20168764fcf7a4c9d1180--cashasis-blog.netlify.app/blog/houston-condo-special-assessment-sale-records/",
+    "canonical": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+    "HTTP": 200,
+    "noindex": true,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/hoa-resale-documents-texas-house-sale/",
+      "/blog/sell-house-with-liens-houston/"
+    ],
+    "navLinksHTTP200": true,
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-28T14:08:29.212919+00:00"
+  },
+  "previewCommit": "2dbe4f1335bbf6449c39926705befbf95a874e87",
+  "previewDeployId": "6ae20168764fcf7a4c9d1180",
+  "pr": 36,
+  "publishedAt": "2026-10-28T14:10:41.587Z",
+  "verifiedAt": "2026-10-28T14:12:05.142233+00:00",
+  "productionEvidence": {
+    "result": "pass",
+    "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+    "canonical": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+    "HTTP": 200,
+    "noindex": false,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/hoa-resale-documents-texas-house-sale/",
+      "/blog/sell-house-with-liens-houston/"
+    ],
+    "navLinksHTTP200": true,
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-28T14:12:05.142233+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-28",
+    "errors": []
+  },
+  "googleInspection": {
+    "id": "f24bb5c9-6bc4-4390-b45e-fc0c44186b5d",
+    "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+    "last_crawl_time": null,
+    "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawled_as": null,
+    "requested_at": "2026-10-28T14:14:23.49003+00:00",
+    "google_canonical": null,
+    "user_canonical": null,
+    "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=qql8r5DmWkSKsdWwQHit5Q&utm_medium=link&utm_source=api"
   }
 }

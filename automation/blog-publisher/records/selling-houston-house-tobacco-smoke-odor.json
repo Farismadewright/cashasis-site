@@ -47,10 +47,10 @@
     "selling-as-is-what-it-actually-means"
   ],
   "substantiveDifference": "Persistent tobacco odor and limits of device/cleanup claims before sale, not structural fire damage, an insurance claim or a generic repair page.",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
-  "commit": null,
-  "deployId": null,
+  "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+  "deployId": "6ae20236081763b645cadf19",
   "externalApiUsed": false,
   "sources": [
     {
@@ -58,7 +58,7 @@
       "title": "EPA: Ozone generators sold as air cleaners",
       "claim": "Ozone safety and odor-removal claims have important limits; establishment number is not approval.",
       "verifiedAt": "2026-10-28T14:05:06.478471+00:00",
-      "accessedAt": "2026-10-28T14:05:06.478471+00:00",
+      "accessedAt": "2026-10-28",
       "publicationDate": null,
       "reportingPeriod": null,
       "geography": "United States",
@@ -71,7 +71,7 @@
       "title": "EPA: Guide to Air Cleaners in the Home",
       "claim": "Source control and ventilation matter; filtration supplements them and cannot remove every pollutant.",
       "verifiedAt": "2026-10-28T14:05:06.478471+00:00",
-      "accessedAt": "2026-10-28T14:05:06.478471+00:00",
+      "accessedAt": "2026-10-28",
       "publicationDate": null,
       "reportingPeriod": null,
       "geography": "United States",
@@ -91,7 +91,9 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
+    "preview": "pass",
+    "deploy": "pass",
+    "productionIndexability": "pass"
   },
   "imageSha256": "ae19b76f6691c25ccde060548e3339bee3b36c6ea4855371a66876208f67eecd",
   "imageProvenance": {
@@ -221,5 +223,86 @@
       ]
     ],
     "manualReview": "Current174blog inventory, static seller pages, keyword map, ledger and pending PR27 reviewed. Distinct narrow seller question; no city/synonym swap. Withdrawn intents excluded."
+  },
+  "previewEvidence": {
+    "result": "pass",
+    "url": "https://6ae20168764fcf7a4c9d1180--cashasis-blog.netlify.app/blog/selling-houston-house-tobacco-smoke-odor/",
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+    "HTTP": 200,
+    "noindex": true,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/sell-fire-damaged-house-houston/",
+      "/blog/selling-as-is-what-it-actually-means/"
+    ],
+    "navLinksHTTP200": true,
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-28T14:09:01.412066+00:00"
+  },
+  "previewCommit": "2dbe4f1335bbf6449c39926705befbf95a874e87",
+  "previewDeployId": "6ae20168764fcf7a4c9d1180",
+  "pr": 36,
+  "publishedAt": "2026-10-28T14:10:41.587Z",
+  "verifiedAt": "2026-10-28T14:12:39.132399+00:00",
+  "productionEvidence": {
+    "result": "pass",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+    "HTTP": 200,
+    "noindex": false,
+    "schema": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "FAQ": 4,
+    "heroOGX": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "internalLinks": [
+      "/blog/sell-fire-damaged-house-houston/",
+      "/blog/selling-as-is-what-it-actually-means/"
+    ],
+    "navLinksHTTP200": true,
+    "attributedCTA": true,
+    "sitemap": true,
+    "rss": true,
+    "HTMLCSSMatchVisualBuild": true,
+    "verifiedAt": "2026-10-28T14:12:39.132399+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-28",
+    "errors": []
+  },
+  "googleInspection": {
+    "id": "5712ab21-8de4-4f50-82e3-5753d4f8ec2a",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+    "last_crawl_time": null,
+    "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawled_as": null,
+    "requested_at": "2026-10-28T14:14:23.4505+00:00",
+    "google_canonical": null,
+    "user_canonical": null,
+    "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=QWh78OqxO_kgM9DINqB78A&utm_medium=link&utm_source=api"
   }
 }

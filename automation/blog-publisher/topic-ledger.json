@@ -716,5 +716,58 @@
     "deployId": "6ae0a7ccdfe14124102e1af6",
     "pr": 35,
     "publishedAt": "2026-10-27T13:32:34.743Z"
+  },
+  {
+    "runId": "native-daily-20261028T135210Z",
+    "day": "2026-10-28",
+    "slug": "houston-condo-special-assessment-sale-records",
+    "intentKey": "houston-condo-resale-certificate-special-assessment-versus-monthly-dues-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+    "nearestOverlaps": [
+      "hoa-resale-documents-texas-house-sale",
+      "sell-house-with-liens-houston"
+    ],
+    "substantiveDifference": "Condominium-specific association certificate, unpaid assessment and future project distinctions; current HOA guide expressly excludes condos.",
+    "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+    "deployId": "6ae20236081763b645cadf19",
+    "pr": 36,
+    "publishedAt": "2026-10-28T14:10:41.587Z"
+  },
+  {
+    "runId": "native-daily-20261028T135210Z",
+    "day": "2026-10-28",
+    "slug": "selling-house-houston-historic-district",
+    "intentKey": "houston-designated-historic-property-status-coa-before-presale-exterior-work",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+    "nearestOverlaps": [
+      "houston-house-unpermitted-addition-records",
+      "sell-house-code-violations-houston",
+      "sell-house-needs-major-repairs-houston"
+    ],
+    "substantiveDifference": "First City-designated historic-property classification and preservation review before optional presale exterior work; not ordinary permit retrieval or generic repairs.",
+    "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+    "deployId": "6ae20236081763b645cadf19",
+    "pr": 36,
+    "publishedAt": "2026-10-28T14:10:41.587Z"
+  },
+  {
+    "runId": "native-daily-20261028T135210Z",
+    "day": "2026-10-28",
+    "slug": "selling-houston-house-tobacco-smoke-odor",
+    "intentKey": "houston-seller-tobacco-odor-scope-ozone-claim-versus-current-condition-sale",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+    "nearestOverlaps": [
+      "sell-fire-damaged-house-houston",
+      "sell-house-needs-major-repairs-houston",
+      "selling-as-is-what-it-actually-means"
+    ],
+    "substantiveDifference": "Persistent tobacco odor and limits of device/cleanup claims before sale, not structural fire damage, an insurance claim or a generic repair page.",
+    "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+    "deployId": "6ae20236081763b645cadf19",
+    "pr": 36,
+    "publishedAt": "2026-10-28T14:10:41.587Z"
   }
 ]

@@ -1,0 +1,525 @@
+{
+  "runId": "native-daily-20261028T135210Z",
+  "fence": 21,
+  "day": "2026-10-28",
+  "status": "pass",
+  "published": 3,
+  "held": 0,
+  "articles": [
+    {
+      "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+      "record": "automation/blog-publisher/records/houston-condo-special-assessment-sale-records.json",
+      "googleInspection": {
+        "id": "f24bb5c9-6bc4-4390-b45e-fc0c44186b5d",
+        "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-28T14:14:23.49003+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=qql8r5DmWkSKsdWwQHit5Q&utm_medium=link&utm_source=api"
+      }
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+      "record": "automation/blog-publisher/records/selling-house-houston-historic-district.json",
+      "googleInspection": {
+        "id": "ca855a9d-3ca9-4fb9-9a34-d4a015f0fd83",
+        "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-28T14:14:23.560301+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=CvXyXtyyGbabrcV1lWibSA&utm_medium=link&utm_source=api"
+      }
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+      "record": "automation/blog-publisher/records/selling-houston-house-tobacco-smoke-odor.json",
+      "googleInspection": {
+        "id": "5712ab21-8de4-4f50-82e3-5753d4f8ec2a",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-28T14:14:23.4505+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=QWh78OqxO_kgM9DINqB78A&utm_medium=link&utm_source=api"
+      }
+    }
+  ],
+  "pr": 36,
+  "previewCommit": "2dbe4f1335bbf6449c39926705befbf95a874e87",
+  "previewDeployId": "6ae20168764fcf7a4c9d1180",
+  "previewQA": {
+    "result": "pass",
+    "context": "preview",
+    "articles": [
+      {
+        "result": "pass",
+        "url": "https://6ae20168764fcf7a4c9d1180--cashasis-blog.netlify.app/blog/houston-condo-special-assessment-sale-records/",
+        "canonical": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+        "HTTP": 200,
+        "noindex": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/hoa-resale-documents-texas-house-sale/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:08:29.212919+00:00"
+      },
+      {
+        "result": "pass",
+        "url": "https://6ae20168764fcf7a4c9d1180--cashasis-blog.netlify.app/blog/selling-house-houston-historic-district/",
+        "canonical": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+        "HTTP": 200,
+        "noindex": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/houston-house-unpermitted-addition-records/",
+          "/blog/sell-house-code-violations-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:08:47.499160+00:00"
+      },
+      {
+        "result": "pass",
+        "url": "https://6ae20168764fcf7a4c9d1180--cashasis-blog.netlify.app/blog/selling-houston-house-tobacco-smoke-odor/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+        "HTTP": 200,
+        "noindex": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/sell-fire-damaged-house-houston/",
+          "/blog/selling-as-is-what-it-actually-means/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:09:01.412066+00:00"
+      }
+    ]
+  },
+  "productionCommit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+  "productionDeploy": {
+    "id": "6ae20236081763b645cadf19",
+    "commit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+    "state": "ready",
+    "context": "production",
+    "publishedAt": "2026-10-28T14:10:41.587Z"
+  },
+  "productionQA": {
+    "result": "pass",
+    "context": "production",
+    "articles": [
+      {
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+        "canonical": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+        "HTTP": 200,
+        "noindex": false,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/hoa-resale-documents-texas-house-sale/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:12:05.142233+00:00"
+      },
+      {
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+        "canonical": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+        "HTTP": 200,
+        "noindex": false,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/houston-house-unpermitted-addition-records/",
+          "/blog/sell-house-code-violations-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:12:23.631144+00:00"
+      },
+      {
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+        "HTTP": 200,
+        "noindex": false,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/sell-fire-damaged-house-houston/",
+          "/blog/selling-as-is-what-it-actually-means/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:12:39.132399+00:00"
+      }
+    ]
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-28",
+    "errors": []
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "astroPages": 201,
+    "attributionPages": 214,
+    "DNIPages": 204,
+    "nodeTestsPassed": 27,
+    "publisherGateUnitTestsPassed": 5,
+    "outputValidator": "pass"
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 38,
+    "screenedDistinctSellerSignals": {
+      "price": 3,
+      "repairs": 3,
+      "timing": 0
+    },
+    "limitation": "Keyword screen only; no specific condo, historic or smoke theme claimed recurring. No private text, identifiers, properties or amounts retained."
+  },
+  "dueQA": {
+    "result": "pass",
+    "context": "production",
+    "articles": [
+      {
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/fha-partial-claim-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/protect-house-sale-proceeds-wire-fraud/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:04:23.203741+00:00"
+      },
+      {
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+        "canonical": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/paid-off-mortgage-lien-release-houston/",
+          "/blog/property-tax-proration-selling-houston-house/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:04:39.116525+00:00"
+      },
+      {
+        "result": "pass",
+        "url": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+        "canonical": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "heroOGX": true,
+        "dimensions": [
+          1200,
+          630
+        ],
+        "internalLinks": [
+          "/blog/hoa-resale-documents-texas-house-sale/",
+          "/blog/sell-house-fast-fort-bend-county-tx/",
+          "/blog/when-to-transfer-utilities-selling-houston-house/"
+        ],
+        "navLinksHTTP200": true,
+        "attributedCTA": true,
+        "sitemap": true,
+        "rss": true,
+        "HTMLCSSMatchVisualBuild": true,
+        "verifiedAt": "2026-10-28T14:04:58.708639+00:00"
+      }
+    ]
+  },
+  "monitoringCoverage": {
+    "eligibleSitemapURLs": 205,
+    "eligibleBlogArticles": 177,
+    "eligibleURLsWithRetainedInspectionEvidence": 205,
+    "latestEvidenceCounts": {
+      "indexed": 184,
+      "not_indexed": 21
+    },
+    "latestBlogEvidenceCounts": {
+      "indexed": 160,
+      "not_indexed": 17
+    },
+    "inspectedThisRun": 6,
+    "observationDateRange": [
+      "2026-10-04T18:49:51.651501+00:00",
+      "2026-10-28T14:14:23.560301+00:00"
+    ],
+    "note": "Mixed actual Google observation dates, not a fresh complete-site census. New unknown observations are not rejection; blog/non-blog separated."
+  },
+  "inspectionCalls": 6,
+  "sourceOpportunityReview": {
+    "range": [
+      "2026-09-28",
+      "2026-10-25"
+    ],
+    "coverage": {
+      "rowsReturned": 263,
+      "rowsTotal": 263,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7473,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2527,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 4,
+        "impressions": 839,
+        "ctrPercent": 0.48,
+        "avgPositionWeighted": 42.18
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "opportunities": [
+      {
+        "keys": [
+          "cash home buyers missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 17.2
+      },
+      {
+        "keys": [
+          "inherited a house full of stuff",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "sell fire damage house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 21.166666666666668
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 15.125
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 14.875
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 14.4
+      }
+    ],
+    "complete": true
+  },
+  "weeklyReport": "W44 already delivered; no repeat due.",
+  "analytics": "No settled conversion review due; no new organic seller or funded-GP inference.",
+  "externalPaidApiSpendUSD": 0,
+  "socialStatus": "draft_only",
+  "designChanged": false,
+  "scheduleChanged": false,
+  "corrections": [
+    {
+      "scope": "thumbnail asset",
+      "detail": "One truncated composite detected by full PNG decoding and re-rendered once with locked renderer; final decode, build, image and visual checks passed."
+    },
+    {
+      "scope": "QA capture",
+      "detail": "Waited for paint after scrolling before recapturing mobile card; no product CSS change."
+    }
+  ],
+  "notifications": {
+    "sent": false,
+    "reason": "Routine publication and normal discovery observations; no new actionable exception or period report due."
+  },
+  "completedAt": "2026-10-28T14:14:39.105731+00:00"
+}
