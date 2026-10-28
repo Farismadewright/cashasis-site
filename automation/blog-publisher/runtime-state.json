@@ -975,6 +975,36 @@
       "evidenceCommit": "ebb4a8c8f7ddc9961cce3e23356e166b2a10a9ca",
       "bookkeepingDeployId": "6ae0a8a01b84dec94f17d4a4",
       "monitoringCommit": "5946b4078040ea22b821cfe8923bc11d79687e51"
+    },
+    {
+      "slug": "houston-condo-special-assessment-sale-records",
+      "intentKey": "houston-condo-resale-certificate-special-assessment-versus-monthly-dues-review",
+      "day": "2026-10-28",
+      "runId": "native-daily-20261028T135210Z",
+      "fence": 21,
+      "status": "reserved",
+      "reservedAt": "2026-10-28T13:56:07.249Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-house-houston-historic-district",
+      "intentKey": "houston-designated-historic-property-status-coa-before-presale-exterior-work",
+      "day": "2026-10-28",
+      "runId": "native-daily-20261028T135210Z",
+      "fence": 21,
+      "status": "reserved",
+      "reservedAt": "2026-10-28T13:56:07.249Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "selling-houston-house-tobacco-smoke-odor",
+      "intentKey": "houston-seller-tobacco-odor-scope-ozone-claim-versus-current-condition-sale",
+      "day": "2026-10-28",
+      "runId": "native-daily-20261028T135210Z",
+      "fence": 21,
+      "status": "reserved",
+      "reservedAt": "2026-10-28T13:56:07.249Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
