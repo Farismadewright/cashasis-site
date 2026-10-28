@@ -4,7 +4,7 @@
     "fence": 21,
     "issuedAt": "2026-10-28T13:53:53.390Z",
     "expiresAt": "2026-10-28T15:48:53.390Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-28T14:16:33.377Z"
   },
   "ledger": [
     {
@@ -982,7 +982,7 @@
       "day": "2026-10-28",
       "runId": "native-daily-20261028T135210Z",
       "fence": 21,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-28T13:56:07.249Z",
       "validationOnly": false,
       "pr": 36,
@@ -994,7 +994,13 @@
         "allowed": true,
         "checkedAt": "2026-10-28T14:09:57.547Z",
         "errors": []
-      }
+      },
+      "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+      "deployId": "6ae20236081763b645cadf19",
+      "publishedAt": "2026-10-28T14:10:41.587Z",
+      "verifiedAt": "2026-10-28T14:16:14.749448+00:00",
+      "bookkeepingCommit": "dc86566b7c7a527f015104051354cf1fea0f3d76",
+      "bookkeepingDeployId": "6ae2036fd1f53943ab24acad"
     },
     {
       "slug": "selling-house-houston-historic-district",
@@ -1002,7 +1008,7 @@
       "day": "2026-10-28",
       "runId": "native-daily-20261028T135210Z",
       "fence": 21,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-28T13:56:07.249Z",
       "validationOnly": false,
       "pr": 36,
@@ -1014,7 +1020,13 @@
         "allowed": true,
         "checkedAt": "2026-10-28T14:09:57.547Z",
         "errors": []
-      }
+      },
+      "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+      "deployId": "6ae20236081763b645cadf19",
+      "publishedAt": "2026-10-28T14:10:41.587Z",
+      "verifiedAt": "2026-10-28T14:16:14.749448+00:00",
+      "bookkeepingCommit": "dc86566b7c7a527f015104051354cf1fea0f3d76",
+      "bookkeepingDeployId": "6ae2036fd1f53943ab24acad"
     },
     {
       "slug": "selling-houston-house-tobacco-smoke-odor",
@@ -1022,7 +1034,7 @@
       "day": "2026-10-28",
       "runId": "native-daily-20261028T135210Z",
       "fence": 21,
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-28T13:56:07.249Z",
       "validationOnly": false,
       "pr": 36,
@@ -1034,36 +1046,63 @@
         "allowed": true,
         "checkedAt": "2026-10-28T14:09:57.547Z",
         "errors": []
-      }
+      },
+      "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+      "deployId": "6ae20236081763b645cadf19",
+      "publishedAt": "2026-10-28T14:10:41.587Z",
+      "verifiedAt": "2026-10-28T14:16:14.749448+00:00",
+      "bookkeepingCommit": "dc86566b7c7a527f015104051354cf1fea0f3d76",
+      "bookkeepingDeployId": "6ae2036fd1f53943ab24acad"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261027T132126Z",
-    "fence": 20,
+    "runId": "native-daily-20261028T135210Z",
+    "fence": 21,
     "status": "pass",
-    "day": "2026-10-27",
-    "published": 1,
-    "held": 2,
-    "heldScope": "Two overlapping editorial candidates held before generation, not deployment failures.",
-    "productionCommit": "be7e38f2cc20be59924843ce8c089060ebaea485",
-    "deployId": "6ae0a7ccdfe14124102e1af6",
-    "evidence": "automation/blog-publisher/runs/2026-10-27.json",
-    "bookkeepingCommit": "ebb4a8c8f7ddc9961cce3e23356e166b2a10a9ca",
-    "bookkeepingDeployId": "6ae0a8a01b84dec94f17d4a4",
-    "monitoringCommit": "5946b4078040ea22b821cfe8923bc11d79687e51",
-    "inspectionCalls": 2,
+    "day": "2026-10-28",
+    "published": 3,
+    "held": 0,
+    "productionCommit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
+    "deployId": "6ae20236081763b645cadf19",
+    "evidence": "automation/blog-publisher/runs/2026-10-28.json",
+    "bookkeepingCommit": "dc86566b7c7a527f015104051354cf1fea0f3d76",
+    "bookkeepingDeployId": "6ae2036fd1f53943ab24acad",
+    "monitoringCommit": "cf477f56dfa9a37d9c3da9380f6278bb530c26f5",
+    "inspectionCalls": 6,
     "externalPaidApiSpendUSD": 0,
     "notificationSent": false,
     "finalLiveCheck": {
       "result": "pass",
-      "HTTP": 200,
-      "canonical": true,
-      "heroOG": true,
-      "attributedCTA": true,
-      "checkedAt": "2026-10-27T13:36:20.285741+00:00"
+      "articles": [
+        {
+          "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+          "HTTP": 200,
+          "canonical": true,
+          "heroOGX": true,
+          "attributedCTA": true,
+          "indexable": true
+        },
+        {
+          "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+          "HTTP": 200,
+          "canonical": true,
+          "heroOGX": true,
+          "attributedCTA": true,
+          "indexable": true
+        },
+        {
+          "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
+          "HTTP": 200,
+          "canonical": true,
+          "heroOGX": true,
+          "attributedCTA": true,
+          "indexable": true
+        }
+      ],
+      "checkedAt": "2026-10-28T14:16:14.749448+00:00"
     },
-    "completedAt": "2026-10-27T13:36:42.380Z"
+    "completedAt": "2026-10-28T14:16:33.377Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
