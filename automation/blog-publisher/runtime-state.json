@@ -1060,9 +1060,14 @@
       "day": "2026-10-29",
       "slug": "need-time-move-after-selling-houston-house",
       "intentKey": "houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-10-29T13:56:39.646Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "commit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
+      "pr": 37,
+      "previewCommit": "37bd6f19565a080e847a1deb9d03c150f1f1a740",
+      "previewDeployId": "6ae351dd0500a5162895c96c",
+      "noindexPreviewVerified": true
     }
   ],
   "externalApiSpendLimitUSD": 0,
