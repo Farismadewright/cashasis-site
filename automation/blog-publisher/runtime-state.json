@@ -1053,6 +1053,16 @@
       "verifiedAt": "2026-10-28T14:16:14.749448+00:00",
       "bookkeepingCommit": "dc86566b7c7a527f015104051354cf1fea0f3d76",
       "bookkeepingDeployId": "6ae2036fd1f53943ab24acad"
+    },
+    {
+      "runId": "native-daily-20261029T135418Z",
+      "fence": 22,
+      "day": "2026-10-29",
+      "slug": "need-time-move-after-selling-houston-house",
+      "intentKey": "houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing",
+      "status": "reserved",
+      "reservedAt": "2026-10-29T13:56:39.646Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
