@@ -4,7 +4,7 @@
     "fence": 22,
     "issuedAt": "2026-10-29T13:55:14.519Z",
     "expiresAt": "2026-10-29T15:50:14.519Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-29T14:10:08.856Z"
   },
   "ledger": [
     {
@@ -1060,64 +1060,50 @@
       "day": "2026-10-29",
       "slug": "need-time-move-after-selling-houston-house",
       "intentKey": "houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-29T13:56:39.646Z",
       "validationOnly": false,
       "commit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
       "pr": 37,
       "previewCommit": "37bd6f19565a080e847a1deb9d03c150f1f1a740",
       "previewDeployId": "6ae351dd0500a5162895c96c",
-      "noindexPreviewVerified": true
+      "noindexPreviewVerified": true,
+      "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+      "deployId": "6ae352d8724e86f8107bbaca",
+      "publishedAt": "2026-10-29T14:06:52.079Z",
+      "verifiedAt": "2026-10-29T14:09:56.757839+00:00",
+      "evidenceCommit": "8d85030701bbcffdf1731d1ab114e71372336d64",
+      "bookkeepingDeployId": "6ae35377185fcc63eaab7897",
+      "monitoringCommit": "5f8cfb742c0e627809062fff1b12a382b88ceaea"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261028T135210Z",
-    "fence": 21,
+    "runId": "native-daily-20261029T135418Z",
+    "fence": 22,
     "status": "pass",
-    "day": "2026-10-28",
-    "published": 3,
-    "held": 0,
-    "productionCommit": "2fa7f4ca28db9ddfbd770fd5a6a2fff2353f9df1",
-    "deployId": "6ae20236081763b645cadf19",
-    "evidence": "automation/blog-publisher/runs/2026-10-28.json",
-    "bookkeepingCommit": "dc86566b7c7a527f015104051354cf1fea0f3d76",
-    "bookkeepingDeployId": "6ae2036fd1f53943ab24acad",
-    "monitoringCommit": "cf477f56dfa9a37d9c3da9380f6278bb530c26f5",
-    "inspectionCalls": 6,
+    "day": "2026-10-29",
+    "published": 1,
+    "held": 2,
+    "heldScope": "Two overlapping editorial candidates held before generation, not deployment failures.",
+    "productionCommit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
+    "deployId": "6ae352d8724e86f8107bbaca",
+    "evidence": "automation/blog-publisher/runs/2026-10-29.json",
+    "bookkeepingCommit": "8d85030701bbcffdf1731d1ab114e71372336d64",
+    "bookkeepingDeployId": "6ae35377185fcc63eaab7897",
+    "monitoringCommit": "5f8cfb742c0e627809062fff1b12a382b88ceaea",
+    "inspectionCalls": 4,
     "externalPaidApiSpendUSD": 0,
     "notificationSent": false,
     "finalLiveCheck": {
       "result": "pass",
-      "articles": [
-        {
-          "url": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
-          "HTTP": 200,
-          "canonical": true,
-          "heroOGX": true,
-          "attributedCTA": true,
-          "indexable": true
-        },
-        {
-          "url": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
-          "HTTP": 200,
-          "canonical": true,
-          "heroOGX": true,
-          "attributedCTA": true,
-          "indexable": true
-        },
-        {
-          "url": "https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/",
-          "HTTP": 200,
-          "canonical": true,
-          "heroOGX": true,
-          "attributedCTA": true,
-          "indexable": true
-        }
-      ],
-      "checkedAt": "2026-10-28T14:16:14.749448+00:00"
+      "HTTP": 200,
+      "canonical": true,
+      "heroOGX": true,
+      "attributedCTA": true,
+      "checkedAt": "2026-10-29T14:09:56.757839+00:00"
     },
-    "completedAt": "2026-10-28T14:16:33.377Z"
+    "completedAt": "2026-10-29T14:10:08.856Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
