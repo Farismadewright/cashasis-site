@@ -150,3 +150,8 @@ Evidence: runs/2026-10-27.json. One distinct guide; boundary-survey and foundati
 - https://www.cashasis.com/blog/selling-houston-house-tobacco-smoke-odor/ → houston-seller-tobacco-odor-scope-ozone-claim-versus-current-condition-sale. Persistent tobacco odor and limits of device/cleanup claims before sale, not structural fire damage, an insurance claim or a generic repair page.
 
 Evidence: runs/2026-10-28.json. Existing Missouri City primary remains a query/snippet review opportunity; settledSep28–Oct25 property839impressions/4clicks and small11–30 query samples do not establish sustained ranking gains. No live rewrite, consolidation, indexing request, social send, paid API or inferred seller/funded-GP outcome. Existing Lead Acquisition/COO evidence workflow can consume this finding without another dashboard.
+
+
+## October 29 seller move planning
+- https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/ → houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing. Owner-occupant needs a moving window: compare later closing with separately agreed postclosing occupancy; evaluate moving dependencies, costs, coverage and backup handoff. Existing guides cover transaction stages, utility providers or signing, not this decision. Original763-word body;12-word-shingle review found only2common phrases with market timeline article.
+- Acquisition/COO evidence: runs/2026-10-29.json. Settled Sep29–Oct26 GSC property869impressions/4clicks; MissouriCity existing primary receives small11–30query samples without clicks. Review existing snippet and seller questions before adding volume; no live rewrite or lead/GP inference.

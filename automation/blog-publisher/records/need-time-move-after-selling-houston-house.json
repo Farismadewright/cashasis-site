@@ -41,7 +41,7 @@
   "fence": 22,
   "day": "2026-10-29",
   "intentKey": "houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
   "nearestOverlaps": [
     "cash-house-sale-timeline-houston",
@@ -104,7 +104,10 @@
     "build": "pass",
     "metadata": "pass",
     "links": "pass",
-    "mobile": "pass"
+    "mobile": "pass",
+    "preview": "pass",
+    "deploy": "pass",
+    "productionIndexability": "pass"
   },
   "sellerVoice": {
     "sample": 100,
@@ -184,8 +187,8 @@
       1366
     ]
   },
-  "commit": null,
-  "deployId": null,
+  "commit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
+  "deployId": "6ae352d8724e86f8107bbaca",
   "social": {
     "slug": "need-time-move-after-selling-houston-house",
     "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
@@ -201,5 +204,96 @@
       "#HoustonRealEstate",
       "#SellAsIs"
     ]
+  },
+  "pr": 37,
+  "previewCommit": "37bd6f19565a080e847a1deb9d03c150f1f1a740",
+  "previewDeployId": "6ae351dd0500a5162895c96c",
+  "previewEvidence": {
+    "result": "pass",
+    "mode": "preview",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": true,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/when-to-transfer-utilities-selling-houston-house/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuild": true,
+        "checkedAt": "2026-10-29T14:05:15.802505+00:00"
+      }
+    ],
+    "CSSMatchesVisualBuild": true,
+    "cssPaths": [
+      "/styles.css"
+    ]
+  },
+  "publishedAt": "2026-10-29T14:06:52.079Z",
+  "verifiedAt": "2026-10-29T14:08:22.921758+00:00",
+  "productionEvidence": {
+    "result": "pass",
+    "mode": "production",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/when-to-transfer-utilities-selling-houston-house/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuild": true,
+        "checkedAt": "2026-10-29T14:08:22.921758+00:00"
+      }
+    ]
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-29",
+    "errors": []
+  },
+  "googleInspection": {
+    "id": "77943353-196c-4977-a44b-d688514fa0b1",
+    "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+    "last_crawl_time": null,
+    "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawled_as": null,
+    "requested_at": "2026-10-29T14:08:30.878835+00:00",
+    "google_canonical": null,
+    "user_canonical": null,
+    "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OTg0cm39NVwcdhDvt9yTGg&utm_medium=link&utm_source=api"
   }
 }

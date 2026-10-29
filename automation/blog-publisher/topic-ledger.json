@@ -769,5 +769,23 @@
     "deployId": "6ae20236081763b645cadf19",
     "pr": 36,
     "publishedAt": "2026-10-28T14:10:41.587Z"
+  },
+  {
+    "slug": "need-time-move-after-selling-houston-house",
+    "runId": "native-daily-20261029T135418Z",
+    "day": "2026-10-29",
+    "intentKey": "houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing",
+    "nearestOverlaps": [
+      "cash-house-sale-timeline-houston",
+      "when-to-transfer-utilities-selling-houston-house",
+      "selling-houston-house-from-out-of-state-signing"
+    ],
+    "substantiveDifference": "Owner-occupant needs a moving window: compare later closing with separately agreed postclosing occupancy; evaluate moving dependencies, costs, coverage and backup handoff. Existing guides cover transaction stages, utility providers or signing, not this decision. Original763-word body;12-word-shingle review found only2common phrases with market timeline article.",
+    "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+    "status": "published",
+    "publishedAt": "2026-10-29T14:06:52.079Z",
+    "commit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
+    "deployId": "6ae352d8724e86f8107bbaca",
+    "pr": 37
   }
 ]

@@ -1,0 +1,364 @@
+{
+  "runId": "native-daily-20261029T135418Z",
+  "fence": 22,
+  "day": "2026-10-29",
+  "status": "pass",
+  "published": 1,
+  "held": 2,
+  "heldScope": "Two overlapping editorial candidates held before generation; not publishing failures.",
+  "heldCandidates": [
+    {
+      "topic": "Repair foundation before selling Houston house",
+      "reason": "Existing foundation problem and report guides already answer intent; review existing content instead."
+    },
+    {
+      "topic": "Fast cash sale timeline in another Houston-area city",
+      "reason": "Existing city and timeline pages cover intent; city/synonym swap rejected."
+    }
+  ],
+  "articles": [
+    {
+      "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+      "record": "automation/blog-publisher/records/need-time-move-after-selling-houston-house.json",
+      "googleInspection": {
+        "id": "77943353-196c-4977-a44b-d688514fa0b1",
+        "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "verdict": "NEUTRAL",
+        "coverage_state": "URL is unknown to Google",
+        "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+        "last_crawl_time": null,
+        "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "crawled_as": null,
+        "requested_at": "2026-10-29T14:08:30.878835+00:00",
+        "google_canonical": null,
+        "user_canonical": null,
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OTg0cm39NVwcdhDvt9yTGg&utm_medium=link&utm_source=api"
+      }
+    }
+  ],
+  "pr": 37,
+  "previewCommit": "37bd6f19565a080e847a1deb9d03c150f1f1a740",
+  "previewDeployId": "6ae351dd0500a5162895c96c",
+  "previewQA": {
+    "result": "pass",
+    "mode": "preview",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": true,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/when-to-transfer-utilities-selling-houston-house/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuild": true,
+        "checkedAt": "2026-10-29T14:05:15.802505+00:00"
+      }
+    ],
+    "CSSMatchesVisualBuild": true,
+    "cssPaths": [
+      "/styles.css"
+    ]
+  },
+  "productionCommit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
+  "productionDeploy": {
+    "id": "6ae352d8724e86f8107bbaca",
+    "commit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
+    "state": "ready",
+    "publishedAt": "2026-10-29T14:06:52.079Z"
+  },
+  "productionQA": {
+    "result": "pass",
+    "mode": "production",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/cash-house-sale-timeline-houston/",
+          "/blog/when-to-transfer-utilities-selling-houston-house/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuild": true,
+        "checkedAt": "2026-10-29T14:08:22.921758+00:00"
+      }
+    ]
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-29",
+    "errors": []
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "pass",
+    "outputValidator": "pass",
+    "nodeTests": 13,
+    "pythonTests": 5,
+    "protectedDesignSourceChanges": false
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 36,
+    "screenedDistinctSellerCounts": {
+      "price": 5,
+      "repairs": 1,
+      "timing": 1
+    },
+    "method": "Bounded read-only keyword screen; broad possible concerns, not evidence of topic-specific recurring demand. No raw conversations persisted."
+  },
+  "sourceOpportunityReview": {
+    "startDate": "2026-09-29",
+    "endDate": "2026-10-26",
+    "coverage": {
+      "rowsReturned": 277,
+      "rowsTotal": 277,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7503,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2497,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 4,
+        "impressions": 869,
+        "ctrPercent": 0.46,
+        "avgPositionWeighted": 42.03
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 277,
+      "hasMore": false,
+      "note": "Showing all 277 rows."
+    },
+    "rows": [
+      {
+        "keys": [
+          "cash home buyers missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 17.2
+      },
+      {
+        "keys": [
+          "inherited a house full of stuff",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "sell fire damage house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 21.166666666666668
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 15.125
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 14.875
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 20,
+        "ctr": 0,
+        "position": 15.75
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 14.4
+      }
+    ],
+    "conclusion": "Missouri City query/snippet and internal-link review remains priority; small query samples do not prove sustained gain. No new overlapping city pages or unapproved live rewrite. Conversion metrics not freshly reviewed; weekly already delivered."
+  },
+  "dueQA": {
+    "result": "pass",
+    "mode": "due",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/sell-house-behind-on-taxes-houston/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuild": false,
+        "checkedAt": "2026-10-29T14:00:09.733390+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/selling-houston-house-from-out-of-state-signing/",
+          "/blog/sell-house-multiple-owners-heirs-houston/",
+          "/blog/sell-house-title-problems-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuild": false,
+        "checkedAt": "2026-10-29T14:00:44.964976+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/fha-partial-claim-selling-houston-house/",
+          "/blog/stop-foreclosure-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuild": false,
+        "checkedAt": "2026-10-29T14:01:15.088948+00:00"
+      }
+    ]
+  },
+  "monitoringCoverage": {
+    "eligibleSitemapURLs": 206,
+    "eligibleBlogArticles": 178,
+    "eligibleURLsWithRetainedInspectionEvidence": 206,
+    "latestEvidenceCounts": {
+      "indexed": 187,
+      "not_indexed": 19
+    },
+    "latestBlogEvidenceCounts": {
+      "indexed": 163,
+      "not_indexed": 15
+    },
+    "inspectedThisRun": 4,
+    "observationDateRange": [
+      "2026-10-04T18:49:51.651501+00:00",
+      "2026-10-29T14:08:30.878835+00:00"
+    ],
+    "note": "Mixed actual inspection dates; not a new full-site census. Initial unknown is not a rejection. Non-PASS bucket includes unknown/discovery statuses."
+  },
+  "inspectionCalls": 4,
+  "weeklyReport": "W44 already delivered; no duplicate due.",
+  "analytics": "No new conversion claim; GA4/validated seller outcomes not freshly measured today.",
+  "externalPaidApiSpendUSD": 0,
+  "socialStatus": "draft_only",
+  "designChanged": false,
+  "scheduleChanged": false,
+  "QAAdjustment": "Exact HTML comparison excludes only the observed Netlify host-injected preview toolbar; article bytes otherwise matched mobile-tested build.",
+  "notifications": {
+    "sent": false,
+    "reason": "No new actionable exception or period review due."
+  },
+  "completedAt": "2026-10-29T14:08:42.849918+00:00"
+}
