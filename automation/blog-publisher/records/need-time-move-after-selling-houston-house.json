@@ -1,0 +1,205 @@
+{
+  "title": "Need Time to Move After Selling Your Houston House?",
+  "description": "Need time to move after a Houston house sale? Compare a later closing with written post-closing possession, and clarify costs, coverage and the handoff.",
+  "primaryKeyword": "need time to move after selling Houston house",
+  "supportingKeywords": [
+    "Houston seller possession after closing",
+    "moving after selling a house Texas",
+    "later closing versus temporary seller occupancy"
+  ],
+  "pubDate": "2026-10-29T13:54:18Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "tags": [
+    "Houston",
+    "seller preparation",
+    "moving"
+  ],
+  "image": "/images/need-time-move-after-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston-area brick house with moving boxes, NEED TIME TO MOVE headline and official transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Can I stay in my Houston house after selling it?",
+      "a": "Only rely on an arrangement the buyer has agreed to and the appropriate professionals have documented. Ask about possession before committing to a closing date; extra occupancy is not automatic."
+    },
+    {
+      "q": "Is a later closing the same as staying after closing?",
+      "a": "No. A later closing changes when the sale is completed. Staying afterward separates completion of the sale from the agreed move-out and possession handoff."
+    },
+    {
+      "q": "Does Cash As-Is automatically include time to move?",
+      "a": "No automatic occupancy period is promised. Explain the move you need to make and ask whether the proposed transaction can accommodate it. The signed agreement and any applicable occupancy documents control."
+    },
+    {
+      "q": "Should I cancel insurance when I sign closing papers?",
+      "a": "Ask your insurance professional how the ownership and occupancy changes affect coverage before scheduling cancellation. Signing papers alone does not answer that coverage question."
+    }
+  ],
+  "slug": "need-time-move-after-selling-houston-house",
+  "runId": "native-daily-20261029T135418Z",
+  "fence": 22,
+  "day": "2026-10-29",
+  "intentKey": "houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing",
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+  "nearestOverlaps": [
+    "cash-house-sale-timeline-houston",
+    "when-to-transfer-utilities-selling-houston-house",
+    "selling-houston-house-from-out-of-state-signing"
+  ],
+  "substantiveDifference": "Owner-occupant needs a moving window: compare later closing with separately agreed postclosing occupancy; evaluate moving dependencies, costs, coverage and backup handoff. Existing guides cover transaction stages, utility providers or signing, not this decision. Original763-word body;12-word-shingle review found only2common phrases with market timeline article.",
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/forms/sellers-temporary-residential-lease",
+      "title": "TREC Seller Temporary Residential Lease15-7",
+      "verifiedAt": "2026-10-29T14:01:13.607359+00:00",
+      "accessedAt": "2026-10-29",
+      "publicationDate": "2026-01-05 effective",
+      "claim": "Form scope is seller occupancy no more than90days after closing; not automatic right.",
+      "geography": "Texas",
+      "method": "Official page read with native search open."
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/15-7.pdf",
+      "title": "TREC15-7 two-page form",
+      "verifiedAt": "2026-10-29T14:01:13.607359+00:00",
+      "accessedAt": "2026-10-29",
+      "publicationDate": "2025-11-03 revision",
+      "claim": "Form addresses dates, utilities, access, maintenance, surrender and insurance changes. No private CashAsIs terms inferred.",
+      "geography": "Texas",
+      "method": "Official PDF read;general education,not transaction-specific advice."
+    }
+  ],
+  "imageProvenance": {
+    "type": "native_imagegen_original_illustration",
+    "background": "generated_images/exec-59caa98c-e12d-4f3a-af81-dc5de69975de.png",
+    "backgroundSha256": "fe00a4b0a6283be9d82db089fea03d569b6e74bb97e1cce9a488e974a8f20a1e",
+    "prompt": "Use case: photorealistic-natural. Create one original wide realistic illustrative Houston-area modest brick house exterior, house occupying right half of landscape frame, broad left negative space with shaded oak foliage for later deterministic brand overlay. Warm natural daylight, believable slightly worn property, subtle two plain moving boxes beside covered front doorway on right suggesting an upcoming move. No people, readable text, numbers, address, sale sign, logos or watermark. No typography. Not an actual listing. Keep roof and front door visible in a wide 1200:630 composition.",
+    "renderer": "locked left-photo-transparent-v2",
+    "headline": "NEED TIME|TO MOVE?",
+    "logo": "official white/orange transparent",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    }
+  },
+  "imageSha256": "888d3eee204710c1a5f9d9e965abd8a20e67b2040c5b59aba3c4b0a042b62c32",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Native Work allowance;incremental cost not separately metered. No paid API or upgrade."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass"
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 36,
+    "screenedDistinctSellerCounts": {
+      "price": 5,
+      "repairs": 1,
+      "timing": 1
+    },
+    "method": "Bounded read-only keyword screen; broad possible concerns, not evidence of topic-specific recurring demand. No raw conversations persisted."
+  },
+  "buildEvidence": {
+    "command": "npm run build",
+    "result": "pass",
+    "outputValidator": "pass",
+    "nodeTests": 13,
+    "pythonTests": 5,
+    "protectedDesignSourceChanges": false
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/need-time-move-after-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/need-time-move-after-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/need-time-move-after-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/need-time-move-after-selling-houston-house.png"
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "widths": [
+      390,
+      1366
+    ]
+  },
+  "commit": null,
+  "deployId": null,
+  "social": {
+    "slug": "need-time-move-after-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/need-time-move-after-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "Need time to move after selling? Compare a later closing with an agreed stay after closing. Clarify the handoff before committing.\nhttps://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+    "instagram": "Need Time to Move After Selling Your Houston House?\n\nNeed time to move after a Houston house sale? Compare a later closing with written post-closing possession, and clarify costs, coverage and the handoff.\n\nRead the guide: https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Need Time to Move After Selling Your Houston House?\n\nNeed time to move after a Houston house sale? Compare a later closing with written post-closing possession, and clarify costs, coverage and the handoff.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+    "googleBusinessProfile": "Need Time to Move After Selling Your Houston House?\n\nNeed time to move after a Houston house sale? Compare a later closing with written post-closing possession, and clarify costs, coverage and the handoff.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+    "promotionalExcerpt": "Need time to move after a Houston house sale? Compare a later closing with written post-closing possession, and clarify costs, coverage and the handoff.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  }
+}
