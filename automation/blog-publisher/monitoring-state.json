@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W44",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-10-29T14:08:42.849918+00:00",
-  "lastSuccessfulReview": "2026-10-29T14:08:42.849918+00:00",
+  "lastAttempt": "2026-10-30T13:45:17.602262+00:00",
+  "lastSuccessfulReview": "2026-10-30T13:45:17.602262+00:00",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -8449,54 +8449,60 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=4LsXtUSWwxMmsEJg3-Qcqw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-30T13:41:06.584988+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+          "userCanonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+          "lastCrawlTime": "2026-10-26T16:38:15+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=jM26cxvZyDtabbXi1k4zzg&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-26T14:38:03.303441+00:00",
+      "technicalVerifiedAt": "2026-10-30T13:43:13.749117+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-26",
       "excluded": false,
       "inventoryVerifiedAt": "2026-10-29T14:08:42.849918+00:00",
       "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
-      "lastSuccessfulInspection": "2026-10-26T14:39:01.599009+00:00",
-      "lastAttemptAt": "2026-10-26T14:39:01.599009+00:00",
+      "lastSuccessfulInspection": "2026-10-30T13:41:06.584988+00:00",
+      "lastAttemptAt": "2026-10-30T13:41:06.584988+00:00",
       "firstSuccessfulInspection": "2026-10-26T14:39:01.599009+00:00",
       "technicalQA": {
-        "slug": "property-tax-proration-selling-houston-house",
         "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
-        "canonical": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
         "HTTP": 200,
         "noindex": false,
-        "indexable": true,
-        "heroOGXImage": "https://www.cashasis.com/images/property-tax-proration-selling-houston-house.png",
-        "imageDimensions": [
-          1200,
-          630
-        ],
-        "imageSHA256": "9ea6a7d85e8ab926e256235295fe5bfd88d6b373c3797a59d6090e9cca207242",
-        "imageAlt": "Illustrative Houston brick house with a blank folder and calculator beside the Selling Soon Check Taxes headline and transparent Cash As-Is logo",
+        "canonical": true,
         "schema": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
         ],
-        "visibleFAQCount": 4,
-        "internalLinks": 14,
-        "meaningfulBodyLinks": [
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
           "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
           "/blog/sell-house-behind-on-taxes-houston/",
           "/blog/cash-offer-vs-listing-house-houston/"
         ],
         "attributedCTA": true,
-        "sitemap": true,
-        "RSS": true,
-        "blogInboundLink": true,
-        "HTMLCSSMatchMobileTestedBuild": true,
-        "checkedAt": "2026-10-26T14:38:03.303441+00:00",
-        "result": "pass"
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesBuild": true,
+        "checkedAt": "2026-10-30T13:43:13.749117+00:00"
       },
-      "nextReviewAt": "2026-10-30T13:32:10.290000+00:00"
+      "nextReviewAt": "2026-11-27T13:41:06.584988+00:00"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
@@ -8527,54 +8533,60 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zg8UB8Sx5cuTfwpmJtAc-g&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-30T13:41:06.671682+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+          "lastCrawlTime": "2026-10-26T19:28:41+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=S580gyv-eH75b10QgZUDSA&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-26T14:38:16.334831+00:00",
+      "technicalVerifiedAt": "2026-10-30T13:43:43.127092+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-26",
       "excluded": false,
       "inventoryVerifiedAt": "2026-10-29T14:08:42.849918+00:00",
       "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
-      "lastSuccessfulInspection": "2026-10-26T14:39:01.570639+00:00",
-      "lastAttemptAt": "2026-10-26T14:39:01.570639+00:00",
+      "lastSuccessfulInspection": "2026-10-30T13:41:06.671682+00:00",
+      "lastAttemptAt": "2026-10-30T13:41:06.671682+00:00",
       "firstSuccessfulInspection": "2026-10-26T14:39:01.570639+00:00",
       "technicalQA": {
-        "slug": "selling-houston-house-reverse-mortgage",
         "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
-        "canonical": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
         "HTTP": 200,
         "noindex": false,
-        "indexable": true,
-        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-reverse-mortgage.png",
-        "imageDimensions": [
-          1200,
-          630
-        ],
-        "imageSHA256": "bc9cff47a488e64879482a8d5ea36b740ffa538fd608b6d6bc17b02e00583ef7",
-        "imageAlt": "Illustrative established Houston brick home with porch chairs and Reverse Loan Sell As-Is headline beside the transparent official Cash As-Is logo",
+        "canonical": true,
         "schema": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
         ],
-        "visibleFAQCount": 4,
-        "internalLinks": 14,
-        "meaningfulBodyLinks": [
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
           "/blog/sell-inherited-house-houston/",
           "/blog/cash-offer-vs-listing-house-houston/",
           "/blog/sell-house-needs-major-repairs-houston/"
         ],
         "attributedCTA": true,
-        "sitemap": true,
-        "RSS": true,
-        "blogInboundLink": true,
-        "HTMLCSSMatchMobileTestedBuild": true,
-        "checkedAt": "2026-10-26T14:38:16.334831+00:00",
-        "result": "pass"
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesBuild": true,
+        "checkedAt": "2026-10-30T13:43:43.127092+00:00"
       },
-      "nextReviewAt": "2026-10-30T13:32:10.290000+00:00"
+      "nextReviewAt": "2026-11-27T13:41:06.671682+00:00"
     },
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
@@ -8605,54 +8617,60 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gauUtNOm4sTFEvd80pLTCg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-30T13:41:06.834063+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+          "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+          "lastCrawlTime": "2026-10-26T19:08:37+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=EVi4vSCCwFgg2DIDo4yBkw&utm_medium=link&utm_source=api"
         }
       ],
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-26T14:38:23.851305+00:00",
+      "technicalVerifiedAt": "2026-10-30T13:44:15.010041+00:00",
       "technicalIssueConfirmed": false,
       "technicalIssue": null,
       "nextReview": "2026-10-26",
       "excluded": false,
       "inventoryVerifiedAt": "2026-10-29T14:08:42.849918+00:00",
       "eligibleInventorySource": "Exact-commit production sitemap, matched to verified deployed build",
-      "lastSuccessfulInspection": "2026-10-26T14:39:08.29698+00:00",
-      "lastAttemptAt": "2026-10-26T14:39:08.29698+00:00",
+      "lastSuccessfulInspection": "2026-10-30T13:41:06.834063+00:00",
+      "lastAttemptAt": "2026-10-30T13:41:06.834063+00:00",
       "firstSuccessfulInspection": "2026-10-26T14:39:08.29698+00:00",
       "technicalQA": {
-        "slug": "selling-houston-house-suspected-asbestos",
         "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
-        "canonical": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
         "HTTP": 200,
         "noindex": false,
-        "indexable": true,
-        "heroOGXImage": "https://www.cashasis.com/images/selling-houston-house-suspected-asbestos.png",
-        "imageDimensions": [
-          1200,
-          630
-        ],
-        "imageSHA256": "cc1628ce3eee822ab1c60d80a6e9df4ee9ec69ce5ccae6441b58d72857f3c68a",
-        "imageAlt": "Illustrative older Houston house with intact vintage floor tiles visible through a doorway, Asbestos Sell As-Is headline and transparent Cash As-Is logo; not a material diagnosis",
+        "canonical": true,
         "schema": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
         ],
-        "visibleFAQCount": 4,
-        "internalLinks": 14,
-        "meaningfulBodyLinks": [
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
           "/blog/cash-offer-vs-listing-house-houston/",
           "/blog/sell-house-needs-major-repairs-houston/",
           "/blog/texas-as-is-sale-seller-disclosure-checklist/"
         ],
         "attributedCTA": true,
-        "sitemap": true,
-        "RSS": true,
-        "blogInboundLink": true,
-        "HTMLCSSMatchMobileTestedBuild": true,
-        "checkedAt": "2026-10-26T14:38:23.851305+00:00",
-        "result": "pass"
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesBuild": true,
+        "checkedAt": "2026-10-30T13:44:15.010041+00:00"
       },
-      "nextReviewAt": "2026-10-30T13:32:10.290000+00:00"
+      "nextReviewAt": "2026-11-27T13:41:06.834063+00:00"
     },
     {
       "url": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
@@ -9174,45 +9192,57 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cQ5lG1j7uAHzmJdWVq8hxQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-10-30T13:41:06.823338+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+          "lastCrawlTime": "2026-10-30T11:21:15+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-t8BKJNyAnMRauGgdyHdyA&utm_medium=link&utm_source=api"
         }
       ],
       "excluded": false,
       "recordPath": "automation/blog-publisher/records/manufactured-house-land-ownership-records-houston.json",
-      "lastAttemptAt": "2026-10-27T13:34:54.248619+00:00",
-      "lastSuccessfulInspection": "2026-10-27T13:34:54.248619+00:00",
+      "lastAttemptAt": "2026-10-30T13:41:06.823338+00:00",
+      "lastSuccessfulInspection": "2026-10-30T13:41:06.823338+00:00",
       "firstSuccessfulInspection": "2026-10-27T13:34:54.248619+00:00",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-27T13:34:20.058315+00:00",
+      "technicalVerifiedAt": "2026-10-30T13:44:41.357243+00:00",
       "technicalQA": {
-        "result": "pass",
         "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
-        "canonical": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
         "HTTP": 200,
         "noindex": false,
+        "canonical": true,
         "schema": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
         ],
         "FAQ": 4,
-        "heroOGX": true,
-        "dimensions": [
+        "imageDimensions": [
           1200,
           630
         ],
+        "heroOGX": true,
         "internalLinks": [
           "/blog/existing-survey-when-selling-texas-house/",
           "/blog/sell-house-title-problems-houston/"
         ],
         "attributedCTA": true,
-        "sitemap": true,
-        "rss": true,
-        "HTMLCSSMatchVisualBuild": true,
-        "verifiedAt": "2026-10-27T13:34:20.058315+00:00"
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesBuild": true,
+        "checkedAt": "2026-10-30T13:44:41.357243+00:00"
       },
       "technicalIssue": null,
       "technicalIssueConfirmed": false,
-      "nextReviewAt": "2026-10-30T13:34:54.248619+00:00",
+      "nextReviewAt": "2026-11-27T13:41:06.823338+00:00",
       "inventoryVerifiedAt": "2026-10-29T14:08:42.849918+00:00"
     },
     {
@@ -9505,36 +9535,36 @@
   "settledThrough": "2026-10-24",
   "inspectionCallsUsed": 4,
   "lastRunMonitoring": {
-    "runId": "native-daily-20261029T135418Z",
+    "runId": "native-daily-20261030T133716Z",
     "inspections": 4,
-    "dueRechecks": 3,
-    "newPublicationInspections": 1,
-    "newlyIndexedDue": 3,
+    "dueRechecks": 4,
+    "newPublicationInspections": 0,
+    "newlyIndexedDue": 4,
     "weeklyDue": false,
     "monthlyDue": false,
     "notificationSent": false,
-    "completedAt": "2026-10-29T14:08:42.849918+00:00"
+    "completedAt": "2026-10-30T13:45:17.602262+00:00"
   },
-  "now": "2026-10-29T14:08:42.849918+00:00",
-  "lastRunId": "native-daily-20261029T135418Z",
+  "now": "2026-10-30T13:45:17.602262+00:00",
+  "lastRunId": "native-daily-20261030T133716Z",
   "coverage": {
     "eligibleSitemapURLs": 206,
     "eligibleBlogArticles": 178,
     "eligibleURLsWithRetainedInspectionEvidence": 206,
     "latestEvidenceCounts": {
-      "indexed": 187,
-      "not_indexed": 19
+      "indexed": 191,
+      "not_indexed": 15
     },
     "latestBlogEvidenceCounts": {
-      "indexed": 163,
-      "not_indexed": 15
+      "indexed": 167,
+      "not_indexed": 11
     },
     "inspectedThisRun": 4,
     "observationDateRange": [
       "2026-10-04T18:49:51.651501+00:00",
-      "2026-10-29T14:08:30.878835+00:00"
+      "2026-10-30T13:41:06.834063+00:00"
     ],
-    "note": "Mixed actual inspection dates; not a new full-site census. Initial unknown is not a rejection. Non-PASS bucket includes unknown/discovery statuses."
+    "note": "Mixed actual Google inspection dates, not a fresh full-site census. Non-PASS includes unknown/discovery states, not automatic rejection. No new publication today."
   },
   "lastRun": {
     "runId": "native-daily-20261025T130713Z",
