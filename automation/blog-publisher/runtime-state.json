@@ -1082,9 +1082,12 @@
       "day": "2026-10-30",
       "slug": "selling-houston-house-open-heloc",
       "intentKey": "houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff",
-      "status": "reserved",
+      "status": "hold",
       "reservedAt": "2026-10-30T13:39:34.859Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "holdReason": "thumbnail_headline_overflow_after_one_corrective_attempt",
+      "heldAt": "2026-10-30T13:46:00.837Z",
+      "articlePublished": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
