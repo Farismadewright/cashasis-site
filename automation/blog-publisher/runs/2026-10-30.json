@@ -1,0 +1,335 @@
+{
+  "runId": "native-daily-20261030T133716Z",
+  "fence": 23,
+  "day": "2026-10-30",
+  "status": "hold",
+  "published": 0,
+  "held": 3,
+  "heldScope": "One generated draft held at mandatory thumbnail gate; two overlapping candidates rejected before generation. No deployment failure or live change.",
+  "articles": [
+    {
+      "slug": "selling-houston-house-open-heloc",
+      "status": "hold",
+      "record": "automation/blog-publisher/holds/selling-houston-house-open-heloc.json",
+      "reason": "Locked renderer rejected both headline attempts; one corrective attempt exhausted. No template changes or alternate provider. No publication permitted."
+    }
+  ],
+  "heldCandidates": [
+    {
+      "topic": "Paid-off mortgage still on title",
+      "reason": "Existing dedicated release guide answers intent."
+    },
+    {
+      "topic": "Extra time to move after cash sale",
+      "reason": "Existing Oct29 move-window guide answers intent; synonym page would cannibalize."
+    }
+  ],
+  "thumbnailCommands": [
+    {
+      "headline": "OPEN HELOC?|CHECK BEFORE SELLING",
+      "exitCode": 1,
+      "stderr": "Headline overflow; shorten it"
+    },
+    {
+      "headline": "OPEN HELOC?|SALE CHECKLIST",
+      "exitCode": 1,
+      "stderr": "Headline overflow; shorten it"
+    }
+  ],
+  "build": "Not run: thumbnail command stopped chained build. No pass claimed.",
+  "mobile": "Harness started prematurely before build, timed out; not a completed visual validation.",
+  "release": "Fail-closed release_gate.py executed and denied; no PR, article merge or release attempted.",
+  "sourceOpportunityReview": {
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-27",
+    "coverage": {
+      "rowsReturned": 284,
+      "rowsTotal": 284,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.747,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.253,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 4,
+        "impressions": 921,
+        "ctrPercent": 0.43,
+        "avgPositionWeighted": 41.22
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 284,
+      "hasMore": false,
+      "note": "Showing all 284 rows."
+    },
+    "queryPageOpportunities": [
+      {
+        "keys": [
+          "cash home buyers missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 15.714285714285714
+      },
+      {
+        "keys": [
+          "inherited a house full of stuff",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "sell fire damage house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 21.166666666666668
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 14.944444444444445
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 13.9
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 23,
+        "ctr": 0,
+        "position": 15.043478260869565
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "we buy houses missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 11.142857142857142
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 14.307692307692308
+      }
+    ],
+    "conclusion": "Missouri City existing primary remains a title/snippet and seller-question review candidate; samples small, no sustained-ranking alert. No authorized rewrite performed. No seller-lead or funded-GP inference."
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inboundScreened": 38,
+    "screenedDistinctSellerCounts": {
+      "price": 5,
+      "repairs": 0,
+      "timing": 0
+    },
+    "method": "Read-only bounded keyword screen; broad possible concerns only, not topic-specific recurring demand. Raw messages and identifying fields not retained."
+  },
+  "dueQA": {
+    "result": "pass",
+    "mode": "due",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+          "/blog/sell-house-behind-on-taxes-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesMainProtectedSource": true,
+        "checkedAt": "2026-10-30T13:43:13.749117+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/sell-inherited-house-houston/",
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesMainProtectedSource": true,
+        "checkedAt": "2026-10-30T13:43:43.127092+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/cash-offer-vs-listing-house-houston/",
+          "/blog/sell-house-needs-major-repairs-houston/",
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesMainProtectedSource": true,
+        "checkedAt": "2026-10-30T13:44:15.010041+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/manufactured-house-land-ownership-records-houston/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/existing-survey-when-selling-texas-house/",
+          "/blog/sell-house-title-problems-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": false,
+        "CSSMatchesMainProtectedSource": true,
+        "checkedAt": "2026-10-30T13:44:41.357243+00:00"
+      }
+    ]
+  },
+  "monitoringCoverage": {
+    "eligibleSitemapURLs": 206,
+    "eligibleBlogArticles": 178,
+    "eligibleURLsWithRetainedInspectionEvidence": 206,
+    "latestEvidenceCounts": {
+      "indexed": 191,
+      "not_indexed": 15
+    },
+    "latestBlogEvidenceCounts": {
+      "indexed": 167,
+      "not_indexed": 11
+    },
+    "inspectedThisRun": 4,
+    "observationDateRange": [
+      "2026-10-04T18:49:51.651501+00:00",
+      "2026-10-30T13:41:06.834063+00:00"
+    ],
+    "note": "Mixed actual Google inspection dates, not a fresh full-site census. Non-PASS includes unknown/discovery states, not automatic rejection. No new publication today."
+  },
+  "inspectionCalls": 4,
+  "weeklyReport": "W44 already delivered; no repeat due.",
+  "analytics": "No new GA4/conversion review due; no validated seller or funded-GP claim.",
+  "externalPaidApiSpendUSD": 0,
+  "nativeImageGenerations": 1,
+  "socialStatus": "draft_only, article held",
+  "designChanged": false,
+  "scheduleChanged": false,
+  "notifications": {
+    "sent": false,
+    "reason": "Retain isolated quality hold and routine monitoring in run history; no owner permission needed."
+  },
+  "completedAt": "2026-10-30T13:45:17.602262+00:00",
+  "releaseGate": {
+    "allowed": false,
+    "day": "2026-10-30",
+    "errors": [
+      "selling-houston-house-open-heloc: thumbnail",
+      "selling-houston-house-open-heloc: build",
+      "selling-houston-house-open-heloc: metadata",
+      "selling-houston-house-open-heloc: links",
+      "selling-houston-house-open-heloc: mobile",
+      "selling-houston-house-open-heloc: preview",
+      "image missing"
+    ]
+  },
+  "liveInventoryReconciliation": {
+    "count": 206,
+    "matchesRetainedEligibleInventory": true
+  }
+}

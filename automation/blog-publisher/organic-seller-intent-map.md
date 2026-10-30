@@ -155,3 +155,9 @@ Evidence: runs/2026-10-28.json. Existing Missouri City primary remains a query/s
 ## October 29 seller move planning
 - https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/ → houston-owner-occupant-postclosing-possession-move-plan-versus-later-closing. Owner-occupant needs a moving window: compare later closing with separately agreed postclosing occupancy; evaluate moving dependencies, costs, coverage and backup handoff. Existing guides cover transaction stages, utility providers or signing, not this decision. Original763-word body;12-word-shingle review found only2common phrases with market timeline article.
 - Acquisition/COO evidence: runs/2026-10-29.json. Settled Sep29–Oct26 GSC property869impressions/4clicks; MissouriCity existing primary receives small11–30query samples without clicks. Review existing snippet and seller questions before adding volume; no live rewrite or lead/GP inference.
+
+
+## October30 acquisition evidence
+- No new live articles: HELOC draft held by thumbnail overflow safeguard after one corrective attempt; no approval/template change requested.
+- Existing Missouri City primary remains query/snippet review candidate in settled Sep30–Oct27 GSC evidence; tiny11–30query samples do not establish sustained gains. Property totals921impressions/4clicks are not blog-only or indexing counts.
+- Lead Acquisition/COO evidence: runs/2026-10-30.json. No verified organic lead/GP inference and no live-content rewrite.

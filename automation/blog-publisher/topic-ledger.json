@@ -787,5 +787,19 @@
     "commit": "114a73fa97d1f5e9a02984abaee3c529cb81d2f2",
     "deployId": "6ae352d8724e86f8107bbaca",
     "pr": 37
+  },
+  {
+    "slug": "selling-houston-house-open-heloc",
+    "runId": "native-daily-20261030T133716Z",
+    "day": "2026-10-30",
+    "intentKey": "houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff",
+    "status": "hold",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+    "nearestOverlaps": [
+      "paid-off-mortgage-lien-release-houston",
+      "sell-house-with-liens-houston"
+    ],
+    "substantiveDifference": "An open revolving line may permit further borrowing at zero balance. This guide distinguishes credit limit, borrowed balance, payoff quote, authorization to close and lien handling. Existing mortgage-release guide concerns a previously paid closed loan, not an active line.",
+    "holdReason": "Locked renderer rejected both headline attempts; one corrective attempt exhausted. No template changes or alternate provider. No publication permitted."
   }
 ]
