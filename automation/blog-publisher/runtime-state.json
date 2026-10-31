@@ -4,7 +4,7 @@
     "fence": 24,
     "issuedAt": "2026-10-31T13:55:56.578Z",
     "expiresAt": "2026-10-31T15:50:56.578Z",
-    "releasedAt": null
+    "releasedAt": "2026-10-31T14:06:16.762Z"
   },
   "ledger": [
     {
@@ -1082,10 +1082,10 @@
       "day": "2026-10-31",
       "slug": "selling-houston-house-open-heloc",
       "intentKey": "houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-10-31T13:56:46.022Z",
       "validationOnly": false,
-      "articlePublished": false,
+      "articlePublished": true,
       "priorReservations": [
         {
           "runId": "native-daily-20261030T133716Z",
@@ -1108,35 +1108,43 @@
       "commit": "f4aac79dc8ea482a9af26f322afdc1ccac8efb53",
       "previewCommit": "79a332927301e91091d324bf38efb9ece6734864",
       "previewDeployId": "6ae5f479dc2ed15b34a99051",
-      "noindexPreviewVerified": true
+      "noindexPreviewVerified": true,
+      "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+      "deployId": "6ae5f4dfe505a321d19371cc",
+      "publishedAt": "2026-10-31T14:02:49.966Z",
+      "verifiedAt": "2026-10-31T14:06:09.736998+00:00",
+      "evidenceCommit": "4482149f1eff62abcc3a0fd48f83000a5a4df74e",
+      "bookkeepingDeployId": "6ae5f57dc64789b099f472b5",
+      "monitoringCommit": "68364abb40fe43c1f6edb0b1aa261448d5f74ceb"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261030T133716Z",
-    "fence": 23,
-    "status": "hold",
-    "day": "2026-10-30",
-    "published": 0,
-    "held": 3,
-    "heldScope": "One HELOC draft failed approved thumbnail headline overflow guard after one corrective attempt; two overlapping candidates held before generation.",
-    "productionCommit": null,
-    "deployId": null,
-    "evidence": "automation/blog-publisher/runs/2026-10-30.json",
-    "bookkeepingCommit": "63b784a3738221974116cf05ce20e15dccecbf21",
-    "bookkeepingDeployId": "6ae49fae65c381707724fe2a",
-    "monitoringCommit": "00b6b416790f0ca04986283a93727127701fae77",
+    "runId": "native-daily-20261031T135452Z",
+    "fence": 24,
+    "status": "pass",
+    "day": "2026-10-31",
+    "published": 1,
+    "held": 2,
+    "heldScope": "Two overlapping editorial candidates held before generation, not deployment failures. Never-published October30 HELOC draft recovered through all mandatory gates.",
+    "productionCommit": "f4aac79dc8ea482a9af26f322afdc1ccac8efb53",
+    "deployId": "6ae5f4dfe505a321d19371cc",
+    "evidence": "automation/blog-publisher/runs/2026-10-31.json",
+    "bookkeepingCommit": "4482149f1eff62abcc3a0fd48f83000a5a4df74e",
+    "bookkeepingDeployId": "6ae5f57dc64789b099f472b5",
+    "monitoringCommit": "68364abb40fe43c1f6edb0b1aa261448d5f74ceb",
     "inspectionCalls": 4,
     "externalPaidApiSpendUSD": 0,
     "notificationSent": false,
     "finalLiveCheck": {
       "result": "pass",
-      "eligibleSitemapURLs": 206,
-      "heldURL": 404,
-      "heldAbsentFromBlogRssSitemap": true,
-      "checkedAt": "2026-10-30T13:47:13.101129+00:00"
+      "HTTP": 200,
+      "canonical": true,
+      "heroOGX": true,
+      "attributedCTA": true,
+      "checkedAt": "2026-10-31T14:06:09.736998+00:00"
     },
-    "completedAt": "2026-10-30T13:47:35.271Z"
+    "completedAt": "2026-10-31T14:06:16.762Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
