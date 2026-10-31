@@ -41,7 +41,7 @@
   "fence": 24,
   "day": "2026-10-31",
   "intentKey": "houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff",
-  "status": "draft",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
   "nearestOverlaps": [
     "paid-off-mortgage-lien-release-houston",
@@ -140,7 +140,10 @@
     "build": "pass",
     "metadata": "pass",
     "links": "pass",
-    "mobile": "pass"
+    "mobile": "pass",
+    "preview": "pass",
+    "deploy": "pass",
+    "productionIndexability": "pass"
   },
   "buildEvidence": {
     "command": "npm run build",
@@ -210,8 +213,8 @@
       1366
     ]
   },
-  "commit": null,
-  "deployId": null,
+  "commit": "f4aac79dc8ea482a9af26f322afdc1ccac8efb53",
+  "deployId": "6ae5f4dfe505a321d19371cc",
   "social": {
     "slug": "selling-houston-house-open-heloc",
     "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
@@ -227,5 +230,96 @@
       "#HoustonRealEstate",
       "#SellAsIs"
     ]
+  },
+  "previewEvidence": {
+    "result": "pass",
+    "mode": "preview",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+        "HTTP": 200,
+        "noindex": true,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/paid-off-mortgage-lien-release-houston/",
+          "/compare-the-net/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": true,
+        "CSSMatchesRepositorySource": true,
+        "checkedAt": "2026-10-31T14:01:44.047102+00:00"
+      }
+    ]
+  },
+  "pr": 38,
+  "previewCommit": "79a332927301e91091d324bf38efb9ece6734864",
+  "previewDeployId": "6ae5f479dc2ed15b34a99051",
+  "publishedAt": "2026-10-31T14:02:49.966Z",
+  "verifiedAt": "2026-10-31T14:04:08.886935+00:00",
+  "productionEvidence": {
+    "result": "pass",
+    "mode": "production",
+    "articles": [
+      {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": true,
+        "schema": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "FAQ": 4,
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "heroOGX": true,
+        "internalLinks": [
+          "/blog/paid-off-mortgage-lien-release-houston/",
+          "/compare-the-net/",
+          "/blog/sell-house-with-liens-houston/"
+        ],
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "HTMLMatchesVisualBuildExceptNetlifyToolbar": true,
+        "CSSMatchesRepositorySource": true,
+        "checkedAt": "2026-10-31T14:04:08.886935+00:00"
+      }
+    ]
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-10-31",
+    "errors": []
+  },
+  "googleInspection": {
+    "id": "a4d785f9-87be-49fc-8f56-baba0d802bfa",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+    "verdict": "NEUTRAL",
+    "coverage_state": "URL is unknown to Google",
+    "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+    "last_crawl_time": null,
+    "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "crawled_as": null,
+    "requested_at": "2026-10-31T14:04:23.187594+00:00",
+    "google_canonical": null,
+    "user_canonical": null,
+    "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7V_Oc8qIuOApisyYCKFh2Q&utm_medium=link&utm_source=api"
   }
 }

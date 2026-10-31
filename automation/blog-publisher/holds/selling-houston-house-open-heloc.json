@@ -180,5 +180,11 @@
     "expression": "200000 - 140000 - 20000",
     "result": 40000,
     "allOtherCostsExcluded": true
+  },
+  "resolution": {
+    "resolvedAt": "2026-10-31T14:04:38.529183+00:00",
+    "record": "automation/blog-publisher/records/selling-houston-house-open-heloc.json",
+    "commit": "f4aac79dc8ea482a9af26f322afdc1ccac8efb53",
+    "note": "Historical hold retained; never-published draft refreshed and all release checks completed."
   }
 }

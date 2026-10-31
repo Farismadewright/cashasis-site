@@ -161,3 +161,8 @@ Evidence: runs/2026-10-28.json. Existing Missouri City primary remains a query/s
 - No new live articles: HELOC draft held by thumbnail overflow safeguard after one corrective attempt; no approval/template change requested.
 - Existing Missouri City primary remains query/snippet review candidate in settled Sep30–Oct27 GSC evidence; tiny11–30query samples do not establish sustained gains. Property totals921impressions/4clicks are not blog-only or indexing counts.
 - Lead Acquisition/COO evidence: runs/2026-10-30.json. No verified organic lead/GP inference and no live-content rewrite.
+
+
+## October31 HELOC seller support
+- https://www.cashasis.com/blog/selling-houston-house-open-heloc/ → houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff. An open revolving line may permit further borrowing at zero balance. This guide distinguishes credit limit, borrowed balance, payoff quote, authorization to close and lien handling. Existing mortgage-release guide concerns a previously paid closed loan, not an active line.
+- Acquisition/COO evidence: runs/2026-10-31.json. Settled Oct1–Oct28 GSC property965impressions/4clicks; existing MissouriCity primary remains a small-sample11–30query/snippet opportunity. No organic seller or funded-GP inference, existing-content rewrite, indexing request or social send.

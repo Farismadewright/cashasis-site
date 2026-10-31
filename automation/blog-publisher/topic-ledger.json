@@ -790,16 +790,35 @@
   },
   {
     "slug": "selling-houston-house-open-heloc",
-    "runId": "native-daily-20261030T133716Z",
-    "day": "2026-10-30",
+    "runId": "native-daily-20261031T135452Z",
+    "day": "2026-10-31",
     "intentKey": "houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff",
-    "status": "hold",
+    "status": "published",
     "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
     "nearestOverlaps": [
       "paid-off-mortgage-lien-release-houston",
       "sell-house-with-liens-houston"
     ],
     "substantiveDifference": "An open revolving line may permit further borrowing at zero balance. This guide distinguishes credit limit, borrowed balance, payoff quote, authorization to close and lien handling. Existing mortgage-release guide concerns a previously paid closed loan, not an active line.",
-    "holdReason": "Locked renderer rejected both headline attempts; one corrective attempt exhausted. No template changes or alternate provider. No publication permitted."
+    "publishedAt": "2026-10-31T14:02:49.966Z",
+    "commit": "f4aac79dc8ea482a9af26f322afdc1ccac8efb53",
+    "deployId": "6ae5f4dfe505a321d19371cc",
+    "pr": 38,
+    "priorReservations": [
+      {
+        "slug": "selling-houston-house-open-heloc",
+        "runId": "native-daily-20261030T133716Z",
+        "day": "2026-10-30",
+        "intentKey": "houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff",
+        "status": "hold",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+        "nearestOverlaps": [
+          "paid-off-mortgage-lien-release-houston",
+          "sell-house-with-liens-houston"
+        ],
+        "substantiveDifference": "An open revolving line may permit further borrowing at zero balance. This guide distinguishes credit limit, borrowed balance, payoff quote, authorization to close and lien handling. Existing mortgage-release guide concerns a previously paid closed loan, not an active line.",
+        "holdReason": "Locked renderer rejected both headline attempts; one corrective attempt exhausted. No template changes or alternate provider. No publication permitted."
+      }
+    ]
   }
 ]
