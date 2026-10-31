@@ -1,0 +1,231 @@
+{
+  "title": "Selling a Houston House With an Open HELOC",
+  "description": "Selling with a Houston HELOC? Separate the balance, payoff quote, account closure and lien release before relying on your estimated sale proceeds.",
+  "primaryKeyword": "selling Houston house with HELOC",
+  "supportingKeywords": [
+    "HELOC payoff when selling house",
+    "zero balance HELOC lien",
+    "Houston home equity line closing"
+  ],
+  "pubDate": "2026-10-31T13:54:52Z",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "tags": [
+    "Houston",
+    "seller preparation",
+    "HELOC"
+  ],
+  "image": "/images/selling-houston-house-open-heloc.png",
+  "imageAlt": "Illustrative Houston-area brick house with HELOC PLAN AHEAD headline and official transparent Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Can I sell a Houston house with an open HELOC?",
+      "a": "Usually, an open HELOC does not by itself prevent a sale. Tell the closing team about it early so the lender's payoff, account-closure and lien requirements can be addressed for the transaction."
+    },
+    {
+      "q": "Does a zero HELOC balance prove the account is closed?",
+      "a": "No. A revolving credit line can have no current balance and still be open. Confirm account status and what the lender and closing team require rather than treating the balance screen as title clearance."
+    },
+    {
+      "q": "Should I subtract the HELOC credit limit from the sale price?",
+      "a": "The credit limit is not the same as the amount owed. Use a current payoff quote and the closing team's complete estimate of transaction costs to evaluate expected proceeds."
+    },
+    {
+      "q": "Does a cash offer remove a HELOC lien?",
+      "a": "No. A cash purchase does not replace lender or title requirements. Compare the offer and responsibilities while the appropriate professionals confirm how the credit line will be handled."
+    }
+  ],
+  "slug": "selling-houston-house-open-heloc",
+  "runId": "native-daily-20261031T135452Z",
+  "fence": 24,
+  "day": "2026-10-31",
+  "intentKey": "houston-seller-open-heloc-paydown-versus-account-closure-lien-payoff",
+  "status": "draft",
+  "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+  "nearestOverlaps": [
+    "paid-off-mortgage-lien-release-houston",
+    "sell-house-with-liens-houston"
+  ],
+  "substantiveDifference": "An open revolving line may permit further borrowing at zero balance. This guide distinguishes credit limit, borrowed balance, payoff quote, authorization to close and lien handling. Existing mortgage-release guide concerns a previously paid closed loan, not an active line.",
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-home-equity-line-of-credit-heloc-en-107/",
+      "title": "CFPB HELOC explanation",
+      "publicationDate": "2026-08-28 last review",
+      "verifiedAt": "2026-10-31T13:59:57.122207+00:00",
+      "accessedAt": "2026-10-31",
+      "geography": "US",
+      "claim": "Open-end revolving borrowing, credit limit and draw period differ from borrowed balance.",
+      "method": "Current official agency page read."
+    },
+    {
+      "url": "https://www.chase.com/personal/home-equity/customer-service/info/pay-off-account",
+      "title": "Chase HELOC payoff instructions",
+      "publicationDate": null,
+      "verifiedAt": "2026-10-31T13:59:57.122207+00:00",
+      "accessedAt": "2026-10-31",
+      "geography": "Lender-specific US example",
+      "claim": "A zero-balance line can remain open; Chase describes payoff and authorization to close and lien retention while open. Do not generalize its forms, fees or deadlines.",
+      "method": "Current first-party servicer page read."
+    },
+    {
+      "url": "https://www.chase.com/personal/mortgage/education/financing-a-home/what-happens-to-heloc-when-you-sell-your-house",
+      "title": "Chase HELOC at sale",
+      "publicationDate": "2026-07-30",
+      "verifiedAt": "2026-10-31T13:59:57.122207+00:00",
+      "accessedAt": "2026-10-31",
+      "geography": "US lender explanation",
+      "claim": "HELOC normally paid at sale; fees, withdrawals and administrative requirements can affect process.",
+      "method": "Current first-party lender education page read."
+    }
+  ],
+  "sellerVoice": {
+    "sample": 100,
+    "inboundScreened": 42,
+    "screenedDistinctSellerCounts": {
+      "price": 4,
+      "repairs": 1,
+      "timing": 0
+    },
+    "method": "Bounded read-only keyword screen. Broad possible concerns, not evidence of HELOC-specific recurring demand. No raw private conversations persisted."
+  },
+  "originality": {
+    "words": 839,
+    "twelveWordMatches": [],
+    "backgroundSHA256": "6fa70781000b516cd056761c700b72b297f4141dd4c272d280fe284277ac414f"
+  },
+  "hypotheticalCalculationVerified": {
+    "expression": "200000-140000-20000",
+    "result": 40000,
+    "allOtherCostsExcluded": true
+  },
+  "resumedFrom": {
+    "originalDraftDate": "2026-10-30",
+    "priorHoldRecord": "automation/blog-publisher/holds/selling-houston-house-open-heloc.json",
+    "priorRunRetained": "automation/blog-publisher/runs/2026-10-30.json",
+    "note": "Never-published held draft refreshed and re-reviewed, not a new body claimed. Fresh original native image generated October31."
+  },
+  "imageProvenance": {
+    "type": "native_imagegen_original_illustration",
+    "background": "generated_images/exec-a3023db2-e53f-467e-8205-9d355bf18903.png",
+    "backgroundSHA256": "6fa70781000b516cd056761c700b72b297f4141dd4c272d280fe284277ac414f",
+    "prompt": "Use case: photorealistic-natural. Create one original wide editorial-style realistic photograph illustration of a modest Houston-area single-story tan brick house with an attached garage and covered doorway on the right half, mature leafy oak tree shading the left half with generous dark negative space for later brand overlay. Warm late-morning daylight, normal lived-in slightly worn property, believable yard, no severe damage. Keep house and roof within wide 1200:630 cropping area. No people, text, numbers, addresses, sale signs, documents, logos or watermark. Not an actual listing.",
+    "renderer": "locked left-photo-transparent-v2",
+    "headline": "HELOC?|PLAN AHEAD",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logo": "official white/orange transparent",
+    "visualCorrection": "Three-line headline fit renderer, but card category badge obscured lower line. One correction to two lines with same font/logo/renderer/background."
+  },
+  "imageSha256": "6b6f4ae5afb19c175daea7abe2924b590b3321838a7473cd8c8de8dfcd2e0f45",
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Native Work allowance; incremental cost not separately metered. No paid provider/service/upgrade."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass"
+  },
+  "buildEvidence": {
+    "command": "npm run build",
+    "result": "pass",
+    "outputValidator": "pass",
+    "nodeTests": 13,
+    "pythonTests": 5,
+    "protectedDesignSourceChanges": false
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-open-heloc.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-open-heloc.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-open-heloc.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-open-heloc.png"
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "widths": [
+      390,
+      1366
+    ]
+  },
+  "commit": null,
+  "deployId": null,
+  "social": {
+    "slug": "selling-houston-house-open-heloc",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+    "image": "https://www.cashasis.com/images/selling-houston-house-open-heloc.png",
+    "status": "draft_only",
+    "facebook": "A zero HELOC balance does not necessarily mean the credit line is closed. Review payoff, account status and lender requirements before relying on sale proceeds.\nhttps://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+    "instagram": "Selling a Houston House With an Open HELOC\n\nSelling with a Houston HELOC? Separate the balance, payoff quote, account closure and lien release before relying on your estimated sale proceeds.\n\nRead the guide: https://www.cashasis.com/blog/selling-houston-house-open-heloc/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Houston House With an Open HELOC\n\nSelling with a Houston HELOC? Separate the balance, payoff quote, account closure and lien release before relying on your estimated sale proceeds.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+    "googleBusinessProfile": "Selling a Houston House With an Open HELOC\n\nSelling with a Houston HELOC? Separate the balance, payoff quote, account closure and lien release before relying on your estimated sale proceeds.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+    "promotionalExcerpt": "Selling with a Houston HELOC? Separate the balance, payoff quote, account closure and lien release before relying on your estimated sale proceeds.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  }
+}
