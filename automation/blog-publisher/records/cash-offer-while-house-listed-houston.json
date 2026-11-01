@@ -1,0 +1,259 @@
+{
+  "title": "Cash Offer While Your Houston House Is Listed: Check These Terms",
+  "description": "Already listed your Houston house and received a cash offer? Check broker fees, release terms and expected proceeds before choosing your next step.",
+  "pubDate": "2026-11-01 14:23:14+00:00",
+  "author": "CashAsIs",
+  "category": "Houston Seller Guide",
+  "readTime": "5 min read",
+  "primaryKeyword": "cash offer while house is listed Houston",
+  "supportingKeywords": [
+    "listing agreement cash buyer",
+    "broker fee direct house sale",
+    "listing release seller checklist"
+  ],
+  "tags": [
+    "Houston",
+    "cash offer",
+    "listing agreement",
+    "seller decisions"
+  ],
+  "image": "/images/cash-offer-while-house-listed-houston.png",
+  "imageAlt": "Illustrative Houston-area brick house with the headline Listed? Check Fees and the official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Can I consider a cash offer while my house is listed?",
+      "a": "You can evaluate an offer, but your listing agreement and any existing sale contract need to be reviewed before you commit. Tell your listing broker about the proposal and clarify fees and any required arrangements."
+    },
+    {
+      "q": "Does finding my own buyer mean I owe no broker fee?",
+      "a": "Do not assume that. The signed listing agreement, amendments and any release determine the obligations to review. A direct buyer's pricing does not cancel a separate agreement with your broker."
+    },
+    {
+      "q": "Does removing the online listing cancel the agreement?",
+      "a": "Treat marketing status and the signed agreement as separate questions. Obtain the documents establishing any agreed termination or release and review whether fees or other terms remain."
+    },
+    {
+      "q": "Should I wait for the listing to expire before accepting an offer?",
+      "a": "There is no universal answer. Review the term, any post-listing obligations, the proposed buyer and your timing needs with the broker or your attorney before deciding. Expiration alone should not be treated as proof that every obligation has ended."
+    }
+  ],
+  "slug": "cash-offer-while-house-listed-houston",
+  "runId": "native-daily-20261101T141844Z",
+  "fence": 25,
+  "day": "2026-11-01",
+  "intentKey": "houston-listed-seller-broker-agreement-cash-offer-fee-release-review",
+  "status": "preview",
+  "url": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+  "commit": null,
+  "deployId": null,
+  "nearestOverlaps": [
+    "sell-house-without-realtor-houston",
+    "cash-offer-vs-listing-house-houston",
+    "how-cash-offer-house-works-houston"
+  ],
+  "substantiveDifference": "First dedicated already-listed seller workflow: obtain broker agreement/amendments, check seller-found buyer compensation and written release/surviving obligations, then compare actual net costs. Existing guides cover direct sale without hiring an agent, broad list-versus-cash choice or buyer process, not existing brokerage commitments. No buyer-verification or withdrawn earnest-money topic.",
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 35,
+    "possibleThemes": {
+      "price": 2,
+      "repair": 2,
+      "timing": 2
+    },
+    "note": "Bounded keyword screen; no new topic-specific recurring demand established. Raw messages not retained."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Existing native Work/Netlify allowances; incremental native cost unavailable, not asserted zero. No paid API/provider used."
+  },
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/i-listed-my-property-sale-broker-and-broker-has-done-nothing-about-selling-house-can-i-break-my",
+      "title": "TREC private listing contract/cancellation FAQ",
+      "publicationDate": null,
+      "verifiedAt": "2026-11-01T14:24:06.892027+00:00",
+      "accessedAt": "2026-11-01",
+      "geography": "Texas general education, applies to Houston/Harris/Fort Bend sellers",
+      "reportingPeriod": "Current guidance accessed2026-11-01",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh primary regulatory/form-provider page read through native search and open, cross-checked against regulator; paraphrased without reproducing forms.",
+      "claim": "Listing agreement private; TREC cannot decide private contract matters; ask broker about agreed release or attorney about disputed termination."
+    },
+    {
+      "url": "https://www.texasrealestate.com/legal-and-ethics/legal-resources/legal-faqs/listing-agreements-nar-settlement-and-forms-changes",
+      "title": "Texas REALTORS listing compensation guidance",
+      "publicationDate": "2026-06-10 (multiple FAQ updates; residential section2025-09-08)",
+      "verifiedAt": "2026-11-01T14:24:06.892027+00:00",
+      "accessedAt": "2026-11-01",
+      "geography": "Texas general education, applies to Houston/Harris/Fort Bend sellers",
+      "reportingPeriod": "Current guidance accessed2026-11-01",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh primary regulatory/form-provider page read through native search and open, cross-checked against regulator; paraphrased without reproducing forms.",
+      "claim": "Negotiated percentage, flat-fee and alternative compensation forms; do not infer a universal rate or fee waiver."
+    },
+    {
+      "url": "https://www.texasrealestate.com/legal-and-ethics/legal-resources/legal-faqs/listing-agreements",
+      "title": "Texas REALTORS listing agreement FAQ",
+      "publicationDate": "2025-09-17",
+      "verifiedAt": "2026-11-01T14:24:06.892027+00:00",
+      "accessedAt": "2026-11-01",
+      "geography": "Texas general education, applies to Houston/Harris/Fort Bend sellers",
+      "reportingPeriod": "Current guidance accessed2026-11-01",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh primary regulatory/form-provider page read through native search and open, cross-checked against regulator; paraphrased without reproducing forms.",
+      "claim": "Named-buyer fee may survive an agreed termination in the FAQ example; individualized agreement governs, no universal protection period asserted."
+    }
+  ],
+  "imageSha256": "4c7d1da51468d8fe52f693dcef7df4ae39a89650899d4d1a677b303dfb867eda",
+  "imageProvenance": {
+    "type": "native_imagegen_original_illustration",
+    "background": "generated_images/exec-f22ed8be-f6fc-4976-8897-6c94e6fd4987.png",
+    "backgroundSHA256": "6f7102c447278211a388301d0513402835e241f715adc542cc51ec4b56f4faa6",
+    "prompt": "Use case: photorealistic-natural. Asset: original illustrative Cash As-Is editorial property background for a Houston seller guide, wide 1200:630 composition. Realistic modest older Houston-area red brick single-story house on the RIGHT half, simple cream garage door and slightly worn concrete driveway, mature oak trees and generous shaded dark leafy negative space on the LEFT half for later approved typography. Soft natural morning daylight and believable suburban yard, normal condition with minor deferred maintenance. House roof and facade fully visible within wide crop. No people, text, numbers, addresses, listing signs, logos, documents or watermark. Not a real property listing.",
+    "renderer": "locked left-photo-transparent-v2",
+    "headline": "LISTED?|CHECK FEES",
+    "wordCount": 3,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logo": "Official transparent white/orange, alpha verified by locked renderer",
+    "visualReview": "Full image and390/1366 blog cards: clear headline, unclipped transparent logo, no logo background panel; house visible. No composition retries."
+  },
+  "originality": {
+    "bodyWords": 884,
+    "twelveWordMatches": [
+      {
+        "slugs": [
+          "selling-houston-house-from-out-of-state-signing",
+          "how-to-verify-cash-home-buyer-texas"
+        ],
+        "count": 2,
+        "reason": "Same short internal-link label and URL only; no substantive body duplication."
+      }
+    ],
+    "semanticReview": "Inventory202 entries includes drafts/static templates. Read three closest active pages, current intent map/ledger and openPRs27/7/6/5. Broker-agreement review is a distinct supporting intent, not another Houston cash buyer money page."
+  },
+  "social": {
+    "slug": "cash-offer-while-house-listed-houston",
+    "url": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "image": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png",
+    "status": "draft_only",
+    "facebook": "Cash Offer While Your Houston House Is Listed: Check These Terms\n\nAlready listed your Houston house and received a cash offer? Check broker fees, release terms and expected proceeds before choosing your next step.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "instagram": "Cash Offer While Your Houston House Is Listed: Check These Terms\n\nAlready listed your Houston house and received a cash offer? Check broker fees, release terms and expected proceeds before choosing your next step.\n\nRead the guide: https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Cash Offer While Your Houston House Is Listed: Check These Terms\n\nAlready listed your Houston house and received a cash offer? Check broker fees, release terms and expected proceeds before choosing your next step.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "googleBusinessProfile": "Cash Offer While Your Houston House Is Listed: Check These Terms\n\nAlready listed your Houston house and received a cash offer? Check broker fees, release terms and expected proceeds before choosing your next step.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "promotionalExcerpt": "Already listed your Houston house and received a cash offer? Check broker fees, release terms and expected proceeds before choosing your next step.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending",
+    "conversionReporting": "unavailable_optional"
+  },
+  "seoQA": {
+    "specificSellerIntent": "Already-listed Houston seller considering a direct cash offer",
+    "indexability": "Built production route200, no noindex; preview noindex remains required",
+    "canonical": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "sitemapEligibility": "Included in generated sitemap/RSS and automatic blog hub inbound card",
+    "internalLinks": [
+      "/blog/how-cash-offer-house-works-houston/",
+      "/compare-the-net/"
+    ],
+    "sellerPath": "Existing attributed layout CTA and offer form; no fake lead submitted",
+    "faq": "Four visible frontmatter FAQs match generated JSON-LD",
+    "quality": "Direct answer; document checklist, broker discussion prompts, surviving term example and fair choice; no cancellation rights or closing guarantees",
+    "measurement": "Actual Google URL Inspection after production; GA4 optional, no distinct seller leads inferred",
+    "preservation": "No changes to live October14 improvements, protected design/forms/tracking or withdrawn content"
+  },
+  "validation": {
+    "build": "npm run build pass",
+    "outputValidator": "pass",
+    "nodeTests": 13,
+    "pythonGateTests": 5,
+    "mobile": {
+      "passed": true,
+      "results": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "body": 274,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 274,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+          "og": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "body": 304,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 304,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+          "og": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+          "og": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png"
+        },
+        {
+          "width": 1366,
+          "scroll": 1366,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+          "og": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png"
+        }
+      ]
+    },
+    "cardWidths": [
+      390,
+      1366
+    ],
+    "visualReview": "Readable article/card at mobile and desktop; corrected frontmatter to timestamp so Central visible publication date is November1; no layout changes."
+  }
+}
