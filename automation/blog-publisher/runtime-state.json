@@ -3,7 +3,8 @@
     "runId": "native-daily-20261101T141844Z",
     "fence": 25,
     "issuedAt": "2026-11-01T14:18:44.644Z",
-    "expiresAt": "2026-11-01T16:13:44.644Z"
+    "expiresAt": "2026-11-01T16:13:44.644Z",
+    "releasedAt": "2026-11-01T14:32:04.086Z"
   },
   "ledger": [
     {
@@ -1122,7 +1123,7 @@
       "day": "2026-11-01",
       "slug": "cash-offer-while-house-listed-houston",
       "intentKey": "houston-listed-seller-broker-agreement-cash-offer-fee-release-review",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-01T14:19:43.085Z",
       "validationOnly": false,
       "pr": 39,
@@ -1133,36 +1134,47 @@
         "allowed": true,
         "errors": [],
         "checkedAt": "2026-11-01T14:27:30.921Z"
-      }
+      },
+      "articlePublished": true,
+      "commit": "6c90a9914e9107a1a46c85b2faae25cd34c9fa47",
+      "deployId": "6ae74c59d79280473ed5c70c",
+      "url": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+      "publishedAt": "2026-11-01T14:28:13.955Z",
+      "verifiedAt": "2026-11-01T14:31:17.986603+00:00",
+      "evidenceCommit": "9e7243834829074f2b2c52639d4416d220ee87b8",
+      "bookkeepingDeployId": "6ae74d0434c713ef4793079c",
+      "monitoringCommit": "a8dacf8d5c9a60a29139b5a8e2a192930cfe03e9"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261031T135452Z",
-    "fence": 24,
+    "runId": "native-daily-20261101T141844Z",
+    "fence": 25,
     "status": "pass",
-    "day": "2026-10-31",
+    "day": "2026-11-01",
     "published": 1,
     "held": 2,
-    "heldScope": "Two overlapping editorial candidates held before generation, not deployment failures. Never-published October30 HELOC draft recovered through all mandatory gates.",
-    "productionCommit": "f4aac79dc8ea482a9af26f322afdc1ccac8efb53",
-    "deployId": "6ae5f4dfe505a321d19371cc",
-    "evidence": "automation/blog-publisher/runs/2026-10-31.json",
-    "bookkeepingCommit": "4482149f1eff62abcc3a0fd48f83000a5a4df74e",
-    "bookkeepingDeployId": "6ae5f57dc64789b099f472b5",
-    "monitoringCommit": "68364abb40fe43c1f6edb0b1aa261448d5f74ceb",
-    "inspectionCalls": 4,
+    "heldScope": "Two overlapping editorial candidates held before generation; no publishing failures.",
+    "productionCommit": "6c90a9914e9107a1a46c85b2faae25cd34c9fa47",
+    "deployId": "6ae74c59d79280473ed5c70c",
+    "evidence": "automation/blog-publisher/runs/2026-11-01.json",
+    "bookkeepingCommit": "9e7243834829074f2b2c52639d4416d220ee87b8",
+    "bookkeepingDeployId": "6ae74d0434c713ef4793079c",
+    "monitoringCommit": "a8dacf8d5c9a60a29139b5a8e2a192930cfe03e9",
+    "inspectionCalls": 13,
     "externalPaidApiSpendUSD": 0,
-    "notificationSent": false,
+    "notificationSent": true,
+    "notificationReason": "First confirmed persistent review threshold for11legacyURLs;2contextual-link issues; owner commentary delivered, fingerprints retained.",
     "finalLiveCheck": {
       "result": "pass",
       "HTTP": 200,
       "canonical": true,
       "heroOGX": true,
       "attributedCTA": true,
-      "checkedAt": "2026-10-31T14:06:09.736998+00:00"
+      "visiblePublicationDate": "November1,2026",
+      "checkedAt": "2026-11-01T14:31:17.986603+00:00"
     },
-    "completedAt": "2026-10-31T14:06:16.762Z"
+    "completedAt": "2026-11-01T14:32:04.086Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
