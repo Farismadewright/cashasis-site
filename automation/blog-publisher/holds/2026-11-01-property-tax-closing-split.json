@@ -1,0 +1,12 @@
+{
+  "candidate": "Property-tax closing split for Houston seller",
+  "intentKey": "houston-property-tax-proration",
+  "status": "hold",
+  "reason": "property-tax-proration-selling-houston-house already covers the closing allocation question. No city/synonym version generated.",
+  "generationPerformed": false,
+  "existingURL": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+  "runId": "native-daily-20261101T141844Z",
+  "day": "2026-11-01",
+  "heldAt": "2026-11-01T14:28:31.739066+00:00",
+  "articlePublished": false
+}

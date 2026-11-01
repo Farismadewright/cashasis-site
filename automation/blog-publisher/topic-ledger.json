@@ -820,5 +820,24 @@
         "holdReason": "Locked renderer rejected both headline attempts; one corrective attempt exhausted. No template changes or alternate provider. No publication permitted."
       }
     ]
+  },
+  {
+    "runId": "native-daily-20261101T141844Z",
+    "fence": 25,
+    "day": "2026-11-01",
+    "slug": "cash-offer-while-house-listed-houston",
+    "intentKey": "houston-listed-seller-broker-agreement-cash-offer-fee-release-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "nearestOverlaps": [
+      "sell-house-without-realtor-houston",
+      "cash-offer-vs-listing-house-houston",
+      "how-cash-offer-house-works-houston"
+    ],
+    "substantiveDifference": "First dedicated already-listed seller workflow: obtain broker agreement/amendments, check seller-found buyer compensation and written release/surviving obligations, then compare actual net costs. Existing guides cover direct sale without hiring an agent, broad list-versus-cash choice or buyer process, not existing brokerage commitments. No buyer-verification or withdrawn earnest-money topic.",
+    "commit": "6c90a9914e9107a1a46c85b2faae25cd34c9fa47",
+    "deployId": "6ae74c59d79280473ed5c70c",
+    "pr": 39,
+    "publishedAt": "2026-11-01T14:28:13.955Z"
   }
 ]

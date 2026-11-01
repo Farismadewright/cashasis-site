@@ -42,10 +42,10 @@
   "fence": 25,
   "day": "2026-11-01",
   "intentKey": "houston-listed-seller-broker-agreement-cash-offer-fee-release-review",
-  "status": "preview",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
-  "commit": null,
-  "deployId": null,
+  "commit": "6c90a9914e9107a1a46c85b2faae25cd34c9fa47",
+  "deployId": "6ae74c59d79280473ed5c70c",
   "nearestOverlaps": [
     "sell-house-without-realtor-houston",
     "cash-offer-vs-listing-house-houston",
@@ -173,8 +173,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending",
+    "preview": "pass",
+    "deploy": "pass",
     "conversionReporting": "unavailable_optional"
   },
   "seoQA": {
@@ -255,5 +255,102 @@
       1366
     ],
     "visualReview": "Readable article/card at mobile and desktop; corrected frontmatter to timestamp so Central visible publication date is November1; no layout changes."
+  },
+  "previewQA": {
+    "url": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "checkedUrl": "https://deploy-preview-39--cashasis-blog.netlify.app/blog/cash-offer-while-house-listed-houston/",
+    "http": 200,
+    "technicalEligible": false,
+    "technicalVerifiedAt": "2026-11-01T14:26:24.470999+00:00",
+    "canonical": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "robots": "noindex ",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "image": {
+      "url": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png",
+      "actualFetched": "https://deploy-preview-39--cashasis-blog.netlify.app/images/cash-offer-while-house-listed-houston.png",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "sha256": "4c7d1da51468d8fe52f693dcef7df4ae39a89650899d4d1a677b303dfb867eda"
+    },
+    "links": {
+      "/blog/how-cash-offer-house-works-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTAs": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=cash-offer-while-house-listed-houston&utm_term=post",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=cash-offer-while-house-listed-houston&utm_term=post"
+    ],
+    "sitemap": true,
+    "rss": true,
+    "blogIndex": true,
+    "robotsCrawlable": false,
+    "HTMLCSSParity": true,
+    "status": "pass"
+  },
+  "previewCommit": "a6fe04a19915776341d47512d34ad1213c194a64",
+  "previewDeployId": "6ae74bcaec599b929d7e7333",
+  "pr": 39,
+  "publishedAt": "2026-11-01T14:28:13.955Z",
+  "verifiedAt": "2026-11-01T14:29:16.666902+00:00",
+  "productionQA": {
+    "url": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "checkedUrl": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "http": 200,
+    "technicalEligible": true,
+    "technicalVerifiedAt": "2026-11-01T14:29:16.666902+00:00",
+    "canonical": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/",
+    "robots": " ",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "image": {
+      "url": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png",
+      "actualFetched": "https://www.cashasis.com/images/cash-offer-while-house-listed-houston.png",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "sha256": "4c7d1da51468d8fe52f693dcef7df4ae39a89650899d4d1a677b303dfb867eda"
+    },
+    "links": {
+      "/blog/how-cash-offer-house-works-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTAs": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=cash-offer-while-house-listed-houston&utm_term=post",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=cash-offer-while-house-listed-houston&utm_term=post"
+    ],
+    "sitemap": true,
+    "rss": true,
+    "blogIndex": true,
+    "robotsCrawlable": true,
+    "HTMLCSSParity": true,
+    "status": "pass"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-01",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-01T14:28:59.196535+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YTMY0Aqvky3dPBVjmqI_IA&utm_medium=link&utm_source=api"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "candidate": "Existing survey acceptance before selling",
+  "intentKey": "texas-existing-survey-acceptance",
+  "status": "hold",
+  "reason": "Dedicated existing-survey-when-selling-texas-house already answers survey acceptance and T47/T47.1 uncertainty. No new distinct value established.",
+  "generationPerformed": false,
+  "existingURL": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+  "runId": "native-daily-20261101T141844Z",
+  "day": "2026-11-01",
+  "heldAt": "2026-11-01T14:28:31.739043+00:00",
+  "articlePublished": false
+}
