@@ -1115,6 +1115,16 @@
       "evidenceCommit": "4482149f1eff62abcc3a0fd48f83000a5a4df74e",
       "bookkeepingDeployId": "6ae5f57dc64789b099f472b5",
       "monitoringCommit": "68364abb40fe43c1f6edb0b1aa261448d5f74ceb"
+    },
+    {
+      "runId": "native-daily-20261101T141844Z",
+      "fence": 25,
+      "day": "2026-11-01",
+      "slug": "cash-offer-while-house-listed-houston",
+      "intentKey": "houston-listed-seller-broker-agreement-cash-offer-fee-release-review",
+      "status": "reserved",
+      "reservedAt": "2026-11-01T14:19:43.085Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
