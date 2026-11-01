@@ -10231,7 +10231,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "4fee7075bb753c81f770b9952f7744d2ab5873b6e523e0bbfd2d69db3e3dc5be",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/|persistent_indexing_review",
@@ -10242,7 +10244,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "d5b295b4da683cb52f42e57efa20705f44496ff1c86c27d93dc2a0aaf5d139a9",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/|persistent_indexing_review",
@@ -10253,7 +10257,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "55843a6cd723bf5f10035e51960294c45d53f518d9954b345a8d6d307eba164c",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/|persistent_indexing_review",
@@ -10264,7 +10270,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "33dd8ced8e32d81fcfbc92b5aca638c35af37c931391a6c2a911b9027e77b1d5",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/|technical:missing_contextual_internal_links",
@@ -10275,7 +10283,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "18d16fc925a4ae088c7caa5ccefef9fa633b8fd0b4a20ca4b43d6c11f699e7de",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/|persistent_indexing_review",
@@ -10286,7 +10296,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "0a997027938f34125d24f6af17eff767413b399bc40ac496bfa3a020d10a1ea6",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/|persistent_indexing_review",
@@ -10297,7 +10309,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "92ec34e18f8b106961fca06894c905ea0c29871d140253ec9c6d85b908263748",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/blog/stop-foreclosure-detroit/|technical:missing_contextual_internal_links",
@@ -10308,7 +10322,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "0c106c9cec2800798865ef14ce028e6f089ca4951b6deb7ab2e1e9f909ab8234",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/compare-the-net/|persistent_indexing_review",
@@ -10319,7 +10335,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "3a12555ce9ef9948da42a2234bfa53c28dae6e0754d6f98d2483457ade0d5649",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/|persistent_indexing_review",
@@ -10330,7 +10348,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "d4a9f00aacd90a86c8cb5b9b4dcd829cd16e636df8f9d4ac231c70156f7f1da6",
+      "resolvedAt": null
     },
     {
       "issueKey": "https://www.cashasis.com/traditional-sale-requirements/|persistent_indexing_review",
@@ -10341,7 +10361,9 @@
       "deliveryStatus": "delivered_in_owner_commentary",
       "deliveryEvidence": "Owner-facing commentary in this run reported11 repeatedly unindexed legacy URLs,2Detroit articles without contextual links and local-overlap review. No rewrite/indexing action promised.",
       "evidenceRecord": "automation/blog-publisher/runs/2026-11-01.json",
-      "noGoogleRejectionClaim": true
+      "noGoogleRejectionClaim": true,
+      "evidenceFingerprint": "5d6646f5bb92e3aadab40ef5a8b419ee4dbb16cbb029f4b4a17a83cf978604f5",
+      "resolvedAt": null
     }
   ],
   "reportReceipts": {
@@ -10404,7 +10426,9 @@
     "monthlyDue": false,
     "monthlyDataDeferred": true,
     "notificationSent": true,
-    "completedAt": "2026-11-01T14:30:05.924152+00:00"
+    "completedAt": "2026-11-01T14:30:05.924152+00:00",
+    "bookkeepingCommit": "9e7243834829074f2b2c52639d4416d220ee87b8",
+    "bookkeepingDeployId": "6ae74d0434c713ef4793079c"
   },
   "now": "2026-11-01T14:30:05.924152+00:00",
   "lastRunId": "native-daily-20261101T141844Z",
@@ -10434,7 +10458,9 @@
     "monthlyDue": false,
     "monthlyDataDeferred": true,
     "notificationSent": true,
-    "completedAt": "2026-11-01T14:30:05.924152+00:00"
+    "completedAt": "2026-11-01T14:30:05.924152+00:00",
+    "bookkeepingCommit": "9e7243834829074f2b2c52639d4416d220ee87b8",
+    "bookkeepingDeployId": "6ae74d0434c713ef4793079c"
   },
   "pendingInspectionQueue": [],
   "notificationSuppression": {
