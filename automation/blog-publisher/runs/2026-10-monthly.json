@@ -1,0 +1,326 @@
+{
+  "period": "2026-10",
+  "status": "partial_retry_maturity_verification",
+  "reviewedAt": "2026-11-02T14:49:34.001175+00:00",
+  "GSCSettledThrough": "2026-10-31",
+  "periods": {
+    "current": [
+      "2026-10-01",
+      "2026-10-31"
+    ],
+    "prior": [
+      "2026-09-01",
+      "2026-09-30"
+    ]
+  },
+  "propertyGSC": {
+    "october": {
+      "kind": "kpis",
+      "title": "Performance \u00b7 last 31 days",
+      "source": "api \u00b7 through 2026-10-31",
+      "kpis": [
+        {
+          "label": "Clicks",
+          "kind": "num",
+          "value": 4,
+          "delta": 0,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Impressions",
+          "kind": "num",
+          "value": 1099,
+          "delta": 996,
+          "goodWhenUp": true
+        },
+        {
+          "label": "CTR",
+          "kind": "pctp",
+          "value": 0.3639672429481347,
+          "delta": -3.519527902682933,
+          "deltaKind": "pctp",
+          "goodWhenUp": true
+        },
+        {
+          "label": "Avg position",
+          "kind": "pos",
+          "value": 40.88808007279345,
+          "delta": 11.208468422308012,
+          "deltaKind": "pos",
+          "goodWhenUp": false
+        }
+      ],
+      "settledThrough": "2026-10-31",
+      "dataMaturity": {
+        "firstIncompleteDate": "2026-11-01",
+        "settledThrough": "2026-10-31",
+        "dateBasis": "America/Los_Angeles",
+        "source": "gsc-api-metadata",
+        "probe": {
+          "searchType": "web",
+          "startDate": "2026-10-24",
+          "endDate": "2026-11-02",
+          "dataState": "all"
+        }
+      },
+      "ordering": {
+        "dailyRows": {
+          "sortedBy": "date",
+          "sortOrder": "asc"
+        },
+        "previousDailyRows": {
+          "sortedBy": "date",
+          "sortOrder": "asc"
+        }
+      }
+    },
+    "september": {
+      "kind": "kpis",
+      "title": "Performance \u00b7 last 30 days",
+      "source": "api \u00b7 through 2026-10-31",
+      "kpis": [
+        {
+          "label": "Clicks",
+          "kind": "num",
+          "value": 4,
+          "delta": 3,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Impressions",
+          "kind": "num",
+          "value": 87,
+          "delta": -153,
+          "goodWhenUp": true
+        },
+        {
+          "label": "CTR",
+          "kind": "pctp",
+          "value": 4.597701149425287,
+          "delta": 4.18103448275862,
+          "deltaKind": "pctp",
+          "goodWhenUp": true
+        },
+        {
+          "label": "Avg position",
+          "kind": "pos",
+          "value": 28.091954022988507,
+          "delta": -32.52887931034482,
+          "deltaKind": "pos",
+          "goodWhenUp": false
+        }
+      ],
+      "settledThrough": "2026-10-31",
+      "dataMaturity": {
+        "firstIncompleteDate": "2026-11-01",
+        "settledThrough": "2026-10-31",
+        "dateBasis": "America/Los_Angeles",
+        "source": "gsc-api-metadata",
+        "probe": {
+          "searchType": "web",
+          "startDate": "2026-10-24",
+          "endDate": "2026-11-02",
+          "dataState": "all"
+        }
+      },
+      "ordering": {
+        "dailyRows": {
+          "sortedBy": "date",
+          "sortOrder": "asc"
+        },
+        "previousDailyRows": {
+          "sortedBy": "date",
+          "sortOrder": "asc"
+        }
+      }
+    },
+    "note": "Use explicit monthly totals, not automatic previous31-day comparison."
+  },
+  "blogGSC": {
+    "october": {
+      "clicks": 1,
+      "impressions": 1091,
+      "ctrPercent": 0.09,
+      "avgPositionWeighted": 41.92
+    },
+    "september": {
+      "clicks": 0,
+      "impressions": 65,
+      "ctrPercent": 0,
+      "avgPositionWeighted": 29.71
+    },
+    "impressionsPerDay": [
+      35.193548387096776,
+      2.1666666666666665
+    ],
+    "note": "October31days,September30days; tiny September baseline. Higher impressions do not establish better rankings."
+  },
+  "GA4OrganicProperty": {
+    "october": {
+      "kind": "kpis",
+      "title": "GA4 \u00b7 cashasis",
+      "source": "ga4-api",
+      "kpis": [
+        {
+          "label": "Sessions",
+          "kind": "num",
+          "value": 17,
+          "delta": 11,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Active users",
+          "kind": "num",
+          "value": 13,
+          "delta": 8,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Engagement rate",
+          "kind": "pct",
+          "value": 0.4117647058823529,
+          "delta": -0.42156862745098045,
+          "deltaKind": "pct",
+          "goodWhenUp": true
+        },
+        {
+          "label": "Key events",
+          "kind": "num",
+          "value": 0,
+          "delta": 0,
+          "goodWhenUp": true
+        }
+      ],
+      "timeZone": "America/Chicago",
+      "siteScope": null,
+      "comparisonHasData": true
+    },
+    "september": {
+      "kind": "kpis",
+      "title": "GA4 \u00b7 cashasis",
+      "source": "ga4-api",
+      "kpis": [
+        {
+          "label": "Sessions",
+          "kind": "num",
+          "value": 4,
+          "delta": -1,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Active users",
+          "kind": "num",
+          "value": 3,
+          "delta": -1,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Engagement rate",
+          "kind": "pct",
+          "value": 0.75,
+          "delta": -0.050000000000000044,
+          "deltaKind": "pct",
+          "goodWhenUp": true
+        },
+        {
+          "label": "Key events",
+          "kind": "num",
+          "value": 0,
+          "delta": 0,
+          "goodWhenUp": true
+        }
+      ],
+      "timeZone": "America/Chicago",
+      "siteScope": null,
+      "comparisonHasData": true
+    }
+  },
+  "GA4OrganicBlog": {
+    "kind": "kpis",
+    "title": "GA4 \u00b7 cashasis",
+    "source": "ga4-api",
+    "kpis": [
+      {
+        "label": "Sessions",
+        "kind": "num",
+        "value": 8,
+        "goodWhenUp": true
+      },
+      {
+        "label": "Active users",
+        "kind": "num",
+        "value": 7,
+        "goodWhenUp": true
+      },
+      {
+        "label": "Engagement rate",
+        "kind": "pct",
+        "value": 0.375,
+        "deltaKind": "pct",
+        "goodWhenUp": true
+      },
+      {
+        "label": "Key events",
+        "kind": "num",
+        "value": 0,
+        "goodWhenUp": true
+      }
+    ],
+    "timeZone": "America/Chicago",
+    "siteScope": null,
+    "comparisonHasData": false,
+    "note": "GA4 has no data for the comparison period (2026-08-31 to 2026-09-30), most likely because the property or data stream was not collecting yet. There is no previous-period comparison; pick a later comparison range to compare."
+  },
+  "events": {
+    "siteUrl": "https://www.cashasis.com/",
+    "propertyId": "properties/439983808",
+    "siteScope": null,
+    "dataSource": "ga4-api",
+    "timeZone": "America/Chicago",
+    "range": {
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31"
+    },
+    "comparisonRange": null,
+    "hasComparison": false,
+    "dimension": "event",
+    "secondaryDimension": null,
+    "metrics": [
+      "eventCount",
+      "totalUsers"
+    ],
+    "rowCount": 0,
+    "totalRows": 0,
+    "truncated": false,
+    "listKey": "rows",
+    "sortedBy": "eventCount",
+    "sortOrder": "desc",
+    "rows": [],
+    "emptyBecause": "GA4 returned no rows for 2026-10-01 to 2026-10-31 with these filters.",
+    "nextStep": "Rerun query_ga4_report with dimension \"event\" and no event filter to see which event names GA4 recorded."
+  },
+  "coverageAsOfReview": {
+    "eligibleSitemapURLs": 208,
+    "eligibleBlogArticles": 180,
+    "retainedActualInspectionCoverage": 208,
+    "indexedTotal": 195,
+    "indexedBlogArticles": 171,
+    "notPASS": 13,
+    "notPASSBlogArticles": 9,
+    "latestObservationRange": [
+      "2026-10-04T18:51:07.839038+00:00",
+      "2026-11-02T14:48:11.228547+00:00"
+    ],
+    "basis": "Latest retained actual Google inspection per eligible URL; mixed Oct4-Nov2 dates, not a fresh full-site census",
+    "observedAt": "2026-11-02T14:49:34.001175+00:00"
+  },
+  "historicalIndexingLimit": "No comparable verified September/October month-end snapshots; current mixed-date coverage is not backdated to either month.",
+  "recommendations": [
+    "Review MissouriCity primary title/snippet and first answer against actual fast-sale queries; current page already has comparison, local context, FAQs and offer path. Exact-query14 impressions/position12.93 versus7/17.29 is too small and not sustained for a ranking-gain alert.",
+    "Review county/city vacancy and code-violation overlap before adding pages; retain one primary per intent. Specific consolidation requires owner authorization and rollback.",
+    "Review contextual links and uncited legal claims on the two previously flagged Detroit pages; preserve October14 hub/timeline/back-tax improvements. No unsolicited rewrites or indexing requests."
+  ],
+  "blocker": "GSC October is settled; GA4 API returns no explicit maturity watermark. Retain partial monthly receipt and retry in a later existing run rather than assert fully settled month completion.",
+  "sellerOutcome": "No verified organic seller lead or downstream GP established.",
+  "deliveredAs": "Provisional monthly figures within weekly owner commentary; full month receipt remains incomplete."
+}

@@ -1,0 +1,135 @@
+{
+  "runId": "native-daily-20261102T144638Z",
+  "fence": 26,
+  "day": "2026-11-02",
+  "status": "hold_editorial_overlap",
+  "published": 0,
+  "held": 3,
+  "heldCandidates": [
+    {
+      "candidate": "Cash offer below Harris County tax value",
+      "existingSlug": "hcad-tax-value-vs-cash-offer-harris-county",
+      "reason": "Existing guide already distinguishes January1 market/appraised value, current property evidence and sale proceeds; another pricing-label variant has no distinct value.",
+      "status": "hold",
+      "generationPerformed": false,
+      "articlePublished": false,
+      "heldAt": "2026-11-02T14:49:34.001175+00:00",
+      "runId": "native-daily-20261102T144638Z",
+      "day": "2026-11-02",
+      "existingURL": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/"
+    },
+    {
+      "candidate": "Where mortgage escrow money goes after selling",
+      "existingSlug": "mortgage-escrow-refund-after-selling-houston-house",
+      "reason": "Existing guide already separates refund, payoff netting and cash available for moving; new framing repeats the same seller decision.",
+      "status": "hold",
+      "generationPerformed": false,
+      "articlePublished": false,
+      "heldAt": "2026-11-02T14:49:34.001175+00:00",
+      "runId": "native-daily-20261102T144638Z",
+      "day": "2026-11-02",
+      "existingURL": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/"
+    },
+    {
+      "candidate": "What happens to tenant deposits when selling an occupied rental",
+      "existingSlug": "security-deposit-when-selling-texas-rental",
+      "reason": "Existing Texas guide already covers reconciled records, contract allocation and tenant acknowledgment. No new distinct question established.",
+      "status": "hold",
+      "generationPerformed": false,
+      "articlePublished": false,
+      "heldAt": "2026-11-02T14:49:34.001175+00:00",
+      "runId": "native-daily-20261102T144638Z",
+      "day": "2026-11-02",
+      "existingURL": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/"
+    }
+  ],
+  "articles": [],
+  "main": "9e7243834829074f2b2c52639d4416d220ee87b8",
+  "productionAtStart": {
+    "commit": "9e7243834829074f2b2c52639d4416d220ee87b8",
+    "deployId": "6ae74d0434c713ef4793079c",
+    "state": "ready"
+  },
+  "activation": {
+    "mode": "production",
+    "unattendedProduction": true,
+    "dailyCap": 3,
+    "genuineNativeTest": "pass"
+  },
+  "inventoryEntries": 203,
+  "pendingPRsPreserved": [
+    27,
+    7,
+    6,
+    5
+  ],
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 36,
+    "screenedDistinctSellerCounts": {
+      "price": 1,
+      "repairs": 2,
+      "timing": 1
+    },
+    "method": "Bounded anonymous keyword screen; no topic-specific recurring demand established. No private messages or IDs retained."
+  },
+  "monitoring": {
+    "inspectionCalls": 1,
+    "technicalQA": {
+      "url": "https://www.cashasis.com/blog/sell-fire-damaged-house-detroit/",
+      "http": 200,
+      "canonical": "https://www.cashasis.com/blog/sell-fire-damaged-house-detroit/",
+      "noindex": false,
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "sitemap": true,
+      "internalLinks": [],
+      "attributedCTAs": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=sell-fire-damaged-house-detroit&utm_term=post",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=sell-fire-damaged-house-detroit&utm_term=post"
+      ],
+      "checkedAt": "2026-11-02T14:48:06.892551+00:00",
+      "note": "Existing Detroit fire-damage guide read from fresh main; fire damage primary intent separate from Houston. Geography and older claims require editorial verification before any new Detroit content; no rewrite authorized."
+    },
+    "inspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-02T14:48:11.228547+00:00",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "googleCanonical": "https://www.cashasis.com/blog/sell-fire-damaged-house-detroit/",
+      "userCanonical": "https://www.cashasis.com/blog/sell-fire-damaged-house-detroit/",
+      "lastCrawlTime": "2026-10-04T16:15:56+00:00",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Z1MxdtLeEMWX457tr4EQfA&utm_medium=link&utm_source=api"
+    },
+    "coverage": {
+      "eligibleSitemapURLs": 208,
+      "eligibleBlogArticles": 180,
+      "retainedActualInspectionCoverage": 208,
+      "indexedTotal": 195,
+      "indexedBlogArticles": 171,
+      "notPASS": 13,
+      "notPASSBlogArticles": 9,
+      "latestObservationRange": [
+        "2026-10-04T18:51:07.839038+00:00",
+        "2026-11-02T14:48:11.228547+00:00"
+      ],
+      "basis": "Latest retained actual Google inspection per eligible URL; mixed Oct4-Nov2 dates, not a fresh full-site census",
+      "observedAt": "2026-11-02T14:49:34.001175+00:00"
+    }
+  },
+  "weeklyRecord": "automation/blog-publisher/runs/2026-W45-weekly.json",
+  "monthlyRecord": "automation/blog-publisher/runs/2026-10-monthly.json",
+  "monthlyStatus": "partial_retry_maturity_verification",
+  "externalPaidApiSpendUSD": 0,
+  "nativeGenerationPerformed": false,
+  "liveContentChanges": [],
+  "buildDeployRequired": false,
+  "reason": "All three candidate intents failed distinct-value review before generation; records/report only, no live article or asset change to build/deploy.",
+  "completedAt": "2026-11-02T14:49:34.001175+00:00"
+}
