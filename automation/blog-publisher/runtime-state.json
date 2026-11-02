@@ -3,7 +3,8 @@
     "runId": "native-daily-20261102T144638Z",
     "fence": 26,
     "issuedAt": "2026-11-02T14:46:38.299Z",
-    "expiresAt": "2026-11-02T16:41:38.299Z"
+    "expiresAt": "2026-11-02T16:41:38.299Z",
+    "releasedAt": "2026-11-02T14:51:29.078Z"
   },
   "ledger": [
     {
@@ -1147,33 +1148,32 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261101T141844Z",
-    "fence": 25,
-    "status": "pass",
-    "day": "2026-11-01",
-    "published": 1,
-    "held": 2,
-    "heldScope": "Two overlapping editorial candidates held before generation; no publishing failures.",
-    "productionCommit": "6c90a9914e9107a1a46c85b2faae25cd34c9fa47",
-    "deployId": "6ae74c59d79280473ed5c70c",
-    "evidence": "automation/blog-publisher/runs/2026-11-01.json",
-    "bookkeepingCommit": "9e7243834829074f2b2c52639d4416d220ee87b8",
-    "bookkeepingDeployId": "6ae74d0434c713ef4793079c",
-    "monitoringCommit": "a8dacf8d5c9a60a29139b5a8e2a192930cfe03e9",
-    "inspectionCalls": 13,
+    "runId": "native-daily-20261102T144638Z",
+    "fence": 26,
+    "status": "hold_editorial_overlap",
+    "day": "2026-11-02",
+    "published": 0,
+    "held": 3,
+    "heldScope": "Three proposed pricing, escrow and deposit intents duplicated existing guides; held before generation. No publication failure.",
+    "evidence": "automation/blog-publisher/runs/2026-11-02.json",
+    "bookkeepingCommit": "9ac490061638925a0ee12cb571f7d668f554722e",
+    "bookkeepingDeployId": "6ae8a306dced4426f97ce652",
+    "monitoringCommit": "eabc32ccc25840a8f7d91fcdcbc624c5faba5035",
+    "inspectionCalls": 1,
     "externalPaidApiSpendUSD": 0,
     "notificationSent": true,
-    "notificationReason": "First confirmed persistent review threshold for11legacyURLs;2contextual-link issues; owner commentary delivered, fingerprints retained.",
+    "notificationReason": "Delivered W45 weekly review and provisional monthly findings; monthly maturity review remains retryable.",
+    "weeklyRecord": "automation/blog-publisher/runs/2026-W45-weekly.json",
+    "monthlyStatus": "partial_retry_maturity_verification",
     "finalLiveCheck": {
       "result": "pass",
       "HTTP": 200,
       "canonical": true,
-      "heroOGX": true,
       "attributedCTA": true,
-      "visiblePublicationDate": "November1,2026",
-      "checkedAt": "2026-11-01T14:31:17.986603+00:00"
+      "siteSourceUnchanged": true,
+      "checkedAt": "2026-11-02T14:51:11.315521+00:00"
     },
-    "completedAt": "2026-11-01T14:32:04.086Z"
+    "completedAt": "2026-11-02T14:51:29.078Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
