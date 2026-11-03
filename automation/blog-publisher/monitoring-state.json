@@ -10514,7 +10514,7 @@
         "deliveryStatus": "delivered_in_owner_commentary",
         "evidenceCommit": "6bae27edbcc4a0397991eb6c068fda0167808f3e",
         "deliveredAt": "2026-10-26T14:47:21.984Z",
-        "deliveryEvidence": "Owner-facing commentary delivered Oct18\u201324 matched GSC/GA4 comparison, mixed-date blog/site indexing coverage, weekly publication/withdrawal/held counts and Missouri City opportunity."
+        "deliveryEvidence": "Owner-facing commentary delivered Oct18–24 matched GSC/GA4 comparison, mixed-date blog/site indexing coverage, weekly publication/withdrawal/held counts and Missouri City opportunity."
       },
       "2026-W45": {
         "status": "review_complete",
@@ -10571,7 +10571,9 @@
     "weeklyDue": false,
     "monthlyStatus": "partial_retry_maturity_verification",
     "notificationSent": false,
-    "completedAt": "2026-11-03T14:55:53.182231+00:00"
+    "completedAt": "2026-11-03T14:55:53.182231+00:00",
+    "bookkeepingCommit": "c2ed133380393bcb49fbb5dfd8cf3ffd32ccca91",
+    "bookkeepingDeployId": "6ae9f61789b3c823cf4e0886"
   },
   "now": "2026-11-03T14:55:53.182231+00:00",
   "lastRunId": "native-daily-20261103T144741Z",
@@ -10587,7 +10589,7 @@
       "2026-10-14T14:58:57.653973+00:00",
       "2026-11-03T14:55:22.667421+00:00"
     ],
-    "basis": "Latest retained real Google URLInspection per eligible URL; mixed Oct4-Nov3 observations, not a fresh census",
+    "basis": "Latest retained actual Google URL Inspection per eligible URL; mixed observation dates shown in latestObservationRange, not a fresh full-site census",
     "observedAt": "2026-11-03T14:55:53.182231+00:00"
   },
   "lastRun": {
@@ -10599,7 +10601,9 @@
     "weeklyDue": false,
     "monthlyStatus": "partial_retry_maturity_verification",
     "notificationSent": false,
-    "completedAt": "2026-11-03T14:55:53.182231+00:00"
+    "completedAt": "2026-11-03T14:55:53.182231+00:00",
+    "bookkeepingCommit": "c2ed133380393bcb49fbb5dfd8cf3ffd32ccca91",
+    "bookkeepingDeployId": "6ae9f61789b3c823cf4e0886"
   },
   "pendingInspectionQueue": [],
   "notificationSuppression": {
