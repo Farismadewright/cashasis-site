@@ -1143,6 +1143,16 @@
       "evidenceCommit": "9e7243834829074f2b2c52639d4416d220ee87b8",
       "bookkeepingDeployId": "6ae74d0434c713ef4793079c",
       "monitoringCommit": "a8dacf8d5c9a60a29139b5a8e2a192930cfe03e9"
+    },
+    {
+      "runId": "native-daily-20261103T144741Z",
+      "fence": 27,
+      "day": "2026-11-03",
+      "slug": "selling-houston-house-easement",
+      "intentKey": "houston-seller-easement-record-survey-actual-use-review-packet",
+      "status": "reserved",
+      "reservedAt": "2026-11-03T14:48:42.957Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
