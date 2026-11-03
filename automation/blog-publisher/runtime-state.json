@@ -3,7 +3,8 @@
     "runId": "native-daily-20261103T144741Z",
     "fence": 27,
     "issuedAt": "2026-11-03T14:47:41.970Z",
-    "expiresAt": "2026-11-03T16:42:41.970Z"
+    "expiresAt": "2026-11-03T16:42:41.970Z",
+    "releasedAt": "2026-11-03T14:58:08.066Z"
   },
   "ledger": [
     {
@@ -1150,7 +1151,7 @@
       "day": "2026-11-03",
       "slug": "selling-houston-house-easement",
       "intentKey": "houston-seller-easement-record-survey-actual-use-review-packet",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-03T14:48:42.957Z",
       "validationOnly": false,
       "pr": 40,
@@ -1161,37 +1162,46 @@
         "allowed": true,
         "errors": [],
         "checkedAt": "2026-11-03T14:53:53.463Z"
-      }
+      },
+      "articlePublished": true,
+      "commit": "0cdc238207b261e0db5a627e0a1e5bcc0605f0bc",
+      "deployId": "6ae9f588e3cda86d0adb64f4",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+      "publishedAt": "2026-11-03T14:54:43.742Z",
+      "verifiedAt": "2026-11-03T14:57:44.504983+00:00",
+      "evidenceCommit": "c2ed133380393bcb49fbb5dfd8cf3ffd32ccca91",
+      "bookkeepingDeployId": "6ae9f61789b3c823cf4e0886",
+      "monitoringCommit": "bbcb86ae46bc1137599d795f22d12f2a571d8d89"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261102T144638Z",
-    "fence": 26,
-    "status": "hold_editorial_overlap",
-    "day": "2026-11-02",
-    "published": 0,
-    "held": 3,
-    "heldScope": "Three proposed pricing, escrow and deposit intents duplicated existing guides; held before generation. No publication failure.",
-    "evidence": "automation/blog-publisher/runs/2026-11-02.json",
-    "bookkeepingCommit": "9ac490061638925a0ee12cb571f7d668f554722e",
-    "bookkeepingDeployId": "6ae8a306dced4426f97ce652",
-    "monitoringCommit": "eabc32ccc25840a8f7d91fcdcbc624c5faba5035",
-    "inspectionCalls": 1,
+    "runId": "native-daily-20261103T144741Z",
+    "fence": 27,
+    "status": "pass",
+    "day": "2026-11-03",
+    "published": 1,
+    "held": 2,
+    "heldScope": "Two overlapping roof/foundation variants held before generation; no filler created.",
+    "productionCommit": "0cdc238207b261e0db5a627e0a1e5bcc0605f0bc",
+    "deployId": "6ae9f588e3cda86d0adb64f4",
+    "evidence": "automation/blog-publisher/runs/2026-11-03.json",
+    "bookkeepingCommit": "c2ed133380393bcb49fbb5dfd8cf3ffd32ccca91",
+    "bookkeepingDeployId": "6ae9f61789b3c823cf4e0886",
+    "monitoringCommit": "bbcb86ae46bc1137599d795f22d12f2a571d8d89",
+    "inspectionCalls": 2,
     "externalPaidApiSpendUSD": 0,
-    "notificationSent": true,
-    "notificationReason": "Delivered W45 weekly review and provisional monthly findings; monthly maturity review remains retryable.",
-    "weeklyRecord": "automation/blog-publisher/runs/2026-W45-weekly.json",
+    "notificationSent": false,
     "monthlyStatus": "partial_retry_maturity_verification",
     "finalLiveCheck": {
       "result": "pass",
       "HTTP": 200,
       "canonical": true,
+      "heroOGX": true,
       "attributedCTA": true,
-      "siteSourceUnchanged": true,
-      "checkedAt": "2026-11-02T14:51:11.315521+00:00"
+      "checkedAt": "2026-11-03T14:57:44.504983+00:00"
     },
-    "completedAt": "2026-11-02T14:51:29.078Z"
+    "completedAt": "2026-11-03T14:58:08.066Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
