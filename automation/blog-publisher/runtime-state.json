@@ -1150,9 +1150,18 @@
       "day": "2026-11-03",
       "slug": "selling-houston-house-easement",
       "intentKey": "houston-seller-easement-record-survey-actual-use-review-packet",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-03T14:48:42.957Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 40,
+      "previewCommit": "b1e5715f9aa2b3974cb8d68a61a3d8a7e4b8e453",
+      "previewDeployId": "6ae9f5052014f5fe0f977835",
+      "noindexPreviewVerified": true,
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "checkedAt": "2026-11-03T14:53:53.463Z"
+      }
     }
   ],
   "externalApiSpendLimitUSD": 0,
