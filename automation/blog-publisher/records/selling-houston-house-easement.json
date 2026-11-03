@@ -42,10 +42,10 @@
   "fence": 27,
   "day": "2026-11-03",
   "intentKey": "houston-seller-easement-record-survey-actual-use-review-packet",
-  "status": "preview",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
-  "commit": null,
-  "deployId": null,
+  "commit": "0cdc238207b261e0db5a627e0a1e5bcc0605f0bc",
+  "deployId": "6ae9f588e3cda86d0adb64f4",
   "nearestOverlaps": [
     "existing-survey-when-selling-texas-house",
     "sell-house-title-problems-houston",
@@ -170,8 +170,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending",
+    "preview": "pass",
+    "deploy": "pass",
     "conversionReporting": "unavailable_optional"
   },
   "validation": {
@@ -251,5 +251,89 @@
     "sellerPath": "Existing layout attributed CTA, no fake leads",
     "quality": "Immediate answer, three-part distinction, document packet, clearly hypothetical shed example and fair cash/list tradeoffs. No guaranteed legal outcome or assumed removal cost.",
     "measurement": "Actual Google URL Inspection after release; GA4 optional; raw events not seller leads."
+  },
+  "previewQA": {
+    "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "checkedURL": "https://deploy-preview-40--cashasis-blog.netlify.app/blog/selling-houston-house-easement/",
+    "status": "pass",
+    "HTTP": 200,
+    "noindex": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/selling-houston-house-easement.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "5bcc0356c82a41db69118ef4603b2c3e3dd8646e71705fe5e955bf99fe9a1b72",
+    "internalLinks": {
+      "/blog/existing-survey-when-selling-texas-house/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "blogIndexInbound": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-03T14:53:35.015509+00:00"
+  },
+  "previewCommit": "b1e5715f9aa2b3974cb8d68a61a3d8a7e4b8e453",
+  "previewDeployId": "6ae9f5052014f5fe0f977835",
+  "pr": 40,
+  "previewReadNote": "Initial read before deployment ready404; one subsequent read after exact-ready deployment passed full QA. No content/template correction.",
+  "publishedAt": "2026-11-03T14:54:43.742Z",
+  "verifiedAt": "2026-11-03T14:55:43.083213+00:00",
+  "productionQA": {
+    "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "checkedURL": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "status": "pass",
+    "HTTP": 200,
+    "noindex": false,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/selling-houston-house-easement.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "5bcc0356c82a41db69118ef4603b2c3e3dd8646e71705fe5e955bf99fe9a1b72",
+    "internalLinks": {
+      "/blog/existing-survey-when-selling-texas-house/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "blogIndexInbound": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-03T14:55:43.083213+00:00"
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-03T14:55:22.667421+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lrnInHhaC0R7K3HRP6sreQ&utm_medium=link&utm_source=api"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-03",
+    "errors": []
   }
 }

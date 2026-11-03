@@ -839,5 +839,24 @@
     "deployId": "6ae74c59d79280473ed5c70c",
     "pr": 39,
     "publishedAt": "2026-11-01T14:28:13.955Z"
+  },
+  {
+    "runId": "native-daily-20261103T144741Z",
+    "fence": 27,
+    "day": "2026-11-03",
+    "slug": "selling-houston-house-easement",
+    "intentKey": "houston-seller-easement-record-survey-actual-use-review-packet",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "nearestOverlaps": [
+      "existing-survey-when-selling-texas-house",
+      "sell-house-title-problems-houston",
+      "selling-houston-house-sewer-line-problem"
+    ],
+    "substantiveDifference": "First easement-specific document/survey/actual-use comparison packet and shed decision scenario. Existing survey guide concerns reusing survey/T47 paperwork; title hub concerns ownership/payoff complications; sewer article concerns plumbing responsibility. No city/synonym duplicate or legal-right determination.",
+    "commit": "0cdc238207b261e0db5a627e0a1e5bcc0605f0bc",
+    "deployId": "6ae9f588e3cda86d0adb64f4",
+    "pr": 40,
+    "publishedAt": "2026-11-03T14:54:43.742Z"
   }
 ]

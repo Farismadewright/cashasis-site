@@ -1,0 +1,402 @@
+{
+  "runId": "native-daily-20261103T144741Z",
+  "fence": 27,
+  "day": "2026-11-03",
+  "status": "pass",
+  "published": 1,
+  "held": 2,
+  "articles": [
+    {
+      "slug": "selling-houston-house-easement",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+      "pr": 40,
+      "commit": "0cdc238207b261e0db5a627e0a1e5bcc0605f0bc",
+      "deployId": "6ae9f588e3cda86d0adb64f4",
+      "publishedAt": "2026-11-03T14:54:43.742Z"
+    }
+  ],
+  "heldCandidates": [
+    {
+      "candidate": "Another roof repair versus as-is decision guide",
+      "existingSlug": "selling-houston-house-roof-damage-repair-or-as-is",
+      "status": "hold",
+      "reason": "Dedicated existing guide already answers the proposed seller decision; no distinct new value established.",
+      "generationPerformed": false
+    },
+    {
+      "candidate": "Another foundation-report spending guide",
+      "existingSlug": "foundation-report-before-selling-houston-house",
+      "status": "hold",
+      "reason": "Dedicated existing guide already answers the proposed seller decision; no distinct new value established.",
+      "generationPerformed": false
+    }
+  ],
+  "mainAtStart": "9ac490061638925a0ee12cb571f7d668f554722e",
+  "activationVerified": {
+    "mode": "production",
+    "dailyCap": 3,
+    "unattendedProduction": true,
+    "genuineTest": "automation/blog-publisher/unattended-test-result.json"
+  },
+  "leaseFence": 27,
+  "inventoryEntries": 203,
+  "pendingPRsPreserved": [
+    27,
+    7,
+    6,
+    5
+  ],
+  "sources": [
+    {
+      "url": "https://mytexas.ag.tamu.edu/publications/easements-101/",
+      "title": "Texas A&M AgriLife Easements101",
+      "publicationDate": "2023-08",
+      "accessedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T14:51:07.816564+00:00",
+      "reportingPeriod": "Current primary guidance accessed2026-11-03",
+      "geography": "Texas; Houston/Harris/FortBend seller education",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh primary source opened and read through native Work search; facts cross-checked across regulator/university/form-provider guidance.",
+      "claim": "Easement use rights versus ownership; express easement language matters. Article does not prescribe creating/ending rights."
+    },
+    {
+      "url": "https://www.tdi.texas.gov/title/titlefaqs.html",
+      "title": "Texas Department of Insurance title FAQ",
+      "publicationDate": "2024-03-19 last update",
+      "accessedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T14:51:07.816564+00:00",
+      "reportingPeriod": "Current primary guidance accessed2026-11-03",
+      "geography": "Texas; Houston/Harris/FortBend seller education",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh primary source opened and read through native Work search; facts cross-checked across regulator/university/form-provider guidance.",
+      "claim": "Commitment versus policy, conditions and ScheduleB exceptions; neither guarantees no issues; refer specifics to title/legal professionals."
+    },
+    {
+      "url": "https://www.texasrealestate.com/magazine/september-october-2025/will-that-survey-work",
+      "title": "Texas REALTORS Will that survey work",
+      "publicationDate": "2025-09-01",
+      "accessedAt": "2026-11-03",
+      "verifiedAt": "2026-11-03T14:51:07.816564+00:00",
+      "reportingPeriod": "Current primary guidance accessed2026-11-03",
+      "geography": "Texas; Houston/Harris/FortBend seller education",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh primary source opened and read through native Work search; facts cross-checked across regulator/university/form-provider guidance.",
+      "claim": "Different survey types and possible absence of ScheduleB restrictions on boundary survey; professional review needed."
+    }
+  ],
+  "imageProvenance": {
+    "type": "native_imagegen_original_illustration",
+    "background": "generated_images/exec-2711d3de-78ec-4563-878d-7f3ee8945950.png",
+    "backgroundSHA256": "2b4344f44d2a0b24547c8b0c39776d1837805da642922c725b74d17f56c1b643",
+    "prompt": "Use case: photorealistic-natural. Original realistic illustrative editorial property photograph for a Houston house seller guide. Wide 1200:630 framing, modest older cream-and-red-brick single-story Houston-area house on RIGHT half, broad side yard with wooden fence set well to right, mature oak trees and dark shaded foliage on LEFT half with generous negative space for approved typography later. Soft natural daylight, believable slightly worn driveway and yard. No visible claims about boundaries or easements, no map or diagram. No people, numbers, addresses, text, signs, logos or watermarks. Not an actual listing.",
+    "headline": "LAND USE|CHECK FIRST",
+    "wordCount": 4,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "renderer": "locked left-photo-transparent-v2",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logo": "Exact official white/orange transparent; both variants alpha0..255 verified",
+    "approvedReferenceReview": [
+      "Humble",
+      "Spring",
+      "Nov1 listed-house thumbnail"
+    ],
+    "visualReview": "Full image,390/1366cards and360/390/768/1366article: readable headline/logo, clean crop/spacing, no panel or clipping. Illustrative house not a surveyed parcel or listing."
+  },
+  "imageSha256": "5bcc0356c82a41db69118ef4603b2c3e3dd8646e71705fe5e955bf99fe9a1b72",
+  "validation": {
+    "fullBuild": "pass",
+    "outputValidator": "pass",
+    "nodeTests": 13,
+    "pythonGateTests": 5,
+    "mobile": {
+      "passed": true,
+      "results": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "body": 274,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 274,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-easement.png"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "body": 304,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 304,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-easement.png"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-easement.png"
+        },
+        {
+          "width": 1366,
+          "scroll": 1366,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-easement.png"
+        }
+      ]
+    },
+    "cards": [
+      390,
+      1366
+    ],
+    "visibleDate": "November3,2026",
+    "protectedSourceChanges": []
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-03",
+    "errors": []
+  },
+  "previewQA": {
+    "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "checkedURL": "https://deploy-preview-40--cashasis-blog.netlify.app/blog/selling-houston-house-easement/",
+    "status": "pass",
+    "HTTP": 200,
+    "noindex": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/selling-houston-house-easement.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "5bcc0356c82a41db69118ef4603b2c3e3dd8646e71705fe5e955bf99fe9a1b72",
+    "internalLinks": {
+      "/blog/existing-survey-when-selling-texas-house/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "blogIndexInbound": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-03T14:53:35.015509+00:00"
+  },
+  "productionQA": {
+    "url": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "checkedURL": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "status": "pass",
+    "HTTP": 200,
+    "noindex": false,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-easement/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/selling-houston-house-easement.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "5bcc0356c82a41db69118ef4603b2c3e3dd8646e71705fe5e955bf99fe9a1b72",
+    "internalLinks": {
+      "/blog/existing-survey-when-selling-texas-house/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "blogIndexInbound": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-03T14:55:43.083213+00:00"
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 31,
+    "method": "Anonymous bounded inbound screen; no easement-specific recurring pattern established; no raw messages or IDs retained."
+  },
+  "social": "draft_only",
+  "monitoring": {
+    "inspectionCalls": 2,
+    "dueTechnicalQA": {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+      "checkedURL": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+      "status": "pass",
+      "HTTP": 200,
+      "noindex": false,
+      "canonical": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "image": "https://www.cashasis.com/images/selling-houston-house-open-heloc.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSHA256": "6b6f4ae5afb19c175daea7abe2924b590b3321838a7473cd8c8de8dfcd2e0f45",
+      "internalLinks": {
+        "/blog/paid-off-mortgage-lien-release-houston/": 200,
+        "/blog/sell-house-with-liens-houston/": 200,
+        "/compare-the-net/": 200
+      },
+      "attributedCTA": true,
+      "sitemapRSS": true,
+      "blogIndexInbound": true,
+      "HTMLCSSParity": false,
+      "checkedAt": "2026-11-03T14:50:50.379103+00:00"
+    },
+    "dueInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-03T14:49:51.003657+00:00",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+      "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+      "lastCrawlTime": "2026-11-03T08:58:02+00:00",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=U8xoEhlYk5ciEiGk_geWCg&utm_medium=link&utm_source=api"
+    },
+    "newArticleInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-03T14:55:22.667421+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lrnInHhaC0R7K3HRP6sreQ&utm_medium=link&utm_source=api"
+    },
+    "coverage": {
+      "eligibleSitemapURLs": 209,
+      "eligibleBlogArticles": 181,
+      "retainedActualInspectionCoverage": 209,
+      "indexedTotal": 196,
+      "indexedBlogArticles": 172,
+      "notPASS": 13,
+      "notPASSBlogArticles": 9,
+      "latestObservationRange": [
+        "2026-10-14T14:58:57.653973+00:00",
+        "2026-11-03T14:55:22.667421+00:00"
+      ],
+      "basis": "Latest retained real Google URLInspection per eligible URL; mixed Oct4-Nov3 observations, not a fresh census",
+      "observedAt": "2026-11-03T14:55:53.182231+00:00"
+    },
+    "monthlyRecheck": {
+      "kind": "kpis",
+      "title": "GA4 \u00b7 cashasis",
+      "source": "ga4-api",
+      "kpis": [
+        {
+          "label": "Sessions",
+          "kind": "num",
+          "value": 8,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Active users",
+          "kind": "num",
+          "value": 7,
+          "goodWhenUp": true
+        },
+        {
+          "label": "Engagement rate",
+          "kind": "pct",
+          "value": 0.375,
+          "deltaKind": "pct",
+          "goodWhenUp": true
+        },
+        {
+          "label": "Key events",
+          "kind": "num",
+          "value": 0,
+          "goodWhenUp": true
+        }
+      ],
+      "timeZone": "America/Chicago",
+      "siteScope": null,
+      "comparisonHasData": false,
+      "note": "GA4 has no data for the comparison period (2026-09-01 to 2026-09-30), most likely because the property or data stream was not collecting yet. There is no previous-period comparison; pick a later comparison range to compare."
+    },
+    "monthlyStatus": "partial_retry_maturity_verification",
+    "notificationSuppression": "Routine successful publication, normal new-page discovery, unchanged legacy alerts and unchanged preliminary monthly metrics. WeeklyW45 already delivered.",
+    "opportunity": {
+      "period": [
+        "2026-10-04",
+        "2026-10-31"
+      ],
+      "coverage": {
+        "rowsReturned": 298,
+        "rowsTotal": 298,
+        "clicksCovered": 0,
+        "impressionsCovered": 0.7553,
+        "hiddenClicksShare": 1,
+        "hiddenImpressionsShare": 0.2447,
+        "totalsFrom": "get_site_summary",
+        "siteTotals": {
+          "clicks": 3,
+          "impressions": 1091,
+          "ctrPercent": 0.27,
+          "avgPositionWeighted": 41.08
+        },
+        "scope": "property",
+        "sharesOf": "siteTotals"
+      },
+      "pagination": {
+        "limit": 1000,
+        "offset": 0,
+        "returned": 298,
+        "hasMore": false,
+        "note": "Showing all 298 rows."
+      },
+      "recommendation": "Existing MissouriCity query/snippet opportunity remains small; preserve local context and seller path, no automatic lengthening. Existing intent map carries acquisition/COO evidence."
+    }
+  },
+  "protectedSourceChanges": [],
+  "allowedGeneratedChange": "netlify/functions/_shared/published-blog-paths.js",
+  "externalPaidApiSpendUSD": 0,
+  "nativeIncrementalCost": null,
+  "scheduleChanged": false,
+  "completedAt": "2026-11-03T14:55:53.182231+00:00"
+}
