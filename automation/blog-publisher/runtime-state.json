@@ -3,7 +3,9 @@
     "runId": "native-daily-20261104T142017Z",
     "fence": 28,
     "issuedAt": "2026-11-04T14:20:17.909Z",
-    "expiresAt": "2026-11-04T16:15:17.909Z"
+    "expiresAt": "2026-11-04T14:40:45Z",
+    "releasedAt": "2026-11-04T14:40:45Z",
+    "released": true
   },
   "ledger": [
     {
@@ -1179,7 +1181,7 @@
       "runId": "native-daily-20261104T142017Z",
       "fence": 28,
       "day": "2026-11-04",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-04T14:22:14.254Z",
       "validationOnly": false,
       "pr": 41,
@@ -1189,7 +1191,13 @@
         "allowed": true,
         "errors": [],
         "verifiedAt": "2026-11-04T14:35:24Z"
-      }
+      },
+      "url": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+      "commit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+      "deployId": "6aeb42b21c54fb1b5a0fee64",
+      "publishedAt": "2026-11-04T14:36:14.744Z",
+      "verifiedAt": "2026-11-04T14:40:21.181106+00:00",
+      "bookkeepingCommit": "0ef1ea2b122641b8d4182f6eac7b50963a7d7212"
     },
     {
       "slug": "texas-transfer-on-death-deed-selling-house",
@@ -1198,7 +1206,7 @@
       "runId": "native-daily-20261104T142017Z",
       "fence": 28,
       "day": "2026-11-04",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-04T14:22:14.254Z",
       "validationOnly": false,
       "pr": 41,
@@ -1208,7 +1216,13 @@
         "allowed": true,
         "errors": [],
         "verifiedAt": "2026-11-04T14:35:24Z"
-      }
+      },
+      "url": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+      "commit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+      "deployId": "6aeb42b21c54fb1b5a0fee64",
+      "publishedAt": "2026-11-04T14:36:14.744Z",
+      "verifiedAt": "2026-11-04T14:40:21.156356+00:00",
+      "bookkeepingCommit": "0ef1ea2b122641b8d4182f6eac7b50963a7d7212"
     },
     {
       "slug": "houston-water-service-line-notice-selling-house",
@@ -1217,7 +1231,7 @@
       "runId": "native-daily-20261104T142017Z",
       "fence": 28,
       "day": "2026-11-04",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-04T14:22:14.254Z",
       "validationOnly": false,
       "pr": 41,
@@ -1227,25 +1241,30 @@
         "allowed": true,
         "errors": [],
         "verifiedAt": "2026-11-04T14:35:24Z"
-      }
+      },
+      "url": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+      "commit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+      "deployId": "6aeb42b21c54fb1b5a0fee64",
+      "publishedAt": "2026-11-04T14:36:14.744Z",
+      "verifiedAt": "2026-11-04T14:40:21.200838+00:00",
+      "bookkeepingCommit": "0ef1ea2b122641b8d4182f6eac7b50963a7d7212"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261103T144741Z",
-    "fence": 27,
+    "runId": "native-daily-20261104T142017Z",
+    "fence": 28,
     "status": "pass",
-    "day": "2026-11-03",
-    "published": 1,
-    "held": 2,
-    "heldScope": "Two overlapping roof/foundation variants held before generation; no filler created.",
-    "productionCommit": "0cdc238207b261e0db5a627e0a1e5bcc0605f0bc",
-    "deployId": "6ae9f588e3cda86d0adb64f4",
-    "evidence": "automation/blog-publisher/runs/2026-11-03.json",
-    "bookkeepingCommit": "c2ed133380393bcb49fbb5dfd8cf3ffd32ccca91",
-    "bookkeepingDeployId": "6ae9f61789b3c823cf4e0886",
-    "monitoringCommit": "bbcb86ae46bc1137599d795f22d12f2a571d8d89",
-    "inspectionCalls": 2,
+    "day": "2026-11-04",
+    "published": 3,
+    "held": 0,
+    "productionCommit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+    "deployId": "6aeb42b21c54fb1b5a0fee64",
+    "evidence": "automation/blog-publisher/runs/2026-11-04.json",
+    "bookkeepingCommit": "0ef1ea2b122641b8d4182f6eac7b50963a7d7212",
+    "bookkeepingDeployId": "6aeb435a146503512f032486",
+    "monitoringCommit": "c3ddcb32decb35f8cf787fc37d899d7e735043ab",
+    "inspectionCalls": 4,
     "externalPaidApiSpendUSD": 0,
     "notificationSent": false,
     "monthlyStatus": "partial_retry_maturity_verification",
@@ -1255,9 +1274,9 @@
       "canonical": true,
       "heroOGX": true,
       "attributedCTA": true,
-      "checkedAt": "2026-11-03T14:57:44.504983+00:00"
+      "checkedAt": "2026-11-04T14:40:21.181106+00:00"
     },
-    "completedAt": "2026-11-03T14:58:08.066Z"
+    "completedAt": "2026-11-04T14:40:45Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
