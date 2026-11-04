@@ -1171,6 +1171,39 @@
       "evidenceCommit": "c2ed133380393bcb49fbb5dfd8cf3ffd32ccca91",
       "bookkeepingDeployId": "6ae9f61789b3c823cf4e0886",
       "monitoringCommit": "bbcb86ae46bc1137599d795f22d12f2a571d8d89"
+    },
+    {
+      "slug": "form-1099-s-after-selling-houston-house",
+      "intentKey": "houston-seller-1099s-gross-proceeds-vs-closing-cash-tax-preparer-records",
+      "headline": "TAX FORM|KEEP RECORDS",
+      "runId": "native-daily-20261104T142017Z",
+      "fence": 28,
+      "day": "2026-11-04",
+      "status": "reserved",
+      "reservedAt": "2026-11-04T14:22:14.254Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "texas-transfer-on-death-deed-selling-house",
+      "intentKey": "texas-houston-beneficiary-todd-recorded-instrument-versus-sale-authority-review",
+      "headline": "DEED FOUND?|CHECK FIRST",
+      "runId": "native-daily-20261104T142017Z",
+      "fence": 28,
+      "day": "2026-11-04",
+      "status": "reserved",
+      "reservedAt": "2026-11-04T14:22:14.254Z",
+      "validationOnly": false
+    },
+    {
+      "slug": "houston-water-service-line-notice-selling-house",
+      "intentKey": "houston-public-water-service-line-material-inventory-notice-versus-test-seller-records",
+      "headline": "WATER LINE?|CHECK RECORDS",
+      "runId": "native-daily-20261104T142017Z",
+      "fence": 28,
+      "day": "2026-11-04",
+      "status": "reserved",
+      "reservedAt": "2026-11-04T14:22:14.254Z",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
