@@ -1179,9 +1179,17 @@
       "runId": "native-daily-20261104T142017Z",
       "fence": 28,
       "day": "2026-11-04",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-04T14:22:14.254Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 41,
+      "headCommit": "fdaa5ef5b13b720969c0c220662bc5ddea487ad4",
+      "previewDeployId": "6aeb420ea268eaa19a7c4d6c",
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "verifiedAt": "2026-11-04T14:35:24Z"
+      }
     },
     {
       "slug": "texas-transfer-on-death-deed-selling-house",
@@ -1190,20 +1198,36 @@
       "runId": "native-daily-20261104T142017Z",
       "fence": 28,
       "day": "2026-11-04",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-04T14:22:14.254Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 41,
+      "headCommit": "fdaa5ef5b13b720969c0c220662bc5ddea487ad4",
+      "previewDeployId": "6aeb420ea268eaa19a7c4d6c",
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "verifiedAt": "2026-11-04T14:35:24Z"
+      }
     },
     {
       "slug": "houston-water-service-line-notice-selling-house",
       "intentKey": "houston-public-water-service-line-material-inventory-notice-versus-test-seller-records",
-      "headline": "WATER LINE?|CHECK RECORDS",
+      "headline": "WATER LINE?|CHECK FIRST",
       "runId": "native-daily-20261104T142017Z",
       "fence": 28,
       "day": "2026-11-04",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-04T14:22:14.254Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 41,
+      "headCommit": "fdaa5ef5b13b720969c0c220662bc5ddea487ad4",
+      "previewDeployId": "6aeb420ea268eaa19a7c4d6c",
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "verifiedAt": "2026-11-04T14:35:24Z"
+      }
     }
   ],
   "externalApiSpendLimitUSD": 0,
