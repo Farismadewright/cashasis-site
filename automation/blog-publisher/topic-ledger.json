@@ -858,5 +858,62 @@
     "deployId": "6ae9f588e3cda86d0adb64f4",
     "pr": 40,
     "publishedAt": "2026-11-03T14:54:43.742Z"
+  },
+  {
+    "runId": "native-daily-20261104T142017Z",
+    "fence": 28,
+    "day": "2026-11-04",
+    "slug": "form-1099-s-after-selling-houston-house",
+    "intentKey": "houston-seller-1099s-gross-proceeds-vs-closing-cash-tax-preparer-records",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+    "nearestOverlaps": [
+      "mortgage-escrow-refund-after-selling-houston-house",
+      "property-tax-proration-selling-houston-house",
+      "your-price-isnt-your-take-home"
+    ],
+    "substantiveDifference": "First post-sale Form1099-S document packet and reported-proceeds versus closing-cash versus tax-gain distinction. Existing escrow refund and property-tax proration guides address lender/county adjustments, not federal reporting records. The net-proceeds page compares selling methods, not tax forms.",
+    "commit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+    "deployId": "6aeb42b21c54fb1b5a0fee64",
+    "pr": 41,
+    "publishedAt": "2026-11-04T14:36:14.744Z"
+  },
+  {
+    "runId": "native-daily-20261104T142017Z",
+    "fence": 28,
+    "day": "2026-11-04",
+    "slug": "texas-transfer-on-death-deed-selling-house",
+    "intentKey": "texas-houston-beneficiary-todd-recorded-instrument-versus-sale-authority-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+    "nearestOverlaps": [
+      "sell-house-owner-died-texas",
+      "skip-probate-affidavit-heirship-texas",
+      "power-of-attorney-selling-houston-house"
+    ],
+    "substantiveDifference": "First existing transfer-on-death deed recording/effectiveness and sale-authority review packet. Existing death, affidavit-of-heirship and POA guides concern different instruments/processes; no new estate-planning instructions or promised probate outcome.",
+    "commit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+    "deployId": "6aeb42b21c54fb1b5a0fee64",
+    "pr": 41,
+    "publishedAt": "2026-11-04T14:36:14.744Z"
+  },
+  {
+    "runId": "native-daily-20261104T142017Z",
+    "fence": 28,
+    "day": "2026-11-04",
+    "slug": "houston-water-service-line-notice-selling-house",
+    "intentKey": "houston-public-water-service-line-material-inventory-notice-versus-test-seller-records",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+    "nearestOverlaps": [
+      "selling-pre-1978-houston-house-lead-paint",
+      "selling-houston-area-house-private-water-well",
+      "selling-houston-house-sewer-line-problem"
+    ],
+    "substantiveDifference": "First public-water service-line inventory/material notice seller records guide. Existing lead-paint page concerns painted surfaces, well page a private supply, and sewer page wastewater repair. No city/synonym swap, water-quality guarantee or replacement-cost assumption.",
+    "commit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+    "deployId": "6aeb42b21c54fb1b5a0fee64",
+    "pr": 41,
+    "publishedAt": "2026-11-04T14:36:14.744Z"
   }
 ]

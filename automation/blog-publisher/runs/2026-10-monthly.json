@@ -320,7 +320,58 @@
     "Review county/city vacancy and code-violation overlap before adding pages; retain one primary per intent. Specific consolidation requires owner authorization and rollback.",
     "Review contextual links and uncited legal claims on the two previously flagged Detroit pages; preserve October14 hub/timeline/back-tax improvements. No unsolicited rewrites or indexing requests."
   ],
-  "blocker": "GSC October is settled; GA4 API returns no explicit maturity watermark. Retain partial monthly receipt and retry in a later existing run rather than assert fully settled month completion.",
+  "blocker": "October GSC is settled throughNov2; defer GA4 late-arrival/attribution revisions explicitly under documented processing windows, not an invented permanent watermark requirement. October organic blog8sessions/7users/0recordedkeyevents currently; no verified seller leads inferred.",
   "sellerOutcome": "No verified organic seller lead or downstream GP established.",
-  "deliveredAs": "Provisional monthly figures within weekly owner commentary; full month receipt remains incomplete."
+  "deliveredAs": "Provisional monthly figures within weekly owner commentary; full month receipt remains incomplete.",
+  "lastRetryAt": "2026-11-04T14:34:32.450484+00:00",
+  "GA4BlogRetryNovember4": {
+    "kind": "kpis",
+    "title": "GA4 \u00b7 cashasis",
+    "source": "ga4-api",
+    "kpis": [
+      {
+        "label": "Sessions",
+        "kind": "num",
+        "value": 8,
+        "goodWhenUp": true
+      },
+      {
+        "label": "Active users",
+        "kind": "num",
+        "value": 7,
+        "goodWhenUp": true
+      },
+      {
+        "label": "Engagement rate",
+        "kind": "pct",
+        "value": 0.375,
+        "deltaKind": "pct",
+        "goodWhenUp": true
+      },
+      {
+        "label": "Key events",
+        "kind": "num",
+        "value": 0,
+        "goodWhenUp": true
+      }
+    ],
+    "timeZone": "America/Chicago",
+    "siteScope": null,
+    "comparisonHasData": false,
+    "note": "GA4 has no data for the comparison period (2026-09-01 to 2026-09-30), most likely because the property or data stream was not collecting yet. There is no previous-period comparison; pick a later comparison range to compare."
+  },
+  "maturityAssessment": {
+    "status": "partial_metrics_deferred",
+    "asOf": "2026-11-04",
+    "source": "https://support.google.com/analytics/answer/11198161",
+    "sourceAccessedAt": "2026-11-04",
+    "typicalProcessing": "24\u201348hours; not guarantee",
+    "lateArrivalWindowDays": 7,
+    "keyEventAttributionRevisionWindowDays": 12,
+    "reason": "October31 is still within documented late-arrival/attribution windows. GA4 connector has no explicit maturity watermark. Do not equate unchanged reads with fully settled conversion attribution.",
+    "nextExistingRunReassessment": "2026-11-08",
+    "finalAttributionReassessmentNoEarlierThan": "2026-11-13",
+    "septemberFilteredBaseline": "unavailable, not zero",
+    "requiredWatermarkForever": false
+  }
 }

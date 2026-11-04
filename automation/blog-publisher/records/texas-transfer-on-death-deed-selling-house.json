@@ -43,7 +43,7 @@
   "runId": "native-daily-20261104T142017Z",
   "fence": 28,
   "day": "2026-11-04",
-  "status": "preview",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
   "nearestOverlaps": [
     "sell-house-owner-died-texas",
@@ -160,8 +160,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending",
+    "preview": "pass",
+    "deploy": "pass",
     "conversionReporting": "unavailable_optional"
   },
   "validation": {
@@ -232,9 +232,108 @@
   "seoQA": {
     "sellerIntent": "texas-houston-beneficiary-todd-recorded-instrument-versus-sale-authority-review",
     "canonical": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
-    "indexability": "Built production output no noindex and sitemap/RSS eligible; exactpreview and live verification pending.",
+    "indexability": "Exact-ready production HTTP200, crawlable, no noindex, self-canonical, sitemap/RSS and internal offer path verified.",
     "sellerPath": "Existing attributed contextual offer CTA; no fake leads.",
     "quality": "First existing transfer-on-death deed recording/effectiveness and sale-authority review packet. Existing death, affidavit-of-heirship and POA guides concern different instruments/processes; no new estate-planning instructions or promised probate outcome.",
     "measurement": "Actual Google URL Inspection after release; GA4 optional; events not seller leads."
+  },
+  "previewQA": {
+    "url": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+    "checkedURL": "https://deploy-preview-41--cashasis-blog.netlify.app/blog/texas-transfer-on-death-deed-selling-house/",
+    "status": "pass",
+    "HTTP": 200,
+    "noindex": true,
+    "canonical": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/texas-transfer-on-death-deed-selling-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "fdb531393efb04c57fb073af1bdc5b651b2acc50403ae16353dfb2d9537dd7b1",
+    "internalLinks": {
+      "/blog/sell-house-multiple-owners-heirs-houston/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTAs": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=texas-transfer-on-death-deed-selling-house&utm_term=post",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=texas-transfer-on-death-deed-selling-house&utm_term=post"
+    ],
+    "sitemap": true,
+    "RSS": true,
+    "stylesPreserved": true,
+    "htmlParity": true,
+    "checkedAt": "2026-11-04T14:34:56.840511+00:00"
+  },
+  "previewDeploy": {
+    "id": "6aeb420ea268eaa19a7c4d6c",
+    "commit": "fdaa5ef5b13b720969c0c220662bc5ddea487ad4",
+    "state": "ready",
+    "pr": 41
+  },
+  "pr": 41,
+  "commit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
+  "deployId": "6aeb42b21c54fb1b5a0fee64",
+  "publishedAt": "2026-11-04T14:36:14.744Z",
+  "verifiedAt": "2026-11-04T14:37:31.560300+00:00",
+  "productionQA": {
+    "url": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+    "checkedURL": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+    "status": "pass",
+    "HTTP": 200,
+    "noindex": false,
+    "canonical": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/texas-transfer-on-death-deed-selling-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "fdb531393efb04c57fb073af1bdc5b651b2acc50403ae16353dfb2d9537dd7b1",
+    "internalLinks": {
+      "/blog/sell-house-multiple-owners-heirs-houston/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTAs": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=texas-transfer-on-death-deed-selling-house&utm_term=post",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=texas-transfer-on-death-deed-selling-house&utm_term=post"
+    ],
+    "sitemap": true,
+    "RSS": true,
+    "stylesPreserved": true,
+    "htmlParity": true,
+    "checkedAt": "2026-11-04T14:37:31.560300+00:00"
+  },
+  "previewCommit": "fdaa5ef5b13b720969c0c220662bc5ddea487ad4",
+  "previewDeployId": "6aeb420ea268eaa19a7c4d6c",
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-04",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-04T14:37:03.401219+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3CnwpSqi9CtnGuU9nakarg&utm_medium=link&utm_source=api"
   }
 }
