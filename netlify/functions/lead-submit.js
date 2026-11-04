@@ -1,4 +1,5 @@
 import { attributionStore, publishedProduction, preflight, queueAttribution, markReady, processReceipt, archiveReceipt } from './_shared/attribution-queue.js';
+import { openLeadDedupeStore, reserveLeadSubmission } from './_shared/lead-dedupe.js';
 import crypto from 'node:crypto';
 
 const META_DATASET_ID = '992265673072496';
@@ -133,6 +134,24 @@ async function handler(event, context) {
   }
 
   if(body.tcpa_consent!==true)return json(400,{ok:false,error:'consent_required'});
+
+  let reservation = null;
+  try {
+    const dedupeStore = openLeadDedupeStore(context);
+    if (dedupeStore) reservation = await reserveLeadSubmission(body, dedupeStore);
+  } catch (err) {
+    console.error('[lead-submit] dedupe unavailable', err && err.message);
+  }
+  if (reservation?.duplicate) {
+    console.log('[lead-submit] suppressed duplicate forward', { step: reservation.step });
+    return json(200, { ok: true, forwarded: false, deduped: true, is_test: /^attribution\.qa\.(google|meta|organic|preserve)\.20261005@example\.invalid$/i.test(body.email || ''), attribution_status: 'deduped', capi_ok: true, meta_event_id: body.meta_event_id || null });
+  }
+  const releaseReservation = async () => {
+    if (!reservation) return;
+    try { await reservation.release(); }
+    catch (err) { console.error('[lead-submit] dedupe release failed', err && err.message); }
+  };
+
   const outbound = { ...body };
   delete outbound.attribution;
   delete outbound._website;
@@ -143,7 +162,10 @@ async function handler(event, context) {
   try {
     await preflight(body);
     receiptId=await queueAttribution(body,store);
-  }catch(err){return json(err.message==='identity_conflict'?409:503,{ok:false,error:err.message==='identity_conflict'?'identity_conflict':'intake_temporarily_unavailable'});}
+  }catch(err){
+    await releaseReservation();
+    return json(err.message==='identity_conflict'?409:503,{ok:false,error:err.message==='identity_conflict'?'identity_conflict':'intake_temporarily_unavailable'});
+  }
   try {
     const response = await fetch(GHL_WEBHOOK_URL, {
       method: 'POST',
@@ -153,6 +175,7 @@ async function handler(event, context) {
     const upstreamText = await response.text();
     if (!response.ok) {
       if(receiptId)await archiveReceipt(receiptId,'intake_rejected',store);
+      await releaseReservation();
       console.error('[lead-submit] GHL rejected request', response.status, upstreamText);
       return json(502, { ok: false, error: 'upstream_error', status: response.status });
     }
@@ -164,6 +187,7 @@ async function handler(event, context) {
     catch (metaErr) { console.error('[lead-submit] Meta CAPI request failed', metaErr && metaErr.message); capi = { ok: false }; }
     return json(200, { ok: true, forwarded: true, is_test: /^attribution\.qa\.(google|meta|organic|preserve)\.20261005@example\.invalid$/i.test(body.email||''), attribution_status: attribution.status, upstream_status: response.status, capi_ok: !!capi.ok, meta_event_id: body.meta_event_id || null });
   } catch (err) {
+    await releaseReservation();
     console.error('[lead-submit] GHL request failed', err && err.message);
     return json(502, { ok: false, error: 'upstream_unavailable' });
   }
