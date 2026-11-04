@@ -1,0 +1,265 @@
+{
+  "title": "Houston Water-Line Notice Before Selling? Check the Record",
+  "description": "Got a Houston water-service-line material notice before selling? Check the provider, inventory category and supporting records without guessing at repairs.",
+  "pubDate": "2026-11-04 14:25:00+00:00",
+  "author": "CashAsIs",
+  "category": "Houston Seller Guide",
+  "readTime": "4 min read",
+  "primaryKeyword": "Houston water service line notice selling house",
+  "supportingKeywords": [
+    "unknown water service line material Houston",
+    "seller water line inventory records",
+    "Houston lead service line notice"
+  ],
+  "tags": [
+    "Houston",
+    "seller records",
+    "water service",
+    "property condition"
+  ],
+  "image": "/images/houston-water-service-line-notice-selling-house.png",
+  "imageAlt": "Illustrative Houston-area house with Water Line Check First headline and official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does an unknown service-line category confirm a lead pipe?",
+      "a": "No. Keep unknown recorded as unknown and ask the water provider what evidence is needed to establish the material. Do not convert an incomplete record into either a confirmed lead finding or a non-lead assurance."
+    },
+    {
+      "q": "Is a material inventory the same as a water test?",
+      "a": "No. A material classification describes service-line information, while a laboratory report concerns a sample and its testing scope. Ask the provider or a qualified professional what the actual records establish."
+    },
+    {
+      "q": "Does every Houston-area address use the City's inventory?",
+      "a": "Do not assume that. Identify the actual water provider from the property's service information. A utility district, another public system or a private well may require a different records inquiry."
+    },
+    {
+      "q": "Can I request an as-is offer before replacing a line?",
+      "a": "You can request an evaluation and explain the notice and known condition. A cash proposal does not certify water quality, decide repair responsibility or remove applicable disclosure and closing requirements."
+    }
+  ],
+  "slug": "houston-water-service-line-notice-selling-house",
+  "intentKey": "houston-public-water-service-line-material-inventory-notice-versus-test-seller-records",
+  "headline": "WATER LINE?|CHECK FIRST",
+  "runId": "native-daily-20261104T142017Z",
+  "fence": 28,
+  "day": "2026-11-04",
+  "status": "preview",
+  "url": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+  "nearestOverlaps": [
+    "selling-pre-1978-houston-house-lead-paint",
+    "selling-houston-area-house-private-water-well",
+    "selling-houston-house-sewer-line-problem"
+  ],
+  "substantiveDifference": "First public-water service-line inventory/material notice seller records guide. Existing lead-paint page concerns painted surfaces, well page a private supply, and sewer page wastewater repair. No city/synonym swap, water-quality guarantee or replacement-cost assumption.",
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 37,
+    "method": "Bounded anonymous inbound screen; no topic-specific recurring pattern established. Raw conversations and IDs not retained."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Existing native allowances; native incremental cost not separately metered. No paid API or new provider."
+  },
+  "sources": [
+    {
+      "url": "https://houstonpublicworks.org/water-service-line-inspections",
+      "title": "Houston Public Works service-line inspections",
+      "publicationDate": null,
+      "accessedAt": "2026-11-04",
+      "verifiedAt": "2026-11-04T14:31:42.415764+00:00",
+      "reportingPeriod": "Fresh primary guidance accessed2026-11-04",
+      "geography": "Texas; Houston/Harris/FortBend seller education",
+      "unit": null,
+      "figure": null,
+      "method": "Native Work primary-source retrieval and material-claim review before drafting; verified at record assembly against retrieved evidence.",
+      "claim": "Customer-side material identification across six distribution systems; inventory and unknown-material reporting resources; contractor notice after inspection."
+    },
+    {
+      "url": "https://www.epa.gov/ground-water-and-drinking-water/planning-and-developing-service-line-inventory",
+      "title": "EPA service-line inventory guidance",
+      "publicationDate": "2026-03-11 updated",
+      "accessedAt": "2026-11-04",
+      "verifiedAt": "2026-11-04T14:31:42.415764+00:00",
+      "reportingPeriod": "Fresh primary guidance accessed2026-11-04",
+      "geography": "Texas; Houston/Harris/FortBend seller education",
+      "unit": null,
+      "figure": null,
+      "method": "Native Work primary-source retrieval and material-claim review before drafting; verified at record assembly against retrieved evidence.",
+      "claim": "Lead, galvanized requiring replacement, non-lead and lead-status-unknown classifications; system and customer-side material information distinct from water sample results."
+    }
+  ],
+  "originality": {
+    "slug": "houston-water-service-line-notice-selling-house",
+    "words": 866,
+    "matches": [
+      {
+        "slug": "selling-houston-house-roof-damage-repair-or-as-is",
+        "count": 3,
+        "phrases": [
+          "our texas as is disclosure checklist blog texas as is sale seller",
+          "texas as is disclosure checklist blog texas as is sale seller disclosure"
+        ]
+      },
+      {
+        "slug": "selling-houston-house-sewer-line-problem",
+        "count": 3,
+        "phrases": [
+          "our texas as is disclosure checklist blog texas as is sale seller",
+          "texas as is disclosure checklist blog texas as is sale seller disclosure"
+        ]
+      },
+      {
+        "slug": "selling-houston-house-aluminum-wiring",
+        "count": 3,
+        "phrases": [
+          "our texas as is disclosure checklist blog texas as is sale seller",
+          "texas as is disclosure checklist blog texas as is sale seller disclosure"
+        ]
+      },
+      {
+        "slug": "selling-houston-house-suspected-asbestos",
+        "count": 4,
+        "phrases": [
+          "checklist blog texas as is sale seller disclosure checklist is a starting",
+          "blog texas as is sale seller disclosure checklist is a starting point"
+        ]
+      }
+    ],
+    "review": "Matches, where present, are shared contextual internal-link labels/URLs, not substantive copied prose. Fresh204-entry inventory, full durable ledger and openPRs27/7/6/5 reviewed; distinct intent and nearest overlaps read."
+  },
+  "imageSha256": "49ae0c610a1a80fb2bb6089b0ad3252b692e07c854c816546530c56efaaab54d",
+  "imageProvenance": {
+    "type": "native_imagegen_original_illustration",
+    "background": "generated_images/exec-50dae7a6-bb15-4f43-8a15-fe616b8296dc.png",
+    "backgroundSHA256": "270e712b68fa5acb051592dcf4e54e3bb10dfa387f67b8450f9ee3963ff9f9f9",
+    "prompt": "Use case: photorealistic-natural. Original realistic illustrative editorial property photograph background, wide 1200:630 crop. House and architectural details on RIGHT half, usable shaded negative space on LEFT for later locked brand typography. Believable gently worn property, natural materials. No people, lettering, numbers, addresses, documents, sale signs, logos or watermarks. Not an actual property listing. Small Houston-area pale brick house with a right-side wooden side-yard fence and visible front yard, no plumbing diagrams; deep shaded dark trees on left. Bright natural late-morning light.",
+    "headline": "WATER LINE?|CHECK FIRST",
+    "wordCount": 4,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "renderer": "locked left-photo-transparent-v2",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logo": "Exact official white/orange transparent; both logo alpha0..255 verified",
+    "approvedReferenceReview": [
+      "Humble",
+      "Spring",
+      "Nov3 easement"
+    ],
+    "visualReview": "Full1200x630, article390/1366 and card390/1366 inspected. Readable headline/logo and spacing. No generated logo or background block; original illustrative property, not a listing."
+  },
+  "social": {
+    "slug": "houston-water-service-line-notice-selling-house",
+    "url": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+    "image": "https://www.cashasis.com/images/houston-water-service-line-notice-selling-house.png",
+    "status": "draft_only",
+    "facebook": "Houston Water-Line Notice Before Selling? Check the Record\n\nGot a Houston water-service-line material notice before selling? Check the provider, inventory category and supporting records without guessing at repairs.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+    "instagram": "Houston Water-Line Notice Before Selling? Check the Record\n\nGot a Houston water-service-line material notice before selling? Check the provider, inventory category and supporting records without guessing at repairs.\n\nRead the guide: https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Houston Water-Line Notice Before Selling? Check the Record\n\nGot a Houston water-service-line material notice before selling? Check the provider, inventory category and supporting records without guessing at repairs.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+    "googleBusinessProfile": "Houston Water-Line Notice Before Selling? Check the Record\n\nGot a Houston water-service-line material notice before selling? Check the provider, inventory category and supporting records without guessing at repairs.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+    "promotionalExcerpt": "Got a Houston water-service-line material notice before selling? Check the provider, inventory category and supporting records without guessing at repairs.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending",
+    "conversionReporting": "unavailable_optional"
+  },
+  "validation": {
+    "fullBuild": "pass",
+    "outputValidator": "pass",
+    "nodeTests": 13,
+    "pythonGateTests": 5,
+    "mobile": {
+      "passed": true,
+      "results": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "body": 274,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 274,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+          "og": "https://www.cashasis.com/images/houston-water-service-line-notice-selling-house.png"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "body": 304,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 304,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+          "og": "https://www.cashasis.com/images/houston-water-service-line-notice-selling-house.png"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+          "og": "https://www.cashasis.com/images/houston-water-service-line-notice-selling-house.png"
+        },
+        {
+          "width": 1366,
+          "scroll": 1366,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+          "og": "https://www.cashasis.com/images/houston-water-service-line-notice-selling-house.png"
+        }
+      ]
+    },
+    "cards": [
+      390,
+      1366
+    ],
+    "visibleDate": "November4,2026",
+    "protectedSourceChanges": []
+  },
+  "seoQA": {
+    "sellerIntent": "houston-public-water-service-line-material-inventory-notice-versus-test-seller-records",
+    "canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+    "indexability": "Built production output no noindex and sitemap/RSS eligible; exactpreview and live verification pending.",
+    "sellerPath": "Existing attributed contextual offer CTA; no fake leads.",
+    "quality": "First public-water service-line inventory/material notice seller records guide. Existing lead-paint page concerns painted surfaces, well page a private supply, and sewer page wastewater repair. No city/synonym swap, water-quality guarantee or replacement-cost assumption.",
+    "measurement": "Actual Google URL Inspection after release; GA4 optional; events not seller leads."
+  },
+  "excludedSource": "HPW material-letters URL returned403 and2024mailing context; no claim of2026mailing date or current deadline."
+}
