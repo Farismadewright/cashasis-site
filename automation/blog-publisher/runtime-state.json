@@ -3,7 +3,9 @@
     "runId": "native-daily-20261105T144125Z",
     "fence": 29,
     "issuedAt": "2026-11-05T14:41:25Z",
-    "expiresAt": "2026-11-05T16:31:25.000Z"
+    "expiresAt": "2026-11-05T14:51:48Z",
+    "releasedAt": "2026-11-05T14:51:48Z",
+    "released": true
   },
   "ledger": [
     {
@@ -1246,45 +1248,31 @@
       "publishedAt": "2026-11-04T14:36:14.744Z",
       "verifiedAt": "2026-11-04T14:40:21.200838+00:00",
       "bookkeepingCommit": "0ef1ea2b122641b8d4182f6eac7b50963a7d7212"
-    },
-    {
-      "runId": "native-daily-20261105T144125Z",
-      "fence": 29,
-      "day": "2026-11-05",
-      "slug": "selling-houston-house-sba-disaster-loan-lien",
-      "intentKey": "houston-seller-sba-disaster-loan-collateral-release-versus-paydown-record-review",
-      "status": "reserved",
-      "reservedAt": "2026-11-05T14:43:23.031Z",
-      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261104T142017Z",
-    "fence": 28,
-    "status": "pass",
-    "day": "2026-11-04",
-    "published": 3,
-    "held": 0,
-    "productionCommit": "9482b992224101e0d0c13de30afd17c7a340cbfc",
-    "deployId": "6aeb42b21c54fb1b5a0fee64",
-    "evidence": "automation/blog-publisher/runs/2026-11-04.json",
-    "bookkeepingCommit": "0ef1ea2b122641b8d4182f6eac7b50963a7d7212",
-    "bookkeepingDeployId": "6aeb435a146503512f032486",
-    "monitoringCommit": "c3ddcb32decb35f8cf787fc37d899d7e735043ab",
-    "inspectionCalls": 4,
+    "runId": "native-daily-20261105T144125Z",
+    "fence": 29,
+    "day": "2026-11-05",
+    "status": "hold",
+    "published": 0,
+    "held": 3,
+    "evidence": "automation/blog-publisher/runs/2026-11-05.json",
+    "bookkeepingCommit": "78229c3b8536c0ee440a3436fa007caf06588f61",
+    "bookkeepingDeployId": "6aec97a5ae19e1ee35b85978",
+    "monitoringCommit": "52adf16d7ce95884b411785e83e5c7a06e19d5c7",
+    "inspectionCalls": 0,
     "externalPaidApiSpendUSD": 0,
-    "notificationSent": false,
+    "notificationSent": true,
     "monthlyStatus": "partial_retry_maturity_verification",
     "finalLiveCheck": {
-      "result": "pass",
       "HTTP": 200,
-      "canonical": true,
-      "heroOGX": true,
-      "attributedCTA": true,
-      "checkedAt": "2026-11-04T14:40:21.181106+00:00"
+      "heldDraftExcluded": true,
+      "CSSSourceParity": true
     },
-    "completedAt": "2026-11-04T14:40:45Z"
+    "nextAction": "Verify QA browser execution in the next existing run before regeneration; recover saved draft only if every real visual/preview/release gate passes. No template/provider/schedule change.",
+    "completedAt": "2026-11-05T14:51:48Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
@@ -1317,5 +1305,24 @@
     },
     "originalPublicationStillCountsTowardDailyCap": true,
     "scheduleChanged": false
-  }
+  },
+  "heldReservations": [
+    {
+      "runId": "native-daily-20261105T144125Z",
+      "fence": 29,
+      "day": "2026-11-05",
+      "slug": "selling-houston-house-sba-disaster-loan-lien",
+      "intentKey": "houston-seller-sba-disaster-loan-collateral-release-versus-paydown-record-review",
+      "status": "hold",
+      "reservedAt": "2026-11-05T14:43:23.031Z",
+      "validationOnly": false,
+      "reason": "QA Chromium launch EACCES after one corrective attempt; desktop/mobile/card not verified",
+      "heldAt": "2026-11-05T14:51:48Z",
+      "reservationReleased": true,
+      "neverPublished": true,
+      "draftBranch": "publisher/2026-11-05-f29-held",
+      "draftCommit": "3194cbe2295960807abd2f6ff19d5dcb3fb92fd3",
+      "evidence": "automation/blog-publisher/runs/2026-11-05.json"
+    }
+  ]
 }
