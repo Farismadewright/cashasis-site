@@ -1246,6 +1246,17 @@
       "publishedAt": "2026-11-04T14:36:14.744Z",
       "verifiedAt": "2026-11-04T14:40:21.200838+00:00",
       "bookkeepingCommit": "0ef1ea2b122641b8d4182f6eac7b50963a7d7212"
+    },
+    {
+      "slug": "selling-houston-house-sba-disaster-loan-lien",
+      "intentKey": "houston-seller-sba-disaster-loan-collateral-release-versus-paydown-record-review",
+      "runId": "native-daily-20261106T143723Z",
+      "fence": 30,
+      "day": "2026-11-06",
+      "status": "reserved",
+      "reservedAt": "2026-11-06T14:38:57Z",
+      "recoveredFrom": "publisher/2026-11-05-f29-held",
+      "validationOnly": false
     }
   ],
   "externalApiSpendLimitUSD": 0,
