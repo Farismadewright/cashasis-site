@@ -1,0 +1,237 @@
+{
+  "title": "SBA Disaster-Loan Lien on a Houston House: Before You Sell",
+  "description": "An SBA disaster loan appears in your Houston house sale paperwork? Separate collateral release, loan payoff and seller proceeds before promising a closing.",
+  "pubDate": "2026-11-06 14:40:00+00:00",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "primaryKeyword": "selling Houston house SBA disaster loan lien",
+  "supportingKeywords": [
+    "SBA disaster loan collateral release house sale",
+    "SBA paydown versus payoff",
+    "Houston seller disaster loan records"
+  ],
+  "tags": [
+    "Houston",
+    "seller paperwork",
+    "title preparation"
+  ],
+  "image": "/images/selling-houston-house-sba-disaster-loan-lien.png",
+  "imageAlt": "Illustrative Houston brick house with SBA Loan Check First headline and official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does an SBA loan balance prove this house is collateral?",
+      "a": "Do not assume that from a balance alone. Ask the servicing office and title professionals to identify the actual loan, recorded instruments and property involved."
+    },
+    {
+      "q": "Is a collateral release the same as paying off the whole loan?",
+      "a": "No. A request to release specified collateral and a full loan payoff answer different questions. Obtain the applicable written requirements and have the closing team reconcile them."
+    },
+    {
+      "q": "Does a cash purchase automatically remove an SBA lien?",
+      "a": "No. A buyer's funding method does not supply servicing approval, determine the release terms or establish what money remains for the seller."
+    },
+    {
+      "q": "Can I promise a closing date while a release request is pending?",
+      "a": "Treat the unresolved approval and document steps as dependencies. Ask the servicing office and closing team what remains outstanding before making a firm promise."
+    }
+  ],
+  "slug": "selling-houston-house-sba-disaster-loan-lien",
+  "runId": "native-daily-20261106T143723Z",
+  "fence": 30,
+  "day": "2026-11-06",
+  "intentKey": "houston-seller-sba-disaster-loan-collateral-release-versus-paydown-record-review",
+  "status": "preview",
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+  "nearestOverlaps": [
+    "sell-house-title-problems-houston",
+    "paid-off-mortgage-lien-release-houston",
+    "selling-houston-house-open-insurance-claim"
+  ],
+  "substantiveDifference": "First SBA disaster-loan collateral release versus principal paydown/full payoff seller decision. Existing title hub is general; mortgage release article concerns previously paid mortgage; insurance claim article concerns insurer proceeds. No city/synonym swap or individualized short-sale instructions.",
+  "sellerVoice": {
+    "sample": 100,
+    "screenedInbound": 37,
+    "method": "Bounded anonymous read-only SMS screen; no topic-specific recurring SBA concern established, no raw messages/IDs/amounts retained."
+  },
+  "originality": {
+    "words": 825,
+    "matches": [
+      {
+        "slug": "manufactured-house-land-ownership-records-houston",
+        "count": 1,
+        "phrases": [
+          "our houston title problem guide blog sell house title problems houston provides"
+        ]
+      }
+    ],
+    "review": "Only12-word match is shared contextual link label/URL; current inventory, ledger, intent map and pendingPRs27/7/6/5 manually reviewed. Nearest overlaps retain different seller decisions."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Native Work imagegen and existing Netlify allowances; incremental native cost unknown, no paid API/provider."
+  },
+  "sources": [
+    {
+      "url": "https://www.sba.gov/document/support-release-collateral-requirement-letter",
+      "title": "SBA Release of Collateral Requirement Letter",
+      "publicationDate": "2025-10-06",
+      "accessedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06T14:41:27.480255+00:00",
+      "reportingPeriod": "Current disaster-loan guidance accessedNov5",
+      "geography": "US SBA disaster loans; Houston/Harris/FortBend seller education",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh native primary source landing page opened and full linked2-page PDF readNov6. Initial direct PDF-open failed; following the current landing-page download succeeded. No7(a) rules or unsupported closing deadlines imported.",
+      "claim": "Disaster-loan servicing request package resource; updatedOct6,2025."
+    },
+    {
+      "url": "https://legacy.sba.gov/sites/default/files/2025-10/2021%20Release%20of%20Collateral%20Reqs_Updated%2010.02.2025.pdf",
+      "title": "SBA Release of Collateral Requirements Disaster Information",
+      "publicationDate": "2025-10-02 document revision",
+      "accessedAt": "2026-11-06",
+      "verifiedAt": "2026-11-06T14:41:27.480255+00:00",
+      "reportingPeriod": "Current disaster-loan guidance accessedNov5",
+      "geography": "US SBA disaster loans; Houston/Harris/FortBend seller education",
+      "unit": null,
+      "figure": null,
+      "method": "Fresh native primary source landing page opened and full linked2-page PDF readNov6. Initial direct PDF-open failed; following the current landing-page download succeeded. No7(a) rules or unsupported closing deadlines imported.",
+      "claim": "Requirement letter not commitment; written approval separate; paydown not full payoff or automatic payment reamortization. Transaction documents matter; no guaranteed review/closing time asserted."
+    }
+  ],
+  "imageSha256": "210b8bb4454ee6187ecd69d4f1f9489bcfec5ac8da107d72593b467f2a754bbe",
+  "imageProvenance": {
+    "type": "native_imagegen_original_illustration",
+    "background": "generated_images/exec-9cb6ab01-bde5-4c6e-989a-54dd9e5f544e.png",
+    "backgroundSHA256": "fcc16e3f0f9bcfffcd2e8a98d957a18346b25add8c3fabd27062fa8352056bca",
+    "prompt": "Original realistic cream brick Houston house on right, dark tree negative space left, natural daylight, no people/text/address/logo, not an actual listing or disaster-damaged house.",
+    "headline": "SBA LOAN|CHECK FIRST",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logoAlphaVerified": true,
+    "visualReview": "Original native Nov5 illustrative background and exact approved composition recovered from GitHub; full1200x630, article390/1366 and cards390/1366 inspected; no clipping/panel/redesign. Same hero/OG/X. Both official logo alpha0..255 verified.",
+    "recoveredOriginal": true
+  },
+  "social": {
+    "slug": "selling-houston-house-sba-disaster-loan-lien",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "image": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png",
+    "status": "draft_only",
+    "facebook": "SBA Disaster-Loan Lien on a Houston House: Before You Sell\n\nAn SBA disaster loan appears in your Houston house sale paperwork? Separate collateral release, loan payoff and seller proceeds before promising a closing.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "instagram": "SBA Disaster-Loan Lien on a Houston House: Before You Sell\n\nAn SBA disaster loan appears in your Houston house sale paperwork? Separate collateral release, loan payoff and seller proceeds before promising a closing.\n\nRead the guide: https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "SBA Disaster-Loan Lien on a Houston House: Before You Sell\n\nAn SBA disaster loan appears in your Houston house sale paperwork? Separate collateral release, loan payoff and seller proceeds before promising a closing.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "googleBusinessProfile": "SBA Disaster-Loan Lien on a Houston House: Before You Sell\n\nAn SBA disaster loan appears in your Houston house sale paperwork? Separate collateral release, loan payoff and seller proceeds before promising a closing.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "promotionalExcerpt": "An SBA disaster loan appears in your Houston house sale paperwork? Separate collateral release, loan payoff and seller proceeds before promising a closing.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "validation": {
+    "fullBuild": "pass",
+    "outputValidator": "pass",
+    "nodeTests": 13,
+    "pythonGateTests": 5,
+    "mobile": {
+      "passed": true,
+      "results": [
+        {
+          "width": 360,
+          "scroll": 360,
+          "body": 274,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 274,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png"
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "body": 304,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 304,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png"
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png"
+        },
+        {
+          "width": 1366,
+          "scroll": 1366,
+          "body": 638,
+          "table": 0,
+          "tableScrollSafe": true,
+          "image": 638,
+          "imageLoaded": 1200,
+          "h1s": 1,
+          "canonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+          "og": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png"
+        }
+      ]
+    },
+    "cards": {
+      "passed": true,
+      "results": [
+        {
+          "width": 390,
+          "card": true
+        },
+        {
+          "width": 1366,
+          "card": true
+        }
+      ]
+    },
+    "visibleDate": "November6,2026",
+    "protectedSourceChanges": []
+  },
+  "recoveredFrom": {
+    "branch": "publisher/2026-11-05-f29-held",
+    "commit": "3194cbe2295960807abd2f6ff19d5dcb3fb92fd3",
+    "priorHold": "QA Chromium EACCES; resolved by execute permission and launch in same shell invocation; no site or template change."
+  }
+}
