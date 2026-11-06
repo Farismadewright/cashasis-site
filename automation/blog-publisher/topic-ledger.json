@@ -915,5 +915,24 @@
     "deployId": "6aeb42b21c54fb1b5a0fee64",
     "pr": 41,
     "publishedAt": "2026-11-04T14:36:14.744Z"
+  },
+  {
+    "runId": "native-daily-20261106T143723Z",
+    "fence": 30,
+    "day": "2026-11-06",
+    "slug": "selling-houston-house-sba-disaster-loan-lien",
+    "intentKey": "houston-seller-sba-disaster-loan-collateral-release-versus-paydown-record-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "nearestOverlaps": [
+      "sell-house-title-problems-houston",
+      "paid-off-mortgage-lien-release-houston",
+      "selling-houston-house-open-insurance-claim"
+    ],
+    "substantiveDifference": "First SBA disaster-loan collateral release versus principal paydown/full payoff seller decision. Existing title hub is general; mortgage release article concerns previously paid mortgage; insurance claim article concerns insurer proceeds. No city/synonym swap or individualized short-sale instructions.",
+    "commit": "796eb4846c73cb38771675d2a35e0d74104b0817",
+    "deployId": "6aede7fb0f4d46fbd9dfcb37",
+    "pr": 43,
+    "publishedAt": "2026-11-06T14:45:59.977Z"
   }
 ]

@@ -41,9 +41,9 @@
   "fence": 30,
   "day": "2026-11-06",
   "intentKey": "houston-seller-sba-disaster-loan-collateral-release-versus-paydown-record-review",
-  "status": "preview",
-  "commit": null,
-  "deployId": null,
+  "status": "published",
+  "commit": "796eb4846c73cb38771675d2a35e0d74104b0817",
+  "deployId": "6aede7fb0f4d46fbd9dfcb37",
   "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
   "nearestOverlaps": [
     "sell-house-title-problems-houston",
@@ -152,8 +152,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
   "validation": {
     "fullBuild": "pass",
@@ -233,5 +233,86 @@
     "branch": "publisher/2026-11-05-f29-held",
     "commit": "3194cbe2295960807abd2f6ff19d5dcb3fb92fd3",
     "priorHold": "QA Chromium EACCES; resolved by execute permission and launch in same shell invocation; no site or template change."
+  },
+  "previewQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "checkedURL": "https://deploy-preview-43--cashasis-blog.netlify.app/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "HTTP": 200,
+    "noindex": true,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "210b8bb4454ee6187ecd69d4f1f9489bcfec5ac8da107d72593b467f2a754bbe",
+    "internalLinks": {
+      "/blog/paid-off-mortgage-lien-release-houston/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-06T14:43:58.329712+00:00"
+  },
+  "pr": 43,
+  "publishedAt": "2026-11-06T14:45:59.977Z",
+  "verifiedAt": "2026-11-06T14:47:08.643862+00:00",
+  "productionQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "checkedURL": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "HTTP": 200,
+    "noindex": false,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "210b8bb4454ee6187ecd69d4f1f9489bcfec5ac8da107d72593b467f2a754bbe",
+    "internalLinks": {
+      "/blog/paid-off-mortgage-lien-release-houston/": 200,
+      "/blog/sell-house-title-problems-houston/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-06T14:47:08.643862+00:00"
+  },
+  "previewCommit": "b980453570bc96ba75d57d2f2aa0b88b34a68741",
+  "previewDeployId": "6aede74184d735f075b3b56d",
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-06T14:47:33.163986+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Pu6izH769Z8B2cKmPiUzgQ&utm_medium=link&utm_source=api"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-06",
+    "errors": []
   }
 }
