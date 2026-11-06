@@ -3,7 +3,9 @@
     "runId": "native-daily-20261106T143723Z",
     "fence": 30,
     "issuedAt": "2026-11-06T14:37:23Z",
-    "expiresAt": "2026-11-06T16:27:23.000Z"
+    "expiresAt": "2026-11-06T14:51:31Z",
+    "releasedAt": "2026-11-06T14:51:31Z",
+    "released": true
   },
   "ledger": [
     {
@@ -1253,7 +1255,7 @@
       "runId": "native-daily-20261106T143723Z",
       "fence": 30,
       "day": "2026-11-06",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-06T14:38:57Z",
       "recoveredFrom": "publisher/2026-11-05-f29-held",
       "validationOnly": false,
@@ -1264,32 +1266,45 @@
         "allowed": true,
         "errors": [],
         "verifiedAt": "2026-11-06T14:45:09Z"
-      }
+      },
+      "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+      "commit": "796eb4846c73cb38771675d2a35e0d74104b0817",
+      "deployId": "6aede7fb0f4d46fbd9dfcb37",
+      "publishedAt": "2026-11-06T14:45:59.977Z",
+      "verifiedAt": "2026-11-06T14:51:31Z",
+      "bookkeepingCommit": "e8a0a3bce9216c2c90ea6eb883c7085bb69a14b5"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261105T144125Z",
-    "fence": 29,
-    "day": "2026-11-05",
-    "status": "hold",
-    "published": 0,
-    "held": 3,
-    "evidence": "automation/blog-publisher/runs/2026-11-05.json",
-    "bookkeepingCommit": "78229c3b8536c0ee440a3436fa007caf06588f61",
-    "bookkeepingDeployId": "6aec97a5ae19e1ee35b85978",
-    "monitoringCommit": "52adf16d7ce95884b411785e83e5c7a06e19d5c7",
-    "inspectionCalls": 0,
+    "runId": "native-daily-20261106T143723Z",
+    "fence": 30,
+    "day": "2026-11-06",
+    "status": "pass",
+    "published": 1,
+    "held": 2,
+    "heldScope": "Foundation-warranty and AC-replacement variants duplicate existing seller guides; held before generation.",
+    "productionCommit": "796eb4846c73cb38771675d2a35e0d74104b0817",
+    "deployId": "6aede7fb0f4d46fbd9dfcb37",
+    "evidence": "automation/blog-publisher/runs/2026-11-06.json",
+    "bookkeepingCommit": "e8a0a3bce9216c2c90ea6eb883c7085bb69a14b5",
+    "bookkeepingDeployId": "6aede8ba755a9d4f99d6d583",
+    "monitoringCommit": "f8a3382e0966d0c71473c234f09069e017a0c4ae",
+    "inspectionCalls": 2,
     "externalPaidApiSpendUSD": 0,
-    "notificationSent": true,
+    "notificationSent": false,
     "monthlyStatus": "partial_retry_maturity_verification",
+    "browserFailureResolved": true,
     "finalLiveCheck": {
+      "result": "pass",
       "HTTP": 200,
-      "heldDraftExcluded": true,
-      "CSSSourceParity": true
+      "canonical": true,
+      "heroOGX": true,
+      "attributedCTA": true,
+      "CSSSourceParity": true,
+      "checkedAt": "2026-11-06T14:49:55.080623+00:00"
     },
-    "nextAction": "Verify QA browser execution in the next existing run before regeneration; recover saved draft only if every real visual/preview/release gate passes. No template/provider/schedule change.",
-    "completedAt": "2026-11-05T14:51:48Z"
+    "completedAt": "2026-11-06T14:51:31Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
@@ -1339,7 +1354,10 @@
       "neverPublished": true,
       "draftBranch": "publisher/2026-11-05-f29-held",
       "draftCommit": "3194cbe2295960807abd2f6ff19d5dcb3fb92fd3",
-      "evidence": "automation/blog-publisher/runs/2026-11-05.json"
+      "evidence": "automation/blog-publisher/runs/2026-11-05.json",
+      "recoveredByRunId": "native-daily-20261106T143723Z",
+      "recoveredAt": "2026-11-06T14:51:31Z",
+      "productionCommit": "796eb4846c73cb38771675d2a35e0d74104b0817"
     }
   ]
 }
