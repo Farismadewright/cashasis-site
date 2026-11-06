@@ -1253,10 +1253,18 @@
       "runId": "native-daily-20261106T143723Z",
       "fence": 30,
       "day": "2026-11-06",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-06T14:38:57Z",
       "recoveredFrom": "publisher/2026-11-05-f29-held",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 43,
+      "headCommit": "b980453570bc96ba75d57d2f2aa0b88b34a68741",
+      "previewDeployId": "6aede74184d735f075b3b56d",
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "verifiedAt": "2026-11-06T14:45:09Z"
+      }
     }
   ],
   "externalApiSpendLimitUSD": 0,
