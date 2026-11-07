@@ -1275,24 +1275,32 @@
     {
       "slug": "home-warranty-plan-selling-houston-house",
       "intentKey": "houston-seller-existing-residential-service-contract-coverage-transfer-cancellation-review",
-      "headline": "HOME WARRANTY?|CHECK TERMS",
+      "headline": "HOME PLAN|CHECK TERMS",
       "runId": "native-daily-20261107T143457Z",
       "fence": 31,
       "day": "2026-11-07",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-07T14:35:58Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 44,
+      "previewCommit": "29326c000eba8703e345a84eb4eaa1c0fd0230f4",
+      "previewDeployId": "6aef396411505973e749985c",
+      "releaseGate": "pass"
     },
     {
       "slug": "camera-doorbell-account-handoff-selling-houston-house",
       "intentKey": "houston-seller-camera-doorbell-hardware-account-video-subscription-handoff-plan",
-      "headline": "CAMERA STAYS?|PLAN HANDOFF",
+      "headline": "CAMERA STAYS|PLAN AHEAD",
       "runId": "native-daily-20261107T143457Z",
       "fence": 31,
       "day": "2026-11-07",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-07T14:35:58Z",
-      "validationOnly": false
+      "validationOnly": false,
+      "pr": 44,
+      "previewCommit": "29326c000eba8703e345a84eb4eaa1c0fd0230f4",
+      "previewDeployId": "6aef396411505973e749985c",
+      "releaseGate": "pass"
     }
   ],
   "externalApiSpendLimitUSD": 0,
