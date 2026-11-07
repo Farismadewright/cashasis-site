@@ -3,7 +3,9 @@
     "runId": "native-daily-20261107T143457Z",
     "fence": 31,
     "issuedAt": "2026-11-07T14:34:57Z",
-    "expiresAt": "2026-11-07T16:24:57.000Z"
+    "expiresAt": "2026-11-07T14:52:58Z",
+    "releasedAt": "2026-11-07T14:52:58Z",
+    "released": true
   },
   "ledger": [
     {
@@ -1279,13 +1281,17 @@
       "runId": "native-daily-20261107T143457Z",
       "fence": 31,
       "day": "2026-11-07",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-07T14:35:58Z",
       "validationOnly": false,
       "pr": 44,
       "previewCommit": "29326c000eba8703e345a84eb4eaa1c0fd0230f4",
       "previewDeployId": "6aef396411505973e749985c",
-      "releaseGate": "pass"
+      "releaseGate": "pass",
+      "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+      "deployId": "6aef3a07deb4da65d286d7c1",
+      "publishedAt": "2026-11-07T14:48:14.532Z"
     },
     {
       "slug": "camera-doorbell-account-handoff-selling-houston-house",
@@ -1294,45 +1300,57 @@
       "runId": "native-daily-20261107T143457Z",
       "fence": 31,
       "day": "2026-11-07",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-07T14:35:58Z",
       "validationOnly": false,
       "pr": 44,
       "previewCommit": "29326c000eba8703e345a84eb4eaa1c0fd0230f4",
       "previewDeployId": "6aef396411505973e749985c",
-      "releaseGate": "pass"
+      "releaseGate": "pass",
+      "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+      "deployId": "6aef3a07deb4da65d286d7c1",
+      "publishedAt": "2026-11-07T14:48:14.532Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261106T143723Z",
-    "fence": 30,
-    "day": "2026-11-06",
-    "status": "pass",
-    "published": 1,
-    "held": 2,
-    "heldScope": "Foundation-warranty and AC-replacement variants duplicate existing seller guides; held before generation.",
-    "productionCommit": "796eb4846c73cb38771675d2a35e0d74104b0817",
-    "deployId": "6aede7fb0f4d46fbd9dfcb37",
-    "evidence": "automation/blog-publisher/runs/2026-11-06.json",
-    "bookkeepingCommit": "e8a0a3bce9216c2c90ea6eb883c7085bb69a14b5",
-    "bookkeepingDeployId": "6aede8ba755a9d4f99d6d583",
-    "monitoringCommit": "f8a3382e0966d0c71473c234f09069e017a0c4ae",
-    "inspectionCalls": 2,
+    "runId": "native-daily-20261107T143457Z",
+    "fence": 31,
+    "day": "2026-11-07",
+    "status": "published",
+    "published": 2,
+    "held": 1,
+    "articles": [
+      {
+        "slug": "home-warranty-plan-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/"
+      },
+      {
+        "slug": "camera-doorbell-account-handoff-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/"
+      }
+    ],
+    "heldCandidates": [
+      {
+        "candidate": "Roof repair versus as-is variant",
+        "status": "hold",
+        "reason": "Existing roof damage decision guide already answers this intent",
+        "generationPerformed": false
+      }
+    ],
+    "completedAt": "2026-11-07T14:52:58Z",
+    "productionCommit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+    "productionDeployId": "6aef3a07deb4da65d286d7c1",
+    "bookkeepingCommit": "281e5315ed353681cf53e957331c275146914c4a",
+    "bookkeepingDeployId": "6aef3ac587e1713c8c701d92",
+    "monitoringCommit": "d9157b185abffee4066def5a1b08e5323dbeef4b",
+    "monitoringInspections": 5,
+    "indexedDueRechecks": 3,
     "externalPaidApiSpendUSD": 0,
-    "notificationSent": false,
-    "monthlyStatus": "partial_retry_maturity_verification",
-    "browserFailureResolved": true,
-    "finalLiveCheck": {
-      "result": "pass",
-      "HTTP": 200,
-      "canonical": true,
-      "heroOGX": true,
-      "attributedCTA": true,
-      "CSSSourceParity": true,
-      "checkedAt": "2026-11-06T14:49:55.080623+00:00"
-    },
-    "completedAt": "2026-11-06T14:51:31Z"
+    "nativeIncrementalCost": null,
+    "finalLiveQA": "pass",
+    "notificationSent": false
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
