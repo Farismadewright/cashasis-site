@@ -1,0 +1,230 @@
+{
+  "title": "Home Warranty Before Selling a Houston House: Check the Plan",
+  "description": "Have a home warranty while selling a Houston house? Check the actual service contract, open requests and ownership-change terms before promising coverage.",
+  "pubDate": "2026-11-07 14:40:00+00:00",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "primaryKeyword": "home warranty selling Houston house",
+  "supportingKeywords": [
+    "residential service contract seller records",
+    "existing home warranty transfer questions",
+    "home warranty versus insurance Texas"
+  ],
+  "tags": [
+    "Houston",
+    "seller records",
+    "home warranty"
+  ],
+  "image": "/images/home-warranty-plan-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston brick house with Home Plan Check Terms headline and official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Is my home warranty the same as homeowners insurance?",
+      "a": "No. Texas regulators distinguish a residential service contract from homeowners insurance. Identify the actual contract and covered event rather than relying on the word warranty."
+    },
+    {
+      "q": "Does the plan prove an old appliance works?",
+      "a": "No. A plan document describes possible contractual benefits and conditions; it does not establish the appliance's present condition or guarantee a claim will be accepted."
+    },
+    {
+      "q": "Will my existing plan automatically transfer to a buyer?",
+      "a": "Do not assume that. Ask the provider to identify any ownership-change requirements, costs, deadlines and remaining coverage in your actual agreement, then reconcile the response with the sale terms."
+    },
+    {
+      "q": "Must I buy a warranty to sell to Cash As-Is?",
+      "a": "Do not assume a warranty purchase is part of a Cash As-Is proposal. Review the actual written agreement. Texas regulator guidance says a residential service contract is not generally required when purchasing a home."
+    }
+  ],
+  "slug": "home-warranty-plan-selling-houston-house",
+  "intentKey": "houston-seller-existing-residential-service-contract-coverage-transfer-cancellation-review",
+  "headline": "HOME PLAN|CHECK TERMS",
+  "runId": "native-daily-20261107T143457Z",
+  "fence": 31,
+  "day": "2026-11-07",
+  "status": "preview",
+  "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+  "nearestOverlaps": [
+    "replace-air-conditioner-before-selling-houston-house",
+    "foundation-report-before-selling-houston-house",
+    "selling-houston-house-open-insurance-claim"
+  ],
+  "substantiveDifference": "First existing residential service plan seller document review: coverage versus equipment condition versus sale obligations, open request status and provider-specific ownership-change terms. Equipment repair, contractor warranty and insurance-claim guides answer different decisions.",
+  "originality": {
+    "words": 781,
+    "matches": [
+      {
+        "slug": "federal-tax-lien-selling-houston-house",
+        "count": 2,
+        "phrases": [
+          "requesting a cash as is evaluation describe the property s condition and",
+          "when requesting a cash as is evaluation describe the property s condition"
+        ]
+      },
+      {
+        "slug": "hcad-tax-value-vs-cash-offer-harris-county",
+        "count": 3,
+        "phrases": [
+          "ac replacement decision guide blog replace air conditioner before selling houston house",
+          "our ac replacement decision guide blog replace air conditioner before selling houston",
+          "replacement decision guide blog replace air conditioner before selling houston house helps"
+        ]
+      }
+    ],
+    "review": "Current blog/seller inventory, full durable ledger, intent map and open PRs5/6/7/27 reviewed. Shared link labels are not duplicate intent. Native authored framework, distinct support question; no town/synonym swap."
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 46,
+    "method": "Bounded anonymous read-only screen; no topic-specific recurring warranty or camera concern established. No raw conversations, IDs, addresses or amounts retained."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Native Work generation and existing allowances; incremental native cost unavailable."
+  },
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/residential-service-companies",
+      "title": "TREC Residential Service Companies",
+      "publicationDate": null,
+      "claim": "Residential service contracts differ from homeowners insurance; TDLR licenses these providers; a plan is not generally required when purchasing a home.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Houston/Harris/Fort Bend seller education; source jurisdiction Texas",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    },
+    {
+      "url": "https://www.tdlr.texas.gov/media/pdf/consumer-protection-rsc-home-warranty-2025.pdf",
+      "title": "TDLR Consumer Protection RSC Home Warranty",
+      "publicationDate": "2025-01",
+      "claim": "Review actual covered items, exclusions, limits, service fees and repair/replacement arrangements; contract-specific benefits are not blanket coverage.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Houston/Harris/Fort Bend seller education; source jurisdiction Texas",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    }
+  ],
+  "imageSha256": "4aa86ec530b9a7832b419dec50ffd2b5dc467428a6a98e1541d79059a8291480",
+  "imageProvenance": {
+    "provider": "native Work imagegen",
+    "prompt": "Original realistic illustrative editorial property photograph, wide1200:630. Modest older Houston cream-and-brown brick ranch on RIGHT with garage and ordinary yard; LEFT has mature oak shade and dark navy-green foliage with generous blank negative space for official typography later. Soft natural morning light. No people, text, numbers, addresses, logos, watermarks, papers, signs, warranties or repair guarantees. Not an actual listing.",
+    "backgroundSha256": "60966e6fe5c15611151fb4f19cf02a8e15ffa2cd0b0eb14ace8ec1f4db0ee3b4",
+    "background": "Original realistic illustrative property, not an actual listing",
+    "headline": "HOME PLAN|CHECK TERMS",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logoAlphaVerified": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "visualReview": "Full composition and article/card390/1366 inspected; approved logo unboxed, spacing and headline readable; same hero/OG/X asset."
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png"
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 390,
+        "card": true
+      },
+      {
+        "width": 1366,
+        "card": true
+      }
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending"
+  },
+  "social": {
+    "slug": "home-warranty-plan-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "Home Warranty Before Selling a Houston House: Check the Plan\n\nHave a home warranty while selling a Houston house? Check the actual service contract, open requests and ownership-change terms before promising coverage.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "instagram": "Home Warranty Before Selling a Houston House: Check the Plan\n\nHave a home warranty while selling a Houston house? Check the actual service contract, open requests and ownership-change terms before promising coverage.\n\nRead the guide: https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Home Warranty Before Selling a Houston House: Check the Plan\n\nHave a home warranty while selling a Houston house? Check the actual service contract, open requests and ownership-change terms before promising coverage.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "googleBusinessProfile": "Home Warranty Before Selling a Houston House: Check the Plan\n\nHave a home warranty while selling a Houston house? Check the actual service contract, open requests and ownership-change terms before promising coverage.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "promotionalExcerpt": "Have a home warranty while selling a Houston house? Check the actual service contract, open requests and ownership-change terms before promising coverage.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  }
+}
