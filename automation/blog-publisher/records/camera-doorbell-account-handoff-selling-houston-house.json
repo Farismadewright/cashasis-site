@@ -1,0 +1,238 @@
+{
+  "title": "Camera Staying With Your Houston House? Plan the Account Handoff",
+  "description": "Selling a Houston house with a camera or doorbell? Separate the hardware, account access, recordings and subscription before arranging an orderly handoff.",
+  "pubDate": "2026-11-07 14:40:00+00:00",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "primaryKeyword": "camera doorbell account handoff selling Houston house",
+  "supportingKeywords": [
+    "smart camera account house sale",
+    "doorbell ownership transfer seller checklist",
+    "camera recordings before moving"
+  ],
+  "tags": [
+    "Houston",
+    "moving",
+    "seller preparation",
+    "connected devices"
+  ],
+  "image": "/images/camera-doorbell-account-handoff-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston house and front porch with Camera Stays Plan Ahead headline and official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does leaving the camera mean the buyer receives my account?",
+      "a": "Do not treat the physical device and your personal account as the same thing. Confirm what equipment stays, then follow the actual manufacturer's instructions for changing device ownership or account association."
+    },
+    {
+      "q": "Is restarting a camera the same as factory resetting it?",
+      "a": "No. Google's Nest guidance distinguishes a restart that retains settings from a factory reset that removes personalized settings and video history. Other products require their own current instructions."
+    },
+    {
+      "q": "Does removing a device automatically cancel its subscription?",
+      "a": "Do not assume that. Check the provider's current instructions and your billing account separately. Google's account-transfer guidance treats device removal and subscription cancellation as distinct steps."
+    },
+    {
+      "q": "Should I reset everything when an offer is accepted?",
+      "a": "Do not use offer acceptance alone as a handoff instruction. Confirm authorization, the agreed possession plan, records that need attention and any continuing security needs before changing access or deleting data."
+    }
+  ],
+  "slug": "camera-doorbell-account-handoff-selling-houston-house",
+  "intentKey": "houston-seller-camera-doorbell-hardware-account-video-subscription-handoff-plan",
+  "headline": "CAMERA STAYS|PLAN AHEAD",
+  "runId": "native-daily-20261107T143457Z",
+  "fence": 31,
+  "day": "2026-11-07",
+  "status": "preview",
+  "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+  "nearestOverlaps": [
+    "when-to-transfer-utilities-selling-houston-house",
+    "need-time-move-after-selling-houston-house",
+    "protect-house-sale-proceeds-wire-fraud"
+  ],
+  "substantiveDifference": "First camera/doorbell equipment, account, recording and subscription handoff guide tied to possession planning. Utility transfer concerns service billing; move-out concerns occupancy; wire-fraud guide concerns closing money. No universal reset, fixture-law or deletion instructions.",
+  "originality": {
+    "words": 820,
+    "matches": [
+      {
+        "slug": "cash-offer-while-house-listed-houston",
+        "count": 1,
+        "phrases": [
+          "cash offer process guide blog how cash offer house works houston explains"
+        ]
+      },
+      {
+        "slug": "how-to-verify-cash-home-buyer-texas",
+        "count": 2,
+        "phrases": [
+          "cash offer process guide blog how cash offer house works houston explains",
+          "offer process guide blog how cash offer house works houston explains the"
+        ]
+      },
+      {
+        "slug": "selling-houston-house-from-out-of-state-signing",
+        "count": 3,
+        "phrases": [
+          "cash offer process guide blog how cash offer house works houston explains",
+          "offer process guide blog how cash offer house works houston explains the",
+          "process guide blog how cash offer house works houston explains the wider"
+        ]
+      }
+    ],
+    "review": "Current blog/seller inventory, full durable ledger, intent map and open PRs5/6/7/27 reviewed. Shared link labels are not duplicate intent. Native authored framework, distinct support question; no town/synonym swap."
+  },
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 46,
+    "method": "Bounded anonymous read-only screen; no topic-specific recurring warranty or camera concern established. No raw conversations, IDs, addresses or amounts retained."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "actual": null,
+    "externalPaidApiSpendUSD": 0,
+    "note": "Native Work generation and existing allowances; incremental native cost unavailable."
+  },
+  "sources": [
+    {
+      "url": "https://support.google.com/googlehome/answer/9249728?hl=en",
+      "title": "Google Home: camera or doorbell connected to another account",
+      "publicationDate": null,
+      "claim": "Google Home and Nest app ownership-removal paths differ; removal may erase history and subscription cancellation is a separate step.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Model-specific Google Nest documentation; illustrative Houston seller planning",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    },
+    {
+      "url": "https://support.google.com/googlehome/answer/9252162/how-to-restart-or-factory-reset-your-nest-camera-or-nest-hello",
+      "title": "Google Home: restart or factory reset Nest camera or doorbell",
+      "publicationDate": null,
+      "claim": "For supported Nest devices restart and factory reset differ; factory reset deletes settings/history and requires setup again; follow model-specific instructions.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Model-specific Google Nest documentation; illustrative Houston seller planning",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    }
+  ],
+  "imageSha256": "21b8581e970dc51d667fa77bf6a1ec3bafe95cfbb0776177cd85c4961cd46b81",
+  "imageProvenance": {
+    "provider": "native Work imagegen",
+    "prompt": "Original realistic illustrative editorial property photograph, wide1200:630. Older Houston pale redbrick single-story house and front porch on RIGHT, discreet ordinary front door, mature trees. Dark shaded leafy yard and ample empty negative space on LEFT for approved typography later. Soft overcast daylight. No people, numbers, address, text, logos, signs, interface overlays, diagrams or watermarks. Not an actual listing; no identifying camera view.",
+    "backgroundSha256": "92ff2dedcb29482eb4f5b271897a1936c601c7fc781c73d0c84173ccaf7e41f9",
+    "background": "Original realistic illustrative property, not an actual listing",
+    "headline": "CAMERA STAYS|PLAN AHEAD",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "logoAlphaVerified": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "visualReview": "Full composition and article/card390/1366 inspected; approved logo unboxed, spacing and headline readable; same hero/OG/X asset."
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png"
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 390,
+        "card": true
+      },
+      {
+        "width": 1366,
+        "card": true
+      }
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending"
+  },
+  "social": {
+    "slug": "camera-doorbell-account-handoff-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "Camera Staying With Your Houston House? Plan the Account Handoff\n\nSelling a Houston house with a camera or doorbell? Separate the hardware, account access, recordings and subscription before arranging an orderly handoff.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+    "instagram": "Camera Staying With Your Houston House? Plan the Account Handoff\n\nSelling a Houston house with a camera or doorbell? Separate the hardware, account access, recordings and subscription before arranging an orderly handoff.\n\nRead the guide: https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Camera Staying With Your Houston House? Plan the Account Handoff\n\nSelling a Houston house with a camera or doorbell? Separate the hardware, account access, recordings and subscription before arranging an orderly handoff.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+    "googleBusinessProfile": "Camera Staying With Your Houston House? Plan the Account Handoff\n\nSelling a Houston house with a camera or doorbell? Separate the hardware, account access, recordings and subscription before arranging an orderly handoff.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+    "promotionalExcerpt": "Selling a Houston house with a camera or doorbell? Separate the hardware, account access, recordings and subscription before arranging an orderly handoff.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  }
+}
