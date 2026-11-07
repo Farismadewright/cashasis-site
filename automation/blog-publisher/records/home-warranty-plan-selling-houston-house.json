@@ -42,7 +42,7 @@
   "runId": "native-daily-20261107T143457Z",
   "fence": 31,
   "day": "2026-11-07",
-  "status": "preview",
+  "status": "published",
   "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
   "nearestOverlaps": [
     "replace-air-conditioner-before-selling-houston-house",
@@ -209,7 +209,7 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
+    "preview": "pass"
   },
   "social": {
     "slug": "home-warranty-plan-selling-houston-house",
@@ -226,5 +226,155 @@
       "#HoustonRealEstate",
       "#SellAsIs"
     ]
+  },
+  "previewQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "checkedURL": "https://deploy-preview-44--cashasis-blog.netlify.app/blog/home-warranty-plan-selling-houston-house/",
+    "HTTP": 200,
+    "noindex": true,
+    "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "4aa86ec530b9a7832b419dec50ffd2b5dc467428a6a98e1541d79059a8291480",
+    "internalLinks": {
+      "/blog/replace-air-conditioner-before-selling-houston-house/": 200,
+      "/blog/selling-houston-house-open-insurance-claim/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "robotsCrawlable": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-07T14:46:22.237594+00:00"
+  },
+  "publishedAt": "2026-11-07T14:48:14.532Z",
+  "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+  "deployId": "6aef3a07deb4da65d286d7c1",
+  "pr": 44,
+  "previewCommit": "29326c000eba8703e345a84eb4eaa1c0fd0230f4",
+  "previewDeployId": "6aef396411505973e749985c",
+  "productionQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "checkedURL": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "HTTP": 200,
+    "noindex": false,
+    "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "image": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "4aa86ec530b9a7832b419dec50ffd2b5dc467428a6a98e1541d79059a8291480",
+    "internalLinks": {
+      "/blog/replace-air-conditioner-before-selling-houston-house/": 200,
+      "/blog/selling-houston-house-open-insurance-claim/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "robotsCrawlable": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-07T14:49:39.504964+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-07",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-07T14:50:03.378868+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2i206sg4DJUJ84r8F8e10A&utm_medium=link&utm_source=api"
+  },
+  "seoIndexingConversionQA": {
+    "status": "pass",
+    "specificSellerIntent": "houston-seller-existing-residential-service-contract-coverage-transfer-cancellation-review",
+    "geography": [
+      "Houston",
+      "Harris County",
+      "Fort Bend County"
+    ],
+    "uniqueValue": "First existing residential service plan seller document review: coverage versus equipment condition versus sale obligations, open request status and provider-specific ownership-change terms. Equipment repair, contractor warranty and insurance-claim guides answer different decisions.",
+    "semanticCannibalization": {
+      "status": "pass",
+      "closestURLs": [
+        "https://www.cashasis.com/blog/replace-air-conditioner-before-selling-houston-house/",
+        "https://www.cashasis.com/blog/foundation-report-before-selling-houston-house/",
+        "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/"
+      ],
+      "inventory": "Fresh main blog, seller/service pages, topic ledger, intent map and open PRs reviewed; no matching support decision"
+    },
+    "indexability": {
+      "HTTP": 200,
+      "robotsCrawlable": true,
+      "productionNoindex": false,
+      "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "sitemapRSS": true,
+      "previewNoindex": true,
+      "checkedAt": "2026-11-07T14:49:39.504964+00:00"
+    },
+    "inboundDiscovery": "Live blog hub card, sitemap and RSS verified; existing content rewrites not performed",
+    "internalLinks": {
+      "/blog/replace-air-conditioner-before-selling-houston-house/": 200,
+      "/blog/selling-houston-house-open-insurance-claim/": 200,
+      "/compare-the-net/": 200
+    },
+    "conversionPath": "Contextual offer guidance and existing attributed seller CTA verified; no fake lead submitted",
+    "factsAndSources": "Current official primary sources verified; hypothetical examples labeled; no unsupported numeric or local market claim",
+    "contentQuality": "Native original document/decision framework; fair listing versus cash tradeoffs, immediate answer and practical seller next steps"
+  },
+  "searchConsoleMonitoring": {
+    "source": "google_url_inspection",
+    "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "observation": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-07T14:50:03.378868+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2i206sg4DJUJ84r8F8e10A&utm_medium=link&utm_source=api"
+    },
+    "nextReviewAt": "2026-11-10T14:48:14.532000+00:00",
+    "articlePerformance": null,
+    "dataPeriod": null,
+    "limitation": "New publication has no verified article performance history; initial unknown is not rejection."
+  },
+  "GA4Measurement": {
+    "originalOrganicLandingSessions": null,
+    "attributionPeriod": null,
+    "validatedSellerLeads": null,
+    "deduplicationEvidence": null,
+    "status": "unavailable_for_new_article",
+    "note": "No new-article GA4 history asserted. Existing October monthly assessment remains partial with documented maturity checksNov8/13."
   }
 }

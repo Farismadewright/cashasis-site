@@ -1,0 +1,3574 @@
+{
+  "runId": "native-daily-20261107T143457Z",
+  "fence": 31,
+  "day": "2026-11-07",
+  "status": "published",
+  "published": 2,
+  "held": 1,
+  "articles": [
+    {
+      "slug": "home-warranty-plan-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "intentKey": "houston-seller-existing-residential-service-contract-coverage-transfer-cancellation-review",
+      "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+      "deployId": "6aef3a07deb4da65d286d7c1",
+      "publishedAt": "2026-11-07T14:48:14.532Z",
+      "pr": 44
+    },
+    {
+      "slug": "camera-doorbell-account-handoff-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "intentKey": "houston-seller-camera-doorbell-hardware-account-video-subscription-handoff-plan",
+      "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+      "deployId": "6aef3a07deb4da65d286d7c1",
+      "publishedAt": "2026-11-07T14:48:14.532Z",
+      "pr": 44
+    }
+  ],
+  "heldCandidates": [
+    {
+      "candidate": "Roof inspection or replacement before sale versus as-is",
+      "existingSlug": "selling-houston-house-roof-damage-repair-or-as-is",
+      "reason": "Existing guide already separates age, damage and leakage, dated inspections, estimates, insurance, repair/list/as-is comparison and document responsibilities; a new variant duplicates that seller decision.",
+      "status": "hold",
+      "generationPerformed": false,
+      "articlePublished": false,
+      "day": "2026-11-07",
+      "heldAt": "2026-11-07T14:50:04.980457+00:00",
+      "runId": "native-daily-20261107T143457Z"
+    }
+  ],
+  "mainAtStart": "e8a0a3bce9216c2c90ea6eb883c7085bb69a14b5",
+  "activationVerified": true,
+  "pendingPRsPreserved": [
+    5,
+    6,
+    7,
+    27
+  ],
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/residential-service-companies",
+      "title": "TREC Residential Service Companies",
+      "publicationDate": null,
+      "claim": "Residential service contracts differ from homeowners insurance; TDLR licenses these providers; a plan is not generally required when purchasing a home.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Houston/Harris/Fort Bend seller education; source jurisdiction Texas",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    },
+    {
+      "url": "https://www.tdlr.texas.gov/media/pdf/consumer-protection-rsc-home-warranty-2025.pdf",
+      "title": "TDLR Consumer Protection RSC Home Warranty",
+      "publicationDate": "2025-01",
+      "claim": "Review actual covered items, exclusions, limits, service fees and repair/replacement arrangements; contract-specific benefits are not blanket coverage.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Houston/Harris/Fort Bend seller education; source jurisdiction Texas",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    },
+    {
+      "url": "https://support.google.com/googlehome/answer/9249728?hl=en",
+      "title": "Google Home: camera or doorbell connected to another account",
+      "publicationDate": null,
+      "claim": "Google Home and Nest app ownership-removal paths differ; removal may erase history and subscription cancellation is a separate step.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Model-specific Google Nest documentation; illustrative Houston seller planning",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    },
+    {
+      "url": "https://support.google.com/googlehome/answer/9252162/how-to-restart-or-factory-reset-your-nest-camera-or-nest-hello",
+      "title": "Google Home: restart or factory reset Nest camera or doorbell",
+      "publicationDate": null,
+      "claim": "For supported Nest devices restart and factory reset differ; factory reset deletes settings/history and requires setup again; follow model-specific instructions.",
+      "accessedAt": "2026-11-07",
+      "verifiedAt": "2026-11-07T14:44:03.259974+00:00",
+      "reportingPeriod": "Current official guidance accessed2026-11-07",
+      "geography": "Model-specific Google Nest documentation; illustrative Houston seller planning",
+      "unit": null,
+      "figure": null,
+      "methodology": "Fresh native primary-source search and page/PDF text read; no universal coverage or device procedure inferred."
+    }
+  ],
+  "validation": {
+    "fullNpmBuild": "pass",
+    "outputValidators": "pass",
+    "browserWidths": [
+      360,
+      390,
+      768,
+      1366
+    ],
+    "articleAndCardVisualReview": "pass",
+    "publisherNodeTests": 3,
+    "publisherPythonTests": 5,
+    "preservationTests": 10,
+    "note": "A redundant initial test invocation used incorrect scratch cwd; rerun from repository passed. No site or browser failure."
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-07",
+    "errors": []
+  },
+  "previewQA": [
+    {
+      "status": "pass",
+      "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "checkedURL": "https://deploy-preview-44--cashasis-blog.netlify.app/blog/home-warranty-plan-selling-houston-house/",
+      "HTTP": 200,
+      "noindex": true,
+      "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "image": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSHA256": "4aa86ec530b9a7832b419dec50ffd2b5dc467428a6a98e1541d79059a8291480",
+      "internalLinks": {
+        "/blog/replace-air-conditioner-before-selling-houston-house/": 200,
+        "/blog/selling-houston-house-open-insurance-claim/": 200,
+        "/compare-the-net/": 200
+      },
+      "attributedCTA": true,
+      "sitemapRSS": true,
+      "robotsCrawlable": true,
+      "HTMLCSSParity": true,
+      "checkedAt": "2026-11-07T14:46:22.237594+00:00"
+    },
+    {
+      "status": "pass",
+      "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "checkedURL": "https://deploy-preview-44--cashasis-blog.netlify.app/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "HTTP": 200,
+      "noindex": true,
+      "canonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "image": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSHA256": "21b8581e970dc51d667fa77bf6a1ec3bafe95cfbb0776177cd85c4961cd46b81",
+      "internalLinks": {
+        "/blog/how-cash-offer-house-works-houston/": 200,
+        "/blog/need-time-move-after-selling-houston-house/": 200,
+        "/blog/when-to-transfer-utilities-selling-houston-house/": 200
+      },
+      "attributedCTA": true,
+      "sitemapRSS": true,
+      "robotsCrawlable": true,
+      "HTMLCSSParity": true,
+      "checkedAt": "2026-11-07T14:46:22.261293+00:00"
+    }
+  ],
+  "productionQA": [
+    {
+      "status": "pass",
+      "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "checkedURL": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "HTTP": 200,
+      "noindex": false,
+      "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "image": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSHA256": "4aa86ec530b9a7832b419dec50ffd2b5dc467428a6a98e1541d79059a8291480",
+      "internalLinks": {
+        "/blog/replace-air-conditioner-before-selling-houston-house/": 200,
+        "/blog/selling-houston-house-open-insurance-claim/": 200,
+        "/compare-the-net/": 200
+      },
+      "attributedCTA": true,
+      "sitemapRSS": true,
+      "robotsCrawlable": true,
+      "HTMLCSSParity": true,
+      "checkedAt": "2026-11-07T14:49:39.504964+00:00"
+    },
+    {
+      "status": "pass",
+      "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "checkedURL": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "HTTP": 200,
+      "noindex": false,
+      "canonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "image": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSHA256": "21b8581e970dc51d667fa77bf6a1ec3bafe95cfbb0776177cd85c4961cd46b81",
+      "internalLinks": {
+        "/blog/how-cash-offer-house-works-houston/": 200,
+        "/blog/need-time-move-after-selling-houston-house/": 200,
+        "/blog/when-to-transfer-utilities-selling-houston-house/": 200
+      },
+      "attributedCTA": true,
+      "sitemapRSS": true,
+      "robotsCrawlable": true,
+      "HTMLCSSParity": true,
+      "checkedAt": "2026-11-07T14:49:39.502031+00:00"
+    }
+  ],
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 46,
+    "method": "Bounded anonymous read-only screen; no topic-specific recurring warranty or camera concern established. No raw conversations, IDs, addresses or amounts retained."
+  },
+  "social": "draft_only",
+  "monitoring": {
+    "coverage": {
+      "eligibleSitemapURLs": 215,
+      "eligibleBlogArticles": 187,
+      "retainedActualInspectionCoverage": 215,
+      "indexedTotal": 201,
+      "indexedBlogArticles": 177,
+      "notPASS": 14,
+      "notPASSBlogArticles": 10,
+      "latestObservationRange": [
+        "2026-10-14T14:58:57.653973+00:00",
+        "2026-11-07T14:50:03.440879+00:00"
+      ],
+      "basis": "Latest actual retained Google inspection per eligible URL; mixed dates, not fresh full-site census or historical monthly snapshot",
+      "observedAt": "2026-11-07T14:50:04.980457+00:00"
+    },
+    "dueQA": [
+      {
+        "status": "pass",
+        "url": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+        "checkedURL": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "image": "https://www.cashasis.com/images/form-1099-s-after-selling-houston-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "12cbbaa3676c4642faaf838f9a99da9ccefb0aafc99d18ea339358c8e98894c8",
+        "internalLinks": {
+          "/blog/mortgage-escrow-refund-after-selling-houston-house/": 200,
+          "/blog/protect-house-sale-proceeds-wire-fraud/": 200,
+          "/compare-the-net/": 200
+        },
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "robotsCrawlable": true,
+        "HTMLCSSParity": true,
+        "checkedAt": "2026-11-07T14:39:57.277680+00:00"
+      },
+      {
+        "status": "pass",
+        "url": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+        "checkedURL": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "image": "https://www.cashasis.com/images/houston-water-service-line-notice-selling-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "49ae0c610a1a80fb2bb6089b0ad3252b692e07c854c816546530c56efaaab54d",
+        "internalLinks": {
+          "/blog/selling-houston-area-house-private-water-well/": 200,
+          "/blog/selling-pre-1978-houston-house-lead-paint/": 200,
+          "/blog/texas-as-is-sale-seller-disclosure-checklist/": 200
+        },
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "robotsCrawlable": true,
+        "HTMLCSSParity": true,
+        "checkedAt": "2026-11-07T14:39:57.197429+00:00"
+      },
+      {
+        "status": "pass",
+        "url": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+        "checkedURL": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+        "HTTP": 200,
+        "noindex": false,
+        "canonical": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 4,
+        "image": "https://www.cashasis.com/images/texas-transfer-on-death-deed-selling-house.png",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "imageSHA256": "fdb531393efb04c57fb073af1bdc5b651b2acc50403ae16353dfb2d9537dd7b1",
+        "internalLinks": {
+          "/blog/sell-house-multiple-owners-heirs-houston/": 200,
+          "/blog/sell-house-title-problems-houston/": 200,
+          "/compare-the-net/": 200
+        },
+        "attributedCTA": true,
+        "sitemapRSS": true,
+        "robotsCrawlable": true,
+        "HTMLCSSParity": true,
+        "checkedAt": "2026-11-07T14:39:57.357385+00:00"
+      }
+    ],
+    "dueInspections": [
+      {
+        "id": "72301aea-fcb5-4721-8466-88deda069953",
+        "url": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-11-05T01:27:21+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-11-07T14:42:42.757188+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+        "user_canonical": "https://www.cashasis.com/blog/houston-water-service-line-notice-selling-house/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_HxPUymJRbRmWkRtW9wYaw&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "42cd50d3-1a1b-4fe4-a280-708d7ed645f9",
+        "url": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-11-05T00:41:22+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-11-07T14:42:42.694199+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+        "user_canonical": "https://www.cashasis.com/blog/texas-transfer-on-death-deed-selling-house/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=RKpqB7lcXWzfOjdwu2mYYA&utm_medium=link&utm_source=api"
+      },
+      {
+        "id": "73f005eb-466e-498b-9902-f1f283b3dd0d",
+        "url": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+        "verdict": "PASS",
+        "coverage_state": "Submitted and indexed",
+        "robots_txt_state": "ALLOWED",
+        "indexing_state": "INDEXING_ALLOWED",
+        "last_crawl_time": "2026-11-05T01:23:48+00:00",
+        "page_fetch_state": "SUCCESSFUL",
+        "crawled_as": "MOBILE",
+        "requested_at": "2026-11-07T14:42:42.693331+00:00",
+        "google_canonical": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+        "user_canonical": "https://www.cashasis.com/blog/form-1099-s-after-selling-houston-house/",
+        "inspection_result_link": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GxO7OTBWGLO7U9ZAEix_wA&utm_medium=link&utm_source=api"
+      }
+    ],
+    "newInspections": [
+      {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-07T14:50:03.378868+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2i206sg4DJUJ84r8F8e10A&utm_medium=link&utm_source=api"
+      },
+      {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-07T14:50:03.440879+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=EVMM2CmN7yLBKveM1JmtPQ&utm_medium=link&utm_source=api"
+      }
+    ],
+    "inspectionCalls": 5,
+    "pendingQueue": [],
+    "weeklyDue": false,
+    "monthlyStatus": {
+      "status": "partial_retry_maturity_verification",
+      "lastAttemptAt": "2026-11-07T14:50:04.980457+00:00",
+      "record": "automation/blog-publisher/runs/2026-10-monthly.json",
+      "retryInNextExistingRun": true,
+      "lastRead": {
+        "blogOrganicSessions": 8,
+        "activeUsers": 7,
+        "keyEvents": 0,
+        "comparisonHasData": false,
+        "note": "Fresh November4 read; September filtered baseline unavailable. October31 remains within documented late-arrival and key-event attribution revision windows."
+      },
+      "maturityEvidence": "automation/blog-publisher/runs/2026-10-monthly.json",
+      "nextMaturityReassessment": "2026-11-08",
+      "finalAttributionReassessmentNoEarlierThan": "2026-11-13",
+      "deferredReason": "Previously verified GA4 late-arrival/attribution windows retained. Next existing-run maturity reviewNov8 and attributionNov13. No fresh GA4 read or completed monthly report claimed."
+    }
+  },
+  "searchEvidence": {
+    "siteUrl": "https://www.cashasis.com/",
+    "startDate": "2026-10-08",
+    "endDate": "2026-11-04",
+    "dimensions": [
+      "query",
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 305,
+    "listKey": "rows",
+    "sortedBy": "clicks",
+    "sortOrder": "desc",
+    "coverage": {
+      "rowsReturned": 305,
+      "rowsTotal": 305,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7428,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2572,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 3,
+        "impressions": 1291,
+        "ctrPercent": 0.23,
+        "avgPositionWeighted": 39.98
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "rows": [
+      {
+        "keys": [
+          "a qui\u00e9n llamar foreclosure houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 55
+      },
+      {
+        "keys": [
+          "as is house buyers",
+          "https://www.cashasis.com/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 72.85714285714286
+      },
+      {
+        "keys": [
+          "as is house buyers corpus christi",
+          "https://www.cashasis.com/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 91
+      },
+      {
+        "keys": [
+          "as-is house buyers",
+          "https://www.cashasis.com/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "associates lending",
+          "https://www.cashasis.com/lending-partners/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "atascocita sell my house fast",
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "avoid foreclosure by selling my house fast in houston tx",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "avoid foreclosure houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 50.44444444444444
+      },
+      {
+        "keys": [
+          "avoid foreclosure in houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 50.9
+      },
+      {
+        "keys": [
+          "behind on mortgage sell house houston",
+          "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "behind on mortgage sell house houston",
+          "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 34.333333333333336
+      },
+      {
+        "keys": [
+          "behind on mortgage sell house houston",
+          "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 57.25
+      },
+      {
+        "keys": [
+          "behind on mortgage sell house houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 45.4
+      },
+      {
+        "keys": [
+          "buy my house in houston",
+          "https://www.cashasis.com/blog/we-buy-houses-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 87
+      },
+      {
+        "keys": [
+          "can i sell my house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 94.75
+      },
+      {
+        "keys": [
+          "can i sell my house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 106.66666666666667
+      },
+      {
+        "keys": [
+          "can i sell my house before foreclosure in houston",
+          "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 20.5
+      },
+      {
+        "keys": [
+          "can i sell my house before foreclosure in houston",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 98
+      },
+      {
+        "keys": [
+          "can i sell my house before foreclosure in houston",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 64
+      },
+      {
+        "keys": [
+          "can i sell my house before foreclosure in houston",
+          "https://www.cashasis.com/blog/sell-preforeclosure-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 44.5
+      },
+      {
+        "keys": [
+          "can i sell my house if i owe back taxes",
+          "https://www.cashasis.com/blog/sell-property-with-back-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 87.5
+      },
+      {
+        "keys": [
+          "can i sell my house in pre foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "can i sell my house in preforeclosure in santa rosa",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 36.5
+      },
+      {
+        "keys": [
+          "can i sell my house while in forbearance",
+          "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 60.5
+      },
+      {
+        "keys": [
+          "can power of attorney sell house",
+          "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 84
+      },
+      {
+        "keys": [
+          "can you sell a house with back taxes owed",
+          "https://www.cashasis.com/blog/sell-property-with-back-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 74
+      },
+      {
+        "keys": [
+          "can you sell during foreclosure in texas",
+          "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 66
+      },
+      {
+        "keys": [
+          "can you sell your house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 91
+      },
+      {
+        "keys": [
+          "cash buyer for home with foundation issues",
+          "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 51.5
+      },
+      {
+        "keys": [
+          "cash buyers for code violation properties",
+          "https://www.cashasis.com/blog/sell-house-code-violations-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 44
+      },
+      {
+        "keys": [
+          "cash for probate house sell",
+          "https://www.cashasis.com/blog/sell-probate-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 98
+      },
+      {
+        "keys": [
+          "cash home buyers fort bend county tx",
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "cash home buyers katy tx",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 16.666666666666664
+      },
+      {
+        "keys": [
+          "cash home buyers missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 16.333333333333336
+      },
+      {
+        "keys": [
+          "cash home buyers montgomery county tx",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "cash home buyers spring tx",
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 75
+      },
+      {
+        "keys": [
+          "cash home buyers tomball tx",
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "cash offer for house in houston",
+          "https://www.cashasis.com/blog/how-cash-offer-house-works-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "close on house in 7 days houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 28
+      },
+      {
+        "keys": [
+          "cost of waiting to sell my house",
+          "https://www.cashasis.com/the-cost-of-waiting/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 10.333333333333334
+      },
+      {
+        "keys": [
+          "fast home buyers katy tx",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "first tuesday foreclosure houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 30.333333333333332
+      },
+      {
+        "keys": [
+          "foreclosure help houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 64.5
+      },
+      {
+        "keys": [
+          "foreclosure sale date",
+          "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 24
+      },
+      {
+        "keys": [
+          "fort bend county foreclosure short sale",
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 41.666666666666664
+      },
+      {
+        "keys": [
+          "homeowners insurance while selling home",
+          "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "house sell as is in houston",
+          "https://www.cashasis.com/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "house sell as is in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "keys": [
+          "houston foreclosure help",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 70.57142857142857
+      },
+      {
+        "keys": [
+          "houston home selling process",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 80
+      },
+      {
+        "keys": [
+          "houston sell your house fast",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 70
+      },
+      {
+        "keys": [
+          "houston seller disclosure",
+          "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 34
+      },
+      {
+        "keys": [
+          "how fast are homes selling in houston",
+          "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "how long does it take to sell in houston",
+          "https://www.cashasis.com/blog/cash-house-sale-timeline-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 49.666666666666664
+      },
+      {
+        "keys": [
+          "how much repair",
+          "https://www.cashasis.com/fix-it-or-sell-it/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 61
+      },
+      {
+        "keys": [
+          "how much will my restoration cost",
+          "https://www.cashasis.com/fix-it-or-sell-it/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 85.5
+      },
+      {
+        "keys": [
+          "how to avoid foreclosure sugar land",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 58
+      },
+      {
+        "keys": [
+          "how to sell a house with foundation issues",
+          "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 84
+      },
+      {
+        "keys": [
+          "how to sell my house fast without a realtor houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 64
+      },
+      {
+        "keys": [
+          "how to stop a foreclosure sale in texas",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 55.45454545454545
+      },
+      {
+        "keys": [
+          "how to stop a texas foreclosure auction",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 41
+      },
+      {
+        "keys": [
+          "how to stop hoa foreclosure in houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 48.36363636363637
+      },
+      {
+        "keys": [
+          "inherited a house full of stuff",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 29.6
+      },
+      {
+        "keys": [
+          "inherited house sold quickly in texas",
+          "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 83
+      },
+      {
+        "keys": [
+          "inherited items",
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 49
+      },
+      {
+        "keys": [
+          "insurance for empty house up for sale",
+          "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 90
+      },
+      {
+        "keys": [
+          "mortgage refund",
+          "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "no agent home sale houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 28.5
+      },
+      {
+        "keys": [
+          "pre foreclosure sale process",
+          "https://www.cashasis.com/blog/options-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 89
+      },
+      {
+        "keys": [
+          "pre foreclosure sell house houston",
+          "https://www.cashasis.com/blog/sell-preforeclosure-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "keys": [
+          "pre foreclosure sell house houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 36.375
+      },
+      {
+        "keys": [
+          "probate home appraisal harris tx",
+          "https://www.cashasis.com/blog/sell-probate-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "probate house buyer in houston",
+          "https://www.cashasis.com/blog/sell-probate-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 28
+      },
+      {
+        "keys": [
+          "probate residential appraisal harris tx",
+          "https://www.cashasis.com/blog/sell-probate-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10.5
+      },
+      {
+        "keys": [
+          "reverse mortgage houston",
+          "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 56.8
+      },
+      {
+        "keys": [
+          "security deposit transfer when rental property sells",
+          "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 95
+      },
+      {
+        "keys": [
+          "sell a home montgomery county tx",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 65
+      },
+      {
+        "keys": [
+          "sell a house in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 63.333333333333336
+      },
+      {
+        "keys": [
+          "sell a rental home spring tx",
+          "https://www.cashasis.com/blog/sell-rental-property-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 7.666666666666667
+      },
+      {
+        "keys": [
+          "sell an inherited home in houston",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 82
+      },
+      {
+        "keys": [
+          "sell an inherited home spring tx",
+          "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "sell an inherited house bryan tx",
+          "https://www.cashasis.com/blog/sell-house-owner-died-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 42
+      },
+      {
+        "keys": [
+          "sell an inherited house in houston",
+          "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "sell as is",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 59
+      },
+      {
+        "keys": [
+          "sell before foreclosure in san francisco",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "sell condemned house houston",
+          "https://www.cashasis.com/blog/sell-house-after-eviction-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 70
+      },
+      {
+        "keys": [
+          "sell distressed property in houston",
+          "https://www.cashasis.com/blog/sell-house-after-eviction-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 14
+      },
+      {
+        "keys": [
+          "sell fire damage house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 21.166666666666668
+      },
+      {
+        "keys": [
+          "sell fire damaged house",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 30.25
+      },
+      {
+        "keys": [
+          "sell fire damaged house for cash in texas",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 46
+      },
+      {
+        "keys": [
+          "sell fire damaged house houston",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 24
+      },
+      {
+        "keys": [
+          "sell fire damaged house texas",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 21,
+        "ctr": 0,
+        "position": 55.666666666666664
+      },
+      {
+        "keys": [
+          "sell flood damaged house houston",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 72
+      },
+      {
+        "keys": [
+          "sell home as is houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 79.25
+      },
+      {
+        "keys": [
+          "sell home as is houston",
+          "https://www.cashasis.com/blog/sell-houston-house-without-repairs/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 98
+      },
+      {
+        "keys": [
+          "sell home as is sugar land",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "sell home as is sugar land",
+          "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 88
+      },
+      {
+        "keys": [
+          "sell home before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "sell home fast pasadena tx",
+          "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 16.5
+      },
+      {
+        "keys": [
+          "sell home fast spring tx",
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 75.57142857142857
+      },
+      {
+        "keys": [
+          "sell home fast sugar land",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 58
+      },
+      {
+        "keys": [
+          "sell home harris county",
+          "https://www.cashasis.com/blog/sell-house-fast-harris-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 22.333333333333332
+      },
+      {
+        "keys": [
+          "sell home harris county",
+          "https://www.cashasis.com/blog/sell-preforeclosure-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 28
+      },
+      {
+        "keys": [
+          "sell house as is houston",
+          "https://www.cashasis.com/blog/sell-house-after-eviction-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 92
+      },
+      {
+        "keys": [
+          "sell house as is houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 69
+      },
+      {
+        "keys": [
+          "sell house as is houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 45.5
+      },
+      {
+        "keys": [
+          "sell house as is in houston",
+          "https://www.cashasis.com/blog/cash-home-buyers-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "keys": [
+          "sell house as is in houston",
+          "https://www.cashasis.com/blog/sell-house-after-eviction-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 79
+      },
+      {
+        "keys": [
+          "sell house as is in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 51.166666666666664
+      },
+      {
+        "keys": [
+          "sell house as is in houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 44.5
+      },
+      {
+        "keys": [
+          "sell house as is in houston",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 39
+      },
+      {
+        "keys": [
+          "sell house as is no repairs",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 93
+      },
+      {
+        "keys": [
+          "sell house as is texas",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 88
+      },
+      {
+        "keys": [
+          "sell house before foreclosure",
+          "https://www.cashasis.com/blog/dont-wait-to-sell-before-foreclosure/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 100
+      },
+      {
+        "keys": [
+          "sell house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 97
+      },
+      {
+        "keys": [
+          "sell house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 98.33333333333333
+      },
+      {
+        "keys": [
+          "sell house before foreclosure chicago",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 91
+      },
+      {
+        "keys": [
+          "sell house before foreclosure dallas",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 100
+      },
+      {
+        "keys": [
+          "sell house before foreclosure dallas",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 85
+      },
+      {
+        "keys": [
+          "sell house before foreclosure houston",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 85
+      },
+      {
+        "keys": [
+          "sell house before foreclosure houston",
+          "https://www.cashasis.com/blog/sell-preforeclosure-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "keys": [
+          "sell house before foreclosure houston",
+          "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 49
+      },
+      {
+        "keys": [
+          "sell house before foreclosure houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 31.875
+      },
+      {
+        "keys": [
+          "sell house before foreclosure in north lauderdale fl",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 13.5
+      },
+      {
+        "keys": [
+          "sell house before foreclosure in west palm beach fl",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "sell house before foreclosure texas",
+          "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 46
+      },
+      {
+        "keys": [
+          "sell house before foreclosure texas",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 66.33333333333333
+      },
+      {
+        "keys": [
+          "sell house directly in houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 40
+      },
+      {
+        "keys": [
+          "sell house during divorce texas",
+          "https://www.cashasis.com/blog/sell-house-during-divorce-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 46
+      },
+      {
+        "keys": [
+          "sell house fast cypress",
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "sell house fast in tomball",
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 42
+      },
+      {
+        "keys": [
+          "sell house for cash katy",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 58.25
+      },
+      {
+        "keys": [
+          "sell house houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 75
+      },
+      {
+        "keys": [
+          "sell house in foreclosure houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 37
+      },
+      {
+        "keys": [
+          "sell house old roof cash",
+          "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 57
+      },
+      {
+        "keys": [
+          "sell house that needs repairs texas",
+          "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 59
+      },
+      {
+        "keys": [
+          "sell house with back taxes",
+          "https://www.cashasis.com/blog/sell-property-with-back-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "sell house with back taxes for cash",
+          "https://www.cashasis.com/blog/sell-property-with-back-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 68
+      },
+      {
+        "keys": [
+          "sell house with back taxes for cash",
+          "https://www.cashasis.com/blog/sell-property-with-delinquent-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 76
+      },
+      {
+        "keys": [
+          "sell house with back taxes for cash",
+          "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "sell house with bad roof houston",
+          "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "sell house with code violations for cash",
+          "https://www.cashasis.com/blog/sell-house-code-violations-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 79
+      },
+      {
+        "keys": [
+          "sell house with code violations houston",
+          "https://www.cashasis.com/blog/sell-house-code-violations-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 33.75
+      },
+      {
+        "keys": [
+          "sell house with code violations san antonio",
+          "https://www.cashasis.com/blog/sell-house-code-violations-houston-question/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 34
+      },
+      {
+        "keys": [
+          "sell house with delinquent property taxes california",
+          "https://www.cashasis.com/blog/sell-property-with-delinquent-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 89.33333333333333
+      },
+      {
+        "keys": [
+          "sell house with delinquent taxes",
+          "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 14.5
+      },
+      {
+        "keys": [
+          "sell house with delinquent taxes",
+          "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "sell house with deliquent taxes",
+          "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "sell house with deliquent taxes",
+          "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 7.25
+      },
+      {
+        "keys": [
+          "sell house with foundation issues",
+          "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 90
+      },
+      {
+        "keys": [
+          "sell house with foundation problems houston",
+          "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 32
+      },
+      {
+        "keys": [
+          "sell house with hoa lien in houston",
+          "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 38.333333333333336
+      },
+      {
+        "keys": [
+          "sell house with hoa lien in houston",
+          "https://www.cashasis.com/blog/sell-house-tax-lien-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 38.75
+      },
+      {
+        "keys": [
+          "sell house with hoa lien in houston",
+          "https://www.cashasis.com/blog/selling-houston-house-open-heloc/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "sell house with liens houston",
+          "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 92
+      },
+      {
+        "keys": [
+          "sell house with liens houston",
+          "https://www.cashasis.com/blog/sell-house-tax-lien-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 91
+      },
+      {
+        "keys": [
+          "sell house with liens in texas",
+          "https://www.cashasis.com/blog/sell-house-tax-lien-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 90
+      },
+      {
+        "keys": [
+          "sell house with liens texas",
+          "https://www.cashasis.com/blog/sell-house-tax-lien-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "sell house with mold houston",
+          "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 88
+      },
+      {
+        "keys": [
+          "sell house with mold in texas",
+          "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 78.5
+      },
+      {
+        "keys": [
+          "sell house with tax lien texas",
+          "https://www.cashasis.com/blog/sell-house-tax-lien-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 80
+      },
+      {
+        "keys": [
+          "sell house with tax problems",
+          "https://www.cashasis.com/blog/sell-property-with-delinquent-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 94
+      },
+      {
+        "keys": [
+          "sell house with tenants dallas",
+          "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 80
+      },
+      {
+        "keys": [
+          "sell house with title problems for cash",
+          "https://www.cashasis.com/blog/sell-house-title-problems-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 47
+      },
+      {
+        "keys": [
+          "sell house without listing houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 36.5
+      },
+      {
+        "keys": [
+          "sell house without repairs houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 40
+      },
+      {
+        "keys": [
+          "sell house without repairs houston",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 33
+      },
+      {
+        "keys": [
+          "sell houston home as is",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "sell houston home as is",
+          "https://www.cashasis.com/blog/sell-house-for-cash-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 89
+      },
+      {
+        "keys": [
+          "sell houston home fast",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "sell inherited home sugar land",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 51
+      },
+      {
+        "keys": [
+          "sell inherited home sugar land",
+          "https://www.cashasis.com/blog/sell-inherited-house-sugar-land/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 40
+      },
+      {
+        "keys": [
+          "sell inherited house denton tx",
+          "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "sell inherited house houston",
+          "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 86.5
+      },
+      {
+        "keys": [
+          "sell inherited house san antonio",
+          "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 91
+      },
+      {
+        "keys": [
+          "sell inherited house spring tx",
+          "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "sell inherited house texas",
+          "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 95
+      },
+      {
+        "keys": [
+          "sell inherited property dallas",
+          "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 94
+      },
+      {
+        "keys": [
+          "sell inherited property fort worth",
+          "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "sell my fire damaged house houston",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "sell my home as is houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "keys": [
+          "sell my home fort bend tx",
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 34.75
+      },
+      {
+        "keys": [
+          "sell my home sienna tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 41.666666666666664
+      },
+      {
+        "keys": [
+          "sell my home sugar land tx",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "sell my house as is houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 67.5
+      },
+      {
+        "keys": [
+          "sell my house as is houston",
+          "https://www.cashasis.com/blog/sell-house-for-cash-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "sell my house as is houston",
+          "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 51.5
+      },
+      {
+        "keys": [
+          "sell my house as is houston",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 46
+      },
+      {
+        "keys": [
+          "sell my house as is houston",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 63.75
+      },
+      {
+        "keys": [
+          "sell my house as is houston texas",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 70.53333333333333
+      },
+      {
+        "keys": [
+          "sell my house as is houston texas",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 75.5
+      },
+      {
+        "keys": [
+          "sell my house as is quickly houston",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "sell my house as-is houston tx",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "keys": [
+          "sell my house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 99
+      },
+      {
+        "keys": [
+          "sell my house cypress tx",
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "sell my house fast baytown",
+          "https://www.cashasis.com/blog/sell-house-fast-baytown-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 13.5
+      },
+      {
+        "keys": [
+          "sell my house fast baytown tx",
+          "https://www.cashasis.com/blog/sell-house-fast-baytown-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 28
+      },
+      {
+        "keys": [
+          "sell my house fast cypress",
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 17.666666666666668
+      },
+      {
+        "keys": [
+          "sell my house fast cypress tx",
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 41
+      },
+      {
+        "keys": [
+          "sell my house fast for cash sugar land",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "keys": [
+          "sell my house fast fort bend county tx",
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "sell my house fast houston",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "sell my house fast humble",
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 69
+      },
+      {
+        "keys": [
+          "sell my house fast humble tx",
+          "https://www.cashasis.com/blog/sell-house-back-taxes-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 69.66666666666667
+      },
+      {
+        "keys": [
+          "sell my house fast humble tx",
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 56.857142857142854
+      },
+      {
+        "keys": [
+          "sell my house fast humble tx",
+          "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 71
+      },
+      {
+        "keys": [
+          "sell my house fast in humble",
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 56.5
+      },
+      {
+        "keys": [
+          "sell my house fast in katy",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 40.6
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 31,
+        "ctr": 0,
+        "position": 15.225806451612904
+      },
+      {
+        "keys": [
+          "sell my house fast in montgomery county",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "sell my house fast in montgomery county tx",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "sell my house fast in pearland",
+          "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10.5
+      },
+      {
+        "keys": [
+          "sell my house fast in pearland tx",
+          "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "sell my house fast in spring",
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 44
+      },
+      {
+        "keys": [
+          "sell my house fast in tomball",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 33
+      },
+      {
+        "keys": [
+          "sell my house fast in tomball",
+          "https://www.cashasis.com/blog/sell-inherited-house-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 53.2
+      },
+      {
+        "keys": [
+          "sell my house fast in tomball",
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 20,
+        "ctr": 0,
+        "position": 44.4
+      },
+      {
+        "keys": [
+          "sell my house fast katy",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-question/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "sell my house fast katy",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "keys": [
+          "sell my house fast katy tx",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-question/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "sell my house fast katy tx",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 31.863636363636363
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 14
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 37,
+        "ctr": 0,
+        "position": 14.324324324324325
+      },
+      {
+        "keys": [
+          "sell my house fast montgomery county tx",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "sell my house fast pasadena",
+          "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 40.125
+      },
+      {
+        "keys": [
+          "sell my house fast pasadena tx",
+          "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 13.666666666666666
+      },
+      {
+        "keys": [
+          "sell my house fast pearland",
+          "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 27
+      },
+      {
+        "keys": [
+          "sell my house fast spring",
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "keys": [
+          "sell my house fast spring branch tx",
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 28
+      },
+      {
+        "keys": [
+          "sell my house fast spring tx",
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 84.5
+      },
+      {
+        "keys": [
+          "sell my house fast springtown tx",
+          "https://www.cashasis.com/blog/sell-house-fast-baytown-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 80.5
+      },
+      {
+        "keys": [
+          "sell my house fast sugar land",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 51
+      },
+      {
+        "keys": [
+          "sell my house fast sugar land texas",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 44
+      },
+      {
+        "keys": [
+          "sell my house fast sugar land tx",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 26.666666666666668
+      },
+      {
+        "keys": [
+          "sell my house fast tomball",
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 59
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "sell my house fast tomball tx",
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 67.75
+      },
+      {
+        "keys": [
+          "sell my house for cash in montgomery",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "sell my house fort bend tx",
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 29.5
+      },
+      {
+        "keys": [
+          "sell my house houston",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 54
+      },
+      {
+        "keys": [
+          "sell my house in foreclosure in houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "keys": [
+          "sell my house in foreclosure in montgomery county texas",
+          "https://www.cashasis.com/blog/sell-preforeclosure-house-montgomery-county/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "sell my house missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 22.166666666666668
+      },
+      {
+        "keys": [
+          "sell my house montgomery county",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "sell my house no repairs houston",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 33
+      },
+      {
+        "keys": [
+          "sell my house no repairs houston",
+          "https://www.cashasis.com/blog/sell-houston-house-without-repairs/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 68
+      },
+      {
+        "keys": [
+          "sell my house no repairs sugar land",
+          "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 41
+      },
+      {
+        "keys": [
+          "sell my house probate easton",
+          "https://www.cashasis.com/blog/sell-probate-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 26
+      },
+      {
+        "keys": [
+          "sell my house quick sugar land",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 54
+      },
+      {
+        "keys": [
+          "sell my house sienna tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 36.5
+      },
+      {
+        "keys": [
+          "sell my house sugar land tx",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "sell my house timbal tx",
+          "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 59
+      },
+      {
+        "keys": [
+          "sell my house with back taxes",
+          "https://www.cashasis.com/blog/sell-property-with-back-taxes/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 72
+      },
+      {
+        "keys": [
+          "sell my house with back taxes fast in metro detroit",
+          "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "keys": [
+          "sell my houston house fast",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 50.5
+      },
+      {
+        "keys": [
+          "sell my inherited house in katy texas",
+          "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 29.5
+      },
+      {
+        "keys": [
+          "sell my inherited house in montgomery county texas",
+          "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 32
+      },
+      {
+        "keys": [
+          "sell my land montgomery county tx",
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 42
+      },
+      {
+        "keys": [
+          "sell my lot fast in houston",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "sell my probate house houston",
+          "https://www.cashasis.com/blog/sell-probate-house-harris-county/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 71
+      },
+      {
+        "keys": [
+          "sell rental property with tenants texas",
+          "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 51.666666666666664
+      },
+      {
+        "keys": [
+          "sell tenant occupied house texas",
+          "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 39
+      },
+      {
+        "keys": [
+          "sell tenant occupied property houston",
+          "https://www.cashasis.com/blog/sell-house-after-eviction-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "sell vacant house houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 35.166666666666664
+      },
+      {
+        "keys": [
+          "sell with delinquent taxes",
+          "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "sell with delinquent taxes",
+          "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 15
+      },
+      {
+        "keys": [
+          "sell with deliquent taxes",
+          "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "sell your home in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 23,
+        "ctr": 0,
+        "position": 78.08695652173913
+      },
+      {
+        "keys": [
+          "sell your house cypress",
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "sell your house fast in atascocita tx",
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 87
+      },
+      {
+        "keys": [
+          "sell your house fast in katy",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 12.5
+      },
+      {
+        "keys": [
+          "sell your house fast in missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "sell your house fast in pearland",
+          "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "sell your house fast in spring tx",
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 93
+      },
+      {
+        "keys": [
+          "sell your house fast katy",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "keys": [
+          "sell your house fast katy tx",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 52
+      },
+      {
+        "keys": [
+          "seller's disclosure form texas",
+          "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 61
+      },
+      {
+        "keys": [
+          "selling a fire damaged house in texas",
+          "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 52
+      },
+      {
+        "keys": [
+          "selling a home in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 48
+      },
+      {
+        "keys": [
+          "selling a house in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 82.33333333333333
+      },
+      {
+        "keys": [
+          "selling a house with aluminum wiring",
+          "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 24.5
+      },
+      {
+        "keys": [
+          "selling a house with foundation issues texas",
+          "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "selling home during divorce texas",
+          "https://www.cashasis.com/blog/sell-house-during-divorce-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 47
+      },
+      {
+        "keys": [
+          "selling home in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 69.5
+      },
+      {
+        "keys": [
+          "selling house as is meaning",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "selling house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 89
+      },
+      {
+        "keys": [
+          "selling my house before foreclosure",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 98
+      },
+      {
+        "keys": [
+          "sold as is meaning",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 83
+      },
+      {
+        "keys": [
+          "sold asis",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "stop foreclosure houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 61.77777777777778
+      },
+      {
+        "keys": [
+          "stop foreclosure houston, texas",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 38
+      },
+      {
+        "keys": [
+          "subject to foreclosure houston",
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 52.8
+      },
+      {
+        "keys": [
+          "texas tax deed sales law",
+          "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 26
+      },
+      {
+        "keys": [
+          "tips to sell your home in houston",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 78
+      },
+      {
+        "keys": [
+          "we buy houses cypress",
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 28.333333333333332
+      },
+      {
+        "keys": [
+          "we buy houses fort bend",
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "we buy houses katy",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 19.5
+      },
+      {
+        "keys": [
+          "we buy houses katy tx",
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 19.5
+      },
+      {
+        "keys": [
+          "we buy houses missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 27,
+        "ctr": 0,
+        "position": 13.481481481481481
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 25,
+        "ctr": 0,
+        "position": 15.6
+      },
+      {
+        "keys": [
+          "we buy houses pasadena tx",
+          "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 20.5
+      },
+      {
+        "keys": [
+          "we buy houses sugar land",
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 34
+      },
+      {
+        "keys": [
+          "we buy houses tomball",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 30
+      },
+      {
+        "keys": [
+          "we buy houses tomball tx",
+          "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 45
+      },
+      {
+        "keys": [
+          "when to stop utilities when selling a house",
+          "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 41
+      }
+    ],
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 305,
+      "hasMore": false,
+      "note": "Showing all 305 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-11-04",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-11-05",
+      "settledThrough": "2026-11-04",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-29",
+        "endDate": "2026-11-07",
+        "dataState": "all"
+      }
+    }
+  },
+  "acquisitionEvidence": {
+    "workflow": "Existing Lead Acquisition Engine/COO evidence via this run and organic-seller-intent-map; no separate dashboard or message",
+    "priority": "MissouriCity existing primary query/snippet alignment review before more city pages or length",
+    "verifiedOrganicSellers": null,
+    "fundedGP": null,
+    "limitations": "GSC property-wide, query rows omit clicks; GA4 not freshly read today, prior monthly assessment retained until documented Nov8/13 reviews. No rankings or lead inference."
+  },
+  "protectedSourceChanges": false,
+  "allowedGeneratedChange": "netlify/functions/_shared/published-blog-paths.js",
+  "externalPaidApiSpendUSD": 0,
+  "nativeIncrementalCost": null,
+  "scheduleChanged": false,
+  "completedAt": "2026-11-07T14:50:04.980457+00:00"
+}

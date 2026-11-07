@@ -934,5 +934,41 @@
     "deployId": "6aede7fb0f4d46fbd9dfcb37",
     "pr": 43,
     "publishedAt": "2026-11-06T14:45:59.977Z"
+  },
+  {
+    "runId": "native-daily-20261107T143457Z",
+    "day": "2026-11-07",
+    "slug": "home-warranty-plan-selling-houston-house",
+    "intentKey": "houston-seller-existing-residential-service-contract-coverage-transfer-cancellation-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+    "nearestOverlaps": [
+      "replace-air-conditioner-before-selling-houston-house",
+      "foundation-report-before-selling-houston-house",
+      "selling-houston-house-open-insurance-claim"
+    ],
+    "substantiveDifference": "First existing residential service plan seller document review: coverage versus equipment condition versus sale obligations, open request status and provider-specific ownership-change terms. Equipment repair, contractor warranty and insurance-claim guides answer different decisions.",
+    "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+    "deployId": "6aef3a07deb4da65d286d7c1",
+    "pr": 44,
+    "publishedAt": "2026-11-07T14:48:14.532Z"
+  },
+  {
+    "runId": "native-daily-20261107T143457Z",
+    "day": "2026-11-07",
+    "slug": "camera-doorbell-account-handoff-selling-houston-house",
+    "intentKey": "houston-seller-camera-doorbell-hardware-account-video-subscription-handoff-plan",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+    "nearestOverlaps": [
+      "when-to-transfer-utilities-selling-houston-house",
+      "need-time-move-after-selling-houston-house",
+      "protect-house-sale-proceeds-wire-fraud"
+    ],
+    "substantiveDifference": "First camera/doorbell equipment, account, recording and subscription handoff guide tied to possession planning. Utility transfer concerns service billing; move-out concerns occupancy; wire-fraud guide concerns closing money. No universal reset, fixture-law or deletion instructions.",
+    "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
+    "deployId": "6aef3a07deb4da65d286d7c1",
+    "pr": 44,
+    "publishedAt": "2026-11-07T14:48:14.532Z"
   }
 ]
