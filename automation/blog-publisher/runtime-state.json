@@ -3,7 +3,9 @@
     "runId": "native-daily-20261108T140725Z",
     "fence": 32,
     "issuedAt": "2026-11-08T14:07:25Z",
-    "expiresAt": "2026-11-08T15:57:25.000Z"
+    "expiresAt": "2026-11-08T14:13:48Z",
+    "releasedAt": "2026-11-08T14:13:48Z",
+    "released": true
   },
   "ledger": [
     {
@@ -1313,42 +1315,45 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261107T143457Z",
-    "fence": 31,
-    "day": "2026-11-07",
-    "status": "published",
-    "published": 2,
-    "held": 1,
-    "articles": [
-      {
-        "slug": "home-warranty-plan-selling-houston-house",
-        "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/"
-      },
-      {
-        "slug": "camera-doorbell-account-handoff-selling-houston-house",
-        "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/"
-      }
-    ],
+    "runId": "native-daily-20261108T140725Z",
+    "fence": 32,
+    "day": "2026-11-08",
+    "status": "hold_overlap",
+    "published": 0,
+    "held": 3,
+    "articles": [],
     "heldCandidates": [
       {
-        "candidate": "Roof repair versus as-is variant",
-        "status": "hold",
-        "reason": "Existing roof damage decision guide already answers this intent",
+        "candidate": "Solar buyout before selling",
+        "existingSlug": "selling-houston-house-solar-panels-contract-checklist",
+        "reason": "Existing guide covers agreement types, written payoff/buyout and transfer requirements",
+        "generationPerformed": false
+      },
+      {
+        "candidate": "Existing survey after fence change",
+        "existingSlug": "existing-survey-when-selling-texas-house",
+        "reason": "Existing guide already covers fence-change example and survey-acceptance packet",
+        "generationPerformed": false
+      },
+      {
+        "candidate": "Utility stop date after closing",
+        "existingSlug": "when-to-transfer-utilities-selling-houston-house",
+        "reason": "Existing guide covers possession/provider timing and confirmations",
         "generationPerformed": false
       }
     ],
-    "completedAt": "2026-11-07T14:52:58Z",
-    "productionCommit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
-    "productionDeployId": "6aef3a07deb4da65d286d7c1",
-    "bookkeepingCommit": "281e5315ed353681cf53e957331c275146914c4a",
-    "bookkeepingDeployId": "6aef3ac587e1713c8c701d92",
-    "monitoringCommit": "d9157b185abffee4066def5a1b08e5323dbeef4b",
-    "monitoringInspections": 5,
-    "indexedDueRechecks": 3,
+    "monitoringInspections": 0,
+    "dueInspectionQueue": [],
+    "bookkeepingCommit": "625a490e5c89f6fb99ffca9c4c85015dc1841bbe",
+    "bookkeepingDeployId": "6af0831795fc5744fbc8c423",
+    "monitoringCommit": "ec7496b762e028d6c84b3166840e70957fa751c7",
+    "monthlyStatus": "partial_retry_maturity_verification",
+    "nextMonthlyReview": "2026-11-13",
     "externalPaidApiSpendUSD": 0,
     "nativeIncrementalCost": null,
     "finalLiveQA": "pass",
-    "notificationSent": false
+    "notificationSent": false,
+    "completedAt": "2026-11-08T14:13:48Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
