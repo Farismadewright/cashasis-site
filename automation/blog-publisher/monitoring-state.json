@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W45",
   "lastMonthlyKey": null,
-  "lastAttempt": "2026-11-07T14:50:04.980457+00:00",
-  "lastSuccessfulReview": "2026-11-07T14:50:04.980457+00:00",
+  "lastAttempt": "2026-11-08T14:11:05.030391+00:00",
+  "lastSuccessfulReview": "2026-11-08T14:11:05.030391+00:00",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -90,7 +90,7 @@
       "recordPath": "automation/blog-publisher/records/selling-houston-house-open-insurance-claim.json",
       "ageBasis": "publication",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-17T13:39:17.592673+00:00",
       "lastSuccessfulInspection": "2026-10-24T13:21:47.133846+00:00",
       "nextReviewAt": "2026-11-21T13:21:47.133846+00:00",
@@ -218,7 +218,7 @@
       "recordPath": "automation/blog-publisher/records/houston-house-unpermitted-addition-records.json",
       "ageBasis": "publication",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-17T13:39:28.903218+00:00",
       "lastSuccessfulInspection": "2026-10-24T13:21:47.101392+00:00",
       "nextReviewAt": "2026-11-21T13:21:47.101392+00:00",
@@ -346,7 +346,7 @@
       "recordPath": "automation/blog-publisher/records/selling-fort-bend-house-septic-system.json",
       "ageBasis": "publication",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-17T13:39:02.304214+00:00",
       "lastSuccessfulInspection": "2026-10-24T13:21:47.057386+00:00",
       "nextReviewAt": "2026-11-21T13:21:47.057386+00:00",
@@ -413,7 +413,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:58:57.673894+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.673894+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.673894+00:00",
@@ -441,7 +441,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:58:57.671502+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.671502+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.671502+00:00",
@@ -575,7 +575,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:49:51.651501+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:39.716758+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -655,7 +655,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:58:57.726673+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.726673+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.726673+00:00",
@@ -683,7 +683,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:04.441988+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.441988+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.441988+00:00",
@@ -763,7 +763,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:49:58.24292+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.462949+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.462949+00:00",
@@ -791,7 +791,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:04.480871+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.480871+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.480871+00:00",
@@ -832,7 +832,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:49:02.892302+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.390359+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.390359+00:00",
@@ -860,7 +860,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:04.576632+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:04.576632+00:00",
       "nextReviewAt": "2026-11-11T14:59:04.576632+00:00",
@@ -901,7 +901,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-08T13:27:46.682357+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.402989+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.402989+00:00",
@@ -929,7 +929,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.301894+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.301894+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.301894+00:00",
@@ -957,7 +957,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.397972+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.397972+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.397972+00:00",
@@ -985,7 +985,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.32901+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.32901+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.329010+00:00",
@@ -1013,7 +1013,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:11.516638+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:11.516638+00:00",
       "nextReviewAt": "2026-11-11T14:59:11.516638+00:00",
@@ -1041,7 +1041,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:17.97069+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:17.97069+00:00",
       "nextReviewAt": "2026-11-11T14:59:17.970690+00:00",
@@ -1090,33 +1090,33 @@
       ],
       "recordPath": "automation/blog-publisher/records/existing-survey-when-selling-texas-house.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-16T14:05:40.429068+00:00",
       "lastSuccessfulInspection": "2026-10-19T14:00:37.829Z",
       "nextReviewAt": "2026-11-16T14:00:37.829000+00:00",
       "excluded": false,
       "lastAttemptAt": "2026-10-19T14:00:37.829Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-19T13:59:38.911451+00:00",
+      "technicalVerifiedAt": "2026-11-08T14:10:30.495717+00:00",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-10-19T13:59:38.911451+00:00",
-        "httpStatus": 200,
+        "HTTP": 200,
         "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
-        "robots": " ",
-        "sitemap": true,
-        "rss": true,
-        "internalLinks": [
-          "/blog/cash-offer-vs-listing-house-houston/",
-          "/blog/sell-house-title-problems-houston/"
-        ],
-        "ctaCount": 2,
+        "productionNoindex": false,
         "schemaTypes": [
           "BlogPosting",
           "BreadcrumbList",
           "FAQPage"
-        ]
+        ],
+        "sitemapRSS": true,
+        "hubDiscovery": true,
+        "contextualLinks": {
+          "/blog/cash-offer-vs-listing-house-houston/": 200,
+          "/blog/sell-house-title-problems-houston/": 200,
+          "/blog/": 200
+        },
+        "attributedCTA": true,
+        "checkedAt": "2026-11-08T14:10:30.495717+00:00"
       },
       "nextReview": "2026-11-16"
     },
@@ -1141,7 +1141,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:18.048246+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:18.048246+00:00",
       "nextReviewAt": "2026-11-11T14:59:18.048246+00:00",
@@ -1190,7 +1190,7 @@
       ],
       "recordPath": "automation/blog-publisher/records/hoa-resale-documents-texas-house-sale.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-16T14:05:51.943787+00:00",
       "lastSuccessfulInspection": "2026-10-19T14:00:26.219Z",
       "nextReviewAt": "2026-11-16T14:00:26.219000+00:00",
@@ -1274,7 +1274,7 @@
       ],
       "recordPath": "automation/blog-publisher/records/houston-september-2026-market-selling-timeline.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.868623+00:00",
       "technicalEvidence": {
@@ -1326,7 +1326,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:18.284366+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:18.284366+00:00",
       "nextReviewAt": "2026-11-11T14:59:18.284366+00:00",
@@ -1473,7 +1473,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:11.585827+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:39.973965+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -1568,7 +1568,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:24.767332+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:24.767332+00:00",
       "nextReviewAt": "2026-11-11T14:59:24.767332+00:00",
@@ -1609,7 +1609,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:51:01.09635+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:24.882152+00:00",
       "nextReviewAt": "2026-11-11T14:59:24.882152+00:00",
@@ -1637,7 +1637,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:24.959935+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:24.959935+00:00",
       "nextReviewAt": "2026-11-11T14:59:24.959935+00:00",
@@ -1665,7 +1665,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:25.013742+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:25.013742+00:00",
       "nextReviewAt": "2026-11-11T14:59:25.013742+00:00",
@@ -1693,7 +1693,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:25.144478+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:25.144478+00:00",
       "nextReviewAt": "2026-11-11T14:59:25.144478+00:00",
@@ -1721,7 +1721,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:34.576648+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.576648+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.576648+00:00",
@@ -1749,7 +1749,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:34.386587+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.386587+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.386587+00:00",
@@ -1777,7 +1777,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:34.429204+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.429204+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.429204+00:00",
@@ -1837,7 +1837,7 @@
       ],
       "recordPath": "automation/blog-publisher/records/protect-house-sale-proceeds-wire-fraud.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.962669+00:00",
       "technicalEvidence": {
@@ -1920,7 +1920,7 @@
       ],
       "recordPath": "automation/blog-publisher/records/security-deposit-when-selling-texas-rental.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.969574+00:00",
       "technicalEvidence": {
@@ -2010,7 +2010,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:51.460238+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:34.75232+00:00",
       "nextReviewAt": "2026-11-11T14:59:34.752320+00:00",
@@ -2038,7 +2038,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:59.206468+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:59.206468+00:00",
       "nextReviewAt": "2026-11-11T14:59:59.206468+00:00",
@@ -2118,7 +2118,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:18.180424+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:41.401864+00:00",
       "nextReviewAt": "2026-11-11T14:59:41.401864+00:00",
@@ -2187,7 +2187,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:41.330801+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:39.975327+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -2281,7 +2281,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:41.332134+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:41.332134+00:00",
       "nextReviewAt": "2026-11-11T14:59:41.332134+00:00",
@@ -2322,7 +2322,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:51:07.839038+00:00",
       "lastSuccessfulInspection": "2026-11-02T14:48:11.228547+00:00",
       "nextReviewAt": "2026-11-30T14:48:11.228547+00:00",
@@ -2415,7 +2415,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:38.105733+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:48.01893+00:00",
       "nextReviewAt": "2026-11-11T14:59:48.018930+00:00",
@@ -2456,7 +2456,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:44.887083+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:48.101085+00:00",
       "nextReviewAt": "2026-11-11T14:59:48.101085+00:00",
@@ -2484,7 +2484,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:48.197642+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:48.197642+00:00",
       "nextReviewAt": "2026-11-11T14:59:48.197642+00:00",
@@ -2512,7 +2512,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:54.643283+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:54.643283+00:00",
       "nextReviewAt": "2026-11-11T14:59:54.643283+00:00",
@@ -2605,7 +2605,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:04.917247+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:54.731907+00:00",
       "nextReviewAt": "2026-11-11T14:59:54.731907+00:00",
@@ -2633,7 +2633,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T14:59:55.016278+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:59:55.016278+00:00",
       "nextReviewAt": "2026-11-11T14:59:55.016278+00:00",
@@ -2780,7 +2780,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:24.826797+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:39.842575+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -2875,7 +2875,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:01.660548+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:01.660548+00:00",
       "nextReviewAt": "2026-11-11T15:00:01.660548+00:00",
@@ -2903,7 +2903,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:01.660569+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:01.660569+00:00",
       "nextReviewAt": "2026-11-11T15:00:01.660569+00:00",
@@ -2931,7 +2931,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:01.761244+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:01.761244+00:00",
       "nextReviewAt": "2026-11-11T15:00:01.761244+00:00",
@@ -2959,7 +2959,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:05.242886+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:05.242886+00:00",
       "nextReviewAt": "2026-11-11T15:00:05.242886+00:00",
@@ -3026,7 +3026,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-06T12:47:00.72946+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:06.177277+00:00",
       "nextReviewAt": "2026-11-11T15:00:06.177277+00:00",
@@ -3054,7 +3054,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:08.624133+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:08.624133+00:00",
       "nextReviewAt": "2026-11-11T15:00:08.624133+00:00",
@@ -3082,7 +3082,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:09.111889+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:09.111889+00:00",
       "nextReviewAt": "2026-11-11T15:00:09.111889+00:00",
@@ -3110,7 +3110,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:09.146266+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:09.146266+00:00",
       "nextReviewAt": "2026-11-11T15:00:09.146266+00:00",
@@ -3179,7 +3179,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:17.762819+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:39.92111+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -3229,7 +3229,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:18.496013+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:18.496013+00:00",
       "nextReviewAt": "2026-11-11T15:00:18.496013+00:00",
@@ -3257,7 +3257,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:17.844218+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:17.844218+00:00",
       "nextReviewAt": "2026-11-11T15:00:17.844218+00:00",
@@ -3285,7 +3285,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:18.035398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:18.035398+00:00",
       "nextReviewAt": "2026-11-11T15:00:18.035398+00:00",
@@ -3326,7 +3326,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.349724+00:00",
       "lastSuccessfulInspection": "2026-10-14T14:58:57.653973+00:00",
       "nextReviewAt": "2026-11-11T14:58:57.653973+00:00",
@@ -3367,7 +3367,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.255398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:18.030433+00:00",
       "nextReviewAt": "2026-11-11T15:00:18.030433+00:00",
@@ -3395,7 +3395,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:24.657173+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.657173+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.657173+00:00",
@@ -3423,7 +3423,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:24.652026+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.652026+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.652026+00:00",
@@ -3464,7 +3464,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:49:27.728898+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.905604+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.905604+00:00",
@@ -3492,12 +3492,35 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:24.783174+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:24.783174+00:00",
       "nextReviewAt": "2026-11-11T15:00:24.783174+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-11-11",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+        "HTTP": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+        "productionNoindex": false,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sitemapRSS": true,
+        "hubDiscovery": true,
+        "contextualLinks": {
+          "/blog/sell-house-as-is-houston/": 200,
+          "/blog/cash-offer-vs-listing-house-houston/": 200,
+          "/blog/sell-house-back-taxes-missouri-city-tx/": 200,
+          "/blog/sell-house-fast-fort-bend-county-tx/": 200
+        },
+        "attributedCTA": true,
+        "checkedAt": "2026-11-08T14:10:33.767458+00:00"
+      },
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-08T14:10:33.767458+00:00"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/",
@@ -3520,7 +3543,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:25.454115+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:25.454115+00:00",
       "nextReviewAt": "2026-11-11T15:00:25.454115+00:00",
@@ -3548,7 +3571,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.600288+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.600288+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.600288+00:00",
@@ -3576,7 +3599,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.619662+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.619662+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.619662+00:00",
@@ -3604,7 +3627,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.72079+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.72079+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.720790+00:00",
@@ -3632,7 +3655,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:31.614721+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:31.614721+00:00",
       "nextReviewAt": "2026-11-11T15:00:31.614721+00:00",
@@ -3660,7 +3683,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:32.45208+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:32.45208+00:00",
       "nextReviewAt": "2026-11-11T15:00:32.452080+00:00",
@@ -3701,7 +3724,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.165401+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:38.347123+00:00",
       "nextReviewAt": "2026-11-11T15:00:38.347123+00:00",
@@ -3729,7 +3752,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.054962+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:39.054962+00:00",
       "nextReviewAt": "2026-11-11T15:00:39.054962+00:00",
@@ -3757,7 +3780,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:38.445872+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:38.445872+00:00",
       "nextReviewAt": "2026-11-11T15:00:38.445872+00:00",
@@ -3785,7 +3808,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.123114+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:39.123114+00:00",
       "nextReviewAt": "2026-11-11T15:00:39.123114+00:00",
@@ -3813,7 +3836,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.361042+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:39.361042+00:00",
       "nextReviewAt": "2026-11-11T15:00:39.361042+00:00",
@@ -3841,7 +3864,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:45.234785+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:45.234785+00:00",
       "nextReviewAt": "2026-11-11T15:00:45.234785+00:00",
@@ -3869,7 +3892,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:45.312663+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:45.312663+00:00",
       "nextReviewAt": "2026-11-11T15:00:45.312663+00:00",
@@ -3897,7 +3920,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.067809+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:46.067809+00:00",
       "nextReviewAt": "2026-11-11T15:00:46.067809+00:00",
@@ -3925,7 +3948,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.070418+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:46.070418+00:00",
       "nextReviewAt": "2026-11-11T15:00:46.070418+00:00",
@@ -3953,7 +3976,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.049429+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:46.049429+00:00",
       "nextReviewAt": "2026-11-11T15:00:46.049429+00:00",
@@ -3981,7 +4004,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.371108+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.371108+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.371108+00:00",
@@ -4009,7 +4032,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.558129+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.558129+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.558129+00:00",
@@ -4037,7 +4060,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.365092+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.365092+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.365092+00:00",
@@ -4065,7 +4088,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.425103+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.425103+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.425103+00:00",
@@ -4093,7 +4116,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.58837+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:00:56.58837+00:00",
       "nextReviewAt": "2026-11-11T15:00:56.588370+00:00",
@@ -4139,7 +4162,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.978201+00:00",
       "technicalEvidence": {
@@ -4190,7 +4213,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.143926+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:03.143926+00:00",
       "nextReviewAt": "2026-11-11T15:01:03.143926+00:00",
@@ -4233,7 +4256,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.437307+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-11-18T14:23:30+00:00",
@@ -4279,7 +4302,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.56699+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:03.56699+00:00",
       "nextReviewAt": "2026-11-11T15:01:03.566990+00:00",
@@ -4307,7 +4330,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.520596+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:03.520596+00:00",
       "nextReviewAt": "2026-11-11T15:01:03.520596+00:00",
@@ -4335,7 +4358,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.031651+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:10.031651+00:00",
       "nextReviewAt": "2026-11-11T15:01:10.031651+00:00",
@@ -4363,7 +4386,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.391352+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:10.391352+00:00",
       "nextReviewAt": "2026-11-11T15:01:10.391352+00:00",
@@ -4391,7 +4414,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.250415+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:10.250415+00:00",
       "nextReviewAt": "2026-11-11T15:01:10.250415+00:00",
@@ -4419,7 +4442,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:12.134662+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:12.134662+00:00",
       "nextReviewAt": "2026-11-11T15:01:12.134662+00:00",
@@ -4447,7 +4470,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:15.748374+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:15.748374+00:00",
       "nextReviewAt": "2026-11-11T15:01:15.748374+00:00",
@@ -4475,7 +4498,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:16.930712+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:16.930712+00:00",
       "nextReviewAt": "2026-11-11T15:01:16.930712+00:00",
@@ -4503,7 +4526,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:16.906927+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:16.906927+00:00",
       "nextReviewAt": "2026-11-11T15:01:16.906927+00:00",
@@ -4531,7 +4554,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:17.307394+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:17.307394+00:00",
       "nextReviewAt": "2026-11-11T15:01:17.307394+00:00",
@@ -4559,7 +4582,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:19.398429+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:19.398429+00:00",
       "nextReviewAt": "2026-11-11T15:01:19.398429+00:00",
@@ -4613,7 +4636,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-08T13:28:00.549344+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:22.584474+00:00",
       "nextReviewAt": "2026-11-11T15:01:22.584474+00:00",
@@ -4641,7 +4664,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.570239+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:23.570239+00:00",
       "nextReviewAt": "2026-11-11T15:01:23.570239+00:00",
@@ -4669,7 +4692,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.660916+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:23.660916+00:00",
       "nextReviewAt": "2026-11-11T15:01:23.660916+00:00",
@@ -4697,7 +4720,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.971666+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:23.971666+00:00",
       "nextReviewAt": "2026-11-11T15:01:23.971666+00:00",
@@ -4725,7 +4748,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:26.418864+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:26.418864+00:00",
       "nextReviewAt": "2026-11-11T15:01:26.418864+00:00",
@@ -4753,7 +4776,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:29.46314+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:29.46314+00:00",
       "nextReviewAt": "2026-11-11T15:01:29.463140+00:00",
@@ -4781,7 +4804,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.50688+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.50688+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.506880+00:00",
@@ -4809,7 +4832,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.356879+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.356879+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.356879+00:00",
@@ -4837,7 +4860,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.31048+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.31048+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.310480+00:00",
@@ -4865,7 +4888,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.427901+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.427901+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.427901+00:00",
@@ -4893,7 +4916,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.207684+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:38.207684+00:00",
       "nextReviewAt": "2026-11-11T15:01:38.207684+00:00",
@@ -4947,7 +4970,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.239905+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.258859+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.258859+00:00",
@@ -4975,7 +4998,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.15035+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.15035+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.150350+00:00",
@@ -5003,7 +5026,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.276625+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.276625+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.276625+00:00",
@@ -5031,7 +5054,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.306319+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.306319+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.306319+00:00",
@@ -5059,7 +5082,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:45.677567+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:45.677567+00:00",
       "nextReviewAt": "2026-11-11T15:01:45.677567+00:00",
@@ -5087,7 +5110,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.182931+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.182931+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.182931+00:00",
@@ -5130,7 +5153,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:51.999688+00:00",
       "lastSuccessfulInspection": "2026-10-21T14:23:30.000Z",
       "nextReviewAt": "2026-11-18T14:23:30+00:00",
@@ -5176,7 +5199,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.09309+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.09309+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.093090+00:00",
@@ -5204,7 +5227,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.342094+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.342094+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.342094+00:00",
@@ -5232,7 +5255,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:52.461609+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:52.461609+00:00",
       "nextReviewAt": "2026-11-11T15:01:52.461609+00:00",
@@ -5260,7 +5283,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:58.861693+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:58.861693+00:00",
       "nextReviewAt": "2026-11-11T15:01:58.861693+00:00",
@@ -5288,7 +5311,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:58.891813+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:58.891813+00:00",
       "nextReviewAt": "2026-11-11T15:01:58.891813+00:00",
@@ -5316,7 +5339,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:59.001349+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:59.001349+00:00",
       "nextReviewAt": "2026-11-11T15:01:59.001349+00:00",
@@ -5344,7 +5367,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:59.117894+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:59.117894+00:00",
       "nextReviewAt": "2026-11-11T15:01:59.117894+00:00",
@@ -5372,7 +5395,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:59.22757+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:01:59.22757+00:00",
       "nextReviewAt": "2026-11-11T15:01:59.227570+00:00",
@@ -5400,7 +5423,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:05.786196+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.786196+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.786196+00:00",
@@ -5428,7 +5451,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:05.705133+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.705133+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.705133+00:00",
@@ -5456,7 +5479,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:05.859203+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.859203+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.859203+00:00",
@@ -5484,7 +5507,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:08.927398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:08.927398+00:00",
       "nextReviewAt": "2026-11-11T15:02:08.927398+00:00",
@@ -5525,7 +5548,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-06T12:47:13.030853+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:05.933156+00:00",
       "nextReviewAt": "2026-11-11T15:02:05.933156+00:00",
@@ -5594,7 +5617,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.552892+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:46.378958+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -5729,7 +5752,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.32682+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:46.58868+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -5823,7 +5846,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.416767+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:18.416767+00:00",
       "nextReviewAt": "2026-11-11T15:02:18.416767+00:00",
@@ -5851,7 +5874,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.356688+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:18.356688+00:00",
       "nextReviewAt": "2026-11-11T15:02:18.356688+00:00",
@@ -5879,7 +5902,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:18.428937+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:18.428937+00:00",
       "nextReviewAt": "2026-11-11T15:02:18.428937+00:00",
@@ -5907,7 +5930,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.280676+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.280676+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.280676+00:00",
@@ -5935,7 +5958,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.140283+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.140283+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.140283+00:00",
@@ -5963,7 +5986,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.374398+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.374398+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.374398+00:00",
@@ -6023,9 +6046,9 @@
       ],
       "recordPath": "automation/blog-publisher/records/selling-houston-house-solar-panels-contract-checklist.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-18T14:03:56.945643+00:00",
+      "technicalVerifiedAt": "2026-11-08T14:10:30.507462+00:00",
       "technicalEvidence": {
         "url": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
         "http": 200,
@@ -6052,7 +6075,27 @@
       "firstSuccessfulInspection": "2026-10-15T17:24:39.394331+00:00",
       "nextReviewAt": "2026-11-15T14:05:13.079000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-15"
+      "nextReview": "2026-11-15",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+        "HTTP": 200,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+        "productionNoindex": false,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sitemapRSS": true,
+        "hubDiscovery": true,
+        "contextualLinks": {
+          "/compare-the-net/": 200,
+          "/blog/how-cash-offer-house-works-houston/": 200,
+          "/blog/": 200
+        },
+        "attributedCTA": true,
+        "checkedAt": "2026-11-08T14:10:30.507462+00:00"
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/skip-full-probate-affidavit-heirship-cashasis/",
@@ -6075,7 +6118,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:25.381303+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.381303+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.381303+00:00",
@@ -6116,7 +6159,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-04T18:50:31.474033+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:25.440461+00:00",
       "nextReviewAt": "2026-11-11T15:02:25.440461+00:00",
@@ -6144,7 +6187,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.130675+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.130675+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.130675+00:00",
@@ -6213,7 +6256,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.062303+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:46.662986+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -6263,7 +6306,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.478656+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.478656+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.478656+00:00",
@@ -6291,7 +6334,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.179374+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.179374+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.179374+00:00",
@@ -6351,7 +6394,7 @@
       ],
       "recordPath": "automation/blog-publisher/records/texas-as-is-sale-seller-disclosure-checklist.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.973937+00:00",
       "technicalEvidence": {
@@ -6402,7 +6445,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.14447+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.14447+00:00",
       "nextReviewAt": "2026-11-11T15:02:32.144470+00:00",
@@ -6462,7 +6505,7 @@
       ],
       "recordPath": "automation/blog-publisher/records/vacant-house-insurance-while-selling-houston.json",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-18T14:03:56.953091+00:00",
       "technicalEvidence": {
@@ -6527,7 +6570,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.385071+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:38.9639+00:00",
       "nextReviewAt": "2026-11-11T15:02:38.963900+00:00",
@@ -6555,7 +6598,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:47.921308+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:47.921308+00:00",
       "nextReviewAt": "2026-11-11T15:02:47.921308+00:00",
@@ -6583,7 +6626,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:38.951976+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:38.951976+00:00",
       "nextReviewAt": "2026-11-11T15:02:38.951976+00:00",
@@ -6611,7 +6654,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:39.305528+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:39.305528+00:00",
       "nextReviewAt": "2026-11-11T15:02:39.305528+00:00",
@@ -6680,7 +6723,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:45.774871+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:46.639468+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -6759,7 +6802,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:48.706742+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:48.706742+00:00",
       "nextReviewAt": "2026-11-11T15:02:48.706742+00:00",
@@ -6787,7 +6830,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:45.794889+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:45.794889+00:00",
       "nextReviewAt": "2026-11-11T15:02:45.794889+00:00",
@@ -6815,7 +6858,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:49.20504+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:49.20504+00:00",
       "nextReviewAt": "2026-11-11T15:02:49.205040+00:00",
@@ -6843,7 +6886,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:52.408895+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:52.408895+00:00",
       "nextReviewAt": "2026-11-11T15:02:52.408895+00:00",
@@ -6871,7 +6914,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.194897+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.194897+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.194897+00:00",
@@ -6899,7 +6942,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.118914+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.118914+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.118914+00:00",
@@ -6927,7 +6970,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.287926+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.287926+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.287926+00:00",
@@ -6996,7 +7039,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.425205+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:46.684644+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -7072,7 +7115,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.292563+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:01.292563+00:00",
       "nextReviewAt": "2026-11-11T15:03:01.292563+00:00",
@@ -7100,7 +7143,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:07.862888+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:07.862888+00:00",
       "nextReviewAt": "2026-11-11T15:03:07.862888+00:00",
@@ -7169,7 +7212,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:07.921777+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:52.973328+00:00",
       "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
@@ -7248,7 +7291,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:08.184343+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:08.184343+00:00",
       "nextReviewAt": "2026-11-11T15:03:08.184343+00:00",
@@ -7276,7 +7319,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:08.033716+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:08.033716+00:00",
       "nextReviewAt": "2026-11-11T15:03:08.033716+00:00",
@@ -7304,7 +7347,7 @@
         }
       ],
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:08.194451+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:03:08.194451+00:00",
       "nextReviewAt": "2026-11-11T15:03:08.194451+00:00",
@@ -7407,7 +7450,7 @@
       "lastAttempt": "2026-10-18T14:13:41.883Z",
       "nextReviewAfter": "2026-10-21",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "nextReviewAt": "2026-11-22T13:19:21.245136+00:00",
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
@@ -7539,7 +7582,7 @@
       "lastAttempt": "2026-10-18T14:14:02.455Z",
       "nextReviewAfter": "2026-10-21",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "nextReviewAt": "2026-11-22T13:19:27.690647+00:00",
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
@@ -7675,7 +7718,7 @@
       "lastAttempt": "2026-10-18T14:13:51.746Z",
       "nextReviewAfter": "2026-10-21",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "nextReviewAt": "2026-11-22T13:19:14.489941+00:00",
       "excluded": false,
       "lastAttemptAt": "2026-10-21T14:23:30.000Z",
@@ -7767,7 +7810,7 @@
       "ageBasis": "publication",
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-26T14:39:01.583998+00:00",
       "recordPath": "automation/blog-publisher/records/mold-remediation-certificate-selling-texas-house.json",
       "technicalEligible": true,
@@ -7865,7 +7908,7 @@
       "ageBasis": "publication",
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-26T14:39:01.575044+00:00",
       "recordPath": "automation/blog-publisher/records/replace-air-conditioner-before-selling-houston-house.json",
       "technicalEligible": true,
@@ -7962,7 +8005,7 @@
       "ageBasis": "publication",
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-26T14:39:01.511986+00:00",
       "recordPath": "automation/blog-publisher/records/selling-houston-house-from-out-of-state-signing.json",
       "technicalEligible": true,
@@ -8047,7 +8090,7 @@
       ],
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-20T13:57:38.328Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-23T13:21:35.868242+00:00",
@@ -8130,41 +8173,30 @@
       ],
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-20T13:57:52.422Z",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-23T13:21:35.844378+00:00",
+      "technicalVerifiedAt": "2026-11-08T14:10:33.754781+00:00",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-10-20T13:56:10.251703+00:00",
-        "checks": {
-          "canonical": true,
-          "metadata": true,
-          "sharing": true,
-          "indexability": true,
-          "schema": true,
-          "faq": true,
-          "image": true,
-          "internalLinks": true,
-          "sellerPath": true,
-          "sitemap": true,
-          "rss": true,
-          "blogCard": true,
-          "robotsCrawlable": true,
-          "tracking": true,
-          "mobileTestedHTMLParity": true
-        },
-        "http": 200,
-        "internalLinks": [
-          "/blog/cash-house-sale-timeline-houston/",
-          "/blog/sell-house-with-tenants-houston/",
-          "/blog/vacant-house-insurance-while-selling-houston/"
+        "HTTP": 200,
+        "canonical": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+        "productionNoindex": false,
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
         ],
-        "attributedCTAs": [
-          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post",
-          "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=when-to-transfer-utilities-selling-houston-house&utm_term=post"
-        ]
+        "sitemapRSS": true,
+        "hubDiscovery": true,
+        "contextualLinks": {
+          "/blog/sell-house-with-tenants-houston/": 200,
+          "/blog/vacant-house-insurance-while-selling-houston/": 200,
+          "/blog/": 200,
+          "/blog/cash-house-sale-timeline-houston/": 200
+        },
+        "attributedCTA": true,
+        "checkedAt": "2026-11-08T14:10:33.754781+00:00"
       },
       "recordPath": "automation/blog-publisher/records/when-to-transfer-utilities-selling-houston-house.json",
       "firstSuccessfulInspection": "2026-10-20T13:57:52.422Z",
@@ -8213,7 +8245,7 @@
       ],
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-20T13:58:06.752Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-23T13:21:35.924794+00:00",
@@ -8295,7 +8327,7 @@
       ],
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-21T14:22:45.000Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-24T13:19:50.512310+00:00",
@@ -8368,7 +8400,7 @@
       ],
       "excluded": false,
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "lastAttemptAt": "2026-10-21T14:22:45.000Z",
       "technicalEligible": true,
       "technicalVerifiedAt": "2026-10-24T13:19:58.140411+00:00",
@@ -8519,7 +8551,7 @@
         "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       },
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-22T13:40:55.083043+00:00",
       "lastSuccessfulInspection": "2026-10-25T13:19:34.599353+00:00",
@@ -8580,7 +8612,7 @@
         "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       },
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-22T13:40:55.179367+00:00",
       "lastSuccessfulInspection": "2026-10-25T13:19:34.329919+00:00",
@@ -8641,7 +8673,7 @@
         "scope": "Fresh eligibility/schema/link sample; zero relative body links is an editorial review observation, not proof of crawl failure. Not an assertion that every historic claim was reverified."
       },
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-22T13:40:55.188848+00:00",
       "lastSuccessfulInspection": "2026-10-25T13:19:27.962121+00:00",
@@ -8679,7 +8711,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:35:05.593948+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:35:05.593948+00:00",
@@ -8717,7 +8749,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:36.403309+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:36.403309+00:00",
@@ -8755,7 +8787,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:36.4319+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:36.4319+00:00",
@@ -8793,7 +8825,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:36.400928+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:36.400928+00:00",
@@ -8831,7 +8863,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:36.41887+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:36.41887+00:00",
@@ -8869,7 +8901,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:36.456291+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:36.456291+00:00",
@@ -8907,7 +8939,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:43.152266+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:43.152266+00:00",
@@ -8945,7 +8977,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:43.121214+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:43.121214+00:00",
@@ -8983,7 +9015,7 @@
       "inventoryReconciledAt": "2026-10-23T13:41:29.950773+00:00",
       "nextReview": "2026-11-20",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "firstSuccessfulInspection": "2026-10-23T13:36:43.187942+00:00",
       "lastSuccessfulInspection": "2026-10-23T13:36:43.187942+00:00",
@@ -9039,7 +9071,7 @@
       "technicalIssue": null,
       "nextReview": "2026-11-27",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastSuccessfulInspection": "2026-10-30T13:41:06.584988+00:00",
       "lastAttemptAt": "2026-10-30T13:41:06.584988+00:00",
@@ -9123,7 +9155,7 @@
       "technicalIssue": null,
       "nextReview": "2026-11-27",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastSuccessfulInspection": "2026-10-30T13:41:06.671682+00:00",
       "lastAttemptAt": "2026-10-30T13:41:06.671682+00:00",
@@ -9207,7 +9239,7 @@
       "technicalIssue": null,
       "nextReview": "2026-11-27",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastSuccessfulInspection": "2026-10-30T13:41:06.834063+00:00",
       "lastAttemptAt": "2026-10-30T13:41:06.834063+00:00",
@@ -9278,7 +9310,7 @@
       "technicalVerifiedAt": "2026-10-27T13:31:21.313977+00:00",
       "nextReview": "2026-11-24",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastAttemptAt": "2026-10-27T13:28:26.432638+00:00",
       "lastSuccessfulInspection": "2026-10-27T13:28:26.432638+00:00",
@@ -9350,7 +9382,7 @@
       "technicalIssue": null,
       "nextReview": "2026-11-25",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastAttemptAt": "2026-10-28T14:05:40.436497+00:00",
       "lastSuccessfulInspection": "2026-10-28T14:05:40.436497+00:00",
@@ -9423,7 +9455,7 @@
       "technicalIssue": null,
       "nextReview": "2026-11-25",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastAttemptAt": "2026-10-28T14:05:40.50963+00:00",
       "lastSuccessfulInspection": "2026-10-28T14:05:40.50963+00:00",
@@ -9496,7 +9528,7 @@
       "technicalIssue": null,
       "nextReview": "2026-11-25",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastAttemptAt": "2026-10-28T14:05:40.376028+00:00",
       "lastSuccessfulInspection": "2026-10-28T14:05:40.376028+00:00",
@@ -9566,7 +9598,7 @@
         }
       ],
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastSuccessfulInspection": "2026-10-29T13:58:14.41695+00:00",
       "lastAttemptAt": "2026-10-29T13:58:14.41695+00:00",
@@ -9637,7 +9669,7 @@
         }
       ],
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastSuccessfulInspection": "2026-10-29T13:58:14.29218+00:00",
       "lastAttemptAt": "2026-10-29T13:58:14.29218+00:00",
@@ -9709,7 +9741,7 @@
         }
       ],
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "lastSuccessfulInspection": "2026-10-29T13:58:14.20143+00:00",
       "lastAttemptAt": "2026-10-29T13:58:14.20143+00:00",
@@ -9815,7 +9847,7 @@
       "technicalIssue": null,
       "technicalIssueConfirmed": false,
       "nextReviewAt": "2026-11-27T13:41:06.823338+00:00",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReview": "2026-11-27"
     },
@@ -9888,7 +9920,7 @@
       "technicalIssue": null,
       "technicalIssueConfirmed": false,
       "nextReviewAt": "2026-11-28T13:57:26.814241+00:00",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReview": "2026-11-28"
     },
@@ -9962,7 +9994,7 @@
       "technicalIssue": null,
       "technicalIssueConfirmed": false,
       "nextReviewAt": "2026-11-28T13:57:26.879629+00:00",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReview": "2026-11-28"
     },
@@ -10035,7 +10067,7 @@
       "technicalIssue": null,
       "technicalIssueConfirmed": false,
       "nextReviewAt": "2026-11-28T13:57:27.014053+00:00",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReview": "2026-11-28"
     },
@@ -10119,7 +10151,7 @@
       "technicalIssue": null,
       "technicalIssueConfirmed": false,
       "nextReviewAt": "2026-11-29T14:20:53.301901+00:00",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "contentReview": {
         "reviewedAt": "2026-11-01T14:27:04.416235+00:00",
         "note": "Distinct owner-occupant possession/moving plan; continued normal discovery follow-up.",
@@ -10202,7 +10234,7 @@
       "technicalIssue": null,
       "technicalIssueConfirmed": false,
       "nextReviewAt": "2026-12-01T14:49:51.003657+00:00",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReview": "2026-12-01"
     },
@@ -10281,7 +10313,7 @@
       "lastAttemptAt": "2026-11-04T14:30:03.678973+00:00",
       "nextReviewAt": "2026-12-02T14:30:03.678973+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "nextReview": "2026-12-02"
     },
     {
@@ -10357,7 +10389,7 @@
       "nextReviewAt": "2026-12-04T14:40:39.257021+00:00",
       "recordPath": "automation/blog-publisher/records/selling-houston-house-easement.json",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReview": "2026-12-04"
     },
@@ -10433,7 +10465,7 @@
       "firstSuccessfulInspection": "2026-11-04T14:37:03.446873+00:00",
       "nextReviewAt": "2026-12-05T14:42:42.693331+00:00",
       "nextReview": "2026-12-05",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "technicalIssueConfirmed": false,
       "firstIndexedObservedAt": "2026-11-07T14:42:42.693331+00:00"
@@ -10510,7 +10542,7 @@
       "firstSuccessfulInspection": "2026-11-04T14:37:03.401219+00:00",
       "nextReviewAt": "2026-12-05T14:42:42.694199+00:00",
       "nextReview": "2026-12-05",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "technicalIssueConfirmed": false,
       "firstIndexedObservedAt": "2026-11-07T14:42:42.694199+00:00"
@@ -10587,7 +10619,7 @@
       "firstSuccessfulInspection": "2026-11-04T14:37:03.570572+00:00",
       "nextReviewAt": "2026-12-05T14:42:42.757188+00:00",
       "nextReview": "2026-12-05",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "technicalIssueConfirmed": false,
       "firstIndexedObservedAt": "2026-11-07T14:42:42.757188+00:00"
@@ -10653,7 +10685,7 @@
       "firstSuccessfulInspection": "2026-11-06T14:47:33.163986+00:00",
       "nextReviewAt": "2026-11-09T14:47:33.163986+00:00",
       "nextReview": "2026-11-09",
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "searchConsoleMonitoring": {
         "source": "Google URL Inspection API via existing approved GSC Wizard",
@@ -10746,7 +10778,7 @@
       "lastSuccessfulInspection": "2026-11-07T14:50:03.378868+00:00",
       "firstSuccessfulInspection": "2026-11-07T14:50:03.378868+00:00",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReviewAt": "2026-11-10T14:48:14.532000+00:00",
       "nextReview": "2026-11-10",
@@ -10809,7 +10841,7 @@
       "lastSuccessfulInspection": "2026-11-07T14:50:03.440879+00:00",
       "firstSuccessfulInspection": "2026-11-07T14:50:03.440879+00:00",
       "excluded": false,
-      "inventoryVerifiedAt": "2026-11-07T14:50:04.980457+00:00",
+      "inventoryVerifiedAt": "2026-11-08T14:10:33.771059+00:00",
       "eligibleInventorySource": "Exact-ready production sitemap; withdrawn/test/draft excluded",
       "nextReviewAt": "2026-11-10T14:48:14.532000+00:00",
       "nextReview": "2026-11-10",
@@ -11018,7 +11050,7 @@
     "monthly": {
       "2026-10": {
         "status": "partial_retry_maturity_verification",
-        "lastAttemptAt": "2026-11-07T14:50:04.980457+00:00",
+        "lastAttemptAt": "2026-11-08T14:11:05.030391+00:00",
         "record": "automation/blog-publisher/runs/2026-10-monthly.json",
         "retryInNextExistingRun": true,
         "lastRead": {
@@ -11026,12 +11058,12 @@
           "activeUsers": 7,
           "keyEvents": 0,
           "comparisonHasData": false,
-          "note": "Fresh November4 read; September filtered baseline unavailable. October31 remains within documented late-arrival and key-event attribution revision windows."
+          "note": "Fresh November8 GA4 read; September filtered baseline unavailable. Raw events do not establish sellers."
         },
         "maturityEvidence": "automation/blog-publisher/runs/2026-10-monthly.json",
-        "nextMaturityReassessment": "2026-11-08",
+        "nextMaturityReassessment": "2026-11-13",
         "finalAttributionReassessmentNoEarlierThan": "2026-11-13",
-        "deferredReason": "Previously verified GA4 late-arrival/attribution windows retained. Next existing-run maturity reviewNov8 and attributionNov13. No fresh GA4 read or completed monthly report claimed."
+        "deferredReason": "Traffic late-arrival reassessedNov8; full attribution reviewNov13 under freshly verified official12-day guidance. Not marked complete."
       }
     }
   },
@@ -11056,24 +11088,23 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-11-04",
-  "inspectionCallsUsed": 5,
+  "settledThrough": "2026-11-06",
+  "inspectionCallsUsed": 0,
   "lastRunMonitoring": {
-    "runId": "native-daily-20261107T143457Z",
-    "inspections": 5,
-    "dueRechecks": 3,
-    "newPublicationInspections": 2,
-    "newlyIndexedDue": 3,
+    "runId": "native-daily-20261108T140725Z",
+    "inspections": 0,
+    "dueRechecks": 0,
+    "newPublicationInspections": 0,
     "weeklyDue": false,
     "monthlyStatus": "partial_retry_maturity_verification",
     "notificationSent": false,
-    "completedAt": "2026-11-07T14:50:04.980457+00:00",
-    "bookkeepingCommit": "281e5315ed353681cf53e957331c275146914c4a",
-    "bookkeepingDeployId": "6aef3ac587e1713c8c701d92",
+    "completedAt": "2026-11-08T14:11:05.030391+00:00",
+    "bookkeepingCommit": "625a490e5c89f6fb99ffca9c4c85015dc1841bbe",
+    "bookkeepingDeployId": "6af0831795fc5744fbc8c423",
     "bookkeepingDeployState": "ready"
   },
-  "now": "2026-11-07T14:50:04.980457+00:00",
-  "lastRunId": "native-daily-20261107T143457Z",
+  "now": "2026-11-08T14:11:05.030391+00:00",
+  "lastRunId": "native-daily-20261108T140725Z",
   "coverage": {
     "eligibleSitemapURLs": 215,
     "eligibleBlogArticles": 187,
@@ -11090,24 +11121,23 @@
     "observedAt": "2026-11-07T14:50:04.980457+00:00"
   },
   "lastRun": {
-    "runId": "native-daily-20261107T143457Z",
-    "inspections": 5,
-    "dueRechecks": 3,
-    "newPublicationInspections": 2,
-    "newlyIndexedDue": 3,
+    "runId": "native-daily-20261108T140725Z",
+    "inspections": 0,
+    "dueRechecks": 0,
+    "newPublicationInspections": 0,
     "weeklyDue": false,
     "monthlyStatus": "partial_retry_maturity_verification",
     "notificationSent": false,
-    "completedAt": "2026-11-07T14:50:04.980457+00:00",
-    "bookkeepingCommit": "281e5315ed353681cf53e957331c275146914c4a",
-    "bookkeepingDeployId": "6aef3ac587e1713c8c701d92",
+    "completedAt": "2026-11-08T14:11:05.030391+00:00",
+    "bookkeepingCommit": "625a490e5c89f6fb99ffca9c4c85015dc1841bbe",
+    "bookkeepingDeployId": "6af0831795fc5744fbc8c423",
     "bookkeepingDeployState": "ready"
   },
   "pendingInspectionQueue": [],
   "notificationSuppression": {
-    "reason": "Routine publication, three due URLs now indexed, normal new URL discovery and unchanged already delivered issues. No sustained ranking or verified organic seller change established.",
-    "at": "2026-11-07T14:50:04.980457+00:00",
-    "runId": "native-daily-20261107T143457Z"
+    "reason": "Three duplicate-intent candidates held before generation; no due URL inspections or new actionable issue. Monthly attribution still deferred; prior alerts unchanged.",
+    "at": "2026-11-08T14:11:05.030391+00:00",
+    "runId": "native-daily-20261108T140725Z"
   },
   "alertedKeys": [
     "https://www.cashasis.com/blog/|persistent_indexing_review",
