@@ -1316,8 +1316,12 @@
       "day": "2026-11-09",
       "runId": "native-daily-20261109T144912Z",
       "fence": 33,
-      "status": "reserved",
-      "headline": "LOW APPRAISAL|CHECK TERMS"
+      "status": "publishing",
+      "headline": "APPRAISAL|CAME IN LOW",
+      "pr": 45,
+      "previewCommit": "1197612574351f95fdf1ad5568326aaca37c7722",
+      "previewDeployId": "6af1de8b24f9cd5afac01544",
+      "releaseGate": "pass"
     }
   ],
   "externalApiSpendLimitUSD": 0,
