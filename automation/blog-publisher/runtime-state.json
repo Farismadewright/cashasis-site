@@ -3,7 +3,9 @@
     "runId": "native-daily-20261109T144912Z",
     "fence": 33,
     "issuedAt": "2026-11-09T14:49:12Z",
-    "expiresAt": "2026-11-09T16:49:12.000Z"
+    "expiresAt": "2026-11-09T14:59:51Z",
+    "releasedAt": "2026-11-09T14:59:51Z",
+    "released": true
   },
   "ledger": [
     {
@@ -1316,55 +1318,60 @@
       "day": "2026-11-09",
       "runId": "native-daily-20261109T144912Z",
       "fence": 33,
-      "status": "publishing",
+      "status": "published",
       "headline": "APPRAISAL|CAME IN LOW",
       "pr": 45,
       "previewCommit": "1197612574351f95fdf1ad5568326aaca37c7722",
       "previewDeployId": "6af1de8b24f9cd5afac01544",
-      "releaseGate": "pass"
+      "releaseGate": "pass",
+      "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+      "commit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
+      "deployId": "6af1df4a9681c34235b9269d",
+      "publishedAt": "2026-11-09T14:58:01.129Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261108T140725Z",
-    "fence": 32,
-    "day": "2026-11-08",
-    "status": "hold_overlap",
-    "published": 0,
-    "held": 3,
-    "articles": [],
-    "heldCandidates": [
+    "runId": "native-daily-20261109T144912Z",
+    "day": "2026-11-09",
+    "fence": 33,
+    "status": "published",
+    "published": 1,
+    "held": 2,
+    "articles": [
       {
-        "candidate": "Solar buyout before selling",
-        "existingSlug": "selling-houston-house-solar-panels-contract-checklist",
-        "reason": "Existing guide covers agreement types, written payoff/buyout and transfer requirements",
-        "generationPerformed": false
-      },
-      {
-        "candidate": "Existing survey after fence change",
-        "existingSlug": "existing-survey-when-selling-texas-house",
-        "reason": "Existing guide already covers fence-change example and survey-acceptance packet",
-        "generationPerformed": false
-      },
-      {
-        "candidate": "Utility stop date after closing",
-        "existingSlug": "when-to-transfer-utilities-selling-houston-house",
-        "reason": "Existing guide covers possession/provider timing and confirmations",
-        "generationPerformed": false
+        "slug": "low-lender-appraisal-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "intentKey": "houston-seller-low-lender-appraisal-financing-shortfall-contract-review",
+        "commit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
+        "deployId": "6af1df4a9681c34235b9269d",
+        "pr": 45,
+        "publishedAt": "2026-11-09T14:58:01.129Z"
       }
     ],
-    "monitoringInspections": 0,
-    "dueInspectionQueue": [],
-    "bookkeepingCommit": "625a490e5c89f6fb99ffca9c4c85015dc1841bbe",
-    "bookkeepingDeployId": "6af0831795fc5744fbc8c423",
-    "monitoringCommit": "ec7496b762e028d6c84b3166840e70957fa751c7",
-    "monthlyStatus": "partial_retry_maturity_verification",
-    "nextMonthlyReview": "2026-11-13",
+    "heldCandidates": [
+      {
+        "candidate": "Cash offer while a broker agreement remains active",
+        "existingSlug": "cash-offer-while-house-listed-houston",
+        "status": "hold",
+        "reason": "Existing guide already separates listing agreement, compensation, expiration/release and offer comparison."
+      },
+      {
+        "candidate": "Cash versus listing after seller repair costs",
+        "existingSlug": "cash-offer-vs-listing-house-houston",
+        "status": "hold",
+        "reason": "Existing comparison already covers same net-proceeds decision and repair, time and cost tradeoffs."
+      }
+    ],
+    "productionCommit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
+    "productionDeployId": "6af1df4a9681c34235b9269d",
+    "bookkeepingCommit": "5991a50a27e8399d7892062b591ee3643aa5f8cd",
+    "monitoringCommit": "896cdf02a7c97eb192c521d0e7571c6baa3b4daa",
+    "monitoringInspections": 2,
+    "weeklyReview": "2026-W46",
+    "completedAt": "2026-11-09T14:59:51Z",
     "externalPaidApiSpendUSD": 0,
-    "nativeIncrementalCost": null,
-    "finalLiveQA": "pass",
-    "notificationSent": false,
-    "completedAt": "2026-11-08T14:13:48Z"
+    "nativeIncrementalCost": null
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
