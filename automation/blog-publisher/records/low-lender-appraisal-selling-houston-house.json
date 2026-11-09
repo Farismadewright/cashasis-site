@@ -1,0 +1,258 @@
+{
+  "slug": "low-lender-appraisal-selling-houston-house",
+  "intentKey": "houston-seller-low-lender-appraisal-financing-shortfall-contract-review",
+  "day": "2026-11-09",
+  "runId": "native-daily-20261109T144912Z",
+  "fence": 33,
+  "status": "preview",
+  "headline": "APPRAISAL|CAME IN LOW",
+  "title": "Low Lender Appraisal on a Houston House? What Sellers Can Check",
+  "description": "If the buyer\u2019s lender appraisal is below your Houston house\u2019s contract price, separate the valuation gap from the financing change and compare your options.",
+  "pubDate": "2026-11-09 14:55:00+00:00",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "primaryKeyword": "low lender appraisal selling a Houston house",
+  "supportingKeywords": [
+    "appraisal below contract price Houston",
+    "buyer financing shortfall seller options",
+    "Texas lender appraisal addendum"
+  ],
+  "tags": [
+    "Houston",
+    "seller financing questions",
+    "appraisal"
+  ],
+  "image": "/images/low-lender-appraisal-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston brick house with Appraisal Came In Low headline and official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does a low appraisal automatically change my sale price?",
+      "a": "Do not assume the price changed because a report came back low. Compare the signed agreement, any applicable addenda and proposed written changes with the actual financing update."
+    },
+    {
+      "q": "Is the appraisal gap the same as the buyer's extra cash?",
+      "a": "No. The gap compares the agreed price with the appraiser's opinion of value. The buyer's additional cash depends on the lender's actual loan amount and the final written terms."
+    },
+    {
+      "q": "Can the buyer end the deal after a low appraisal?",
+      "a": "That depends on the actual contract, financing terms, notices and deadlines. Have the relevant transaction professionals review your signed documents; do not treat a low value alone as proof the deal ended."
+    },
+    {
+      "q": "Can I accept a different offer right away?",
+      "a": "First confirm the status of your current sale and listing agreement. Ask the appropriate professionals what you can do before committing to another buyer."
+    }
+  ],
+  "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+  "nearestOverlaps": [
+    "hcad-tax-value-vs-cash-offer-harris-county",
+    "cash-offer-vs-listing-house-houston",
+    "cash-offer-while-house-listed-houston"
+  ],
+  "substantiveDifference": "First seller decision guide for an actual below-contract lender appraisal, distinct from HCAD tax assessment, generic cash/listing economics, and broker agreement review. Separates valuation gap, actual change in loan and contract deadlines with original hypothetical math.",
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 40,
+    "method": "Bounded read-only anonymous screen; no recurring topic-specific demand asserted."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "actual": null,
+    "externalPaidApiSpendUSD": 0
+  },
+  "sources": [
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/my-appraisal-is-less-than-the-sale-price-what-does-that-mean-for-me-en-2007/",
+      "title": "CFPB low appraisal guidance",
+      "publicationDate": "2024-09-11",
+      "verifiedAt": "2026-11-09T14:52:55.535240+00:00",
+      "accessedAt": "2026-11-09",
+      "claim": "Appraisal is an opinion of value; a low result can prompt negotiation and cancellation depends on contract.",
+      "geography": "Federal or Texas guidance; Houston area seller education",
+      "period": "Current as accessed",
+      "unit": null,
+      "figure": null,
+      "methodology": "Official primary source reviewed; dollar example invented and labeled hypothetical"
+    },
+    {
+      "url": "https://www.trec.texas.gov/node/34",
+      "title": "Current TREC contract forms directory",
+      "publicationDate": null,
+      "verifiedAt": "2026-11-09T14:52:55.535240+00:00",
+      "accessedAt": "2026-11-09",
+      "claim": "Directory lists Form49-1 effective March1,2019.",
+      "geography": "Federal or Texas guidance; Houston area seller education",
+      "period": "Current as accessed",
+      "unit": null,
+      "figure": null,
+      "methodology": "Official primary source reviewed; dollar example invented and labeled hypothetical"
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/49-1.pdf",
+      "title": "TREC lender appraisal addendum 49-1",
+      "publicationDate": "2018-11-15",
+      "verifiedAt": "2026-11-09T14:52:55.535240+00:00",
+      "accessedAt": "2026-11-09",
+      "claim": "Form has different choices, requires relevant financing addendum and excludes FHA/VA. No universal terms or legal interpretation.",
+      "geography": "Federal or Texas guidance; Houston area seller education",
+      "period": "Current as accessed",
+      "unit": null,
+      "figure": null,
+      "methodology": "Official primary source reviewed; dollar example invented and labeled hypothetical"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/owning-a-home/close/schedule-a-home-inspection/",
+      "title": "CFPB home inspection guidance",
+      "publicationDate": null,
+      "verifiedAt": "2026-11-09T14:52:55.535240+00:00",
+      "accessedAt": "2026-11-09",
+      "claim": "Inspection and appraisal are different assessments.",
+      "geography": "Federal or Texas guidance; Houston area seller education",
+      "period": "Current as accessed",
+      "unit": null,
+      "figure": null,
+      "methodology": "Official primary source reviewed; dollar example invented and labeled hypothetical"
+    }
+  ],
+  "originality": {
+    "words": 740,
+    "matches": [
+      {
+        "slug": "termite-report-before-selling-houston-house",
+        "phrases": [
+          "in our cash versus listing comparison blog cash offer vs listing house",
+          "our cash versus listing comparison blog cash offer vs listing house houston"
+        ]
+      },
+      {
+        "slug": "texas-as-is-sale-seller-disclosure-checklist",
+        "phrases": [
+          "our cash versus listing comparison blog cash offer vs listing house houston"
+        ]
+      },
+      {
+        "slug": "earnest-money-option-fee-texas-cash-sale",
+        "phrases": [
+          "in our cash versus listing comparison blog cash offer vs listing house",
+          "our cash versus listing comparison blog cash offer vs listing house houston"
+        ]
+      }
+    ],
+    "review": "Manual semantic screening of competing pages, pending PRs and ledger; 12-word overlap screen."
+  },
+  "imageSha256": "6449ac6c9ea40ae00e1f59b20e2392d3aeaa17794e9490f461e8d7634505606a",
+  "imageProvenance": {
+    "provider": "native Work imagegen",
+    "prompt": "Original realistic illustrative editorial property photo, wide landscape suitable for 1200:630 crop. Modest Houston-area light brown brick single-story house with covered porch and driveway on RIGHT half. LEFT half dark shaded oak foliage and ample blank negative space for locked brand overlay. Soft morning daylight, believable ordinary property, well defined roof, neutral yard. No people, text, addresses, numbers, signs, logos, documents, graphics or watermarks. Not a listing and no implication of an actual valuation.",
+    "backgroundSha256": "4e7f8384320d7a16f85353be83676e1210808ff06495b70cf435e45865a073ea",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "headline": "APPRAISAL|CAME IN LOW",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "illustrative": true,
+    "logoAlphaVerified": true,
+    "visualReview": "Approved examples compared; full render, 390/1366 cards and article with FAQ/CTA reviewed. Legible headline and unboxed logo."
+  },
+  "social": {
+    "slug": "low-lender-appraisal-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "Low Lender Appraisal on a Houston House? What Sellers Can Check\n\nIf the buyer\u2019s lender appraisal is below your Houston house\u2019s contract price, separate the valuation gap from the financing change and compare your options.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "instagram": "Low Lender Appraisal on a Houston House? What Sellers Can Check\n\nIf the buyer\u2019s lender appraisal is below your Houston house\u2019s contract price, separate the valuation gap from the financing change and compare your options.\n\nRead the guide: https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Low Lender Appraisal on a Houston House? What Sellers Can Check\n\nIf the buyer\u2019s lender appraisal is below your Houston house\u2019s contract price, separate the valuation gap from the financing change and compare your options.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "googleBusinessProfile": "Low Lender Appraisal on a Houston House? What Sellers Can Check\n\nIf the buyer\u2019s lender appraisal is below your Houston house\u2019s contract price, separate the valuation gap from the financing change and compare your options.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "promotionalExcerpt": "If the buyer\u2019s lender appraisal is below your Houston house\u2019s contract price, separate the valuation gap from the financing change and compare your options.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png"
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 390,
+        "card": true
+      },
+      {
+        "width": 1366,
+        "card": true
+      }
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending"
+  }
+}
