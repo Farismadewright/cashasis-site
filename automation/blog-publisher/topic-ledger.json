@@ -970,5 +970,23 @@
     "deployId": "6aef3a07deb4da65d286d7c1",
     "pr": 44,
     "publishedAt": "2026-11-07T14:48:14.532Z"
+  },
+  {
+    "runId": "native-daily-20261109T144912Z",
+    "day": "2026-11-09",
+    "slug": "low-lender-appraisal-selling-houston-house",
+    "intentKey": "houston-seller-low-lender-appraisal-financing-shortfall-contract-review",
+    "status": "published",
+    "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "nearestOverlaps": [
+      "hcad-tax-value-vs-cash-offer-harris-county",
+      "cash-offer-vs-listing-house-houston",
+      "cash-offer-while-house-listed-houston"
+    ],
+    "substantiveDifference": "First seller decision guide for an actual below-contract lender appraisal, distinct from HCAD tax assessment, generic cash/listing economics, and broker agreement review. Separates valuation gap, actual change in loan and contract deadlines with original hypothetical math.",
+    "commit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
+    "deployId": "6af1df4a9681c34235b9269d",
+    "pr": 45,
+    "publishedAt": "2026-11-09T14:58:01.129Z"
   }
 ]

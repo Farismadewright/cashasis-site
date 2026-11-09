@@ -4,7 +4,7 @@
   "day": "2026-11-09",
   "runId": "native-daily-20261109T144912Z",
   "fence": 33,
-  "status": "preview",
+  "status": "published",
   "headline": "APPRAISAL|CAME IN LOW",
   "title": "Low Lender Appraisal on a Houston House? What Sellers Can Check",
   "description": "If the buyer\u2019s lender appraisal is below your Houston house\u2019s contract price, separate the valuation gap from the financing change and compare your options.",
@@ -253,6 +253,145 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
+    "preview": "pass"
+  },
+  "previewDeployId": "6af1de8b24f9cd5afac01544",
+  "previewCommit": "1197612574351f95fdf1ad5568326aaca37c7722",
+  "publishedAt": "2026-11-09T14:58:01.129Z",
+  "commit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
+  "deployId": "6af1df4a9681c34235b9269d",
+  "pr": 45,
+  "productionQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "noindex": false,
+    "robotsCrawlable": true,
+    "image": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "6449ac6c9ea40ae00e1f59b20e2392d3aeaa17794e9490f461e8d7634505606a",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/blog/hcad-tax-value-vs-cash-offer-harris-county/": 200,
+      "/blog/cash-offer-vs-listing-house-houston/": 200,
+      "/blog/cash-offer-while-house-listed-houston/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-09T14:58:23.283631+00:00"
+  },
+  "previewQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "noindex": true,
+    "robotsCrawlable": true,
+    "image": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "6449ac6c9ea40ae00e1f59b20e2392d3aeaa17794e9490f461e8d7634505606a",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/blog/cash-offer-vs-listing-house-houston/": 200,
+      "/blog/cash-offer-while-house-listed-houston/": 200,
+      "/blog/hcad-tax-value-vs-cash-offer-harris-county/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-09T14:56:41.021223+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-09",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-09T14:58:50.545551+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-apgxngQmyngDrn5Jjwgqw&utm_medium=link&utm_source=api"
+  },
+  "searchConsoleMonitoring": {
+    "observation": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-09T14:58:50.545551+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-apgxngQmyngDrn5Jjwgqw&utm_medium=link&utm_source=api"
+    },
+    "nextReviewAt": "2026-11-12T14:58:01.129000+00:00",
+    "articlePerformance": null
+  },
+  "GA4Measurement": {
+    "originalOrganicLandingSessions": null,
+    "validatedSellerLeads": null,
+    "note": "New article; no measured performance history."
+  },
+  "seoIndexingConversionQA": {
+    "indexability": {
+      "status": "pass",
+      "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+      "HTTP": 200,
+      "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+      "noindex": false,
+      "robotsCrawlable": true,
+      "image": "https://www.cashasis.com/images/low-lender-appraisal-selling-houston-house.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSHA256": "6449ac6c9ea40ae00e1f59b20e2392d3aeaa17794e9490f461e8d7634505606a",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "links": {
+        "/blog/hcad-tax-value-vs-cash-offer-harris-county/": 200,
+        "/blog/cash-offer-vs-listing-house-houston/": 200,
+        "/blog/cash-offer-while-house-listed-houston/": 200
+      },
+      "attributedCTA": true,
+      "sitemapRSS": true,
+      "HTMLCSSParity": true,
+      "checkedAt": "2026-11-09T14:58:23.283631+00:00"
+    },
+    "previewNoindex": true,
+    "uniqueIntent": "First seller decision guide for an actual below-contract lender appraisal, distinct from HCAD tax assessment, generic cash/listing economics, and broker agreement review. Separates valuation gap, actual change in loan and contract deadlines with original hypothetical math.",
+    "localGeography": "Houston/Harris/Fort Bend",
+    "sellerPath": "Existing attributed cash-offer CTA and three relevant contextual guides, no test lead."
   }
 }

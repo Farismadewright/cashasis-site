@@ -1,0 +1,116 @@
+{
+  "runId": "native-daily-20261109T144912Z",
+  "day": "2026-11-09",
+  "fence": 33,
+  "status": "published",
+  "published": 1,
+  "held": 2,
+  "articles": [
+    {
+      "slug": "low-lender-appraisal-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+      "intentKey": "houston-seller-low-lender-appraisal-financing-shortfall-contract-review",
+      "commit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
+      "deployId": "6af1df4a9681c34235b9269d",
+      "pr": 45,
+      "publishedAt": "2026-11-09T14:58:01.129Z"
+    }
+  ],
+  "heldCandidates": [
+    {
+      "candidate": "Cash offer while a broker agreement remains active",
+      "existingSlug": "cash-offer-while-house-listed-houston",
+      "status": "hold",
+      "reason": "Existing guide already separates listing agreement, compensation, expiration/release and offer comparison."
+    },
+    {
+      "candidate": "Cash versus listing after seller repair costs",
+      "existingSlug": "cash-offer-vs-listing-house-houston",
+      "status": "hold",
+      "reason": "Existing comparison already covers same net-proceeds decision and repair, time and cost tradeoffs."
+    }
+  ],
+  "mainAtStart": "625a490e5c89f6fb99ffca9c4c85015dc1841bbe",
+  "productionAtStart": {
+    "id": "6af0831795fc5744fbc8c423",
+    "commit": "625a490e5c89f6fb99ffca9c4c85015dc1841bbe",
+    "state": "ready"
+  },
+  "pendingPRsPreserved": [
+    5,
+    6,
+    7,
+    27
+  ],
+  "sellerVoice": {
+    "sample": 100,
+    "inbound": 40,
+    "method": "Bounded read-only anonymous screen; no recurring topic-specific demand asserted."
+  },
+  "monitoring": {
+    "actualInspectionCalls": 2,
+    "dueInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-09T14:54:17.319585+00:00",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+      "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+      "lastCrawlTime": "2026-11-07T21:42:54+00:00",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=nLNY3eeffIdvwhnQfzqzaQ&utm_medium=link&utm_source=api"
+    },
+    "dueQA": {
+      "status": "pass",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+      "HTTP": 200,
+      "canonical": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+      "noindex": false,
+      "robotsCrawlable": true,
+      "image": "https://www.cashasis.com/images/selling-houston-house-sba-disaster-loan-lien.png",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "imageSHA256": "210b8bb4454ee6187ecd69d4f1f9489bcfec5ac8da107d72593b467f2a754bbe",
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 4,
+      "links": {
+        "/blog/paid-off-mortgage-lien-release-houston/": 200,
+        "/blog/sell-house-title-problems-houston/": 200,
+        "/compare-the-net/": 200
+      },
+      "attributedCTA": true,
+      "sitemapRSS": true,
+      "HTMLCSSParity": false,
+      "checkedAt": "2026-11-09T14:53:10.801014+00:00"
+    },
+    "coverage": {
+      "eligibleSitemapURLs": 216,
+      "eligibleBlogArticles": 188,
+      "retainedActualInspectionCoverage": 216,
+      "indexedTotal": 202,
+      "indexedBlogArticles": 178,
+      "notPASS": 14,
+      "notPASSBlogArticles": 10,
+      "latestObservationRange": [
+        "2026-10-14T14:58:57.653973+00:00",
+        "2026-11-09T14:58:50.545551+00:00"
+      ],
+      "basis": "Latest retained actual Google inspections, mixed observation dates; not a fresh census",
+      "observedAt": "2026-11-09T14:58:52.199722+00:00"
+    },
+    "queue": []
+  },
+  "weeklyReport": "automation/blog-publisher/runs/2026-W46-weekly.json",
+  "monthlyStatus": "partial; next attribution review 2026-11-13",
+  "protectedSourceChanges": false,
+  "externalPaidApiSpendUSD": 0,
+  "completedAt": "2026-11-09T14:58:52.199722+00:00"
+}
