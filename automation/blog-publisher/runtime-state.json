@@ -1309,6 +1309,15 @@
       "commit": "78b974298e798d3973aa77efb6e06ef94c8e8d15",
       "deployId": "6aef3a07deb4da65d286d7c1",
       "publishedAt": "2026-11-07T14:48:14.532Z"
+    },
+    {
+      "slug": "low-lender-appraisal-selling-houston-house",
+      "intentKey": "houston-seller-low-lender-appraisal-financing-shortfall-contract-review",
+      "day": "2026-11-09",
+      "runId": "native-daily-20261109T144912Z",
+      "fence": 33,
+      "status": "reserved",
+      "headline": "LOW APPRAISAL|CHECK TERMS"
     }
   ],
   "externalApiSpendLimitUSD": 0,
