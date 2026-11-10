@@ -3,7 +3,9 @@
     "runId": "native-daily-20261110T144816Z",
     "fence": 34,
     "issuedAt": "2026-11-10T14:48:16Z",
-    "expiresAt": "2026-11-10T16:48:16.000Z"
+    "expiresAt": "2026-11-10T15:00:05.415Z",
+    "released": true,
+    "releasedAt": "2026-11-10T15:00:05.415Z"
   },
   "ledger": [
     {
@@ -1333,54 +1335,58 @@
       "runId": "native-daily-20261110T144816Z",
       "fence": 34,
       "day": "2026-11-10",
-      "status": "publishing",
+      "status": "published",
       "headline": "FIRPTA|CHECK EARLY",
       "publishingAt": "2026-11-10T14:57:36.027Z",
       "pr": 46,
       "previewCommit": "95a78fea12f1bb93c50500f8a195e8b14229eb5b",
-      "previewDeployId": "6af3304d9a7ee7a26a769af0"
+      "previewDeployId": "6af3304d9a7ee7a26a769af0",
+      "commit": "18e965eaebc9c24e2e9ed5c654298e3b8ecbaa38",
+      "deployId": "6af330e4dd9ae9b327f60c10",
+      "publishedAt": "2026-11-10T14:58:23.620Z",
+      "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+      "releaseGate": "pass"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261109T144912Z",
-    "day": "2026-11-09",
-    "fence": 33,
+    "runId": "native-daily-20261110T144816Z",
+    "day": "2026-11-10",
+    "fence": 34,
     "status": "published",
     "published": 1,
     "held": 2,
     "articles": [
       {
-        "slug": "low-lender-appraisal-selling-houston-house",
-        "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
-        "intentKey": "houston-seller-low-lender-appraisal-financing-shortfall-contract-review",
-        "commit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
-        "deployId": "6af1df4a9681c34235b9269d",
-        "pr": 45,
-        "publishedAt": "2026-11-09T14:58:01.129Z"
+        "slug": "firpta-withholding-selling-houston-house",
+        "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+        "intentKey": "houston-seller-firpta-withholding-closing-net-verify-status",
+        "commit": "18e965eaebc9c24e2e9ed5c654298e3b8ecbaa38",
+        "deployId": "6af330e4dd9ae9b327f60c10",
+        "pr": 46,
+        "publishedAt": "2026-11-10T14:58:23.620Z"
       }
     ],
     "heldCandidates": [
       {
-        "candidate": "Cash offer while a broker agreement remains active",
-        "existingSlug": "cash-offer-while-house-listed-houston",
-        "status": "hold",
-        "reason": "Existing guide already separates listing agreement, compensation, expiration/release and offer comparison."
+        "candidate": "County tax proration at closing",
+        "existingSlug": "property-tax-proration-selling-houston-house",
+        "reason": "Existing guide already covers bill, estimate, proration and cash-sale tradeoffs.",
+        "status": "hold"
       },
       {
-        "candidate": "Cash versus listing after seller repair costs",
-        "existingSlug": "cash-offer-vs-listing-house-houston",
-        "status": "hold",
-        "reason": "Existing comparison already covers same net-proceeds decision and repair, time and cost tradeoffs."
+        "candidate": "Signing a sale from another state",
+        "existingSlug": "selling-houston-house-from-out-of-state-signing",
+        "reason": "Existing guide already covers signing, return, funding and key handoff.",
+        "status": "hold"
       }
     ],
-    "productionCommit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
-    "productionDeployId": "6af1df4a9681c34235b9269d",
-    "bookkeepingCommit": "5991a50a27e8399d7892062b591ee3643aa5f8cd",
-    "monitoringCommit": "896cdf02a7c97eb192c521d0e7571c6baa3b4daa",
-    "monitoringInspections": 2,
-    "weeklyReview": "2026-W46",
-    "completedAt": "2026-11-09T14:59:51Z",
+    "productionCommit": "18e965eaebc9c24e2e9ed5c654298e3b8ecbaa38",
+    "productionDeployId": "6af330e4dd9ae9b327f60c10",
+    "bookkeepingCommit": "c13e11e8329e65cc539d406cf4a9e2d952496416",
+    "monitoringCommit": "0c3e583339faa9460d735b1dc90a55d40eddf139",
+    "monitoringInspections": 3,
+    "completedAt": "2026-11-10T15:00:05.415Z",
     "externalPaidApiSpendUSD": 0,
     "nativeIncrementalCost": null
   },
