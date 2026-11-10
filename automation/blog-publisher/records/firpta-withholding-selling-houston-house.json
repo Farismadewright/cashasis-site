@@ -1,0 +1,224 @@
+{
+  "slug": "firpta-withholding-selling-houston-house",
+  "intentKey": "houston-seller-firpta-withholding-closing-net-verify-status",
+  "runId": "native-daily-20261110T144816Z",
+  "fence": 34,
+  "day": "2026-11-10",
+  "status": "preview",
+  "headline": "FIRPTA|CHECK EARLY",
+  "title": "FIRPTA Withholding When Selling a Houston House: Check Early",
+  "description": "Selling a Houston house and asked about FIRPTA? Check seller status and the estimated withholding with your closing team before comparing net proceeds.",
+  "pubDate": "2026-11-10 14:55:00+00:00",
+  "author": "CashAsIs",
+  "category": "Seller Guide",
+  "readTime": "4 min read",
+  "primaryKeyword": "FIRPTA withholding selling a Houston house",
+  "supportingKeywords": [
+    "foreign seller withholding at closing",
+    "FIRPTA seller net proceeds",
+    "FIRPTA cash sale Houston"
+  ],
+  "tags": [
+    "Houston",
+    "closing paperwork",
+    "FIRPTA"
+  ],
+  "image": "/images/firpta-withholding-selling-houston-house.png",
+  "imageAlt": "Illustrative Houston brick house with FIRPTA Check Early headline and official Cash As-Is logo",
+  "faq": [
+    {
+      "q": "Does signing from another country mean FIRPTA applies?",
+      "a": "Signing location does not settle your federal tax status. Have a qualified tax professional and the closing team verify how the rules apply to the actual owner or owners."
+    },
+    {
+      "q": "Is FIRPTA withholding my final tax bill?",
+      "a": "No. Withholding is money collected in advance. Your tax professional can explain how the sale and any withholding credit are handled on the applicable return."
+    },
+    {
+      "q": "Does an all-cash sale avoid FIRPTA?",
+      "a": "Do not assume so. The rules are about the transfer and the applicable parties and exceptions, rather than whether the buyer uses a mortgage."
+    },
+    {
+      "q": "What if my tax professional thinks a reduced amount applies?",
+      "a": "Ask how the closing team will document the applicable treatment and what remains unresolved. An application or a proposed estimate is not the same as an approved withholding certificate."
+    }
+  ],
+  "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+  "nearestOverlaps": [
+    "form-1099-s-after-selling-houston-house",
+    "property-tax-proration-selling-houston-house",
+    "selling-houston-house-from-out-of-state-signing"
+  ],
+  "substantiveDifference": "FIRPTA closing withholding, seller tax-status verification and net-sheet treatment are distinct from 1099-S reporting, county tax proration and signing logistics. Original hypothetical separates amount realized, withholding, closing cash and final tax.",
+  "sellerVoice": {
+    "sample": 100,
+    "screenedInbound": 21,
+    "method": "Bounded read-only anonymous screen; no topic-specific recurring demand asserted."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "actual": null,
+    "externalPaidApiSpendUSD": 0
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+      "title": "IRS FIRPTA withholding",
+      "publicationDate": null,
+      "verifiedAt": "2026-11-10T14:52:14.445887+00:00",
+      "accessedAt": "2026-11-10",
+      "claim": "Buyer generally withholds on covered transfers by foreign persons; amount realized differs from cash after payoff; application for withholding certificate can reduce or eliminate withholding.",
+      "geography": "U.S. federal tax; seller context Houston/Harris/Fort Bend",
+      "period": "Current as accessed",
+      "unit": "percent of amount realized",
+      "figure": "15% general rate, where applicable",
+      "methodology": "Official IRS guidance and instructions; hypothetical $200000\u00d715%=$30000 and $100000\u2212$30000=$70000 checked; not a tax estimate."
+    },
+    {
+      "url": "https://www.irs.gov/individuals/international-taxpayers/exceptions-from-firpta-withholding",
+      "title": "IRS FIRPTA withholding exceptions",
+      "publicationDate": null,
+      "verifiedAt": "2026-11-10T14:52:14.445887+00:00",
+      "accessedAt": "2026-11-10",
+      "claim": "Nonforeign certification and buyer residence exceptions have specific conditions; not automatic.",
+      "geography": "U.S. federal tax; seller context Houston/Harris/Fort Bend",
+      "period": "Current as accessed",
+      "unit": null,
+      "figure": null,
+      "methodology": "Official IRS guidance and instructions; hypothetical $200000\u00d715%=$30000 and $100000\u2212$30000=$70000 checked; not a tax estimate."
+    },
+    {
+      "url": "https://www.irs.gov/instructions/i8288",
+      "title": "IRS Instructions for Form 8288, January 2026 revision",
+      "publicationDate": "2026-01",
+      "verifiedAt": "2026-11-10T14:52:14.445887+00:00",
+      "accessedAt": "2026-11-10",
+      "claim": "Amount realized may include noncash property and qualifying liabilities; withheld amount generally credited through tax filing.",
+      "geography": "U.S. federal tax; seller context Houston/Harris/Fort Bend",
+      "period": "Current as accessed",
+      "unit": null,
+      "figure": null,
+      "methodology": "Official IRS guidance and instructions; hypothetical $200000\u00d715%=$30000 and $100000\u2212$30000=$70000 checked; not a tax estimate."
+    }
+  ],
+  "originality": {
+    "words": 672,
+    "matches": [],
+    "review": "Semantic review of competing pages, ledger and pending scope; twelve-word shingle comparison."
+  },
+  "imageSha256": "f6bbc21a8f7f1d80fc8999f915f0edaf1c4da7a66cb4aa16777ae1822db5f3a8",
+  "imageProvenance": {
+    "provider": "native Work imagegen",
+    "prompt": "Photorealistic editorial illustration, wide 1200:630 crop composition. Ordinary Houston-area single-story pale tan brick house with understated dark teal front door, porch and driveway entirely in right half, large oak canopy casting shade and empty dark foliage in left half, clear afternoon natural light, slightly older well-used house and ordinary lawn. No text, numbers, signs, addresses, documents, people, flags, logos or watermarks. Illustrative property only, not a real listing. Leave clean dark negative space at left for later official brand overlay.",
+    "backgroundSha256": "2ed5fd0cbe4408108376f003d3d837459b2ca979b5f58a3f9a22cc47291d0977",
+    "templateHashes": {
+      "scripts/render_thumbnail.mjs": "b3893abea71478d9e1ad62ec7e869da5f5686acf64d48da59b05c8bf698cd376",
+      "assets/official-logo-white.png": "c97dd5e5aa8d70f9bf93241b515a44db01665a93ffa988238fdfec0d4979ec28",
+      "assets/official-logo-navy.png": "bf3b7938e2bfaa2bee999c2ef18058d5c423b34d9af045bf3afd8ad924c477fb",
+      "assets/headline-bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    "headline": "FIRPTA|CHECK EARLY",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "illustrative": true,
+    "logoAlphaVerified": true,
+    "visualReview": "Reviewed locked hero and desktop and mobile blog cards: clear text and logo, intact spacing, no logo block, no cropping of the headline."
+  },
+  "social": {
+    "slug": "firpta-withholding-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/firpta-withholding-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "FIRPTA Withholding When Selling a Houston House: Check Early\n\nSelling a Houston house and asked about FIRPTA? Check seller status and the estimated withholding with your closing team before comparing net proceeds.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "instagram": "FIRPTA Withholding When Selling a Houston House: Check Early\n\nSelling a Houston house and asked about FIRPTA? Check seller status and the estimated withholding with your closing team before comparing net proceeds.\n\nRead the guide: https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "FIRPTA Withholding When Selling a Houston House: Check Early\n\nSelling a Houston house and asked about FIRPTA? Check seller status and the estimated withholding with your closing team before comparing net proceeds.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "googleBusinessProfile": "FIRPTA Withholding When Selling a Houston House: Check Early\n\nSelling a Houston house and asked about FIRPTA? Check seller status and the estimated withholding with your closing team before comparing net proceeds.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "promotionalExcerpt": "Selling a Houston house and asked about FIRPTA? Check seller status and the estimated withholding with your closing team before comparing net proceeds.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "body": 274,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 274,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/firpta-withholding-selling-houston-house.png"
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "body": 304,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 304,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/firpta-withholding-selling-houston-house.png"
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/firpta-withholding-selling-houston-house.png"
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "body": 638,
+        "table": 0,
+        "tableScrollSafe": true,
+        "image": 638,
+        "imageLoaded": 1200,
+        "h1s": 1,
+        "canonical": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/firpta-withholding-selling-houston-house.png"
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 390,
+        "card": true
+      },
+      {
+        "width": 1366,
+        "card": true
+      }
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending"
+  }
+}
