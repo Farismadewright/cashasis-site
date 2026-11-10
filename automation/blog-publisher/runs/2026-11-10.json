@@ -1,0 +1,224 @@
+{
+  "runId": "native-daily-20261110T144816Z",
+  "day": "2026-11-10",
+  "fence": 34,
+  "status": "published",
+  "published": 1,
+  "held": 2,
+  "articles": [
+    {
+      "slug": "firpta-withholding-selling-houston-house",
+      "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+      "intentKey": "houston-seller-firpta-withholding-closing-net-verify-status",
+      "commit": "18e965eaebc9c24e2e9ed5c654298e3b8ecbaa38",
+      "deployId": "6af330e4dd9ae9b327f60c10",
+      "pr": 46,
+      "publishedAt": "2026-11-10T14:58:23.620Z"
+    }
+  ],
+  "heldCandidates": [
+    {
+      "candidate": "County tax proration at closing",
+      "existingSlug": "property-tax-proration-selling-houston-house",
+      "reason": "Existing guide already covers bill, estimate, proration and cash-sale tradeoffs.",
+      "status": "hold"
+    },
+    {
+      "candidate": "Signing a sale from another state",
+      "existingSlug": "selling-houston-house-from-out-of-state-signing",
+      "reason": "Existing guide already covers signing, return, funding and key handoff.",
+      "status": "hold"
+    }
+  ],
+  "mainAtStart": "5991a50a27e8399d7892062b591ee3643aa5f8cd",
+  "productionAtStart": {
+    "id": "6af1dfcdbb726cf5b23f91ef",
+    "state": "ready",
+    "commit": "5991a50a27e8399d7892062b591ee3643aa5f8cd"
+  },
+  "pendingPRsPreserved": [
+    5,
+    6,
+    7,
+    27
+  ],
+  "sellerVoice": {
+    "sample": 100,
+    "screenedInbound": 21,
+    "method": "Bounded read-only anonymous screen; no topic-specific recurring demand asserted."
+  },
+  "monitoring": {
+    "actualInspectionCalls": 3,
+    "dueInspections": [
+      {
+        "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-10T14:51:02.504867+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+          "userCanonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+          "lastCrawlTime": "2026-11-09T18:17:06+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_TWxNTK5UwGyEdj21SedXQ&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "status": "pass",
+          "url": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "image": "https://www.cashasis.com/images/home-warranty-plan-selling-houston-house.png",
+          "imageDimensions": [
+            1200,
+            630
+          ],
+          "imageSHA256": "4aa86ec530b9a7832b419dec50ffd2b5dc467428a6a98e1541d79059a8291480",
+          "schemaTypes": [
+            "BlogPosting",
+            "BreadcrumbList",
+            "FAQPage"
+          ],
+          "faqCount": 4,
+          "links": {
+            "/blog/selling-houston-house-open-insurance-claim/": 200,
+            "/blog/replace-air-conditioner-before-selling-houston-house/": 200,
+            "/compare-the-net/": 200
+          },
+          "attributedCTA": true,
+          "sitemapRSS": true,
+          "HTMLCSSParity": false,
+          "checkedAt": "2026-11-10T14:50:14.693121+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-10T14:51:02.416235+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+          "userCanonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+          "lastCrawlTime": "2026-11-09T18:21:02+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2qd1pastGYKXh-be8kKI0g&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "status": "pass",
+          "url": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/camera-doorbell-account-handoff-selling-houston-house/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "image": "https://www.cashasis.com/images/camera-doorbell-account-handoff-selling-houston-house.png",
+          "imageDimensions": [
+            1200,
+            630
+          ],
+          "imageSHA256": "21b8581e970dc51d667fa77bf6a1ec3bafe95cfbb0776177cd85c4961cd46b81",
+          "schemaTypes": [
+            "BlogPosting",
+            "BreadcrumbList",
+            "FAQPage"
+          ],
+          "faqCount": 4,
+          "links": {
+            "/blog/when-to-transfer-utilities-selling-houston-house/": 200,
+            "/blog/need-time-move-after-selling-houston-house/": 200,
+            "/blog/how-cash-offer-house-works-houston/": 200
+          },
+          "attributedCTA": true,
+          "sitemapRSS": true,
+          "HTMLCSSParity": false,
+          "checkedAt": "2026-11-10T14:50:14.690902+00:00"
+        }
+      }
+    ],
+    "publicationInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-10T14:59:11.42291+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yVyci9v13SndB34rDlz1qg&utm_medium=link&utm_source=api"
+    },
+    "coverage": {
+      "eligibleSitemapURLs": 217,
+      "eligibleBlogArticles": 189,
+      "retainedActualInspectionCoverage": 217,
+      "indexedTotal": 204,
+      "indexedBlogArticles": 180,
+      "notPASS": 13,
+      "notPASSBlogArticles": 9,
+      "unavailable": 0,
+      "unavailableBlogArticles": 0,
+      "latestObservationRange": [
+        "2026-10-14T14:58:57.653973+00:00",
+        "2026-11-10T14:59:11.42291+00:00"
+      ],
+      "basis": "Latest retained actual Google inspections, mixed observation dates; not a fresh census",
+      "observedAt": "2026-11-10T14:59:13.429716+00:00"
+    },
+    "queue": [],
+    "deferredInspections": 0
+  },
+  "weeklyReport": "2026-W46 delivered November 9",
+  "monthlyStatus": "October partial; GA4 attribution reassessment November 13, filtered September baseline unavailable",
+  "searchConsole": {
+    "startDate": "2026-10-11",
+    "endDate": "2026-11-07",
+    "settledThrough": "2026-11-08",
+    "siteTotals": {
+      "clicks": 2,
+      "impressions": 1212,
+      "ctrPercent": 0.17,
+      "avgPositionWeighted": 37.04
+    },
+    "rowCoverage": {
+      "rowsReturned": 238,
+      "rowsTotal": 238,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7426,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2574,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 2,
+        "impressions": 1212,
+        "ctrPercent": 0.17,
+        "avgPositionWeighted": 37.04
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "opportunity": {
+      "page": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+      "query": "sell my house fast missouri city tx",
+      "impressions": 41,
+      "clicks": 0,
+      "position": 13.85,
+      "window": [
+        "2026-10-11",
+        "2026-11-07"
+      ],
+      "action": "Review title and first-answer alignment with relevant seller queries and pending PR27 before adding city variants; existing county/neighborhood, comparisons, FAQ and CTA are in place. No live changes authorized."
+    },
+    "verifiedOrganicSellers": "unavailable",
+    "fundedRetainedGP": "unavailable"
+  },
+  "protectedSourceChanges": [],
+  "externalPaidApiSpendUSD": 0,
+  "completedAt": "2026-11-10T14:59:13.429716+00:00"
+}

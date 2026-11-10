@@ -4,7 +4,7 @@
   "runId": "native-daily-20261110T144816Z",
   "fence": 34,
   "day": "2026-11-10",
-  "status": "preview",
+  "status": "published",
   "headline": "FIRPTA|CHECK EARLY",
   "title": "FIRPTA Withholding When Selling a Houston House: Check Early",
   "description": "Selling a Houston house and asked about FIRPTA? Check seller status and the estimated withholding with your closing team before comparing net proceeds.",
@@ -219,6 +219,106 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending"
-  }
+    "preview": "pass"
+  },
+  "previewQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "noindex": true,
+    "robotsCrawlable": true,
+    "image": "https://www.cashasis.com/images/firpta-withholding-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "f6bbc21a8f7f1d80fc8999f915f0edaf1c4da7a66cb4aa16777ae1822db5f3a8",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/compare-the-net/": 200,
+      "/blog/form-1099-s-after-selling-houston-house/": 200,
+      "/blog/selling-houston-house-from-out-of-state-signing/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-10T14:56:57.382146+00:00",
+    "commit": "95a78fea12f1bb93c50500f8a195e8b14229eb5b",
+    "deployId": "6af3304d9a7ee7a26a769af0"
+  },
+  "publishedAt": "2026-11-10T14:58:23.620Z",
+  "commit": "18e965eaebc9c24e2e9ed5c654298e3b8ecbaa38",
+  "deployId": "6af330e4dd9ae9b327f60c10",
+  "pr": 46,
+  "previewCommit": "95a78fea12f1bb93c50500f8a195e8b14229eb5b",
+  "previewDeployId": "6af3304d9a7ee7a26a769af0",
+  "productionQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "noindex": false,
+    "robotsCrawlable": true,
+    "image": "https://www.cashasis.com/images/firpta-withholding-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "f6bbc21a8f7f1d80fc8999f915f0edaf1c4da7a66cb4aa16777ae1822db5f3a8",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/compare-the-net/": 200,
+      "/blog/selling-houston-house-from-out-of-state-signing/": 200,
+      "/blog/form-1099-s-after-selling-houston-house/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-10T14:58:49.043430+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-10",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-10T14:59:11.42291+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yVyci9v13SndB34rDlz1qg&utm_medium=link&utm_source=api"
+  },
+  "nextReviewAt": "2026-11-13T14:58:23.620000+00:00",
+  "seoIndexingConversionQA": {
+    "previewNoindex": true,
+    "productionIndexable": true,
+    "sellerDecision": "houston-seller-firpta-withholding-closing-net-verify-status",
+    "distinctIntent": true,
+    "sourceEvidence": true,
+    "links": {
+      "/compare-the-net/": 200,
+      "/blog/selling-houston-house-from-out-of-state-signing/": 200,
+      "/blog/form-1099-s-after-selling-houston-house/": 200
+    },
+    "attributedCTA": true,
+    "googleIndexingGuarantee": false
+  },
+  "GA4Measurement": "No new deduplicated organic seller outcome verified."
 }

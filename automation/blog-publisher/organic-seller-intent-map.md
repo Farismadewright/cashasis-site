@@ -217,3 +217,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 ## November 9 seller intent and acquisition review
 - low-lender-appraisal-selling-houston-house → houston-seller-low-lender-appraisal-financing-shortfall-contract-review. First seller decision guide for an actual below-contract lender appraisal, distinct from HCAD tax assessment, generic cash/listing economics, and broker agreement review. Separates valuation gap, actual change in loan and contract deadlines with original hypothetical math.
 - Settled Nov1–7 blog347impressions/0clicks/position32.67 vs322/0/39.92. Missouri City relevant 28-day fast-sale exact query41impressions/position13.85/0clicks; prioritize existing-page snippet review before more city variants. Acquisition and COO evidence: runs/2026-W46-weekly.json. GA4 low-volume/provisional; no validated seller outcome inferred.
+
+
+## November 10 seller intent and acquisition review
+- `firpta-withholding-selling-houston-house` → `houston-seller-firpta-withholding-closing-net-verify-status`. First pre-closing federal withholding and seller net decision; distinct from Form 1099-S reporting, remote signing, and county tax proration.
+- Settled Oct11–Nov7 GSC property: 1,212 impressions, 2 clicks, 0.17% CTR, average position 37.04; query/page rows cover 74.26% of impressions and hide all clicks. Relevant Missouri City fast-sale query: 41 impressions, position 13.85, 0 clicks. Review existing snippet and first answer with comparable periods before adding city content. Lead Acquisition Engine/COO evidence: runs/2026-11-10.json. No verified organic seller outcome or funded GP inferred.

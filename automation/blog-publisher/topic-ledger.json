@@ -988,5 +988,23 @@
     "deployId": "6af1df4a9681c34235b9269d",
     "pr": 45,
     "publishedAt": "2026-11-09T14:58:01.129Z"
+  },
+  {
+    "slug": "firpta-withholding-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+    "intentKey": "houston-seller-firpta-withholding-closing-net-verify-status",
+    "commit": "18e965eaebc9c24e2e9ed5c654298e3b8ecbaa38",
+    "deployId": "6af330e4dd9ae9b327f60c10",
+    "pr": 46,
+    "publishedAt": "2026-11-10T14:58:23.620Z",
+    "runId": "native-daily-20261110T144816Z",
+    "day": "2026-11-10",
+    "status": "published",
+    "nearestOverlaps": [
+      "form-1099-s-after-selling-houston-house",
+      "property-tax-proration-selling-houston-house",
+      "selling-houston-house-from-out-of-state-signing"
+    ],
+    "substantiveDifference": "FIRPTA closing withholding, seller tax-status verification and net-sheet treatment are distinct from 1099-S reporting, county tax proration and signing logistics. Original hypothetical separates amount realized, withholding, closing cash and final tax."
   }
 ]
