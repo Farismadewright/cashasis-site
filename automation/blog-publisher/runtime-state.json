@@ -1333,8 +1333,12 @@
       "runId": "native-daily-20261110T144816Z",
       "fence": 34,
       "day": "2026-11-10",
-      "status": "reserved",
-      "headline": "FIRPTA|CHECK EARLY"
+      "status": "publishing",
+      "headline": "FIRPTA|CHECK EARLY",
+      "publishingAt": "2026-11-10T14:57:36.027Z",
+      "pr": 46,
+      "previewCommit": "95a78fea12f1bb93c50500f8a195e8b14229eb5b",
+      "previewDeployId": "6af3304d9a7ee7a26a769af0"
     }
   ],
   "externalApiSpendLimitUSD": 0,
