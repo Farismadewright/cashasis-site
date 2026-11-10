@@ -1326,6 +1326,15 @@
       "commit": "5831623533d31b7d5fc3d6379e1a46b2674d37a0",
       "deployId": "6af1df4a9681c34235b9269d",
       "publishedAt": "2026-11-09T14:58:01.129Z"
+    },
+    {
+      "slug": "firpta-withholding-selling-houston-house",
+      "intentKey": "houston-seller-firpta-withholding-closing-net-verify-status",
+      "runId": "native-daily-20261110T144816Z",
+      "fence": 34,
+      "day": "2026-11-10",
+      "status": "reserved",
+      "headline": "FIRPTA|CHECK EARLY"
     }
   ],
   "externalApiSpendLimitUSD": 0,
