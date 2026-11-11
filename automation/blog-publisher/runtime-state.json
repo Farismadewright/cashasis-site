@@ -1344,6 +1344,16 @@
       "publishedAt": "2026-11-10T14:58:23.620Z",
       "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
       "releaseGate": "pass"
+    },
+    {
+      "runId": "native-daily-20261111T142836Z",
+      "fence": 35,
+      "day": "2026-11-11",
+      "slug": "private-transfer-fee-selling-houston-house",
+      "intentKey": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
+      "status": "reserved",
+      "reservedAt": "2026-11-11T14:29:48.108Z",
+      "headline": "PRIVATE TRANSFER FEE|CHECK THE RECORD"
     }
   ],
   "externalApiSpendLimitUSD": 0,
