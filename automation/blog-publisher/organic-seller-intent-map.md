@@ -222,3 +222,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 ## November 10 seller intent and acquisition review
 - `firpta-withholding-selling-houston-house` → `houston-seller-firpta-withholding-closing-net-verify-status`. First pre-closing federal withholding and seller net decision; distinct from Form 1099-S reporting, remote signing, and county tax proration.
 - Settled Oct11–Nov7 GSC property: 1,212 impressions, 2 clicks, 0.17% CTR, average position 37.04; query/page rows cover 74.26% of impressions and hide all clicks. Relevant Missouri City fast-sale query: 41 impressions, position 13.85, 0 clicks. Review existing snippet and first answer with comparable periods before adding city content. Lead Acquisition Engine/COO evidence: runs/2026-11-10.json. No verified organic seller outcome or funded GP inferred.
+
+
+## November 11 seller intent and acquisition review
+- Private transfer-fee covenant records and payee review is distinct from routine HOA certificate handling and condo special assessments. The draft and native illustration are retained; both locked thumbnail attempts failed the text-width guard. No article released. See runs/2026-11-11.json.
+- Settled October 12–November 8 GSC property: 1,210 impressions, 2 clicks, 0.17% CTR, average position 36.09. The existing Missouri City guide received 44 impressions at position 13.5 for the exact fast-sale query and 38 at 17.45 for the we-buy-houses query, with no clicks on those query rows. Compare the current title and opening answer against those intents and pending PR27 before adding city content. No sustained ranking gain or validated seller/GP outcome established. Existing Lead Acquisition Engine/COO evidence: runs/2026-11-11.json.
