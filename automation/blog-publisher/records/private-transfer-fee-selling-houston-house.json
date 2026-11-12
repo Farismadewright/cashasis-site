@@ -1,0 +1,158 @@
+{
+  "runId": "native-daily-20261112T144322Z",
+  "fence": 36,
+  "day": "2026-11-12",
+  "slug": "private-transfer-fee-selling-houston-house",
+  "intentKey": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
+  "status": "preview",
+  "reservedAt": "2026-11-12T14:43:22.631Z",
+  "headline": "TRANSFER FEE|CHECK RECORD",
+  "title": "Private Transfer Fee When Selling a Houston House",
+  "description": "A transfer fee on your Houston closing estimate? Find the document and payee, separate HOA charges, and ask what must be confirmed before closing.",
+  "primaryKeyword": "private transfer fee selling a Houston house",
+  "supportingKeywords": [
+    "Texas private transfer fee at closing",
+    "deed covenant transfer fee Houston",
+    "private transfer fee versus HOA resale fee"
+  ],
+  "sources": [
+    {
+      "url": "https://tcss.legis.texas.gov/resources/PR/htm/PR.5.htm#5.201",
+      "title": "Texas Property Code Chapter 5, Subchapter G",
+      "verifiedAt": "2026-11-12",
+      "accessedAt": "2026-11-12",
+      "geography": "Texas",
+      "claim": "Sections 5.201\u20135.205: private transfer fee definition, June 17, 2011 rule on covered obligations as to subsequent owners/purchasers, excluded payments including qualifying association charges, older notice regime and written notice to prospective purchaser.",
+      "method": "Primary source read in native research; statutory and regulator language paraphrased."
+    },
+    {
+      "url": "https://www.tdi.texas.gov/title/titlefaqs.html",
+      "title": "Texas Department of Insurance title insurance FAQ",
+      "verifiedAt": "2026-11-12",
+      "accessedAt": "2026-11-12",
+      "geography": "Texas",
+      "claim": "A commitment describes potential conditions and exceptions; review how they affect a closing with the title agent and lawyer if needed.",
+      "method": "Primary source read in native research; statutory and regulator language paraphrased."
+    },
+    {
+      "url": "https://www.cclerk.hctx.net/RealProperty.aspx",
+      "title": "Harris County Clerk Real Property",
+      "verifiedAt": "2026-11-12",
+      "accessedAt": "2026-11-12",
+      "geography": "Harris County",
+      "claim": "Harris County provides real property records and search access.",
+      "method": "Primary source read in native research; statutory and regulator language paraphrased."
+    },
+    {
+      "url": "https://www.fortbendcountytx.gov/government/departments/county-clerk/recording/real-and-personal-property",
+      "title": "Fort Bend County Clerk Real and Personal Property",
+      "verifiedAt": "2026-11-12",
+      "accessedAt": "2026-11-12",
+      "geography": "Fort Bend County",
+      "claim": "Fort Bend County provides public access to county real property records.",
+      "method": "Primary source read in native research; statutory and regulator language paraphrased."
+    }
+  ],
+  "nearestOverlaps": [
+    "hoa-resale-documents-texas-house-sale",
+    "houston-condo-special-assessment-sale-records",
+    "sell-house-title-problems-houston"
+  ],
+  "substantiveDifference": "Focuses on the document and payee behind a claimed transfer-triggered covenant fee, Texas statutory classification and separate notice for older obligations. Existing pages focus on association documents, assessments or broad title issues.",
+  "sellerVoice": {
+    "status": "read_only",
+    "sample": 100,
+    "eligibleInbound": 30,
+    "keywordScreen": {
+      "offer": 1,
+      "condition": 0,
+      "timing": 0,
+      "tenant": 0
+    },
+    "limitations": "Bounded keyword screen; no transfer-fee demand or private conversation retained."
+  },
+  "originality": {
+    "bodyWords": 616,
+    "maxExact12WordShingleOverlap": 1,
+    "geography": "Houston area, specifically Harris and Fort Bend records"
+  },
+  "image": "/images/private-transfer-fee-selling-houston-house.png",
+  "imageSha256": "5bcb1aaad8c6d4f6b7d3ce7e8181603268b2ba454f8ff2e92841716a8343502d",
+  "imageProvenance": {
+    "source": "native_work_imagegen",
+    "illustrative": true,
+    "backgroundPrompt": "Photorealistic illustrative real estate exterior, wide landscape composition. A modest single-story red-brown brick 1990s Houston-area subdivision house with low roofline and simple two-car garage, viewed at a natural slight angle from across a quiet street. Keep the entire important house facade and garage entirely in the right 55% of frame. The left 45% is darker shaded low-detail oak canopy and shadowed lawn, deliberately empty for later title overlay. Early clear morning, warm sun on the house, realistic greenery and plain concrete drive. No people, cars, text, numbers, address, signage, watermarks or logos. This is a generic fictional property illustration.",
+    "backgroundSHA256": "2231c70bdef8bf00010d944f6b6d4ddf74e3ce16a275c9458c214cb27204162e",
+    "backgroundBranchPath": "automation/blog-publisher/drafts/private-transfer-fee-selling-houston-house-background.png",
+    "approvedTemplate": "left-photo-transparent-v2",
+    "approvedHashesMatched": true,
+    "logoVariant": "white",
+    "templateUnchanged": true,
+    "rendererAttempts": [
+      {
+        "headline": "PRIVATE TRANSFER FEE|CHECK THE RECORD",
+        "rejectedLineWidth": 1003
+      },
+      {
+        "headline": "TRANSFER FEE|CHECK THE RECORD",
+        "rejectedLineWidth": 855
+      }
+    ],
+    "maxLineWidth": 670,
+    "nextRunWidthPreflight": {
+      "headline": "TRANSFER FEE|CHECK RECORD",
+      "widths": [
+        629,
+        661
+      ],
+      "rendered": false
+    },
+    "renderedHeadline": "TRANSFER FEE|CHECK RECORD",
+    "outputSize": [
+      1200,
+      630
+    ],
+    "visualReview": "Inspected at large and 320px scale: clear words, aligned transparent logo, intact house composition and margin."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalPaidApiSpend": 0,
+    "nativeIncrementalCost": null
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pending",
+    "mobile": "pending",
+    "preview": "pending",
+    "production": "not_attempted"
+  },
+  "social": {
+    "slug": "private-transfer-fee-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "Private Transfer Fee When Selling a Houston House\n\nA transfer fee on your Houston closing estimate? Find the document and payee, separate HOA charges, and ask what must be confirmed before closing.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "instagram": "Private Transfer Fee When Selling a Houston House\n\nA transfer fee on your Houston closing estimate? Find the document and payee, separate HOA charges, and ask what must be confirmed before closing.\n\nRead the guide: https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Private Transfer Fee When Selling a Houston House\n\nA transfer fee on your Houston closing estimate? Find the document and payee, separate HOA charges, and ask what must be confirmed before closing.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "googleBusinessProfile": "Private Transfer Fee When Selling a Houston House\n\nA transfer fee on your Houston closing estimate? Find the document and payee, separate HOA charges, and ask what must be confirmed before closing.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "promotionalExcerpt": "A transfer fee on your Houston closing estimate? Find the document and payee, separate HOA charges, and ask what must be confirmed before closing.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "recoveryOf": "native-daily-20261111T142836Z",
+  "recoveredDraftCommit": "e089a1cfb86129f125f401fcde5ff2554ce22762",
+  "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+  "pubDate": "2026-11-12T14:44:53Z",
+  "imageAlt": "Illustrative brick Houston-area house with the words Transfer Fee, Check Record and the Cash As-Is logo"
+}
