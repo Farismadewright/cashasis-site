@@ -1,0 +1,799 @@
+{
+  "runId": "native-daily-20261112T144322Z",
+  "day": "2026-11-12",
+  "fence": 36,
+  "status": "published",
+  "published": 1,
+  "held": 2,
+  "articles": [
+    {
+      "slug": "private-transfer-fee-selling-houston-house",
+      "intentKey": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
+      "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+      "commit": "3ecbbba48f5646b4f37d9d565d2e145932ace50a",
+      "deployId": "6af5d28e3962f3c680702c1b",
+      "publishedAt": "2026-11-12T14:52:40.265Z",
+      "pr": 47
+    }
+  ],
+  "heldCandidates": [
+    {
+      "candidate": "When to expect the mortgage escrow refund after closing",
+      "existingSlug": "mortgage-escrow-refund-after-selling-houston-house",
+      "reason": "Same timing and payoff-versus-escrow decision already covered.",
+      "status": "hold"
+    },
+    {
+      "candidate": "How to verify a pending condo assessment before signing",
+      "existingSlug": "houston-condo-special-assessment-sale-records",
+      "reason": "Same assessment records, approved charges and buyer/seller allocation already covered.",
+      "status": "hold"
+    }
+  ],
+  "mainAtStart": "f3de88be1375dd28d0b0865bbf1f0b8b98d892cd",
+  "productionAtStart": {
+    "id": "6af47d491fb74fee2995f2d2",
+    "state": "ready",
+    "commit": "f3de88be1375dd28d0b0865bbf1f0b8b98d892cd"
+  },
+  "pendingPRsPreserved": [
+    5,
+    6,
+    7,
+    27
+  ],
+  "sellerVoice": {
+    "status": "read_only",
+    "sample": 100,
+    "eligibleInbound": 30,
+    "keywordScreen": {
+      "offer": 1,
+      "condition": 0,
+      "timing": 0,
+      "tenant": 0
+    },
+    "limitations": "Bounded keyword screen; no transfer-fee demand or private conversation retained."
+  },
+  "monitoring": {
+    "actualInspectionCalls": 20,
+    "dueInspections": [
+      {
+        "url": "https://www.cashasis.com/blog/inherited-house-probate-detroit/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:47:04.301913+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/inherited-house-probate-detroit/",
+          "userCanonical": "https://www.cashasis.com/blog/inherited-house-probate-detroit/",
+          "lastCrawlTime": "2026-10-24T20:07:54+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zKNcSPc4xQu_iYss6U9edw&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/inherited-house-probate-detroit/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/inherited-house-probate-detroit/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:46:00.961000+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:47:04.245535+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
+          "userCanonical": "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
+          "lastCrawlTime": "2026-10-07T20:40:25+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_IidLALV8Mp_VZq_-JNwZQ&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/sell-house-as-is-houston/": 200,
+            "/blog/sell-house-without-repairs-houston/": 200
+          },
+          "contextualLinksFound": 5,
+          "checkedAt": "2026-11-12T14:46:09.628625+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:47:03.861632+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
+          "userCanonical": "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
+          "lastCrawlTime": "2026-10-07T18:33:05+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cAI8BfjMNwHguH05-tcZQw&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/your-price-isnt-your-take-home/": 200,
+            "/blog/selling-as-is-what-it-actually-means/": 200
+          },
+          "contextualLinksFound": 3,
+          "checkedAt": "2026-11-12T14:46:04.960654+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/how-cash-offer-house-works-houston/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:47:03.774622+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/how-cash-offer-house-works-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/how-cash-offer-house-works-houston/",
+          "lastCrawlTime": "2026-10-07T20:01:11+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=MNXtDqA9RrIKJfTa5zSbOA&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/how-cash-offer-house-works-houston/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/how-cash-offer-house-works-houston/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/sell-my-house-fast-houston/": 200,
+            "/blog/cash-home-buyers-houston/": 200
+          },
+          "contextualLinksFound": 4,
+          "checkedAt": "2026-11-12T14:46:04.968644+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/empty-house-problems-dont-wait/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:57.507055+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/empty-house-problems-dont-wait/",
+          "userCanonical": "https://www.cashasis.com/blog/empty-house-problems-dont-wait/",
+          "lastCrawlTime": "2026-10-07T19:02:33+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=H7ocqHNuv3Q8loxMQbW58w&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/empty-house-problems-dont-wait/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/empty-house-problems-dont-wait/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:45:57.016991+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/dont-let-back-taxes-take-property/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:57.349552+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/dont-let-back-taxes-take-property/",
+          "userCanonical": "https://www.cashasis.com/blog/dont-let-back-taxes-take-property/",
+          "lastCrawlTime": "2026-10-07T14:50:45+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Hkt8hpM3Iw_T8eleXXkXJg&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/dont-let-back-taxes-take-property/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/dont-let-back-taxes-take-property/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:45:53.058019+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/dont-wait-to-sell-before-foreclosure/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:57.340948+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/dont-wait-to-sell-before-foreclosure/",
+          "userCanonical": "https://www.cashasis.com/blog/dont-wait-to-sell-before-foreclosure/",
+          "lastCrawlTime": "2026-10-07T20:14:16+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=v7TSDVEmAhLRV-IeXJm7Sg&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/dont-wait-to-sell-before-foreclosure/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/dont-wait-to-sell-before-foreclosure/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/stop-foreclosure-houston/": 200
+          },
+          "contextualLinksFound": 1,
+          "checkedAt": "2026-11-12T14:46:00.892503+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/dont-live-in-area-vacant-property-risk/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:57.2029+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/dont-live-in-area-vacant-property-risk/",
+          "userCanonical": "https://www.cashasis.com/blog/dont-live-in-area-vacant-property-risk/",
+          "lastCrawlTime": "2026-10-07T20:36:03+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2nqYICnc9EG2GNu27Qkxig&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/dont-live-in-area-vacant-property-risk/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/dont-live-in-area-vacant-property-risk/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:45:57.012912+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/delinquent-property-taxes-tax-suit-sale/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:57.126985+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/delinquent-property-taxes-tax-suit-sale/",
+          "userCanonical": "https://www.cashasis.com/blog/delinquent-property-taxes-tax-suit-sale/",
+          "lastCrawlTime": "2026-10-07T20:53:31+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=X7x8FlvXl-T29ZY9D2rA_Q&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/delinquent-property-taxes-tax-suit-sale/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/delinquent-property-taxes-tax-suit-sale/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:45:52.997142+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/cash-house-sale-timeline-houston/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:50.604537+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/cash-house-sale-timeline-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/cash-house-sale-timeline-houston/",
+          "lastCrawlTime": "2026-10-08T01:39:46+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=AOv4jqUdMZhLAa79qrTnTA&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/cash-house-sale-timeline-houston/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/cash-house-sale-timeline-houston/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/sell-my-house-fast-houston/": 200,
+            "/blog/cash-home-buyers-houston/": 200
+          },
+          "contextualLinksFound": 4,
+          "checkedAt": "2026-11-12T14:46:00.909971+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/cash-home-buyers-houston/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:50.593683+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/cash-home-buyers-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/cash-home-buyers-houston/",
+          "lastCrawlTime": "2026-10-07T19:01:40+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zdCU43EM8820BnWP47jq3A&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/cash-home-buyers-houston/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/cash-home-buyers-houston/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/selling-as-is-what-it-actually-means/": 200,
+            "/blog/what-can-you-skip-selling-cash-as-is/": 200
+          },
+          "contextualLinksFound": 10,
+          "checkedAt": "2026-11-12T14:46:00.816563+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:50.590337+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/",
+          "lastCrawlTime": "2026-09-26T18:37:13+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5KMcbWMKvDBP5OSe26uCOQ&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:45:52.981934+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/cash-offer-house-houston/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:50.579109+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/cash-offer-house-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/cash-offer-house-houston/",
+          "lastCrawlTime": "2026-10-07T19:22:04+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cL7rdL8kwfrLHjTTeyf0_A&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/cash-offer-house-houston/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/cash-offer-house-houston/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/selling-as-is-what-it-actually-means/": 200,
+            "/blog/what-can-you-skip-selling-cash-as-is/": 200
+          },
+          "contextualLinksFound": 5,
+          "checkedAt": "2026-11-12T14:46:00.852923+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:50.430251+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/",
+          "userCanonical": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/",
+          "lastCrawlTime": "2026-10-04T07:05:48+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=whb-8BfRg4-ammAaPKWjcg&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:45:53.012807+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/3-things-sellers-dont-think-about/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:43.887009+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/3-things-sellers-dont-think-about/",
+          "userCanonical": "https://www.cashasis.com/3-things-sellers-dont-think-about/",
+          "lastCrawlTime": "2026-10-07T18:03:43+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=wJPCo6aExMvKjo7_GUilQw&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/3-things-sellers-dont-think-about/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/3-things-sellers-dont-think-about/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/": 200,
+            "/understanding-your-cash-offer/": 200
+          },
+          "contextualLinksFound": 4,
+          "checkedAt": "2026-11-12T14:46:00.980858+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:43.854722+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": "2026-11-12T02:45:52+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=n0VkFkDmpspX_Eb4ubVN6g&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/hcad-tax-value-vs-cash-offer-harris-county/": 200,
+            "/blog/cash-offer-vs-listing-house-houston/": 200
+          },
+          "contextualLinksFound": 3,
+          "checkedAt": "2026-11-12T14:46:00.860690+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/cash-as-is-vs-listing/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:43.837588+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/cash-as-is-vs-listing/",
+          "userCanonical": "https://www.cashasis.com/blog/cash-as-is-vs-listing/",
+          "lastCrawlTime": "2026-10-07T18:55:39+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=uhe_Pa7aKwo7FDbHPLtEUA&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/cash-as-is-vs-listing/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/cash-as-is-vs-listing/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/what-can-you-skip-selling-cash-as-is/": 200,
+            "/blog/selling-as-is-what-it-actually-means/": 200
+          },
+          "contextualLinksFound": 4,
+          "checkedAt": "2026-11-12T14:46:00.872550+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/after-you-sign/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:43.781626+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/after-you-sign/",
+          "userCanonical": "https://www.cashasis.com/after-you-sign/",
+          "lastCrawlTime": "2026-09-26T09:58:25+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=pna_lT44NeHUa-DhUnuU7g&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/after-you-sign/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/after-you-sign/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {},
+          "contextualLinksFound": 0,
+          "checkedAt": "2026-11-12T14:45:53.016637+00:00"
+        }
+      },
+      {
+        "url": "https://www.cashasis.com/blog/act-early-before-foreclosure/",
+        "inspection": {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-12T14:46:43.690696+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/act-early-before-foreclosure/",
+          "userCanonical": "https://www.cashasis.com/blog/act-early-before-foreclosure/",
+          "lastCrawlTime": "2026-10-08T01:01:05+00:00",
+          "robotsTxtState": "ALLOWED",
+          "indexingState": "INDEXING_ALLOWED",
+          "pageFetchState": "SUCCESSFUL",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=DWS7fD3mngfEyBQpVqkcxQ&utm_medium=link&utm_source=api"
+        },
+        "technicalQA": {
+          "url": "https://www.cashasis.com/blog/act-early-before-foreclosure/",
+          "status": "pass",
+          "HTTP": 200,
+          "canonical": "https://www.cashasis.com/blog/act-early-before-foreclosure/",
+          "noindex": false,
+          "robotsCrawlable": true,
+          "sitemap": true,
+          "links": {
+            "/blog/stop-foreclosure-houston/": 200
+          },
+          "contextualLinksFound": 1,
+          "checkedAt": "2026-11-12T14:45:57.085614+00:00"
+        }
+      }
+    ],
+    "newInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-12T14:53:30.847124+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=tjGwuVpIjkTQ-uIBGUcqXA&utm_medium=link&utm_source=api"
+    },
+    "coverage": {
+      "eligibleSitemapURLs": 218,
+      "eligibleBlogArticles": 190,
+      "retainedActualInspectionCoverage": 218,
+      "indexedTotal": 202,
+      "indexedBlogArticles": 178,
+      "notPASS": 16,
+      "notPASSBlogArticles": 12,
+      "unavailable": 0,
+      "latestObservationRange": [
+        "2026-10-14T14:58:57.653973+00:00",
+        "2026-11-12T14:53:30.847124+00:00"
+      ],
+      "basis": "Latest retained Google inspections at mixed dates; not a fresh census.",
+      "observedAt": "2026-11-12T14:53:33.034225+00:00"
+    },
+    "suspectedRegressions": [
+      "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/",
+      "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/"
+    ],
+    "remainingDue": 124,
+    "boundedQueue": [
+      "https://www.cashasis.com/blog/inherited-property-cashasis-options/",
+      "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/",
+      "https://www.cashasis.com/blog/inherited-property-not-the-problems/",
+      "https://www.cashasis.com/blog/multiple-heirs-inherited-property-cashasis/",
+      "https://www.cashasis.com/blog/one-heir-refuses-sell-house-texas/",
+      "https://www.cashasis.com/blog/options-before-foreclosure-sale/",
+      "https://www.cashasis.com/blog/sell-acreage-property-tomball-tx/",
+      "https://www.cashasis.com/blog/sell-before-foreclosure-sale/",
+      "https://www.cashasis.com/blog/sell-before-foreclosure-texas/",
+      "https://www.cashasis.com/blog/sell-fire-damaged-house-as-is-houston/",
+      "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/",
+      "https://www.cashasis.com/blog/sell-flood-damaged-house-houston/",
+      "https://www.cashasis.com/blog/sell-hoarder-house-houston/",
+      "https://www.cashasis.com/blog/sell-house-after-eviction-houston/",
+      "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+      "https://www.cashasis.com/blog/sell-house-back-taxes-baytown-tx/",
+      "https://www.cashasis.com/blog/sell-house-back-taxes-humble-tx/",
+      "https://www.cashasis.com/blog/sell-house-back-taxes-missouri-city-tx/",
+      "https://www.cashasis.com/blog/sell-house-back-taxes-pasadena-tx/",
+      "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/"
+    ]
+  },
+  "weeklyReport": "2026-W46 delivered November 9",
+  "monthlyStatus": {
+    "status": "partial_retry_maturity_verification",
+    "nextReassessment": "2026-11-13"
+  },
+  "searchConsole": {
+    "window": [
+      "2026-10-13",
+      "2026-11-09"
+    ],
+    "settledThrough": "2026-11-10",
+    "coverage": {
+      "rowsReturned": 194,
+      "rowsTotal": 194,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.7255,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.2745,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 2,
+        "impressions": 1206,
+        "ctrPercent": 0.17,
+        "avgPositionWeighted": 35.23
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "rows": 194,
+    "opportunities": [
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 46,
+        "ctr": 0,
+        "position": 13.304347826086957
+      },
+      {
+        "keys": [
+          "we buy houses missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 38,
+        "ctr": 0,
+        "position": 17.44736842105263
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 33,
+        "ctr": 0,
+        "position": 14.575757575757576
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 26,
+        "ctr": 0,
+        "position": 15.5
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "sell your house fast in missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 12.428571428571429
+      },
+      {
+        "keys": [
+          "sell my house fast texas city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 13.7
+      },
+      {
+        "keys": [
+          "sell with delinquent taxes",
+          "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 14.5
+      }
+    ],
+    "recommendation": "Review Missouri City title and first answer against its real queries and pending PR27 before adding city content; no live rewrite.",
+    "verifiedOrganicSellers": "unavailable",
+    "fundedRetainedGP": "unavailable"
+  },
+  "protectedSourceChanges": [],
+  "externalPaidApiSpendUSD": 0,
+  "completedAt": "2026-11-12T14:53:33.034225+00:00"
+}

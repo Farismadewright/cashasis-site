@@ -227,3 +227,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 ## November 11 seller intent and acquisition review
 - Private transfer-fee covenant records and payee review is distinct from routine HOA certificate handling and condo special assessments. The draft and native illustration are retained; both locked thumbnail attempts failed the text-width guard. No article released. See runs/2026-11-11.json.
 - Settled October 12–November 8 GSC property: 1,210 impressions, 2 clicks, 0.17% CTR, average position 36.09. The existing Missouri City guide received 44 impressions at position 13.5 for the exact fast-sale query and 38 at 17.45 for the we-buy-houses query, with no clicks on those query rows. Compare the current title and opening answer against those intents and pending PR27 before adding city content. No sustained ranking gain or validated seller/GP outcome established. Existing Lead Acquisition Engine/COO evidence: runs/2026-11-11.json.
+
+
+## November 12 seller intent and acquisition review
+- Published the recovered private transfer fee covenant and payee guide; it remains distinct from routine association paperwork and condo assessments.
+- Settled Oct 13–Nov 9 Search Console property: 1,206 impressions, 2 clicks, 0.17% CTR, position 35.23. Missouri City exact fast-sale query: 46 impressions, position 13.30, no clicks; related we-buy-houses query: 38 impressions, position 17.45, no clicks. Review existing title and first answer with pending PR27 before adding city content. No validated seller or funded GP inferred. Lead Acquisition Engine/COO evidence: runs/2026-11-12.json.

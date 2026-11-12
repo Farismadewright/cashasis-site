@@ -4,7 +4,7 @@
   "day": "2026-11-12",
   "slug": "private-transfer-fee-selling-houston-house",
   "intentKey": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
-  "status": "preview",
+  "status": "published",
   "reservedAt": "2026-11-12T14:43:22.631Z",
   "headline": "TRANSFER FEE|CHECK RECORD",
   "title": "Private Transfer Fee When Selling a Houston House",
@@ -129,9 +129,9 @@
     "thumbnail": "pass",
     "build": "pass",
     "metadata": "pass",
-    "links": "pending",
-    "mobile": "pending",
-    "preview": "pending",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pass",
     "production": "not_attempted"
   },
   "social": {
@@ -154,5 +154,203 @@
   "recoveredDraftCommit": "e089a1cfb86129f125f401fcde5ff2554ce22762",
   "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
   "pubDate": "2026-11-12T14:44:53Z",
-  "imageAlt": "Illustrative brick Houston-area house with the words Transfer Fee, Check Record and the Cash As-Is logo"
+  "imageAlt": "Illustrative brick Houston-area house with the words Transfer Fee, Check Record and the Cash As-Is logo",
+  "mobileEvidence": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "h1": 1,
+        "body": 274,
+        "heroWidth": 1200,
+        "heroHeight": 630,
+        "heroRendered": 274,
+        "canonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "x": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "faq": true,
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "body": 304,
+        "heroWidth": 1200,
+        "heroHeight": 630,
+        "heroRendered": 304,
+        "canonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "x": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "faq": true,
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "h1": 1,
+        "body": 638,
+        "heroWidth": 1200,
+        "heroHeight": 630,
+        "heroRendered": 638,
+        "canonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "x": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "faq": true,
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "h1": 1,
+        "body": 638,
+        "heroWidth": 1200,
+        "heroHeight": 630,
+        "heroRendered": 638,
+        "canonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+        "og": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "x": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+        "faq": true,
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "widths": [
+      390,
+      1366
+    ],
+    "visual": "Both card images loaded at natural width 1200; logo and headline intact, category and text readable. Article layout and FAQ interaction verified at four widths."
+  },
+  "previewQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "noindex": true,
+    "robotsCrawlable": true,
+    "image": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "5bcb1aaad8c6d4f6b7d3ce7e8181603268b2ba454f8ff2e92841716a8343502d",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/blog/hoa-resale-documents-texas-house-sale/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-12T14:49:09.328087+00:00",
+    "commit": "cfdb7f2a2f87445c15f91d717d16badcde551526",
+    "deployId": "6af5d18d3f9e2eab63378324"
+  },
+  "commit": "3ecbbba48f5646b4f37d9d565d2e145932ace50a",
+  "deployId": "6af5d28e3962f3c680702c1b",
+  "publishedAt": "2026-11-12T14:52:40.265Z",
+  "pr": 47,
+  "previewCommit": "cfdb7f2a2f87445c15f91d717d16badcde551526",
+  "previewDeployId": "6af5d18d3f9e2eab63378324",
+  "productionQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "noindex": false,
+    "robotsCrawlable": true,
+    "image": "https://www.cashasis.com/images/private-transfer-fee-selling-houston-house.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "5bcb1aaad8c6d4f6b7d3ce7e8181603268b2ba454f8ff2e92841716a8343502d",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/blog/hoa-resale-documents-texas-house-sale/": 200,
+      "/compare-the-net/": 200
+    },
+    "attributedCTA": true,
+    "sitemapRSS": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-12T14:53:03.560546+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-12",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-12T14:53:30.847124+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=tjGwuVpIjkTQ-uIBGUcqXA&utm_medium=link&utm_source=api"
+  },
+  "nextReviewAt": "2026-11-15T14:52:40.265000+00:00",
+  "seoIndexingConversionQA": {
+    "technicalEligible": true,
+    "previewNoindex": true,
+    "productionNoindex": false,
+    "specificSellerIntent": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
+    "duplicateReview": "Distinct fee covenant/payee classification, separate from standard HOA paperwork and condo assessments.",
+    "links": {
+      "/blog/hoa-resale-documents-texas-house-sale/": 200,
+      "/compare-the-net/": 200
+    },
+    "sellerPath": "Verified attributed cash offer CTA and form destination without submission.",
+    "sourcesVerifiedAt": "2026-11-12"
+  },
+  "GA4Measurement": "No new deduplicated organic seller outcome verified.",
+  "searchConsoleMonitoring": {
+    "actualInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-12T14:53:30.847124+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=tjGwuVpIjkTQ-uIBGUcqXA&utm_medium=link&utm_source=api"
+    },
+    "nextReviewAt": "2026-11-15T14:52:40.265000+00:00"
+  }
 }

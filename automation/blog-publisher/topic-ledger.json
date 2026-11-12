@@ -1006,5 +1006,23 @@
       "selling-houston-house-from-out-of-state-signing"
     ],
     "substantiveDifference": "FIRPTA closing withholding, seller tax-status verification and net-sheet treatment are distinct from 1099-S reporting, county tax proration and signing logistics. Original hypothetical separates amount realized, withholding, closing cash and final tax."
+  },
+  {
+    "slug": "private-transfer-fee-selling-houston-house",
+    "intentKey": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
+    "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+    "commit": "3ecbbba48f5646b4f37d9d565d2e145932ace50a",
+    "deployId": "6af5d28e3962f3c680702c1b",
+    "publishedAt": "2026-11-12T14:52:40.265Z",
+    "pr": 47,
+    "runId": "native-daily-20261112T144322Z",
+    "day": "2026-11-12",
+    "status": "published",
+    "nearestOverlaps": [
+      "hoa-resale-documents-texas-house-sale",
+      "houston-condo-special-assessment-sale-records",
+      "sell-house-title-problems-houston"
+    ],
+    "substantiveDifference": "Focuses on the document and payee behind a claimed transfer-triggered covenant fee, Texas statutory classification and separate notice for older obligations. Existing pages focus on association documents, assessments or broad title issues."
   }
 ]
