@@ -1,11 +1,9 @@
 {
   "lease": {
-    "runId": "native-daily-20261111T142836Z",
-    "fence": 35,
-    "issuedAt": "2026-11-11T14:28:36.500Z",
-    "expiresAt": "2026-11-11T14:36:21.423Z",
-    "released": true,
-    "releasedAt": "2026-11-11T14:36:21.423Z"
+    "runId": "native-daily-20261112T144322Z",
+    "fence": 36,
+    "issuedAt": "2026-11-12T14:43:22.631Z",
+    "expiresAt": "2026-11-12T16:43:22.631Z"
   },
   "ledger": [
     {
@@ -1346,6 +1344,17 @@
       "publishedAt": "2026-11-10T14:58:23.620Z",
       "url": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
       "releaseGate": "pass"
+    },
+    {
+      "slug": "private-transfer-fee-selling-houston-house",
+      "intentKey": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
+      "runId": "native-daily-20261112T144322Z",
+      "fence": 36,
+      "day": "2026-11-12",
+      "status": "reserved",
+      "reservedAt": "2026-11-12T14:43:22.631Z",
+      "headline": "TRANSFER FEE|CHECK RECORD",
+      "recoveryOf": "native-daily-20261111T142836Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
