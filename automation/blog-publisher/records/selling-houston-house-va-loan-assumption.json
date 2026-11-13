@@ -2,7 +2,7 @@
   "slug": "selling-houston-house-va-loan-assumption",
   "intentKey": "houston-va-loan-assumption-seller-release-liability-entitlement-cash-gap",
   "day": "2026-11-13",
-  "status": "preview",
+  "status": "published",
   "headline": "VA LOAN|CHECK FIRST",
   "reservedAt": "2026-11-13T14:29:57.169Z",
   "runId": "native-daily-20261113T142957Z",
@@ -22,7 +22,9 @@
   "externalApiUsed": false,
   "cost": {
     "externalApiSpendUSD": 0,
-    "nativeIncrementalCost": null
+    "nativeIncrementalCost": null,
+    "currency": "USD",
+    "actual": null
   },
   "sellerVoice": {
     "status": "read_only",
@@ -67,7 +69,11 @@
       "accessedAt": "2026-11-13",
       "geography": "United States; federal rule applies to covered Texas VA loans",
       "claim": "Current loan, qualified buyer, holder or servicer processing, release, and eligibility and occupancy requirements for substitution. No fee figures or processing deadline asserted.",
-      "method": "Official text reviewed; paraphrased"
+      "method": "Official text reviewed; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
     },
     {
       "url": "https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000314666/VA-Pamphlet-VAP26-7-Chapter-05-How-to-Process-VA-Loans-and-Submit-them-to-VA",
@@ -76,7 +82,11 @@
       "accessedAt": "2026-11-13",
       "geography": "United States; federal rule applies to covered Texas VA loans",
       "claim": "Holder/servicer and VA prior approval as applicable; qualified purchasers may assume and a release does not restore entitlement by itself.",
-      "method": "Official text reviewed; paraphrased"
+      "method": "Official text reviewed; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
     },
     {
       "url": "https://www.vba.va.gov/pubs/forms/VBA-26-10291-ARE.pdf",
@@ -85,7 +95,11 @@
       "accessedAt": "2026-11-13",
       "geography": "United States; federal rule applies to covered Texas VA loans",
       "claim": "Qualified non-veterans may assume; eligible assumer may substitute entitlement.",
-      "method": "Official text reviewed; paraphrased"
+      "method": "Official text reviewed; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
     },
     {
       "url": "https://www.benefits.va.gov/homeloans/eligibility.asp",
@@ -94,7 +108,11 @@
       "accessedAt": "2026-11-13",
       "geography": "United States; federal rule applies to covered Texas VA loans",
       "claim": "Unused entitlement can remain available; used entitlement typically remains tied until payoff absent approved substitution.",
-      "method": "Official text reviewed; paraphrased"
+      "method": "Official text reviewed; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
     }
   ],
   "originality": {
@@ -192,8 +210,11 @@
     "build": "pass",
     "metadata": "pass",
     "mobile": "pass",
-    "links": "pending",
-    "preview": "pending"
+    "links": "pass",
+    "preview": "pass",
+    "deploy": "pass",
+    "render": "pass",
+    "conversion": "unavailable"
   },
   "social": {
     "slug": "selling-houston-house-va-loan-assumption",
@@ -210,5 +231,120 @@
       "#HoustonRealEstate",
       "#SellAsIs"
     ]
+  },
+  "previewQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "noindex": true,
+    "robots": true,
+    "inSitemap": true,
+    "sitemapRSS": true,
+    "image": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "d68d9dab4622be6365107f1e022d36ec624597b61960f7795a38edeb49c280ff",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/compare-the-net/": 200,
+      "/blog/cash-offer-vs-listing-house-houston/": 200
+    },
+    "attributedCTA": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-13T14:38:54.538927+00:00",
+    "commit": "054145be7db600b19ac618d6de0288a3e3d0fe01",
+    "deployId": "6af72059a9d3b191ab0f5cf7"
+  },
+  "commit": "b86e2f28b7188aa808ba7e7cd603b3b6df350d28",
+  "deployId": "6af7212470e8ef4adfa3520b",
+  "publishedAt": "2026-11-13T14:40:14.827Z",
+  "pr": 48,
+  "previewCommit": "054145be7db600b19ac618d6de0288a3e3d0fe01",
+  "previewDeployId": "6af72059a9d3b191ab0f5cf7",
+  "productionQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "noindex": false,
+    "robots": true,
+    "inSitemap": true,
+    "sitemapRSS": true,
+    "image": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "d68d9dab4622be6365107f1e022d36ec624597b61960f7795a38edeb49c280ff",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/compare-the-net/": 200,
+      "/blog/cash-offer-vs-listing-house-houston/": 200
+    },
+    "attributedCTA": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-13T14:40:25.947584+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-13",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-13T14:40:50.509737+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Dmhlr4yAaLyBb1EHsaEZwQ&utm_medium=link&utm_source=api"
+  },
+  "nextReviewAt": "2026-11-16T14:40:14.827000+00:00",
+  "GA4Measurement": "No deduplicated seller evidence verified.",
+  "seoIndexingConversionQA": {
+    "technicalEligible": true,
+    "previewNoindex": true,
+    "productionNoindex": false,
+    "specificSellerIntent": "houston-va-loan-assumption-seller-release-liability-entitlement-cash-gap",
+    "semanticDuplicationReview": "Covers buyer assuming an existing VA loan, written release versus restoration of VA benefits and financing the equity gap. Reverse mortgage, forbearance and net comparisons do not answer this three-part approval decision.",
+    "links": {
+      "/compare-the-net/": 200,
+      "/blog/cash-offer-vs-listing-house-houston/": 200
+    },
+    "sellerPath": "Verified attributed offer links and offer form destination without submitting.",
+    "sourcesVerifiedAt": "2026-11-13"
+  },
+  "searchConsoleMonitoring": {
+    "actualInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-13T14:40:50.509737+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Dmhlr4yAaLyBb1EHsaEZwQ&utm_medium=link&utm_source=api"
+    },
+    "nextReviewAt": "2026-11-16T14:40:14.827000+00:00"
   }
 }

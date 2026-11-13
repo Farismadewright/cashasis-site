@@ -1,6 +1,6 @@
 {
   "period": "2026-10",
-  "status": "partial_retry_maturity_verification",
+  "status": "review_complete_available_data",
   "reviewedAt": "2026-11-02T14:49:34.001175+00:00",
   "GSCSettledThrough": "2026-10-31",
   "periods": {
@@ -3795,5 +3795,404 @@
       }
     },
     "queryPositionLimit": "Only9September query/page rows with24.62% impression coverage versus290October rows with73.97%. Cohort/visibility changes and small samples prevent a sustained ranking-gain claim."
-  }
+  },
+  "finalReviewAt": "2026-11-13T14:47:13.697137+00:00",
+  "finalReviewNovember13": {
+    "GSC": {
+      "october": {
+        "property": {
+          "clicks": 4,
+          "impressions": 1099,
+          "ctrPercent": 0.36,
+          "avgPositionWeighted": 40.89
+        },
+        "blog": {
+          "clicks": 1,
+          "impressions": 1091,
+          "ctrPercent": 0.09,
+          "avgPositionWeighted": 41.92
+        },
+        "queryPageCoverage": 0.7397,
+        "opportunities": [
+          {
+            "keys": [
+              "sell my house fast missouri city tx",
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 30,
+            "ctr": 0,
+            "position": 15.033333333333333
+          },
+          {
+            "keys": [
+              "sell my house fast in missouri city",
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 24,
+            "ctr": 0,
+            "position": 13.833333333333334
+          },
+          {
+            "keys": [
+              "we buy houses missouri city tx",
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 18,
+            "ctr": 0,
+            "position": 15.222222222222221
+          },
+          {
+            "keys": [
+              "we buy houses missouri city",
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 15,
+            "ctr": 0,
+            "position": 12.533333333333333
+          },
+          {
+            "keys": [
+              "sell my house fast missouri city",
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 14
+          },
+          {
+            "keys": [
+              "cash home buyers missouri city tx",
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 7,
+            "ctr": 0,
+            "position": 15.714285714285714
+          }
+        ],
+        "blogPerDay": {
+          "clicks": 0.03225806451612903,
+          "impressions": 35.193548387096776
+        }
+      },
+      "september": {
+        "property": {
+          "clicks": 4,
+          "impressions": 87,
+          "ctrPercent": 4.6,
+          "avgPositionWeighted": 28.09
+        },
+        "blog": {
+          "clicks": 0,
+          "impressions": 65,
+          "ctrPercent": 0,
+          "avgPositionWeighted": 29.71
+        },
+        "queryPageCoverage": 0.2462,
+        "opportunities": [],
+        "blogPerDay": {
+          "clicks": 0.0,
+          "impressions": 2.1666666666666665
+        }
+      },
+      "matchedMissouriCityPositionTrend": "Unavailable: September has no observed matching query-page pair."
+    },
+    "GA4": {
+      "scope": "Session channel Organic Search; landing page ^/blog(/|$) for blog",
+      "property": {
+        "key": "Organic Search",
+        "sessions": 17,
+        "prevSessions": 4,
+        "activeUsers": 13,
+        "prevActiveUsers": 3,
+        "engagementRate": 0.4117647058823529,
+        "prevEngagementRate": 0.75,
+        "keyEvents": 0,
+        "prevKeyEvents": 0
+      },
+      "blog": {
+        "octoberSessions": 8,
+        "octoberKeyEvents": 0,
+        "septemberSessions": null,
+        "septemberLimitation": "GA4 returned no rows for 2026-09-01 to 2026-09-30 with these filters.",
+        "landingRows": [
+          {
+            "key": "/blog/dont-live-in-area-vacant-property-risk",
+            "sessions": 2,
+            "keyEvents": 0
+          },
+          {
+            "key": "/blog/sell-house-behind-on-taxes-houston",
+            "sessions": 2,
+            "keyEvents": 0
+          },
+          {
+            "key": "/blog/existing-survey-when-selling-texas-house",
+            "sessions": 1,
+            "keyEvents": 0
+          },
+          {
+            "key": "/blog/sell-house-fast-fort-bend-county-tx",
+            "sessions": 1,
+            "keyEvents": 0
+          },
+          {
+            "key": "/blog/selling-as-is-what-it-actually-means",
+            "sessions": 1,
+            "keyEvents": 0
+          },
+          {
+            "key": "/blog/what-can-you-skip-selling-cash-as-is",
+            "sessions": 1,
+            "keyEvents": 0
+          }
+        ]
+      },
+      "selectedEventRows": [],
+      "validatedSellerLeads": null,
+      "fundedRetainedGP": null,
+      "dayRates": {
+        "octoberPropertyOrganicSessionsPerDay": 0.5483870967741935,
+        "septemberPropertyOrganicSessionsPerDay": 0.13333333333333333,
+        "octoberBlogOrganicSessionsPerDay": 0.25806451612903225,
+        "septemberBlogOrganicSessionsPerDay": null
+      }
+    },
+    "freshness": {
+      "checkedDate": "2026-11-13",
+      "officialSource": "https://support.google.com/analytics/answer/11198161",
+      "assessment": "October dates have passed the documented 12-day modeled key-event revision window; available evidence reviewed, not a promise of immutable metrics."
+    },
+    "publisherActivity": {
+      "window": [
+        "2026-10-14",
+        "2026-10-31"
+      ],
+      "published": 43,
+      "held": 11
+    },
+    "retainedOctober31Snapshot": {
+      "eligibleSitemapURLs": 207,
+      "eligibleBlogArticles": 179,
+      "eligibleURLsWithRetainedInspectionEvidence": 207,
+      "latestEvidenceCounts": {
+        "indexed": 194,
+        "not_indexed": 13
+      },
+      "latestBlogEvidenceCounts": {
+        "indexed": 170,
+        "not_indexed": 9
+      },
+      "inspectedThisRun": 4,
+      "observationDateRange": [
+        "2026-10-04T18:49:51.651501+00:00",
+        "2026-10-31T14:04:23.187594+00:00"
+      ],
+      "note": "Mixed actual Google inspection dates; not a new full-site census. Non-PASS bucket includes unknown/discovery states, not automatic rejection."
+    },
+    "monthlyPageDetail": [
+      {
+        "month": "October",
+        "coverage": {
+          "rowsReturned": 118,
+          "rowsTotal": 118,
+          "clicksCovered": 1,
+          "impressionsCovered": 1,
+          "hiddenClicksShare": 0,
+          "hiddenImpressionsShare": 0,
+          "totalsFrom": "get_site_summary",
+          "siteTotals": {
+            "clicks": 4,
+            "impressions": 1099,
+            "ctrPercent": 0.36,
+            "avgPositionWeighted": 40.89
+          },
+          "scope": "filtered",
+          "sharesOf": "filteredTotals",
+          "filteredTotals": {
+            "clicks": 1,
+            "impressions": 1091,
+            "ctrPercent": 0.09,
+            "avgPositionWeighted": 41.92
+          }
+        },
+        "complete": true,
+        "pages": [
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 155,
+            "ctr": 0,
+            "position": 15.793548387096774
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+            ],
+            "clicks": 0,
+            "impressions": 104,
+            "ctr": 0,
+            "position": 47.90384615384615
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+            ],
+            "clicks": 0,
+            "impressions": 82,
+            "ctr": 0,
+            "position": 70.54878048780488
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-katy-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 66,
+            "ctr": 0,
+            "position": 33.78787878787879
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-fire-damaged-house-houston/"
+            ],
+            "clicks": 0,
+            "impressions": 39,
+            "ctr": 0,
+            "position": 45
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-before-foreclosure-sale/"
+            ],
+            "clicks": 0,
+            "impressions": 35,
+            "ctr": 0,
+            "position": 81.6
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 31,
+            "ctr": 0,
+            "position": 45.935483870967744
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-spring-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 28,
+            "ctr": 0,
+            "position": 72.07142857142857
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-before-foreclosure-texas/"
+            ],
+            "clicks": 0,
+            "impressions": 21,
+            "ctr": 0,
+            "position": 82.71428571428571
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/"
+            ],
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": 0,
+            "position": 20.63157894736842
+          }
+        ]
+      },
+      {
+        "month": "September",
+        "coverage": {
+          "rowsReturned": 12,
+          "rowsTotal": 12,
+          "clicksCovered": null,
+          "impressionsCovered": 1,
+          "hiddenClicksShare": null,
+          "hiddenImpressionsShare": 0,
+          "totalsFrom": "get_site_summary",
+          "siteTotals": {
+            "clicks": 4,
+            "impressions": 87,
+            "ctrPercent": 4.6,
+            "avgPositionWeighted": 28.09
+          },
+          "scope": "filtered",
+          "sharesOf": "filteredTotals",
+          "filteredTotals": {
+            "clicks": 0,
+            "impressions": 65,
+            "ctrPercent": 0,
+            "avgPositionWeighted": 29.71
+          }
+        },
+        "complete": true,
+        "pages": [
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+            ],
+            "clicks": 0,
+            "impressions": 20,
+            "ctr": 0,
+            "position": 31.35
+          },
+          {
+            "keys": [
+              "https://www.cashasis.com/blog/sell-vacant-house-detroit/"
+            ],
+            "clicks": 0,
+            "impressions": 13,
+            "ctr": 0,
+            "position": 6.923076923076923
+          }
+        ]
+      }
+    ],
+    "measurementLimits": [
+      "Search Console groups data in America/Los_Angeles and GA4 uses America/Chicago. These month totals cannot be joined into a person-level funnel.",
+      "No recorded selected event under the blog Organic Search filter and zero key events in the landing report do not establish zero actual seller contacts."
+    ]
+  },
+  "currentCoverageAtFinalReview": {
+    "eligibleSitemapURLs": 219,
+    "eligibleBlogArticles": 191,
+    "retainedActualInspectionCoverage": 219,
+    "indexedTotal": 201,
+    "indexedBlogArticles": 177,
+    "notPASS": 18,
+    "notPASSBlogArticles": 14,
+    "unavailable": 0,
+    "latestObservationRange": [
+      "2026-10-14T14:58:57.653973+00:00",
+      "2026-11-13T14:47:03.890332+00:00"
+    ],
+    "basis": "Latest retained Google observations at mixed dates; not a contemporaneous census.",
+    "observedAt": "2026-11-13T14:47:13.697137+00:00"
+  },
+  "comparisonLimitations": [
+    "September organic blog landing report returned no rows; unavailable baseline, not zero.",
+    "October 31 retained snapshot is available; no comparable September snapshot. November coverage is current only.",
+    "Low click and traffic counts; no baseline for matched Missouri City query movement.",
+    "No validated seller outcome or funded retained GP established."
+  ],
+  "editorialPriorities": [
+    "Missouri City: 155 October impressions, position 15.79 and zero clicks. Live description already matches the wording proposed in PR27. Prioritize replacing the keyword-heavy opening with a direct answer about what affects timing, under existing approval/rollback requirements.",
+    "Review shared cash-versus-listing intent and missing contextual links. Recheck unsupported time and commission claims on the older comparison guides before proposing any edits."
+  ],
+  "deliveryStatus": "pending_owner_response"
 }

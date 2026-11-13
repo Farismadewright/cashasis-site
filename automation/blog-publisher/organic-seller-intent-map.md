@@ -232,3 +232,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 ## November 12 seller intent and acquisition review
 - Published the recovered private transfer fee covenant and payee guide; it remains distinct from routine association paperwork and condo assessments.
 - Settled Oct 13–Nov 9 Search Console property: 1,206 impressions, 2 clicks, 0.17% CTR, position 35.23. Missouri City exact fast-sale query: 46 impressions, position 13.30, no clicks; related we-buy-houses query: 38 impressions, position 17.45, no clicks. Review existing title and first answer with pending PR27 before adding city content. No validated seller or funded GP inferred. Lead Acquisition Engine/COO evidence: runs/2026-11-12.json.
+
+
+## November 13 seller intent and acquisition review
+- Published the VA assumption guide, distinct from payoff, reverse mortgage and forbearance decisions.
+- October blog: 1,091 Google impressions and one click versus September 65 and no clicks; average position 41.92 versus 29.71. October GA4: 8 organic blog landing sessions and no recorded key events; September blog baseline unavailable. Property organic sessions were 17 versus 4. No seller or funded GP verified. Review Missouri City snippet and first answer before further city content. Existing Lead Acquisition Engine/COO evidence: runs/2026-10-monthly.json and runs/2026-11-13.json.

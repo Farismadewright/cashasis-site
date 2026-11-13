@@ -1024,5 +1024,23 @@
       "sell-house-title-problems-houston"
     ],
     "substantiveDifference": "Focuses on the document and payee behind a claimed transfer-triggered covenant fee, Texas statutory classification and separate notice for older obligations. Existing pages focus on association documents, assessments or broad title issues."
+  },
+  {
+    "slug": "selling-houston-house-va-loan-assumption",
+    "intentKey": "houston-va-loan-assumption-seller-release-liability-entitlement-cash-gap",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "commit": "b86e2f28b7188aa808ba7e7cd603b3b6df350d28",
+    "deployId": "6af7212470e8ef4adfa3520b",
+    "pr": 48,
+    "publishedAt": "2026-11-13T14:40:14.827Z",
+    "runId": "native-daily-20261113T142957Z",
+    "day": "2026-11-13",
+    "status": "published",
+    "nearestOverlaps": [
+      "selling-houston-house-reverse-mortgage",
+      "selling-houston-house-mortgage-forbearance",
+      "cash-offer-vs-listing-house-houston"
+    ],
+    "substantiveDifference": "Covers buyer assuming an existing VA loan, written release versus restoration of VA benefits and financing the equity gap. Reverse mortgage, forbearance and net comparisons do not answer this three-part approval decision."
   }
 ]
