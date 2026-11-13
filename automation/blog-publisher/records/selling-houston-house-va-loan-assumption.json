@@ -1,0 +1,214 @@
+{
+  "slug": "selling-houston-house-va-loan-assumption",
+  "intentKey": "houston-va-loan-assumption-seller-release-liability-entitlement-cash-gap",
+  "day": "2026-11-13",
+  "status": "preview",
+  "headline": "VA LOAN|CHECK FIRST",
+  "reservedAt": "2026-11-13T14:29:57.169Z",
+  "runId": "native-daily-20261113T142957Z",
+  "fence": 37,
+  "title": "Selling a Houston House With a VA Loan Assumption",
+  "description": "A buyer wants to assume your VA loan? Check lender approval, your release from liability, and whether your VA entitlement will be restored before you sell.",
+  "pubDate": "2026-11-13T14:33:00Z",
+  "primaryKeyword": "selling a Houston house with a VA loan assumption",
+  "image": "/images/selling-houston-house-va-loan-assumption.png",
+  "imageAlt": "Illustrative Houston-area brick ranch with VA Loan Check First headline and the Cash As-Is logo",
+  "supportingKeywords": [
+    "VA loan assumption seller release of liability",
+    "VA loan entitlement after assumption",
+    "VA assumption equity gap Houston"
+  ],
+  "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+  "externalApiUsed": false,
+  "cost": {
+    "externalApiSpendUSD": 0,
+    "nativeIncrementalCost": null
+  },
+  "sellerVoice": {
+    "status": "read_only",
+    "sample": 100,
+    "eligibleInbound": 31,
+    "keywordScreen": {
+      "offer": 2,
+      "condition": 0,
+      "timing": 0,
+      "tenant": 0
+    },
+    "limitations": "Bounded keyword screen; no private material retained."
+  },
+  "imageSha256": "d68d9dab4622be6365107f1e022d36ec624597b61960f7795a38edeb49c280ff",
+  "imageProvenance": {
+    "source": "native_work_imagegen",
+    "illustrative": true,
+    "prompt": "Photorealistic illustrative Texas property exterior wide landscape. A modest 1970s single-story light tan brick ranch in a Houston area neighborhood, with front porch, dark green shutters, and older concrete walkway, clear afternoon soft sun. Main house strictly right 55 percent of composition, keep left 45 percent darker broad oak shade, lawn and low texture with negative space for text. Natural landscape real estate photography, authentic ordinary house, no people, address, letters, logo, street sign, watermark or cars. Fictional house only.",
+    "backgroundSHA256": "fd1a11cad0b13248ea8ab89af212ed845e855e7171fdebf38e29460dabdd9b82",
+    "backgroundName": "exec-95f80250-30ed-4185-afb3-4184a96f0494.png",
+    "template": "left-photo-transparent-v2",
+    "approvedHashesVerified": true,
+    "variant": "white",
+    "logoAlphaVerified": true,
+    "dimensions": [
+      1200,
+      630
+    ],
+    "visualReview": "Reviewed 320px and larger thumbnail, mobile and desktop article and cards; headline and exact transparent logo readable. Initial headline exceeded locked width; shortened once."
+  },
+  "nearestOverlaps": [
+    "selling-houston-house-reverse-mortgage",
+    "selling-houston-house-mortgage-forbearance",
+    "cash-offer-vs-listing-house-houston"
+  ],
+  "substantiveDifference": "Covers buyer assuming an existing VA loan, written release versus restoration of VA benefits and financing the equity gap. Reverse mortgage, forbearance and net comparisons do not answer this three-part approval decision.",
+  "sources": [
+    {
+      "url": "https://www.benefits.va.gov/HOMELOANS/documents/circulars/26-23-10.pdf",
+      "title": "VA Circular 26-23-10",
+      "verifiedAt": "2026-11-13",
+      "accessedAt": "2026-11-13",
+      "geography": "United States; federal rule applies to covered Texas VA loans",
+      "claim": "Current loan, qualified buyer, holder or servicer processing, release, and eligibility and occupancy requirements for substitution. No fee figures or processing deadline asserted.",
+      "method": "Official text reviewed; paraphrased"
+    },
+    {
+      "url": "https://www.knowva.ebenefits.va.gov/system/templates/selfservice/va_ssnew/help/customer/locale/en-US/portal/554400000001018/content/554400000314666/VA-Pamphlet-VAP26-7-Chapter-05-How-to-Process-VA-Loans-and-Submit-them-to-VA",
+      "title": "VA Lender Handbook Ch. 5",
+      "verifiedAt": "2026-11-13",
+      "accessedAt": "2026-11-13",
+      "geography": "United States; federal rule applies to covered Texas VA loans",
+      "claim": "Holder/servicer and VA prior approval as applicable; qualified purchasers may assume and a release does not restore entitlement by itself.",
+      "method": "Official text reviewed; paraphrased"
+    },
+    {
+      "url": "https://www.vba.va.gov/pubs/forms/VBA-26-10291-ARE.pdf",
+      "title": "VA Form 26-10291",
+      "verifiedAt": "2026-11-13",
+      "accessedAt": "2026-11-13",
+      "geography": "United States; federal rule applies to covered Texas VA loans",
+      "claim": "Qualified non-veterans may assume; eligible assumer may substitute entitlement.",
+      "method": "Official text reviewed; paraphrased"
+    },
+    {
+      "url": "https://www.benefits.va.gov/homeloans/eligibility.asp",
+      "title": "VA eligibility FAQ",
+      "verifiedAt": "2026-11-13",
+      "accessedAt": "2026-11-13",
+      "geography": "United States; federal rule applies to covered Texas VA loans",
+      "claim": "Unused entitlement can remain available; used entitlement typically remains tied until payoff absent approved substitution.",
+      "method": "Official text reviewed; paraphrased"
+    }
+  ],
+  "originality": {
+    "maxExact12WordShingles": 0,
+    "inventoryRecords": 213,
+    "semanticReview": "Reviewed current blog, local seller pages, approved geography, ledger and pending PR scope; no competing VA seller assumption page."
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "rows": [
+      {
+        "w": 360,
+        "scroll": 360,
+        "hero": [
+          1200,
+          630
+        ],
+        "h1": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "x": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "attributed": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "w": 390,
+        "scroll": 390,
+        "hero": [
+          1200,
+          630
+        ],
+        "h1": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "x": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "attributed": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "w": 768,
+        "scroll": 768,
+        "hero": [
+          1200,
+          630
+        ],
+        "h1": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "x": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "attributed": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "w": 1366,
+        "scroll": 1366,
+        "hero": [
+          1200,
+          630
+        ],
+        "h1": 1,
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "og": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "x": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+        "attributed": [
+          "post",
+          "inline",
+          "post"
+        ]
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "widths": [
+      390,
+      1366
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "mobile": "pass",
+    "links": "pending",
+    "preview": "pending"
+  },
+  "social": {
+    "slug": "selling-houston-house-va-loan-assumption",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "image": "https://www.cashasis.com/images/selling-houston-house-va-loan-assumption.png",
+    "status": "draft_only",
+    "facebook": "Selling a Houston House With a VA Loan Assumption\n\nA buyer wants to assume your VA loan? Check lender approval, your release from liability, and whether your VA entitlement will be restored before you sell.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "instagram": "Selling a Houston House With a VA Loan Assumption\n\nA buyer wants to assume your VA loan? Check lender approval, your release from liability, and whether your VA entitlement will be restored before you sell.\n\nRead the guide: https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Houston House With a VA Loan Assumption\n\nA buyer wants to assume your VA loan? Check lender approval, your release from liability, and whether your VA entitlement will be restored before you sell.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "googleBusinessProfile": "Selling a Houston House With a VA Loan Assumption\n\nA buyer wants to assume your VA loan? Check lender approval, your release from liability, and whether your VA entitlement will be restored before you sell.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "promotionalExcerpt": "A buyer wants to assume your VA loan? Check lender approval, your release from liability, and whether your VA entitlement will be restored before you sell.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  }
+}
