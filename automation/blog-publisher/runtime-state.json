@@ -1,11 +1,9 @@
 {
   "lease": {
-    "runId": "native-daily-20261112T144322Z",
-    "fence": 36,
-    "issuedAt": "2026-11-12T14:43:22.631Z",
-    "expiresAt": "2026-11-12T14:54:31.550Z",
-    "released": true,
-    "releasedAt": "2026-11-12T14:54:31.550Z"
+    "runId": "native-daily-20261113T142957Z",
+    "fence": 37,
+    "issuedAt": "2026-11-13T14:29:57.169Z",
+    "expiresAt": "2026-11-13T16:29:57.169Z"
   },
   "ledger": [
     {
@@ -1366,6 +1364,16 @@
       "publishedAt": "2026-11-12T14:52:40.265Z",
       "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
       "releaseGate": "pass"
+    },
+    {
+      "slug": "selling-houston-house-va-loan-assumption",
+      "intentKey": "houston-va-loan-assumption-seller-release-liability-entitlement-cash-gap",
+      "day": "2026-11-13",
+      "status": "reserved",
+      "headline": "VA LOAN|CHECK RELEASE",
+      "reservedAt": "2026-11-13T14:29:57.169Z",
+      "runId": "native-daily-20261113T142957Z",
+      "fence": 37
     }
   ],
   "externalApiSpendLimitUSD": 0,
