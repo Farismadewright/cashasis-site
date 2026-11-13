@@ -3,7 +3,9 @@
     "runId": "native-daily-20261113T142957Z",
     "fence": 37,
     "issuedAt": "2026-11-13T14:29:57.169Z",
-    "expiresAt": "2026-11-13T16:29:57.169Z"
+    "expiresAt": "2026-11-13T14:47:29.726Z",
+    "released": true,
+    "releasedAt": "2026-11-13T14:47:29.726Z"
   },
   "ledger": [
     {
@@ -1369,7 +1371,7 @@
       "slug": "selling-houston-house-va-loan-assumption",
       "intentKey": "houston-va-loan-assumption-seller-release-liability-entitlement-cash-gap",
       "day": "2026-11-13",
-      "status": "publishing",
+      "status": "published",
       "headline": "VA LOAN|CHECK FIRST",
       "reservedAt": "2026-11-13T14:29:57.169Z",
       "runId": "native-daily-20261113T142957Z",
@@ -1377,48 +1379,53 @@
       "publishingAt": "2026-11-13T14:39:27.349Z",
       "pr": 48,
       "previewCommit": "054145be7db600b19ac618d6de0288a3e3d0fe01",
-      "previewDeployId": "6af72059a9d3b191ab0f5cf7"
+      "previewDeployId": "6af72059a9d3b191ab0f5cf7",
+      "commit": "b86e2f28b7188aa808ba7e7cd603b3b6df350d28",
+      "deployId": "6af7212470e8ef4adfa3520b",
+      "publishedAt": "2026-11-13T14:40:14.827Z",
+      "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+      "releaseGate": "pass"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261112T144322Z",
-    "day": "2026-11-12",
-    "fence": 36,
+    "runId": "native-daily-20261113T142957Z",
+    "day": "2026-11-13",
+    "fence": 37,
     "status": "published",
     "published": 1,
     "held": 2,
     "articles": [
       {
-        "slug": "private-transfer-fee-selling-houston-house",
-        "intentKey": "houston-seller-private-transfer-fee-covenant-payee-records-before-closing",
-        "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
-        "commit": "3ecbbba48f5646b4f37d9d565d2e145932ace50a",
-        "deployId": "6af5d28e3962f3c680702c1b",
-        "publishedAt": "2026-11-12T14:52:40.265Z",
-        "pr": 47
+        "slug": "selling-houston-house-va-loan-assumption",
+        "intentKey": "houston-va-loan-assumption-seller-release-liability-entitlement-cash-gap",
+        "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "commit": "b86e2f28b7188aa808ba7e7cd603b3b6df350d28",
+        "deployId": "6af7212470e8ef4adfa3520b",
+        "pr": 48,
+        "publishedAt": "2026-11-13T14:40:14.827Z"
       }
     ],
     "heldCandidates": [
       {
-        "candidate": "When to expect the mortgage escrow refund after closing",
-        "existingSlug": "mortgage-escrow-refund-after-selling-houston-house",
-        "reason": "Same timing and payoff-versus-escrow decision already covered.",
-        "status": "hold"
+        "candidate": "Mortgage payoff versus statement balance",
+        "status": "hold",
+        "reason": "Existing mortgage, payoff and net guidance plus reserved validation fixture already cover this question; did not promote fixture."
       },
       {
-        "candidate": "How to verify a pending condo assessment before signing",
-        "existingSlug": "houston-condo-special-assessment-sale-records",
-        "reason": "Same assessment records, approved charges and buyer/seller allocation already covered.",
-        "status": "hold"
+        "candidate": "Cash offer versus listing price in Houston",
+        "existingSlug": "cash-offer-vs-listing-house-houston",
+        "status": "hold",
+        "reason": "Existing comparison already owns the intent; further variants would compete with it."
       }
     ],
-    "productionCommit": "3ecbbba48f5646b4f37d9d565d2e145932ace50a",
-    "productionDeployId": "6af5d28e3962f3c680702c1b",
-    "bookkeepingCommit": "245b69512ae01d60337355815f4c81ea41dc3ffe",
-    "monitoringCommit": "8d2893609c2b79d9b5e406eb23f3e14408acb8a7",
+    "productionCommit": "b86e2f28b7188aa808ba7e7cd603b3b6df350d28",
+    "productionDeployId": "6af7212470e8ef4adfa3520b",
+    "bookkeepingCommit": "878360293146c097117c55dfc87bfa3e976f3c3c",
+    "monitoringCommit": "ca176017a0a1acd399c40e6cc93c815d37af1a65",
     "monitoringInspections": 20,
-    "completedAt": "2026-11-12T14:54:31.550Z",
+    "monthlyReview": "2026-10",
+    "completedAt": "2026-11-13T14:47:29.726Z",
     "externalPaidApiSpendUSD": 0,
     "nativeIncrementalCost": null
   },
