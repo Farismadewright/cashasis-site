@@ -1042,5 +1042,23 @@
       "cash-offer-vs-listing-house-houston"
     ],
     "substantiveDifference": "Covers buyer assuming an existing VA loan, written release versus restoration of VA benefits and financing the equity gap. Reverse mortgage, forbearance and net comparisons do not answer this three-part approval decision."
+  },
+  {
+    "slug": "selling-houston-house-pending-property-tax-protest",
+    "intentKey": "houston-pending-appraisal-protest-change-owner-hearing-adjustment",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "commit": "efe5f0b0e831da8dff43ab7b09c05b0df4dfb8d3",
+    "deployId": "6af875a5e0d88f43fba0f68c",
+    "pr": 49,
+    "publishedAt": "2026-11-14T14:52:58.834Z",
+    "day": "2026-11-14",
+    "runId": "native-daily-20261114T144511Z",
+    "status": "published",
+    "nearestOverlaps": [
+      "property-tax-proration-selling-houston-house",
+      "hcad-tax-value-vs-cash-offer-harris-county",
+      "sell-house-back-taxes-harris-county"
+    ],
+    "substantiveDifference": "Open appraisal protest at ownership transfer, application to continue a pending case and how to distinguish a proposed reduction, final record, bill and settlement adjustment. Existing pages cover ordinary proration, value comparisons or delinquency."
   }
 ]

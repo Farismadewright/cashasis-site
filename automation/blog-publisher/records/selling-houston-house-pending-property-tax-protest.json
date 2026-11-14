@@ -2,7 +2,7 @@
   "slug": "selling-houston-house-pending-property-tax-protest",
   "intentKey": "houston-pending-appraisal-protest-change-owner-hearing-adjustment",
   "day": "2026-11-14",
-  "status": "preview",
+  "status": "published",
   "headline": "TAX PROTEST|STILL OPEN?",
   "reservedAt": "2026-11-14T14:46:08.686Z",
   "runId": "native-daily-20261114T144511Z",
@@ -199,8 +199,11 @@
     "build": "pass",
     "metadata": "pass",
     "mobile": "pass",
-    "links": "pending",
-    "preview": "pending"
+    "links": "pass",
+    "preview": "pass",
+    "deploy": "pass",
+    "render": "pass",
+    "conversion": "unavailable"
   },
   "social": {
     "slug": "selling-houston-house-pending-property-tax-protest",
@@ -217,5 +220,119 @@
       "#HoustonRealEstate",
       "#SellAsIs"
     ]
+  },
+  "previewQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "noindex": true,
+    "robots": true,
+    "inSitemap": true,
+    "sitemapRSS": true,
+    "image": "https://www.cashasis.com/images/selling-houston-house-pending-property-tax-protest.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "533c06cab578cfa2ea84096f4e877f06ff7a70e89995726c79d368f44ea30ccc",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/blog/sell-house-back-taxes-harris-county/": 200,
+      "/blog/property-tax-proration-selling-houston-house/": 200
+    },
+    "attributedCTA": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-14T14:50:36.070567+00:00",
+    "commit": "74b94a7f45ba1c1c4cc88462ae602a8ba3534f54",
+    "deployId": "6af874fb09fe4e83a75d33a5"
+  },
+  "commit": "efe5f0b0e831da8dff43ab7b09c05b0df4dfb8d3",
+  "deployId": "6af875a5e0d88f43fba0f68c",
+  "publishedAt": "2026-11-14T14:52:58.834Z",
+  "pr": 49,
+  "previewCommit": "74b94a7f45ba1c1c4cc88462ae602a8ba3534f54",
+  "previewDeployId": "6af874fb09fe4e83a75d33a5",
+  "productionQA": {
+    "status": "pass",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "HTTP": 200,
+    "canonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "noindex": false,
+    "robots": true,
+    "inSitemap": true,
+    "sitemapRSS": true,
+    "image": "https://www.cashasis.com/images/selling-houston-house-pending-property-tax-protest.png",
+    "imageDimensions": [
+      1200,
+      630
+    ],
+    "imageSHA256": "533c06cab578cfa2ea84096f4e877f06ff7a70e89995726c79d368f44ea30ccc",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 4,
+    "links": {
+      "/blog/sell-house-back-taxes-harris-county/": 200,
+      "/blog/property-tax-proration-selling-houston-house/": 200
+    },
+    "attributedCTA": true,
+    "HTMLCSSParity": true,
+    "checkedAt": "2026-11-14T14:53:12.270959+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-14",
+    "errors": []
+  },
+  "googleInspection": {
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-14T14:53:35.64739+00:00",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "googleCanonical": null,
+    "userCanonical": null,
+    "lastCrawlTime": null,
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rfM3UdSzZ2CIkzdLPKaC8A&utm_medium=link&utm_source=api"
+  },
+  "nextReviewAt": "2026-11-17T14:52:58.834000+00:00",
+  "seoIndexingConversionQA": {
+    "technicalEligible": true,
+    "previewNoindex": true,
+    "productionNoindex": false,
+    "distinctSellerDecision": "houston-pending-appraisal-protest-change-owner-hearing-adjustment",
+    "semanticReview": "Open appraisal protest at ownership transfer, application to continue a pending case and how to distinguish a proposed reduction, final record, bill and settlement adjustment. Existing pages cover ordinary proration, value comparisons or delinquency.",
+    "links": {
+      "/blog/sell-house-back-taxes-harris-county/": 200,
+      "/blog/property-tax-proration-selling-houston-house/": 200
+    },
+    "sellerPath": "Verified attribution and form destination without submission."
+  },
+  "GA4Measurement": "No verified deduplicated organic seller outcomes in this run.",
+  "searchConsoleMonitoring": {
+    "actualInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-14T14:53:35.64739+00:00",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rfM3UdSzZ2CIkzdLPKaC8A&utm_medium=link&utm_source=api"
+    },
+    "nextReviewAt": "2026-11-17T14:52:58.834000+00:00"
   }
 }

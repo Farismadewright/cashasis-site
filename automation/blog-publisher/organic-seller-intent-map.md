@@ -237,3 +237,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 ## November 13 seller intent and acquisition review
 - Published the VA assumption guide, distinct from payoff, reverse mortgage and forbearance decisions.
 - October blog: 1,091 Google impressions and one click versus September 65 and no clicks; average position 41.92 versus 29.71. October GA4: 8 organic blog landing sessions and no recorded key events; September blog baseline unavailable. Property organic sessions were 17 versus 4. No seller or funded GP verified. Review Missouri City snippet and first answer before further city content. Existing Lead Acquisition Engine/COO evidence: runs/2026-10-monthly.json and runs/2026-11-13.json.
+
+
+## November 14 seller intent and acquisition review
+- Published pending appraisal protest ownership handoff guide. Separate from general proration, delinquency or assessment-value comparison.
+- Settled October 15–November 11 GSC property: 1,052 impressions, 2 clicks, 0.19% CTR, position 33.92. Missouri City exact fast-sale query: 41 impressions, position 13.12, 0 clicks. Prioritize reviewing the live first answer and existing snippet before more city pages. Monthly review delivered November 13. No new validated organic seller or funded GP established. Existing acquisition/COO evidence: runs/2026-11-14.json.
