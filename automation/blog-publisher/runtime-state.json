@@ -1385,12 +1385,12 @@
       "releaseGate": "pass"
     },
     {
-      "slug": "seller-temporary-lease-after-closing-houston",
-      "intentKey": "houston-seller-stays-after-closing-temporary-lease-possession-cost-exit",
+      "slug": "selling-houston-house-pending-property-tax-protest",
+      "intentKey": "houston-pending-appraisal-protest-change-owner-hearing-adjustment",
       "day": "2026-11-14",
       "status": "reserved",
-      "headline": "STAY AFTER|CLOSING?",
-      "reservedAt": "2026-11-14T14:45:11.277Z",
+      "headline": "TAX PROTEST|STILL OPEN?",
+      "reservedAt": "2026-11-14T14:46:08.686Z",
       "runId": "native-daily-20261114T144511Z",
       "fence": 38
     }
@@ -1509,6 +1509,20 @@
       "recoveredByRunId": "native-daily-20261112T144322Z",
       "recoveredAt": "2026-11-12T14:54:31.550Z",
       "productionCommit": "3ecbbba48f5646b4f37d9d565d2e145932ace50a"
+    },
+    {
+      "slug": "seller-temporary-lease-after-closing-houston",
+      "intentKey": "houston-seller-stays-after-closing-temporary-lease-possession-cost-exit",
+      "day": "2026-11-14",
+      "status": "hold",
+      "headline": "STAY AFTER|CLOSING?",
+      "reservedAt": "2026-11-14T14:45:11.277Z",
+      "runId": "native-daily-20261114T144511Z",
+      "fence": 38,
+      "reason": "Same seller decision already answered by need-time-move-after-selling-houston-house; no generation.",
+      "heldAt": "2026-11-14T14:46:08.686Z",
+      "neverPublished": true,
+      "reservationReleased": true
     }
   ]
 }
