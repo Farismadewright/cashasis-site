@@ -1388,11 +1388,15 @@
       "slug": "selling-houston-house-pending-property-tax-protest",
       "intentKey": "houston-pending-appraisal-protest-change-owner-hearing-adjustment",
       "day": "2026-11-14",
-      "status": "reserved",
+      "status": "publishing",
       "headline": "TAX PROTEST|STILL OPEN?",
       "reservedAt": "2026-11-14T14:46:08.686Z",
       "runId": "native-daily-20261114T144511Z",
-      "fence": 38
+      "fence": 38,
+      "publishingAt": "2026-11-14T14:52:16.458Z",
+      "pr": 49,
+      "previewCommit": "74b94a7f45ba1c1c4cc88462ae602a8ba3534f54",
+      "previewDeployId": "6af874fb09fe4e83a75d33a5"
     }
   ],
   "externalApiSpendLimitUSD": 0,
