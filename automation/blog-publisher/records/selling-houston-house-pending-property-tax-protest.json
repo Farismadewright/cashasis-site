@@ -1,0 +1,221 @@
+{
+  "slug": "selling-houston-house-pending-property-tax-protest",
+  "intentKey": "houston-pending-appraisal-protest-change-owner-hearing-adjustment",
+  "day": "2026-11-14",
+  "status": "preview",
+  "headline": "TAX PROTEST|STILL OPEN?",
+  "reservedAt": "2026-11-14T14:46:08.686Z",
+  "runId": "native-daily-20261114T144511Z",
+  "fence": 38,
+  "title": "Selling a Houston House With a Pending Property Tax Protest",
+  "description": "Selling while a property tax protest is open? Confirm who can continue it after closing, what goes on the net sheet, and who handles a later bill change.",
+  "pubDate": "2026-11-14T14:48:00Z",
+  "primaryKeyword": "selling a Houston house with a pending property tax protest",
+  "image": "/images/selling-houston-house-pending-property-tax-protest.png",
+  "imageAlt": "Illustrative Houston-area brick house with Tax Protest Still Open headline and the Cash As-Is logo",
+  "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+  "supportingKeywords": [
+    "Texas appraisal protest after change of ownership",
+    "pending HCAD protest at closing",
+    "property tax adjustment after Houston house sale"
+  ],
+  "sellerVoice": {
+    "sample": 100,
+    "eligibleInbound": 33,
+    "screening": {
+      "price": 4,
+      "timing": 0,
+      "tenant": 0
+    },
+    "note": "Keyword screening only; no private content retained or recurring intent asserted."
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "actual": null,
+    "externalApiSpendUSD": 0
+  },
+  "imageSha256": "533c06cab578cfa2ea84096f4e877f06ff7a70e89995726c79d368f44ea30ccc",
+  "imageProvenance": {
+    "source": "native_work_imagegen",
+    "illustrative": true,
+    "prompt": "Photorealistic horizontal real estate illustration, modest single-story Houston-area brick house with beige siding at the gable, brick walkway and a broad shaded oak. House occupies rightmost 55 percent, with driveway and a neat but ordinary yard. Left 45 percent deliberately darker, empty tree shade and lawn, low texture for a title overlay. Authentic late afternoon light, natural colors. No people, cars, words, sign, numbers, address, logo or watermark. Fictional property illustration.",
+    "backgroundSHA256": "abee1c5b21ba4498f9d6b9dbdb9b7603fd068eb59a7bfdfde1c4598e3f8f1335",
+    "backgroundName": "exec-8f0ae310-4635-46b7-850a-0bbe0145dea2.png",
+    "template": "left-photo-transparent-v2",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "variant": "white",
+    "approvedHashesVerified": true,
+    "logoAlphaVerified": true,
+    "visualReview": "Large and 320px thumbnail, both responsive article and card views reviewed; intact logo, headline and margins."
+  },
+  "nearestOverlaps": [
+    "property-tax-proration-selling-houston-house",
+    "hcad-tax-value-vs-cash-offer-harris-county",
+    "sell-house-back-taxes-harris-county"
+  ],
+  "substantiveDifference": "Open appraisal protest at ownership transfer, application to continue a pending case and how to distinguish a proposed reduction, final record, bill and settlement adjustment. Existing pages cover ordinary proration, value comparisons or delinquency.",
+  "sources": [
+    {
+      "url": "https://tcss.legis.texas.gov/resources/TX/htm/TX.41.htm#41.412",
+      "title": "Texas Tax Code \u00a741.412(b)",
+      "verifiedAt": "2026-11-14",
+      "accessedAt": "2026-11-14",
+      "geography": "Texas",
+      "claim": "New owner may apply to appraisal review board to proceed with a protest pending when ownership changes.",
+      "method": "Reviewed current primary source; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
+    },
+    {
+      "url": "https://comptroller.texas.gov/taxes/property-tax/protests/",
+      "title": "Texas Comptroller appraisal protests and appeals",
+      "verifiedAt": "2026-11-14",
+      "accessedAt": "2026-11-14",
+      "geography": "Texas",
+      "claim": "Board issues a written order after ruling and directs notification of changes where applicable.",
+      "method": "Reviewed current primary source; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
+    },
+    {
+      "url": "https://hcad.org/hcad-help/protests-and-corrections/ifile-and-isettle",
+      "title": "HCAD iFile and iSettle",
+      "verifiedAt": "2026-11-14",
+      "accessedAt": "2026-11-14",
+      "geography": "Harris County",
+      "claim": "HCAD distinguishes online settlement from formal hearings.",
+      "method": "Reviewed current primary source; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
+    },
+    {
+      "url": "https://comptroller.texas.gov/taxes/property-tax/refunds.php",
+      "title": "Texas Comptroller property tax refunds",
+      "verifiedAt": "2026-11-14",
+      "accessedAt": "2026-11-14",
+      "geography": "Texas",
+      "claim": "Certain corrections may produce overpayment refunds; no promise of a seller-specific refund or contractual allocation.",
+      "method": "Reviewed current primary source; paraphrased",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "unit": null,
+      "figure": null
+    }
+  ],
+  "originality": {
+    "inventory": 214,
+    "maxExact12WordShingles": 0,
+    "semanticReview": "No pending protest handoff page in current inventory or topic ledger. No recurring CRM demand asserted."
+  },
+  "mobileEvidence": {
+    "passed": true,
+    "rows": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "h1": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "h1": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "h1": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "h1": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "canonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+        "terms": [
+          "post",
+          "inline",
+          "post"
+        ]
+      }
+    ]
+  },
+  "cardEvidence": {
+    "passed": true,
+    "widths": [
+      390,
+      1366
+    ]
+  },
+  "checks": {
+    "privacy": "pass",
+    "editorial": "pass",
+    "originality": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "mobile": "pass",
+    "links": "pending",
+    "preview": "pending"
+  },
+  "social": {
+    "slug": "selling-houston-house-pending-property-tax-protest",
+    "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "image": "https://www.cashasis.com/images/selling-houston-house-pending-property-tax-protest.png",
+    "status": "draft_only",
+    "facebook": "Selling a Houston House With a Pending Property Tax Protest\n\nSelling while a property tax protest is open? Confirm who can continue it after closing, what goes on the net sheet, and who handles a later bill change.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "instagram": "Selling a Houston House With a Pending Property Tax Protest\n\nSelling while a property tax protest is open? Confirm who can continue it after closing, what goes on the net sheet, and who handles a later bill change.\n\nRead the guide: https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Houston House With a Pending Property Tax Protest\n\nSelling while a property tax protest is open? Confirm who can continue it after closing, what goes on the net sheet, and who handles a later bill change.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "googleBusinessProfile": "Selling a Houston House With a Pending Property Tax Protest\n\nSelling while a property tax protest is open? Confirm who can continue it after closing, what goes on the net sheet, and who handles a later bill change.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+    "promotionalExcerpt": "Selling while a property tax protest is open? Confirm who can continue it after closing, what goes on the net sheet, and who handles a later bill change.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  }
+}
