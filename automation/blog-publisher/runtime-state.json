@@ -1,11 +1,9 @@
 {
   "lease": {
-    "runId": "native-daily-20261113T142957Z",
-    "fence": 37,
-    "issuedAt": "2026-11-13T14:29:57.169Z",
-    "expiresAt": "2026-11-13T14:47:29.726Z",
-    "released": true,
-    "releasedAt": "2026-11-13T14:47:29.726Z"
+    "runId": "native-daily-20261114T144511Z",
+    "fence": 38,
+    "issuedAt": "2026-11-14T14:45:11.277Z",
+    "expiresAt": "2026-11-14T16:45:11.277Z"
   },
   "ledger": [
     {
@@ -1385,6 +1383,16 @@
       "publishedAt": "2026-11-13T14:40:14.827Z",
       "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
       "releaseGate": "pass"
+    },
+    {
+      "slug": "seller-temporary-lease-after-closing-houston",
+      "intentKey": "houston-seller-stays-after-closing-temporary-lease-possession-cost-exit",
+      "day": "2026-11-14",
+      "status": "reserved",
+      "headline": "STAY AFTER|CLOSING?",
+      "reservedAt": "2026-11-14T14:45:11.277Z",
+      "runId": "native-daily-20261114T144511Z",
+      "fence": 38
     }
   ],
   "externalApiSpendLimitUSD": 0,
