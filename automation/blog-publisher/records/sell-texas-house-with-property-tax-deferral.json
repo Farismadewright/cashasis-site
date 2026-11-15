@@ -4,7 +4,7 @@
   "day": "2026-11-15",
   "slug": "sell-texas-house-with-property-tax-deferral",
   "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
-  "status": "draft",
+  "status": "published",
   "reservedAt": "2026-11-15T14:22:28.064Z",
   "title": "Selling a Texas House With a Property Tax Deferral",
   "description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
@@ -119,33 +119,209 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending",
+    "preview": "pass",
+    "deploy": "pass",
     "conversionReporting": "unavailable_optional"
   },
-  "commit": null,
-  "deployId": null,
+  "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+  "deployId": "6af9c270d838c871a6f37b98",
   "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
   "seoLifecycle": {
-    "stage": "local_verified",
+    "stage": "published_locally_eligible_monitoring",
     "local": {
       "specificSearchIntent": true,
       "contentQuality": true,
-      "duplicateContent": false,
+      "duplicateContent": "No semantic duplicate after checking fresh corpus, seller pages and open PRs.",
       "cannibalization": "No duplicate search intent found; broad existing delinquency guides retained.",
-      "robotsNoindex": "production candidate eligible, preview verification pending",
-      "indexability": "local built route, pending live",
+      "robotsNoindex": "Exact preview noindex; production indexable",
+      "indexability": "Live HTTP 200 and crawl eligible",
       "canonical": "expected self canonical confirmed",
-      "sitemapEligibility": "local sitemap and RSS",
+      "sitemapEligibility": "Sitemap and RSS verified in production",
       "meaningfulInternalLinks": "2 in-body related guides and incoming hub card",
       "sellerConversionPath": "existing cash offer form and attributed inline and layout links",
       "factualSources": "Three current primary sources; calculation labeled hypothetical."
     },
     "searchConsoleMonitoring": {
-      "status": "awaiting_publication"
+      "canonicalURL": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-15T14:33:35.718763+00:00",
+      "inspectionVerdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "nextReview": "2026-11-18",
+      "note": "Initial unknown is a discovery observation."
     },
     "ga4Measurement": {
-      "status": "unavailable_for_unpublished_url"
+      "status": "unavailable_new_publication",
+      "validatedSellerLeads": null,
+      "fundedRetainedGP": null
+    }
+  },
+  "social": {
+    "slug": "sell-texas-house-with-property-tax-deferral",
+    "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+    "image": "https://www.cashasis.com/images/sell-texas-house-with-property-tax-deferral.png",
+    "status": "draft_only",
+    "facebook": "Selling a Texas House With a Property Tax Deferral\n\nSelling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+    "instagram": "Selling a Texas House With a Property Tax Deferral\n\nSelling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.\n\nRead the guide: https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Selling a Texas House With a Property Tax Deferral\n\nSelling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+    "googleBusinessProfile": "Selling a Texas House With a Property Tax Deferral\n\nSelling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+    "promotionalExcerpt": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "preview": {
+    "commit": "c31723a52ed79465c0ec5775a905370ca1e5845c",
+    "deployId": "6af9c1b450b552356a6246e7",
+    "url": "https://deploy-preview-50--cashasis-blog.netlify.app/blog/sell-texas-house-with-property-tax-deferral/",
+    "checks": {
+      "base": "https://deploy-preview-50--cashasis-blog.netlify.app",
+      "checkedAt": "2026-11-15T14:30:42.765559+00:00",
+      "checks": {
+        "allHTTP200": true,
+        "htmlArticleAndTitleParity": true,
+        "assetParity": true,
+        "expectedIndexDirectives": true,
+        "robotsAllowsCrawl": true,
+        "canonical": true,
+        "properShareImages": true,
+        "imageDimensions": true,
+        "schemas": true,
+        "matchingFAQ": true,
+        "inlineAndPostCTA": true,
+        "offerDestinationForm": true,
+        "meaningfulLinks": true,
+        "hubNavigation": true,
+        "sitemap": true,
+        "rss": true,
+        "singleH1": true,
+        "alt": true,
+        "metaDescription": true
+      },
+      "http": {
+        "/blog/sell-texas-house-with-property-tax-deferral/": 200,
+        "/images/sell-texas-house-with-property-tax-deferral.png": 200,
+        "/blog/": 200,
+        "/": 200,
+        "/robots.txt": 200,
+        "/sitemap-index.xml": 200,
+        "/sitemap-0.xml": 200,
+        "/rss.xml": 200,
+        "/styles.css": 200,
+        "/js/cashasis-attribution.js": 200,
+        "/js/cashasis-dni.js": 200,
+        "/blog/property-tax-proration-selling-houston-house/": 200,
+        "/blog/sell-house-back-taxes-harris-county/": 200
+      },
+      "canonical": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+      "robotsDirectives": "noindex",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "sha256": {
+        "/images/sell-texas-house-with-property-tax-deferral.png": "4796961c6409d0aa1a10baf8b0b647eae7bea48ee0edf01d9f1968e9ed5628cf",
+        "/styles.css": "ccf3e8ba9bca352cc0f82fcf5e37a833e7fe9246d51194c40a114adf322ce121"
+      },
+      "metadata": {
+        "description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+        "twitter:title": "Selling a Texas House With a Property Tax Deferral",
+        "twitter:description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+        "twitter:card": "summary_large_image"
+      },
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "visibleFAQ": 4,
+      "ctaTerms": [
+        "post",
+        "inline",
+        "post"
+      ],
+      "deployedId": "6af9c1b450b552356a6246e7"
+    }
+  },
+  "pr": 50,
+  "publishedAt": "2026-11-15T14:32:53.581Z",
+  "production": {
+    "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+    "deployId": "6af9c270d838c871a6f37b98",
+    "deployContext": "production",
+    "publishedAt": "2026-11-15T14:32:53.581Z",
+    "checks": {
+      "base": "https://www.cashasis.com",
+      "checkedAt": "2026-11-15T14:33:11.833999+00:00",
+      "checks": {
+        "allHTTP200": true,
+        "htmlArticleAndTitleParity": true,
+        "assetParity": true,
+        "expectedIndexDirectives": true,
+        "robotsAllowsCrawl": true,
+        "canonical": true,
+        "properShareImages": true,
+        "imageDimensions": true,
+        "schemas": true,
+        "matchingFAQ": true,
+        "inlineAndPostCTA": true,
+        "offerDestinationForm": true,
+        "meaningfulLinks": true,
+        "hubNavigation": true,
+        "sitemap": true,
+        "rss": true,
+        "singleH1": true,
+        "alt": true,
+        "metaDescription": true
+      },
+      "http": {
+        "/blog/sell-texas-house-with-property-tax-deferral/": 200,
+        "/images/sell-texas-house-with-property-tax-deferral.png": 200,
+        "/blog/": 200,
+        "/": 200,
+        "/robots.txt": 200,
+        "/sitemap-index.xml": 200,
+        "/sitemap-0.xml": 200,
+        "/rss.xml": 200,
+        "/styles.css": 200,
+        "/js/cashasis-attribution.js": 200,
+        "/js/cashasis-dni.js": 200,
+        "/blog/property-tax-proration-selling-houston-house/": 200,
+        "/blog/sell-house-back-taxes-harris-county/": 200
+      },
+      "canonical": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+      "robotsDirectives": "",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "sha256": {
+        "/images/sell-texas-house-with-property-tax-deferral.png": "4796961c6409d0aa1a10baf8b0b647eae7bea48ee0edf01d9f1968e9ed5628cf",
+        "/styles.css": "ccf3e8ba9bca352cc0f82fcf5e37a833e7fe9246d51194c40a114adf322ce121"
+      },
+      "metadata": {
+        "description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+        "twitter:title": "Selling a Texas House With a Property Tax Deferral",
+        "twitter:description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+        "twitter:card": "summary_large_image"
+      },
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "visibleFAQ": 4,
+      "ctaTerms": [
+        "post",
+        "inline",
+        "post"
+      ],
+      "deployedId": null
     }
   }
 }

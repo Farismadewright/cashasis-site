@@ -1060,5 +1060,25 @@
       "sell-house-back-taxes-harris-county"
     ],
     "substantiveDifference": "Open appraisal protest at ownership transfer, application to continue a pending case and how to distinguish a proposed reduction, final record, bill and settlement adjustment. Existing pages cover ordinary proration, value comparisons or delinquency."
+  },
+  {
+    "slug": "sell-texas-house-with-property-tax-deferral",
+    "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
+    "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+    "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+    "deployId": "6af9c270d838c871a6f37b98",
+    "pr": 50,
+    "publishedAt": "2026-11-15T14:32:53.581Z",
+    "day": "2026-11-15",
+    "runId": "native-daily-20261115T142145Z",
+    "status": "published",
+    "nearestOverlaps": [
+      "sell-house-back-taxes-harris-county",
+      "sell-tax-delinquent-house-fort-bend-county",
+      "sell-house-delinquent-property-taxes-texas",
+      "selling-houston-house-pending-property-tax-protest",
+      "property-tax-proration-selling-houston-house"
+    ],
+    "substantiveDifference": "Separates a filed \u00a733.06 collection deferral from ordinary back taxes, a valuation protest and current-year proration. Gives the deferral-record, collector-notice and dated-payoff decision before selecting a buyer or committing to a move. Fresh main content, seller pages, pending PRs and topic ledger screened; no city variant."
   }
 ]

@@ -1,0 +1,375 @@
+{
+  "runId": "native-daily-20261115T142145Z",
+  "day": "2026-11-15",
+  "fence": 39,
+  "status": "published",
+  "published": 1,
+  "held": 0,
+  "articles": [
+    {
+      "slug": "sell-texas-house-with-property-tax-deferral",
+      "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
+      "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+      "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+      "deployId": "6af9c270d838c871a6f37b98",
+      "pr": 50,
+      "publishedAt": "2026-11-15T14:32:53.581Z"
+    }
+  ],
+  "notFilled": "One distinct question qualified; remaining capacity unused. No article generated to fill quota.",
+  "mainAtStart": "72bb1c9f6c46c39d33a1481245c9affca2bb8e67",
+  "productionAtStart": {
+    "id": "6af8761e29d70a0b47a176cd",
+    "state": "ready",
+    "commit": "72bb1c9f6c46c39d33a1481245c9affca2bb8e67"
+  },
+  "pendingPRsPreserved": [
+    27,
+    7,
+    6,
+    5
+  ],
+  "sellerVoice": {
+    "mode": "read_only",
+    "sample": 100,
+    "inbound": 37,
+    "themeCounts": {
+      "close": 0,
+      "condition": 1,
+      "tax": 0,
+      "appraisal": 0
+    },
+    "limitations": "Bounded anonymous SMS screen did not establish recurrence or demand for tax deferral. No identifying details, quotes or amounts accessed in output or retained."
+  },
+  "searchConsole": {
+    "window": [
+      "2026-10-16",
+      "2026-11-12"
+    ],
+    "settledThrough": "2026-11-13",
+    "totals": {
+      "clicks": 2,
+      "impressions": 1036,
+      "ctrPercent": 0.19,
+      "avgPositionWeighted": 33.6
+    },
+    "queryPageRows": 148,
+    "coverage": {
+      "rowsReturned": 148,
+      "rowsTotal": 148,
+      "clicksCovered": 0,
+      "impressionsCovered": 0.6969,
+      "hiddenClicksShare": 1,
+      "hiddenImpressionsShare": 0.3031,
+      "totalsFrom": "get_site_summary",
+      "siteTotals": {
+        "clicks": 2,
+        "impressions": 1036,
+        "ctrPercent": 0.19,
+        "avgPositionWeighted": 33.6
+      },
+      "scope": "property",
+      "sharesOf": "siteTotals"
+    },
+    "opportunities": [
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 39,
+        "ctr": 0,
+        "position": 12.820512820512821
+      },
+      {
+        "keys": [
+          "we buy houses missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 37,
+        "ctr": 0,
+        "position": 17.64864864864865
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0,
+        "position": 13.758620689655173
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 23,
+        "ctr": 0,
+        "position": 15.521739130434783
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "sell your house fast in missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 12.428571428571429
+      },
+      {
+        "keys": [
+          "sell with delinquent taxes",
+          "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 14.363636363636363
+      },
+      {
+        "keys": [
+          "sell my house fast texas city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 13.7
+      }
+    ],
+    "editorialNext": "Missouri City snippet already targets the observed queries. The opening repeats keyword variants before answering the seller decision. Compare a direct offer/timing first answer with the live page and PR27; no automatic rewrite. Texas delinquency page has a smaller opportunity. Preserve separated deferral and delinquency intents.",
+    "source": "Google Search Console via owner-approved read-only GSC Wizard; 28-day trailing context, not two settled weekly comparisons."
+  },
+  "ga4": {
+    "sessionScope": "GA4 session channel Organic Search, original blog landing paths, scoped production hostnames",
+    "period": {
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-12"
+    },
+    "timezone": "America/Chicago",
+    "complete": true,
+    "organicBlogLandingSessions": 5,
+    "recordedBlogLandingKeyEvents": 0,
+    "validatedSellerLeads": null,
+    "qualifiedSeller": null,
+    "agreements": null,
+    "fundedRetainedGP": null,
+    "note": "GA4 events are not independently validated seller leads. No seller outcomes verified in this run."
+  },
+  "monitoring": {
+    "coverage": {
+      "eligibleSitemapURLs": 221,
+      "eligibleBlogArticles": 193,
+      "retainedActualInspectionCoverage": 221,
+      "retainedActualBlogCoverage": 193,
+      "indexedTotal": 203,
+      "indexedBlogArticles": 179,
+      "notPASS": 18,
+      "unavailable": 0,
+      "latestObservationRange": [
+        "2026-10-14T15:00:38.445872+00:00",
+        "2026-11-15T14:33:35.718763+00:00"
+      ],
+      "basis": "Latest retained actual Google inspections across mixed dates, not a fresh census.",
+      "observedAt": "2026-11-15T14:34:05.692Z"
+    },
+    "actualInspectionCalls": 20,
+    "remaining": 90,
+    "publicationInspection": {
+      "canonicalURL": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-15T14:33:35.718763+00:00",
+      "inspectionVerdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "googleCanonical": null,
+      "userCanonical": null,
+      "lastCrawlTime": null,
+      "nextReview": "2026-11-18",
+      "note": "Initial unknown is a discovery observation."
+    },
+    "reviewReceipts": {
+      "weekly": "2026-W46 already delivered",
+      "monthly": "2026-10 already delivered",
+      "nextWeekly": "2026-W47"
+    },
+    "notification": {
+      "status": "suppressed",
+      "reason": "No new actionable publishing or confirmed indexing issue; routine new-URL discovery, unchanged historical exceptions and small ranking differences."
+    },
+    "checkpointCommit": "1f5e01c63648937ff0626559167591a75ff01ffa"
+  },
+  "release": {
+    "pr": "https://github.com/Farismadewright/cashasis-site/pull/50",
+    "preview": {
+      "commit": "c31723a52ed79465c0ec5775a905370ca1e5845c",
+      "deployId": "6af9c1b450b552356a6246e7",
+      "url": "https://deploy-preview-50--cashasis-blog.netlify.app/blog/sell-texas-house-with-property-tax-deferral/",
+      "checks": {
+        "base": "https://deploy-preview-50--cashasis-blog.netlify.app",
+        "checkedAt": "2026-11-15T14:30:42.765559+00:00",
+        "checks": {
+          "allHTTP200": true,
+          "htmlArticleAndTitleParity": true,
+          "assetParity": true,
+          "expectedIndexDirectives": true,
+          "robotsAllowsCrawl": true,
+          "canonical": true,
+          "properShareImages": true,
+          "imageDimensions": true,
+          "schemas": true,
+          "matchingFAQ": true,
+          "inlineAndPostCTA": true,
+          "offerDestinationForm": true,
+          "meaningfulLinks": true,
+          "hubNavigation": true,
+          "sitemap": true,
+          "rss": true,
+          "singleH1": true,
+          "alt": true,
+          "metaDescription": true
+        },
+        "http": {
+          "/blog/sell-texas-house-with-property-tax-deferral/": 200,
+          "/images/sell-texas-house-with-property-tax-deferral.png": 200,
+          "/blog/": 200,
+          "/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/property-tax-proration-selling-houston-house/": 200,
+          "/blog/sell-house-back-taxes-harris-county/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+        "robotsDirectives": "noindex",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "sha256": {
+          "/images/sell-texas-house-with-property-tax-deferral.png": "4796961c6409d0aa1a10baf8b0b647eae7bea48ee0edf01d9f1968e9ed5628cf",
+          "/styles.css": "ccf3e8ba9bca352cc0f82fcf5e37a833e7fe9246d51194c40a114adf322ce121"
+        },
+        "metadata": {
+          "description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+          "twitter:title": "Selling a Texas House With a Property Tax Deferral",
+          "twitter:description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+          "twitter:card": "summary_large_image"
+        },
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQ": 4,
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployedId": "6af9c1b450b552356a6246e7"
+      }
+    },
+    "gate": {
+      "allowed": true,
+      "day": "2026-11-15",
+      "errors": []
+    },
+    "production": {
+      "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+      "deployId": "6af9c270d838c871a6f37b98",
+      "deployContext": "production",
+      "publishedAt": "2026-11-15T14:32:53.581Z",
+      "checks": {
+        "base": "https://www.cashasis.com",
+        "checkedAt": "2026-11-15T14:33:11.833999+00:00",
+        "checks": {
+          "allHTTP200": true,
+          "htmlArticleAndTitleParity": true,
+          "assetParity": true,
+          "expectedIndexDirectives": true,
+          "robotsAllowsCrawl": true,
+          "canonical": true,
+          "properShareImages": true,
+          "imageDimensions": true,
+          "schemas": true,
+          "matchingFAQ": true,
+          "inlineAndPostCTA": true,
+          "offerDestinationForm": true,
+          "meaningfulLinks": true,
+          "hubNavigation": true,
+          "sitemap": true,
+          "rss": true,
+          "singleH1": true,
+          "alt": true,
+          "metaDescription": true
+        },
+        "http": {
+          "/blog/sell-texas-house-with-property-tax-deferral/": 200,
+          "/images/sell-texas-house-with-property-tax-deferral.png": 200,
+          "/blog/": 200,
+          "/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/property-tax-proration-selling-houston-house/": 200,
+          "/blog/sell-house-back-taxes-harris-county/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+        "robotsDirectives": "",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "sha256": {
+          "/images/sell-texas-house-with-property-tax-deferral.png": "4796961c6409d0aa1a10baf8b0b647eae7bea48ee0edf01d9f1968e9ed5628cf",
+          "/styles.css": "ccf3e8ba9bca352cc0f82fcf5e37a833e7fe9246d51194c40a114adf322ce121"
+        },
+        "metadata": {
+          "description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+          "twitter:title": "Selling a Texas House With a Property Tax Deferral",
+          "twitter:description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+          "twitter:card": "summary_large_image"
+        },
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "visibleFAQ": 4,
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployedId": null
+      }
+    }
+  },
+  "externalPaidApiSpendUSD": 0,
+  "protectedSourceChanges": [],
+  "completedAt": "2026-11-15T14:34:56.138Z"
+}

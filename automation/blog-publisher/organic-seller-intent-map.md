@@ -242,3 +242,9 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 ## November 14 seller intent and acquisition review
 - Published pending appraisal protest ownership handoff guide. Separate from general proration, delinquency or assessment-value comparison.
 - Settled October 15–November 11 GSC property: 1,052 impressions, 2 clicks, 0.19% CTR, position 33.92. Missouri City exact fast-sale query: 41 impressions, position 13.12, 0 clicks. Prioritize reviewing the live first answer and existing snippet before more city pages. Monthly review delivered November 13. No new validated organic seller or funded GP established. Existing acquisition/COO evidence: runs/2026-11-14.json.
+
+### November 15, 2026 — organic seller evidence
+
+- Search Console, October 16–November 12: 1,036 impressions and 2 clicks sitewide. The Missouri City fast-sale query had 39 impressions, position 12.82 and no clicks; the local buyer query had 37, position 17.65 and no clicks. Review the opening answer and compare the existing snippet before expanding city coverage.
+- GA4 for that window records 5 scoped Organic Search blog landing sessions and no recorded key events. Validated seller leads and funded retained GP remain unverified. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-15.json`.
+
