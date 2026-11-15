@@ -1,0 +1,151 @@
+{
+  "runId": "native-daily-20261115T142145Z",
+  "fence": 39,
+  "day": "2026-11-15",
+  "slug": "sell-texas-house-with-property-tax-deferral",
+  "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
+  "status": "draft",
+  "reservedAt": "2026-11-15T14:22:28.064Z",
+  "title": "Selling a Texas House With a Property Tax Deferral",
+  "description": "Selling a Texas house with deferred homestead taxes? Find out what to ask the tax collector and title company before you count on your closing proceeds.",
+  "primaryKeyword": "selling a Texas house with a property tax deferral",
+  "supportingKeywords": [
+    "deferred property taxes at closing",
+    "Texas homestead tax deferral payoff",
+    "Fort Bend property tax deferral after selling"
+  ],
+  "sellerQuestion": "What happens to my existing Texas residence homestead tax deferral if I move out or sell?",
+  "nearestOverlaps": [
+    "/blog/sell-house-back-taxes-harris-county/",
+    "/blog/sell-tax-delinquent-house-fort-bend-county/",
+    "/blog/sell-house-delinquent-property-taxes-texas/",
+    "/blog/selling-houston-house-pending-property-tax-protest/",
+    "/blog/property-tax-proration-selling-houston-house/"
+  ],
+  "substantiveDifference": "Separates a filed §33.06 collection deferral from ordinary back taxes, a valuation protest and current-year proration. Gives the deferral-record, collector-notice and dated-payoff decision before selecting a buyer or committing to a move. Fresh main content, seller pages, pending PRs and topic ledger screened; no city variant.",
+  "serviceGeography": "Greater Houston, Harris and Fort Bend, corroborated by current CashAsIs seller pages.",
+  "sellerVoice": {
+    "mode": "read_only",
+    "sample": 100,
+    "inbound": 37,
+    "themeCounts": {
+      "close": 0,
+      "condition": 1,
+      "tax": 0,
+      "appraisal": 0
+    },
+    "limitations": "Bounded anonymous SMS screen did not establish recurrence or demand for tax deferral. No identifying details, quotes or amounts accessed in output or retained."
+  },
+  "sources": [
+    {
+      "url": "https://tcss.legis.texas.gov/resources/TX/htm/TX.33.htm#33.06",
+      "title": "Texas Tax Code § 33.06",
+      "accessedAt": "2026-11-15",
+      "verifiedAt": "2026-11-15",
+      "publicationDate": null,
+      "reportingPeriod": "Current at access",
+      "geography": "Texas",
+      "unit": "annual interest (%) / days",
+      "figure": {
+        "interest": 5,
+        "collectionRestrictionEndsOnDayAfterNotice": 181
+      },
+      "method": "Reviewed current primary source; HTTPS 200; mapped documented claims to article text.",
+      "claim": "Personal residence homestead eligibility, retained tax lien and 5% annual interest during deferral; notice-based restriction after ownership and occupancy end; qualified surviving spouse rule."
+    },
+    {
+      "url": "https://hcad.org/hcad-help/texas-first-time-property-owner/exemptions/tax-deferral-for-homeowners",
+      "title": "Harris Central Appraisal District: Tax Deferral for Homeowners",
+      "accessedAt": "2026-11-15",
+      "verifiedAt": "2026-11-15",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "geography": "Harris County",
+      "unit": null,
+      "figure": null,
+      "method": "Reviewed current primary source; HTTPS 200; mapped documented claims to article text.",
+      "claim": "Distinguishes deferral from a homestead exemption and explains district filing and that the taxes and interest must ultimately be paid."
+    },
+    {
+      "url": "https://www.fbcad.org/property-tax-deferrals-for-homeowners/",
+      "title": "Fort Bend Central Appraisal District: Property Tax Deferrals for Homeowners",
+      "accessedAt": "2026-11-15",
+      "verifiedAt": "2026-11-15",
+      "publicationDate": null,
+      "reportingPeriod": null,
+      "geography": "Fort Bend County",
+      "unit": null,
+      "figure": null,
+      "method": "Reviewed current primary source; HTTPS 200; mapped documented claims to article text.",
+      "claim": "Fort Bend filing channel, homeowner eligibility and confirmation that deferral postpones taxes. Statutory text controls calculation after notice."
+    }
+  ],
+  "calculation": {
+    "kind": "hypothetical_not_market_data",
+    "beforeDeferredTaxPayoff": 76000,
+    "assumedPayoff": 8400,
+    "afterPayoff": 67600
+  },
+  "image": "/images/sell-texas-house-with-property-tax-deferral.png",
+  "imageSha256": "4796961c6409d0aa1a10baf8b0b647eae7bea48ee0edf01d9f1968e9ed5628cf",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "TAX DEFERRAL AT CLOSING",
+    "wordCount": 4,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "provenance": "Native Work imagegen exec-baec6e3a-7a56-4caf-b8b2-855b186fb870; imaginary property; official transparent logo and headline applied deterministically.",
+    "backgroundSha256": "0c5f82f06c8d3f2a611c2ad2f0ae200256d6a9a769b20c757daf231292cfe8b6",
+    "layout": "Approved locked thumbnail; width preflight 633/502px; readability, placement and alpha reviewed."
+  },
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work and existing Netlify allowances; incremental native cost unavailable."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending",
+    "conversionReporting": "unavailable_optional"
+  },
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+  "seoLifecycle": {
+    "stage": "local_verified",
+    "local": {
+      "specificSearchIntent": true,
+      "contentQuality": true,
+      "duplicateContent": false,
+      "cannibalization": "No duplicate search intent found; broad existing delinquency guides retained.",
+      "robotsNoindex": "production candidate eligible, preview verification pending",
+      "indexability": "local built route, pending live",
+      "canonical": "expected self canonical confirmed",
+      "sitemapEligibility": "local sitemap and RSS",
+      "meaningfulInternalLinks": "2 in-body related guides and incoming hub card",
+      "sellerConversionPath": "existing cash offer form and attributed inline and layout links",
+      "factualSources": "Three current primary sources; calculation labeled hypothetical."
+    },
+    "searchConsoleMonitoring": {
+      "status": "awaiting_publication"
+    },
+    "ga4Measurement": {
+      "status": "unavailable_for_unpublished_url"
+    }
+  }
+}
