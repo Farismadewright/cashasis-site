@@ -1402,6 +1402,15 @@
       "publishedAt": "2026-11-14T14:52:58.834Z",
       "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
       "releaseGate": "pass"
+    },
+    {
+      "runId": "native-daily-20261115T142145Z",
+      "fence": 39,
+      "day": "2026-11-15",
+      "slug": "sell-texas-house-with-property-tax-deferral",
+      "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
+      "status": "reserved",
+      "reservedAt": "2026-11-15T14:22:28.064Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
