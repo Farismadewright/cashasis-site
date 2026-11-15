@@ -1409,8 +1409,12 @@
       "day": "2026-11-15",
       "slug": "sell-texas-house-with-property-tax-deferral",
       "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
-      "status": "reserved",
-      "reservedAt": "2026-11-15T14:22:28.064Z"
+      "status": "publishing",
+      "reservedAt": "2026-11-15T14:22:28.064Z",
+      "publishingAt": "2026-11-15T14:32:11.824Z",
+      "pr": 50,
+      "headCommit": "c31723a52ed79465c0ec5775a905370ca1e5845c",
+      "previewDeployId": "6af9c1b450b552356a6246e7"
     }
   ],
   "externalApiSpendLimitUSD": 0,
