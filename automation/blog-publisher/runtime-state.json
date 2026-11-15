@@ -1,11 +1,9 @@
 {
   "lease": {
-    "runId": "native-daily-20261114T144511Z",
-    "fence": 38,
-    "issuedAt": "2026-11-14T14:45:11.277Z",
-    "expiresAt": "2026-11-14T14:54:25.192Z",
-    "released": true,
-    "releasedAt": "2026-11-14T14:54:25.192Z"
+    "runId": "native-daily-20261115T142145Z",
+    "fence": 39,
+    "issuedAt": "2026-11-15T14:21:45.207Z",
+    "expiresAt": "2026-11-15T16:21:45.207Z"
   },
   "ledger": [
     {
