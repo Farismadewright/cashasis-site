@@ -3,7 +3,9 @@
     "runId": "native-daily-20261115T142145Z",
     "fence": 39,
     "issuedAt": "2026-11-15T14:21:45.207Z",
-    "expiresAt": "2026-11-15T16:21:45.207Z"
+    "expiresAt": "2026-11-15T14:35:52.726Z",
+    "released": true,
+    "releasedAt": "2026-11-15T14:35:52.726Z"
   },
   "ledger": [
     {
@@ -1409,47 +1411,44 @@
       "day": "2026-11-15",
       "slug": "sell-texas-house-with-property-tax-deferral",
       "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-15T14:22:28.064Z",
       "publishingAt": "2026-11-15T14:32:11.824Z",
       "pr": 50,
       "headCommit": "c31723a52ed79465c0ec5775a905370ca1e5845c",
-      "previewDeployId": "6af9c1b450b552356a6246e7"
+      "previewDeployId": "6af9c1b450b552356a6246e7",
+      "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+      "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+      "deployId": "6af9c270d838c871a6f37b98",
+      "publishedAt": "2026-11-15T14:32:53.581Z",
+      "verifiedAt": "2026-11-15T14:33:11.833999+00:00"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261114T144511Z",
-    "day": "2026-11-14",
-    "fence": 38,
+    "runId": "native-daily-20261115T142145Z",
+    "day": "2026-11-15",
+    "fence": 39,
     "status": "published",
     "published": 1,
-    "held": 1,
+    "held": 0,
     "articles": [
       {
-        "slug": "selling-houston-house-pending-property-tax-protest",
-        "intentKey": "houston-pending-appraisal-protest-change-owner-hearing-adjustment",
-        "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
-        "commit": "efe5f0b0e831da8dff43ab7b09c05b0df4dfb8d3",
-        "deployId": "6af875a5e0d88f43fba0f68c",
-        "pr": 49,
-        "publishedAt": "2026-11-14T14:52:58.834Z"
+        "slug": "sell-texas-house-with-property-tax-deferral",
+        "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
+        "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+        "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+        "deployId": "6af9c270d838c871a6f37b98",
+        "pr": 50,
+        "publishedAt": "2026-11-15T14:32:53.581Z"
       }
     ],
-    "heldCandidates": [
-      {
-        "candidate": "Seller temporary possession after closing",
-        "existingSlug": "need-time-move-after-selling-houston-house",
-        "status": "hold",
-        "reason": "Same temporary lease, later closing and cost decision; no generation."
-      }
-    ],
-    "productionCommit": "efe5f0b0e831da8dff43ab7b09c05b0df4dfb8d3",
-    "productionDeployId": "6af875a5e0d88f43fba0f68c",
-    "bookkeepingCommit": "72bb1c9f6c46c39d33a1481245c9affca2bb8e67",
-    "monitoringCommit": "2c9d444137aacf802e6e317888ee6d8dda9a055f",
+    "productionCommit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
+    "productionDeployId": "6af9c270d838c871a6f37b98",
+    "bookkeepingCommit": "81fa0b1ff2f6f3c193971e581b635c718c3fda2e",
+    "monitoringCommit": "1f5e01c63648937ff0626559167591a75ff01ffa",
     "monitoringInspections": 20,
-    "completedAt": "2026-11-14T14:54:25.192Z",
+    "completedAt": "2026-11-15T14:35:52.726Z",
     "externalPaidApiSpendUSD": 0,
     "nativeIncrementalCost": null
   },
