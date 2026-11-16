@@ -1427,8 +1427,12 @@
       "day": "2026-11-16",
       "slug": "fha-appraisal-repairs-selling-houston-house",
       "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
-      "status": "reserved",
-      "reservedAt": "2026-11-16T14:17:41.273Z"
+      "status": "publishing",
+      "reservedAt": "2026-11-16T14:17:41.273Z",
+      "publishingAt": "2026-11-16T14:26:41.882Z",
+      "pr": 51,
+      "headCommit": "3c40a985b898e86203a601e779e736166a3f6ca0",
+      "previewDeployId": "6afb11e76fd2a3fb3eb6fcd7"
     }
   ],
   "externalApiSpendLimitUSD": 0,
