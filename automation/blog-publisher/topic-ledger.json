@@ -1080,5 +1080,24 @@
       "property-tax-proration-selling-houston-house"
     ],
     "substantiveDifference": "Separates a filed \u00a733.06 collection deferral from ordinary back taxes, a valuation protest and current-year proration. Gives the deferral-record, collector-notice and dated-payoff decision before selecting a buyer or committing to a move. Fresh main content, seller pages, pending PRs and topic ledger screened; no city variant."
+  },
+  {
+    "slug": "fha-appraisal-repairs-selling-houston-house",
+    "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+    "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+    "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+    "deployId": "6afb12a7d038aadbb69c548d",
+    "pr": 51,
+    "publishedAt": "2026-11-16T14:27:35.574Z",
+    "runId": "native-daily-20261116T141605Z",
+    "day": "2026-11-16",
+    "status": "published",
+    "nearestOverlaps": [
+      "/blog/low-lender-appraisal-selling-houston-house/",
+      "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+      "/blog/sell-house-needs-major-repairs-houston/",
+      "/blog/fha-partial-claim-selling-houston-house/"
+    ],
+    "substantiveDifference": "Addresses a lender property-condition requirement after an FHA appraisal, contract 7E cost responsibility, proof of completion and a comparison if repairs threaten timing. Existing appraisal article concerns a low valuation, repairs pages address general condition, and partial claim concerns the seller's payoff."
   }
 ]

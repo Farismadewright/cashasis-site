@@ -248,3 +248,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - Search Console, October 16–November 12: 1,036 impressions and 2 clicks sitewide. The Missouri City fast-sale query had 39 impressions, position 12.82 and no clicks; the local buyer query had 37, position 17.65 and no clicks. Review the opening answer and compare the existing snippet before expanding city coverage.
 - GA4 for that window records 5 scoped Organic Search blog landing sessions and no recorded key events. Validated seller leads and funded retained GP remain unverified. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-15.json`.
 
+
+### November 16, 2026 — weekly organic seller evidence
+
+- Settled Nov 8–14 vs. Nov 1–7: 156 vs. 355 impressions and 0 vs. 1 clicks. The Missouri City page fell from 85 to 26 impressions with no clicks. Prioritize a more direct opening answer before more city coverage. Houston and Detroit back-tax guides need distinct editorial reviews after repeat Google nonindexing.
+- GA4 reported one scoped organic blog landing session versus none and no key events for the current week; validated leads and funded retained GP remain unverified. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-W47-weekly.json`.

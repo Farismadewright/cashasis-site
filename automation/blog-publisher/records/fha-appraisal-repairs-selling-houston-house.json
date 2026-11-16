@@ -4,10 +4,10 @@
   "day": "2026-11-16",
   "slug": "fha-appraisal-repairs-selling-houston-house",
   "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
-  "status": "draft",
+  "status": "published",
   "reservedAt": "2026-11-16T14:17:41.273Z",
   "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do",
-  "description": "Did a buyer’s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+  "description": "Did a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
   "primaryKeyword": "FHA appraisal repairs when selling a house",
   "supportingKeywords": [
     "FHA lender required repairs Texas",
@@ -59,11 +59,11 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "pending"
+    "preview": "pass",
+    "deploy": "pass"
   },
-  "commit": null,
-  "deployId": null,
+  "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+  "deployId": "6afb12a7d038aadbb69c548d",
   "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
   "calculation": {
     "kind": "hypothetical_not_market_data",
@@ -75,9 +75,9 @@
     "difference": 1500
   },
   "seoLifecycle": {
-    "stage": "local_verified",
+    "stage": "published_locally_eligible_monitoring",
     "local": {
-      "indexability": "built route 200",
+      "indexability": "Live HTTP 200, self canonical, robots allowed, no noindex, sitemap+RSS verified",
       "robotsNoindex": "production candidate; verify preview and production directives",
       "canonical": "expected self canonical",
       "sitemapEligibility": "local sitemap and RSS passed",
@@ -88,6 +88,22 @@
       "meaningfulInternalLinks": "related appraisal and net-proceeds guides plus blog hub",
       "sellerConversionPath": "inline and layout CTA with verified slug attribution",
       "factualSources": "HUD handbook current published revision and TREC contract sections 7E/F"
+    },
+    "searchConsoleMonitoring": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-16T14:28:31.765627+00:00",
+      "canonicalURL": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "inspectionVerdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "lastCrawlTime": null,
+      "nextReview": "2026-11-19"
+    },
+    "ga4Measurement": {
+      "status": "unavailable_new_publication",
+      "validatedSellerLeads": null,
+      "fundedRetainedGP": null
     }
   },
   "sources": [
@@ -143,5 +159,157 @@
       "method": "Reviewed primary source and checked claim scope; no draft proposal treated as policy.",
       "claim": "Paragraph 7E allocates lender-required work only as agreed, and describes termination and earnest money; 7F covers completion and permitting under contract."
     }
-  ]
+  ],
+  "social": {
+    "slug": "fha-appraisal-repairs-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/fha-appraisal-repairs-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "FHA Appraisal Repairs: What Houston House Sellers Can Do\n\nDid a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+    "instagram": "FHA Appraisal Repairs: What Houston House Sellers Can Do\n\nDid a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.\n\nRead the guide: https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "FHA Appraisal Repairs: What Houston House Sellers Can Do\n\nDid a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+    "googleBusinessProfile": "FHA Appraisal Repairs: What Houston House Sellers Can Do\n\nDid a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+    "promotionalExcerpt": "Did a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "preview": {
+    "url": "https://deploy-preview-51--cashasis-blog.netlify.app/blog/fha-appraisal-repairs-selling-houston-house/",
+    "commit": "3c40a985b898e86203a601e779e736166a3f6ca0",
+    "deployId": "6afb11e76fd2a3fb3eb6fcd7",
+    "qa": {
+      "checkedAt": "2026-11-16T14:24:32.809024+00:00",
+      "base": "https://deploy-preview-51--cashasis-blog.netlify.app",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "robots": true,
+        "noindexPolicy": true,
+        "heroOGX": true,
+        "image1200x630": true,
+        "schema": true,
+        "faq": true,
+        "cta": true,
+        "articleAndCSSParity": true,
+        "imageHash": true,
+        "metadata": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "contextualLinks": true,
+        "singleH1": true
+      },
+      "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do",
+      "description": "Did a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+      "http": {
+        "/blog/fha-appraisal-repairs-selling-houston-house/": 200,
+        "/images/fha-appraisal-repairs-selling-houston-house.png": 200,
+        "/": 200,
+        "/blog/": 200,
+        "/robots.txt": 200,
+        "/sitemap-index.xml": 200,
+        "/sitemap-0.xml": 200,
+        "/rss.xml": 200,
+        "/styles.css": 200,
+        "/js/cashasis-attribution.js": 200,
+        "/js/cashasis-dni.js": 200,
+        "/blog/low-lender-appraisal-selling-houston-house/": 200,
+        "/compare-the-net/": 200
+      },
+      "canonical": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "imageURL": "https://www.cashasis.com/images/fha-appraisal-repairs-selling-houston-house.png",
+      "imageSha256": "b97cbc83bf33d05ebec3c721936b87b65676f7b8468619e911ea6b9d15af5cf6",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 3,
+      "robotsDirectives": "noindex",
+      "ctaTerms": [
+        "post",
+        "inline",
+        "post"
+      ],
+      "deployId": "6afb11e76fd2a3fb3eb6fcd7"
+    }
+  },
+  "pr": 51,
+  "publishedAt": "2026-11-16T14:27:35.574Z",
+  "production": {
+    "slug": "fha-appraisal-repairs-selling-houston-house",
+    "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+    "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+    "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+    "deployId": "6afb12a7d038aadbb69c548d",
+    "pr": 51,
+    "publishedAt": "2026-11-16T14:27:35.574Z",
+    "checks": {
+      "checkedAt": "2026-11-16T14:27:47.080753+00:00",
+      "base": "https://www.cashasis.com",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "robots": true,
+        "noindexPolicy": true,
+        "heroOGX": true,
+        "image1200x630": true,
+        "schema": true,
+        "faq": true,
+        "cta": true,
+        "articleAndCSSParity": true,
+        "imageHash": true,
+        "metadata": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "contextualLinks": true,
+        "singleH1": true
+      },
+      "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do",
+      "description": "Did a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+      "http": {
+        "/blog/fha-appraisal-repairs-selling-houston-house/": 200,
+        "/images/fha-appraisal-repairs-selling-houston-house.png": 200,
+        "/": 200,
+        "/blog/": 200,
+        "/robots.txt": 200,
+        "/sitemap-index.xml": 200,
+        "/sitemap-0.xml": 200,
+        "/rss.xml": 200,
+        "/styles.css": 200,
+        "/js/cashasis-attribution.js": 200,
+        "/js/cashasis-dni.js": 200,
+        "/blog/low-lender-appraisal-selling-houston-house/": 200,
+        "/compare-the-net/": 200
+      },
+      "canonical": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "imageURL": "https://www.cashasis.com/images/fha-appraisal-repairs-selling-houston-house.png",
+      "imageSha256": "b97cbc83bf33d05ebec3c721936b87b65676f7b8468619e911ea6b9d15af5cf6",
+      "imageDimensions": [
+        1200,
+        630
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "faqCount": 3,
+      "robotsDirectives": "",
+      "ctaTerms": [
+        "post",
+        "inline",
+        "post"
+      ],
+      "deployId": null
+    }
+  }
 }

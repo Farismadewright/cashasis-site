@@ -1,0 +1,215 @@
+{
+  "runId": "native-daily-20261116T141605Z",
+  "fence": 40,
+  "day": "2026-11-16",
+  "status": "published",
+  "published": 1,
+  "held": 0,
+  "articles": [
+    {
+      "slug": "fha-appraisal-repairs-selling-houston-house",
+      "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+      "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+      "deployId": "6afb12a7d038aadbb69c548d",
+      "pr": 51,
+      "publishedAt": "2026-11-16T14:27:35.574Z"
+    }
+  ],
+  "heldCandidates": [],
+  "capacityNotFilled": "One distinct seller decision qualified; no filler generated.",
+  "mainAtStart": "81fa0b1ff2f6f3c193971e581b635c718c3fda2e",
+  "productionAtStart": {
+    "id": "6af9c3374d21eb2ae320982a",
+    "state": "ready",
+    "commit": "81fa0b1ff2f6f3c193971e581b635c718c3fda2e"
+  },
+  "pendingPRsPreserved": [
+    5,
+    6,
+    7,
+    27
+  ],
+  "sellerVoice": {
+    "mode": "read_only",
+    "status": "unavailable",
+    "note": "Bounded Wright GHL Direct calls did not return a usable anonymous message sample; no private data retained or demand claims made."
+  },
+  "release": {
+    "gate": {
+      "allowed": true,
+      "day": "2026-11-16",
+      "errors": []
+    },
+    "preview": {
+      "url": "https://deploy-preview-51--cashasis-blog.netlify.app/blog/fha-appraisal-repairs-selling-houston-house/",
+      "commit": "3c40a985b898e86203a601e779e736166a3f6ca0",
+      "deployId": "6afb11e76fd2a3fb3eb6fcd7",
+      "qa": {
+        "checkedAt": "2026-11-16T14:24:32.809024+00:00",
+        "base": "https://deploy-preview-51--cashasis-blog.netlify.app",
+        "checks": {
+          "http200": true,
+          "canonical": true,
+          "robots": true,
+          "noindexPolicy": true,
+          "heroOGX": true,
+          "image1200x630": true,
+          "schema": true,
+          "faq": true,
+          "cta": true,
+          "articleAndCSSParity": true,
+          "imageHash": true,
+          "metadata": true,
+          "sitemap": true,
+          "rss": true,
+          "hub": true,
+          "contextualLinks": true,
+          "singleH1": true
+        },
+        "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do",
+        "description": "Did a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+        "http": {
+          "/blog/fha-appraisal-repairs-selling-houston-house/": 200,
+          "/images/fha-appraisal-repairs-selling-houston-house.png": 200,
+          "/": 200,
+          "/blog/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/low-lender-appraisal-selling-houston-house/": 200,
+          "/compare-the-net/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "imageURL": "https://www.cashasis.com/images/fha-appraisal-repairs-selling-houston-house.png",
+        "imageSha256": "b97cbc83bf33d05ebec3c721936b87b65676f7b8468619e911ea6b9d15af5cf6",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 3,
+        "robotsDirectives": "noindex",
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployId": "6afb11e76fd2a3fb3eb6fcd7"
+      }
+    },
+    "production": {
+      "slug": "fha-appraisal-repairs-selling-houston-house",
+      "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+      "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+      "deployId": "6afb12a7d038aadbb69c548d",
+      "pr": 51,
+      "publishedAt": "2026-11-16T14:27:35.574Z",
+      "checks": {
+        "checkedAt": "2026-11-16T14:27:47.080753+00:00",
+        "base": "https://www.cashasis.com",
+        "checks": {
+          "http200": true,
+          "canonical": true,
+          "robots": true,
+          "noindexPolicy": true,
+          "heroOGX": true,
+          "image1200x630": true,
+          "schema": true,
+          "faq": true,
+          "cta": true,
+          "articleAndCSSParity": true,
+          "imageHash": true,
+          "metadata": true,
+          "sitemap": true,
+          "rss": true,
+          "hub": true,
+          "contextualLinks": true,
+          "singleH1": true
+        },
+        "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do",
+        "description": "Did a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+        "http": {
+          "/blog/fha-appraisal-repairs-selling-houston-house/": 200,
+          "/images/fha-appraisal-repairs-selling-houston-house.png": 200,
+          "/": 200,
+          "/blog/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/low-lender-appraisal-selling-houston-house/": 200,
+          "/compare-the-net/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "imageURL": "https://www.cashasis.com/images/fha-appraisal-repairs-selling-houston-house.png",
+        "imageSha256": "b97cbc83bf33d05ebec3c721936b87b65676f7b8468619e911ea6b9d15af5cf6",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 3,
+        "robotsDirectives": "",
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployId": null
+      }
+    }
+  },
+  "monitoring": {
+    "actualInspectionCalls": 20,
+    "publicationInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-16T14:28:31.765627+00:00",
+      "canonicalURL": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "inspectionVerdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "lastCrawlTime": null,
+      "nextReview": "2026-11-19"
+    },
+    "weeklyReport": "automation/blog-publisher/runs/2026-W47-weekly.json",
+    "monthly": "October already delivered; November not settled",
+    "coverage": {
+      "eligibleSitemapURLs": 222,
+      "eligibleBlogArticles": 194,
+      "retainedActualInspectionCoverage": 222,
+      "retainedActualBlogCoverage": 194,
+      "indexedTotal": 203,
+      "indexedBlogArticles": 179,
+      "unavailable": 0,
+      "latestObservationRange": [
+        "2026-10-14T15:01:03.520596+00:00",
+        "2026-11-16T14:28:31.765627+00:00"
+      ],
+      "basis": "Latest retained actual Google inspections across mixed dates, not a fresh census.",
+      "observedAt": "2026-11-16T14:29:15.494Z",
+      "notPASS": 19
+    },
+    "dueRemaining": 77
+  },
+  "externalPaidApiSpendUSD": 0,
+  "protectedSourceChanges": [],
+  "completedAt": "2026-11-16T14:29:15.494Z"
+}
