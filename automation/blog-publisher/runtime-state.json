@@ -3,7 +3,9 @@
     "runId": "native-daily-20261116T141605Z",
     "fence": 40,
     "issuedAt": "2026-11-16T14:16:05.228Z",
-    "expiresAt": "2026-11-16T16:16:05.228Z"
+    "expiresAt": "2026-11-16T14:30:28.512Z",
+    "released": true,
+    "releasedAt": "2026-11-16T14:30:28.512Z"
   },
   "ledger": [
     {
@@ -1427,39 +1429,44 @@
       "day": "2026-11-16",
       "slug": "fha-appraisal-repairs-selling-houston-house",
       "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-16T14:17:41.273Z",
       "publishingAt": "2026-11-16T14:26:41.882Z",
       "pr": 51,
       "headCommit": "3c40a985b898e86203a601e779e736166a3f6ca0",
-      "previewDeployId": "6afb11e76fd2a3fb3eb6fcd7"
+      "previewDeployId": "6afb11e76fd2a3fb3eb6fcd7",
+      "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+      "deployId": "6afb12a7d038aadbb69c548d",
+      "publishedAt": "2026-11-16T14:27:35.574Z",
+      "verifiedAt": "2026-11-16T14:27:47.080753+00:00"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261115T142145Z",
-    "day": "2026-11-15",
-    "fence": 39,
+    "runId": "native-daily-20261116T141605Z",
+    "day": "2026-11-16",
+    "fence": 40,
     "status": "published",
     "published": 1,
     "held": 0,
     "articles": [
       {
-        "slug": "sell-texas-house-with-property-tax-deferral",
-        "intentKey": "harris-fort-bend-seller-existing-residence-homestead-tax-deferral-payoff-and-notice",
-        "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
-        "commit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
-        "deployId": "6af9c270d838c871a6f37b98",
-        "pr": 50,
-        "publishedAt": "2026-11-15T14:32:53.581Z"
+        "slug": "fha-appraisal-repairs-selling-houston-house",
+        "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+        "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+        "deployId": "6afb12a7d038aadbb69c548d",
+        "pr": 51,
+        "publishedAt": "2026-11-16T14:27:35.574Z"
       }
     ],
-    "productionCommit": "666f0502c01028ef3339a08de3bb2eee3c65b118",
-    "productionDeployId": "6af9c270d838c871a6f37b98",
-    "bookkeepingCommit": "81fa0b1ff2f6f3c193971e581b635c718c3fda2e",
-    "monitoringCommit": "1f5e01c63648937ff0626559167591a75ff01ffa",
+    "productionCommit": "baa057bd57f47c425392e714fff161372dee09a2",
+    "productionDeployId": "6afb12a7d038aadbb69c548d",
+    "bookkeepingCommit": "2b7fdf1de2fb76504c0c67c40f07e2b9300e4a45",
+    "monitoringCommit": "e5803761f62215dae5245098a1eb3bf28743908b",
     "monitoringInspections": 20,
-    "completedAt": "2026-11-15T14:35:52.726Z",
+    "completedAt": "2026-11-16T14:30:28.512Z",
     "externalPaidApiSpendUSD": 0,
     "nativeIncrementalCost": null
   },
