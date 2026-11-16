@@ -1,0 +1,147 @@
+{
+  "runId": "native-daily-20261116T141605Z",
+  "fence": 40,
+  "day": "2026-11-16",
+  "slug": "fha-appraisal-repairs-selling-houston-house",
+  "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+  "status": "draft",
+  "reservedAt": "2026-11-16T14:17:41.273Z",
+  "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do",
+  "description": "Did a buyer’s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+  "primaryKeyword": "FHA appraisal repairs when selling a house",
+  "supportingKeywords": [
+    "FHA lender required repairs Texas",
+    "who pays lender required repairs Houston",
+    "sell house as-is FHA appraisal repair"
+  ],
+  "nearestOverlaps": [
+    "/blog/low-lender-appraisal-selling-houston-house/",
+    "/blog/texas-as-is-sale-seller-disclosure-checklist/",
+    "/blog/sell-house-needs-major-repairs-houston/",
+    "/blog/fha-partial-claim-selling-houston-house/"
+  ],
+  "substantiveDifference": "Addresses a lender property-condition requirement after an FHA appraisal, contract 7E cost responsibility, proof of completion and a comparison if repairs threaten timing. Existing appraisal article concerns a low valuation, repairs pages address general condition, and partial claim concerns the seller's payoff.",
+  "serviceGeography": "Houston including verified local seller coverage",
+  "sellerVoice": {
+    "mode": "read_only",
+    "status": "unavailable",
+    "note": "Bounded Wright GHL Direct calls did not return a usable anonymous message sample; no private data retained or demand claims made."
+  },
+  "image": "/images/fha-appraisal-repairs-selling-houston-house.png",
+  "imageSha256": "b97cbc83bf33d05ebec3c721936b87b65676f7b8468619e911ea6b9d15af5cf6",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "FHA REPAIRS BEFORE SALE",
+    "wordCount": 4,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "backgroundSha256": "14e8af694aa177e49d5e46ad55b061d84c501b5ac4c2dc839fdc42b680e032dc",
+    "provenance": "Native Work imagegen exec-6309784c-83f9-48b2-bec4-58569c7e4cdb, fictional Houston-area house; locked composition applied original approved logo and font."
+  },
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work and existing Netlify; unknown incremental allowance cost."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "commit": null,
+  "deployId": null,
+  "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+  "calculation": {
+    "kind": "hypothetical_not_market_data",
+    "financedSaleBeforeNewWork": 92000,
+    "repairVerification": 3500,
+    "holding": 1000,
+    "revised": 87500,
+    "cashNet": 86000,
+    "difference": 1500
+  },
+  "seoLifecycle": {
+    "stage": "local_verified",
+    "local": {
+      "indexability": "built route 200",
+      "robotsNoindex": "production candidate; verify preview and production directives",
+      "canonical": "expected self canonical",
+      "sitemapEligibility": "local sitemap and RSS passed",
+      "contentQuality": "seller decision and labeled net comparison",
+      "specificSearchIntent": "post-appraisal lender condition",
+      "duplicateContent": "no identical intent identified",
+      "cannibalization": "different from low valuation, disclosure and general repairs",
+      "meaningfulInternalLinks": "related appraisal and net-proceeds guides plus blog hub",
+      "sellerConversionPath": "inline and layout CTA with verified slug attribution",
+      "factualSources": "HUD handbook current published revision and TREC contract sections 7E/F"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.hud.gov/sites/default/files/Housing/documents/40001-hsgh-Update-18.pdf",
+      "title": "HUD Handbook 4000.1 August 12 revision",
+      "publicationDate": "2026-08-12",
+      "accessedAt": "2026-11-16",
+      "verifiedAt": "2026-11-16",
+      "reportingPeriod": "current as checked",
+      "geography": "United States FHA",
+      "figure": null,
+      "unit": null,
+      "method": "Reviewed primary source and checked claim scope; no draft proposal treated as policy.",
+      "claim": "FHA property and appraisal repair conditions; lender underwriting remains necessary; November draft excluded."
+    },
+    {
+      "url": "https://www.hud.gov/hud-partners/single-family-handbook-4000-1",
+      "title": "HUD Handbook 4000.1 information page",
+      "publicationDate": null,
+      "accessedAt": "2026-11-16",
+      "verifiedAt": "2026-11-16",
+      "reportingPeriod": "current as checked",
+      "geography": "United States FHA",
+      "figure": null,
+      "unit": null,
+      "method": "Reviewed primary source and checked claim scope; no draft proposal treated as policy.",
+      "claim": "Official policy source distinguishes lender appraisal property requirements."
+    },
+    {
+      "url": "https://www.hud.gov/sites/documents/99-32att.pdf",
+      "title": "HUD For Your Protection: Get a Home Inspection",
+      "publicationDate": null,
+      "accessedAt": "2026-11-16",
+      "verifiedAt": "2026-11-16",
+      "reportingPeriod": "current as checked",
+      "geography": "United States FHA",
+      "figure": null,
+      "unit": null,
+      "method": "Reviewed primary source and checked claim scope; no draft proposal treated as policy.",
+      "claim": "Appraisal is not a home inspection."
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/20-19_4.pdf",
+      "title": "TREC One to Four Family Residential Contract (Resale) 20-19",
+      "publicationDate": "2026-05-04",
+      "accessedAt": "2026-11-16",
+      "verifiedAt": "2026-11-16",
+      "reportingPeriod": "current as checked",
+      "geography": "Texas",
+      "figure": null,
+      "unit": null,
+      "method": "Reviewed primary source and checked claim scope; no draft proposal treated as policy.",
+      "claim": "Paragraph 7E allocates lender-required work only as agreed, and describes termination and earnest money; 7F covers completion and permitting under contract."
+    }
+  ]
+}
