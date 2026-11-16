@@ -1420,6 +1420,15 @@
       "deployId": "6af9c270d838c871a6f37b98",
       "publishedAt": "2026-11-15T14:32:53.581Z",
       "verifiedAt": "2026-11-15T14:33:11.833999+00:00"
+    },
+    {
+      "runId": "native-daily-20261116T141605Z",
+      "fence": 40,
+      "day": "2026-11-16",
+      "slug": "fha-appraisal-repairs-selling-houston-house",
+      "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+      "status": "reserved",
+      "reservedAt": "2026-11-16T14:17:41.273Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
