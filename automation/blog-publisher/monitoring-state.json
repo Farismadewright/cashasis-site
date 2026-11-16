@@ -5,8 +5,8 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W46",
   "lastMonthlyKey": "2026-10",
-  "lastAttempt": "2026-11-15T14:34:05.692Z",
-  "lastSuccessfulReview": "2026-11-14T14:53:37.639945+00:00",
+  "lastAttempt": "2026-11-16T14:29:15.494Z",
+  "lastSuccessfulReview": "2026-11-16T14:29:15.494Z",
   "pages": [
     {
       "url": "https://www.cashasis.com/blog/selling-houston-house-open-insurance-claim/",
@@ -1763,39 +1763,46 @@
           "googleCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
           "userCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1Wtse1LSHDrFeqFvQF5UCg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:43.831935+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+          "googleCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+          "lastCrawlTime": "2026-10-27T23:29:43+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Iy4n9dejjlFgVVHq70pQRQ&utm_medium=link&utm_source=api"
         }
       ],
       "recordPath": "automation/blog-publisher/records/existing-survey-when-selling-texas-house.json",
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-16T14:05:40.429068+00:00",
-      "lastSuccessfulInspection": "2026-10-19T14:00:37.829Z",
-      "nextReviewAt": "2026-11-16T14:00:37.829000+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:43.831935+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "lastAttemptAt": "2026-10-19T14:00:37.829Z",
+      "lastAttemptAt": "2026-11-16T14:17:43.831935+00:00",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-11-08T14:10:30.495717+00:00",
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
-        "HTTP": 200,
+        "http": 200,
         "canonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
-        "productionNoindex": false,
-        "schemaTypes": [
-          "BlogPosting",
-          "BreadcrumbList",
-          "FAQPage"
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/",
+          "https://www.cashasis.com/blog/sell-house-title-problems-houston/"
         ],
-        "sitemapRSS": true,
-        "hubDiscovery": true,
-        "contextualLinks": {
-          "/blog/cash-offer-vs-listing-house-houston/": 200,
-          "/blog/sell-house-title-problems-houston/": 200,
-          "/blog/": 200
-        },
-        "attributedCTA": true,
-        "checkedAt": "2026-11-08T14:10:30.495717+00:00"
+        "sellerPath": true
       },
-      "nextReview": "2026-11-16"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
@@ -1895,40 +1902,45 @@
           "googleCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
           "userCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Ms1BaD1U5DV0XHP42HlTcQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:43.824003+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+          "googleCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+          "lastCrawlTime": "2026-10-16T23:02:01+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2aj1eKkwN__0LL5i_BF5cg&utm_medium=link&utm_source=api"
         }
       ],
       "recordPath": "automation/blog-publisher/records/hoa-resale-documents-texas-house-sale.json",
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-16T14:05:51.943787+00:00",
-      "lastSuccessfulInspection": "2026-10-19T14:00:26.219Z",
-      "nextReviewAt": "2026-11-16T14:00:26.219000+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:43.824003+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "lastAttemptAt": "2026-10-19T14:00:26.219Z",
+      "lastAttemptAt": "2026-11-16T14:17:43.824003+00:00",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-19T13:59:38.972685+00:00",
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-10-19T13:59:38.972685+00:00",
-        "httpStatus": 200,
+        "http": 200,
         "canonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
-        "robots": " ",
+        "robots": true,
+        "noindex": false,
         "sitemap": true,
-        "rss": true,
-        "internalLinks": [
-          "/compare-the-net/",
-          "/blog/sell-house-title-problems-houston/",
-          "/after-you-sign/"
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-title-problems-houston/"
         ],
-        "ctaCount": 2,
-        "schemaTypes": [
-          "BlogPosting",
-          "BreadcrumbList",
-          "FAQPage"
-        ]
+        "sellerPath": true
       },
-      "nextReview": "2026-11-16"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
@@ -4475,31 +4487,42 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=jh-BsfpT7m7-1jKSHR1uEg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:43.774939+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
+          "lastCrawlTime": "2026-09-26T19:51:56+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=e9c4IzJcJ22nDK8S_jnQ6A&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:05.242886+00:00",
-      "lastSuccessfulInspection": "2026-11-14T14:47:02.542843+00:00",
-      "nextReviewAt": "2026-11-15T14:47:02.542843+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:43.774939+00:00",
+      "nextReviewAt": "2026-11-23T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-15",
+      "nextReview": "2026-11-23T14:29:15.494000+00:00",
       "technicalEligible": true,
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
         "http": 200,
         "canonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
-        "indexable": true,
-        "sitemap": true,
         "robots": true,
         "noindex": false,
-        "linkedFromBlog": true,
-        "contextual": [],
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [],
         "sellerPath": true
       },
-      "technicalVerifiedAt": "2026-11-15T14:34:05.692Z",
-      "lastAttemptAt": "2026-11-14T14:47:02.542843+00:00",
-      "diagnosticReason": "Single result after prior index evidence; verify again after at least 24 hours."
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:43.774939+00:00",
+      "diagnosticReason": "Repeat crawled not indexed after historical PASS; check overlap and links"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
@@ -4571,34 +4594,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8ESeSapEhlY_KX3_NKWLkg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:43.707603+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+          "lastCrawlTime": "2026-10-04T13:45:56+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yyWvVVJCx02YH4qFea3NHw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-06T12:47:00.72946+00:00",
-      "lastSuccessfulInspection": "2026-11-14T14:47:09.103797+00:00",
-      "nextReviewAt": "2026-11-15T14:47:09.103797+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:43.707603+00:00",
+      "nextReviewAt": "2026-11-23T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-15",
+      "nextReview": "2026-11-23T14:29:15.494000+00:00",
       "technicalEligible": true,
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
         "http": 200,
         "canonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
-        "indexable": true,
-        "sitemap": true,
         "robots": true,
         "noindex": false,
-        "linkedFromBlog": true,
-        "contextual": [
-          "/blog/cash-home-buyers-houston/",
-          "/blog/sell-property-with-delinquent-taxes/"
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/cash-home-buyers-houston/",
+          "https://www.cashasis.com/blog/sell-property-with-delinquent-taxes/"
         ],
         "sellerPath": true
       },
-      "technicalVerifiedAt": "2026-11-15T14:34:05.692Z",
-      "lastAttemptAt": "2026-11-14T14:47:09.103797+00:00",
-      "diagnosticReason": "Single result after prior index evidence; verify again after at least 24 hours."
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:43.707603+00:00",
+      "diagnosticReason": "Repeat crawled not indexed after historical PASS; check overlap and links"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-code-violations-houston-question/",
@@ -6041,15 +6075,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=T3Be1urY-hB9kk59rECg6Q&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:43.867682+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+          "lastCrawlTime": "2026-10-07T20:49:10+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=y9gKcWUsvFiUaFTMTPjohA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:38.445872+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:38.445872+00:00",
-      "nextReviewAt": "2026-11-11T15:00:38.445872+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:43.867682+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:43.867682+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
@@ -6069,15 +6133,44 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=bLX0f_wl9aArHmV6skMRCw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:50.763571+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
+          "lastCrawlTime": "2026-10-07T18:50:52+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lAwF6gUQEPn_leBzlWLC-A&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.123114+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:39.123114+00:00",
-      "nextReviewAt": "2026-11-11T15:00:39.123114+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:50.763571+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-with-liens-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:50.763571+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
@@ -6097,15 +6190,46 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=VX-31P53dUyJrZeV5_8Y3w&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:50.475742+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+          "lastCrawlTime": "2026-10-07T18:47:42+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GV1SYYoWNKzVKxFxVv9ebA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:39.361042+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:39.361042+00:00",
-      "nextReviewAt": "2026-11-11T15:00:39.361042+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:50.475742+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/multiple-heirs-inherited-property-cashasis/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:50.475742+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
@@ -6125,15 +6249,51 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=L0tw2LgeS-a5HvUCG_2PHA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:51.000541+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
+          "lastCrawlTime": "2026-10-07T18:39:56+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=txu08BFQJ3Ecu2nitA89-A&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:45.234785+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:45.234785+00:00",
-      "nextReviewAt": "2026-11-11T15:00:45.234785+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:51.000541+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
+          "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+          "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:51.000541+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
@@ -6153,15 +6313,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gJQOpdqXsB9ESNTtv6vRWg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:50.539983+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+          "lastCrawlTime": "2026-10-07T13:24:36+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=w-M6Ia6WP_pnE7szQzJaxA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:45.312663+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:45.312663+00:00",
-      "nextReviewAt": "2026-11-11T15:00:45.312663+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:50.539983+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-baytown-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:50.539983+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
@@ -6181,15 +6371,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8CZXPv7WEHUqA0O80_P7Uw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:50.630388+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
+          "lastCrawlTime": "2026-10-08T04:03:23+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YRmCxpIptFkq3mpFC07JeQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.067809+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:46.067809+00:00",
-      "nextReviewAt": "2026-11-11T15:00:46.067809+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:50.630388+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:50.630388+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
@@ -6209,15 +6429,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=roK2lfWByA2k8dERQmEPEg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:57.132268+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
+          "lastCrawlTime": "2026-10-07T19:56:49+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=xYiuOUtdzoaO9x2i-PRnpA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.070418+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:46.070418+00:00",
-      "nextReviewAt": "2026-11-11T15:00:46.070418+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:57.132268+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:57.132268+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
@@ -6237,15 +6487,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=eV3uUdRSrYmItYkNSdTBEw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:57.206664+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
+          "lastCrawlTime": "2026-10-07T22:02:51+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=oT8inRlEE8soo_YmRtzc-w&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:46.049429+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:46.049429+00:00",
-      "nextReviewAt": "2026-11-11T15:00:46.049429+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:57.206664+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:57.206664+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
@@ -6265,15 +6545,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=SFNLmuRE6O9oBgyR0ACpfQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:57.502745+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+          "lastCrawlTime": "2026-10-07T19:51:34+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=SBYWXK--37MBVl-g9QVvvA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.371108+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:56.371108+00:00",
-      "nextReviewAt": "2026-11-11T15:00:56.371108+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:57.502745+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:57.502745+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
@@ -6293,15 +6603,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=MDP6gMHgKYM3cLO1YJduVA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:57.571304+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+          "lastCrawlTime": "2026-10-07T20:23:02+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1K-KgTUzydt1FmE3oe1HTQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.558129+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:56.558129+00:00",
-      "nextReviewAt": "2026-11-11T15:00:56.558129+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:57.571304+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:57.571304+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
@@ -6321,15 +6661,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=dMFZRbjTirS52-IXr_QW4Q&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:17:57.812759+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+          "lastCrawlTime": "2026-10-07T17:33:11+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OjRsUAZ94pjqfSPVDHUMbQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.365092+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:56.365092+00:00",
-      "nextReviewAt": "2026-11-11T15:00:56.365092+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:17:57.812759+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-spring-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:17:57.812759+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
@@ -6349,15 +6719,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=BEYb5-pd7kwdEPv8e89mkQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:18:03.931206+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
+          "lastCrawlTime": "2026-10-08T04:55:56+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hxEt655kjuYpFQ1rPdiE2Q&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.425103+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:56.425103+00:00",
-      "nextReviewAt": "2026-11-11T15:00:56.425103+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:18:03.931206+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:18:03.931206+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
@@ -6377,15 +6777,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Yo1xvKu_T5TYDyfJEAldRQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:18:03.879787+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+          "lastCrawlTime": "2026-10-08T02:59:58+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=B1LBJmc2AKDjNpkU-1Z_RQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:00:56.58837+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:00:56.58837+00:00",
-      "nextReviewAt": "2026-11-11T15:00:56.588370+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:18:03.879787+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:18:03.879787+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
@@ -6423,12 +6853,23 @@
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=W2U0UOOi2LhMKrpgoeKUMg&utm_medium=link&utm_source=api",
           "inspectedAt": "2026-10-18T14:05:54.834Z",
           "source": "google_url_inspection"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:18:04.048677+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+          "lastCrawlTime": "2026-10-08T04:14:28+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6fnknHq19V2c3TtYJsG1jQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-10-18T14:03:56.978201+00:00",
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
       "technicalEvidence": {
         "url": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
         "http": 200,
@@ -6448,13 +6889,30 @@
         "technicalEligible": true,
         "technicalVerifiedAt": "2026-10-18T14:03:56.978201+00:00"
       },
-      "lastSuccessfulInspection": "2026-10-18T14:05:54.834Z",
+      "lastSuccessfulInspection": "2026-11-16T14:18:04.048677+00:00",
       "lastAttempt": "2026-10-18T14:05:54.834Z",
       "nextReviewAfter": "2026-11-15",
       "firstSuccessfulInspection": "2026-10-18T14:05:54.731085+00:00",
-      "nextReviewAt": "2026-11-15T14:05:54.834000+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-15"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+          "https://www.cashasis.com/blog/sell-house-with-liens-houston/"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-16T14:18:04.048677+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
@@ -6474,15 +6932,46 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OAG464ontoWCKiRJPvYHLA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:18:04.446819+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
+          "lastCrawlTime": "2026-10-07T17:49:16+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-S2GwSIb5rL10bAC2YYodg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.143926+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:03.143926+00:00",
-      "nextReviewAt": "2026-11-11T15:01:03.143926+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:18:04.446819+00:00",
+      "nextReviewAt": "2026-12-14T14:29:15.494000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-14T14:29:15.494000+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
+        "robots": true,
+        "noindex": false,
+        "sitemap": true,
+        "indexable": true,
+        "hub": true,
+        "linked": [
+          "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "lastAttemptAt": "2026-11-16T14:18:04.446819+00:00",
+      "diagnosticReason": "Submitted and indexed (verified)"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
@@ -13626,6 +14115,95 @@
       "nextReviewAt": "2026-11-18T14:34:05.692000+00:00",
       "nextReview": "2026-11-18T14:34:05.692000+00:00",
       "diagnosticReason": "Initial observation; next review at approximately age 3 days"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "publishedAt": "2026-11-16T14:27:35.574Z",
+      "firstSeenAt": "2026-11-16T14:29:15.494Z",
+      "ageBasis": "publication",
+      "excluded": false,
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-16T14:28:31.765627+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "userCanonical": null,
+          "googleCanonical": null,
+          "lastCrawlTime": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yYIKj6IOy4q3mHBueexzxA&utm_medium=link&utm_source=api"
+        }
+      ],
+      "sourceRecord": "automation/blog-publisher/records/fha-appraisal-repairs-selling-houston-house.json",
+      "technicalEligible": true,
+      "technicalQA": {
+        "checkedAt": "2026-11-16T14:27:47.080753+00:00",
+        "base": "https://www.cashasis.com",
+        "checks": {
+          "http200": true,
+          "canonical": true,
+          "robots": true,
+          "noindexPolicy": true,
+          "heroOGX": true,
+          "image1200x630": true,
+          "schema": true,
+          "faq": true,
+          "cta": true,
+          "articleAndCSSParity": true,
+          "imageHash": true,
+          "metadata": true,
+          "sitemap": true,
+          "rss": true,
+          "hub": true,
+          "contextualLinks": true,
+          "singleH1": true
+        },
+        "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do",
+        "description": "Did a buyer\u2019s FHA lender require repairs? Find out what to ask for in writing, who may pay, and how to compare fixing the house with selling as-is.",
+        "http": {
+          "/blog/fha-appraisal-repairs-selling-houston-house/": 200,
+          "/images/fha-appraisal-repairs-selling-houston-house.png": 200,
+          "/": 200,
+          "/blog/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/low-lender-appraisal-selling-houston-house/": 200,
+          "/compare-the-net/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "imageURL": "https://www.cashasis.com/images/fha-appraisal-repairs-selling-houston-house.png",
+        "imageSha256": "b97cbc83bf33d05ebec3c721936b87b65676f7b8468619e911ea6b9d15af5cf6",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 3,
+        "robotsDirectives": "",
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployId": null
+      },
+      "technicalVerifiedAt": "2026-11-16T14:29:15.494Z",
+      "firstSuccessfulInspection": "2026-11-16T14:28:31.765627+00:00",
+      "lastSuccessfulInspection": "2026-11-16T14:28:31.765627+00:00",
+      "lastAttemptAt": "2026-11-16T14:28:31.765627+00:00",
+      "nextReviewAt": "2026-11-19T14:29:15.494000+00:00",
+      "nextReview": "2026-11-19T14:29:15.494000+00:00",
+      "diagnosticReason": "Initial Google observation; follow up at age 3 days"
     }
   ],
   "notifications": [
@@ -13853,6 +14431,44 @@
       "deliveredDate": "2026-11-14",
       "deliveryEvidence": "Prior owner response reported and linked the confirmed flood-guide indexing regression.",
       "deliveryConfirmedAt": "2026-11-15T14:34:05.692Z"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
+      "issueKey": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/|indexing_regression_review",
+      "issueClass": "indexing_regression_review",
+      "status": "open_editorial_review",
+      "firstObservedAt": "2026-11-14T14:47:02.542843+00:00",
+      "confirmedAt": "2026-11-16T14:17:43.774939+00:00",
+      "lastVerifiedIndexed": "2026-10-14T15:00:05.242886+00:00",
+      "firstCoverage": "Crawled - currently not indexed",
+      "secondCoverage": "Crawled - currently not indexed",
+      "source": "google_url_inspection",
+      "deliveryStatus": "pending_owner_response",
+      "evidence": "automation/blog-publisher/runs/2026-W47-weekly.json",
+      "fingerprint": "Two actual crawled-not-indexed observations at least 24h apart after historical PASS, live eligible",
+      "findings": [
+        "Repeat Google crawled-not-indexed after historical PASS; local eligibility passes but body has no contextual internal blog links.",
+        "Verify market coverage, recheck Wayne County source references, and review useful internal links before proposing changes. Google cause unproven."
+      ]
+    },
+    {
+      "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+      "issueKey": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/|indexing_regression_review",
+      "issueClass": "indexing_regression_review",
+      "status": "open_editorial_review",
+      "firstObservedAt": "2026-11-14T14:47:09.103797+00:00",
+      "confirmedAt": "2026-11-16T14:17:43.707603+00:00",
+      "lastVerifiedIndexed": "2026-10-14T15:00:06.177277+00:00",
+      "firstCoverage": "Crawled - currently not indexed",
+      "secondCoverage": "Crawled - currently not indexed",
+      "source": "google_url_inspection",
+      "deliveryStatus": "pending_owner_response",
+      "evidence": "automation/blog-publisher/runs/2026-W47-weekly.json",
+      "fingerprint": "Two actual crawled-not-indexed observations at least 24h apart after historical PASS, live eligible",
+      "findings": [
+        "Repeat Google crawled-not-indexed status after historical PASS; accessibility, canonical, robots, sitemap, hub and seller path pass. Existing contextual links return 200.",
+        "Review search intent ownership against the Harris County and statewide delinquency guides before proposing edits. Google cause unproven."
+      ]
     }
   ],
   "reportReceipts": {
@@ -13894,6 +14510,14 @@
         "deliveredDate": "2026-11-09",
         "deliveryEvidence": "November 9 owner response delivered the weekly publication, settled GSC and GA4 comparison, coverage and opportunity; exact response timestamp unavailable.",
         "deliveryConfirmedAt": "2026-11-10T14:59:13.429716+00:00"
+      },
+      "2026-W47": {
+        "status": "review_complete_available_data",
+        "completedAt": "2026-11-16T14:29:15.494Z",
+        "record": "automation/blog-publisher/runs/2026-W47-weekly.json",
+        "deliveryStatus": "pending_owner_response",
+        "deliveryRule": "Confirm actual owner-facing delivery before marking delivered.",
+        "evidenceCommit": "2b7fdf1de2fb76504c0c67c40f07e2b9300e4a45"
       }
     },
     "monthly": {
@@ -13944,336 +14568,322 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-11-12",
+  "settledThrough": "2026-11-14",
   "inspectionCallsUsed": 20,
   "lastRunMonitoring": {
     "actualInspectionCalls": 20,
     "rows": [
       {
-        "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
-        "inspectedAt": "2026-11-15T14:33:35.718763+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
         "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "googleCanonical": null,
-        "userCanonical": null,
-        "lastCrawlTime": null,
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rTmLzwDxY2oJ_SoaYzZ3gw&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston-question/",
-        "inspectedAt": "2026-11-15T14:32:53.767468+00:00",
-        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:18:04.446819+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston-question/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston-question/",
-        "lastCrawlTime": "2026-10-07T20:13:33+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gQu2mAc2dG7O7BAKjplKGA&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
+        "lastCrawlTime": "2026-10-07T17:49:16+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-S2GwSIb5rL10bAC2YYodg&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-for-cash-houston/",
-        "inspectedAt": "2026-11-15T14:32:53.726298+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:18:04.048677+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-for-cash-houston/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-for-cash-houston/",
-        "lastCrawlTime": "2026-10-08T00:39:14+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rgUsQ1dGuysZcIBHLhQ98w&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "lastCrawlTime": "2026-10-08T04:14:28+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6fnknHq19V2c3TtYJsG1jQ&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
-        "inspectedAt": "2026-11-15T14:25:07.265425+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:18:03.931206+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-fast-tomball-tx/",
-        "lastCrawlTime": "2026-10-08T00:17:53+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=iZIwkL-Q4K7WoGEjv4mnzg&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
+        "lastCrawlTime": "2026-10-08T04:55:56+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hxEt655kjuYpFQ1rPdiE2Q&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/",
-        "inspectedAt": "2026-11-15T14:25:07.124784+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:18:03.879787+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/",
-        "lastCrawlTime": "2026-10-07T22:30:16+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rltXztuitztN4wW_MzOcuQ&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+        "lastCrawlTime": "2026-10-08T02:59:58+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=B1LBJmc2AKDjNpkU-1Z_RQ&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-fast-spring-tx/",
-        "inspectedAt": "2026-11-15T14:25:00.556226+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:57.812759+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-fast-spring-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-fast-spring-tx/",
-        "lastCrawlTime": "2026-10-07T13:49:22+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=HsMT0jn9nLgR15KdZT7njA&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+        "lastCrawlTime": "2026-10-07T17:33:11+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OjRsUAZ94pjqfSPVDHUMbQ&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/",
-        "inspectedAt": "2026-11-15T14:25:00.544655+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:57.571304+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/",
-        "lastCrawlTime": "2026-10-07T11:26:08+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=u4ERnF56xyKgWCS3xW5UbA&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+        "lastCrawlTime": "2026-10-07T20:23:02+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1K-KgTUzydt1FmE3oe1HTQ&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
-        "inspectedAt": "2026-11-15T14:25:00.505003+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:57.502745+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-back-taxes-harris-county/",
-        "lastCrawlTime": "2026-11-09T06:27:43+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=PZZVpCTTzF3CJZdH0dCZdA&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+        "lastCrawlTime": "2026-10-07T19:51:34+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=SBYWXK--37MBVl-g9QVvvA&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/",
-        "inspectedAt": "2026-11-15T14:25:00.426787+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:57.206664+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/",
-        "lastCrawlTime": "2026-10-08T00:24:51+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=InlR7HPLpua2lPUPopZLlQ&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
+        "lastCrawlTime": "2026-10-07T22:02:51+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=oT8inRlEE8soo_YmRtzc-w&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
-        "inspectedAt": "2026-11-15T14:25:00.409534+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
         "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:57.132268+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
+        "lastCrawlTime": "2026-10-07T19:56:49+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=xYiuOUtdzoaO9x2i-PRnpA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:51.000541+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
+        "lastCrawlTime": "2026-10-07T18:39:56+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=txu08BFQJ3Ecu2nitA89-A&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:50.763571+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
+        "lastCrawlTime": "2026-10-07T18:50:52+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lAwF6gUQEPn_leBzlWLC-A&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:50.630388+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
+        "lastCrawlTime": "2026-10-08T04:03:23+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YRmCxpIptFkq3mpFC07JeQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:50.539983+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+        "lastCrawlTime": "2026-10-07T13:24:36+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=w-M6Ia6WP_pnE7szQzJaxA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:50.475742+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
+        "lastCrawlTime": "2026-10-07T18:47:42+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GV1SYYoWNKzVKxFxVv9ebA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:43.867682+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
+        "lastCrawlTime": "2026-10-07T20:49:10+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=y9gKcWUsvFiUaFTMTPjohA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:43.831935+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "googleCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+        "lastCrawlTime": "2026-10-27T23:29:43+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Iy4n9dejjlFgVVHq70pQRQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:43.824003+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "googleCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+        "lastCrawlTime": "2026-10-16T23:02:01+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2aj1eKkwN__0LL5i_BF5cg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:43.774939+00:00",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-during-divorce-detroit/",
-        "lastCrawlTime": "2026-10-06T01:30:13+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7DtFcaqqnzr-e9wqFG6BoA&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
+        "lastCrawlTime": "2026-09-26T19:51:56+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=e9c4IzJcJ22nDK8S_jnQ6A&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
-        "inspectedAt": "2026-11-15T14:24:53.928486+00:00",
+        "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
         "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
-        "userCanonical": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
-        "lastCrawlTime": "2026-10-16T22:57:31+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lUN5SgTN1brYa1HaVm9veQ&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/how-fast-sell-house-cash-houston/",
-        "inspectedAt": "2026-11-15T14:24:53.880374+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "googleCanonical": null,
-        "userCanonical": null,
-        "lastCrawlTime": null,
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_58oFq6GK_pyIFATZrTY1g&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
-        "inspectedAt": "2026-11-15T14:24:53.873505+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-code-violation-house-harris-county/",
-        "lastCrawlTime": "2026-11-09T10:31:35+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=MXTYS02aaPqyW0LgdaSmaw&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/",
-        "inspectedAt": "2026-11-15T14:24:53.81654+00:00",
-        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-16T14:17:43.707603+00:00",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/",
-        "userCanonical": "https://www.cashasis.com/blog/",
-        "lastCrawlTime": "2026-09-04T20:07:12+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9LRGWDhoJDHYHRGuZzhCxw&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+        "lastCrawlTime": "2026-10-04T13:45:56+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yyWvVVJCx02YH4qFea3NHw&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
-        "inspectedAt": "2026-11-15T14:24:53.72217+00:00",
+        "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
         "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
-        "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
-        "lastCrawlTime": "2026-10-16T23:06:37+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=CBPQc4gxbWI9BF3OoCieig&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
-        "inspectedAt": "2026-11-15T14:24:47.203481+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
-        "userCanonical": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
-        "lastCrawlTime": "2026-10-16T23:02:02+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0Zw9xoU5zAJi3kWBQdPIhg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
-        "inspectedAt": "2026-11-15T14:24:47.202019+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
-        "userCanonical": "https://www.cashasis.com/blog/protect-house-sale-proceeds-wire-fraud/",
-        "lastCrawlTime": "2026-10-16T22:58:01+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=QI-DqSzL19PuuD7g-5AZKg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
-        "inspectedAt": "2026-11-15T14:24:47.190195+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
-        "userCanonical": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
-        "lastCrawlTime": "2026-11-15T02:33:11+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=eITITH9lpJujnSPEyE5mIg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
-        "inspectedAt": "2026-11-15T14:24:47.170078+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
-        "userCanonical": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
-        "lastCrawlTime": "2026-10-16T22:58:48+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-eKyY4F69k7VpCm0CUfoiA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
-        "inspectedAt": "2026-11-15T14:24:47.09621+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "googleCanonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
-        "userCanonical": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
-        "lastCrawlTime": "2026-10-17T01:30:59+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lIF2w7mATen3VYWLC130vw&utm_medium=link&utm_source=api"
+        "inspectedAt": "2026-11-16T14:28:31.765627+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "userCanonical": null,
+        "googleCanonical": null,
+        "lastCrawlTime": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yYIKj6IOy4q3mHBueexzxA&utm_medium=link&utm_source=api"
       }
     ],
     "errors": [],
     "coverage": {
-      "eligibleSitemapURLs": 221,
-      "eligibleBlogArticles": 193,
-      "retainedActualInspectionCoverage": 221,
-      "retainedActualBlogCoverage": 193,
+      "eligibleSitemapURLs": 222,
+      "eligibleBlogArticles": 194,
+      "retainedActualInspectionCoverage": 222,
+      "retainedActualBlogCoverage": 194,
       "indexedTotal": 203,
       "indexedBlogArticles": 179,
-      "notPASS": 18,
       "unavailable": 0,
       "latestObservationRange": [
-        "2026-10-14T15:00:38.445872+00:00",
-        "2026-11-15T14:33:35.718763+00:00"
+        "2026-10-14T15:01:03.520596+00:00",
+        "2026-11-16T14:28:31.765627+00:00"
       ],
       "basis": "Latest retained actual Google inspections across mixed dates, not a fresh census.",
-      "observedAt": "2026-11-15T14:34:05.692Z"
+      "observedAt": "2026-11-16T14:29:15.494Z",
+      "notPASS": 19
     },
-    "priorSuspectedRegressions": [
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
-        "status": "unconfirmed; under 24 hours from prior observation when inspection queue ran",
-        "doNotConfirmBefore": "2026-11-15T14:47:09.103797Z"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
-        "status": "unconfirmed; under 24 hours from prior observation when inspection queue ran",
-        "doNotConfirmBefore": "2026-11-15T14:47:02.542843Z"
-      }
-    ],
-    "dueRemaining": 90,
-    "nextWeeklyReview": "2026-W47",
-    "nextMonthlyReview": "2026-11, once settled",
-    "alertDecision": "No new threshold met; unchanged previously delivered indexing exceptions suppressed; 2 suspected regressions require time-separated evidence."
+    "nextWeeklyReview": "2026-W48 after delivery of W47",
+    "nextMonthlyReview": "November when settled",
+    "dueRemaining": 77
   },
-  "now": "2026-11-15T14:34:05.692Z",
-  "lastRunId": "native-daily-20261115T142145Z",
+  "now": "2026-11-16T14:29:15.494Z",
+  "lastRunId": "native-daily-20261116T141605Z",
   "coverage": {
-    "eligibleSitemapURLs": 221,
-    "eligibleBlogArticles": 193,
-    "retainedActualInspectionCoverage": 221,
-    "retainedActualBlogCoverage": 193,
+    "eligibleSitemapURLs": 222,
+    "eligibleBlogArticles": 194,
+    "retainedActualInspectionCoverage": 222,
+    "retainedActualBlogCoverage": 194,
     "indexedTotal": 203,
     "indexedBlogArticles": 179,
-    "notPASS": 18,
     "unavailable": 0,
     "latestObservationRange": [
-      "2026-10-14T15:00:38.445872+00:00",
-      "2026-11-15T14:33:35.718763+00:00"
+      "2026-10-14T15:01:03.520596+00:00",
+      "2026-11-16T14:28:31.765627+00:00"
     ],
     "basis": "Latest retained actual Google inspections across mixed dates, not a fresh census.",
-    "observedAt": "2026-11-15T14:34:05.692Z"
+    "observedAt": "2026-11-16T14:29:15.494Z",
+    "notPASS": 19
   },
   "lastRun": {
-    "runId": "native-daily-20261115T142145Z",
-    "day": "2026-11-15",
-    "actualInspectionCalls": 20,
+    "runId": "native-daily-20261116T141605Z",
+    "day": "2026-11-16",
+    "checkedAt": "2026-11-16T14:29:15.494Z",
     "published": 1,
-    "articles": [
-      "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/"
-    ],
     "held": 0,
-    "checkedAt": "2026-11-15T14:34:05.692Z"
+    "articles": [
+      "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/"
+    ]
   },
   "pendingInspectionQueue": [
-    "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
-    "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
-    "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
-    "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
-    "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
-    "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
-    "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
-    "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
     "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
     "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
     "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
     "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
-    "https://www.cashasis.com/blog/sell-houston-house-without-repairs/"
+    "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+    "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+    "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+    "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+    "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+    "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+    "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+    "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+    "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/"
   ],
   "notificationSuppression": {
     "reason": "No new persistent issue or ranking/seller outcome established. Routine delivery suppressed for normal discovery and unchanged evidence.",
@@ -14296,5 +14906,9 @@
     "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/|indexing_regression_review",
     "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/|indexing_regression_review",
     "https://www.cashasis.com/blog/sell-flood-damaged-house-houston/|indexing_regression_review"
-  ]
+  ],
+  "inventoryDiscrepancies": {
+    "checkedAt": "2026-11-16T14:29:15.494Z",
+    "trackedMissingFromSitemap": []
+  }
 }
