@@ -3,9 +3,9 @@
   "activatedAt": "2026-10-17T18:28:08.220Z",
   "firstWeeklyPeriod": "2026-W43",
   "firstMonthlyPeriod": "2026-10",
-  "lastWeeklyKey": "2026-W46",
+  "lastWeeklyKey": "2026-W47",
   "lastMonthlyKey": "2026-10",
-  "lastAttempt": "2026-11-16T14:29:15.494Z",
+  "lastAttempt": "2026-11-17T14:38:56.619Z",
   "lastSuccessfulReview": "2026-11-16T14:29:15.494Z",
   "pages": [
     {
@@ -7052,15 +7052,51 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zLp7CHfcAJ0qZWxLSw5B3A&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:06.395964+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
+          "lastCrawlTime": "2026-10-07T13:49:07+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=FbvuZ_hqSoMN2Xmx8YnOFQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.56699+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:03.56699+00:00",
-      "nextReviewAt": "2026-11-11T15:01:03.566990+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:06.395964+00:00",
+      "nextReviewAt": "2026-12-15T14:30:06.395964+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:06.395964+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/",
+          "https://www.cashasis.com/blog/sell-rental-property-spring-tx/",
+          "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/",
+          "https://www.cashasis.com/blog/sell-rental-with-tenants-cypress-tx/",
+          "https://www.cashasis.com/blog/sell-rental-with-tenants-katy-tx/",
+          "https://www.cashasis.com/blog/sell-rental-with-tenants-pearland-tx/",
+          "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:06.395964+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
@@ -7080,15 +7116,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=VxwNUnV7wVHlcRVG0MQLPQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:06.713625+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
+          "lastCrawlTime": "2026-10-07T14:57:39+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5zv8FGdo6rCiDojjuXEm1Q&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:03.520596+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:03.520596+00:00",
-      "nextReviewAt": "2026-11-11T15:01:03.520596+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:06.713625+00:00",
+      "nextReviewAt": "2026-12-15T14:30:06.713625+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:06.713625+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-hoarder-house-houston/",
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:06.713625+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
@@ -7108,15 +7174,48 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=H6syPiBPlLDlLS0PrXiiHA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:06.528613+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+          "lastCrawlTime": "2026-10-08T11:00:21+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=f5c-jBmbHCHzv3uvCokKkg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.031651+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:10.031651+00:00",
-      "nextReviewAt": "2026-11-11T15:01:10.031651+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:06.528613+00:00",
+      "nextReviewAt": "2026-12-15T14:30:06.528613+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:06.528613+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/",
+          "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:06.528613+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
@@ -7136,15 +7235,48 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JBPVfVGB8cEjXYEbt3h4pQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:06.412311+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "lastCrawlTime": "2026-10-07T19:47:13+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TMg-uOvFsegQEcZo8CFPUQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.391352+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:10.391352+00:00",
-      "nextReviewAt": "2026-11-11T15:01:10.391352+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:06.412311+00:00",
+      "nextReviewAt": "2026-12-15T14:30:06.412311+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:06.412311+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/",
+          "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:06.412311+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
@@ -7164,15 +7296,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=S0PnT5KadJD-lOcXzbi_yA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:06.406219+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+          "lastCrawlTime": "2026-10-08T01:22:25+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JvYoUW8F2duTH1U64MWkbg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:10.250415+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:10.250415+00:00",
-      "nextReviewAt": "2026-11-11T15:01:10.250415+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:06.406219+00:00",
+      "nextReviewAt": "2026-12-15T14:30:06.406219+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:06.406219+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+          "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:06.406219+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
@@ -7192,15 +7354,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=f_lHp90vNNwSOWrLILMaIA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:13.296376+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
+          "lastCrawlTime": "2026-10-07T13:00:13+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Ax3x4BSo6vIREGLPCMnPRQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:12.134662+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:12.134662+00:00",
-      "nextReviewAt": "2026-11-11T15:01:12.134662+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:13.296376+00:00",
+      "nextReviewAt": "2026-12-15T14:30:13.296376+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:13.296376+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-baytown-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:13.296376+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
@@ -7220,15 +7412,47 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=N623pDHjj21DfKVRmIgw5A&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:13.213988+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+          "lastCrawlTime": "2026-10-07T17:08:15+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fYt6DiWZxWYpCJqrQkEk_g&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:15.748374+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:15.748374+00:00",
-      "nextReviewAt": "2026-11-11T15:01:15.748374+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:13.213988+00:00",
+      "nextReviewAt": "2026-12-15T14:30:13.213988+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:13.213988+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+          "https://www.cashasis.com/blog/sell-probate-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:13.213988+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
@@ -7248,15 +7472,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=s2rrhyVEC2_ObrzzCwo5ng&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:13.224835+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+          "lastCrawlTime": "2026-10-07T17:06:07+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=dMY2Gos93ky5e7CVkKubzw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:16.930712+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:16.930712+00:00",
-      "nextReviewAt": "2026-11-11T15:01:16.930712+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:13.224835+00:00",
+      "nextReviewAt": "2026-12-15T14:30:13.224835+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:13.224835+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-cypress-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:13.224835+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
@@ -7276,15 +7530,42 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=vVrB2oCGcf0gAPJCGMNW7w&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:13.383297+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+          "lastCrawlTime": "2026-08-29T06:53:18+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=M3vds4VEPSH2JVCR6BnPqw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:16.906927+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:16.906927+00:00",
-      "nextReviewAt": "2026-11-11T15:01:16.906927+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:13.383297+00:00",
+      "nextReviewAt": "2026-11-18T14:30:13.383297+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-11-18T14:30:13.383297+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:13.383297+00:00",
+      "diagnosticReason": "First nonindexed result after prior PASS; repeat at least 24 hours later before confirming a regression."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
@@ -7304,15 +7585,44 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=AKIdaOhX__-_9LHyrddypg&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:13.584984+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+          "lastCrawlTime": "2026-10-07T16:24:30+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=w-q4aF3BLuXaRNhH42tgAg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:17.307394+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:17.307394+00:00",
-      "nextReviewAt": "2026-11-11T15:01:17.307394+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:13.584984+00:00",
+      "nextReviewAt": "2026-12-15T14:30:13.584984+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:13.584984+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:13.584984+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
@@ -7332,15 +7642,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=cxw96RUcvvQQpDY2ci1cfA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:20.025431+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+          "lastCrawlTime": "2026-10-07T20:04:49+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8qrDMQ15Qs_Lr8KbpYGYZw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:19.398429+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:19.398429+00:00",
-      "nextReviewAt": "2026-11-11T15:01:19.398429+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:20.025431+00:00",
+      "nextReviewAt": "2026-12-15T14:30:20.025431+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:20.025431+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+          "https://www.cashasis.com/blog/sell-probate-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:20.025431+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
@@ -7386,15 +7726,44 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=4MaC6cQ5RHEyxfo18t2pbw&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:20.213353+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "Crawled - currently not indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+          "lastCrawlTime": "2026-10-02T02:23:24+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ALi1N7SAEiDxrwInpu1j6Q&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-08T13:28:00.549344+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:22.584474+00:00",
-      "nextReviewAt": "2026-11-11T15:01:22.584474+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:20.213353+00:00",
+      "nextReviewAt": "2026-11-18T14:30:20.213353+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-11-18T14:30:20.213353+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/skip-probate-affidavit-heirship-texas/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:20.213353+00:00",
+      "diagnosticReason": "First nonindexed result after prior PASS; repeat at least 24 hours later before confirming a regression."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
@@ -7414,15 +7783,51 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=L7_gALyvrMzCRiVyfF_CzA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:20.202652+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+          "lastCrawlTime": "2026-10-07T19:21:20+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zM2CitQpqMxonk3-x22g7A&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.570239+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:23.570239+00:00",
-      "nextReviewAt": "2026-11-11T15:01:23.570239+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:20.202652+00:00",
+      "nextReviewAt": "2026-12-15T14:30:20.202652+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:20.202652+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/",
+          "https://www.cashasis.com/blog/one-heir-refuses-sell-house-texas/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+          "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+          "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+          "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:20.202652+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
@@ -7442,15 +7847,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hvZzAZZtye2BRy8kW4UmFQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:20.250323+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
+          "lastCrawlTime": "2026-10-07T14:04:29+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3Ot_t0DOAffb0HceFakldQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.660916+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:23.660916+00:00",
-      "nextReviewAt": "2026-11-11T15:01:23.660916+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:20.250323+00:00",
+      "nextReviewAt": "2026-12-15T14:30:20.250323+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:20.250323+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-humble-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:20.250323+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
@@ -7470,15 +7905,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ksz4e3PoeLD8vyRFFZIsFA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:25.589605+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+          "lastCrawlTime": "2026-10-07T21:30:12+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sdxSTmhrxvL78GN6Zr5KrA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:23.971666+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:23.971666+00:00",
-      "nextReviewAt": "2026-11-11T15:01:23.971666+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:25.589605+00:00",
+      "nextReviewAt": "2026-12-15T14:30:25.589605+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:25.589605+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:25.589605+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
@@ -7498,15 +7963,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=jG3EvS5E57ARGz1xJZhDEQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:26.783064+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
+          "lastCrawlTime": "2026-10-07T20:27:20+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=qPUeibRKAmANMxz8RT9R8A&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:26.418864+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:26.418864+00:00",
-      "nextReviewAt": "2026-11-11T15:01:26.418864+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:26.783064+00:00",
+      "nextReviewAt": "2026-12-15T14:30:26.783064+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:26.783064+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:26.783064+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
@@ -7526,15 +8021,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=gi5Q7LUuzofWHdxWO7Ur_g&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:27.034263+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+          "lastCrawlTime": "2026-10-08T01:00:34+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8gQF05eq0fCGvBrN75ieew&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:29.46314+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:29.46314+00:00",
-      "nextReviewAt": "2026-11-11T15:01:29.463140+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:27.034263+00:00",
+      "nextReviewAt": "2026-12-15T14:30:27.034263+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:27.034263+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-montgomery-county-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:27.034263+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
@@ -7554,15 +8079,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=h1kIG737iaHCupUBIwZVdA&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:27.056275+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
+          "lastCrawlTime": "2026-10-07T18:57:25+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rK5_iR7MyZJfbPy7PJpdJQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.50688+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:38.50688+00:00",
-      "nextReviewAt": "2026-11-11T15:01:38.506880+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:27.056275+00:00",
+      "nextReviewAt": "2026-12-15T14:30:27.056275+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:27.056275+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-pasadena-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:27.056275+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
@@ -7582,15 +8137,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=UdaTgAP3Lt4WlXn1inVZnQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:30:27.022366+00:00",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
+          "lastCrawlTime": "2026-10-07T16:43:12+00:00",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=c7sOiWGPYyRyY_X_-RGv-g&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:01:38.356879+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:01:38.356879+00:00",
-      "nextReviewAt": "2026-11-11T15:01:38.356879+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:30:27.022366+00:00",
+      "nextReviewAt": "2026-12-15T14:30:27.022366+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-15T14:30:27.022366+00:00",
+      "technicalEligible": true,
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-fast-pearland-tx/",
+          "https://www.cashasis.com/blog/sell-inherited-house-houston/"
+        ],
+        "sellerPath": true
+      },
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "lastAttemptAt": "2026-11-17T14:30:27.022366+00:00",
+      "diagnosticReason": "Google URL Inspection reports indexed; periodic recheck."
     },
     {
       "url": "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/",
@@ -14204,6 +14789,95 @@
       "nextReviewAt": "2026-11-19T14:29:15.494000+00:00",
       "nextReview": "2026-11-19T14:29:15.494000+00:00",
       "diagnosticReason": "Initial Google observation; follow up at age 3 days"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+      "publishedAt": "2026-11-17T14:37:35.892Z",
+      "firstSeenAt": "2026-11-17T14:38:56.619Z",
+      "ageBasis": "publication",
+      "excluded": false,
+      "history": [
+        {
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-17T14:38:19.285685+00:00",
+          "verdict": "NEUTRAL",
+          "coverageState": "URL is unknown to Google",
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "userCanonical": null,
+          "googleCanonical": null,
+          "lastCrawlTime": null,
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TPR2-QvhBC2RIsVcRbQeZA&utm_medium=link&utm_source=api"
+        }
+      ],
+      "sourceRecord": "automation/blog-publisher/records/backup-offer-under-contract-texas-house.json",
+      "technicalQA": {
+        "checkedAt": "2026-11-17T14:37:56.578200+00:00",
+        "base": "https://www.cashasis.com",
+        "checks": {
+          "http200": true,
+          "canonical": true,
+          "robots": true,
+          "noindexPolicy": true,
+          "heroOGX": true,
+          "image1200x630": true,
+          "schema": true,
+          "faq": true,
+          "cta": true,
+          "articleAndCSSParity": true,
+          "imageHash": true,
+          "metadata": true,
+          "sitemap": true,
+          "rss": true,
+          "hub": true,
+          "contextualLinks": true,
+          "singleH1": true
+        },
+        "title": "Can You Take a Backup Offer on a Texas House Under Contract?",
+        "description": "Already under contract on a Texas house? Learn when a backup offer can move forward, which dates to check, and what to confirm before signing.",
+        "http": {
+          "/blog/backup-offer-under-contract-texas-house/": 200,
+          "/images/backup-offer-under-contract-texas-house.png": 200,
+          "/": 200,
+          "/blog/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/cash-offer-while-house-listed-houston/": 200,
+          "/compare-the-net/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+        "imageURL": "https://www.cashasis.com/images/backup-offer-under-contract-texas-house.png",
+        "imageSha256": "525f4deca748404927a23d8326714dd9859aa356e6faf182a09c30a44d22107c",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 3,
+        "robotsDirectives": "",
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployId": null
+      },
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-17T14:38:56.619Z",
+      "firstSuccessfulInspection": "2026-11-17T14:38:19.285685+00:00",
+      "lastSuccessfulInspection": "2026-11-17T14:38:19.285685+00:00",
+      "lastAttemptAt": "2026-11-17T14:38:19.285685+00:00",
+      "nextReviewAt": "2026-11-20T14:38:19.285685+00:00",
+      "nextReview": "2026-11-20T14:38:19.285685+00:00",
+      "diagnosticReason": "Initial Google observation; no indexing failure inferred."
     }
   ],
   "notifications": [
@@ -14443,13 +15117,16 @@
       "firstCoverage": "Crawled - currently not indexed",
       "secondCoverage": "Crawled - currently not indexed",
       "source": "google_url_inspection",
-      "deliveryStatus": "pending_owner_response",
+      "deliveryStatus": "delivered_in_prior_owner_response",
       "evidence": "automation/blog-publisher/runs/2026-W47-weekly.json",
       "fingerprint": "Two actual crawled-not-indexed observations at least 24h apart after historical PASS, live eligible",
       "findings": [
         "Repeat Google crawled-not-indexed after historical PASS; local eligibility passes but body has no contextual internal blog links.",
         "Verify market coverage, recheck Wayne County source references, and review useful internal links before proposing changes. Google cause unproven."
-      ]
+      ],
+      "deliveredDate": "2026-11-16",
+      "deliveryEvidence": "November 16 final response named and linked both confirmed back-tax indexing regressions.",
+      "deliveryConfirmedAt": "2026-11-17T14:28:10.402Z"
     },
     {
       "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
@@ -14462,13 +15139,16 @@
       "firstCoverage": "Crawled - currently not indexed",
       "secondCoverage": "Crawled - currently not indexed",
       "source": "google_url_inspection",
-      "deliveryStatus": "pending_owner_response",
+      "deliveryStatus": "delivered_in_prior_owner_response",
       "evidence": "automation/blog-publisher/runs/2026-W47-weekly.json",
       "fingerprint": "Two actual crawled-not-indexed observations at least 24h apart after historical PASS, live eligible",
       "findings": [
         "Repeat Google crawled-not-indexed status after historical PASS; accessibility, canonical, robots, sitemap, hub and seller path pass. Existing contextual links return 200.",
         "Review search intent ownership against the Harris County and statewide delinquency guides before proposing edits. Google cause unproven."
-      ]
+      ],
+      "deliveredDate": "2026-11-16",
+      "deliveryEvidence": "November 16 final response named and linked both confirmed back-tax indexing regressions.",
+      "deliveryConfirmedAt": "2026-11-17T14:28:10.402Z"
     }
   ],
   "reportReceipts": {
@@ -14515,9 +15195,12 @@
         "status": "review_complete_available_data",
         "completedAt": "2026-11-16T14:29:15.494Z",
         "record": "automation/blog-publisher/runs/2026-W47-weekly.json",
-        "deliveryStatus": "pending_owner_response",
+        "deliveryStatus": "delivered_in_prior_owner_response",
         "deliveryRule": "Confirm actual owner-facing delivery before marking delivered.",
-        "evidenceCommit": "2b7fdf1de2fb76504c0c67c40f07e2b9300e4a45"
+        "evidenceCommit": "2b7fdf1de2fb76504c0c67c40f07e2b9300e4a45",
+        "deliveredDate": "2026-11-16",
+        "deliveryEvidence": "November 16 owner-facing final response delivered the Monday report and linked the evidence record.",
+        "deliveryConfirmedAt": "2026-11-17T14:28:10.402Z"
       }
     },
     "monthly": {
@@ -14574,316 +15257,330 @@
     "actualInspectionCalls": 20,
     "rows": [
       {
-        "url": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:18:04.446819+00:00",
+        "inspectedAt": "2026-11-17T14:30:27.056275+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-title-problems-houston/",
-        "lastCrawlTime": "2026-10-07T17:49:16+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-S2GwSIb5rL10bAC2YYodg&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
+        "lastCrawlTime": "2026-10-07T18:57:25+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rK5_iR7MyZJfbPy7PJpdJQ&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:18:04.048677+00:00",
+        "inspectedAt": "2026-11-17T14:30:27.034263+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
-        "lastCrawlTime": "2026-10-08T04:14:28+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6fnknHq19V2c3TtYJsG1jQ&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+        "lastCrawlTime": "2026-10-08T01:00:34+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8gQF05eq0fCGvBrN75ieew&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:18:03.931206+00:00",
+        "inspectedAt": "2026-11-17T14:30:27.022366+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-sugar-land-tx/",
-        "lastCrawlTime": "2026-10-08T04:55:56+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=hxEt655kjuYpFQ1rPdiE2Q&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
+        "lastCrawlTime": "2026-10-07T16:43:12+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=c7sOiWGPYyRyY_X_-RGv-g&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:18:03.879787+00:00",
+        "inspectedAt": "2026-11-17T14:30:26.783064+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
-        "lastCrawlTime": "2026-10-08T02:59:58+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=B1LBJmc2AKDjNpkU-1Z_RQ&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
+        "lastCrawlTime": "2026-10-07T20:27:20+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=qPUeibRKAmANMxz8RT9R8A&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:57.812759+00:00",
+        "inspectedAt": "2026-11-17T14:30:25.589605+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
-        "lastCrawlTime": "2026-10-07T17:33:11+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OjRsUAZ94pjqfSPVDHUMbQ&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+        "lastCrawlTime": "2026-10-07T21:30:12+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sdxSTmhrxvL78GN6Zr5KrA&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:57.571304+00:00",
+        "inspectedAt": "2026-11-17T14:30:20.250323+00:00",
         "verdict": "PASS",
         "coverageState": "Submitted and indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pearland-tx/",
-        "lastCrawlTime": "2026-10-07T20:23:02+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1K-KgTUzydt1FmE3oe1HTQ&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
+        "lastCrawlTime": "2026-10-07T14:04:29+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=3Ot_t0DOAffb0HceFakldQ&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:57.502745+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-pasadena-tx/",
-        "lastCrawlTime": "2026-10-07T19:51:34+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=SBYWXK--37MBVl-g9QVvvA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:57.206664+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-katy-tx/",
-        "lastCrawlTime": "2026-10-07T22:02:51+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=oT8inRlEE8soo_YmRtzc-w&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:57.132268+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-humble-tx/",
-        "lastCrawlTime": "2026-10-07T19:56:49+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=xYiuOUtdzoaO9x2i-PRnpA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:51.000541+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-major-repairs-houston/",
-        "lastCrawlTime": "2026-10-07T18:39:56+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=txu08BFQJ3Ecu2nitA89-A&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:50.763571+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-liens-harris-county/",
-        "lastCrawlTime": "2026-10-07T18:50:52+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lAwF6gUQEPn_leBzlWLC-A&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:50.630388+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-cypress-tx/",
-        "lastCrawlTime": "2026-10-08T04:03:23+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YRmCxpIptFkq3mpFC07JeQ&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:50.539983+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
-        "lastCrawlTime": "2026-10-07T13:24:36+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=w-M6Ia6WP_pnE7szQzJaxA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:50.475742+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-multiple-owners-heirs-houston/",
-        "lastCrawlTime": "2026-10-07T18:47:42+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GV1SYYoWNKzVKxFxVv9ebA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:43.867682+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-foundation-problems-houston/",
-        "lastCrawlTime": "2026-10-07T20:49:10+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=y9gKcWUsvFiUaFTMTPjohA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:43.831935+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
-        "googleCanonical": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
-        "lastCrawlTime": "2026-10-27T23:29:43+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Iy4n9dejjlFgVVHq70pQRQ&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:43.824003+00:00",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
-        "googleCanonical": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
-        "lastCrawlTime": "2026-10-16T23:02:01+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=2aj1eKkwN__0LL5i_BF5cg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
-        "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:43.774939+00:00",
+        "inspectedAt": "2026-11-17T14:30:20.213353+00:00",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
-        "lastCrawlTime": "2026-09-26T19:51:56+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=e9c4IzJcJ22nDK8S_jnQ6A&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+        "lastCrawlTime": "2026-10-02T02:23:24+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=ALi1N7SAEiDxrwInpu1j6Q&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:17:43.707603+00:00",
+        "inspectedAt": "2026-11-17T14:30:20.202652+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-houston/",
+        "lastCrawlTime": "2026-10-07T19:21:20+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=zM2CitQpqMxonk3-x22g7A&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:20.025431+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+        "lastCrawlTime": "2026-10-07T20:04:49+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8qrDMQ15Qs_Lr8KbpYGYZw&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:13.584984+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
+        "lastCrawlTime": "2026-10-07T16:24:30+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=w-q4aF3BLuXaRNhH42tgAg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:13.383297+00:00",
         "verdict": "NEUTRAL",
         "coverageState": "Crawled - currently not indexed",
         "indexingState": "INDEXING_ALLOWED",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
-        "lastCrawlTime": "2026-10-04T13:45:56+00:00",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yyWvVVJCx02YH4qFea3NHw&utm_medium=link&utm_source=api"
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+        "lastCrawlTime": "2026-08-29T06:53:18+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=M3vds4VEPSH2JVCR6BnPqw&utm_medium=link&utm_source=api"
       },
       {
-        "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
         "source": "google_url_inspection",
-        "inspectedAt": "2026-11-16T14:28:31.765627+00:00",
+        "inspectedAt": "2026-11-17T14:30:13.296376+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
+        "lastCrawlTime": "2026-10-07T13:00:13+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Ax3x4BSo6vIREGLPCMnPRQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:13.224835+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
+        "lastCrawlTime": "2026-10-07T17:06:07+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=dMY2Gos93ky5e7CVkKubzw&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:13.213988+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
+        "lastCrawlTime": "2026-10-07T17:08:15+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=fYt6DiWZxWYpCJqrQkEk_g&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:06.713625+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
+        "lastCrawlTime": "2026-10-07T14:57:39+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5zv8FGdo6rCiDojjuXEm1Q&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:06.528613+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+        "lastCrawlTime": "2026-10-08T11:00:21+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=f5c-jBmbHCHzv3uvCokKkg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:06.412311+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+        "lastCrawlTime": "2026-10-07T19:47:13+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TMg-uOvFsegQEcZo8CFPUQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:06.406219+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
+        "lastCrawlTime": "2026-10-08T01:22:25+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JvYoUW8F2duTH1U64MWkbg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:30:06.395964+00:00",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "userCanonical": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
+        "lastCrawlTime": "2026-10-07T13:49:07+00:00",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=FbvuZ_hqSoMN2Xmx8YnOFQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-17T14:38:19.285685+00:00",
         "verdict": "NEUTRAL",
         "coverageState": "URL is unknown to Google",
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
         "userCanonical": null,
         "googleCanonical": null,
         "lastCrawlTime": null,
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yYIKj6IOy4q3mHBueexzxA&utm_medium=link&utm_source=api"
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TPR2-QvhBC2RIsVcRbQeZA&utm_medium=link&utm_source=api"
       }
     ],
     "errors": [],
     "coverage": {
-      "eligibleSitemapURLs": 222,
-      "eligibleBlogArticles": 194,
-      "retainedActualInspectionCoverage": 222,
-      "retainedActualBlogCoverage": 194,
-      "indexedTotal": 203,
-      "indexedBlogArticles": 179,
+      "eligibleSitemapURLs": 223,
+      "eligibleBlogArticles": 195,
+      "retainedActualInspectionCoverage": 223,
+      "retainedActualBlogCoverage": 195,
+      "indexedTotal": 201,
+      "indexedBlogArticles": 177,
       "unavailable": 0,
       "latestObservationRange": [
-        "2026-10-14T15:01:03.520596+00:00",
-        "2026-11-16T14:28:31.765627+00:00"
+        "2026-10-14T15:01:38.207684+00:00",
+        "2026-11-17T14:38:19.285685+00:00"
       ],
-      "basis": "Latest retained actual Google inspections across mixed dates, not a fresh census.",
-      "observedAt": "2026-11-16T14:29:15.494Z",
-      "notPASS": 19
+      "basis": "Latest retained actual Google inspections, mixed observation dates.",
+      "observedAt": "2026-11-17T14:38:56.619Z",
+      "notPASS": 22
     },
-    "nextWeeklyReview": "2026-W48 after delivery of W47",
+    "suspectedRegressions": [
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+        "observation": "2026-11-17T14:30:20.213353+00:00",
+        "priorIndexed": "2026-10-14T15:01:22.584474+00:00",
+        "recheckNoEarlierThan": "2026-11-18T14:30:20.213353+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+        "observation": "2026-11-17T14:30:13.383297+00:00",
+        "priorIndexed": "2026-10-14T15:01:16.906927+00:00",
+        "recheckNoEarlierThan": "2026-11-18T14:30:13.383297+00:00"
+      }
+    ],
+    "nextWeeklyReview": "2026-W48",
     "nextMonthlyReview": "November when settled",
-    "dueRemaining": 77
+    "dueRemaining": 59
   },
-  "now": "2026-11-16T14:29:15.494Z",
-  "lastRunId": "native-daily-20261116T141605Z",
+  "now": "2026-11-17T14:38:56.619Z",
+  "lastRunId": "native-daily-20261117T142754Z",
   "coverage": {
-    "eligibleSitemapURLs": 222,
-    "eligibleBlogArticles": 194,
-    "retainedActualInspectionCoverage": 222,
-    "retainedActualBlogCoverage": 194,
-    "indexedTotal": 203,
-    "indexedBlogArticles": 179,
+    "eligibleSitemapURLs": 223,
+    "eligibleBlogArticles": 195,
+    "retainedActualInspectionCoverage": 223,
+    "retainedActualBlogCoverage": 195,
+    "indexedTotal": 201,
+    "indexedBlogArticles": 177,
     "unavailable": 0,
     "latestObservationRange": [
-      "2026-10-14T15:01:03.520596+00:00",
-      "2026-11-16T14:28:31.765627+00:00"
+      "2026-10-14T15:01:38.207684+00:00",
+      "2026-11-17T14:38:19.285685+00:00"
     ],
-    "basis": "Latest retained actual Google inspections across mixed dates, not a fresh census.",
-    "observedAt": "2026-11-16T14:29:15.494Z",
-    "notPASS": 19
+    "basis": "Latest retained actual Google inspections, mixed observation dates.",
+    "observedAt": "2026-11-17T14:38:56.619Z",
+    "notPASS": 22
   },
   "lastRun": {
-    "runId": "native-daily-20261116T141605Z",
-    "day": "2026-11-16",
-    "checkedAt": "2026-11-16T14:29:15.494Z",
+    "runId": "native-daily-20261117T142754Z",
+    "day": "2026-11-17",
+    "checkedAt": "2026-11-17T14:38:56.619Z",
     "published": 1,
     "held": 0,
     "articles": [
-      "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/"
+      "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/"
     ]
   },
   "pendingInspectionQueue": [
-    "https://www.cashasis.com/blog/sell-house-with-tenants-houston/",
-    "https://www.cashasis.com/blog/sell-house-without-cleanout-humble-tx/",
-    "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
-    "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
-    "https://www.cashasis.com/blog/sell-houston-house-without-repairs/",
-    "https://www.cashasis.com/blog/sell-inherited-house-baytown-tx/",
-    "https://www.cashasis.com/blog/sell-inherited-house-before-probate-texas/",
-    "https://www.cashasis.com/blog/sell-inherited-house-cypress-tx/",
-    "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
-    "https://www.cashasis.com/blog/sell-inherited-house-fort-bend-county/",
-    "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
-    "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
-    "https://www.cashasis.com/blog/sell-inherited-house-houston/",
-    "https://www.cashasis.com/blog/sell-inherited-house-humble-tx/",
-    "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
-    "https://www.cashasis.com/blog/sell-inherited-house-missouri-city-tx/",
-    "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
-    "https://www.cashasis.com/blog/sell-inherited-house-pasadena-tx/",
-    "https://www.cashasis.com/blog/sell-inherited-house-pearland-tx/",
-    "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/"
+    "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/",
+    "https://www.cashasis.com/blog/sell-inherited-house-sugar-land/",
+    "https://www.cashasis.com/blog/sell-inherited-house-tomball-tx/",
+    "https://www.cashasis.com/blog/sell-my-house-fast-houston/",
+    "https://www.cashasis.com/blog/sell-preforeclosure-house-harris-county/",
+    "https://www.cashasis.com/blog/sell-preforeclosure-house-montgomery-county/",
+    "https://www.cashasis.com/blog/sell-probate-house-fort-bend-county/",
+    "https://www.cashasis.com/blog/sell-probate-house-harris-county/",
+    "https://www.cashasis.com/blog/sell-probate-house-houston/",
+    "https://www.cashasis.com/blog/sell-property-with-back-taxes/",
+    "https://www.cashasis.com/blog/sell-property-with-delinquent-taxes/",
+    "https://www.cashasis.com/blog/sell-rental-property-spring-tx/",
+    "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/",
+    "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/",
+    "https://www.cashasis.com/blog/sell-rental-with-tenants-cypress-tx/",
+    "https://www.cashasis.com/blog/sell-rental-with-tenants-katy-tx/",
+    "https://www.cashasis.com/blog/sell-rental-with-tenants-pearland-tx/",
+    "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/",
+    "https://www.cashasis.com/blog/sell-tax-delinquent-house-fort-bend-county/",
+    "https://www.cashasis.com/blog/sell-vacant-house-baytown-tx/"
   ],
   "notificationSuppression": {
     "reason": "No new persistent issue or ranking/seller outcome established. Routine delivery suppressed for normal discovery and unchanged evidence.",
@@ -14905,10 +15602,12 @@
     "https://www.cashasis.com/blog/sell-fire-damaged-house-detroit/|technical:missing_contextual_internal_links",
     "https://www.cashasis.com/blog/cash-offer-vs-listing-house-detroit/|indexing_regression_review",
     "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/|indexing_regression_review",
-    "https://www.cashasis.com/blog/sell-flood-damaged-house-houston/|indexing_regression_review"
+    "https://www.cashasis.com/blog/sell-flood-damaged-house-houston/|indexing_regression_review",
+    "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/|indexing_regression_review",
+    "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/|indexing_regression_review"
   ],
   "inventoryDiscrepancies": {
-    "checkedAt": "2026-11-16T14:29:15.494Z",
+    "checkedAt": "2026-11-17T14:38:56.619Z",
     "trackedMissingFromSitemap": []
   }
 }
