@@ -1,0 +1,347 @@
+{
+  "runId": "native-daily-20261117T142754Z",
+  "fence": 41,
+  "day": "2026-11-17",
+  "status": "published",
+  "published": 1,
+  "held": 0,
+  "articles": [
+    {
+      "slug": "backup-offer-under-contract-texas-house",
+      "intentKey": "texas-seller-executed-first-contract-contingent-backup-notice",
+      "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+      "commit": "8e039ae3182d57703a0304fe6205f877dd7f6538",
+      "deployId": "6afc66814a1acc4f0a14a896",
+      "pr": 52,
+      "publishedAt": "2026-11-17T14:37:35.892Z"
+    }
+  ],
+  "heldCandidates": [],
+  "capacityNotFilled": "One distinct seller decision qualified; no filler generated.",
+  "mainAtStart": "2b7fdf1de2fb76504c0c67c40f07e2b9300e4a45",
+  "productionAtStart": {
+    "id": "6afb135937c9488bf0da926a",
+    "state": "ready",
+    "commit": "2b7fdf1de2fb76504c0c67c40f07e2b9300e4a45"
+  },
+  "pendingPRsPreserved": [
+    5,
+    6,
+    7,
+    27
+  ],
+  "sellerVoice": {
+    "mode": "read_only",
+    "sample": 100,
+    "inbound": 51,
+    "themes": {
+      "timing": 0,
+      "contract": 1,
+      "backup": 0
+    },
+    "note": "Bounded aggregate screening only; no evidence of recurring backup demand; no identifiable material retained."
+  },
+  "searchConsole": {
+    "dates": [
+      "2026-10-18",
+      "2026-11-14"
+    ],
+    "settledThrough": "2026-11-15",
+    "totals": {
+      "clicks": 2,
+      "impressions": 1005,
+      "ctrPercent": 0.2,
+      "avgPositionWeighted": 33.09
+    },
+    "opportunities": [
+      {
+        "keys": [
+          "sell my house fast missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 38,
+        "ctr": 0,
+        "position": 12.552631578947368
+      },
+      {
+        "keys": [
+          "we buy houses missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 36,
+        "ctr": 0,
+        "position": 17.75
+      },
+      {
+        "keys": [
+          "sell my house fast in missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 29,
+        "ctr": 0,
+        "position": 13.758620689655173
+      },
+      {
+        "keys": [
+          "we buy houses missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 15.545454545454545
+      },
+      {
+        "keys": [
+          "sell my house fast missouri city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "sell your house fast in missouri city tx",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 12.428571428571429
+      },
+      {
+        "keys": [
+          "sell with delinquent taxes",
+          "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 14.363636363636363
+      },
+      {
+        "keys": [
+          "sell my house fast texas city",
+          "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 13.7
+      }
+    ],
+    "editorialNext": "Missouri City query pairs remain relevant and show no clicks. Current title fits; improve first answer on actual closing-time variables before any city expansion. No live edit."
+  },
+  "ga4": {
+    "range": {
+      "startDate": "2026-10-18",
+      "endDate": "2026-11-14"
+    },
+    "scope": "Organic Search session channel, blog landing paths, production hosts",
+    "timeZone": "America/Chicago",
+    "sessions": 4,
+    "keyEvents": 0,
+    "validatedSellerLeads": null,
+    "fundedRetainedGP": null
+  },
+  "release": {
+    "gate": {
+      "allowed": true,
+      "day": "2026-11-17",
+      "errors": []
+    },
+    "preview": {
+      "url": "https://deploy-preview-52--cashasis-blog.netlify.app/blog/backup-offer-under-contract-texas-house/",
+      "commit": "7773886dffa6d218ec423c9052089c6d6095afa1",
+      "deployId": "6afc65f6dec26ea1d80d9824",
+      "qa": {
+        "checkedAt": "2026-11-17T14:35:45.184742+00:00",
+        "base": "https://deploy-preview-52--cashasis-blog.netlify.app",
+        "checks": {
+          "http200": true,
+          "canonical": true,
+          "robots": true,
+          "noindexPolicy": true,
+          "heroOGX": true,
+          "image1200x630": true,
+          "schema": true,
+          "faq": true,
+          "cta": true,
+          "articleAndCSSParity": true,
+          "imageHash": true,
+          "metadata": true,
+          "sitemap": true,
+          "rss": true,
+          "hub": true,
+          "contextualLinks": true,
+          "singleH1": true
+        },
+        "title": "Can You Take a Backup Offer on a Texas House Under Contract?",
+        "description": "Already under contract on a Texas house? Learn when a backup offer can move forward, which dates to check, and what to confirm before signing.",
+        "http": {
+          "/blog/backup-offer-under-contract-texas-house/": 200,
+          "/images/backup-offer-under-contract-texas-house.png": 200,
+          "/": 200,
+          "/blog/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/cash-offer-while-house-listed-houston/": 200,
+          "/compare-the-net/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+        "imageURL": "https://www.cashasis.com/images/backup-offer-under-contract-texas-house.png",
+        "imageSha256": "525f4deca748404927a23d8326714dd9859aa356e6faf182a09c30a44d22107c",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 3,
+        "robotsDirectives": "noindex",
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployId": "6afc65f6dec26ea1d80d9824"
+      }
+    },
+    "production": {
+      "slug": "backup-offer-under-contract-texas-house",
+      "intentKey": "texas-seller-executed-first-contract-contingent-backup-notice",
+      "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+      "commit": "8e039ae3182d57703a0304fe6205f877dd7f6538",
+      "deployId": "6afc66814a1acc4f0a14a896",
+      "pr": 52,
+      "publishedAt": "2026-11-17T14:37:35.892Z",
+      "checks": {
+        "checkedAt": "2026-11-17T14:37:56.578200+00:00",
+        "base": "https://www.cashasis.com",
+        "checks": {
+          "http200": true,
+          "canonical": true,
+          "robots": true,
+          "noindexPolicy": true,
+          "heroOGX": true,
+          "image1200x630": true,
+          "schema": true,
+          "faq": true,
+          "cta": true,
+          "articleAndCSSParity": true,
+          "imageHash": true,
+          "metadata": true,
+          "sitemap": true,
+          "rss": true,
+          "hub": true,
+          "contextualLinks": true,
+          "singleH1": true
+        },
+        "title": "Can You Take a Backup Offer on a Texas House Under Contract?",
+        "description": "Already under contract on a Texas house? Learn when a backup offer can move forward, which dates to check, and what to confirm before signing.",
+        "http": {
+          "/blog/backup-offer-under-contract-texas-house/": 200,
+          "/images/backup-offer-under-contract-texas-house.png": 200,
+          "/": 200,
+          "/blog/": 200,
+          "/robots.txt": 200,
+          "/sitemap-index.xml": 200,
+          "/sitemap-0.xml": 200,
+          "/rss.xml": 200,
+          "/styles.css": 200,
+          "/js/cashasis-attribution.js": 200,
+          "/js/cashasis-dni.js": 200,
+          "/blog/cash-offer-while-house-listed-houston/": 200,
+          "/compare-the-net/": 200
+        },
+        "canonical": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+        "imageURL": "https://www.cashasis.com/images/backup-offer-under-contract-texas-house.png",
+        "imageSha256": "525f4deca748404927a23d8326714dd9859aa356e6faf182a09c30a44d22107c",
+        "imageDimensions": [
+          1200,
+          630
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "faqCount": 3,
+        "robotsDirectives": "",
+        "ctaTerms": [
+          "post",
+          "inline",
+          "post"
+        ],
+        "deployId": null
+      }
+    }
+  },
+  "monitoring": {
+    "actualInspectionCalls": 20,
+    "publicationInspection": {
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-17T14:38:19.285685+00:00",
+      "canonicalURL": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+      "inspectionVerdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "userCanonical": null,
+      "googleCanonical": null,
+      "lastCrawlTime": null,
+      "nextReview": "2026-11-20"
+    },
+    "weekly": "W47 delivered Nov 16; no duplicate",
+    "monthly": "October already delivered; November not settled",
+    "notes": [
+      "Harris County inheritance guide overlaps the separately indexed short answer; compare intents and docs if second observation confirms.",
+      "Detroit inheritance guide has no contextual blog links; verify local legal and topical evidence if second observation confirms. Both pages passed current indexability checks."
+    ],
+    "coverage": {
+      "eligibleSitemapURLs": 223,
+      "eligibleBlogArticles": 195,
+      "retainedActualInspectionCoverage": 223,
+      "retainedActualBlogCoverage": 195,
+      "indexedTotal": 201,
+      "indexedBlogArticles": 177,
+      "unavailable": 0,
+      "latestObservationRange": [
+        "2026-10-14T15:01:38.207684+00:00",
+        "2026-11-17T14:38:19.285685+00:00"
+      ],
+      "basis": "Latest retained actual Google inspections, mixed observation dates.",
+      "observedAt": "2026-11-17T14:38:56.619Z",
+      "notPASS": 22
+    },
+    "dueRemaining": 59,
+    "suspectedRegressions": [
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
+        "observation": "2026-11-17T14:30:20.213353+00:00",
+        "priorIndexed": "2026-10-14T15:01:22.584474+00:00",
+        "recheckNoEarlierThan": "2026-11-18T14:30:20.213353+00:00"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
+        "observation": "2026-11-17T14:30:13.383297+00:00",
+        "priorIndexed": "2026-10-14T15:01:16.906927+00:00",
+        "recheckNoEarlierThan": "2026-11-18T14:30:13.383297+00:00"
+      }
+    ]
+  },
+  "externalPaidApiSpendUSD": 0,
+  "protectedSourceChanges": [],
+  "completedAt": "2026-11-17T14:38:56.619Z"
+}

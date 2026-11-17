@@ -1099,5 +1099,23 @@
       "/blog/fha-partial-claim-selling-houston-house/"
     ],
     "substantiveDifference": "Addresses a lender property-condition requirement after an FHA appraisal, contract 7E cost responsibility, proof of completion and a comparison if repairs threaten timing. Existing appraisal article concerns a low valuation, repairs pages address general condition, and partial claim concerns the seller's payoff."
+  },
+  {
+    "slug": "backup-offer-under-contract-texas-house",
+    "intentKey": "texas-seller-executed-first-contract-contingent-backup-notice",
+    "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+    "commit": "8e039ae3182d57703a0304fe6205f877dd7f6538",
+    "deployId": "6afc66814a1acc4f0a14a896",
+    "pr": 52,
+    "publishedAt": "2026-11-17T14:37:35.892Z",
+    "runId": "native-daily-20261117T142754Z",
+    "day": "2026-11-17",
+    "status": "published",
+    "nearestOverlaps": [
+      "/blog/cash-offer-while-house-listed-houston/",
+      "/compare-the-net/",
+      "/blog/how-to-verify-cash-home-buyer-texas/"
+    ],
+    "substantiveDifference": "First contract already executed; distinguishes a contingent executed backup from an offer and covers the contingency cutoff, immediate notice and amended effective date. Existing listing article is about broker agreement/fees; net guide addresses proceeds without backup sequencing."
   }
 ]
