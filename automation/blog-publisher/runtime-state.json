@@ -1445,8 +1445,12 @@
       "day": "2026-11-17",
       "slug": "backup-offer-under-contract-texas-house",
       "intentKey": "texas-seller-executed-first-contract-contingent-backup-notice",
-      "status": "reserved",
-      "reservedAt": "2026-11-17T14:29:11.581Z"
+      "status": "publishing",
+      "reservedAt": "2026-11-17T14:29:11.581Z",
+      "publishingAt": "2026-11-17T14:36:44.021Z",
+      "pr": 52,
+      "headCommit": "7773886dffa6d218ec423c9052089c6d6095afa1",
+      "previewDeployId": "6afc65f6dec26ea1d80d9824"
     }
   ],
   "externalApiSpendLimitUSD": 0,
