@@ -1,0 +1,130 @@
+{
+  "runId": "native-daily-20261117T142754Z",
+  "fence": 41,
+  "day": "2026-11-17",
+  "slug": "backup-offer-under-contract-texas-house",
+  "intentKey": "texas-seller-executed-first-contract-contingent-backup-notice",
+  "status": "draft",
+  "reservedAt": "2026-11-17T14:29:11.581Z",
+  "title": "Can You Take a Backup Offer on a Texas House Under Contract?",
+  "description": "Already under contract on a Texas house? Learn when a backup offer can move forward, which dates to check, and what to confirm before signing.",
+  "primaryKeyword": "backup offer on a Texas house under contract",
+  "supportingKeywords": [
+    "Texas backup contract for sellers",
+    "TREC backup contract amended effective date",
+    "accept a backup cash offer in Houston"
+  ],
+  "nearestOverlaps": [
+    "/blog/cash-offer-while-house-listed-houston/",
+    "/compare-the-net/",
+    "/blog/how-to-verify-cash-home-buyer-texas/"
+  ],
+  "substantiveDifference": "First contract already executed; distinguishes a contingent executed backup from an offer and covers the contingency cutoff, immediate notice and amended effective date. Existing listing article is about broker agreement/fees; net guide addresses proceeds without backup sequencing.",
+  "serviceGeography": "Houston-area service confirmed on current seller and cash offer pages.",
+  "sellerVoice": {
+    "mode": "read_only",
+    "sample": 100,
+    "inbound": 51,
+    "themes": {
+      "timing": 0,
+      "contract": 1,
+      "backup": 0
+    },
+    "note": "Bounded aggregate screening only; no evidence of recurring backup demand; no identifiable material retained."
+  },
+  "image": "/images/backup-offer-under-contract-texas-house.png",
+  "imageSha256": "525f4deca748404927a23d8326714dd9859aa356e6faf182a09c30a44d22107c",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "BACKUP OFFER NEXT STEPS",
+    "wordCount": 4,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "backgroundSha256": "dd60ddfdc7450f0368bdc6202051802c012e1a4dc68de9deee9dfcd728604aca",
+    "provenance": "Native Work imagegen exec-ae142e19-3e10-4054-b9f6-09fc6eaae488; fictional Houston-area house; locked renderer with exact official transparent logo and font."
+  },
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Native Work and existing Netlify allowances."
+  },
+  "externalApiUsed": false,
+  "checks": {
+    "privacy": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "pending"
+  },
+  "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+  "commit": null,
+  "deployId": null,
+  "seoLifecycle": {
+    "stage": "local_verified",
+    "local": {
+      "indexability": "built 200",
+      "robotsNoindex": "verify per environment",
+      "canonical": "expected self canonical",
+      "sitemapEligibility": "local sitemap and RSS passed",
+      "contentQuality": "direct seller answer, date checklist and hypothetical, balanced cash and listing",
+      "specificSearchIntent": "seller with executed first sale considering a contingent backup",
+      "duplicateContent": "no same-intent page identified",
+      "cannibalization": "differs from broker contract and ordinary offer review",
+      "meaningfulInternalLinks": "listing agreement guide and seller net tool; hub inbound",
+      "sellerConversionPath": "inline and layout attributed CTAs",
+      "factualSources": "TREC forms 11-9 and §537.69"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/forms/addendum-back-contract",
+      "title": "TREC current backup addendum index",
+      "publicationDate": "2026-07-01",
+      "accessedAt": "2026-11-17",
+      "verifiedAt": "2026-11-17",
+      "reportingPeriod": "current on access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read published primary text (not draft), scoped advice to contract form and required seller fact checks.",
+      "claim": "Current effective version and contingency on termination of an executed first contract."
+    },
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/11-9.pdf",
+      "title": "Promulgated TREC Form 11-9",
+      "publicationDate": "2026-05-04",
+      "accessedAt": "2026-11-17",
+      "verifiedAt": "2026-11-17",
+      "reportingPeriod": "current on access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read published primary text (not draft), scoped advice to contract form and required seller fact checks.",
+      "claim": "A, G–J define initial/additional deposits, binding contingency, cutoff and refund, notice delivery amended date, amendment distinction and option rights."
+    },
+    {
+      "url": "https://www.trec.texas.gov/agency-information/rules-and-laws/trec-rules/",
+      "title": "TREC rules §537.69",
+      "publicationDate": null,
+      "accessedAt": "2026-11-17",
+      "verifiedAt": "2026-11-17",
+      "reportingPeriod": "current on access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Read published primary text (not draft), scoped advice to contract form and required seller fact checks.",
+      "claim": "Form 62-0 is a voluntary notice to identify termination of the first contract and shift the backup to primary."
+    }
+  ]
+}
