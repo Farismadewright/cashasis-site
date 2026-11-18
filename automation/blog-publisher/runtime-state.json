@@ -3,7 +3,9 @@
     "runId": "native-daily-20261118T141628Z",
     "fence": 42,
     "issuedAt": "2026-11-18T14:16:28.228Z",
-    "expiresAt": "2026-11-18T16:16:28.228Z"
+    "expiresAt": "2026-11-18T14:22:18.538Z",
+    "released": true,
+    "releasedAt": "2026-11-18T14:22:18.538Z"
   },
   "ledger": [
     {
@@ -1460,29 +1462,55 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261117T142754Z",
-    "day": "2026-11-17",
-    "fence": 41,
-    "status": "published",
-    "published": 1,
-    "held": 0,
-    "articles": [
+    "runId": "native-daily-20261118T141628Z",
+    "day": "2026-11-18",
+    "fence": 42,
+    "status": "hold",
+    "published": 0,
+    "held": 3,
+    "articles": [],
+    "heldCandidates": [
       {
-        "slug": "backup-offer-under-contract-texas-house",
-        "intentKey": "texas-seller-executed-first-contract-contingent-backup-notice",
-        "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
-        "commit": "8e039ae3182d57703a0304fe6205f877dd7f6538",
-        "deployId": "6afc66814a1acc4f0a14a896",
-        "pr": 52,
-        "publishedAt": "2026-11-17T14:37:35.892Z"
+        "candidate": "Backup-contract notice and restarted deadlines after the first sale ends",
+        "existingSlug": "backup-offer-under-contract-texas-house",
+        "reason": "November 17 guide already explains immediate notice, amended effective date, initial money and cutoff. A separate notice variant repeats that decision.",
+        "status": "hold",
+        "gate": "originality_and_cannibalization",
+        "stage": "pre_generation_screen",
+        "reserved": false,
+        "generated": false,
+        "existingURL": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/"
+      },
+      {
+        "candidate": "Selling after moving out with an over-65 or disabled homestead tax deferral",
+        "existingSlug": "sell-texas-house-with-property-tax-deferral",
+        "reason": "Existing guide covers occupancy change, collector notice, dated payoff, proration and net comparison. Geography or eligibility synonym variants add no distinct decision.",
+        "status": "hold",
+        "gate": "originality_and_cannibalization",
+        "stage": "pre_generation_screen",
+        "reserved": false,
+        "generated": false,
+        "existingURL": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/"
+      },
+      {
+        "candidate": "Seller net when a cash offer arrives during a broker listing",
+        "existingSlug": "cash-offer-while-house-listed-houston",
+        "reason": "Existing guide already compares negotiated commission, written release, protection terms and net proceeds. A commission-only article would compete with it.",
+        "status": "hold",
+        "gate": "originality_and_cannibalization",
+        "stage": "pre_generation_screen",
+        "reserved": false,
+        "generated": false,
+        "existingURL": "https://www.cashasis.com/blog/cash-offer-while-house-listed-houston/"
       }
     ],
-    "productionCommit": "8e039ae3182d57703a0304fe6205f877dd7f6538",
-    "productionDeployId": "6afc66814a1acc4f0a14a896",
-    "bookkeepingCommit": "fedbc3bb829950669346471252a64a8bf7a21da3",
-    "monitoringCommit": "18b72a55543c8dd89497f251766b9eb7e866b087",
+    "reservedSlots": 0,
+    "productionCommit": "fedbc3bb829950669346471252a64a8bf7a21da3",
+    "productionDeployId": "6afc6718d3bc2bb6f069cb3e",
+    "bookkeepingCommit": "42b67a0aaa0096924d65428805e581524bac3ed6",
+    "monitoringCommit": "d5275b6d59d9438016b3a195f79e8c70f109ee6b",
     "monitoringInspections": 20,
-    "completedAt": "2026-11-17T14:39:50.675Z",
+    "completedAt": "2026-11-18T14:22:18.538Z",
     "externalPaidApiSpendUSD": 0,
     "nativeIncrementalCost": null
   },
