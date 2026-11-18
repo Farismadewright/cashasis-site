@@ -253,3 +253,9 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 
 - Settled Nov 8–14 vs. Nov 1–7: 156 vs. 355 impressions and 0 vs. 1 clicks. The Missouri City page fell from 85 to 26 impressions with no clicks. Prioritize a more direct opening answer before more city coverage. Houston and Detroit back-tax guides need distinct editorial reviews after repeat Google nonindexing.
 - GA4 reported one scoped organic blog landing session versus none and no key events for the current week; validated leads and funded retained GP remain unverified. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-W47-weekly.json`.
+
+### November 18, 2026 — acquisition evidence review
+
+- No new page: backup notice, deferred homestead tax payoff after moving and broker-fee net questions already have current guides. HOLD all three candidate variants to preserve query ownership.
+- GSC Oct 19–Nov 15: 998 impressions and 2 clicks. Missouri City fast-sale query: 37 impressions, position 12.54, no clicks; local buyer query: 36 impressions, 17.75, no clicks. Review the first answer before more city variants; no automatic live rewrite.
+- GA4 for those dates: 4 scoped Organic Search blog landing sessions, no recorded key events. Seller leads and funded retained GP remain unverified. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-18.json`.
