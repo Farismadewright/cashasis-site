@@ -259,3 +259,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - No new page: backup notice, deferred homestead tax payoff after moving and broker-fee net questions already have current guides. HOLD all three candidate variants to preserve query ownership.
 - GSC Oct 19–Nov 15: 998 impressions and 2 clicks. Missouri City fast-sale query: 37 impressions, position 12.54, no clicks; local buyer query: 36 impressions, 17.75, no clicks. Review the first answer before more city variants; no automatic live rewrite.
 - GA4 for those dates: 4 scoped Organic Search blog landing sessions, no recorded key events. Seller leads and funded retained GP remain unverified. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-18.json`.
+
+### November 19, 2026 — confirmed organic acquisition review
+
+- Four repeat Google indexing regressions confirmed at least 24 hours apart: Harris County and Detroit inheritance guides; Houston and Detroit landlord-exit guides. Technical eligibility passed. Review overlap, contextual links and categorical legal/sale claims before specific owner-approved edits; no Google cause asserted.
+- Three proposed repair-credit, condo-assessment and mortgage-release variants held for existing coverage. Verified seller leads and funded retained GP remain unavailable. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-19.json`.
