@@ -264,3 +264,8 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 
 - Four repeat Google indexing regressions confirmed at least 24 hours apart: Harris County and Detroit inheritance guides; Houston and Detroit landlord-exit guides. Technical eligibility passed. Review overlap, contextual links and categorical legal/sale claims before specific owner-approved edits; no Google cause asserted.
 - Three proposed repair-credit, condo-assessment and mortgage-release variants held for existing coverage. Verified seller leads and funded retained GP remain unavailable. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-19.json`.
+
+### November 20, 2026 — organic acquisition review
+
+- Distinct mineral-rights seller question researched using current TREC Form44-3 and Railroad Commission surface/mineral-estate guidance. Draft and original native background retained; no publication after two locked-width headline preflight failures.
+- Existing Missouri City title already fits the leading local query. Prioritize a more direct seller answer and reviewed internal paths rather than more city variants. No validated organic seller lead or funded retained GP established. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-20.json`.
