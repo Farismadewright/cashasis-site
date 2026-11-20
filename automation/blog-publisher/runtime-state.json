@@ -1456,6 +1456,15 @@
       "deployId": "6afc66814a1acc4f0a14a896",
       "publishedAt": "2026-11-17T14:37:35.892Z",
       "verifiedAt": "2026-11-17T14:37:56.578200+00:00"
+    },
+    {
+      "runId": "native-daily-20261120T140503Z",
+      "fence": 44,
+      "day": "2026-11-20",
+      "slug": "mineral-rights-selling-houston-house",
+      "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
+      "status": "reserved",
+      "reservedAt": "2026-11-20T14:06:07.615Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
