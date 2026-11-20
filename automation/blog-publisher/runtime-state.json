@@ -3,7 +3,9 @@
     "runId": "native-daily-20261120T140503Z",
     "fence": 44,
     "issuedAt": "2026-11-20T14:05:03.893Z",
-    "expiresAt": "2026-11-20T16:05:03.893Z"
+    "expiresAt": "2026-11-20T14:13:44.762Z",
+    "released": true,
+    "releasedAt": "2026-11-20T14:13:44.762Z"
   },
   "ledger": [
     {
@@ -1464,54 +1466,45 @@
       "slug": "mineral-rights-selling-houston-house",
       "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
       "status": "reserved",
-      "reservedAt": "2026-11-20T14:06:07.615Z"
+      "reservedAt": "2026-11-20T14:06:07.615Z",
+      "editorialStatus": "hold",
+      "holdReason": "Two text-width preflights failed; no third correction or render attempted.",
+      "heldAt": "2026-11-20T14:13:44.762Z",
+      "generationStarted": true,
+      "productionReleaseAttempted": false,
+      "draftRecord": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house.json",
+      "reservationRetainedForDailyCap": true
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261119T145403Z",
-    "day": "2026-11-19",
-    "fence": 43,
+    "runId": "native-daily-20261120T140503Z",
+    "day": "2026-11-20",
+    "fence": 44,
     "status": "hold",
     "published": 0,
-    "held": 3,
+    "held": 1,
     "articles": [],
     "heldCandidates": [
       {
-        "candidate": "FHA repair credit instead of doing lender-required work",
-        "existingSlug": "fha-appraisal-repairs-selling-houston-house",
-        "reason": "Existing FAQ and lender clearance section answer this exact credit-versus-work question.",
+        "slug": "mineral-rights-selling-houston-house",
+        "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
         "status": "hold",
-        "stage": "pre_generation_originality_screen",
-        "generated": false,
-        "reserved": false
-      },
-      {
-        "candidate": "Who pays the condo special assessment at closing",
-        "existingSlug": "houston-condo-special-assessment-sale-records",
-        "reason": "Existing guide separates assessment records, charged balances and allocation on the actual closing estimate.",
-        "status": "hold",
-        "stage": "pre_generation_originality_screen",
-        "generated": false,
-        "reserved": false
-      },
-      {
-        "candidate": "Old mortgage still recorded after payoff",
-        "existingSlug": "paid-off-mortgage-lien-release-houston",
-        "reason": "Existing guide already explains payoff versus recorded release and how to resolve it with the closer.",
-        "status": "hold",
-        "stage": "pre_generation_originality_screen",
-        "generated": false,
-        "reserved": false
+        "reason": "Two text-width preflights failed; no third correction or render attempted.",
+        "draftRecord": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house.json",
+        "draftArticle": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house.md",
+        "background": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house-background.png"
       }
     ],
-    "reservedSlots": 0,
-    "productionCommit": "42b67a0aaa0096924d65428805e581524bac3ed6",
-    "productionDeployId": "6afdb48a8d103edf70ea8ec3",
-    "bookkeepingCommit": "234cd92f6ebc250abdb17a7d489ab1afdf70b9cb",
-    "monitoringCommit": "7e9dd595f3158a27adb22c740720f521242346be",
-    "monitoringInspections": 20,
-    "completedAt": "2026-11-19T14:58:10.639Z",
+    "reservedSlots": 1,
+    "productionCommit": "234cd92f6ebc250abdb17a7d489ab1afdf70b9cb",
+    "productionDeployId": "6aff0e7158ff6307981e39c1",
+    "bookkeepingCommit": "ca61c4e79d80dcc990feeaeca1bda98e391def8b",
+    "monitoringCommit": "61a6e6e8c20c06de07351dd6e282d0205cc16682",
+    "inspectionAttempts": 20,
+    "successfulGoogleResults": 17,
+    "inspectionTimeouts": 3,
+    "completedAt": "2026-11-20T14:13:44.762Z",
     "externalPaidApiSpendUSD": 0,
     "nativeIncrementalCost": null
   },
