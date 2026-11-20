@@ -5,7 +5,7 @@
   "firstMonthlyPeriod": "2026-10",
   "lastWeeklyKey": "2026-W47",
   "lastMonthlyKey": "2026-10",
-  "lastAttempt": "2026-11-19T14:56:47.845Z",
+  "lastAttempt": "2026-11-20T14:12:25.234Z",
   "lastSuccessfulReview": "2026-11-16T14:29:15.494Z",
   "pages": [
     {
@@ -10743,15 +10743,46 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Il49KoUpCHclufp-EG5ThA&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:12:25.234Z",
+          "source": "google_url_inspection",
+          "error": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.130675+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:32.130675+00:00",
-      "nextReviewAt": "2026-11-11T15:02:32.130675+00:00",
+      "nextReviewAt": "2026-11-21T14:12:25.234000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-11-21T14:12:25.234000+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.012210+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/still-paying-unused-property/",
+        "checkedAt": "2026-11-20T14:09:39.012210+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/still-paying-unused-property/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:12:25.234Z",
+      "lastInspectionError": {
+        "at": "2026-11-20T14:12:25.234Z",
+        "reason": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
+      }
     },
     {
       "url": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
@@ -10812,26 +10843,44 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=jmqifli_a8m8AeyvPHp9cQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:12:25.234Z",
+          "source": "google_url_inspection",
+          "error": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.062303+00:00",
       "lastSuccessfulInspection": "2026-11-01T14:20:46.662986+00:00",
-      "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
+      "nextReviewAt": "2026-11-21T14:12:25.234000+00:00",
       "excluded": false,
-      "lastAttemptAt": "2026-11-01T14:20:46.662986+00:00",
-      "technicalEligible": false,
-      "technicalVerifiedAt": "2026-11-01T14:24:23.938133+00:00",
+      "lastAttemptAt": "2026-11-20T14:12:25.234Z",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.028332+00:00",
       "technicalIssueConfirmed": true,
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
-        "status": "qa_failed",
-        "error": "('https://www.cashasis.com/blog/stop-foreclosure-detroit/', 'internal links')",
-        "technicalVerifiedAt": "2026-11-01T14:24:23.938133+00:00"
+        "checkedAt": "2026-11-20T14:09:39.028332+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sellerPath": true
       },
       "technicalIssue": "missing_contextual_internal_links",
-      "nextReview": "2026-11-15",
+      "nextReview": "2026-11-21T14:12:25.234000+00:00",
       "linkReview": {
         "relativeBodyLinks": false,
         "checked": [],
@@ -10842,6 +10891,10 @@
         "note": "No contextual article-body internal links. Strong Michigan foreclosure/redemption instructions and guarantees need primary-source editorial review. No new Detroit topic or unapproved changes.",
         "liveRewritePerformed": false,
         "manualIndexingRequested": false
+      },
+      "lastInspectionError": {
+        "at": "2026-11-20T14:12:25.234Z",
+        "reason": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
       }
     },
     {
@@ -10862,15 +10915,59 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=mg6oy5C_pw5Rx35Wpk_hIg&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:10:50.016386+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+          "lastCrawlTime": "2026-10-23T14:15:36+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=KvswiD89jP0Avd45UYPB0g&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.478656+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:32.478656+00:00",
-      "nextReviewAt": "2026-11-11T15:02:32.478656+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:10:50.016386+00:00",
+      "nextReviewAt": "2026-12-18T14:10:50.016386+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:10:50.016386+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.604944+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+        "checkedAt": "2026-11-20T14:09:39.604944+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
+          "https://www.cashasis.com/blog/options-before-foreclosure-sale/",
+          "https://www.cashasis.com/blog/sell-before-foreclosure-sale/",
+          "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+          "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/",
+          "https://www.cashasis.com/blog/sell-preforeclosure-house-harris-county/",
+          "https://www.cashasis.com/blog/sell-preforeclosure-house-montgomery-county/",
+          "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:10:50.016386+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/blog/stop-paying-unused-property/",
@@ -10890,15 +10987,49 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=tuYOawCWvBaVd7Mogqng2g&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:10:49.79499+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/stop-paying-unused-property/",
+          "userCanonical": "https://www.cashasis.com/blog/stop-paying-unused-property/",
+          "lastCrawlTime": "2026-10-07T18:20:59+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=C8igcgnq4kbL6s1nrKVs9w&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.179374+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:32.179374+00:00",
-      "nextReviewAt": "2026-11-11T15:02:32.179374+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:10:49.79499+00:00",
+      "nextReviewAt": "2026-12-18T14:10:49.794990+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:10:49.794990+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.600354+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/stop-paying-unused-property/",
+        "checkedAt": "2026-11-20T14:09:39.600354+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/stop-paying-unused-property/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:10:49.79499+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
@@ -11030,15 +11161,50 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sdZ0NPEt09DZLh67fmrjLw&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:10:56.374097+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+          "userCanonical": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+          "lastCrawlTime": "2026-10-07T15:29:23+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Cukz_Bhmr2vddhRt52qKDA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:32.14447+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:32.14447+00:00",
-      "nextReviewAt": "2026-11-11T15:02:32.144470+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:10:56.374097+00:00",
+      "nextReviewAt": "2026-12-18T14:10:56.374097+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:10:56.374097+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.557181+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+        "checkedAt": "2026-11-20T14:09:39.557181+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:10:56.374097+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
@@ -11184,15 +11350,55 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=XJ7gkT06qlPnAl0_fQ3Okw&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:10:56.386676+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/we-buy-houses-houston/",
+          "userCanonical": "https://www.cashasis.com/blog/we-buy-houses-houston/",
+          "lastCrawlTime": "2026-10-07T19:15:35+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=23eZb9NtdnMlhkzvNlbdAA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-09T13:48:56.385071+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:38.9639+00:00",
-      "nextReviewAt": "2026-11-11T15:02:38.963900+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:10:56.386676+00:00",
+      "nextReviewAt": "2026-12-18T14:10:56.386676+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:10:56.386676+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.228736+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/we-buy-houses-houston/",
+        "checkedAt": "2026-11-20T14:09:39.228736+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/we-buy-houses-houston/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+          "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "https://www.cashasis.com/blog/sell-my-house-fast-houston/",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/",
+          "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:10:56.386676+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
@@ -11212,15 +11418,53 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=pE6BccWvOMpzHDK84BY-OA&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:10:56.579942+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
+          "userCanonical": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
+          "lastCrawlTime": "2026-11-14T16:28:14+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Q_fM4MJ6gVl-CGnThZ9cBA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:47.921308+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:47.921308+00:00",
-      "nextReviewAt": "2026-11-11T15:02:47.921308+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:10:56.579942+00:00",
+      "nextReviewAt": "2026-12-18T14:10:56.579942+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:10:56.579942+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.576785+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
+        "checkedAt": "2026-11-20T14:09:39.576785+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/fix-it-first-or-sell-as-is/",
+          "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+          "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:10:56.579942+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
@@ -11240,15 +11484,49 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=9nNlfS5gMblweCY1eCgY6w&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:03.099404+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+          "userCanonical": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+          "lastCrawlTime": "2026-10-07T20:31:45+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=bO4k1jL4n2ck0OS9T7Woug&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:38.951976+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:38.951976+00:00",
-      "nextReviewAt": "2026-11-11T15:02:38.951976+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:03.099404+00:00",
+      "nextReviewAt": "2026-12-18T14:11:03.099404+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:03.099404+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.048629+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+        "checkedAt": "2026-11-20T14:09:39.048629+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": true,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:03.099404+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/closing-timeline/",
@@ -11268,15 +11546,45 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=PAXZKYHQg3MvBt_nsETvjw&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:12:25.234Z",
+          "source": "google_url_inspection",
+          "error": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:39.305528+00:00",
       "lastSuccessfulInspection": "2026-10-14T15:02:39.305528+00:00",
-      "nextReviewAt": "2026-11-11T15:02:39.305528+00:00",
+      "nextReviewAt": "2026-11-21T14:12:25.234000+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-11-21T14:12:25.234000+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:38.991097+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/closing-timeline/",
+        "checkedAt": "2026-11-20T14:09:38.991097+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/closing-timeline/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:12:25.234Z",
+      "lastInspectionError": {
+        "at": "2026-11-20T14:12:25.234Z",
+        "reason": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
+      }
     },
     {
       "url": "https://www.cashasis.com/compare-the-net/",
@@ -11337,42 +11645,49 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TwGhC1_0SIVh_8hf3-9rWA&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:03.201891+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/compare-the-net/",
+          "userCanonical": "https://www.cashasis.com/compare-the-net/",
+          "lastCrawlTime": "2026-11-09T23:28:04+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=uWSksoMvX5ZXQElTeBsiwg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:45.774871+00:00",
-      "lastSuccessfulInspection": "2026-11-01T14:20:46.639468+00:00",
-      "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:03.201891+00:00",
+      "nextReviewAt": "2026-12-18T14:11:03.201891+00:00",
       "excluded": false,
-      "lastAttemptAt": "2026-11-01T14:20:46.639468+00:00",
+      "lastAttemptAt": "2026-11-20T14:11:03.201891+00:00",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-11-01T14:24:35.638445+00:00",
+      "technicalVerifiedAt": "2026-11-20T14:09:39.532484+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "url": "https://www.cashasis.com/compare-the-net/",
-        "checkedUrl": "https://www.cashasis.com/compare-the-net/",
+        "checkedAt": "2026-11-20T14:09:39.532484+00:00",
         "http": 200,
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-11-01T14:24:35.638445+00:00",
         "canonical": "https://www.cashasis.com/compare-the-net/",
-        "robots": " ",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [],
         "schemaTypes": [
           "BlogPosting",
           "FAQPage"
         ],
-        "image": null,
-        "links": {},
-        "attributedCTAs": [],
-        "sitemap": true,
-        "rss": false,
-        "blogIndex": true,
-        "robotsCrawlable": true,
-        "HTMLCSSParity": false,
-        "status": "pass"
+        "sellerPath": true
       },
       "technicalIssue": null,
-      "nextReview": "2026-11-15",
+      "nextReview": "2026-12-18T14:11:03.201891+00:00",
       "linkReview": {
         "relativeBodyLinks": true,
         "checked": [
@@ -11396,7 +11711,8 @@
         "note": "Current design and seller comparison utility preserved; contextual links to holding costs, offer and net pages. No claim that cash always nets more should be inferred; review comparative claims alongside actual fee examples before approved optimization.",
         "liveRewritePerformed": false,
         "manualIndexingRequested": false
-      }
+      },
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/fix-it-or-sell-it/",
@@ -11416,15 +11732,47 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=RSbUO-apn0KrAb0LdA98Lw&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:09.694136+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/fix-it-or-sell-it/",
+          "userCanonical": "https://www.cashasis.com/fix-it-or-sell-it/",
+          "lastCrawlTime": "2026-10-07T19:35:06+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=os69gQZWIEL_D3wOSs8JBg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:48.706742+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:48.706742+00:00",
-      "nextReviewAt": "2026-11-11T15:02:48.706742+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:09.694136+00:00",
+      "nextReviewAt": "2026-12-18T14:11:09.694136+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:09.694136+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:39.579799+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/fix-it-or-sell-it/",
+        "checkedAt": "2026-11-20T14:09:39.579799+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/fix-it-or-sell-it/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:09.694136+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/no-repairs-no-cleanup/",
@@ -11444,15 +11792,48 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1O1E2s9V9gWeyUNNeggVvw&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:09.901188+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/no-repairs-no-cleanup/",
+          "userCanonical": "https://www.cashasis.com/no-repairs-no-cleanup/",
+          "lastCrawlTime": "2026-09-26T07:16:07+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WCPzOMIWQeeL6WkD8Jr7og&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:45.794889+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:45.794889+00:00",
-      "nextReviewAt": "2026-11-11T15:02:45.794889+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:09.901188+00:00",
+      "nextReviewAt": "2026-12-18T14:11:09.901188+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:09.901188+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:42.776574+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/no-repairs-no-cleanup/",
+        "checkedAt": "2026-11-20T14:09:42.776574+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/no-repairs-no-cleanup/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:09.901188+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/seller-faq/",
@@ -11472,15 +11853,50 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0ODcFjU3Uz4SLtKjGmYgwQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:22.395758+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/seller-faq/",
+          "userCanonical": "https://www.cashasis.com/seller-faq/",
+          "lastCrawlTime": "2026-09-26T08:36:56+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=g7cCj8J33hDkcSilsuTgYA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:49.20504+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:49.20504+00:00",
-      "nextReviewAt": "2026-11-11T15:02:49.205040+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:22.395758+00:00",
+      "nextReviewAt": "2026-12-18T14:11:22.395758+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:22.395758+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:42.861302+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/seller-faq/",
+        "checkedAt": "2026-11-20T14:09:42.861302+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/seller-faq/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:22.395758+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
@@ -11500,15 +11916,50 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Rrl6wyiYeobclep7qeikhg&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:16.618698+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+          "userCanonical": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+          "lastCrawlTime": "2026-10-07T19:14:41+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=is4FBDP5KF5H4i84yRGu1Q&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:02:52.408895+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:02:52.408895+00:00",
-      "nextReviewAt": "2026-11-11T15:02:52.408895+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:16.618698+00:00",
+      "nextReviewAt": "2026-12-18T14:11:16.618698+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:16.618698+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:42.780156+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+        "checkedAt": "2026-11-20T14:09:42.780156+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/sell-property-with-back-taxes/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:16.618698+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
@@ -11528,15 +11979,51 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=oGyPcqGxkhuqlfSj2ySvCA&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:19.971775+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
+          "userCanonical": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
+          "lastCrawlTime": "2026-10-08T00:46:39+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=J3T8bIIdUUi2r1AC4QeFww&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.194897+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:03:01.194897+00:00",
-      "nextReviewAt": "2026-11-11T15:03:01.194897+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:19.971775+00:00",
+      "nextReviewAt": "2026-12-18T14:11:19.971775+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:19.971775+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:42.736251+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
+        "checkedAt": "2026-11-20T14:09:42.736251+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/inherited-property-cashasis-options/",
+          "https://www.cashasis.com/blog/skip-full-probate-affidavit-heirship-cashasis/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:19.971775+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
@@ -11556,15 +12043,48 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=1C15JMf9IPp9vywmq8sxog&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:20.021335+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
+          "userCanonical": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
+          "lastCrawlTime": "2026-10-07T15:54:30+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=eH_QeidmxoJxsghbyU6WYg&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.118914+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:03:01.118914+00:00",
-      "nextReviewAt": "2026-11-11T15:03:01.118914+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:20.021335+00:00",
+      "nextReviewAt": "2026-12-18T14:11:20.021335+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:20.021335+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:42.840827+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
+        "checkedAt": "2026-11-20T14:09:42.840827+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:20.021335+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/seller-stories/sold-fast/",
@@ -11584,15 +12104,48 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=wZO2sBlz9KHQpH0-0aQU_A&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:23.331694+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/seller-stories/sold-fast/",
+          "userCanonical": "https://www.cashasis.com/seller-stories/sold-fast/",
+          "lastCrawlTime": "2026-10-07T19:28:36+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_LWgg4H3CHMTvlfBxNZTEw&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.287926+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:03:01.287926+00:00",
-      "nextReviewAt": "2026-11-11T15:03:01.287926+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:23.331694+00:00",
+      "nextReviewAt": "2026-12-18T14:11:23.331694+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:23.331694+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:42.804342+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/seller-stories/sold-fast/",
+        "checkedAt": "2026-11-20T14:09:42.804342+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/seller-stories/sold-fast/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:23.331694+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
@@ -11653,43 +12206,49 @@
           "indexingState": "INDEXING_STATE_UNSPECIFIED",
           "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=yPsOHIp4Bc7vLxyuxIDszQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:26.575239+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+          "userCanonical": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+          "lastCrawlTime": "2026-11-11T17:53:40+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7SpEZqRYq0RPFThp6nqEmQ&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.425205+00:00",
-      "lastSuccessfulInspection": "2026-11-01T14:20:46.684644+00:00",
-      "nextReviewAt": "2026-11-15T14:02:25.785425+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:26.575239+00:00",
+      "nextReviewAt": "2026-12-18T14:11:26.575239+00:00",
       "excluded": false,
-      "lastAttemptAt": "2026-11-01T14:20:46.684644+00:00",
+      "lastAttemptAt": "2026-11-20T14:11:26.575239+00:00",
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-11-01T14:24:42.068644+00:00",
+      "technicalVerifiedAt": "2026-11-20T14:09:42.841586+00:00",
       "technicalIssueConfirmed": false,
       "technicalQA": {
         "url": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
-        "checkedUrl": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "checkedAt": "2026-11-20T14:09:42.841586+00:00",
         "http": 200,
-        "technicalEligible": true,
-        "technicalVerifiedAt": "2026-11-01T14:24:42.068644+00:00",
         "canonical": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
-        "robots": " ",
-        "schemaTypes": [
-          "BlogPosting",
-          "FAQPage",
-          "VideoObject"
-        ],
-        "image": null,
-        "links": {},
-        "attributedCTAs": [],
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
         "sitemap": true,
         "rss": false,
-        "blogIndex": true,
-        "robotsCrawlable": true,
-        "HTMLCSSParity": false,
-        "status": "pass"
+        "hub": true,
+        "links": [],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
       },
       "technicalIssue": null,
-      "nextReview": "2026-11-15",
+      "nextReview": "2026-12-18T14:11:26.575239+00:00",
       "linkReview": {
         "relativeBodyLinks": true,
         "checked": [
@@ -11709,7 +12268,8 @@
         "note": "Existing short seller-story page uses approved site content; check original evidence and distinct informational value in editorial review. No new testimonials/outcomes invented.",
         "liveRewritePerformed": false,
         "manualIndexingRequested": false
-      }
+      },
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
@@ -11729,15 +12289,51 @@
           "indexingState": "INDEXING_ALLOWED",
           "pageFetchState": "SUCCESSFUL",
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=8NHuJAUeNTZd3XB3HR5nPQ&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:11:26.991555+00:00",
+          "source": "google_url_inspection",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "googleCanonical": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
+          "userCanonical": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
+          "lastCrawlTime": "2026-10-07T13:25:01+00:00",
+          "indexingState": "INDEXING_ALLOWED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GXys11s533DdDRsx7vweeA&utm_medium=link&utm_source=api"
         }
       ],
       "eligibleInventorySource": "Verified production sitemap; withdrawn, test and drafts excluded.",
       "inventoryVerifiedAt": "2026-11-14T14:53:37.639945+00:00",
       "firstSuccessfulInspection": "2026-10-14T15:03:01.292563+00:00",
-      "lastSuccessfulInspection": "2026-10-14T15:03:01.292563+00:00",
-      "nextReviewAt": "2026-11-11T15:03:01.292563+00:00",
+      "lastSuccessfulInspection": "2026-11-20T14:11:26.991555+00:00",
+      "nextReviewAt": "2026-12-18T14:11:26.991555+00:00",
       "excluded": false,
-      "nextReview": "2026-11-11"
+      "nextReview": "2026-12-18T14:11:26.991555+00:00",
+      "technicalEligible": true,
+      "technicalVerifiedAt": "2026-11-20T14:09:42.828365+00:00",
+      "technicalQA": {
+        "url": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
+        "checkedAt": "2026-11-20T14:09:42.828365+00:00",
+        "http": 200,
+        "canonical": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
+        "robots": true,
+        "noindex": false,
+        "indexable": true,
+        "sitemap": true,
+        "rss": false,
+        "hub": true,
+        "links": [
+          "https://www.cashasis.com/blog/empty-house-problems-dont-wait/",
+          "https://www.cashasis.com/blog/still-paying-unused-property/"
+        ],
+        "schemaTypes": [
+          "BlogPosting",
+          "FAQPage"
+        ],
+        "sellerPath": true
+      },
+      "lastAttemptAt": "2026-11-20T14:11:26.991555+00:00",
+      "diagnosticReason": "Google PASS; routine review."
     },
     {
       "url": "https://www.cashasis.com/the-cost-of-waiting/",
@@ -15944,12 +16540,23 @@
           "googleCanonical": null,
           "lastCrawlTime": null,
           "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=TPR2-QvhBC2RIsVcRbQeZA&utm_medium=link&utm_source=api"
+        },
+        {
+          "inspectedAt": "2026-11-20T14:10:49.695712+00:00",
+          "source": "google_url_inspection",
+          "verdict": "NEUTRAL",
+          "coverageState": "Discovered - currently not indexed",
+          "googleCanonical": null,
+          "userCanonical": null,
+          "lastCrawlTime": null,
+          "indexingState": "INDEXING_STATE_UNSPECIFIED",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=F_NuoBJ0GCI82izfkqSbmA&utm_medium=link&utm_source=api"
         }
       ],
       "sourceRecord": "automation/blog-publisher/records/backup-offer-under-contract-texas-house.json",
       "technicalQA": {
         "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
-        "checkedAt": "2026-11-18T14:19:07.741506+00:00",
+        "checkedAt": "2026-11-20T14:09:39.176866+00:00",
         "http": 200,
         "canonical": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
         "robots": true,
@@ -15969,13 +16576,13 @@
         "sellerPath": true
       },
       "technicalEligible": true,
-      "technicalVerifiedAt": "2026-11-18T14:19:07.741506+00:00",
+      "technicalVerifiedAt": "2026-11-20T14:09:39.176866+00:00",
       "firstSuccessfulInspection": "2026-11-17T14:38:19.285685+00:00",
-      "lastSuccessfulInspection": "2026-11-17T14:38:19.285685+00:00",
-      "lastAttemptAt": "2026-11-17T14:38:19.285685+00:00",
-      "nextReviewAt": "2026-11-20T14:38:19.285685+00:00",
-      "nextReview": "2026-11-20T14:38:19.285685+00:00",
-      "diagnosticReason": "Initial Google observation; no indexing failure inferred."
+      "lastSuccessfulInspection": "2026-11-20T14:10:49.695712+00:00",
+      "lastAttemptAt": "2026-11-20T14:10:49.695712+00:00",
+      "nextReviewAt": "2026-11-24T14:10:49.695712+00:00",
+      "nextReview": "2026-11-24T14:10:49.695712+00:00",
+      "diagnosticReason": "Initial discovery observation, not rejection."
     }
   ],
   "notifications": [
@@ -16256,10 +16863,13 @@
       "firstObservedAt": "2026-11-17T14:30:20.213353+00:00",
       "confirmedAt": "2026-11-19T14:55:39.788731+00:00",
       "priorIndexedAt": "2026-10-14T15:01:22.584474+00:00",
-      "deliveryStatus": "pending_owner_response",
+      "deliveryStatus": "delivered_in_prior_owner_response",
       "evidence": "automation/blog-publisher/runs/2026-11-19.json",
       "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-      "diagnosis": "Live eligibility, hub and seller path pass. Broad inheritance guide competes with the separate short-answer Harris County page and probate guides. It contains categorical statements about probate/letters and traditional-sale preparation that need source-specific qualification. Review ownership of intent and useful title-authority steps; Google cause not established."
+      "diagnosis": "Live eligibility, hub and seller path pass. Broad inheritance guide competes with the separate short-answer Harris County page and probate guides. It contains categorical statements about probate/letters and traditional-sale preparation that need source-specific qualification. Review ownership of intent and useful title-authority steps; Google cause not established.",
+      "deliveredDate": "2026-11-19",
+      "deliveryConfirmedAt": "2026-11-20T14:05:24.712Z",
+      "deliveryEvidence": "November 19 final owner response named and linked all four confirmed indexing regressions."
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/|indexing_regression_review",
@@ -16269,10 +16879,13 @@
       "firstObservedAt": "2026-11-18T14:19:31.631884+00:00",
       "confirmedAt": "2026-11-19T14:55:39.635511+00:00",
       "priorIndexedAt": "2026-10-14T15:01:58.891813+00:00",
-      "deliveryStatus": "pending_owner_response",
+      "deliveryStatus": "delivered_in_prior_owner_response",
       "evidence": "automation/blog-publisher/runs/2026-11-19.json",
       "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-      "diagnosis": "Live eligibility passes; broad landlord-exit intent overlaps existing tenant-sale and rental guides. Body has no contextual internal links. Claims that a traditional sale requires vacancy and that cash often nets more need qualification and sourced assumptions. Propose intent/link review, not automatic expansion."
+      "diagnosis": "Live eligibility passes; broad landlord-exit intent overlaps existing tenant-sale and rental guides. Body has no contextual internal links. Claims that a traditional sale requires vacancy and that cash often nets more need qualification and sourced assumptions. Propose intent/link review, not automatic expansion.",
+      "deliveredDate": "2026-11-19",
+      "deliveryConfirmedAt": "2026-11-20T14:05:24.712Z",
+      "deliveryEvidence": "November 19 final owner response named and linked all four confirmed indexing regressions."
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-inherited-house-detroit/|indexing_regression_review",
@@ -16282,10 +16895,13 @@
       "firstObservedAt": "2026-11-17T14:30:13.383297+00:00",
       "confirmedAt": "2026-11-19T14:55:39.583491+00:00",
       "priorIndexedAt": "2026-10-14T15:01:16.906927+00:00",
-      "deliveryStatus": "pending_owner_response",
+      "deliveryStatus": "delivered_in_prior_owner_response",
       "evidence": "automation/blog-publisher/runs/2026-11-19.json",
       "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-      "diagnosis": "Live eligibility passes; body lacks contextual blog links. Review probate-authority, creditor/tax-transfer statements, fixed timelines and blanket equal-split language against current primary sources; verify Detroit service scope. Do not assume these are Google's cause."
+      "diagnosis": "Live eligibility passes; body lacks contextual blog links. Review probate-authority, creditor/tax-transfer statements, fixed timelines and blanket equal-split language against current primary sources; verify Detroit service scope. Do not assume these are Google's cause.",
+      "deliveredDate": "2026-11-19",
+      "deliveryConfirmedAt": "2026-11-20T14:05:24.712Z",
+      "deliveryEvidence": "November 19 final owner response named and linked all four confirmed indexing regressions."
     },
     {
       "issueKey": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/|indexing_regression_review",
@@ -16295,10 +16911,23 @@
       "firstObservedAt": "2026-11-18T14:19:31.618104+00:00",
       "confirmedAt": "2026-11-19T14:55:39.566523+00:00",
       "priorIndexedAt": "2026-10-14T15:01:58.861693+00:00",
-      "deliveryStatus": "pending_owner_response",
+      "deliveryStatus": "delivered_in_prior_owner_response",
       "evidence": "automation/blog-publisher/runs/2026-11-19.json",
       "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-      "diagnosis": "Live eligibility passes; body has no contextual internal blog links. Registration/compliance statistics lack dated evidence in the article; broad rent-collection, escrow and debt-transfer claims need review using Detroit's current rental requirements. Verify current service scope. Google cause not established."
+      "diagnosis": "Live eligibility passes; body has no contextual internal blog links. Registration/compliance statistics lack dated evidence in the article; broad rent-collection, escrow and debt-transfer claims need review using Detroit's current rental requirements. Verify current service scope. Google cause not established.",
+      "deliveredDate": "2026-11-19",
+      "deliveryConfirmedAt": "2026-11-20T14:05:24.712Z",
+      "deliveryEvidence": "November 19 final owner response named and linked all four confirmed indexing regressions."
+    },
+    {
+      "issueKey": "publication|mineral-rights-selling-houston-house|approved_thumbnail_width",
+      "issueClass": "actionable_publishing_failure",
+      "status": "open_draft_retained",
+      "deliveryStatus": "pending_owner_response",
+      "firstObservedAt": "2026-11-20T14:12:25.234Z",
+      "evidence": "automation/blog-publisher/runs/2026-11-20.json",
+      "fingerprint": "Locked maximum670px; first line721px then correction695px; no render or release",
+      "nextAction": "In a later existing run, consider a shorter approved-template headline after fresh fence and intent checks; recover saved original draft and background."
     }
   ],
   "reportReceipts": {
@@ -16401,250 +17030,214 @@
     "note": "Original history and receipts preserved;5actual current-run calls added, including3newpublication calls."
   },
   "externalPaidApiSpendLimitUSD": 0,
-  "settledThrough": "2026-11-16",
+  "settledThrough": "2026-11-17",
   "inspectionCallsUsed": 20,
   "lastRunMonitoring": {
     "actualInspectionCalls": 20,
     "rows": [
       {
-        "url": "https://www.cashasis.com/blog/skip-probate-affidavit-heirship-texas/",
-        "inspectedAt": "2026-11-19T14:56:00.516963+00:00",
+        "url": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
+        "inspectedAt": "2026-11-20T14:11:26.991555+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
+        "userCanonical": "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
+        "lastCrawlTime": "2026-10-07T13:25:01+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GXys11s533DdDRsx7vweeA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "inspectedAt": "2026-11-20T14:11:26.575239+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "userCanonical": "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
+        "lastCrawlTime": "2026-11-11T17:53:40+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=7SpEZqRYq0RPFThp6nqEmQ&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/seller-stories/sold-fast/",
+        "inspectedAt": "2026-11-20T14:11:23.331694+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/seller-stories/sold-fast/",
+        "userCanonical": "https://www.cashasis.com/seller-stories/sold-fast/",
+        "lastCrawlTime": "2026-10-07T19:28:36+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=_LWgg4H3CHMTvlfBxNZTEw&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/seller-faq/",
+        "inspectedAt": "2026-11-20T14:11:22.395758+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/seller-faq/",
+        "userCanonical": "https://www.cashasis.com/seller-faq/",
+        "lastCrawlTime": "2026-09-26T08:36:56+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=g7cCj8J33hDkcSilsuTgYA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
+        "inspectedAt": "2026-11-20T14:11:20.021335+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
+        "userCanonical": "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
+        "lastCrawlTime": "2026-10-07T15:54:30+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=eH_QeidmxoJxsghbyU6WYg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
+        "inspectedAt": "2026-11-20T14:11:19.971775+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
+        "userCanonical": "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
+        "lastCrawlTime": "2026-10-08T00:46:39+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=J3T8bIIdUUi2r1AC4QeFww&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+        "inspectedAt": "2026-11-20T14:11:16.618698+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+        "userCanonical": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+        "lastCrawlTime": "2026-10-07T19:14:41+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=is4FBDP5KF5H4i84yRGu1Q&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/no-repairs-no-cleanup/",
+        "inspectedAt": "2026-11-20T14:11:09.901188+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/no-repairs-no-cleanup/",
+        "userCanonical": "https://www.cashasis.com/no-repairs-no-cleanup/",
+        "lastCrawlTime": "2026-09-26T07:16:07+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WCPzOMIWQeeL6WkD8Jr7og&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/fix-it-or-sell-it/",
+        "inspectedAt": "2026-11-20T14:11:09.694136+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/fix-it-or-sell-it/",
+        "userCanonical": "https://www.cashasis.com/fix-it-or-sell-it/",
+        "lastCrawlTime": "2026-10-07T19:35:06+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=os69gQZWIEL_D3wOSs8JBg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/compare-the-net/",
+        "inspectedAt": "2026-11-20T14:11:03.201891+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/compare-the-net/",
+        "userCanonical": "https://www.cashasis.com/compare-the-net/",
+        "lastCrawlTime": "2026-11-09T23:28:04+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=uWSksoMvX5ZXQElTeBsiwg&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+        "inspectedAt": "2026-11-20T14:11:03.099404+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+        "userCanonical": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+        "lastCrawlTime": "2026-10-07T20:31:45+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=bO4k1jL4n2ck0OS9T7Woug&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
+        "inspectedAt": "2026-11-20T14:10:56.579942+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
+        "userCanonical": "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
+        "lastCrawlTime": "2026-11-14T16:28:14+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Q_fM4MJ6gVl-CGnThZ9cBA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/we-buy-houses-houston/",
+        "inspectedAt": "2026-11-20T14:10:56.386676+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/blog/we-buy-houses-houston/",
+        "userCanonical": "https://www.cashasis.com/blog/we-buy-houses-houston/",
+        "lastCrawlTime": "2026-10-07T19:15:35+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=23eZb9NtdnMlhkzvNlbdAA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+        "inspectedAt": "2026-11-20T14:10:56.374097+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+        "userCanonical": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+        "lastCrawlTime": "2026-10-07T15:29:23+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Cukz_Bhmr2vddhRt52qKDA&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+        "inspectedAt": "2026-11-20T14:10:50.016386+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+        "userCanonical": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+        "lastCrawlTime": "2026-10-23T14:15:36+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=KvswiD89jP0Avd45UYPB0g&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/stop-paying-unused-property/",
+        "inspectedAt": "2026-11-20T14:10:49.79499+00:00",
+        "source": "google_url_inspection",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "googleCanonical": "https://www.cashasis.com/blog/stop-paying-unused-property/",
+        "userCanonical": "https://www.cashasis.com/blog/stop-paying-unused-property/",
+        "lastCrawlTime": "2026-10-07T18:20:59+00:00",
+        "indexingState": "INDEXING_ALLOWED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=C8igcgnq4kbL6s1nrKVs9w&utm_medium=link&utm_source=api"
+      },
+      {
+        "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+        "inspectedAt": "2026-11-20T14:10:49.695712+00:00",
         "source": "google_url_inspection",
         "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/skip-probate-affidavit-heirship-texas/",
-        "userCanonical": "https://www.cashasis.com/blog/skip-probate-affidavit-heirship-texas/",
-        "lastCrawlTime": "2026-09-26T22:21:55+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=aNQPNDPUPeEzVLZSxslGuQ&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-property-as-is-no-repairs/",
-        "inspectedAt": "2026-11-19T14:56:00.133551+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-property-as-is-no-repairs/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-property-as-is-no-repairs/",
-        "lastCrawlTime": "2026-10-07T11:06:52+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=lT3C75T3IRWJK7iwORfQWQ&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/",
-        "inspectedAt": "2026-11-19T14:56:00.132668+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-tomball-tx/",
-        "lastCrawlTime": "2026-10-08T00:23:23+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=OZaDAjQh8umcxffPgXCdvA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/skip-full-probate-affidavit-heirship-cashasis/",
-        "inspectedAt": "2026-11-19T14:55:59.991892+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/skip-full-probate-affidavit-heirship-cashasis/",
-        "userCanonical": "https://www.cashasis.com/blog/skip-full-probate-affidavit-heirship-cashasis/",
-        "lastCrawlTime": "2026-10-08T03:10:42+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=YhNeA7J47kEI1vPWx5dVjg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/",
-        "inspectedAt": "2026-11-19T14:55:59.899182+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/",
-        "userCanonical": "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/",
-        "lastCrawlTime": "2026-10-07T15:52:03+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=eyflQLFbxHOegwC1r1_0Sw&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-montgomery-county/",
-        "inspectedAt": "2026-11-19T14:55:53.334214+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-montgomery-county/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-montgomery-county/",
-        "lastCrawlTime": "2026-10-07T17:30:59+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=0mh---bEIRvJSkkxbpyCUw&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-spring-tx/",
-        "inspectedAt": "2026-11-19T14:55:53.309785+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-spring-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-spring-tx/",
-        "lastCrawlTime": "2026-10-08T00:17:28+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=6CXN3WElqTFm7l3JzfV_7Q&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
-        "inspectedAt": "2026-11-19T14:55:53.218295+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
-        "lastCrawlTime": "2026-11-11T09:34:40+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-PL7ffx2cfqKbn_g5KIPbQ&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-pasadena-tx/",
-        "inspectedAt": "2026-11-19T14:55:53.200453+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-pasadena-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-pasadena-tx/",
-        "lastCrawlTime": "2026-10-07T16:35:15+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=T1Pf3xX_MfLoVYhsY4858g&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
-        "inspectedAt": "2026-11-19T14:55:53.142633+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-humble-tx/",
-        "lastCrawlTime": "2026-11-09T08:32:09+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=-8yTXeVrytxvl6VHAsNKkw&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-baytown-tx/",
-        "inspectedAt": "2026-11-19T14:55:46.612822+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-baytown-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-baytown-tx/",
-        "lastCrawlTime": "2026-10-07T14:20:06+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=sqm-5ggRSgKT1JcZjL9WCg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-detroit/",
-        "inspectedAt": "2026-11-19T14:55:46.524105+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-detroit/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-detroit/",
-        "lastCrawlTime": "2026-09-27T01:30:18+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GCiWRGBPcWxZiD4U_1UNfg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-vacant-house-houston/",
-        "inspectedAt": "2026-11-19T14:55:46.523095+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-vacant-house-houston/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-vacant-house-houston/",
-        "lastCrawlTime": "2026-09-26T21:06:55+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=oEmjV5zKP3Tnl43lEwdptg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
-        "inspectedAt": "2026-11-19T14:55:46.429271+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
-        "lastCrawlTime": "2026-10-17T14:10:48+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WCSvA-jeO__r1lsfKdicFw&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
-        "inspectedAt": "2026-11-19T14:55:46.376309+00:00",
-        "source": "google_url_inspection",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-probate-house-sugar-land-tx/",
-        "lastCrawlTime": "2026-10-17T12:55:47+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=NJEyE2Lct8ybW7BMKa9sOQ&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
-        "inspectedAt": "2026-11-19T14:55:39.80105+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
+        "coverageState": "Discovered - currently not indexed",
         "googleCanonical": null,
         "userCanonical": null,
         "lastCrawlTime": null,
         "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=EMbqvUClgfW_2lyjNbo6sg&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
-        "inspectedAt": "2026-11-19T14:55:39.788731+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
-        "lastCrawlTime": "2026-10-02T02:23:24+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=iTNDnWAwHgtIA2Rhwum98Q&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/",
-        "inspectedAt": "2026-11-19T14:55:39.635511+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/",
-        "lastCrawlTime": "2026-10-02T09:53:24+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=xozMmTPEnCLgeWXMB2ar-w&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
-        "inspectedAt": "2026-11-19T14:55:39.583491+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
-        "lastCrawlTime": "2026-08-29T06:53:18+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=JOq69O1UzHJ-sVdzHpWNrA&utm_medium=link&utm_source=api"
-      },
-      {
-        "url": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/",
-        "inspectedAt": "2026-11-19T14:55:39.566523+00:00",
-        "source": "google_url_inspection",
-        "verdict": "NEUTRAL",
-        "coverageState": "Crawled - currently not indexed",
-        "googleCanonical": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/",
-        "userCanonical": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/",
-        "lastCrawlTime": "2026-09-17T00:51:34+00:00",
-        "indexingState": "INDEXING_ALLOWED",
-        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=KxmHpGWlTdw1LWjeTC8XUg&utm_medium=link&utm_source=api"
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=F_NuoBJ0GCI82izfkqSbmA&utm_medium=link&utm_source=api"
       }
     ],
     "coverage": {
@@ -16652,118 +17245,80 @@
       "eligibleBlogArticles": 195,
       "retainedActualInspectionCoverage": 223,
       "retainedActualBlogCoverage": 195,
-      "indexedTotal": 198,
+      "indexedTotal": 200,
       "indexedBlogArticles": 174,
       "unavailable": 0,
       "latestObservationRange": [
         "2026-10-14T15:02:32.130675+00:00",
-        "2026-11-19T14:56:00.516963+00:00"
+        "2026-11-20T14:11:26.991555+00:00"
       ],
-      "basis": "Latest retained actual Google inspection observations at mixed dates, not same-day census.",
-      "observedAt": "2026-11-19T14:56:47.845Z"
+      "basis": "Latest retained actual Google inspections at mixed dates, not same-day census.",
+      "observedAt": "2026-11-20T14:12:25.234Z"
     },
-    "newConfirmedAlerts": [
+    "unreviewedCandidates": [],
+    "errors": [
       {
-        "issueKey": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/|indexing_regression_review",
-        "url": "https://www.cashasis.com/blog/sell-inherited-house-harris-county/",
-        "issueClass": "indexing_regression_review",
-        "status": "open_editorial_review",
-        "firstObservedAt": "2026-11-17T14:30:20.213353+00:00",
-        "confirmedAt": "2026-11-19T14:55:39.788731+00:00",
-        "priorIndexedAt": "2026-10-14T15:01:22.584474+00:00",
-        "deliveryStatus": "pending_owner_response",
-        "evidence": "automation/blog-publisher/runs/2026-11-19.json",
-        "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-        "diagnosis": "Live eligibility, hub and seller path pass. Broad inheritance guide competes with the separate short-answer Harris County page and probate guides. It contains categorical statements about probate/letters and traditional-sale preparation that need source-specific qualification. Review ownership of intent and useful title-authority steps; Google cause not established."
+        "url": "https://www.cashasis.com/blog/still-paying-unused-property/",
+        "error": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
       },
       {
-        "issueKey": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/|indexing_regression_review",
-        "url": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/",
-        "issueClass": "indexing_regression_review",
-        "status": "open_editorial_review",
-        "firstObservedAt": "2026-11-18T14:19:31.631884+00:00",
-        "confirmedAt": "2026-11-19T14:55:39.635511+00:00",
-        "priorIndexedAt": "2026-10-14T15:01:58.891813+00:00",
-        "deliveryStatus": "pending_owner_response",
-        "evidence": "automation/blog-publisher/runs/2026-11-19.json",
-        "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-        "diagnosis": "Live eligibility passes; broad landlord-exit intent overlaps existing tenant-sale and rental guides. Body has no contextual internal links. Claims that a traditional sale requires vacancy and that cash often nets more need qualification and sourced assumptions. Propose intent/link review, not automatic expansion."
+        "url": "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
+        "error": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
       },
       {
-        "issueKey": "https://www.cashasis.com/blog/sell-inherited-house-detroit/|indexing_regression_review",
-        "url": "https://www.cashasis.com/blog/sell-inherited-house-detroit/",
-        "issueClass": "indexing_regression_review",
-        "status": "open_editorial_review",
-        "firstObservedAt": "2026-11-17T14:30:13.383297+00:00",
-        "confirmedAt": "2026-11-19T14:55:39.583491+00:00",
-        "priorIndexedAt": "2026-10-14T15:01:16.906927+00:00",
-        "deliveryStatus": "pending_owner_response",
-        "evidence": "automation/blog-publisher/runs/2026-11-19.json",
-        "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-        "diagnosis": "Live eligibility passes; body lacks contextual blog links. Review probate-authority, creditor/tax-transfer statements, fixed timelines and blanket equal-split language against current primary sources; verify Detroit service scope. Do not assume these are Google's cause."
-      },
-      {
-        "issueKey": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/|indexing_regression_review",
-        "url": "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/",
-        "issueClass": "indexing_regression_review",
-        "status": "open_editorial_review",
-        "firstObservedAt": "2026-11-18T14:19:31.618104+00:00",
-        "confirmedAt": "2026-11-19T14:55:39.566523+00:00",
-        "priorIndexedAt": "2026-10-14T15:01:58.861693+00:00",
-        "deliveryStatus": "pending_owner_response",
-        "evidence": "automation/blog-publisher/runs/2026-11-19.json",
-        "fingerprint": "Two actual Google crawled-not-indexed results at least 24h apart after historic PASS, fresh local QA",
-        "diagnosis": "Live eligibility passes; body has no contextual internal blog links. Registration/compliance statistics lack dated evidence in the article; broad rent-collection, escrow and debt-transfer claims need review using Detroit's current rental requirements. Verify current service scope. Google cause not established."
+        "url": "https://www.cashasis.com/closing-timeline/",
+        "error": "Google URL Inspection did not answer within 30 s; no quota was used. Retry this URL."
       }
     ],
-    "dueRemaining": 27
+    "successfulGoogleResults": 17,
+    "dueRemaining": 20
   },
-  "now": "2026-11-19T14:56:47.845Z",
-  "lastRunId": "native-daily-20261119T145403Z",
+  "now": "2026-11-20T14:12:25.234Z",
+  "lastRunId": "native-daily-20261120T140503Z",
   "coverage": {
     "eligibleSitemapURLs": 223,
     "eligibleBlogArticles": 195,
     "retainedActualInspectionCoverage": 223,
     "retainedActualBlogCoverage": 195,
-    "indexedTotal": 198,
+    "indexedTotal": 200,
     "indexedBlogArticles": 174,
     "unavailable": 0,
     "latestObservationRange": [
       "2026-10-14T15:02:32.130675+00:00",
-      "2026-11-19T14:56:00.516963+00:00"
+      "2026-11-20T14:11:26.991555+00:00"
     ],
-    "basis": "Latest retained actual Google inspection observations at mixed dates, not same-day census.",
-    "observedAt": "2026-11-19T14:56:47.845Z"
+    "basis": "Latest retained actual Google inspections at mixed dates, not same-day census.",
+    "observedAt": "2026-11-20T14:12:25.234Z"
   },
   "lastRun": {
-    "runId": "native-daily-20261119T145403Z",
-    "day": "2026-11-19",
+    "runId": "native-daily-20261120T140503Z",
+    "day": "2026-11-20",
     "published": 0,
-    "held": 3,
+    "held": 1,
     "articles": [],
-    "checkedAt": "2026-11-19T14:56:47.845Z"
+    "checkedAt": "2026-11-20T14:12:25.234Z"
   },
   "pendingInspectionQueue": [
-    "https://www.cashasis.com/blog/still-paying-unused-property/",
-    "https://www.cashasis.com/blog/stop-foreclosure-detroit/",
-    "https://www.cashasis.com/blog/stop-foreclosure-houston/",
-    "https://www.cashasis.com/blog/stop-paying-unused-property/",
-    "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
-    "https://www.cashasis.com/blog/we-buy-houses-houston/",
-    "https://www.cashasis.com/blog/what-can-you-skip-selling-cash-as-is/",
-    "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
-    "https://www.cashasis.com/closing-timeline/",
-    "https://www.cashasis.com/compare-the-net/",
-    "https://www.cashasis.com/fix-it-or-sell-it/",
-    "https://www.cashasis.com/no-repairs-no-cleanup/",
-    "https://www.cashasis.com/seller-faq/",
-    "https://www.cashasis.com/seller-stories/back-taxes-handled/",
-    "https://www.cashasis.com/seller-stories/inherited-property-made-simple/",
-    "https://www.cashasis.com/seller-stories/no-pressure-understanding/",
-    "https://www.cashasis.com/seller-stories/sold-fast/",
-    "https://www.cashasis.com/seller-stories/straightforward-cash-sale/",
-    "https://www.cashasis.com/seller-stories/unwanted-property-sold-as-is/",
-    "https://www.cashasis.com/the-cost-of-waiting/"
+    "https://www.cashasis.com/the-cost-of-waiting/",
+    "https://www.cashasis.com/traditional-sale-requirements/",
+    "https://www.cashasis.com/understanding-your-cash-offer/",
+    "https://www.cashasis.com/why-sell-as-is/",
+    "https://www.cashasis.com/your-price-isnt-your-take-home/",
+    "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+    "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+    "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+    "https://www.cashasis.com/",
+    "https://www.cashasis.com/accessibility/",
+    "https://www.cashasis.com/careers/",
+    "https://www.cashasis.com/disclaimer/",
+    "https://www.cashasis.com/lending-partners/",
+    "https://www.cashasis.com/privacy/",
+    "https://www.cashasis.com/referrals/",
+    "https://www.cashasis.com/sms-tcpa/",
+    "https://www.cashasis.com/terms/",
+    "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+    "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+    "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/"
   ],
   "notificationSuppression": {
     "reason": "No new persistent issue or ranking/seller outcome established. Routine delivery suppressed for normal discovery and unchanged evidence.",
@@ -16787,7 +17342,11 @@
     "https://www.cashasis.com/blog/cash-offer-vs-listing-house-houston/|indexing_regression_review",
     "https://www.cashasis.com/blog/sell-flood-damaged-house-houston/|indexing_regression_review",
     "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/|indexing_regression_review",
-    "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/|indexing_regression_review"
+    "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/|indexing_regression_review",
+    "https://www.cashasis.com/blog/sell-inherited-house-harris-county/|indexing_regression_review",
+    "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-houston/|indexing_regression_review",
+    "https://www.cashasis.com/blog/sell-inherited-house-detroit/|indexing_regression_review",
+    "https://www.cashasis.com/blog/sell-rental-property-tired-landlord-detroit/|indexing_regression_review"
   ],
   "inventoryDiscrepancies": {
     "checkedAt": "2026-11-18T14:20:43.942Z",
