@@ -1,0 +1,270 @@
+{
+  "runId": "native-daily-20261121T141245Z",
+  "fence": 45,
+  "day": "2026-11-21",
+  "slug": "mineral-rights-selling-houston-house",
+  "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
+  "status": "draft",
+  "reservedAt": "2026-11-21T14:13:28.337Z",
+  "title": "Mineral Rights When Selling a Houston House: What to Check",
+  "description": "Selling a Houston-area house and unsure about mineral rights? Check ownership, proposed reservations and surface-use terms before you compare offers.",
+  "primaryKeyword": "mineral rights when selling a Houston house",
+  "supportingKeywords": [
+    "Texas seller mineral reservation",
+    "selling house keeping mineral rights",
+    "surface rights mineral estate Texas sale"
+  ],
+  "nearestOverlaps": [
+    "/blog/selling-houston-house-easement/",
+    "/blog/sell-house-title-problems-houston/"
+  ],
+  "substantiveDifference": "Mineral ownership, reserved interest and surface-use provisions are distinct from a general title problem or easement; corpus search found no existing mineral-intent guide.",
+  "sellerVoice": {
+    "sampleMessages": 100,
+    "inbound": 41,
+    "eligibleInbound": 40,
+    "screenedDistinctSellers": {
+      "title": 1,
+      "mineral": 0,
+      "offer": 1
+    },
+    "limitations": "Bounded anonymous screen; no mineral-specific recurring demand established; no raw message or identity retained."
+  },
+  "sources": [
+    {
+      "url": "https://www.trec.texas.gov/sites/default/files/pdf-forms/44-3.pdf",
+      "title": "TREC Form 44-3",
+      "publicationDate": "2022-11-07",
+      "verifiedAt": "2026-11-21",
+      "accessedAt": "2026-11-21",
+      "reportingPeriod": "current at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Primary source index/PDF and full agency explanation reviewed.",
+      "claim": "Defines retained mineral estate, reservation and surface-use election, other owner's/lessee rights, and specialist attorney title examination."
+    },
+    {
+      "url": "https://www.trec.texas.gov/forms/addendum-reservation-oil-gas-and-other-minerals-0",
+      "title": "Current TREC addendum page",
+      "publicationDate": "2023-02-01",
+      "verifiedAt": "2026-11-21",
+      "accessedAt": "2026-11-21",
+      "reportingPeriod": "current at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Primary source index/PDF and full agency explanation reviewed.",
+      "claim": "Effective form 44-3 is for a seller reserving all or part of mineral estate."
+    },
+    {
+      "url": "https://www.rrc.texas.gov/about-us/faqs/oil-gas-faq/oil-gas-exploration-and-surface-ownership/",
+      "title": "Railroad Commission exploration and surface ownership",
+      "publicationDate": null,
+      "verifiedAt": "2026-11-21",
+      "accessedAt": "2026-11-21",
+      "reportingPeriod": "current at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Primary source index/PDF and full agency explanation reviewed.",
+      "claim": "Surface and mineral estates can be held separately."
+    }
+  ],
+  "image": "/images/mineral-rights-selling-houston-house.png",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "CHECK YOUR MINERALS",
+    "lines": [
+      "CHECK YOUR",
+      "MINERALS"
+    ],
+    "lineWidths": [
+      546,
+      430
+    ],
+    "wordCount": 3,
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "backgroundSha256": "01d052b829887004b86eb32470699556d9232e8a8682230e21c39ee6fb6b3e11",
+    "provenance": {
+      "mode": "native_work_imagegen",
+      "id": "exec-c294c64f-3fe7-4693-91b0-9104bc284d0a",
+      "imaginaryProperty": true,
+      "path": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house-background.png",
+      "sha256": "01d052b829887004b86eb32470699556d9232e8a8682230e21c39ee6fb6b3e11",
+      "nativeOutputRetained": true,
+      "gitBlob": "57fba2224be48c78ddbc2612bea7bbb43219c910"
+    },
+    "rendererInvocations": 1,
+    "visualReview": "Full-size,320px-equivalent and desktop/mobile inspected; exact transparent logo, headline spacing and property crop pass."
+  },
+  "imageProvenance": {
+    "mode": "native_work_imagegen",
+    "id": "exec-c294c64f-3fe7-4693-91b0-9104bc284d0a",
+    "imaginaryProperty": true,
+    "path": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house-background.png",
+    "sha256": "01d052b829887004b86eb32470699556d9232e8a8682230e21c39ee6fb6b3e11",
+    "nativeOutputRetained": true,
+    "gitBlob": "57fba2224be48c78ddbc2612bea7bbb43219c910"
+  },
+  "checks": {
+    "facts": "pass",
+    "sources": "pass",
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "not_released"
+  },
+  "social": {
+    "slug": "mineral-rights-selling-houston-house",
+    "url": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "image": "https://www.cashasis.com/images/mineral-rights-selling-houston-house.png",
+    "status": "draft_only",
+    "facebook": "Mineral Rights When Selling a Houston House: What to Check\n\nSelling a Houston-area house and unsure about mineral rights? Check ownership, proposed reservations and surface-use terms before you compare offers.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "instagram": "Mineral Rights When Selling a Houston House: What to Check\n\nSelling a Houston-area house and unsure about mineral rights? Check ownership, proposed reservations and surface-use terms before you compare offers.\n\nRead the guide: https://www.cashasis.com/blog/mineral-rights-selling-houston-house/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Mineral Rights When Selling a Houston House: What to Check\n\nSelling a Houston-area house and unsure about mineral rights? Check ownership, proposed reservations and surface-use terms before you compare offers.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "googleBusinessProfile": "Mineral Rights When Selling a Houston House: What to Check\n\nSelling a Houston-area house and unsure about mineral rights? Check ownership, proposed reservations and surface-use terms before you compare offers.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "promotionalExcerpt": "Selling a Houston-area house and unsure about mineral rights? Check ownership, proposed reservations and surface-use terms before you compare offers.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  },
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Existing native Work imagegen allowance; incremental cost unavailable."
+  },
+  "protectedSourceChanges": [],
+  "commit": null,
+  "deployId": null,
+  "url": null,
+  "recovery": {
+    "priorHoldRunId": "native-daily-20261120T140503Z",
+    "priorDraftCommit": "ca61c4e79d80dcc990feeaeca1bda98e391def8b",
+    "neverPublished": true,
+    "originalNativeBackgroundReusedForSameArticle": true,
+    "priorReservationArchived": true
+  },
+  "heldAt": "2026-11-20T14:11:39.115Z",
+  "imageSha256": "828bcfdb7ba9b189cd2bcc51590a509b7c7943cb594ad6b992f4095d1e202687",
+  "externalApiUsed": false,
+  "visualChecks": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post"
+        ],
+        "faqOpened": true
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post"
+        ],
+        "faqOpened": true
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post"
+        ],
+        "faqOpened": true
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=mineral-rights-selling-houston-house&utm_term=post"
+        ],
+        "faqOpened": true
+      }
+    ]
+  },
+  "outputValidator": {
+    "slug": "mineral-rights-selling-houston-house",
+    "technicalResult": "pass",
+    "errors": [],
+    "editorialVisualAndRuntimeReview": "required"
+  },
+  "buildEvidence": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "astroPages": 220,
+    "attributionPages": 233
+  },
+  "seoEligibility": {
+    "expectedCanonical": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "specificSellerIntent": "Identify owned mineral interest, proposed reservation and surface-use terms before comparing Houston-area offers.",
+    "localIndexability": "Built200 route; no production noindex; selfcanonical; sitemap/RSS/hub membership and contextual links verified. Runtime preview/production verification pending.",
+    "semanticReview": "All195eligible blogs, static seller pages,61ledger rows and4openPRs reviewed. Existing title-problem guide addresses general closing obstacles; easement guide addresses land-use instruments; neither answers mineral estate ownership/reservation/surface-election distinctions.",
+    "sourceEvidence": "Fresh current TREC44-3 index and full PDF, Railroad Commission agency explanation read2026-11-21.",
+    "sellerPath": "Inline and layout post CTA to existing offer form with slug attribution; no test leads submitted."
+  },
+  "calculation": {
+    "kind": "hypothetical_not_market_data",
+    "proposalA": 205000,
+    "proposalB": 210000,
+    "difference": 5000,
+    "mineralValuation": null,
+    "arithmeticVerified": true
+  },
+  "searchConsoleMonitoring": {
+    "status": "pending_publication_inspection",
+    "initialDiscoveryIsNotFailure": true
+  },
+  "GA4Measurement": {
+    "report": "automation/blog-publisher/runs/2026-11-21.json",
+    "validatedSellerLeads": "unavailable",
+    "fundedRetainedGP": "unavailable"
+  }
+}
