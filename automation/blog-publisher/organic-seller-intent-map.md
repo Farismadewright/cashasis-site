@@ -269,3 +269,11 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 
 - Distinct mineral-rights seller question researched using current TREC Form44-3 and Railroad Commission surface/mineral-estate guidance. Draft and original native background retained; no publication after two locked-width headline preflight failures.
 - Existing Missouri City title already fits the leading local query. Prioritize a more direct seller answer and reviewed internal paths rather than more city variants. No validated organic seller lead or funded retained GP established. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-20.json`.
+
+
+### November21,2026 — verified organic acquisition evidence
+
+- Mineral-rights checklist published after fresh sources, recovered native image, locked template, full QA and exact-commit deployment; title-problem primary remains the parent. No extra city variants added.
+- Settled GSC Oct22–Nov18:999impressions,1click,position32.71 sitewide. Missouri City leading exact fast-sale query:34impressions,position12.24,0clicks; local-buyer query:34,18.18,0clicks. Review the opening answer and query ownership before more volume; no live rewrite performed.
+- Three confirmed Google indexing regressions: vacant Houston, vacant Detroit and Texas heirship guide. Repeat actual observations span Nov19–21; fresh HTTP/canonical/robots/sitemap/schema/offer path pass. Content/link gaps need scoped editorial review; Google cause is not established.
+- GA4 Oct22–Nov18 original Organic Search blog landing sessions:2; recorded keyEvents0. Validated seller outcomes and funded retained GP remain unavailable. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-21.json`.

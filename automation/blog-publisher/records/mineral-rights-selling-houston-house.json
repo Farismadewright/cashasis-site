@@ -4,7 +4,7 @@
   "day": "2026-11-21",
   "slug": "mineral-rights-selling-houston-house",
   "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
-  "status": "draft",
+  "status": "published",
   "reservedAt": "2026-11-21T14:13:28.337Z",
   "title": "Mineral Rights When Selling a Houston House: What to Check",
   "description": "Selling a Houston-area house and unsure about mineral rights? Check ownership, proposed reservations and surface-use terms before you compare offers.",
@@ -122,8 +122,9 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "not_released"
+    "preview": "pass",
+    "deploy": "pass",
+    "render": "pass"
   },
   "social": {
     "slug": "mineral-rights-selling-houston-house",
@@ -148,9 +149,9 @@
     "note": "Existing native Work imagegen allowance; incremental cost unavailable."
   },
   "protectedSourceChanges": [],
-  "commit": null,
-  "deployId": null,
-  "url": null,
+  "commit": "19cdb6c3c1d51a618cbd70e92c7e0e2f38e37e1d",
+  "deployId": "6b01a957dd25aa0ba8dc4e08",
+  "url": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
   "recovery": {
     "priorHoldRunId": "native-daily-20261120T140503Z",
     "priorDraftCommit": "ca61c4e79d80dcc990feeaeca1bda98e391def8b",
@@ -245,10 +246,17 @@
   "seoEligibility": {
     "expectedCanonical": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
     "specificSellerIntent": "Identify owned mineral interest, proposed reservation and surface-use terms before comparing Houston-area offers.",
-    "localIndexability": "Built200 route; no production noindex; selfcanonical; sitemap/RSS/hub membership and contextual links verified. Runtime preview/production verification pending.",
+    "localIndexability": "pass",
     "semanticReview": "All195eligible blogs, static seller pages,61ledger rows and4openPRs reviewed. Existing title-problem guide addresses general closing obstacles; easement guide addresses land-use instruments; neither answers mineral estate ownership/reservation/surface-election distinctions.",
     "sourceEvidence": "Fresh current TREC44-3 index and full PDF, Railroad Commission agency explanation read2026-11-21.",
-    "sellerPath": "Inline and layout post CTA to existing offer form with slug attribution; no test leads submitted."
+    "sellerPath": "Inline and layout post CTA to existing offer form with slug attribution; no test leads submitted.",
+    "productionIndexable": true,
+    "robotsAllowed": true,
+    "canonicalConsistent": true,
+    "sitemapEligible": true,
+    "internalLinks": "pass",
+    "sellerConversionPath": "pass",
+    "liveVerifiedAt": "2026-11-21T14:25:10.366850+00:00"
   },
   "calculation": {
     "kind": "hypothetical_not_market_data",
@@ -259,12 +267,144 @@
     "arithmeticVerified": true
   },
   "searchConsoleMonitoring": {
-    "status": "pending_publication_inspection",
-    "initialDiscoveryIsNotFailure": true
+    "siteUrl": "https://www.cashasis.com/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=xmkci6s02jmWOf5HXAnlIQ&utm_medium=link&utm_source=api",
+    "url": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-21T14:25:00.993663+00:00",
+    "nextReview": "2026-11-24",
+    "note": "Initial unknown after publication; normal discovery, not rejection. No indexing request submitted."
   },
   "GA4Measurement": {
     "report": "automation/blog-publisher/runs/2026-11-21.json",
     "validatedSellerLeads": "unavailable",
     "fundedRetainedGP": "unavailable"
+  },
+  "previewEvidence": {
+    "passed": true,
+    "preview": true,
+    "url": "https://deploy-preview-53--cashasis-blog.netlify.app/blog/mineral-rights-selling-houston-house/",
+    "canonical": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "http": 200,
+    "noindex": true,
+    "robots": "User-agent: *\nAllow: /\nDisallow: /agent-portal\n\nSitemap: https://www.cashasis.com/sitemap-index.xml\n",
+    "image": "https://www.cashasis.com/images/mineral-rights-selling-houston-house.png",
+    "imageSize": [
+      1200,
+      630
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 3,
+    "contextualLinks": [
+      "/blog/sell-house-title-problems-houston/",
+      "/blog/selling-houston-house-easement/"
+    ],
+    "attributedCTA": true,
+    "offerFormAccessible": true,
+    "sitemapRSSHub": true,
+    "parity": [
+      {
+        "path": "blog/mineral-rights-selling-houston-house/index.html",
+        "sha256": "85e85848b75cc716790b7fd4dff0101d0b715c929d74071b67dc58042dd71327",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 304
+      },
+      {
+        "path": "styles.css",
+        "sha256": "ccf3e8ba9bca352cc0f82fcf5e37a833e7fe9246d51194c40a114adf322ce121",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 0
+      },
+      {
+        "path": "js/cashasis-attribution.js",
+        "sha256": "8d20b29865ebf21b1dd857bfdf656023b05370c96b4fd38c141b0f59878569df",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 0
+      },
+      {
+        "path": "js/cashasis-dni.js",
+        "sha256": "b10178f8cb64f661cc48dd186f465e37c7483aac6c0878e33a078bdf952d4f43",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 0
+      }
+    ],
+    "verifiedAt": "2026-11-21T14:22:17.532764+00:00"
+  },
+  "previewCommit": "6d1a512432761eb59794bb9ea5e32d0a91bf55c0",
+  "previewDeployId": "6b01a84a29fd35b0d5baa459",
+  "pr": 53,
+  "publishedAt": "2026-11-21T14:23:51.973Z",
+  "verifiedAt": "2026-11-21T14:25:10.366850+00:00",
+  "liveChecks": {
+    "passed": true,
+    "preview": false,
+    "url": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "canonical": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+    "http": 200,
+    "noindex": false,
+    "robots": "User-agent: *\nAllow: /\nDisallow: /agent-portal\n\nSitemap: https://www.cashasis.com/sitemap-index.xml\n",
+    "image": "https://www.cashasis.com/images/mineral-rights-selling-houston-house.png",
+    "imageSize": [
+      1200,
+      630
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "faqCount": 3,
+    "contextualLinks": [
+      "/blog/sell-house-title-problems-houston/",
+      "/blog/selling-houston-house-easement/"
+    ],
+    "attributedCTA": true,
+    "offerFormAccessible": true,
+    "sitemapRSSHub": true,
+    "parity": [
+      {
+        "path": "blog/mineral-rights-selling-houston-house/index.html",
+        "sha256": "85e85848b75cc716790b7fd4dff0101d0b715c929d74071b67dc58042dd71327",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 0
+      },
+      {
+        "path": "styles.css",
+        "sha256": "ccf3e8ba9bca352cc0f82fcf5e37a833e7fe9246d51194c40a114adf322ce121",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 0
+      },
+      {
+        "path": "js/cashasis-attribution.js",
+        "sha256": "8d20b29865ebf21b1dd857bfdf656023b05370c96b4fd38c141b0f59878569df",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 0
+      },
+      {
+        "path": "js/cashasis-dni.js",
+        "sha256": "b10178f8cb64f661cc48dd186f465e37c7483aac6c0878e33a078bdf952d4f43",
+        "builtContentIdentical": true,
+        "netlifyPreviewToolbarBytes": 0
+      }
+    ],
+    "verifiedAt": "2026-11-21T14:25:10.366850+00:00"
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-21",
+    "errors": []
   }
 }
