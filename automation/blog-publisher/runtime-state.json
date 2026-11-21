@@ -1459,20 +1459,15 @@
       "verifiedAt": "2026-11-17T14:37:56.578200+00:00"
     },
     {
-      "runId": "native-daily-20261120T140503Z",
-      "fence": 44,
-      "day": "2026-11-20",
+      "runId": "native-daily-20261121T141245Z",
+      "fence": 45,
+      "day": "2026-11-21",
       "slug": "mineral-rights-selling-houston-house",
       "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
       "status": "reserved",
-      "reservedAt": "2026-11-20T14:06:07.615Z",
-      "editorialStatus": "hold",
-      "holdReason": "Two text-width preflights failed; no third correction or render attempted.",
-      "heldAt": "2026-11-20T14:13:44.762Z",
-      "generationStarted": true,
-      "productionReleaseAttempted": false,
-      "draftRecord": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house.json",
-      "reservationRetainedForDailyCap": true
+      "reservedAt": "2026-11-21T14:13:28.337Z",
+      "priorHoldRunId": "native-daily-20261120T140503Z",
+      "recovery": "Fresh-day recovery of never-published held draft and original native image; prior reservation archived without deleting history."
     }
   ],
   "externalApiSpendLimitUSD": 0,
@@ -1593,6 +1588,26 @@
       "heldAt": "2026-11-14T14:46:08.686Z",
       "neverPublished": true,
       "reservationReleased": true
+    },
+    {
+      "runId": "native-daily-20261120T140503Z",
+      "fence": 44,
+      "day": "2026-11-20",
+      "slug": "mineral-rights-selling-houston-house",
+      "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
+      "status": "reserved",
+      "reservedAt": "2026-11-20T14:06:07.615Z",
+      "editorialStatus": "hold",
+      "holdReason": "Two text-width preflights failed; no third correction or render attempted.",
+      "heldAt": "2026-11-20T14:13:44.762Z",
+      "generationStarted": true,
+      "productionReleaseAttempted": false,
+      "draftRecord": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house.json",
+      "reservationRetainedForDailyCap": true,
+      "neverPublished": true,
+      "reservationReleased": true,
+      "releasedAt": "2026-11-21T14:13:28.337Z",
+      "recoveredBy": "native-daily-20261121T141245Z"
     }
   ]
 }
