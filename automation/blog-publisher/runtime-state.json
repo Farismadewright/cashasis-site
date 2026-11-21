@@ -3,8 +3,9 @@
     "runId": "native-daily-20261121T141245Z",
     "fence": 45,
     "issuedAt": "2026-11-21T14:12:45.067Z",
-    "expiresAt": "2026-11-21T16:12:45.067Z",
-    "released": false
+    "expiresAt": "2026-11-21T14:27:56.269Z",
+    "released": true,
+    "releasedAt": "2026-11-21T14:27:56.269Z"
   },
   "ledger": [
     {
@@ -1481,40 +1482,28 @@
       "deployId": "6b01a957dd25aa0ba8dc4e08",
       "url": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
       "publishedAt": "2026-11-21T14:23:51.973Z",
-      "verifiedAt": "2026-11-21T14:25:10.366850+00:00"
+      "verifiedAt": "2026-11-21T14:25:10.366850+00:00",
+      "evidenceCommit": "bc108cb015153e3ecd0ddd37b4f2c35e365b9e25"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261120T140503Z",
-    "day": "2026-11-20",
-    "fence": 44,
-    "status": "hold",
-    "published": 0,
-    "held": 1,
-    "articles": [],
-    "heldCandidates": [
-      {
-        "slug": "mineral-rights-selling-houston-house",
-        "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
-        "status": "hold",
-        "reason": "Two text-width preflights failed; no third correction or render attempted.",
-        "draftRecord": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house.json",
-        "draftArticle": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house.md",
-        "background": "automation/blog-publisher/drafts/mineral-rights-selling-houston-house-background.png"
-      }
+    "runId": "native-daily-20261121T141245Z",
+    "fence": 45,
+    "day": "2026-11-21",
+    "status": "published",
+    "published": 1,
+    "held": 0,
+    "articles": [
+      "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/"
     ],
-    "reservedSlots": 1,
-    "productionCommit": "234cd92f6ebc250abdb17a7d489ab1afdf70b9cb",
-    "productionDeployId": "6aff0e7158ff6307981e39c1",
-    "bookkeepingCommit": "ca61c4e79d80dcc990feeaeca1bda98e391def8b",
-    "monitoringCommit": "61a6e6e8c20c06de07351dd6e282d0205cc16682",
-    "inspectionAttempts": 20,
-    "successfulGoogleResults": 17,
-    "inspectionTimeouts": 3,
-    "completedAt": "2026-11-20T14:13:44.762Z",
-    "externalPaidApiSpendUSD": 0,
-    "nativeIncrementalCost": null
+    "completedAt": "2026-11-21T14:27:56.269Z",
+    "productionCommit": "19cdb6c3c1d51a618cbd70e92c7e0e2f38e37e1d",
+    "productionDeployId": "6b01a957dd25aa0ba8dc4e08",
+    "evidenceCommit": "bc108cb015153e3ecd0ddd37b4f2c35e365b9e25",
+    "inspectionCalls": 20,
+    "monitoringCheckpointCommit": "088762714ac4bb1f34cca5cf0ca733f3725ed319",
+    "externalPaidApiSpendUSD": 0
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
