@@ -1464,10 +1464,19 @@
       "day": "2026-11-21",
       "slug": "mineral-rights-selling-houston-house",
       "intentKey": "houston-seller-mineral-reservation-deed-surface-rights-check",
-      "status": "reserved",
+      "status": "publishing",
       "reservedAt": "2026-11-21T14:13:28.337Z",
       "priorHoldRunId": "native-daily-20261120T140503Z",
-      "recovery": "Fresh-day recovery of never-published held draft and original native image; prior reservation archived without deleting history."
+      "recovery": "Fresh-day recovery of never-published held draft and original native image; prior reservation archived without deleting history.",
+      "publishingAt": "2026-11-21T14:23:14.922Z",
+      "pr": 53,
+      "headCommit": "6d1a512432761eb59794bb9ea5e32d0a91bf55c0",
+      "previewDeployId": "6b01a84a29fd35b0d5baa459",
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "checkedAt": "2026-11-21T14:22:55Z"
+      }
     }
   ],
   "externalApiSpendLimitUSD": 0,
