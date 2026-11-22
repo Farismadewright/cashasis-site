@@ -1,0 +1,69 @@
+{
+  "runId": "native-daily-20261122T145033Z",
+  "fence": 46,
+  "day": "2026-11-22",
+  "held": 3,
+  "candidates": [
+    {
+      "proposedSlug": "broker-fee-cash-buyer-listed-houston",
+      "intentKey": "houston-listed-seller-broker-fee-release-check",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/cash-offer-while-house-listed-houston/",
+      "substantiveDifference": "None sufficient for a new page",
+      "reason": "The existing guide already separates buyer pricing from broker compensation, signed listing/release terms and net proceeds. A new fee guide would repeat its answer.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reservationNote": "Rejected during concept/overlap review before generation; no slot or external spend consumed.",
+      "checks": {
+        "originality": "fail",
+        "facts": "not_run_no_article",
+        "thumbnail": "not_run_no_article",
+        "build": "not_run_no_article",
+        "preview": "not_created",
+        "releaseGate": "not_applicable_no_release"
+      }
+    },
+    {
+      "proposedSlug": "heir-wont-sign-house-sale-texas",
+      "intentKey": "texas-heir-refusal-required-signatures-sale",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/one-heir-refuses-sell-house-texas/",
+      "substantiveDifference": "None sufficient for a new page",
+      "reason": "Existing one-heir and multiple-owner guides already address required participation and title/authority review. The existing inheritance cluster needs scoped quality/overlap review before expansion.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reservationNote": "Rejected during concept/overlap review before generation; no slot or external spend consumed.",
+      "checks": {
+        "originality": "fail",
+        "facts": "not_run_no_article",
+        "thumbnail": "not_run_no_article",
+        "build": "not_run_no_article",
+        "preview": "not_created",
+        "releaseGate": "not_applicable_no_release"
+      }
+    },
+    {
+      "proposedSlug": "empty-house-insurance-before-cash-sale-houston",
+      "intentKey": "houston-vacant-policy-coverage-before-sale",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/vacant-house-insurance-while-selling-houston/",
+      "substantiveDifference": "None sufficient for a new page",
+      "reason": "The current guide already covers occupancy classification, policy exclusions, sale timing and insurer review. Cash-sale wording does not create a distinct search intent.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reservationNote": "Rejected during concept/overlap review before generation; no slot or external spend consumed.",
+      "checks": {
+        "originality": "fail",
+        "facts": "not_run_no_article",
+        "thumbnail": "not_run_no_article",
+        "build": "not_run_no_article",
+        "preview": "not_created",
+        "releaseGate": "not_applicable_no_release"
+      }
+    }
+  ],
+  "reviewedAt": "2026-11-22T14:55:17.997801+00:00"
+}

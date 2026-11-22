@@ -277,3 +277,10 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - Settled GSC Oct22–Nov18:999impressions,1click,position32.71 sitewide. Missouri City leading exact fast-sale query:34impressions,position12.24,0clicks; local-buyer query:34,18.18,0clicks. Review the opening answer and query ownership before more volume; no live rewrite performed.
 - Three confirmed Google indexing regressions: vacant Houston, vacant Detroit and Texas heirship guide. Repeat actual observations span Nov19–21; fresh HTTP/canonical/robots/sitemap/schema/offer path pass. Content/link gaps need scoped editorial review; Google cause is not established.
 - GA4 Oct22–Nov18 original Organic Search blog landing sessions:2; recorded keyEvents0. Validated seller outcomes and funded retained GP remain unavailable. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-21.json`.
+
+
+### November22,2026 — retained acquisition review
+
+- No new article: broker-fee, heir-refusal and vacant-policy variants held for existing coverage. Existing query ownership takes priority over filling daily capacity.
+- GSC Oct23–Nov19:1,018impressions,1click sitewide; MissouriCity191impressions,position15.55,0clicks. Review its first answer and competing pendingPR27 before any specifically approved live revision.
+- GA4 original Organic Search blog landing sessions:2; keyEvents0. Validated sellers and funded retained GP remain unavailable. Twenty actual Google inspections and fresh live eligibility checks retained; known indexing alerts unchanged. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-22.json`.
