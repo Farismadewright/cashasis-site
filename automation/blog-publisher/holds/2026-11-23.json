@@ -1,0 +1,59 @@
+{
+  "runId": "native-daily-20261123T152637Z",
+  "day": "2026-11-23",
+  "held": 3,
+  "candidates": [
+    {
+      "proposedSlug": "selling-paid-off-house-mortgage-still-recorded-houston",
+      "nearestOverlap": "/blog/paid-off-mortgage-lien-release-houston/",
+      "status": "HOLD",
+      "gate": "originality",
+      "reason": "Existing dedicated document matching and recorded-release checklist already answers this intent.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "checks": {
+        "originality": "fail",
+        "facts": "not_run_no_article",
+        "thumbnail": "not_run_no_article",
+        "build": "not_run_no_article",
+        "preview": "not_created",
+        "releaseGate": "not_applicable_no_release"
+      }
+    },
+    {
+      "proposedSlug": "cash-sale-delinquent-taxes-houston-checklist",
+      "nearestOverlap": "/blog/sell-house-behind-on-taxes-houston/",
+      "status": "HOLD",
+      "gate": "originality",
+      "reason": "Broad Houston/ Texas/Harris tax cluster already covers this answer; prioritize factual and query-ownership review before adding another guide.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "checks": {
+        "originality": "fail",
+        "facts": "not_run_no_article",
+        "thumbnail": "not_run_no_article",
+        "build": "not_run_no_article",
+        "preview": "not_created",
+        "releaseGate": "not_applicable_no_release"
+      }
+    },
+    {
+      "proposedSlug": "cash-home-buyers-missouri-city-seller-options",
+      "nearestOverlap": "/blog/sell-house-fast-missouri-city-tx/",
+      "status": "HOLD",
+      "gate": "originality",
+      "reason": "Existing acquisition page and vacancy page already compete for commercial local intent; another synonym page would deepen overlap.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "checks": {
+        "originality": "fail",
+        "facts": "not_run_no_article",
+        "thumbnail": "not_run_no_article",
+        "build": "not_run_no_article",
+        "preview": "not_created",
+        "releaseGate": "not_applicable_no_release"
+      }
+    }
+  ],
+  "reviewedAt": "2026-11-23T15:31:44.863045+00:00"
+}

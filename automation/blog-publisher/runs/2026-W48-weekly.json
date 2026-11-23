@@ -1,0 +1,2833 @@
+{
+  "periodKey": "2026-W48",
+  "status": "review_complete_available_data",
+  "completedAt": "2026-11-23T15:31:44.863045+00:00",
+  "deliveryStatus": "pending_owner_response",
+  "publicationPeriod": [
+    "2026-11-16",
+    "2026-11-22"
+  ],
+  "published": 3,
+  "heldDecisions": 10,
+  "holdCountMeaning": "Ten run-level candidate HOLD decisions, not ten unique never-published articles; mineral draft heldNov20 recovered/publishedNov21.",
+  "publicationDailyRows": [
+    {
+      "day": "2026-11-16",
+      "published": 1,
+      "held": 0
+    },
+    {
+      "day": "2026-11-17",
+      "published": 1,
+      "held": 0
+    },
+    {
+      "day": "2026-11-18",
+      "published": 0,
+      "held": 3
+    },
+    {
+      "day": "2026-11-19",
+      "published": 0,
+      "held": 3
+    },
+    {
+      "day": "2026-11-20",
+      "published": 0,
+      "held": 1
+    },
+    {
+      "day": "2026-11-21",
+      "published": 1,
+      "held": 0
+    },
+    {
+      "day": "2026-11-22",
+      "published": 0,
+      "held": 3
+    }
+  ],
+  "articles": [
+    {
+      "slug": "fha-appraisal-repairs-selling-houston-house",
+      "intentKey": "houston-seller-fha-lender-condition-repairs-after-appraisal",
+      "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "commit": "baa057bd57f47c425392e714fff161372dee09a2",
+      "deployId": "6afb12a7d038aadbb69c548d",
+      "pr": 51,
+      "publishedAt": "2026-11-16T14:27:35.574Z",
+      "title": "FHA Appraisal Repairs: What Houston House Sellers Can Do"
+    },
+    {
+      "slug": "backup-offer-under-contract-texas-house",
+      "intentKey": "texas-seller-executed-first-contract-contingent-backup-notice",
+      "url": "https://www.cashasis.com/blog/backup-offer-under-contract-texas-house/",
+      "commit": "8e039ae3182d57703a0304fe6205f877dd7f6538",
+      "deployId": "6afc66814a1acc4f0a14a896",
+      "pr": 52,
+      "publishedAt": "2026-11-17T14:37:35.892Z",
+      "title": "Can You Take a Backup Offer on a Texas House Under Contract?"
+    },
+    {
+      "url": "https://www.cashasis.com/blog/mineral-rights-selling-houston-house/",
+      "day": "2026-11-21",
+      "title": "Mineral Rights When Selling a Houston House: What to Check",
+      "publishedAt": "2026-11-21T14:23:51.973Z"
+    }
+  ],
+  "gsc": {
+    "siteUrl": "https://www.cashasis.com/",
+    "range": {
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-21",
+      "days": 7
+    },
+    "comparison": {
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-14"
+    },
+    "current": {
+      "clicks": 0,
+      "impressions": 160,
+      "ctr": 0,
+      "avgPosition": 22.33125
+    },
+    "previous": {
+      "clicks": 0,
+      "impressions": 156,
+      "ctr": 0,
+      "avgPosition": 25.26923076923077
+    },
+    "deltas": {
+      "clicks": 0,
+      "impressions": 4,
+      "ctrPoints": 0,
+      "positionDelta": -2.9379807692307693
+    },
+    "ordering": {
+      "dailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      },
+      "previousDailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      }
+    },
+    "dailyRows": [
+      {
+        "date": "2026-11-15",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 23.09090909090909
+      },
+      {
+        "date": "2026-11-16",
+        "clicks": 0,
+        "impressions": 35,
+        "ctr": 0,
+        "position": 23.8
+      },
+      {
+        "date": "2026-11-17",
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 18.22222222222222
+      },
+      {
+        "date": "2026-11-18",
+        "clicks": 0,
+        "impressions": 20,
+        "ctr": 0,
+        "position": 17.65
+      },
+      {
+        "date": "2026-11-19",
+        "clicks": 0,
+        "impressions": 50,
+        "ctr": 0,
+        "position": 26.34
+      },
+      {
+        "date": "2026-11-20",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 15.642857142857142
+      },
+      {
+        "date": "2026-11-21",
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 22.416666666666668
+      }
+    ],
+    "previousDailyRows": [
+      {
+        "date": "2026-11-08",
+        "clicks": 0,
+        "impressions": 51,
+        "ctr": 0,
+        "position": 36.254901960784316
+      },
+      {
+        "date": "2026-11-09",
+        "clicks": 0,
+        "impressions": 40,
+        "ctr": 0,
+        "position": 22.2
+      },
+      {
+        "date": "2026-11-10",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 11.714285714285714
+      },
+      {
+        "date": "2026-11-11",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 13.090909090909092
+      },
+      {
+        "date": "2026-11-12",
+        "clicks": 0,
+        "impressions": 25,
+        "ctr": 0,
+        "position": 26.28
+      },
+      {
+        "date": "2026-11-13",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 14.357142857142858
+      },
+      {
+        "date": "2026-11-14",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 15.125
+      }
+    ],
+    "dataSource": "api",
+    "settledThrough": "2026-11-21",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-11-22",
+      "settledThrough": "2026-11-21",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-23",
+        "dataState": "all"
+      }
+    }
+  },
+  "context28Day": {
+    "siteUrl": "https://www.cashasis.com/",
+    "range": {
+      "startDate": "2026-10-25",
+      "endDate": "2026-11-21",
+      "days": 28
+    },
+    "comparison": {
+      "startDate": "2026-09-27",
+      "endDate": "2026-10-24"
+    },
+    "current": {
+      "clicks": 1,
+      "impressions": 1000,
+      "ctr": 0.1,
+      "avgPosition": 31.644
+    },
+    "previous": {
+      "clicks": 4,
+      "impressions": 781,
+      "ctr": 0.5121638924455826,
+      "avgPosition": 41.571062740076826
+    },
+    "deltas": {
+      "clicks": -3,
+      "impressions": 219,
+      "ctrPoints": -0.4121638924455826,
+      "positionDelta": -9.927062740076828
+    },
+    "ordering": {
+      "dailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      },
+      "previousDailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      }
+    },
+    "dailyRows": [
+      {
+        "date": "2026-10-25",
+        "clicks": 0,
+        "impressions": 64,
+        "ctr": 0,
+        "position": 48.640625
+      },
+      {
+        "date": "2026-10-26",
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0,
+        "position": 37.9
+      },
+      {
+        "date": "2026-10-27",
+        "clicks": 0,
+        "impressions": 54,
+        "ctr": 0,
+        "position": 26.90740740740741
+      },
+      {
+        "date": "2026-10-28",
+        "clicks": 0,
+        "impressions": 47,
+        "ctr": 0,
+        "position": 32.06382978723404
+      },
+      {
+        "date": "2026-10-29",
+        "clicks": 0,
+        "impressions": 62,
+        "ctr": 0,
+        "position": 53.564516129032256
+      },
+      {
+        "date": "2026-10-30",
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0,
+        "position": 25.566666666666666
+      },
+      {
+        "date": "2026-10-31",
+        "clicks": 0,
+        "impressions": 42,
+        "ctr": 0,
+        "position": 34.214285714285715
+      },
+      {
+        "date": "2026-11-01",
+        "clicks": 0,
+        "impressions": 40,
+        "ctr": 0,
+        "position": 43.5
+      },
+      {
+        "date": "2026-11-02",
+        "clicks": 0,
+        "impressions": 48,
+        "ctr": 0,
+        "position": 34.291666666666664
+      },
+      {
+        "date": "2026-11-03",
+        "clicks": 0,
+        "impressions": 76,
+        "ctr": 0,
+        "position": 31.55263157894737
+      },
+      {
+        "date": "2026-11-04",
+        "clicks": 1,
+        "impressions": 52,
+        "ctr": 1.9230769230769231,
+        "position": 25.576923076923077
+      },
+      {
+        "date": "2026-11-05",
+        "clicks": 0,
+        "impressions": 48,
+        "ctr": 0,
+        "position": 30.604166666666668
+      },
+      {
+        "date": "2026-11-06",
+        "clicks": 0,
+        "impressions": 57,
+        "ctr": 0,
+        "position": 35.70175438596491
+      },
+      {
+        "date": "2026-11-07",
+        "clicks": 0,
+        "impressions": 34,
+        "ctr": 0,
+        "position": 22.823529411764707
+      },
+      {
+        "date": "2026-11-08",
+        "clicks": 0,
+        "impressions": 51,
+        "ctr": 0,
+        "position": 36.254901960784316
+      },
+      {
+        "date": "2026-11-09",
+        "clicks": 0,
+        "impressions": 40,
+        "ctr": 0,
+        "position": 22.2
+      },
+      {
+        "date": "2026-11-10",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 11.714285714285714
+      },
+      {
+        "date": "2026-11-11",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 13.090909090909092
+      },
+      {
+        "date": "2026-11-12",
+        "clicks": 0,
+        "impressions": 25,
+        "ctr": 0,
+        "position": 26.28
+      },
+      {
+        "date": "2026-11-13",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 14.357142857142858
+      },
+      {
+        "date": "2026-11-14",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 15.125
+      },
+      {
+        "date": "2026-11-15",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 23.09090909090909
+      },
+      {
+        "date": "2026-11-16",
+        "clicks": 0,
+        "impressions": 35,
+        "ctr": 0,
+        "position": 23.8
+      },
+      {
+        "date": "2026-11-17",
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 18.22222222222222
+      },
+      {
+        "date": "2026-11-18",
+        "clicks": 0,
+        "impressions": 20,
+        "ctr": 0,
+        "position": 17.65
+      },
+      {
+        "date": "2026-11-19",
+        "clicks": 0,
+        "impressions": 50,
+        "ctr": 0,
+        "position": 26.34
+      },
+      {
+        "date": "2026-11-20",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 15.642857142857142
+      },
+      {
+        "date": "2026-11-21",
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 22.416666666666668
+      }
+    ],
+    "previousDailyRows": [
+      {
+        "date": "2026-09-27",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 31.5
+      },
+      {
+        "date": "2026-09-28",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-29",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "date": "2026-09-30",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 20.333333333333332
+      },
+      {
+        "date": "2026-10-01",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 24
+      },
+      {
+        "date": "2026-10-02",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "date": "2026-10-03",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50,
+        "position": 1
+      },
+      {
+        "date": "2026-10-04",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 41.333333333333336
+      },
+      {
+        "date": "2026-10-05",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33333333333333,
+        "position": 21.666666666666668
+      },
+      {
+        "date": "2026-10-06",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "date": "2026-10-07",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 15.571428571428571
+      },
+      {
+        "date": "2026-10-08",
+        "clicks": 0,
+        "impressions": 71,
+        "ctr": 0,
+        "position": 47.88732394366197
+      },
+      {
+        "date": "2026-10-09",
+        "clicks": 1,
+        "impressions": 93,
+        "ctr": 1.0752688172043012,
+        "position": 59.25806451612903
+      },
+      {
+        "date": "2026-10-10",
+        "clicks": 0,
+        "impressions": 54,
+        "ctr": 0,
+        "position": 38.7037037037037
+      },
+      {
+        "date": "2026-10-11",
+        "clicks": 0,
+        "impressions": 53,
+        "ctr": 0,
+        "position": 57.924528301886795
+      },
+      {
+        "date": "2026-10-12",
+        "clicks": 0,
+        "impressions": 44,
+        "ctr": 0,
+        "position": 47.02272727272727
+      },
+      {
+        "date": "2026-10-13",
+        "clicks": 0,
+        "impressions": 112,
+        "ctr": 0,
+        "position": 36.651785714285715
+      },
+      {
+        "date": "2026-10-14",
+        "clicks": 0,
+        "impressions": 60,
+        "ctr": 0,
+        "position": 48.7
+      },
+      {
+        "date": "2026-10-15",
+        "clicks": 0,
+        "impressions": 41,
+        "ctr": 0,
+        "position": 37.5609756097561
+      },
+      {
+        "date": "2026-10-16",
+        "clicks": 0,
+        "impressions": 42,
+        "ctr": 0,
+        "position": 35.976190476190474
+      },
+      {
+        "date": "2026-10-17",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 32.81818181818181
+      },
+      {
+        "date": "2026-10-18",
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 44.05555555555556
+      },
+      {
+        "date": "2026-10-19",
+        "clicks": 1,
+        "impressions": 20,
+        "ctr": 5,
+        "position": 31.05
+      },
+      {
+        "date": "2026-10-20",
+        "clicks": 0,
+        "impressions": 30,
+        "ctr": 0,
+        "position": 14.266666666666667
+      },
+      {
+        "date": "2026-10-21",
+        "clicks": 0,
+        "impressions": 22,
+        "ctr": 0,
+        "position": 22.727272727272727
+      },
+      {
+        "date": "2026-10-22",
+        "clicks": 0,
+        "impressions": 31,
+        "ctr": 0,
+        "position": 37.58064516129032
+      },
+      {
+        "date": "2026-10-23",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 35.72727272727273
+      },
+      {
+        "date": "2026-10-24",
+        "clicks": 0,
+        "impressions": 33,
+        "ctr": 0,
+        "position": 38.90909090909091
+      }
+    ],
+    "dataSource": "api",
+    "settledThrough": "2026-11-21",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-11-22",
+      "settledThrough": "2026-11-21",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-23",
+        "dataState": "all"
+      }
+    }
+  },
+  "queryPageEvidence": {
+    "current": {
+      "siteUrl": "https://www.cashasis.com/",
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-21",
+      "dimensions": [
+        "query",
+        "page"
+      ],
+      "searchType": "web",
+      "rowCount": 34,
+      "listKey": "rows",
+      "sortedBy": "clicks",
+      "sortOrder": "desc",
+      "coverage": {
+        "rowsReturned": 34,
+        "rowsTotal": 34,
+        "clicksCovered": null,
+        "impressionsCovered": 0.5438,
+        "hiddenClicksShare": null,
+        "hiddenImpressionsShare": 0.4563,
+        "totalsFrom": "get_site_summary",
+        "siteTotals": {
+          "clicks": 0,
+          "impressions": 160,
+          "ctrPercent": 0,
+          "avgPositionWeighted": 22.33
+        },
+        "scope": "property",
+        "sharesOf": "siteTotals"
+      },
+      "rows": [
+        {
+          "keys": [
+            "as is house buyers",
+            "https://www.cashasis.com/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 48
+        },
+        {
+          "keys": [
+            "avoid foreclosure houston",
+            "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 37.25
+        },
+        {
+          "keys": [
+            "avoid foreclosure in houston",
+            "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 40.333333333333336
+        },
+        {
+          "keys": [
+            "avoid foreclosure memorial houston, texas",
+            "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 46
+        },
+        {
+          "keys": [
+            "fort bend county septic permit",
+            "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 11
+        },
+        {
+          "keys": [
+            "hoa transfer fee texas",
+            "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 72
+        },
+        {
+          "keys": [
+            "how to stop hoa foreclosure in houston",
+            "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 45
+        },
+        {
+          "keys": [
+            "insurance for empty house up for sale",
+            "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 56
+        },
+        {
+          "keys": [
+            "security deposit transfer when rental property sells",
+            "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 99
+        },
+        {
+          "keys": [
+            "sell a rental home spring tx",
+            "https://www.cashasis.com/blog/sell-rental-property-spring-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 2
+        },
+        {
+          "keys": [
+            "sell an inherited home spring tx",
+            "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "keys": [
+            "sell house as is in houston",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 36
+        },
+        {
+          "keys": [
+            "sell house due to retirement missouri city tx",
+            "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 19
+        },
+        {
+          "keys": [
+            "sell house with bad roof houston",
+            "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 20
+        },
+        {
+          "keys": [
+            "sell house with city liens houston",
+            "https://www.cashasis.com/blog/sell-house-with-liens-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 21
+        },
+        {
+          "keys": [
+            "sell house with delinquent taxes texas",
+            "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 23.5
+        },
+        {
+          "keys": [
+            "sell house with mold houston",
+            "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 68
+        },
+        {
+          "keys": [
+            "sell house without listing houston",
+            "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 26
+        },
+        {
+          "keys": [
+            "sell house without repairs houston",
+            "https://www.cashasis.com/blog/sell-house-without-repairs-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 17
+        },
+        {
+          "keys": [
+            "sell inherited house spring tx",
+            "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "keys": [
+            "sell my house fast missouri city tx",
+            "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 34.92307692307692
+        },
+        {
+          "keys": [
+            "sell my house in foreclosure in montgomery county texas",
+            "https://www.cashasis.com/blog/sell-preforeclosure-house-montgomery-county/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "keys": [
+            "sell my house missouri city tx",
+            "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 15,
+          "ctr": 0,
+          "position": 43.93333333333333
+        },
+        {
+          "keys": [
+            "sell my inherited house in katy texas",
+            "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "keys": [
+            "sell my inherited house in montgomery county texas",
+            "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 19.5
+        },
+        {
+          "keys": [
+            "sell rental property with tenants texas",
+            "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 35
+        },
+        {
+          "keys": [
+            "selling a va loan home",
+            "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 28.25
+        },
+        {
+          "keys": [
+            "texas hoa transfer fees",
+            "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 80
+        },
+        {
+          "keys": [
+            "vacant home insurance texas",
+            "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 24.714285714285715
+        },
+        {
+          "keys": [
+            "vacant property insurance texas",
+            "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 93
+        },
+        {
+          "keys": [
+            "we buy houses missouri city tx",
+            "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 16
+        },
+        {
+          "keys": [
+            "what is a private transfer fee in real estate",
+            "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 62.5
+        },
+        {
+          "keys": [
+            "what's the actual difference in net proceeds between cash sale and mls listing?",
+            "https://www.cashasis.com/compare-the-net/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 4
+        },
+        {
+          "keys": [
+            "who offers subsidence cover for an unoccupied property awaiting sale?",
+            "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        }
+      ],
+      "pagination": {
+        "limit": 1000,
+        "offset": 0,
+        "returned": 34,
+        "hasMore": false,
+        "note": "Showing all 34 rows."
+      },
+      "dataSource": "api",
+      "settledThrough": "2026-11-21",
+      "dataMaturity": {
+        "firstIncompleteDate": "2026-11-22",
+        "settledThrough": "2026-11-21",
+        "dateBasis": "America/Los_Angeles",
+        "source": "gsc-api-metadata",
+        "probe": {
+          "searchType": "web",
+          "startDate": "2026-11-14",
+          "endDate": "2026-11-23",
+          "dataState": "all"
+        }
+      }
+    },
+    "prior": {
+      "siteUrl": "https://www.cashasis.com/",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-14",
+      "dimensions": [
+        "query",
+        "page"
+      ],
+      "searchType": "web",
+      "rowCount": 41,
+      "listKey": "rows",
+      "sortedBy": "clicks",
+      "sortOrder": "desc",
+      "coverage": {
+        "rowsReturned": 41,
+        "rowsTotal": 41,
+        "clicksCovered": null,
+        "impressionsCovered": 0.5577,
+        "hiddenClicksShare": null,
+        "hiddenImpressionsShare": 0.4423,
+        "totalsFrom": "get_site_summary",
+        "siteTotals": {
+          "clicks": 0,
+          "impressions": 156,
+          "ctrPercent": 0,
+          "avgPositionWeighted": 25.27
+        },
+        "scope": "property",
+        "sharesOf": "siteTotals"
+      },
+      "rows": [
+        {
+          "keys": [
+            "as is house buyers",
+            "https://www.cashasis.com/"
+          ],
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 65.4
+        },
+        {
+          "keys": [
+            "avoid foreclosure houston",
+            "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 20
+        },
+        {
+          "keys": [
+            "firpta withholding texas",
+            "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 91
+        },
+        {
+          "keys": [
+            "home warranty cash out option",
+            "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 25
+        },
+        {
+          "keys": [
+            "sell home as is houston",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 77.5
+        },
+        {
+          "keys": [
+            "sell house as is houston",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 70.66666666666667
+        },
+        {
+          "keys": [
+            "sell house as is in houston",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 49
+        },
+        {
+          "keys": [
+            "sell house houston",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 74.33333333333333
+        },
+        {
+          "keys": [
+            "sell house with delinquent taxes",
+            "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 14
+        },
+        {
+          "keys": [
+            "sell house with deliquent taxes",
+            "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 7.333333333333333
+        },
+        {
+          "keys": [
+            "sell house with deliquent taxes",
+            "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 11
+        },
+        {
+          "keys": [
+            "sell house with deliquent taxes houston",
+            "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "keys": [
+            "sell house with mold houston",
+            "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 86
+        },
+        {
+          "keys": [
+            "sell house with mold in texas",
+            "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 80.5
+        },
+        {
+          "keys": [
+            "sell house without listing houston",
+            "https://www.cashasis.com/blog/sell-house-without-realtor-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 25
+        },
+        {
+          "keys": [
+            "sell houston home as is",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 42
+        },
+        {
+          "keys": [
+            "sell inherited house montgomery",
+            "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 15.75
+        },
+        {
+          "keys": [
+            "sell my home fort bend tx",
+            "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 25.25
+        },
+        {
+          "keys": [
+            "sell my home sienna tx",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 19
+        },
+        {
+          "keys": [
+            "sell my house as is houston texas",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 85
+        },
+        {
+          "keys": [
+            "sell my house during bankruptcy missouri city tx",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 13
+        },
+        {
+          "keys": [
+            "sell my house fast in missouri city",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "keys": [
+            "sell my house fast in texas city",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 13
+        },
+        {
+          "keys": [
+            "sell my house fast missouri city",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "keys": [
+            "sell my house fast missouri city tx",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 8.8
+        },
+        {
+          "keys": [
+            "sell my house fast texas city",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 15
+        },
+        {
+          "keys": [
+            "sell my house fort bend tx",
+            "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 18
+        },
+        {
+          "keys": [
+            "sell my house in houston",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 43.666666666666664
+        },
+        {
+          "keys": [
+            "sell my house in houston tx",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 71
+        },
+        {
+          "keys": [
+            "sell my house missouri city tx",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 11.666666666666666
+        },
+        {
+          "keys": [
+            "sell my inherited house in katy texas",
+            "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "keys": [
+            "sell rental property with tenants texas",
+            "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 47
+        },
+        {
+          "keys": [
+            "sell with delinquent taxes",
+            "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 14
+        },
+        {
+          "keys": [
+            "sell with delinquent taxes",
+            "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 13.333333333333334
+        },
+        {
+          "keys": [
+            "sell with deliquent taxes",
+            "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 10.333333333333334
+        },
+        {
+          "keys": [
+            "sell your home in houston",
+            "https://www.cashasis.com/blog/sell-house-as-is-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 99
+        },
+        {
+          "keys": [
+            "sold asis",
+            "https://www.cashasis.com/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 52
+        },
+        {
+          "keys": [
+            "stop foreclosure texas",
+            "https://www.cashasis.com/blog/stop-foreclosure-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 61
+        },
+        {
+          "keys": [
+            "vacant home insurance texas",
+            "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 3
+        },
+        {
+          "keys": [
+            "we buy houses missouri city",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 45
+        },
+        {
+          "keys": [
+            "we buy houses missouri city tx",
+            "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 31.5
+        }
+      ],
+      "pagination": {
+        "limit": 1000,
+        "offset": 0,
+        "returned": 41,
+        "hasMore": false,
+        "note": "Showing all 41 rows."
+      },
+      "dataSource": "api",
+      "settledThrough": "2026-11-21",
+      "dataMaturity": {
+        "firstIncompleteDate": "2026-11-22",
+        "settledThrough": "2026-11-21",
+        "dateBasis": "America/Los_Angeles",
+        "source": "gsc-api-metadata",
+        "probe": {
+          "searchType": "web",
+          "startDate": "2026-11-14",
+          "endDate": "2026-11-23",
+          "dataState": "all"
+        }
+      }
+    },
+    "contextPages": {
+      "siteUrl": "https://www.cashasis.com/",
+      "range": {
+        "startDate": "2026-10-25",
+        "endDate": "2026-11-21"
+      },
+      "listKey": "pages",
+      "sortedBy": "clicks",
+      "sortOrder": "desc",
+      "coverage": {
+        "rowsReturned": 94,
+        "rowsTotal": 94,
+        "clicksCovered": 1,
+        "impressionsCovered": 1,
+        "hiddenClicksShare": 0,
+        "hiddenImpressionsShare": 0,
+        "totalsFrom": "get_site_summary",
+        "siteTotals": {
+          "clicks": 1,
+          "impressions": 1000,
+          "ctrPercent": 0.1,
+          "avgPositionWeighted": 31.64
+        },
+        "scope": "property",
+        "sharesOf": "siteTotals"
+      },
+      "pages": [
+        {
+          "page": "https://www.cashasis.com/",
+          "clicks": 1,
+          "impressions": 28,
+          "ctr": 3.571428571428571,
+          "position": 26.714285714285715
+        },
+        {
+          "page": "https://www.cashasis.com/accessibility/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 6.571428571428571
+        },
+        {
+          "page": "https://www.cashasis.com/after-you-sign/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "page": "https://www.cashasis.com/blog/cash-as-is-vs-listing/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 7
+        },
+        {
+          "page": "https://www.cashasis.com/blog/empty-house-problems-dont-wait/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "page": "https://www.cashasis.com/blog/existing-survey-when-selling-texas-house/",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 9.6
+        },
+        {
+          "page": "https://www.cashasis.com/blog/federal-tax-lien-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 51.75
+        },
+        {
+          "page": "https://www.cashasis.com/blog/firpta-withholding-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 37
+        },
+        {
+          "page": "https://www.cashasis.com/blog/hcad-tax-value-vs-cash-offer-harris-county/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 6.666666666666667
+        },
+        {
+          "page": "https://www.cashasis.com/blog/hoa-resale-documents-texas-house-sale/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 6.571428571428571
+        },
+        {
+          "page": "https://www.cashasis.com/blog/home-warranty-plan-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 25
+        },
+        {
+          "page": "https://www.cashasis.com/blog/houston-condo-special-assessment-sale-records/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 79.5
+        },
+        {
+          "page": "https://www.cashasis.com/blog/houston-flood-map-vs-house-flood-history/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "page": "https://www.cashasis.com/blog/houston-september-2026-market-selling-timeline/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "page": "https://www.cashasis.com/blog/how-late-sell-before-foreclosure-texas/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "page": "https://www.cashasis.com/blog/inherited-property-leave-belongings-as-is/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 4.333333333333334
+        },
+        {
+          "page": "https://www.cashasis.com/blog/mold-remediation-certificate-selling-texas-house/",
+          "clicks": 0,
+          "impressions": 10,
+          "ctr": 0,
+          "position": 74
+        },
+        {
+          "page": "https://www.cashasis.com/blog/mortgage-escrow-refund-after-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 38
+        },
+        {
+          "page": "https://www.cashasis.com/blog/need-time-move-after-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "page": "https://www.cashasis.com/blog/one-heir-refuses-sell-house-texas/",
+          "clicks": 0,
+          "impressions": 11,
+          "ctr": 0,
+          "position": 19.09090909090909
+        },
+        {
+          "page": "https://www.cashasis.com/blog/paid-off-mortgage-lien-release-houston/",
+          "clicks": 0,
+          "impressions": 30,
+          "ctr": 0,
+          "position": 17.8
+        },
+        {
+          "page": "https://www.cashasis.com/blog/power-of-attorney-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 64
+        },
+        {
+          "page": "https://www.cashasis.com/blog/private-transfer-fee-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 60.166666666666664
+        },
+        {
+          "page": "https://www.cashasis.com/blog/property-tax-proration-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 44
+        },
+        {
+          "page": "https://www.cashasis.com/blog/security-deposit-when-selling-texas-rental/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 37.666666666666664
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-before-foreclosure-sale/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 9.5
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-before-foreclosure-texas/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 55.5
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-fire-damaged-house-detroit/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 20
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-as-is-houston/",
+          "clicks": 0,
+          "impressions": 142,
+          "ctr": 0,
+          "position": 68.97887323943662
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-detroit/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 55
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-behind-on-taxes-houston/",
+          "clicks": 0,
+          "impressions": 35,
+          "ctr": 0,
+          "position": 11.857142857142858
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-code-violations-houston/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 19
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-delinquent-property-taxes-texas/",
+          "clicks": 0,
+          "impressions": 43,
+          "ctr": 0,
+          "position": 12.604651162790697
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-fast-baytown-tx/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-fast-fort-bend-county-tx/",
+          "clicks": 0,
+          "impressions": 23,
+          "ctr": 0,
+          "position": 25.391304347826086
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-fast-harris-county-tx/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 17.333333333333332
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-fast-katy-question/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 7.666666666666667
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-fast-katy-tx/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "clicks": 0,
+          "impressions": 182,
+          "ctr": 0,
+          "position": 15.423076923076923
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-fast-sugar-land-tx/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 60
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-needs-repairs-baytown-tx/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 3.5
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-needs-repairs-spring-tx/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 13.166666666666666
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-owner-died-texas/",
+          "clicks": 0,
+          "impressions": 15,
+          "ctr": 0,
+          "position": 7.133333333333334
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-tax-lien-texas/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 86
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-with-liens-houston/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 21
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-without-realtor-houston/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 29
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-house-without-repairs-houston/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 25
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-inherited-house-harris-county-question/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-inherited-house-katy-tx/",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 15.8
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-inherited-house-montgomery-county/",
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 15.333333333333334
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-inherited-house-spring-tx/",
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": 0,
+          "position": 11.75
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-inherited-house-sugar-land/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 42.5
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-preforeclosure-house-montgomery-county/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-rental-property-spring-tx/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 2
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-rental-with-tenants-texas/",
+          "clicks": 0,
+          "impressions": 8,
+          "ctr": 0,
+          "position": 38.75
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-vacant-house-baytown-tx/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-vacant-house-detroit/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 2
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/",
+          "clicks": 0,
+          "impressions": 41,
+          "ctr": 0,
+          "position": 32.75609756097561
+        },
+        {
+          "page": "https://www.cashasis.com/blog/sell-vacant-house-spring-tx/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-as-is-what-it-actually-means/",
+          "clicks": 0,
+          "impressions": 10,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-fort-bend-house-septic-system/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 6
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-house-houston-historic-district/",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 30.166666666666668
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-area-house-private-water-well/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 10
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-aluminum-wiring/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 24
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-from-out-of-state-signing/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 24
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-mortgage-forbearance/",
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 45.22222222222222
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-open-heloc/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 26.333333333333332
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-reverse-mortgage/",
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 44
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-roof-damage-repair-or-as-is/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 30
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-sba-disaster-loan-lien/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 2.5
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-solar-panels-contract-checklist/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 11
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-suspected-asbestos/",
+          "clicks": 0,
+          "impressions": 10,
+          "ctr": 0,
+          "position": 41.2
+        },
+        {
+          "page": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 28.25
+        },
+        {
+          "page": "https://www.cashasis.com/blog/stop-foreclosure-houston/",
+          "clicks": 0,
+          "impressions": 166,
+          "ctr": 0,
+          "position": 46.21686746987952
+        },
+        {
+          "page": "https://www.cashasis.com/blog/termite-report-before-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 44
+        },
+        {
+          "page": "https://www.cashasis.com/blog/texas-as-is-sale-seller-disclosure-checklist/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 42
+        },
+        {
+          "page": "https://www.cashasis.com/blog/understanding-your-pre-foreclosure-timeline/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 6.5
+        },
+        {
+          "page": "https://www.cashasis.com/blog/vacant-house-insurance-while-selling-houston/",
+          "clicks": 0,
+          "impressions": 18,
+          "ctr": 0,
+          "position": 25.22222222222222
+        },
+        {
+          "page": "https://www.cashasis.com/blog/water-district-notice-selling-houston-area-house/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 2
+        },
+        {
+          "page": "https://www.cashasis.com/blog/what-happens-back-taxes-when-you-sell/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 8
+        },
+        {
+          "page": "https://www.cashasis.com/blog/when-to-transfer-utilities-selling-houston-house/",
+          "clicks": 0,
+          "impressions": 15,
+          "ctr": 0,
+          "position": 10.4
+        },
+        {
+          "page": "https://www.cashasis.com/careers/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 3.142857142857143
+        },
+        {
+          "page": "https://www.cashasis.com/closing-timeline/",
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 8.307692307692307
+        },
+        {
+          "page": "https://www.cashasis.com/compare-the-net/",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 7.5
+        },
+        {
+          "page": "https://www.cashasis.com/disclaimer/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 5.857142857142857
+        },
+        {
+          "page": "https://www.cashasis.com/fix-it-or-sell-it/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 5
+        },
+        {
+          "page": "https://www.cashasis.com/lending-partners/",
+          "clicks": 0,
+          "impressions": 9,
+          "ctr": 0,
+          "position": 30.555555555555557
+        },
+        {
+          "page": "https://www.cashasis.com/privacy/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 3.5714285714285716
+        },
+        {
+          "page": "https://www.cashasis.com/referrals/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 5.142857142857143
+        },
+        {
+          "page": "https://www.cashasis.com/seller-faq/",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "page": "https://www.cashasis.com/seller-stories/back-taxes-handled/",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "page": "https://www.cashasis.com/sms-tcpa/",
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 9.428571428571429
+        },
+        {
+          "page": "https://www.cashasis.com/terms/",
+          "clicks": 0,
+          "impressions": 10,
+          "ctr": 0,
+          "position": 3.5
+        },
+        {
+          "page": "https://www.cashasis.com/the-cost-of-waiting/",
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 10.4
+        }
+      ],
+      "pagination": {
+        "limit": 200,
+        "offset": 0,
+        "returned": 94,
+        "hasMore": false,
+        "note": "Showing all 94 rows."
+      },
+      "dataSource": "api",
+      "settledThrough": "2026-11-21",
+      "dataMaturity": {
+        "firstIncompleteDate": "2026-11-22",
+        "settledThrough": "2026-11-21",
+        "dateBasis": "America/Los_Angeles",
+        "source": "gsc-api-metadata",
+        "probe": {
+          "searchType": "web",
+          "startDate": "2026-11-14",
+          "endDate": "2026-11-23",
+          "dataState": "all"
+        }
+      }
+    }
+  },
+  "ga4": {
+    "siteUrl": "https://www.cashasis.com/",
+    "propertyId": "properties/439983808",
+    "siteScope": null,
+    "propertyDisplayName": "cashasis",
+    "currencyCode": "USD",
+    "timeZone": "America/Chicago",
+    "dataSource": "ga4-api",
+    "range": {
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-20"
+    },
+    "comparisonRange": {
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-13"
+    },
+    "hasComparison": true,
+    "comparisonHasData": false,
+    "note": "GA4 has no data for the comparison period (2026-11-07 to 2026-11-13), most likely because the property or data stream was not collecting yet. There is no previous-period comparison; pick a later comparison range to compare.",
+    "summary": {
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "newUsers": 1,
+      "screenPageViews": 1,
+      "engagementRate": 1,
+      "averageSessionDuration": 80.74292,
+      "bounceRate": 0,
+      "eventCount": 6,
+      "keyEvents": 0
+    },
+    "prevSummary": null
+  },
+  "ga4Context28Day": {
+    "siteUrl": "https://www.cashasis.com/",
+    "propertyId": "properties/439983808",
+    "siteScope": null,
+    "propertyDisplayName": "cashasis",
+    "currencyCode": "USD",
+    "timeZone": "America/Chicago",
+    "dataSource": "ga4-api",
+    "range": {
+      "startDate": "2026-10-24",
+      "endDate": "2026-11-20"
+    },
+    "comparisonRange": {
+      "startDate": "2026-09-26",
+      "endDate": "2026-10-23"
+    },
+    "hasComparison": true,
+    "comparisonHasData": true,
+    "summary": {
+      "sessions": 2,
+      "activeUsers": 2,
+      "totalUsers": 2,
+      "newUsers": 2,
+      "screenPageViews": 2,
+      "engagementRate": 1,
+      "averageSessionDuration": 71.51380950000001,
+      "bounceRate": 0,
+      "eventCount": 11,
+      "keyEvents": 0
+    },
+    "prevSummary": {
+      "sessions": 7,
+      "activeUsers": 6,
+      "totalUsers": 7,
+      "newUsers": 6,
+      "screenPageViews": 7,
+      "engagementRate": 0.2857142857142857,
+      "averageSessionDuration": 125.37048142857142,
+      "bounceRate": 0.7142857142857143,
+      "eventCount": 29,
+      "keyEvents": 0
+    }
+  },
+  "ga4Events": {
+    "siteUrl": "https://www.cashasis.com/",
+    "propertyId": "properties/439983808",
+    "siteScope": null,
+    "dataSource": "ga4-api",
+    "timeZone": "America/Chicago",
+    "range": {
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-20"
+    },
+    "comparisonRange": null,
+    "hasComparison": false,
+    "dimension": "event",
+    "secondaryDimension": null,
+    "metrics": [
+      "eventCount",
+      "totalUsers"
+    ],
+    "rowCount": 6,
+    "totalRows": 6,
+    "truncated": false,
+    "listKey": "rows",
+    "sortedBy": "eventCount",
+    "sortOrder": "desc",
+    "rows": [
+      {
+        "key": "first_visit",
+        "eventCount": 1,
+        "prevEventCount": 0,
+        "totalUsers": 1,
+        "prevTotalUsers": 0
+      },
+      {
+        "key": "page_view",
+        "eventCount": 1,
+        "prevEventCount": 0,
+        "totalUsers": 1,
+        "prevTotalUsers": 0
+      },
+      {
+        "key": "scroll",
+        "eventCount": 1,
+        "prevEventCount": 0,
+        "totalUsers": 1,
+        "prevTotalUsers": 0
+      },
+      {
+        "key": "session_start",
+        "eventCount": 1,
+        "prevEventCount": 0,
+        "totalUsers": 1,
+        "prevTotalUsers": 0
+      },
+      {
+        "key": "user_engagement",
+        "eventCount": 1,
+        "prevEventCount": 0,
+        "totalUsers": 1,
+        "prevTotalUsers": 0
+      },
+      {
+        "key": "view_seller_content",
+        "eventCount": 1,
+        "prevEventCount": 0,
+        "totalUsers": 1,
+        "prevTotalUsers": 0
+      }
+    ]
+  },
+  "calendarMatchedGSCForGAWindow": {
+    "siteUrl": "https://www.cashasis.com/",
+    "range": {
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-20",
+      "days": 7
+    },
+    "comparison": {
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-13"
+    },
+    "current": {
+      "clicks": 0,
+      "impressions": 156,
+      "ctr": 0,
+      "avgPosition": 21.955128205128204
+    },
+    "previous": {
+      "clicks": 0,
+      "impressions": 182,
+      "ctr": 0,
+      "avgPosition": 25.25824175824176
+    },
+    "deltas": {
+      "clicks": 0,
+      "impressions": -26,
+      "ctrPoints": 0,
+      "positionDelta": -3.3031135531135547
+    },
+    "ordering": {
+      "dailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      },
+      "previousDailyRows": {
+        "sortedBy": "date",
+        "sortOrder": "asc"
+      }
+    },
+    "dailyRows": [
+      {
+        "date": "2026-11-14",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 15.125
+      },
+      {
+        "date": "2026-11-15",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 23.09090909090909
+      },
+      {
+        "date": "2026-11-16",
+        "clicks": 0,
+        "impressions": 35,
+        "ctr": 0,
+        "position": 23.8
+      },
+      {
+        "date": "2026-11-17",
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 18.22222222222222
+      },
+      {
+        "date": "2026-11-18",
+        "clicks": 0,
+        "impressions": 20,
+        "ctr": 0,
+        "position": 17.65
+      },
+      {
+        "date": "2026-11-19",
+        "clicks": 0,
+        "impressions": 50,
+        "ctr": 0,
+        "position": 26.34
+      },
+      {
+        "date": "2026-11-20",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 15.642857142857142
+      }
+    ],
+    "previousDailyRows": [
+      {
+        "date": "2026-11-07",
+        "clicks": 0,
+        "impressions": 34,
+        "ctr": 0,
+        "position": 22.823529411764707
+      },
+      {
+        "date": "2026-11-08",
+        "clicks": 0,
+        "impressions": 51,
+        "ctr": 0,
+        "position": 36.254901960784316
+      },
+      {
+        "date": "2026-11-09",
+        "clicks": 0,
+        "impressions": 40,
+        "ctr": 0,
+        "position": 22.2
+      },
+      {
+        "date": "2026-11-10",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 11.714285714285714
+      },
+      {
+        "date": "2026-11-11",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 13.090909090909092
+      },
+      {
+        "date": "2026-11-12",
+        "clicks": 0,
+        "impressions": 25,
+        "ctr": 0,
+        "position": 26.28
+      },
+      {
+        "date": "2026-11-13",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 14.357142857142858
+      }
+    ],
+    "dataSource": "api",
+    "settledThrough": "2026-11-21",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-11-22",
+      "settledThrough": "2026-11-21",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-11-14",
+        "endDate": "2026-11-23",
+        "dataState": "all"
+      }
+    }
+  },
+  "sourceLimitations": [
+    "Latest GSC settled metadata throughNov21; latest comparisonNov15\u201321 versusNov8\u201314, LosAngeles date basis.",
+    "GA4 uses conservative Nov14\u201320 versusNov7\u201313, Chicago timezone. Provider exposes no independent finalized-through date; attribution can settle later.",
+    "GA4 previous scoped summary unavailable (comparisonHasData=false), not zero. No claim the property was newly installed.",
+    "GA4 raw events/keyEvents are not deduplicated seller leads. No form/CTA/generate_lead events returned in complete scoped current event rows; validated sellers,agreements and funded retained GP remain unavailable.",
+    "Query rows can omit anonymized searches. Totals come from provider aggregate, not summed query rows.",
+    "Mixed-date indexing coverage does not support a same-day or prior-week indexed-count change claim."
+  ],
+  "coverage": {
+    "eligibleSitemapURLs": 224,
+    "eligibleBlogArticles": 196,
+    "retainedActualInspectionCoverage": 224,
+    "retainedActualBlogCoverage": 196,
+    "indexedTotal": 206,
+    "indexedBlogArticles": 179,
+    "unavailable": 0,
+    "latestObservationRange": [
+      "2026-10-27T13:28:26.432638+00:00",
+      "2026-11-23T15:30:13.375405+00:00"
+    ],
+    "basis": "Latest retained actual Google inspections on mixed dates, not a same-day census or impression-based index count.",
+    "observedAt": "2026-11-23T15:31:44.863045+00:00"
+  },
+  "indexingTracker": {
+    "siteUrl": "https://www.cashasis.com/",
+    "tracker": {
+      "id": "3fe55180-1484-49eb-a7f3-7fb173133160",
+      "isActive": true,
+      "staleCrawlThresholdDays": 120,
+      "emailDigestEnabled": true,
+      "createdAt": "2026-10-14T14:30:42.013012+00:00"
+    },
+    "stats": {
+      "total": 160,
+      "indexed": 143,
+      "notIndexed": 17,
+      "pending": 0,
+      "errors": 0,
+      "warnings": 13,
+      "lastCheckAt": "2026-11-23T15:17:08.943+00:00"
+    }
+  },
+  "recommendations": [
+    {
+      "priority": 1,
+      "page": "/blog/sell-house-fast-missouri-city-tx/",
+      "evidence": {
+        "contextImpressions": 182,
+        "contextAvgPosition": 15.423076923076923,
+        "contextClicks": 0,
+        "currentPair": {
+          "keys": [
+            "sell my house fast missouri city tx",
+            "https://www.cashasis.com/blog/sell-vacant-house-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 13,
+          "ctr": 0,
+          "position": 34.92307692307692
+        },
+        "priorPair": {
+          "keys": [
+            "sell my house fast missouri city tx",
+            "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/"
+          ],
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 8.8
+        },
+        "currentGoogleInspection": {
+          "url": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "verdict": "PASS",
+          "coverageState": "Submitted and indexed",
+          "indexingState": "INDEXING_ALLOWED",
+          "lastCrawlTime": "2026-10-23T14:14:17Z",
+          "googleCanonical": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "userCanonical": "https://www.cashasis.com/blog/sell-house-fast-missouri-city-tx/",
+          "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GoIulYEzV5HE61DtKRuhQw&utm_medium=link&utm_source=api",
+          "source": "google_url_inspection",
+          "inspectedAt": "2026-11-23T15:30:13.375405+00:00",
+          "robotsTxtState": "ALLOWED",
+          "pageFetchState": "SUCCESSFUL"
+        }
+      },
+      "finding": "Main local sales page remains indexed. The latest visible exact fast-sale query appears against the vacant-house page; prior window named the main sales page. Small, changing query samples indicate an intent-ownership review, not a measured same-page ranking loss. Main page opening repeats keywords; title matches commercial intent. PR27 also touches its description.",
+      "action": "Review first answer, snippet and complementary roles of main versus vacant-page internal paths. Scope a specific owner-approved revision with current-commit rollback before any live edit; do not add another city page."
+    },
+    {
+      "priority": 2,
+      "pages": [
+        "/blog/sell-house-behind-on-taxes-houston/",
+        "/blog/sell-house-delinquent-property-taxes-texas/"
+      ],
+      "evidence": {
+        "contextImpressions": [
+          35,
+          43
+        ],
+        "contextAvgPositions": [
+          11.857142857142858,
+          12.604651162790697
+        ],
+        "contextClicks": [
+          0,
+          0
+        ],
+        "priorSharedQuery": "sell with delinquent taxes appears on both pages in prior query/page rows",
+        "google": "Houston broad tax guide again crawled currently not indexed; already-confirmed issue unchanged."
+      },
+      "finding": "Current broad Houston article contains categorical deadline/proceeds statements; Texas guide distinguishes stages and links to it. Similar query ownership needs review; do not infer Google causation.",
+      "action": "Verify primary legal/tax claims and choose the broad versus specific-page roles before any scoped owner-approved rewrite or consolidation. Preserve strengthened Harris County page; no automatic indexing request."
+    },
+    {
+      "priority": 3,
+      "page": "/blog/paid-off-mortgage-lien-release-houston/",
+      "evidence": {
+        "contextImpressions": 30,
+        "contextAvgPosition": 17.8,
+        "contextClicks": 0
+      },
+      "finding": "Existing direct opening and records packet answer the paid-off-versus-recorded-release question. No missing answer requiring a second article was established.",
+      "action": "Monitor query/snippet alignment and internal discovery from the title-problem parent; review a bounded improvement only when evidence identifies a gap. Do not lengthen automatically."
+    }
+  ],
+  "liveContentChanged": false,
+  "manualIndexingRequests": 0,
+  "verifiedOrganicSellerLeads": null,
+  "fundedRetainedGP": null,
+  "monthlyReviewDue": false,
+  "nextWeeklyReview": "2026-11-30",
+  "externalPaidApiSpendUSD": 0,
+  "inspectionChanges": [
+    {
+      "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+      "prior": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-12T14:46:43.854722+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "Crawled - currently not indexed",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": "2026-11-12T02:45:52+00:00",
+        "robotsTxtState": "ALLOWED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "SUCCESSFUL",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=n0VkFkDmpspX_Eb4ubVN6g&utm_medium=link&utm_source=api"
+      },
+      "current": {
+        "url": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-12T02:45:52Z",
+        "googleCanonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "userCanonical": "https://www.cashasis.com/blog/low-lender-appraisal-selling-houston-house/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=kdzNY174DBrfWSP80f22dg&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-23T15:28:01.845646+00:00",
+        "robotsTxtState": "ALLOWED",
+        "pageFetchState": "SUCCESSFUL"
+      }
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+      "prior": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-13T14:40:50.509737+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Dmhlr4yAaLyBb1EHsaEZwQ&utm_medium=link&utm_source=api"
+      },
+      "current": {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-15T12:38:52Z",
+        "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-va-loan-assumption/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=PGlX6-FnR5d4bkZqxcxA5Q&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-23T15:28:01.665277+00:00",
+        "robotsTxtState": "ALLOWED",
+        "pageFetchState": "SUCCESSFUL"
+      }
+    },
+    {
+      "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+      "prior": {
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-14T14:53:35.64739+00:00",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=rfM3UdSzZ2CIkzdLPKaC8A&utm_medium=link&utm_source=api"
+      },
+      "current": {
+        "url": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-20T11:01:22Z",
+        "googleCanonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+        "userCanonical": "https://www.cashasis.com/blog/selling-houston-house-pending-property-tax-protest/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=iI4DOjd9am31IUc3NhAOdg&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-23T15:28:03.760749+00:00",
+        "robotsTxtState": "ALLOWED",
+        "pageFetchState": "SUCCESSFUL"
+      }
+    },
+    {
+      "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+      "prior": {
+        "inspectedAt": "2026-11-18T14:19:18.020901+00:00",
+        "source": "google_url_inspection",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=Bph88SSmTG4aXuxN4tOMUg&utm_medium=link&utm_source=api"
+      },
+      "current": {
+        "url": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-20T09:00:14Z",
+        "googleCanonical": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+        "userCanonical": "https://www.cashasis.com/blog/sell-texas-house-with-property-tax-deferral/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=5VdRxWkzOF8aeoRQB3mzNw&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-23T15:28:02.065993+00:00",
+        "robotsTxtState": "ALLOWED",
+        "pageFetchState": "SUCCESSFUL"
+      }
+    },
+    {
+      "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+      "prior": {
+        "inspectedAt": "2026-11-19T14:55:39.80105+00:00",
+        "source": "google_url_inspection",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "googleCanonical": null,
+        "userCanonical": null,
+        "lastCrawlTime": null,
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=EMbqvUClgfW_2lyjNbo6sg&utm_medium=link&utm_source=api"
+      },
+      "current": {
+        "url": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "lastCrawlTime": "2026-11-20T09:03:04Z",
+        "googleCanonical": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "userCanonical": "https://www.cashasis.com/blog/fha-appraisal-repairs-selling-houston-house/",
+        "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=WNFKGGb8dzQNZJ7jM1VsTw&utm_medium=link&utm_source=api",
+        "source": "google_url_inspection",
+        "inspectedAt": "2026-11-23T15:28:09.43895+00:00",
+        "robotsTxtState": "ALLOWED",
+        "pageFetchState": "SUCCESSFUL"
+      }
+    }
+  ]
+}

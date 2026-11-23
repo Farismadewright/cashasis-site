@@ -284,3 +284,11 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - No new article: broker-fee, heir-refusal and vacant-policy variants held for existing coverage. Existing query ownership takes priority over filling daily capacity.
 - GSC Oct23–Nov19:1,018impressions,1click sitewide; MissouriCity191impressions,position15.55,0clicks. Review its first answer and competing pendingPR27 before any specifically approved live revision.
 - GA4 original Organic Search blog landing sessions:2; keyEvents0. Validated sellers and funded retained GP remain unavailable. Twenty actual Google inspections and fresh live eligibility checks retained; known indexing alerts unchanged. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-22.json`.
+
+
+### November23,2026 — weekly acquisition evidence
+
+- Nov16–22:3published articles (FHA appraisal repair requirements, backup offers, mineral reservations),10candidate HOLD decisions; one held mineral draft was subsequently recovered.
+- Latest settled GSC Nov15–21 versusNov8–14:160 versus156impressions;0clicks both;averageposition22.33 versus25.27.28-day context:1,000impressions/1click.
+- MissouriCity commercial page remains Google-indexed. Visible fast-sale query now appears on the vacancy guide in the current small query sample; review page roles/first answer/internal paths before more city variants. Prioritize Houston/Texas tax ownership/claim review; retain paid-mortgage release page rather than duplicate it.
+- GA4 original Organic Search blog sessionsNov14–20:1;prior scoped baseline unavailable;keyEvents0. Validated organic sellers and funded retained GP remain unavailable. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-W48-weekly.json`.
