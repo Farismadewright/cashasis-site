@@ -3,8 +3,9 @@
     "runId": "native-daily-20261123T152637Z",
     "fence": 47,
     "issuedAt": "2026-11-23T15:26:37.958Z",
-    "expiresAt": "2026-11-23T17:26:37.958Z",
-    "released": false
+    "expiresAt": "2026-11-23T15:33:16.664Z",
+    "released": true,
+    "releasedAt": "2026-11-23T15:33:16.664Z"
   },
   "ledger": [
     {
@@ -1487,20 +1488,20 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261122T145033Z",
-    "fence": 46,
-    "day": "2026-11-22",
-    "status": "HOLD_overlap",
+    "runId": "native-daily-20261123T152637Z",
+    "fence": 47,
+    "day": "2026-11-23",
+    "status": "HOLD_overlap_weekly_review_complete",
     "published": 0,
     "held": 3,
     "articles": [],
-    "reason": "Three concept variants overlap existing guides; no generation or release attempted.",
-    "evidenceCommit": "58f7206efeebee27e39e9f3a17e37507ad681aa1",
-    "runRecord": "automation/blog-publisher/runs/2026-11-22.json",
-    "inspectionCalls": 20,
-    "monitoringCheckpointCommit": "22a1f1b912c001c6b8fb2ad555175b23e8440f73",
+    "evidenceCommit": "23d6e2f4f0cdfc8af3d2ad838c57aaa1ba678dc2",
+    "runRecord": "automation/blog-publisher/runs/2026-11-23.json",
+    "weeklyReview": "automation/blog-publisher/runs/2026-W48-weekly.json",
+    "inspectionCalls": 12,
+    "monitoringCheckpointCommit": "c93b32d3f86bc774d3d144fa9ad1eeffa0298887",
     "externalPaidApiSpendUSD": 0,
-    "completedAt": "2026-11-22T14:56:14.734Z"
+    "completedAt": "2026-11-23T15:33:16.664Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
