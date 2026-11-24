@@ -292,3 +292,10 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - Latest settled GSC Nov15–21 versusNov8–14:160 versus156impressions;0clicks both;averageposition22.33 versus25.27.28-day context:1,000impressions/1click.
 - MissouriCity commercial page remains Google-indexed. Visible fast-sale query now appears on the vacancy guide in the current small query sample; review page roles/first answer/internal paths before more city variants. Prioritize Houston/Texas tax ownership/claim review; retain paid-mortgage release page rather than duplicate it.
 - GA4 original Organic Search blog sessionsNov14–20:1;prior scoped baseline unavailable;keyEvents0. Validated organic sellers and funded retained GP remain unavailable. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-W48-weekly.json`.
+
+
+### November24,2026 — retained acquisition evidence
+
+- Published a distinct Harris County name-matched deed-alert review workflow, separate from title-obstacle and wire-proceeds guides. Sources verified today; no recurring private seller demand inferred from the bounded anonymous screen.
+- GSC Oct26–Nov22:951impressions,1click,position30.33 sitewide. Missouri City:174impressions,position15.55,0clicks; paid-mortgage release:31,17.26,0clicks. Review the existing first answer, query ownership and pendingPR27 before specifically approved live changes or added variants.
+- GA4 Oct26–Nov21 original Organic Search blog sessions2,keyEvents0; one session each to survey and mortgage-release guides. Dates differ from GSC; no joined funnel or seller outcome inferred. Validated organic leads and funded retained GP remain unavailable. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-24.json`.

@@ -1134,5 +1134,23 @@
       "/blog/sell-house-title-problems-houston/"
     ],
     "substantiveDifference": "Mineral ownership, reserved interest and surface-use provisions are distinct from a general title problem or easement; corpus search found no existing mineral-intent guide."
+  },
+  {
+    "slug": "property-deed-alert-before-selling-harris-county",
+    "intentKey": "harris-seller-name-matched-deed-alert-document-triage",
+    "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "commit": "4555ac802887cbeb0a97f7cfee6b4a21aa49f325",
+    "deployId": "6b059e47b2d8433c070e6881",
+    "pr": 54,
+    "publishedAt": "2026-11-24T14:25:52.951Z",
+    "runId": "native-daily-20261124T141521Z",
+    "day": "2026-11-24",
+    "status": "published",
+    "nearestOverlaps": [
+      "/blog/dont-live-in-area-vacant-property-risk/",
+      "/blog/protect-house-sale-proceeds-wire-fraud/",
+      "/blog/sell-house-title-problems-houston/"
+    ],
+    "substantiveDifference": "Specific name-match notice triage: distinguish alert from ownership finding, independently verify recorded instrument, assemble private seller review packet and separate transaction/insurance questions. Existing vacant guide briefly flags forged paperwork, wire guide concerns proceeds messages, title page general closing obstacles. Current219source rows,196eligible blogs/static pages/topic ledger/four pendingPRs and23PR27patches reviewed; no dedicated alert workflow."
   }
 ]

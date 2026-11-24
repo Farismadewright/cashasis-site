@@ -4,7 +4,7 @@
   "day": "2026-11-24",
   "slug": "property-deed-alert-before-selling-harris-county",
   "intentKey": "harris-seller-name-matched-deed-alert-document-triage",
-  "status": "draft",
+  "status": "published",
   "reservedAt": "2026-11-24T14:16:11.190Z",
   "title": "Property Deed Alert Before Selling in Harris County? What to Check",
   "description": "Property alert before selling a Harris County house? Verify the document, build a review packet and clarify title questions before promising a closing.",
@@ -103,8 +103,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "not_released",
+    "preview": "pass",
+    "deploy": "pass",
     "conversionReporting": "unavailable_optional"
   },
   "externalApiUsed": false,
@@ -115,9 +115,9 @@
     "note": "Existing native Work/Netlify allowances; incremental usage cost unavailable. No new subscription or external paid API."
   },
   "protectedSourceChanges": [],
-  "commit": null,
-  "deployId": null,
-  "url": null,
+  "commit": "4555ac802887cbeb0a97f7cfee6b4a21aa49f325",
+  "deployId": "6b059e47b2d8433c070e6881",
+  "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
   "buildEvidence": {
     "command": "npm run build",
     "exitCode": 0,
@@ -130,12 +130,12 @@
     "expectedCanonical": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
     "geography": "Harris County; verified Houston service coverage; no city swaps",
     "legalLimits": "No legal filing/deadline/cure instructions; specific disputed rights and claims directed to qualified professionals.",
-    "localIndexability": "pass_built",
+    "localIndexability": "pass_production",
     "canonical": "pass",
-    "robots": "production_crawlable_expected_preview_noindex_pending",
-    "sitemapRSSHub": "pass_built",
-    "internalLinks": "pass_built",
-    "sellerConversionPath": "pass_local_attribution"
+    "robots": "production_indexable_preview_noindex_verified",
+    "sitemapRSSHub": "pass_production",
+    "internalLinks": "pass_production",
+    "sellerConversionPath": "pass_live_get_local_attribution_no_fake_lead"
   },
   "visualChecks": {
     "passed": true,
@@ -227,5 +227,193 @@
       "#HoustonRealEstate",
       "#SellAsIs"
     ]
+  },
+  "preview": {
+    "commit": "eacf313217ca14ba13041a7e6a34737ddf6d7694",
+    "deployId": "6b059ddd231ec81df8e1c36d",
+    "qa": {
+      "mode": "preview",
+      "deployId": "6b059ddd231ec81df8e1c36d",
+      "url": "https://6b059ddd231ec81df8e1c36d--cashasis-blog.netlify.app/blog/property-deed-alert-before-selling-harris-county/",
+      "canonical": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+      "verifiedAt": "2026-11-24T14:24:36.307764+00:00",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "indexDirectives": true,
+        "robotsAllowed": true,
+        "imageURLs": true,
+        "imageDimensions": true,
+        "imageHash": true,
+        "schema": true,
+        "faq": true,
+        "oneH1": true,
+        "sitemap": true,
+        "rss": true,
+        "inboundHub": true,
+        "internalLinks": true,
+        "cta": true,
+        "sellerForm": true,
+        "builtContentIdentical": true,
+        "protectedAssets": true
+      },
+      "allPassed": true,
+      "headers": {
+        "X-Robots-Tag": "noindex"
+      },
+      "imageURLs": [
+        "https://www.cashasis.com/images/property-deed-alert-before-selling-harris-county.png",
+        "https://www.cashasis.com/images/property-deed-alert-before-selling-harris-county.png",
+        "/images/property-deed-alert-before-selling-harris-county.png"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "ctaLinks": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post",
+        "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=inline",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post"
+      ],
+      "assetChecks": [
+        {
+          "path": "/styles.css",
+          "identical": true
+        },
+        {
+          "path": "/js/cashasis-attribution.js",
+          "identical": true
+        },
+        {
+          "path": "/js/cashasis-dni.js",
+          "identical": true
+        }
+      ],
+      "netlifyToolbarBytes": 0,
+      "note": "Only known Netlify preview toolbar suffix accepted beyond byte-identical mobile-tested content."
+    }
+  },
+  "publishedAt": "2026-11-24T14:25:52.951Z",
+  "pr": 54,
+  "productionQA": {
+    "mode": "production",
+    "deployId": "6b059e47b2d8433c070e6881",
+    "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "canonical": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "verifiedAt": "2026-11-24T14:27:31.951864+00:00",
+    "checks": {
+      "http200": true,
+      "canonical": true,
+      "indexDirectives": true,
+      "robotsAllowed": true,
+      "imageURLs": true,
+      "imageDimensions": true,
+      "imageHash": true,
+      "schema": true,
+      "faq": true,
+      "oneH1": true,
+      "sitemap": true,
+      "rss": true,
+      "inboundHub": true,
+      "internalLinks": true,
+      "cta": true,
+      "sellerForm": true,
+      "builtContentIdentical": true,
+      "protectedAssets": true
+    },
+    "allPassed": true,
+    "headers": {
+      "X-Robots-Tag": null
+    },
+    "imageURLs": [
+      "https://www.cashasis.com/images/property-deed-alert-before-selling-harris-county.png",
+      "https://www.cashasis.com/images/property-deed-alert-before-selling-harris-county.png",
+      "/images/property-deed-alert-before-selling-harris-county.png"
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "ctaLinks": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post",
+      "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=inline",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post"
+    ],
+    "assetChecks": [
+      {
+        "path": "/styles.css",
+        "identical": true
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "identical": true
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "identical": true
+      }
+    ],
+    "netlifyToolbarBytes": 0,
+    "note": "Only known Netlify preview toolbar suffix accepted beyond byte-identical mobile-tested content."
+  },
+  "releaseGate": {
+    "allowed": true,
+    "errors": [],
+    "runId": "native-daily-20261124T141521Z",
+    "fence": 48,
+    "stateSource": "fresh main activation plus current fetched runtime lease and complete ledger",
+    "verifiedAt": "2026-11-24T14:25:03.785Z",
+    "timeNote": "Actual gate receipt timestamp recorded durably in the pre-merge publishing CAS."
+  },
+  "googleInspection": {
+    "siteUrl": "https://www.cashasis.com/",
+    "inspectionUrl": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=N7trcHnCqtXTblAZzyMyew&utm_medium=link&utm_source=api",
+    "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-24T14:27:56.636795+00:00"
+  },
+  "searchConsoleMonitoring": {
+    "source": "google_url_inspection",
+    "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "latest": {
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=N7trcHnCqtXTblAZzyMyew&utm_medium=link&utm_source=api",
+      "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-24T14:27:56.636795+00:00"
+    },
+    "nextReview": "2026-11-27",
+    "eligibilitySeparateFromGoogleVerdict": true
+  },
+  "GA4Measurement": {
+    "status": "not_yet_measurable",
+    "source": "ga4-api",
+    "newPagePublishedAt": "2026-11-24T14:25:52.951Z",
+    "originalOrganicLandingSessions": null,
+    "validatedSellerLeads": null,
+    "fundedRetainedGP": null,
+    "note": "Fresh page; no settled article traffic window. Existing site-level original organic measurements retained in run record. Raw events are not distinct sellers."
   }
 }
