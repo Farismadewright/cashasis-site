@@ -1483,6 +1483,15 @@
       "publishedAt": "2026-11-21T14:23:51.973Z",
       "verifiedAt": "2026-11-21T14:25:10.366850+00:00",
       "evidenceCommit": "bc108cb015153e3ecd0ddd37b4f2c35e365b9e25"
+    },
+    {
+      "runId": "native-daily-20261124T141521Z",
+      "fence": 48,
+      "day": "2026-11-24",
+      "slug": "property-deed-alert-before-selling-harris-county",
+      "intentKey": "harris-seller-name-matched-deed-alert-document-triage",
+      "status": "reserved",
+      "reservedAt": "2026-11-24T14:16:11.190Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
