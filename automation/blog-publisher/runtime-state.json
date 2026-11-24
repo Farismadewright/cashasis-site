@@ -1490,7 +1490,7 @@
       "day": "2026-11-24",
       "slug": "property-deed-alert-before-selling-harris-county",
       "intentKey": "harris-seller-name-matched-deed-alert-document-triage",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-24T14:16:11.190Z",
       "previewCommit": "eacf313217ca14ba13041a7e6a34737ddf6d7694",
       "previewDeployId": "6b059ddd231ec81df8e1c36d",
@@ -1500,7 +1500,13 @@
         "errors": [],
         "verifiedAt": "2026-11-24T14:25:03.785Z"
       },
-      "publishingAt": "2026-11-24T14:25:03.785Z"
+      "publishingAt": "2026-11-24T14:25:03.785Z",
+      "commit": "4555ac802887cbeb0a97f7cfee6b4a21aa49f325",
+      "deployId": "6b059e47b2d8433c070e6881",
+      "publishedAt": "2026-11-24T14:25:52.951Z",
+      "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+      "productionVerifiedAt": "2026-11-24T14:27:31.951864+00:00",
+      "googleVerdict": "NEUTRAL"
     }
   ],
   "externalApiSpendLimitUSD": 0,
