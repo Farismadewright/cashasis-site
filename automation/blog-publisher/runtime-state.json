@@ -3,8 +3,9 @@
     "runId": "native-daily-20261124T141521Z",
     "fence": 48,
     "issuedAt": "2026-11-24T14:15:21.508Z",
-    "expiresAt": "2026-11-24T16:15:21.508Z",
-    "released": false
+    "expiresAt": "2026-11-24T14:29:56.699Z",
+    "released": true,
+    "releasedAt": "2026-11-24T14:29:56.699Z"
   },
   "ledger": [
     {
@@ -1506,25 +1507,36 @@
       "publishedAt": "2026-11-24T14:25:52.951Z",
       "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
       "productionVerifiedAt": "2026-11-24T14:27:31.951864+00:00",
-      "googleVerdict": "NEUTRAL"
+      "googleVerdict": "NEUTRAL",
+      "evidenceCommit": "f63bf92b171227c2c623175591d4ea7c3e838ed5",
+      "monitoringRecord": "automation/blog-publisher/monitoring-state.json"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261123T152637Z",
-    "fence": 47,
-    "day": "2026-11-23",
-    "status": "HOLD_overlap_weekly_review_complete",
-    "published": 0,
-    "held": 3,
-    "articles": [],
-    "evidenceCommit": "23d6e2f4f0cdfc8af3d2ad838c57aaa1ba678dc2",
-    "runRecord": "automation/blog-publisher/runs/2026-11-23.json",
-    "weeklyReview": "automation/blog-publisher/runs/2026-W48-weekly.json",
-    "inspectionCalls": 12,
-    "monitoringCheckpointCommit": "c93b32d3f86bc774d3d144fa9ad1eeffa0298887",
+    "runId": "native-daily-20261124T141521Z",
+    "fence": 48,
+    "day": "2026-11-24",
+    "status": "completed",
+    "published": 1,
+    "held": 0,
+    "unfilledSlots": 2,
+    "articles": [
+      "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/"
+    ],
+    "productionCommit": "4555ac802887cbeb0a97f7cfee6b4a21aa49f325",
+    "productionDeployId": "6b059e47b2d8433c070e6881",
+    "publishedAt": "2026-11-24T14:25:52.951Z",
+    "evidenceCommit": "f63bf92b171227c2c623175591d4ea7c3e838ed5",
+    "record": "automation/blog-publisher/runs/2026-11-24.json",
+    "monitoringCommit": "fedd1799050fb4ee5bd48ae718a738573dc5faee",
+    "actualGoogleInspections": 4,
+    "weeklyReviewDue": false,
+    "monthlyReviewDue": false,
+    "newAlerts": 0,
+    "notification": "suppressed_routine_success",
     "externalPaidApiSpendUSD": 0,
-    "completedAt": "2026-11-23T15:33:16.664Z"
+    "completedAt": "2026-11-24T14:29:56.699Z"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
