@@ -1,0 +1,231 @@
+{
+  "runId": "native-daily-20261124T141521Z",
+  "fence": 48,
+  "day": "2026-11-24",
+  "slug": "property-deed-alert-before-selling-harris-county",
+  "intentKey": "harris-seller-name-matched-deed-alert-document-triage",
+  "status": "draft",
+  "reservedAt": "2026-11-24T14:16:11.190Z",
+  "title": "Property Deed Alert Before Selling in Harris County? What to Check",
+  "description": "Property alert before selling a Harris County house? Verify the document, build a review packet and clarify title questions before promising a closing.",
+  "primaryKeyword": "property deed alert before selling Harris County",
+  "supportingKeywords": [
+    "Harris County property alert seller",
+    "unexpected recorded document before house sale",
+    "name matched property alert"
+  ],
+  "nearestOverlaps": [
+    "/blog/dont-live-in-area-vacant-property-risk/",
+    "/blog/protect-house-sale-proceeds-wire-fraud/",
+    "/blog/sell-house-title-problems-houston/"
+  ],
+  "substantiveDifference": "Specific name-match notice triage: distinguish alert from ownership finding, independently verify recorded instrument, assemble private seller review packet and separate transaction/insurance questions. Existing vacant guide briefly flags forged paperwork, wire guide concerns proceeds messages, title page general closing obstacles. Current219source rows,196eligible blogs/static pages/topic ledger/four pendingPRs and23PR27patches reviewed; no dedicated alert workflow.",
+  "sellerVoice": {
+    "sampleMessages": 2,
+    "inbound": 1,
+    "eligibleInbound": 1,
+    "limitations": "Bounded anonymous screen; no deed-alert-specific recurring seller demand asserted, no raw private details retained."
+  },
+  "sources": [
+    {
+      "url": "https://cclerk.hctx.net/PropertyDeedFraud.aspx",
+      "title": "Harris County Clerk Property Deed Fraud / PAS",
+      "publicationDate": null,
+      "accessedAt": "2026-11-24",
+      "verifiedAt": "2026-11-24",
+      "reportingPeriod": "current at access",
+      "geography": "Harris County",
+      "unit": null,
+      "figure": null,
+      "method": "Current full primary agency page read; no individualized legal/insurance conclusion",
+      "claim": "PAS is free/name-matched, can concern another property, cannot prevent recording or determine ownership. Document review and legal advice for suspected fraud; records assistance."
+    },
+    {
+      "url": "https://www.tdi.texas.gov/title/titlefaqs.html",
+      "title": "Texas Department of Insurance Title FAQ",
+      "publicationDate": "2024-03-19",
+      "accessedAt": "2026-11-24",
+      "verifiedAt": "2026-11-24",
+      "reportingPeriod": "current at access",
+      "geography": "Texas",
+      "unit": null,
+      "figure": null,
+      "method": "Current full primary agency page read; no individualized legal/insurance conclusion",
+      "claim": "Commitment identifies conditions/problems without issue-free guarantee; title versus homeowners coverage, later-created-defect limits and underwriter notice/claims."
+    },
+    {
+      "url": "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams",
+      "title": "FTC Recognize and Avoid Phishing",
+      "publicationDate": "2022-09",
+      "accessedAt": "2026-11-24",
+      "verifiedAt": "2026-11-24",
+      "reportingPeriod": "current at access",
+      "geography": "United States",
+      "unit": null,
+      "figure": null,
+      "method": "Current full primary agency page read; no individualized legal/insurance conclusion",
+      "claim": "Verify suspicious messages using independently known real website/number rather than message contact information."
+    }
+  ],
+  "image": "/images/property-deed-alert-before-selling-harris-county.png",
+  "imageSha256": "2f48a9a4a83b9b4d2bb43666b4d951d6dd12c3350d90ce2ec5d9f41790db186c",
+  "thumbnail": {
+    "width": 1200,
+    "height": 630,
+    "headline": "CHECK DEED ALERTS",
+    "wordCount": 3,
+    "lines": [
+      "CHECK DEED",
+      "ALERTS"
+    ],
+    "lineWidths": [
+      537,
+      316
+    ],
+    "template": "left-photo-transparent-v2",
+    "logoVariant": "white",
+    "officialAlphaVerified": true,
+    "templateHashesMatch": true,
+    "provenance": "Native Work imagegen exec-680a5c31-febb-48f7-9961-cb9549689299; fictional illustrative property. Exact locked logo/font composition.",
+    "backgroundSha256": "2b2c37b750e026c1ea3d4a1fabab380e35b34e9779ba3416a9aeecfe59aead70",
+    "backgroundPrompt": "Original realistic brick Houston house on right, tree/daylight, left shaded negative space; no people,address,text or logo.",
+    "rendererInvocations": 1,
+    "visualReview": "Full-size and card-scale headline/logo/crop pass; desktop/mobile reviewed separately."
+  },
+  "checks": {
+    "privacy": "pass",
+    "originality": "pass",
+    "editorial": "pass",
+    "facts": "pass",
+    "sources": "pass",
+    "thumbnail": "pass",
+    "build": "pass",
+    "metadata": "pass",
+    "links": "pass",
+    "mobile": "pass",
+    "preview": "pending",
+    "deploy": "not_released",
+    "conversionReporting": "unavailable_optional"
+  },
+  "externalApiUsed": false,
+  "cost": {
+    "currency": "USD",
+    "externalApiSpend": 0,
+    "actual": null,
+    "note": "Existing native Work/Netlify allowances; incremental usage cost unavailable. No new subscription or external paid API."
+  },
+  "protectedSourceChanges": [],
+  "commit": null,
+  "deployId": null,
+  "url": null,
+  "buildEvidence": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "attempts": 2,
+    "correction": "Shortened description to151characters; second build passed.",
+    "astroPages": 221
+  },
+  "seoEligibility": {
+    "sellerIntent": "What should a Harris County owner do with an unexpected property-record alert before comparing or committing to a house sale?",
+    "expectedCanonical": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "geography": "Harris County; verified Houston service coverage; no city swaps",
+    "legalLimits": "No legal filing/deadline/cure instructions; specific disputed rights and claims directed to qualified professionals.",
+    "localIndexability": "pass_built",
+    "canonical": "pass",
+    "robots": "production_crawlable_expected_preview_noindex_pending",
+    "sitemapRSSHub": "pass_built",
+    "internalLinks": "pass_built",
+    "sellerConversionPath": "pass_local_attribution"
+  },
+  "visualChecks": {
+    "passed": true,
+    "results": [
+      {
+        "width": 360,
+        "scroll": 360,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post"
+        ],
+        "faqOpened": true
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post"
+        ],
+        "faqOpened": true
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post"
+        ],
+        "faqOpened": true
+      },
+      {
+        "width": 1366,
+        "scroll": 1366,
+        "h1s": 1,
+        "hero": [
+          1200,
+          630
+        ],
+        "faq": 3,
+        "ctas": [
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=inline",
+          "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=property-deed-alert-before-selling-harris-county&utm_term=post"
+        ],
+        "faqOpened": true
+      }
+    ]
+  },
+  "outputValidator": {
+    "slug": "property-deed-alert-before-selling-harris-county",
+    "technicalResult": "pass",
+    "errors": [],
+    "editorialVisualAndRuntimeReview": "required"
+  },
+  "social": {
+    "slug": "property-deed-alert-before-selling-harris-county",
+    "url": "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "image": "https://www.cashasis.com/images/property-deed-alert-before-selling-harris-county.png",
+    "status": "draft_only",
+    "facebook": "Property Deed Alert Before Selling in Harris County? What to Check\n\nProperty alert before selling a Harris County house? Verify the document, build a review packet and clarify title questions before promising a closing.\n\nCompare your options and request a no-obligation cash offer.\nhttps://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "instagram": "Property Deed Alert Before Selling in Harris County? What to Check\n\nProperty alert before selling a Harris County house? Verify the document, build a review packet and clarify title questions before promising a closing.\n\nRead the guide: https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/\n\n#CashAsIs #HoustonRealEstate #SellAsIs",
+    "linkedin": "Property Deed Alert Before Selling in Harris County? What to Check\n\nProperty alert before selling a Harris County house? Verify the document, build a review packet and clarify title questions before promising a closing.\n\nFor Houston-area property sellers, understanding the choices comes before choosing a buyer.\nhttps://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "googleBusinessProfile": "Property Deed Alert Before Selling in Harris County? What to Check\n\nProperty alert before selling a Harris County house? Verify the document, build a review packet and clarify title questions before promising a closing.\nRead the guide and compare your selling options: https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/",
+    "promotionalExcerpt": "Property alert before selling a Harris County house? Verify the document, build a review packet and clarify title questions before promising a closing.",
+    "hashtags": [
+      "#CashAsIs",
+      "#HoustonRealEstate",
+      "#SellAsIs"
+    ]
+  }
+}
