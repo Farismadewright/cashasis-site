@@ -1490,8 +1490,17 @@
       "day": "2026-11-24",
       "slug": "property-deed-alert-before-selling-harris-county",
       "intentKey": "harris-seller-name-matched-deed-alert-document-triage",
-      "status": "reserved",
-      "reservedAt": "2026-11-24T14:16:11.190Z"
+      "status": "publishing",
+      "reservedAt": "2026-11-24T14:16:11.190Z",
+      "previewCommit": "eacf313217ca14ba13041a7e6a34737ddf6d7694",
+      "previewDeployId": "6b059ddd231ec81df8e1c36d",
+      "pr": 54,
+      "releaseGate": {
+        "allowed": true,
+        "errors": [],
+        "verifiedAt": "2026-11-24T14:25:03.785Z"
+      },
+      "publishingAt": "2026-11-24T14:25:03.785Z"
     }
   ],
   "externalApiSpendLimitUSD": 0,
