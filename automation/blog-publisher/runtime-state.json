@@ -3,8 +3,9 @@
     "runId": "native-daily-20261125T142228Z",
     "fence": 49,
     "issuedAt": "2026-11-25T14:22:28.752Z",
-    "expiresAt": "2026-11-25T16:22:28.752Z",
-    "released": false
+    "expiresAt": "2026-11-25T14:27:16.108Z",
+    "released": true,
+    "releasedAt": "2026-11-25T14:27:16.108Z"
   },
   "ledger": [
     {
@@ -1513,29 +1514,24 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261124T141521Z",
-    "fence": 48,
-    "day": "2026-11-24",
+    "runId": "native-daily-20261125T142228Z",
+    "fence": 49,
+    "day": "2026-11-25",
     "status": "completed",
-    "published": 1,
-    "held": 0,
-    "unfilledSlots": 2,
-    "articles": [
-      "https://www.cashasis.com/blog/property-deed-alert-before-selling-harris-county/"
-    ],
-    "productionCommit": "4555ac802887cbeb0a97f7cfee6b4a21aa49f325",
-    "productionDeployId": "6b059e47b2d8433c070e6881",
-    "publishedAt": "2026-11-24T14:25:52.951Z",
-    "evidenceCommit": "f63bf92b171227c2c623175591d4ea7c3e838ed5",
-    "record": "automation/blog-publisher/runs/2026-11-24.json",
-    "monitoringCommit": "fedd1799050fb4ee5bd48ae718a738573dc5faee",
-    "actualGoogleInspections": 4,
+    "published": 0,
+    "held": 3,
+    "articles": [],
+    "record": "automation/blog-publisher/runs/2026-11-25.json",
+    "evidenceCommit": "015f1f1ca3640d2f93e10858d44a8d99c95a0a64",
+    "monitoringCommit": "a2f0647186c5702ccff6a5decadc59c70cf7126b",
+    "actualGoogleInspections": 3,
+    "successfulGoogleResults": 3,
     "weeklyReviewDue": false,
     "monthlyReviewDue": false,
     "newAlerts": 0,
-    "notification": "suppressed_routine_success",
     "externalPaidApiSpendUSD": 0,
-    "completedAt": "2026-11-24T14:29:56.699Z"
+    "completedAt": "2026-11-25T14:27:16.108Z",
+    "notification": "suppressed_unchanged_editorial_holds"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
@@ -1643,6 +1639,54 @@
       "reservationReleased": true,
       "releasedAt": "2026-11-21T14:13:28.337Z",
       "recoveredBy": "native-daily-20261121T141245Z"
+    },
+    {
+      "slug": "mortgage-escrow-refund-timing-houston",
+      "intentKey": "houston-seller-escrow-refund-timing-variant",
+      "question": "When can I budget my escrow refund after a sale?",
+      "status": "held",
+      "gate": "originality",
+      "reason": "Existing mortgage-escrow-refund-after-selling-houston-house already distinguishes payoff netting, later refunds, holiday exclusions and moving-day cash.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-25T14:25:41.242531+00:00",
+      "day": "2026-11-25",
+      "runId": "native-daily-20261125T142228Z",
+      "fence": 49,
+      "neverReserved": true,
+      "evidenceCommit": "015f1f1ca3640d2f93e10858d44a8d99c95a0a64"
+    },
+    {
+      "slug": "fha-assistance-payoff-net-proceeds-houston",
+      "intentKey": "houston-seller-fha-assistance-payoff-net-variant",
+      "question": "Does my sale estimate include the FHA assistance balance?",
+      "status": "held",
+      "gate": "originality",
+      "reason": "Existing fha-partial-claim-selling-houston-house already reconciles separate subordinate payoff, missing documents and double-counting with a hypothetical net example.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-25T14:25:41.242531+00:00",
+      "day": "2026-11-25",
+      "runId": "native-daily-20261125T142228Z",
+      "fence": 49,
+      "neverReserved": true,
+      "evidenceCommit": "015f1f1ca3640d2f93e10858d44a8d99c95a0a64"
+    },
+    {
+      "slug": "mud-versus-hoa-sale-notice-fort-bend",
+      "intentKey": "fort-bend-seller-district-vs-hoa-notice-variant",
+      "question": "Is my HOA paperwork enough for the water-district notice?",
+      "status": "held",
+      "gate": "originality",
+      "reason": "Existing water-district-notice-selling-houston-area-house already answers this and explains district identification and notice preparation for Harris/Fort Bend.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-25T14:25:41.242531+00:00",
+      "day": "2026-11-25",
+      "runId": "native-daily-20261125T142228Z",
+      "fence": 49,
+      "neverReserved": true,
+      "evidenceCommit": "015f1f1ca3640d2f93e10858d44a8d99c95a0a64"
     }
   ]
 }
