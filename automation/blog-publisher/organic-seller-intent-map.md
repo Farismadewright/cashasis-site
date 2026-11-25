@@ -299,3 +299,10 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - Published a distinct Harris County name-matched deed-alert review workflow, separate from title-obstacle and wire-proceeds guides. Sources verified today; no recurring private seller demand inferred from the bounded anonymous screen.
 - GSC Oct26–Nov22:951impressions,1click,position30.33 sitewide. Missouri City:174impressions,position15.55,0clicks; paid-mortgage release:31,17.26,0clicks. Review the existing first answer, query ownership and pendingPR27 before specifically approved live changes or added variants.
 - GA4 Oct26–Nov21 original Organic Search blog sessions2,keyEvents0; one session each to survey and mortgage-release guides. Dates differ from GSC; no joined funnel or seller outcome inferred. Validated organic leads and funded retained GP remain unavailable. Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-24.json`.
+
+
+### November25,2026 — retained organic acquisition evidence
+
+- Three variants held for existing escrow-refund, FHA partial-claim and water-district notice coverage. No new article or live rewrite.
+- Fresh GSC read remains settled Oct26–Nov22:951impressions,1click. MissouriCity174impressions,position15.55,0clicks; leading exact query split with vacancy page warrants first-answer/page-role review alongside pendingPR27, not more city coverage.
+- GA4 original Organic Search blog sessions2,recorded keyEvents0 for the same dates; validated sellers,agreements and funded retained GP unavailable. Three actual due Google inspections all indexed;225eligibleURLs with207indexed on mixed retained dates,180/197blogs. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-25.json`.

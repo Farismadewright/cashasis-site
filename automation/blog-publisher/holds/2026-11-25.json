@@ -1,0 +1,42 @@
+{
+  "runId": "native-daily-20261125T142228Z",
+  "fence": 49,
+  "day": "2026-11-25",
+  "published": 0,
+  "held": 3,
+  "candidates": [
+    {
+      "slug": "mortgage-escrow-refund-timing-houston",
+      "intentKey": "houston-seller-escrow-refund-timing-variant",
+      "question": "When can I budget my escrow refund after a sale?",
+      "status": "HOLD",
+      "gate": "originality",
+      "reason": "Existing mortgage-escrow-refund-after-selling-houston-house already distinguishes payoff netting, later refunds, holiday exclusions and moving-day cash.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-25T14:25:41.242531+00:00"
+    },
+    {
+      "slug": "fha-assistance-payoff-net-proceeds-houston",
+      "intentKey": "houston-seller-fha-assistance-payoff-net-variant",
+      "question": "Does my sale estimate include the FHA assistance balance?",
+      "status": "HOLD",
+      "gate": "originality",
+      "reason": "Existing fha-partial-claim-selling-houston-house already reconciles separate subordinate payoff, missing documents and double-counting with a hypothetical net example.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-25T14:25:41.242531+00:00"
+    },
+    {
+      "slug": "mud-versus-hoa-sale-notice-fort-bend",
+      "intentKey": "fort-bend-seller-district-vs-hoa-notice-variant",
+      "question": "Is my HOA paperwork enough for the water-district notice?",
+      "status": "HOLD",
+      "gate": "originality",
+      "reason": "Existing water-district-notice-selling-houston-area-house already answers this and explains district identification and notice preparation for Harris/Fort Bend.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-25T14:25:41.242531+00:00"
+    }
+  ]
+}
