@@ -3,8 +3,9 @@
     "runId": "native-daily-20261126T142751Z",
     "fence": 50,
     "issuedAt": "2026-11-26T14:27:51.299Z",
-    "expiresAt": "2026-11-26T16:27:51.299Z",
-    "released": false
+    "expiresAt": "2026-11-26T14:33:00.476Z",
+    "released": true,
+    "releasedAt": "2026-11-26T14:33:00.476Z"
   },
   "ledger": [
     {
@@ -1513,23 +1514,23 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261125T142228Z",
-    "fence": 49,
-    "day": "2026-11-25",
+    "runId": "native-daily-20261126T142751Z",
+    "fence": 50,
+    "day": "2026-11-26",
     "status": "completed",
     "published": 0,
     "held": 3,
     "articles": [],
-    "record": "automation/blog-publisher/runs/2026-11-25.json",
-    "evidenceCommit": "015f1f1ca3640d2f93e10858d44a8d99c95a0a64",
-    "monitoringCommit": "a2f0647186c5702ccff6a5decadc59c70cf7126b",
+    "record": "automation/blog-publisher/runs/2026-11-26.json",
+    "evidenceCommit": "ee737e806bc80f85d304c91c1ff84e2037872074",
+    "monitoringCommit": "9ef43d2d1de9274e26432ec45f01c86e67327802",
     "actualGoogleInspections": 3,
     "successfulGoogleResults": 3,
     "weeklyReviewDue": false,
     "monthlyReviewDue": false,
     "newAlerts": 0,
     "externalPaidApiSpendUSD": 0,
-    "completedAt": "2026-11-25T14:27:16.108Z",
+    "completedAt": "2026-11-26T14:33:00.476Z",
     "notification": "suppressed_unchanged_editorial_holds"
   },
   "lastRecovery": {
@@ -1686,6 +1687,57 @@
       "fence": 49,
       "neverReserved": true,
       "evidenceCommit": "015f1f1ca3640d2f93e10858d44a8d99c95a0a64"
+    },
+    {
+      "slug": "relative-signing-house-sale-poa-houston",
+      "intentKey": "relative-signing-house-sale-poa-houston-variant-review",
+      "question": "Can a relative sign sale documents just because they have a power of attorney?",
+      "status": "held",
+      "gate": "originality",
+      "nearestOverlap": "/blog/power-of-attorney-selling-houston-house/",
+      "reason": "Existing guide already separates actual authority from signing convenience, supplies a review packet, addresses changes in circumstances and directs property-specific review.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-26T14:32:07.939820+00:00",
+      "day": "2026-11-26",
+      "runId": "native-daily-20261126T142751Z",
+      "fence": 50,
+      "neverReserved": true,
+      "evidenceCommit": "ee737e806bc80f85d304c91c1ff84e2037872074"
+    },
+    {
+      "slug": "deferred-mortgage-payments-sale-net-houston",
+      "intentKey": "deferred-mortgage-payments-sale-net-houston-variant-review",
+      "question": "How do paused mortgage payments affect the sale payoff?",
+      "status": "held",
+      "gate": "originality",
+      "nearestOverlap": "/blog/selling-houston-house-mortgage-forbearance/",
+      "reason": "Existing guide already separates forbearance from forgiveness and reconciles the arrangement with the current payoff, notices, alternatives and closing plan.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-26T14:32:07.939820+00:00",
+      "day": "2026-11-26",
+      "runId": "native-daily-20261126T142751Z",
+      "fence": 50,
+      "neverReserved": true,
+      "evidenceCommit": "ee737e806bc80f85d304c91c1ff84e2037872074"
+    },
+    {
+      "slug": "cash-buyer-irs-lien-closing-houston",
+      "intentKey": "cash-buyer-irs-lien-closing-houston-variant-review",
+      "question": "Can a cash buyer remove the federal lien at closing?",
+      "status": "held",
+      "gate": "originality",
+      "nearestOverlap": "/blog/federal-tax-lien-selling-houston-house/",
+      "reason": "Existing dedicated guide distinguishes IRS from county tax, release from property discharge, and buyer proposal from actual approval and proceeds readiness.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-26T14:32:07.939820+00:00",
+      "day": "2026-11-26",
+      "runId": "native-daily-20261126T142751Z",
+      "fence": 50,
+      "neverReserved": true,
+      "evidenceCommit": "ee737e806bc80f85d304c91c1ff84e2037872074"
     }
   ]
 }
