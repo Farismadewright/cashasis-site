@@ -1,0 +1,45 @@
+{
+  "runId": "native-daily-20261126T142751Z",
+  "fence": 50,
+  "day": "2026-11-26",
+  "published": 0,
+  "held": 3,
+  "candidates": [
+    {
+      "slug": "relative-signing-house-sale-poa-houston",
+      "intentKey": "relative-signing-house-sale-poa-houston-variant-review",
+      "question": "Can a relative sign sale documents just because they have a power of attorney?",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/power-of-attorney-selling-houston-house/",
+      "reason": "Existing guide already separates actual authority from signing convenience, supplies a review packet, addresses changes in circumstances and directs property-specific review.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-26T14:32:07.939820+00:00"
+    },
+    {
+      "slug": "deferred-mortgage-payments-sale-net-houston",
+      "intentKey": "deferred-mortgage-payments-sale-net-houston-variant-review",
+      "question": "How do paused mortgage payments affect the sale payoff?",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/selling-houston-house-mortgage-forbearance/",
+      "reason": "Existing guide already separates forbearance from forgiveness and reconciles the arrangement with the current payoff, notices, alternatives and closing plan.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-26T14:32:07.939820+00:00"
+    },
+    {
+      "slug": "cash-buyer-irs-lien-closing-houston",
+      "intentKey": "cash-buyer-irs-lien-closing-houston-variant-review",
+      "question": "Can a cash buyer remove the federal lien at closing?",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/federal-tax-lien-selling-houston-house/",
+      "reason": "Existing dedicated guide distinguishes IRS from county tax, release from property discharge, and buyer proposal from actual approval and proceeds readiness.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-26T14:32:07.939820+00:00"
+    }
+  ]
+}
