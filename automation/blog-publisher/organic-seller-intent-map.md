@@ -313,3 +313,10 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - Three variants held for existing POA authority, mortgage-forbearance and federal-tax-lien coverage; no new article or live rewrite.
 - GSC Oct27–Nov23:949impressions,1click,position29.60 sitewide. Paid-mortgage release33impressions,position16.27,0clicks. Its direct answer and seller packet fit the intent; only one visible query (2impressions) is too sparse to justify a snippet rewrite or duplicate guide.
 - GA4 same dates:1 original Organic Search blog landing session on mortgage-release guide,recorded keyEvents0. Validated sellers,agreements and funded retained GP unavailable; not a joined GSC/GA funnel. Three actual due Google checks all indexed. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-26.json`.
+
+
+### November27,2026 — verified acquisition evidence
+
+- Published distinct NFIP building-policy assignment versus cancellation checklist. No private-policy equivalence, premium promise or inferred recurring seller demand; primary FloodSmart pages verified today.
+- GSC Oct28–Nov24:920impressions,1click,position29.47 sitewide. Mortgage-release guide33impressions,position15.30,0clicks; GA4 records1 original Organic Search landing session and keyEvents0 for that guide. Not a joined seller funnel. Validated sellers,agreements and funded retained GP unavailable.
+- Deed-alert guide now actually Google-indexed. Four previously notified inheritance/landlord regressions remain unchanged with live eligibility and links passing; retain scoped editorial review, no automatic rewrite. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-27.json`.

@@ -1152,5 +1152,24 @@
       "/blog/sell-house-title-problems-houston/"
     ],
     "substantiveDifference": "Specific name-match notice triage: distinguish alert from ownership finding, independently verify recorded instrument, assemble private seller review packet and separate transaction/insurance questions. Existing vacant guide briefly flags forged paperwork, wire guide concerns proceeds messages, title page general closing obstacles. Current219source rows,196eligible blogs/static pages/topic ledger/four pendingPRs and23PR27patches reviewed; no dedicated alert workflow."
+  },
+  {
+    "slug": "flood-insurance-policy-selling-houston-house",
+    "intentKey": "houston-seller-nfip-building-policy-assignment-before-cancellation",
+    "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+    "commit": "f91b6f76bad405d874d81b19ca91dd1365401a33",
+    "deployId": "6b0994e8a89080d273b8fe1c",
+    "pr": 55,
+    "publishedAt": "2026-11-27T14:34:51.805Z",
+    "runId": "native-daily-20261127T142603Z",
+    "day": "2026-11-27",
+    "status": "published",
+    "nearestOverlaps": [
+      "/blog/vacant-house-insurance-while-selling-houston/",
+      "/blog/houston-flood-map-vs-house-flood-history/",
+      "/blog/selling-houston-house-open-insurance-claim/",
+      "/blog/sell-flood-damaged-house-houston/"
+    ],
+    "substantiveDifference": "Dedicated NFIP building-policy assignment versus cancellation and moving policy to another house. Existing vacancy page warns against cancellation but does not explain NFIP assignment; flood-map page is mapping/history and claim page is loss proceeds. Full220source inventory,61topic records and23pendingPR27patches reviewed; no dedicated NFIP assignment guide."
   }
 ]

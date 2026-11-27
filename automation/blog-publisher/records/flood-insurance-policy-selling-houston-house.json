@@ -13,7 +13,7 @@
   "day": "2026-11-27",
   "slug": "flood-insurance-policy-selling-houston-house",
   "intentKey": "houston-seller-nfip-building-policy-assignment-before-cancellation",
-  "status": "draft",
+  "status": "published",
   "externalApiUsed": false,
   "cost": {
     "currency": "USD",
@@ -100,8 +100,8 @@
     "metadata": "pass",
     "links": "pass",
     "mobile": "pass",
-    "preview": "pending",
-    "deploy": "not_released",
+    "preview": "pass",
+    "deploy": "pass",
     "conversionReporting": "unavailable_optional"
   },
   "protectedSourceChanges": [],
@@ -119,11 +119,14 @@
   },
   "seoEligibility": {
     "sellerIntent": "Should a Houston/Harris/FortBend seller ask about assigning an existing NFIP building policy before canceling it?",
-    "localIndexability": "pass_built",
+    "localIndexability": "pass_production",
     "expectedCanonical": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
     "meaningfulInternalLinks": 2,
     "sellerPath": "Attributed inline CTA plus preserved layout CTA; no fake lead submission.",
-    "legalLimits": "No coverage determination, premium/deadline guarantee, private-policy equivalence or manual indexing."
+    "legalLimits": "No coverage determination, premium/deadline guarantee, private-policy equivalence or manual indexing.",
+    "robots": "production_indexable_preview_noindex_verified",
+    "sitemapRSSHub": "pass_production",
+    "sellerConversionPath": "pass_live_get_and_local_attribution_no_fake_lead"
   },
   "social": {
     "slug": "flood-insurance-policy-selling-houston-house",
@@ -195,5 +198,190 @@
     ]
   },
   "mobileHarnessNote": "Scratch browser default-export import corrected; all four actual viewport checks then passed. No article correction required.",
-  "cardVisualReview": "Desktop hub card and390/1366article tops reviewed; headline/logo legible and geometry preserved."
+  "cardVisualReview": "Desktop hub card and390/1366article tops reviewed; headline/logo legible and geometry preserved.",
+  "preview": {
+    "commit": "7944b8142901c10b3857a66c7f7314f3c5753df8",
+    "deployId": "6b09946becfcc4ae0ead727c",
+    "qa": {
+      "mode": "preview",
+      "deployId": "6b09946becfcc4ae0ead727c",
+      "url": "https://6b09946becfcc4ae0ead727c--cashasis-blog.netlify.app/blog/flood-insurance-policy-selling-houston-house/",
+      "canonical": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+      "verifiedAt": "2026-11-27T14:33:28.127802+00:00",
+      "checks": {
+        "http200": true,
+        "canonical": true,
+        "indexDirectives": true,
+        "robotsAllowed": true,
+        "imageURLs": true,
+        "imageDimensions": true,
+        "imageHash": true,
+        "schema": true,
+        "faq": true,
+        "oneH1": true,
+        "sitemap": true,
+        "rss": true,
+        "inboundHub": true,
+        "internalLinks": true,
+        "cta": true,
+        "sellerForm": true,
+        "builtContentIdentical": true,
+        "protectedAssets": true
+      },
+      "allPassed": true,
+      "headers": {
+        "X-Robots-Tag": "noindex"
+      },
+      "imageURLs": [
+        "https://www.cashasis.com/images/flood-insurance-policy-selling-houston-house.png",
+        "https://www.cashasis.com/images/flood-insurance-policy-selling-houston-house.png",
+        "/images/flood-insurance-policy-selling-houston-house.png"
+      ],
+      "schemaTypes": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "ctaLinks": [
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=flood-insurance-policy-selling-houston-house&utm_term=post",
+        "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=flood-insurance-policy-selling-houston-house&utm_term=inline",
+        "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=flood-insurance-policy-selling-houston-house&utm_term=post"
+      ],
+      "assetChecks": [
+        {
+          "path": "/styles.css",
+          "identical": true
+        },
+        {
+          "path": "/js/cashasis-attribution.js",
+          "identical": true
+        },
+        {
+          "path": "/js/cashasis-dni.js",
+          "identical": true
+        }
+      ],
+      "netlifyToolbarBytes": 0
+    }
+  },
+  "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+  "commit": "f91b6f76bad405d874d81b19ca91dd1365401a33",
+  "deployId": "6b0994e8a89080d273b8fe1c",
+  "publishedAt": "2026-11-27T14:34:51.805Z",
+  "pr": 55,
+  "productionQA": {
+    "mode": "production",
+    "deployId": "6b0994e8a89080d273b8fe1c",
+    "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+    "canonical": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+    "verifiedAt": "2026-11-27T14:35:58.397944+00:00",
+    "checks": {
+      "http200": true,
+      "canonical": true,
+      "indexDirectives": true,
+      "robotsAllowed": true,
+      "imageURLs": true,
+      "imageDimensions": true,
+      "imageHash": true,
+      "schema": true,
+      "faq": true,
+      "oneH1": true,
+      "sitemap": true,
+      "rss": true,
+      "inboundHub": true,
+      "internalLinks": true,
+      "cta": true,
+      "sellerForm": true,
+      "builtContentIdentical": true,
+      "protectedAssets": true
+    },
+    "allPassed": true,
+    "headers": {
+      "X-Robots-Tag": null
+    },
+    "imageURLs": [
+      "https://www.cashasis.com/images/flood-insurance-policy-selling-houston-house.png",
+      "https://www.cashasis.com/images/flood-insurance-policy-selling-houston-house.png",
+      "/images/flood-insurance-policy-selling-houston-house.png"
+    ],
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "ctaLinks": [
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=flood-insurance-policy-selling-houston-house&utm_term=post",
+      "https://www.cashasis.com/?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=flood-insurance-policy-selling-houston-house&utm_term=inline",
+      "https://www.cashasis.com?utm_source=blog&utm_medium=cta&utm_campaign=blog_cta&utm_content=flood-insurance-policy-selling-houston-house&utm_term=post"
+    ],
+    "assetChecks": [
+      {
+        "path": "/styles.css",
+        "identical": true
+      },
+      {
+        "path": "/js/cashasis-attribution.js",
+        "identical": true
+      },
+      {
+        "path": "/js/cashasis-dni.js",
+        "identical": true
+      }
+    ],
+    "netlifyToolbarBytes": 0
+  },
+  "releaseGate": {
+    "allowed": true,
+    "day": "2026-11-27",
+    "errors": [],
+    "verifiedAt": "2026-11-27T14:34:08.281Z"
+  },
+  "searchConsoleMonitoring": {
+    "source": "google_url_inspection",
+    "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+    "status": "actual_observation_below",
+    "nextReview": "2026-11-30",
+    "eligibilitySeparateFromGoogle": true,
+    "latest": {
+      "siteUrl": "https://www.cashasis.com/",
+      "inspectionUrl": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GcjfmzHuypBn0JTeGHUfbA&utm_medium=link&utm_source=api",
+      "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+      "source": "google_url_inspection",
+      "inspectedAt": "2026-11-27T14:36:21.941696+00:00"
+    }
+  },
+  "GA4Measurement": {
+    "status": "not_yet_measurable",
+    "originalOrganicLandingSessions": null,
+    "validatedSellerLeads": null,
+    "fundedRetainedGP": null,
+    "reason": "New page has no settled article window; raw events are not distinct sellers."
+  },
+  "googleInspection": {
+    "siteUrl": "https://www.cashasis.com/",
+    "inspectionUrl": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+    "verdict": "NEUTRAL",
+    "coverageState": "URL is unknown to Google",
+    "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "lastCrawlTime": null,
+    "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+    "referringUrls": [],
+    "googleCanonical": null,
+    "userCanonical": null,
+    "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=https://www.cashasis.com/&id=GcjfmzHuypBn0JTeGHUfbA&utm_medium=link&utm_source=api",
+    "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+    "source": "google_url_inspection",
+    "inspectedAt": "2026-11-27T14:36:21.941696+00:00"
+  }
 }
