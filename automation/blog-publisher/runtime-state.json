@@ -3,8 +3,9 @@
     "runId": "native-daily-20261127T142603Z",
     "fence": 51,
     "issuedAt": "2026-11-27T14:26:03.055Z",
-    "expiresAt": "2026-11-27T16:26:03.055Z",
-    "released": false
+    "expiresAt": "2026-11-27T14:37:31.530Z",
+    "released": true,
+    "releasedAt": "2026-11-27T14:37:31.530Z"
   },
   "ledger": [
     {
@@ -1533,29 +1534,36 @@
       "publishedAt": "2026-11-27T14:34:51.805Z",
       "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
       "productionVerifiedAt": "2026-11-27T14:35:58.397944+00:00",
-      "googleVerdict": "NEUTRAL"
+      "googleVerdict": "NEUTRAL",
+      "evidenceCommit": "2677ce233d3c3299a6ef9cb5d2606703d06d23e9"
     }
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261126T142751Z",
-    "fence": 50,
-    "day": "2026-11-26",
+    "runId": "native-daily-20261127T142603Z",
+    "fence": 51,
+    "day": "2026-11-27",
     "status": "completed",
-    "published": 0,
-    "held": 3,
-    "articles": [],
-    "record": "automation/blog-publisher/runs/2026-11-26.json",
-    "evidenceCommit": "ee737e806bc80f85d304c91c1ff84e2037872074",
-    "monitoringCommit": "9ef43d2d1de9274e26432ec45f01c86e67327802",
-    "actualGoogleInspections": 3,
-    "successfulGoogleResults": 3,
+    "published": 1,
+    "held": 0,
+    "unfilledSlots": 2,
+    "articles": [
+      "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/"
+    ],
+    "productionCommit": "f91b6f76bad405d874d81b19ca91dd1365401a33",
+    "productionDeployId": "6b0994e8a89080d273b8fe1c",
+    "publishedAt": "2026-11-27T14:34:51.805Z",
+    "record": "automation/blog-publisher/runs/2026-11-27.json",
+    "evidenceCommit": "2677ce233d3c3299a6ef9cb5d2606703d06d23e9",
+    "monitoringCommit": "b8f01220becfeeb8b64db5f9e2e63795493b5092",
+    "actualGoogleInspections": 10,
+    "successfulGoogleResults": 10,
     "weeklyReviewDue": false,
     "monthlyReviewDue": false,
     "newAlerts": 0,
     "externalPaidApiSpendUSD": 0,
-    "completedAt": "2026-11-26T14:33:00.476Z",
-    "notification": "suppressed_unchanged_editorial_holds"
+    "completedAt": "2026-11-27T14:37:31.530Z",
+    "notification": "suppressed_routine_success"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
