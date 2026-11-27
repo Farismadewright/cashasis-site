@@ -1516,7 +1516,7 @@
       "day": "2026-11-27",
       "slug": "flood-insurance-policy-selling-houston-house",
       "intentKey": "houston-seller-nfip-building-policy-assignment-before-cancellation",
-      "status": "publishing",
+      "status": "published",
       "reservedAt": "2026-11-27T14:27:56.750Z",
       "previewCommit": "7944b8142901c10b3857a66c7f7314f3c5753df8",
       "previewDeployId": "6b09946becfcc4ae0ead727c",
@@ -1527,7 +1527,13 @@
         "errors": [],
         "verifiedAt": "2026-11-27T14:34:08.281Z"
       },
-      "publishingAt": "2026-11-27T14:34:08.281Z"
+      "publishingAt": "2026-11-27T14:34:08.281Z",
+      "commit": "f91b6f76bad405d874d81b19ca91dd1365401a33",
+      "deployId": "6b0994e8a89080d273b8fe1c",
+      "publishedAt": "2026-11-27T14:34:51.805Z",
+      "url": "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/",
+      "productionVerifiedAt": "2026-11-27T14:35:58.397944+00:00",
+      "googleVerdict": "NEUTRAL"
     }
   ],
   "externalApiSpendLimitUSD": 0,
