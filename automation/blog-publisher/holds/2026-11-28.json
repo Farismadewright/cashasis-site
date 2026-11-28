@@ -1,0 +1,45 @@
+{
+  "runId": "native-daily-20261128T142611Z",
+  "fence": 52,
+  "day": "2026-11-28",
+  "published": 0,
+  "held": 3,
+  "candidates": [
+    {
+      "slug": "keep-keys-after-cash-closing-houston",
+      "intentKey": "keep-keys-after-cash-closing-houston-variant-review",
+      "question": "Can I keep possession after the cash sale closes?",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/need-time-move-after-selling-houston-house/",
+      "reason": "Existing guide already compares later closing with documented post-closing occupancy, costs, coverage, responsibilities and delayed-move contingency. No separate possession variant warranted.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-28T14:29:41.159028+00:00"
+    },
+    {
+      "slug": "cancel-flood-policy-accepted-offer-houston",
+      "intentKey": "cancel-flood-policy-accepted-offer-houston-variant-review",
+      "question": "Should I cancel my flood policy when I accept an offer?",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/flood-insurance-policy-selling-houston-house/",
+      "reason": "Newly published Nov27 guide already answers this with NFIP building-policy assignment versus cancellation, buyer choice, written confirmation and effective-date coordination. No replay or synonym page.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-28T14:29:41.159028+00:00"
+    },
+    {
+      "slug": "remove-cigarette-smell-before-cash-offer-houston",
+      "intentKey": "remove-cigarette-smell-before-cash-offer-houston-variant-review",
+      "question": "Must I finish tobacco-odor preparation before requesting an offer?",
+      "status": "HOLD",
+      "gate": "originality",
+      "nearestOverlap": "/blog/selling-houston-house-tobacco-smoke-odor/",
+      "reason": "Existing guide directly answers current-condition evaluation versus defined preparation scope, rejects device guarantees and compares costs, responsibilities and marketing tradeoffs.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-28T14:29:41.159028+00:00"
+    }
+  ]
+}

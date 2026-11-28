@@ -320,3 +320,10 @@ Blog GSC Oct25–31:322 impressions/0clicks versus144/0, weighted average positi
 - Published distinct NFIP building-policy assignment versus cancellation checklist. No private-policy equivalence, premium promise or inferred recurring seller demand; primary FloodSmart pages verified today.
 - GSC Oct28–Nov24:920impressions,1click,position29.47 sitewide. Mortgage-release guide33impressions,position15.30,0clicks; GA4 records1 original Organic Search landing session and keyEvents0 for that guide. Not a joined seller funnel. Validated sellers,agreements and funded retained GP unavailable.
 - Deed-alert guide now actually Google-indexed. Four previously notified inheritance/landlord regressions remain unchanged with live eligibility and links passing; retain scoped editorial review, no automatic rewrite. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-27.json`.
+
+
+### November28,2026 — retained organic acquisition evidence
+
+- Possession-after-closing, flood-policy cancellation and tobacco-odor preparation variants held for current dedicated coverage. No new article, automatic rewrite or duplicate city page.
+- GSC Oct29–Nov25:887impressions,1click,position29.30 sitewide. Mortgage-release guide32impressions,position13.78,0clicks; only one visible query with1impression is insufficient to justify a snippet rewrite. Retain its direct answer and seller packet while comparable query evidence develops.
+- GA4 same dates:1 original Organic Search blog landing session,recorded keyEvents0; validated sellers,agreements and funded retained GP unavailable. Nine actual Google checks:3indexed,6unchanged known nonindexed cases. Detroit foreclosure contextual-link gap remains unresolved and previously notified. Existing Lead Acquisition Engine/COO evidence: `automation/blog-publisher/runs/2026-11-28.json`.
