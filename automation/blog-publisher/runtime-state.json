@@ -3,8 +3,9 @@
     "runId": "native-daily-20261128T142611Z",
     "fence": 52,
     "issuedAt": "2026-11-28T14:26:11.610Z",
-    "expiresAt": "2026-11-28T16:26:11.610Z",
-    "released": false
+    "expiresAt": "2026-11-28T14:30:43.132Z",
+    "released": true,
+    "releasedAt": "2026-11-28T14:30:43.132Z"
   },
   "ledger": [
     {
@@ -1539,30 +1540,24 @@
   ],
   "externalApiSpendLimitUSD": 0,
   "lastRun": {
-    "runId": "native-daily-20261127T142603Z",
-    "fence": 51,
-    "day": "2026-11-27",
+    "runId": "native-daily-20261128T142611Z",
+    "fence": 52,
+    "day": "2026-11-28",
     "status": "completed",
-    "published": 1,
-    "held": 0,
-    "unfilledSlots": 2,
-    "articles": [
-      "https://www.cashasis.com/blog/flood-insurance-policy-selling-houston-house/"
-    ],
-    "productionCommit": "f91b6f76bad405d874d81b19ca91dd1365401a33",
-    "productionDeployId": "6b0994e8a89080d273b8fe1c",
-    "publishedAt": "2026-11-27T14:34:51.805Z",
-    "record": "automation/blog-publisher/runs/2026-11-27.json",
-    "evidenceCommit": "2677ce233d3c3299a6ef9cb5d2606703d06d23e9",
-    "monitoringCommit": "b8f01220becfeeb8b64db5f9e2e63795493b5092",
-    "actualGoogleInspections": 10,
-    "successfulGoogleResults": 10,
+    "published": 0,
+    "held": 3,
+    "articles": [],
+    "record": "automation/blog-publisher/runs/2026-11-28.json",
+    "evidenceCommit": "2d54ad0292b9d8ca3fd2cc97448b35b1e7978880",
+    "monitoringCommit": "bfab244d6bc88892b2249bafac934b6e3664db86",
+    "actualGoogleInspections": 9,
+    "successfulGoogleResults": 9,
     "weeklyReviewDue": false,
     "monthlyReviewDue": false,
     "newAlerts": 0,
     "externalPaidApiSpendUSD": 0,
-    "completedAt": "2026-11-27T14:37:31.530Z",
-    "notification": "suppressed_routine_success"
+    "completedAt": "2026-11-28T14:30:43.132Z",
+    "notification": "suppressed_unchanged_editorial_holds"
   },
   "lastRecovery": {
     "runId": "publisher-reauth-recovery-20261015T135937094Z",
@@ -1769,6 +1764,57 @@
       "fence": 50,
       "neverReserved": true,
       "evidenceCommit": "ee737e806bc80f85d304c91c1ff84e2037872074"
+    },
+    {
+      "slug": "keep-keys-after-cash-closing-houston",
+      "intentKey": "keep-keys-after-cash-closing-houston-variant-review",
+      "question": "Can I keep possession after the cash sale closes?",
+      "status": "held",
+      "gate": "originality",
+      "nearestOverlap": "/blog/need-time-move-after-selling-houston-house/",
+      "reason": "Existing guide already compares later closing with documented post-closing occupancy, costs, coverage, responsibilities and delayed-move contingency. No separate possession variant warranted.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-28T14:29:41.159028+00:00",
+      "day": "2026-11-28",
+      "runId": "native-daily-20261128T142611Z",
+      "fence": 52,
+      "neverReserved": true,
+      "evidenceCommit": "2d54ad0292b9d8ca3fd2cc97448b35b1e7978880"
+    },
+    {
+      "slug": "cancel-flood-policy-accepted-offer-houston",
+      "intentKey": "cancel-flood-policy-accepted-offer-houston-variant-review",
+      "question": "Should I cancel my flood policy when I accept an offer?",
+      "status": "held",
+      "gate": "originality",
+      "nearestOverlap": "/blog/flood-insurance-policy-selling-houston-house/",
+      "reason": "Newly published Nov27 guide already answers this with NFIP building-policy assignment versus cancellation, buyer choice, written confirmation and effective-date coordination. No replay or synonym page.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-28T14:29:41.159028+00:00",
+      "day": "2026-11-28",
+      "runId": "native-daily-20261128T142611Z",
+      "fence": 52,
+      "neverReserved": true,
+      "evidenceCommit": "2d54ad0292b9d8ca3fd2cc97448b35b1e7978880"
+    },
+    {
+      "slug": "remove-cigarette-smell-before-cash-offer-houston",
+      "intentKey": "remove-cigarette-smell-before-cash-offer-houston-variant-review",
+      "question": "Must I finish tobacco-odor preparation before requesting an offer?",
+      "status": "held",
+      "gate": "originality",
+      "nearestOverlap": "/blog/selling-houston-house-tobacco-smoke-odor/",
+      "reason": "Existing guide directly answers current-condition evaluation versus defined preparation scope, rejects device guarantees and compares costs, responsibilities and marketing tradeoffs.",
+      "generationStarted": false,
+      "reservationRequired": false,
+      "reviewedAt": "2026-11-28T14:29:41.159028+00:00",
+      "day": "2026-11-28",
+      "runId": "native-daily-20261128T142611Z",
+      "fence": 52,
+      "neverReserved": true,
+      "evidenceCommit": "2d54ad0292b9d8ca3fd2cc97448b35b1e7978880"
     }
   ]
 }
